@@ -6,9 +6,6 @@
 * Communications
 * Logistics
 * Safety and Security
-* Data model
-  * What data are you collecting?
-  * Designing a data model
 
 ## Core technology
 * OpenStreetMap
@@ -23,7 +20,12 @@
   * Kobo
   * ONA
 
-## Field mapping/data collection
+## Data collection and field mapping
+* Data model
+  * What data are you collecting?
+  * Designing a data model
+* Creating forms
+  * Example forms
 * Data collection applications
   * OpenDataKit
   * OpenMapKit
@@ -32,6 +34,7 @@
 ## Quality assurance
 * Data cleaning and validation
 * JOSM
+  * Validation map styles
 * OSMCha
 
 ## Data export
