@@ -1,22 +1,28 @@
 # Table of Contents (draft/proposed)
 
-## Core tech: OpenStreetMap, Overpass
-
-## Standard Operating Procedures
-* Directed editing
+## Running a mapping project
+* OSM Directed Editing
+* Opening OSM accounts
 * Communications
 * Logistics
 * Safety and Security
+* Data model
+** What data are you collecting? - designing a data model
+
+## Core technology
+* OpenStreetMap
+* Overpass
 
 ## Digitization and editing
 * Working with the Tasking Manager
 * OpenAerialMap
 * iD and JOSM
-* Data collection servers: POSM, OpenMapKit Server, Kobo, ONA
+* Data collection servers: OpenMapKit Server (POSM), Kobo, ONA
 
 ## Field mapping/data collection
-* OpenDataKit
-* OpenMapKit
+* Data collection applications
+** OpenDataKit
+** OpenMapKit
 * Portable OpenStreetMap (POSM)
 
 ## Quality assurance
