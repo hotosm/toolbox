@@ -30,8 +30,10 @@
   * OpenDataKit
   * OpenMapKit
 * Portable OpenStreetMap (POSM)
+* Deployment files and data
 
-## Quality assurance
+## Data cleaning, upload and Quality Assurance
+* Management of collected data
 * Data cleaning and validation
 * JOSM
   * Validation map styles
