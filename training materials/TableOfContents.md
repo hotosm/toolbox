@@ -7,7 +7,8 @@
 * Logistics
 * Safety and Security
 * Data model
-** What data are you collecting? - designing a data model
+  * What data are you collecting?
+  * Designing a data model
 
 ## Core technology
 * OpenStreetMap
@@ -17,12 +18,15 @@
 * Working with the Tasking Manager
 * OpenAerialMap
 * iD and JOSM
-* Data collection servers: OpenMapKit Server (POSM), Kobo, ONA
+* Data collection servers
+  * OpenMapKit Server (POSM)
+  * Kobo
+  * ONA
 
 ## Field mapping/data collection
 * Data collection applications
-** OpenDataKit
-** OpenMapKit
+  * OpenDataKit
+  * OpenMapKit
 * Portable OpenStreetMap (POSM)
 
 ## Quality assurance
