@@ -1,11 +1,14 @@
 # Table of Contents (draft/proposed)
 
 ## Running a mapping project
-* OSM Directed Editing
+* Preparations
+* OSM "Directed Editing"
 * Opening OSM accounts
 * Communications
 * Logistics
 * Safety and Security
+* [Hardware](1-7_Hardware.md)
+* Setting up phones and servers
 
 ## Core technology
 * OpenStreetMap
