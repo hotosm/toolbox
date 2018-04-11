@@ -4,7 +4,7 @@
 
 **When planning to use OpenDataKit:**
 
-Most any Android smartphone will do, as long as it has a relative modern Android version (4.1+).
+Most any Android smartphone will do, as long as it has a relativy modern Android version (4.1+).
 
 **When planning to use OpenMapKit:**
 
