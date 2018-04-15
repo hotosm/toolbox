@@ -1,8 +1,8 @@
 # Table of Contents (draft/proposed)
 
-## Running a mapping project
+## 1. Running a mapping project
 * Preparations
-* OSM "Directed Editing"
+  * Organized mapping - "OSM Directed Editing"
 * Opening OSM accounts
 * Communications
 * Logistics
@@ -10,11 +10,11 @@
 * [Hardware](1-7_Hardware.md)
 * Setting up phones and servers
 
-## Core technology
+## 2. Core technology
 * OpenStreetMap
 * Overpass
 
-## Digitization and editing
+## 3. Digitization and editing
 * Working with the Tasking Manager
 * OpenAerialMap
 * iD and JOSM
@@ -23,10 +23,10 @@
   * Kobo
   * ONA
 
-## Data collection and field mapping
+## 4. Data collection and field mapping
 * Data model
   * What data are you collecting?
-  * Designing a data model
+  * [Designing the data model](4-1-2_Designing-The-Data-Model)
 * Creating forms
   * Example forms
 * Data collection applications
@@ -35,19 +35,19 @@
 * Portable OpenStreetMap (POSM)
 * Deployment files and data
 
-## Data cleaning, upload and Quality Assurance
+## 5. Data cleaning, upload and Quality Assurance
 * Management of collected data
 * Data cleaning and validation
 * JOSM
   * Validation map styles
 * OSMCha
 
-## Data export
+## 6. Data export
 * Export Tool
 * HDX
 * QGis (plugins)
 
-## Data use and analysis
+## 7. Data use and analysis
 * QGIS
 * Print maps
 * Dynamic maps
