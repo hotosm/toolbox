@@ -1,0 +1,1 @@
+Content moved to [https://github.com/hotosm/toolbox/wiki](https://github.com/hotosm/toolbox/wiki)
