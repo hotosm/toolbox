@@ -1,9 +1,0 @@
-
-
-## Translating data to OpenStreetMap tagging
-- Check the [OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Map_Features). Start at the Map features page, search, and discover!
-- Research tag use and occurence on [TagInfo](https://taginfo.openstreetmap.org/)
-
-## Example data models
-- [Uganda Refugee Crisis](https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data)
-- [Ramani Huria](https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria)
