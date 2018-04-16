@@ -9,7 +9,7 @@ Most any Android smartphone will do, as long as it has a relativy modern Android
 **When planning to use OpenMapKit:**
 
 To enable OpenMapKit to run fluently and be able to handle larger background maps (in 'mbtiles' format) and OSM data, please make sure that phones have:
-* At least 2 GB of RAM
+* At least 1.5, but preferably 2 GB of RAM
 * Preferably 16 GB of storage
 * A modern Android version (6.0+)
 
@@ -20,5 +20,14 @@ Furthermore, the following are recommended:
 
 The following phones/models have been verified to work well on various projects:
 
-* Tecno Camon C9
-* Huawei Y5 (2017) and Huawei Y6 Pro
+Smartphones:
+
+* Tecno Camon C9 (2 GB RAM)
+* Tecno L9 (2 GB RAM, 16 GB storage)
+* Huawei Y5 (2017) and Huawei Y6 Pro (2 GB RAM, 16 GB storage)
+* Sony Experia L1 (2 GB RAM, 16 GB storage)
+* Motorola Moto G5 (2 GB RAM, 16 GB storage)
+
+Tablets:
+
+* Samsung Tab A (SM-T285, 7", 2016) (1.5 GB RAM, 8GB storage)

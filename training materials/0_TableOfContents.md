@@ -27,18 +27,20 @@
 * Data model
   * What data are you collecting?
   * [Designing the data model](4-1-2_Designing-The-Data-Model)
-* Creating forms
-  * Example forms
 * Data collection applications
   * OpenDataKit
   * OpenMapKit
+* Creating forms
+  * Example forms
 * Portable OpenStreetMap (POSM)
-* Deployment files and data
+* Creating deployments
+  * OpenMapKit
 
 ## 5. Data cleaning, upload and Quality Assurance
 * Management of collected data
 * Data cleaning and validation
 * JOSM
+  * Preset files/forms
   * Validation map styles
 * OSMCha
 
