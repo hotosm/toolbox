@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Toolbox</title>
+    <link>/</link>
+    <description>Recent content on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.1 Mapping Project Workflow</title>
+      <link>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</guid>
+      <description>There is no one way to collect data in the field and it will vary by context – but the following steps cover the essential steps you should take.
+1. Coordinate with the local administration of the area you will be mapping
+This entails identifying and contacting partner organisations working locally in the area that you are planning to map. Contacting these can be done via email, however, a letter or document detailing your intent weighs much more.</description>
+    </item>
+    
+    <item>
+      <title>1.1.1 LEGIT Project Workflow</title>
+      <link>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</guid>
+      <description>Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.
+HOT, in close coordination with the LEGIT project team, have contributed to several areas of the project, working with the Ministry of Internal Affairs (MIA)’s Department of Urban Affairs, city administrations in the cities of Gbarnga, Ganta and Zwedru, and selected CSOs and CBOs.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Opening OSM accounts</title>
+      <link>/pages/running-a-mapping-project/1.2-opening-osm-accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.2-opening-osm-accounts/</guid>
+      <description>With OpenStreetMap (OSM) at the core of mapping activities, it is critical that all team members and participants have activated OSM accounts. This will be necessary before using many mapping tools such as HOT Tasking Manager, JOSM, and HOT Export Tool.
+Skills and Technology Needed
+ Computer Activated email account Internet connection  Creating an OSM Account
+To get started, you will need to create an account on www.openstreetmap.org. Please use the “Sign Up” tab in the top right corner to begin.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Logistics</title>
+      <link>/pages/running-a-mapping-project/1.3-logistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.3-logistics/</guid>
+      <description>There are many components to managing logistics for field operations. The topics listed below are just a few components that we recommend all organizations and communities consider prior to starting field mapping activities.
+Authorization from district and other officials
+In many cases, mapping teams will need to carry an authorization letter or another form of permission from local officials to show credibility and to reduce potential conflict that could arise during the field data collection.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Safety and Security for Field Operations</title>
+      <link>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</guid>
+      <description>Each context is so different that it is difficult to make specific recommendations for safety. Communities and organizations conducting mapping activities should establish contingency plans to address the different types of security incidents that may occur. Team members should coordinate all responses to such incidents so as to safeguard the rights and well-being of local community members, and ensure that staff members and volunteers are not put at risk.
+For operations, the key to effective safety and security management is the creation of a culture of security.</description>
+    </item>
+    
+    <item>
+      <title>1.5 Hardware</title>
+      <link>/pages/running-a-mapping-project/1.5-hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.5-hardware/</guid>
+      <description>Mobile data collection: smartphones When planning to use OpenDataKit:
+Most any Android smartphone will do, as long as it has a relativy modern Android version (4.1+).
+When planning to use OpenMapKit:
+To enable OpenMapKit to run fluently and be able to handle larger background maps (in &amp;lsquo;mbtiles&amp;rsquo; format) and OSM data, please make sure that phones have:
+ At least 1.5, but preferably 2 GB of RAM Preferably 16 GB of storage A modern Android version (6.</description>
+    </item>
+    
+    <item>
+      <title>1.5.1 Setting up phones and servers</title>
+      <link>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</guid>
+      <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
+Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
+Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
+    </item>
+    
+    <item>
+      <title>1.8 Trainings and Workshops</title>
+      <link>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</guid>
+      <description>This is a brief overview of considerations and resources to use while planning trainings and workshops for mapping and OSM.
+Attendee requirements
+Requirements for attendees will vary depending on the scope of the trainings, the intended participants, and the available resources. No matter the scope of the training, it is important to communicate these requirements BEFORE the training so that participants can come prepared.
+Some attendee requirements may include:
+ Have a laptop and mouse.</description>
+    </item>
+    
+    <item>
+      <title>1.8.1 Software and Tools to Share</title>
+      <link>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</guid>
+      <description>It is highly recommended that prior to the training/workshop, all necessary installation files are downloaded and loaded onto USB drives for offline installation. The following is a list of all the recommended installation files you will need depending on the scope of the training/workshop.
+JOSM
+Installation instructions
+ Java OpenStreetMap Editor installer Java  QGIS
+Installation instructions
+ QGIS installer  Mobile Applications
+Installation instructions
+ ODK apk OMK apk OSMAnd apk OSM Tracker apk Maps.</description>
+    </item>
+    
+    <item>
+      <title>2.1 OpenStreetMap</title>
+      <link>/pages/core-technology/2.1-openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/core-technology/2.1-openstreetmap/</guid>
+      <description>OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&amp;rsquo;s mapping activities. You are free to use it for any purpose as long as you credit OSM and its contributors.
+Resources
+ OSM Wiki LearnOSM TeachOSM  Training Materials
+ Introduction to OSM pdf | ppt  We encourage OSM Communities to adapt this presentation to reflect their own location. (i.e. replacing screenshots on slides 2, 4, 11, &amp;amp; 13 with screenshots relevant to their own location.</description>
+    </item>
+    
+    <item>
+      <title>3.1 Working with the HOT Tasking Manager</title>
+      <link>/pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/</guid>
+      <description>The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap. The purpose of the tool is to divide up a mapping project into smaller tasks that can be completed rapidly with many people working on the same overall area. It shows which areas need to be mapped and which areas need the mapping validated.
+Note: To become a project manager send an email to info@hotosm.</description>
+    </item>
+    
+    <item>
+      <title>3.2 Working With Imagery</title>
+      <link>/pages/digitization-and-editing/3.2-working-with-imagery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.2-working-with-imagery/</guid>
+      <description>Assessing available imagery Satellite imagery There is only a limited number of companies/satellites that actually capture most of the available satellite imagery, with many more resellers providing access to and selling imagery. See Wikipedia for a good introduction. When assessing the imagery available for your project, try to look for:
+ Freshness (the date of the imagery) Resolution Quality (color, contract, obliqueness/angle of imagery, lack of cloud cover)  Some useful tools to help in this:</description>
+    </item>
+    
+    <item>
+      <title>3.3 Editing with iD and JOSM</title>
+      <link>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</guid>
+      <description>There are several ways to edit in OpenStreetMap. The two most commonly used tools and best programs for mapping projects are iD editor and JOSM.
+iD Editor
+The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
+ Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
+    </item>
+    
+    <item>
+      <title>4.1.2 Designing The Data Model</title>
+      <link>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</guid>
+      <description> Translating data to OpenStreetMap tagging  Check the OpenStreetMap wiki. Start at the Map features page, search, and discover! Research tag use and occurence on TagInfo  Example data models  Uganda Refugee Crisis Ramani Huria  </description>
+    </item>
+    
+    <item>
+      <title>4.2 Data collection applications</title>
+      <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</guid>
+      <description>Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
+Which data collection application should I use?
+ Use OpenDataKit (ODK) if:  You have access to mobile devices but they have limited RAM &amp;amp; storage You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Navigation Applications</title>
+      <link>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</guid>
+      <description>Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me
+OSMAnd OSMAnd is a global mobile map viewing and navigation app for online and offline OSM Maps. It is used for recording tracks as well as mapping features. It provides easy way to record and submit information in the field.
+Skills and Technology Needed</description>
+    </item>
+    
+    <item>
+      <title>4.4 Creating forms (ODK OMK)</title>
+      <link>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</guid>
+      <description>Form design Creating ODK forms
+Forms can be created using spreadsheet software (such as Excel or LibreCalc) or using the ODK Form Builder. Documentation on how to design a form can be found here.
+ Example ODK form Blank ODK form  Creating OMK forms Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or LibreCalc).</description>
+    </item>
+    
+    <item>
+      <title>4.5 Creating .mbtiles</title>
+      <link>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</guid>
+      <description>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.
+Resources
+ OSM Wiki: https://wiki.openstreetmap.org/wiki/MBTiles Mapbox: https://docs.mapbox.com/help/glossary/mbtiles/  HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+    </item>
+    
+    <item>
+      <title>5.1.1 Server Data</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</guid>
+      <description>Server data in this case refers to data sent to a server from the field. This data then has to be downloaded from the server, in order to prepare it for cleaning and validation. We will take for example data collected during the NMP Building Validation Project in Botswana. Servers used can be:
+ A local Portable OpenStreetMap Server - POSM (for both ODK and OMK data) An online OpenMapKit Server (for both ODK and OMK data) KoboToolbox (for only ODK data)  Preparing OMK Data</description>
+    </item>
+    
+    <item>
+      <title>5.1.2 Serverless Data</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</guid>
+      <description>Serverless data in this case refers to data collected without the use of a server to receive field data. In order to clean and validate this data, it is copied from data collection devices (phones or tablets) directly. We will take for example data collected during the Local Empowerment for Government Inclusion and Transparency Project in Liberia.</description>
+    </item>
+    
+    <item>
+      <title>5.2 OMK Field Data Cleaning Workflow</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
+      <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
+Skills and Technology Needed * JOSM
+Step 1. Create folders Create the folder structure for the data cleaning process.
+ Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Data Cleaning with JOSM</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</guid>
+      <description>There are tools built into JOSM, as well as additional plugins that can assist with data quality control during the upload process.
+ Filters is a built-in tool that allows you to disable, hide, select, and highlight specific groups of objects based on flexible custom parameters. This tool will help you to spot and avoid common mistakes, and review data. The Validation Tool is another built-in tool that will review and search for common errors as well as provide warnings about potentially problematic data.</description>
+    </item>
+    
+    <item>
+      <title>5.4 Quality Assurance Tools</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</guid>
+      <description>Quality Assurance is the process by OpenStreetMap contributors check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.
+As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+    </item>
+    
+    <item>
+      <title>6. Data Export Tools</title>
+      <link>/pages/data-export/6.-data-export-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-export/6.-data-export-tools/</guid>
+      <description>Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below.
+HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.</description>
+    </item>
+    
+    <item>
+      <title>7.1 QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1-qgis/</guid>
+      <description>QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.
+Skills and Technology Needed
+ Computer with  Windows, Mac, or Linux operating system Sufficient free disk space (approx 10GB) and administrator rights to install software  Geospatial data Recommended: computer mouse  Resources</description>
+    </item>
+    
+    <item>
+      <title>7.1.1 Installing QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1.1-installing-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1.1-installing-qgis/</guid>
+      <description>QGIS is a free, open source geographic information system. The program can be shared and installed offline or downloaded online.
+QGIS is available for download for the following operating systems:
+ Windows Mac OS Linux  Skills and Technology Needed
+ Computer with sufficient free disk space (approx 10GB) and administrator rights to install software Recommended: computer mouse  Resources
+Further QGIS Install instructions: https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis
+Considerations when installing QGIS for large numbers of individuals</description>
+    </item>
+    
+    <item>
+      <title>7.1.2 Creating an Atlas in QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1.2-creating-an-atlas-in-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1.2-creating-an-atlas-in-qgis/</guid>
+      <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
+HOT Project Examples:
+ Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Materials
+The worksheet below covers the process of generating and configuring an atlas in print composer.</description>
+    </item>
+    
+    <item>
+      <title>7.4 OSM Analytics</title>
+      <link>/pages/data-use-and-analysis/7.4-osm-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.4-osm-analytics/</guid>
+      <description>OSM Analytics allows users to understand more about how and when editing took place, or assess quality within OSM, use the OSM Analytics suite of tools. You can view how data has changed over time within OSM, understand quality within an area, or analyze what type of data is available.
+More information about OSM Analytics can be found here and here.</description>
+    </item>
+    
+  </channel>
+</rss>

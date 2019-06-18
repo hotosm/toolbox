@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Toolbox</title>
+    <link>/pages/running-a-mapping-project/</link>
+    <description>Recent content on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/running-a-mapping-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.1 Mapping Project Workflow</title>
+      <link>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</guid>
+      <description>There is no one way to collect data in the field and it will vary by context – but the following steps cover the essential steps you should take.
+1. Coordinate with the local administration of the area you will be mapping
+This entails identifying and contacting partner organisations working locally in the area that you are planning to map. Contacting these can be done via email, however, a letter or document detailing your intent weighs much more.</description>
+    </item>
+    
+    <item>
+      <title>1.1.1 LEGIT Project Workflow</title>
+      <link>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</guid>
+      <description>Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.
+HOT, in close coordination with the LEGIT project team, have contributed to several areas of the project, working with the Ministry of Internal Affairs (MIA)’s Department of Urban Affairs, city administrations in the cities of Gbarnga, Ganta and Zwedru, and selected CSOs and CBOs.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Opening OSM accounts</title>
+      <link>/pages/running-a-mapping-project/1.2-opening-osm-accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.2-opening-osm-accounts/</guid>
+      <description>With OpenStreetMap (OSM) at the core of mapping activities, it is critical that all team members and participants have activated OSM accounts. This will be necessary before using many mapping tools such as HOT Tasking Manager, JOSM, and HOT Export Tool.
+Skills and Technology Needed
+ Computer Activated email account Internet connection  Creating an OSM Account
+To get started, you will need to create an account on www.openstreetmap.org. Please use the “Sign Up” tab in the top right corner to begin.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Logistics</title>
+      <link>/pages/running-a-mapping-project/1.3-logistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.3-logistics/</guid>
+      <description>There are many components to managing logistics for field operations. The topics listed below are just a few components that we recommend all organizations and communities consider prior to starting field mapping activities.
+Authorization from district and other officials
+In many cases, mapping teams will need to carry an authorization letter or another form of permission from local officials to show credibility and to reduce potential conflict that could arise during the field data collection.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Safety and Security for Field Operations</title>
+      <link>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</guid>
+      <description>Each context is so different that it is difficult to make specific recommendations for safety. Communities and organizations conducting mapping activities should establish contingency plans to address the different types of security incidents that may occur. Team members should coordinate all responses to such incidents so as to safeguard the rights and well-being of local community members, and ensure that staff members and volunteers are not put at risk.
+For operations, the key to effective safety and security management is the creation of a culture of security.</description>
+    </item>
+    
+    <item>
+      <title>1.5 Hardware</title>
+      <link>/pages/running-a-mapping-project/1.5-hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.5-hardware/</guid>
+      <description>Mobile data collection: smartphones When planning to use OpenDataKit:
+Most any Android smartphone will do, as long as it has a relativy modern Android version (4.1+).
+When planning to use OpenMapKit:
+To enable OpenMapKit to run fluently and be able to handle larger background maps (in &amp;lsquo;mbtiles&amp;rsquo; format) and OSM data, please make sure that phones have:
+ At least 1.5, but preferably 2 GB of RAM Preferably 16 GB of storage A modern Android version (6.</description>
+    </item>
+    
+    <item>
+      <title>1.5.1 Setting up phones and servers</title>
+      <link>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</guid>
+      <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
+Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
+Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
+    </item>
+    
+    <item>
+      <title>1.8 Trainings and Workshops</title>
+      <link>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</guid>
+      <description>This is a brief overview of considerations and resources to use while planning trainings and workshops for mapping and OSM.
+Attendee requirements
+Requirements for attendees will vary depending on the scope of the trainings, the intended participants, and the available resources. No matter the scope of the training, it is important to communicate these requirements BEFORE the training so that participants can come prepared.
+Some attendee requirements may include:
+ Have a laptop and mouse.</description>
+    </item>
+    
+    <item>
+      <title>1.8.1 Software and Tools to Share</title>
+      <link>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</guid>
+      <description>It is highly recommended that prior to the training/workshop, all necessary installation files are downloaded and loaded onto USB drives for offline installation. The following is a list of all the recommended installation files you will need depending on the scope of the training/workshop.
+JOSM
+Installation instructions
+ Java OpenStreetMap Editor installer Java  QGIS
+Installation instructions
+ QGIS installer  Mobile Applications
+Installation instructions
+ ODK apk OMK apk OSMAnd apk OSM Tracker apk Maps.</description>
+    </item>
+    
+  </channel>
+</rss>

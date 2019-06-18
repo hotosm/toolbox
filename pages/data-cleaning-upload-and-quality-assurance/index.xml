@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Toolbox</title>
+    <link>/pages/data-cleaning-upload-and-quality-assurance/</link>
+    <description>Recent content on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/data-cleaning-upload-and-quality-assurance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5.1.1 Server Data</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</guid>
+      <description>Server data in this case refers to data sent to a server from the field. This data then has to be downloaded from the server, in order to prepare it for cleaning and validation. We will take for example data collected during the NMP Building Validation Project in Botswana. Servers used can be:
+ A local Portable OpenStreetMap Server - POSM (for both ODK and OMK data) An online OpenMapKit Server (for both ODK and OMK data) KoboToolbox (for only ODK data)  Preparing OMK Data</description>
+    </item>
+    
+    <item>
+      <title>5.1.2 Serverless Data</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</guid>
+      <description>Serverless data in this case refers to data collected without the use of a server to receive field data. In order to clean and validate this data, it is copied from data collection devices (phones or tablets) directly. We will take for example data collected during the Local Empowerment for Government Inclusion and Transparency Project in Liberia.</description>
+    </item>
+    
+    <item>
+      <title>5.2 OMK Field Data Cleaning Workflow</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
+      <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
+Skills and Technology Needed * JOSM
+Step 1. Create folders Create the folder structure for the data cleaning process.
+ Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Data Cleaning with JOSM</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</guid>
+      <description>There are tools built into JOSM, as well as additional plugins that can assist with data quality control during the upload process.
+ Filters is a built-in tool that allows you to disable, hide, select, and highlight specific groups of objects based on flexible custom parameters. This tool will help you to spot and avoid common mistakes, and review data. The Validation Tool is another built-in tool that will review and search for common errors as well as provide warnings about potentially problematic data.</description>
+    </item>
+    
+    <item>
+      <title>5.4 Quality Assurance Tools</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</guid>
+      <description>Quality Assurance is the process by OpenStreetMap contributors check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.
+As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+    </item>
+    
+  </channel>
+</rss>

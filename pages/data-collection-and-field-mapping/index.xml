@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Toolbox</title>
+    <link>/pages/data-collection-and-field-mapping/</link>
+    <description>Recent content on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/data-collection-and-field-mapping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.1.2 Designing The Data Model</title>
+      <link>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</guid>
+      <description> Translating data to OpenStreetMap tagging  Check the OpenStreetMap wiki. Start at the Map features page, search, and discover! Research tag use and occurence on TagInfo  Example data models  Uganda Refugee Crisis Ramani Huria  </description>
+    </item>
+    
+    <item>
+      <title>4.2 Data collection applications</title>
+      <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</guid>
+      <description>Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
+Which data collection application should I use?
+ Use OpenDataKit (ODK) if:  You have access to mobile devices but they have limited RAM &amp;amp; storage You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Navigation Applications</title>
+      <link>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</guid>
+      <description>Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me
+OSMAnd OSMAnd is a global mobile map viewing and navigation app for online and offline OSM Maps. It is used for recording tracks as well as mapping features. It provides easy way to record and submit information in the field.
+Skills and Technology Needed</description>
+    </item>
+    
+    <item>
+      <title>4.4 Creating forms (ODK OMK)</title>
+      <link>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</guid>
+      <description>Form design Creating ODK forms
+Forms can be created using spreadsheet software (such as Excel or LibreCalc) or using the ODK Form Builder. Documentation on how to design a form can be found here.
+ Example ODK form Blank ODK form  Creating OMK forms Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or LibreCalc).</description>
+    </item>
+    
+    <item>
+      <title>4.5 Creating .mbtiles</title>
+      <link>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</guid>
+      <description>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.
+Resources
+ OSM Wiki: https://wiki.openstreetmap.org/wiki/MBTiles Mapbox: https://docs.mapbox.com/help/glossary/mbtiles/  HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Toolbox</title>
+    <link>/pages/data-use-and-analysis/</link>
+    <description>Recent content on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/data-use-and-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.1 QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1-qgis/</guid>
+      <description>QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.
+Skills and Technology Needed
+ Computer with  Windows, Mac, or Linux operating system Sufficient free disk space (approx 10GB) and administrator rights to install software  Geospatial data Recommended: computer mouse  Resources</description>
+    </item>
+    
+    <item>
+      <title>7.1.1 Installing QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1.1-installing-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1.1-installing-qgis/</guid>
+      <description>QGIS is a free, open source geographic information system. The program can be shared and installed offline or downloaded online.
+QGIS is available for download for the following operating systems:
+ Windows Mac OS Linux  Skills and Technology Needed
+ Computer with sufficient free disk space (approx 10GB) and administrator rights to install software Recommended: computer mouse  Resources
+Further QGIS Install instructions: https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis
+Considerations when installing QGIS for large numbers of individuals</description>
+    </item>
+    
+    <item>
+      <title>7.1.2 Creating an Atlas in QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1.2-creating-an-atlas-in-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.1.2-creating-an-atlas-in-qgis/</guid>
+      <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
+HOT Project Examples:
+ Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Materials
+The worksheet below covers the process of generating and configuring an atlas in print composer.</description>
+    </item>
+    
+    <item>
+      <title>7.4 OSM Analytics</title>
+      <link>/pages/data-use-and-analysis/7.4-osm-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.4-osm-analytics/</guid>
+      <description>OSM Analytics allows users to understand more about how and when editing took place, or assess quality within OSM, use the OSM Analytics suite of tools. You can view how data has changed over time within OSM, understand quality within an area, or analyze what type of data is available.
+More information about OSM Analytics can be found here and here.</description>
+    </item>
+    
+  </channel>
+</rss>

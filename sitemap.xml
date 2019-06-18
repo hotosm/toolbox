@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/core-technology/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-export/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.2-opening-osm-accounts/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.3-logistics/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.5-hardware/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/core-technology/2.1-openstreetmap/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/3.2-working-with-imagery/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-export/6.-data-export-tools/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/7.1-qgis/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/7.1.1-installing-qgis/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/7.1.2-creating-an-atlas-in-qgis/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/7.4-osm-analytics/</loc>
+    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
