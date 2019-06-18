@@ -1,0 +1,26 @@
+{
+  "name": "hot-docs",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/hotosm/toolkit-site.svg?style=svg)](https://circleci.com/gh/hotosm/toolkit-site)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotosm/toolkit-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotosm/toolkit-site/issues"
+  },
+  "homepage": "https://github.com/hotosm/toolkit-site#readme",
+  "devDependencies": {
+    "lunr": "^2.3.6"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "toml": "^3.0.0"
+  }
+}
