@@ -39,7 +39,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-26T15:30:52-04:00</lastmod>
+    <lastmod>2019-06-26T15:37:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -51,11 +51,6 @@
   <url>
     <loc>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/core-technology/2.1-opening-osm-accounts/</loc>
-    <lastmod>2019-06-26T15:30:52-04:00</lastmod>
   </url>
   
   <url>
@@ -91,6 +86,11 @@
   <url>
     <loc>/pages/core-technology/2.1-openstreetmap/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/core-technology/2.1.1-opening-osm-accounts/</loc>
+    <lastmod>2019-06-26T15:37:29-04:00</lastmod>
   </url>
   
   <url>
