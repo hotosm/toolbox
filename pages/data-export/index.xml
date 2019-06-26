@@ -11,14 +11,14 @@
     
     
     <item>
-      <title>6.1 HOT Export</title>
-      <link>/pages/data-export/6.-data-export-tools/</link>
+      <title>6.1 HOT Export Tool</title>
+      <link>/pages/data-export/6.1-hot-export-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/6.-data-export-tools/</guid>
-      <description>HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
+      <guid>/pages/data-export/6.1-hot-export-tool/</guid>
+      <description>HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
 Tools and Technology Needed:
- Computer Internet Connection OSM Account  Training Activity Presentation: Estimated time: In this activity, you will practice using the HOT Export Tool for downloading OSM data for use in QGIS.</description>
+ Computer Internet Connection OSM Account  Training Activity Presentation: Estimated time: In this activity, you will practice using the HOT Export Tool for downloading OSM data for use in QGIS. The HOT Export Tool is an online-based tool, so you will need to be patient with internet connectivity.</description>
     </item>
     
   </channel>
