@@ -277,13 +277,14 @@ As OpenStreetMap is a free and open platform that anyone can use and edit, it is
     </item>
     
     <item>
-      <title>6. Data Export Tools</title>
+      <title>6.1 HOT Export</title>
       <link>/pages/data-export/6.-data-export-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-export/6.-data-export-tools/</guid>
-      <description>Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below.
-HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.</description>
+      <description>HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
+Tools and Technology Needed:
+ Computer Internet Connection OSM Account  Training Activity Presentation: Estimated time: In this activity, you will practice using the HOT Export Tool for downloading OSM data for use in QGIS.</description>
     </item>
     
     <item>
