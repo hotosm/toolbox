@@ -30,9 +30,8 @@ Skills and Technology Needed
       <description>QGIS is a free, open source geographic information system. The program can be shared and installed offline or downloaded online.
 QGIS is available for download for the following operating systems:
  Windows Mac OS Linux  Skills and Technology Needed
- Computer with sufficient free disk space (approx 10GB) and administrator rights to install software Recommended: computer mouse  Resources
-Further QGIS Install instructions: https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis
-Considerations when installing QGIS for large numbers of individuals</description>
+ Computer with sufficient free disk space (approx 10GB) and administrator rights to install software Recommended: computer mouse  For Windows
+Prior to installation, you need to determine whether or not your computer runs on a 32-bit or 64-bit system.</description>
     </item>
     
     <item>
