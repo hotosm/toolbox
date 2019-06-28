@@ -72,7 +72,8 @@ More information about OSM Analytics can be found here and here.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-use-and-analysis/7.1.2-basic-qgis/</guid>
-      <description>[overview] Resources: Presentation: Training Activitiy Navigating QGIS Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools. Note: Your browser may have different tools than the image below. 1. Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</description>
+      <description>[overview] Resources: Presentation: Training Activitiy Navigating QGIS Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools. Note: Your browser may have different tools than the image below.
+ Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</description>
     </item>
     
   </channel>
