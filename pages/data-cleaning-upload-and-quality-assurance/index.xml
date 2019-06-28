@@ -52,13 +52,12 @@ Step 1. Create folders Create the folder structure for the data cleaning process
     </item>
     
     <item>
-      <title>5.4 Quality Assurance Tools</title>
+      <title>5.4 Quality Assurance and Quality Control</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</guid>
-      <description>Quality Assurance is the process by OpenStreetMap contributors check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.
-As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+      <description>Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
     </item>
     
   </channel>
