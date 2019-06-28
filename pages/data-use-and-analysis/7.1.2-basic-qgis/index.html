@@ -229,7 +229,7 @@ https://github.com/hotosm/hugo-book
 
     
     <li>
-      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/" class="active">
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/">
     5.1.1 Server Data</a>
     </li>
     
@@ -308,7 +308,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/data-use-and-analysis/7.1.2-basic-qgis/">
+      <a href="../../../pages/data-use-and-analysis/7.1.2-basic-qgis/" class="active">
     Basic QGIS</a>
     </li>
     
@@ -336,13 +336,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    5.1.1 Server Data</strong>
+    Basic QGIS</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>5.1.1 Server Data</h1>
-    <a href="../../../pdfs/5.1.1-Server-Data.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>Basic QGIS</h1>
+    <a href="../../../pdfs/7.1.2-Basic-QGIS.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -350,34 +350,79 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div><p>Server data in this case refers to data sent to a server from the field. This data then has to be downloaded from the server, in order to prepare it for cleaning and validation. We will take for example data collected during the <a href="https://www.hotosm.org/projects/botswana-field-data-collection-to-support-the-national-malaria-programme/">NMP Building Validation Project</a> in Botswana. Servers used can be:</p>
+  </div>
 
-<ul>
-<li>A local Portable OpenStreetMap Server - <strong>POSM</strong> (for both <strong>ODK</strong> and <strong>OMK</strong> data)</li>
-<li>An online OpenMapKit Server (for both <strong>ODK</strong> and <strong>OMK</strong> data)</li>
-<li>KoboToolbox (for only <strong>ODK</strong> data)</li>
-</ul>
+<p>[overview] <br>
+<strong>Resources:</strong> <br>
+<strong>Presentation:</strong> <br></p>
 
-<p><strong>Preparing OMK Data</strong></p>
+<hr />
 
-<p><strong>Preparing ODK Data</strong></p>
+<h2 id="training-activitiy">Training Activitiy</h2>
 
-<p><strong>Merging OMK data with ODK Data</strong></p>
+<h3 id="navigating-qgis">Navigating QGIS</h3>
+
+<p>Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools.
+<br> <em>Note: Your browser may have different tools than the image below.</em>
+1. Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.
+1. Toolbars - Most of the tools you will regularly use in QGIS will appear as icons in the toolbars at the top, such as save, zoom, pan. The number of toolbars depends on various features you have activated or installed.
+1. Map Canvas  - When layers are added to the Layers Panel, they will appear in the map canvas.
+1. Status Bar - Coordinates, scale, and projection will appear in the Status Bar.
+<br>
+[image]
+<br><br></p>
+
+<h3 id="installing-plug-ins">Installing Plug-ins</h3>
+
+<p><strong>Tools and skills required</strong>
+*   Internet connection</p>
+
+<p>Plugins allow you to extend the functionality of QGIS. In this exercise we shall install and use one plugins: <strong>QuickMapServices</strong>
+<br><br> <em>Note: Managing and installing plugins requires an internet connection. If the Plugin Manager is not working, check your internet connection.</em>
+1. To install plugins, click on the menu item Plugins ‣ Manage and Install Plugins.
+1. In the dialog that opens, find the QuickMapServices plugin.
+1. Then click the Install Plugin button.
+1. QuickMapServices allows you to add free, online basemaps to your QGIS maps, including OSM basemaps.
+1. Once installed, QuickMapServices can be accessed in the top menu Web ‣ QuickMapServices
+1. In the QuickMapServices sub-menu, several types of basemaps can be accessed including OSM.</p>
+
+<p>[image]</p>
+
+<p>For aerial imagery, in the QuickMapServices sub-menu, open ‘Settings’.
+1. Click the ‘More Services’ tab.
+1. Select ‘Get Contributed Pack’.
+1. Return to the QuickMapServices sub-menu. There will now be a long list of options for basemaps, including Bing.</p>
+
+<p>[image]</p>
+
+<h3 id="styling-layers">Styling Layers</h3>
+
+<p>Data layers can be styled in two ways: copying from other layers in the project, and opening the properties tab. For this purpose, we recommend copying the style from the previous data layers.
+<br><br>To copy styles:
+1. Right-click on any of the previous census data layers (styled green).
+1. Select ‘Style’, then ‘Copy Style’ (as in the image below).
+1. Next, right-click on the new layer, select ‘Style’, then ‘Paste Style’.
+1. Styles from point layer styles can only be copied and pasted to other point layers, polygon layers styles can only be copied and pasted to other polygon layers, etc.</p>
+
+<p><br><br>To manually select a style:
+1. Double-click on a layer in the Layers Panel or right-click on the point layer and select ‘Properties’.
+1. Select ‘Style’ from the left-hand menu.
+1. In this window you can change ‘Fill’ Color, ‘Outline’ Color, ‘Size’, ‘Outline style’, ‘Outline Width’ and more to your own choice.</p>
 </article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-cleaning-upload-and-quality-assurance/5.1.1-Server-Data.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-use-and-analysis/7.1.2-Basic-QGIS.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/d4f1206b8cb15d1fc87b2d3f14f72a3b07d167aa" title='Last modified June 18, 2019 19:09 UTC by Russ Biggs' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 18, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/385e8ff567fba77ae6da4a8df6220e6328761453" title='Last modified June 28, 2019 20:14 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jun 28, 2019
     </a>
   </div>
   
