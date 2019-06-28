@@ -12,16 +12,6 @@
     
     <item>
       <title></title>
-      <link>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</guid>
-      <description>Data Collection Servers
-When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -351,6 +341,15 @@ More information about OSM Analytics can be found here and here.</description>
       <guid>/pages/data-use-and-analysis/7.1.2-basic-qgis/</guid>
       <description>[overview] Resources: Presentation: Training Activitiy Navigating QGIS Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools. Note: Your browser may have different tools than the image below.
  Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</description>
+    </item>
+    
+    <item>
+      <title>Data Collection Servers</title>
+      <link>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</guid>
+      <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
     </item>
     
   </channel>
