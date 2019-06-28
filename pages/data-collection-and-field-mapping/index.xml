@@ -16,7 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</guid>
-      <description> Translating data to OpenStreetMap tagging  Check the OpenStreetMap wiki. Start at the Map features page, search, and discover! Research tag use and occurence on TagInfo  Example data models  Uganda Refugee Crisis Ramani Huria  </description>
+      <description>Tagging Tags are used in OSM to categorize features, and to add information that is useful for: * Understanding of the map * Planning * Routing * Querying
+OSM doesn’t work with layers or attribute tables, but tags. Each tag consists of a key, and a value. Each map feature should have 1 or more tags Such as: * building=residential * highway=primary * amenity=school
+Resources  Check the OpenStreetMap wiki.</description>
     </item>
     
     <item>
