@@ -187,7 +187,7 @@ https://github.com/hotosm/hugo-book
 
     
     <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.6-data-collection-servers/">
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-data-collection-servers/" class="active">
     4.6 Data Collection Servers</a>
     </li>
     
@@ -283,7 +283,7 @@ https://github.com/hotosm/hugo-book
 
     
     <li>
-      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/" class="active">
+      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
     7.1.4 Creating Maps in Print Composer</a>
     </li>
     
@@ -331,13 +331,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    7.1.4 Creating Maps in Print Composer</strong>
+    4.6 Data Collection Servers</strong>
 </header>
 
       
 <article class="markdown">
   <div class="markdown__header">  <h1></h1>
-    <a href="../../../pdfs/7.1.4-Creating-maps-in-print-composer.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+    <a href="../../../pdfs/4.6-Data-Collection-Servers.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -345,50 +345,35 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div><p><strong>Creating a New Print Composer</strong></p>
+  </div><p><strong>Data Collection Servers</strong></p>
 
-<p>Open the ‘Project’ menu from the main toolbar, and select ‘New Print Composer’. In the pop-up window, create a title for your map. This can be a unique name to describe your map’s purpose such as “Political Map of Liberia” or simple such as “Map 1”.</p>
+<p>When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data. Prior to data collection, it is important to have a data management strategy that is suited for your operations.</p>
 
-<p>A new window will be created with a blank page. This shows how your map will look printed out.</p>
-
-<p>You will need to add the common elements of a map to the map canvas:</p>
+<p>Using a data collection server allows for much better management of forms and deployments, collection and aggregation of responses, and can offer additional features for viewing, analysing and exporting data. Use of a server may be restricted by available resources (cost of a physical server) and/or internet connection (access to cloud server). The most used options are:</p>
 
 <ul>
-<li>Map</li>
-<li>Title</li>
-<li>Legend</li>
-<li>Scalebar</li>
+<li><strong>POSM</strong> - a physical server that contains a set of OpenStreetMap tools, including OpenMapKit server. POSMs allow multiple users to connect and upload data from data collection devices to a central location without the need for internet access. This data can then be aggregated using the OMK Server and synced with OSM directly or downloaded for analysis and processing.</li>
+<li><strong>OpenMapKit Server</strong> - OpenMapKit Server is a cloud based storage system for specially designed to store and compile OpenMapKit data. Data collected through OpenDataKit can also be uploaded to an OpenMapKit Server.</li>
+<li><strong>Kobo Toolbox</strong> - An online application that allows users to build Kobo/ODK surveys as well as store, aggregate, and perform analysis of Kobo/ODK data.</li>
+<li><strong>ODK Aggregate</strong> - ODK Aggregate is an online application (local options possible) that stores, aggregates, and allows users to perform basic analysis on ODK data.</li>
 </ul>
 
-<p>Each of these elements can be added by opening the ‘Layout’ menu on the top toolbar.</p>
-
-<p><strong>Practice:</strong></p>
-
-<ul>
-<li>Add your map by selecting ‘Add Map’ from the ‘Layout’ menu. You will need to draw the box by clicking and dragging the corners.</li>
-<li>Add a title to your map by selecting ‘Add Label’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘QGIS’. This can be changed in the ‘Item Properties’ panel.</li>
-<li>Change the font and size of your title.</li>
-<li>Add a legend to your map by selecting ‘Add Legend’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners. You can add or remove legend items in the ‘Item Properties’ panel.</li>
-<li>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</li>
-<li>Move these items around your Map Canvas until you are pleased with the layout of your map. Think of your audience: will they understand the information you want to convey?</li>
-<li>Compare your map with your neighbor’s map.</li>
-<li>Save your map as a PDF by opening the Composer menu and selecting ‘Export as PDF’.</li>
-</ul>
+<p>If the use of a server is not available to you, it is still possible and crucial to store backups of data. In this case, data will need to be downloaded or otherwise shared with a central location, such as a laptop computer, and cloned to a secondary location such as a hard-drive or second computer.</p>
 </article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-use-and-analysis/7.1.4-Creating-maps-in-print-composer.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-collection-and-field-mapping/4.6-Data-Collection-Servers.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/9eabc816387ac577ef3ebe4c9b76852994ee6170" title='Last modified June 26, 2019 22:12 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 26, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/2d726621b52ce85fb63826d04932ae1d99042c2f" title='Last modified June 28, 2019 19:30 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jun 28, 2019
     </a>
   </div>
   

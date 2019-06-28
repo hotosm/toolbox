@@ -44,6 +44,11 @@
   </url>
   
   <url>
+    <loc>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</loc>
     <priority>0</priority>
   </url>
