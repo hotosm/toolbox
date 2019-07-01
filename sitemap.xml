@@ -39,7 +39,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-28T16:45:37-04:00</lastmod>
+    <lastmod>2019-07-01T15:01:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -179,6 +179,11 @@
   </url>
   
   <url>
+    <loc>/pages/data-use-and-analysis/7.1.2-basic-qgis/</loc>
+    <lastmod>2019-07-01T15:01:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/</loc>
     <lastmod>2019-06-26T18:12:46-04:00</lastmod>
   </url>
@@ -186,11 +191,6 @@
   <url>
     <loc>/pages/data-use-and-analysis/7.4-osm-analytics/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/data-use-and-analysis/7.1.2-basic-qgis/</loc>
-    <lastmod>2019-06-28T16:28:31-04:00</lastmod>
   </url>
   
   <url>
