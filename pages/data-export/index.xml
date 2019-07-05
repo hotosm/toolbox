@@ -21,5 +21,16 @@ Tools and Technology Needed:
  Computer Internet Connection OSM Account  Training Activity Presentation: Estimated time: In this activity, you will practice using the HOT Export Tool for downloading OSM data for use in QGIS. The HOT Export Tool is an online-based tool, so you will need to be patient with internet connectivity.</description>
     </item>
     
+    <item>
+      <title>6.2 Humanitarian Data Exchange (HDX)</title>
+      <link>/pages/data-export/6.2-hdx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-export/6.2-hdx/</guid>
+      <description>Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA&amp;rsquo;s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
+ Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Tools and Technology Needed:
+ Computer Internet Connection  Training Activity Presentation: Estimated time: In this activity, you will practice using Humanitarian Data Exchange (HDX) for downloading OSM data for use in QGIS.</description>
+    </item>
+    
   </channel>
 </rss>

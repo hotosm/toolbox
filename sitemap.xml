@@ -39,7 +39,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-07-01T17:53:35-04:00</lastmod>
+    <lastmod>2019-07-05T17:13:01-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -166,6 +166,11 @@
   <url>
     <loc>/pages/data-export/6.1-hot-export-tool/</loc>
     <lastmod>2019-06-26T17:50:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-export/6.2-hdx/</loc>
+    <lastmod>2019-07-05T17:13:01-04:00</lastmod>
   </url>
   
   <url>

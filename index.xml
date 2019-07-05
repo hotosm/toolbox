@@ -289,6 +289,17 @@ Tools and Technology Needed:
     </item>
     
     <item>
+      <title>6.2 Humanitarian Data Exchange (HDX)</title>
+      <link>/pages/data-export/6.2-hdx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-export/6.2-hdx/</guid>
+      <description>Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA&amp;rsquo;s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
+ Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Tools and Technology Needed:
+ Computer Internet Connection  Training Activity Presentation: Estimated time: In this activity, you will practice using Humanitarian Data Exchange (HDX) for downloading OSM data for use in QGIS.</description>
+    </item>
+    
+    <item>
       <title>7.1 QGIS</title>
       <link>/pages/data-use-and-analysis/7.1-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
