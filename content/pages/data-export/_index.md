@@ -1,7 +1,9 @@
 ---
-title : Data Export Tools
+title : 6. Data Export Tools
 weight: 6
 ---
+
+
 
 Data Export Tools allow users to download OSM data for use and analysis programs such as [QGIS](https://github.com/hotosm/toolbox/wiki/7.1-QGIS). The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below. 
 
