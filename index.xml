@@ -220,9 +220,8 @@ Forms can be created using spreadsheet software (such as Excel or LibreCalc) or 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</guid>
-      <description>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.
-Resources
- OSM Wiki: https://wiki.openstreetmap.org/wiki/MBTiles Mapbox: https://docs.mapbox.com/help/glossary/mbtiles/  HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+      <description>Overview MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.
+  I need .mbtiles with...  HOT Export Tool  Tile Mill  TileHuria    Aerial Imagery Basemap  X  ✅  ✅    OSM Basemap  ✅  X  ✅    Vector layers (i.</description>
     </item>
     
     <item>
