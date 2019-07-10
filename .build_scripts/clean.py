@@ -1,6 +1,7 @@
 import os
 import re
-from shutil import copyfile
+from shutil import copyfile, copy
+import pathlib
 
 import frontmatter
 import toml
@@ -36,7 +37,22 @@ def main():
                 ext = os.path.splitext(filename)[1]
                 if ext != '.md':
                     copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
-        images = [f for f in os.listdir('pdf-build') if re.search(r'.*\.(jpe?g|png|gif)$', f)]
+        for path, _, files in os.walk('static'):
+            p = pathlib.Path(path)
+            cleaned_path = p.relative_to(*p.parts[:2])
+            pdf_path = pathlib.Path('pdf-build').joinpath(p.relative_to(*p.parts[:2]))
+            if not os.path.exists(pdf_path):
+                os.makedirs(pdf_path)
+            for filename in files:
+                ext = os.path.splitext(filename)[1]
+                if ext.lower() in ['.jpg','.jpeg','.png','.gif']:
+                    copy(os.path.join(path, filename), 'pdf-build')
+        images = []
+        for path, d, f in os.walk('pdf-build'):
+            for file in f:
+                if re.search(r'.*\.(jpe?g|png|gif)$', file):
+                    images.append(p.relative_to(*p.parts[:2]).joinpath(file))
+            #images.append([f for f in os.listdir(p) if re.search(r'.*\.(jpe?g|png|gif)$', f)])
         for path, _, files in os.walk('content/pages'):
             for filename in files:
                 ext = os.path.splitext(filename)[1]
@@ -90,7 +106,7 @@ def clean_markdown(path, filename, images, lang="", default_lang = "en"):
         guide['filename'] = filename
         content = post.content
         for image in images:
-            replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(image) + r')([A-Za-z\s\"\'\-\,\.\;\:]*)(\))'
+            replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(str(image)) + r')([A-Za-z\s\"\'\-\,\.\;\:]*)(\))'
             content = re.sub(replace_regex, r'\1\2\3\5', content)
         guide['content'] = ''
         if title:
