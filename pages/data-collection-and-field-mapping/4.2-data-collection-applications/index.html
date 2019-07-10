@@ -361,22 +361,157 @@ https://github.com/hotosm/hugo-book
 
 <p>Which data collection application should I use?</p>
 
-<ul>
-<li>Use OpenDataKit (ODK) if:
-
-<ul>
-<li>You have access to mobile devices but they have limited RAM &amp; storage</li>
-<li>You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</li>
-<li>You want or need to have an easy set-up option for data collection.</li>
-</ul></li>
-<li>Use OpenMapKit (OMK) if:
-
-<ul>
-<li>You have access to mobile devices with sufficient RAM &amp; storage (see <a href="https://github.com/hotosm/toolbox/wiki/1.5-Hardware">Hardware</a> for specifications.)</li>
-<li>You need to collect data for buildings in OSM</li>
-<li>You have the capacity for more intensive set-up prior to data collection</li>
-</ul></li>
-</ul>
+<table>
+  <tr>
+   <td><strong>I want to collect...</strong>
+   </td>
+   <td><strong>ODK</strong>
+   </td>
+   <td><strong>Kobo</strong>
+   </td>
+   <td><strong>OMK</strong>
+   </td>
+   <td><strong>Maps.</strong>
+<p>
+<strong>me</strong>
+   </td>
+   <td><strong>OSM</strong>
+<p>
+<strong>Tracker</strong>
+   </td>
+   <td>
+<strong>Mapillary</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Qualitative survey data
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Quantitative survey data
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>GPS Points
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Photos attached to GPS Points
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>GPX Tracks
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Streetview imagery
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Data attached to OSM points of interest
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Data attached to OSM polygons (i.e. buildings)
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+</table>
 
 <h2 id="1-open-data-kit-odk">1. Open Data Kit (ODK)</h2>
 
@@ -391,6 +526,11 @@ https://github.com/hotosm/hugo-book
 <li><a href="https://github.com/hotosm/toolbox/wiki/4.3-Creating-forms-(ODK-OMK)">ODK forms</a></li>
 <li>Spreadsheet software (such as Excel or <a href="https://www.libreoffice.org/discover/calc/">LibreCalc</a>)</li>
 </ul>
+
+<p><strong>Use OpenDataKit (ODK) if:</strong>
+  * You have access to mobile devices but they have limited RAM &amp; storage
+  * You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.
+  * You want or need to have an easy set-up option for data collection.</p>
 
 <p><strong>Resources</strong></p>
 
@@ -434,6 +574,11 @@ https://github.com/hotosm/hugo-book
 </ul></li>
 <li>Recommended: Server</li>
 </ul>
+
+<p><strong>Use OpenMapKit (OMK) if:</strong>
+  * You have access to mobile devices with sufficient RAM &amp; storage (see <a href="https://github.com/hotosm/toolbox/wiki/1.5-Hardware">Hardware</a> for specifications.)
+  * You need to collect data for buildings in OSM
+  * You have the capacity for more intensive set-up prior to data collection</p>
 
 <p><strong>Resources</strong></p>
 
@@ -537,12 +682,19 @@ https://github.com/hotosm/hugo-book
 
 <hr />
 
-<h2 id="training-materials">Training Materials</h2>
+<p><strong>Training Materials</strong></p>
 
 <ul>
 <li>Introduction to field data collection applications</li>
 <li>OpenDataKit</li>
 <li>OpenMapKit</li>
+</ul>
+
+<p><strong>Resources and further reading</strong>
+<br> Watch</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=36PXZPyUoLc">HOT Community Webinar: Mobile Data Collection Best Practices and Tools</a></li>
 </ul>
 </article>
 
@@ -557,8 +709,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/8a52c192419281254676022d07b462f478d1cebc" title='Last modified June 28, 2019 20:45 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 28, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/f9d8df7276cfee31f2da46ae0b501664221ccf64" title='Last modified July 10, 2019 18:18 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 10, 2019
     </a>
   </div>
   

@@ -189,7 +189,7 @@ Resources  Check the OpenStreetMap wiki.</description>
       <guid>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</guid>
       <description>Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
 Which data collection application should I use?
- Use OpenDataKit (ODK) if:  You have access to mobile devices but they have limited RAM &amp;amp; storage You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</description>
+  I want to collect...  ODK  Kobo  OMK  Maps.  me  OSM  Tracker   Mapillary    Qualitative survey data  ✅  ✅  ✅  X  X  X    Quantitative survey data  ✅  ✅  ✅  X  X  X    GPS Points  ✅  ✅  ✅  ✅  ✅  X    Photos attached to GPS Points  ✅  ✅  X  X  ✅  X    GPX Tracks  X  X  X  X  ✅  ✅    Streetview imagery  X  X  X  X  X  ✅    Data attached to OSM points of interest  X  X  ✅  ✅  X  X    Data attached to OSM polygons (i.</description>
     </item>
     
     <item>
