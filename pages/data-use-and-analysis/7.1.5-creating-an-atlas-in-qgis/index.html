@@ -406,17 +406,8 @@ https://github.com/hotosm/hugo-book
 <li>Change ‘Symbol layer type’ to ‘Outline: Simple Line’</li>
 <li>Change the color to purple.</li>
 <li>Change the ‘Pen style’ to ‘Dash Dot Line’</li>
-<li>Select ‘Apply’ and then ‘OK’.
-
-<br /></li>
+<li>Select ‘Apply’ and then ‘OK’.</li>
 </ul></li>
-</ul>
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet0.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet0.jpg" alt="alt_text" title="image_tooltip" /></p>
-
-<ul>
 <li>Duplicate the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Duplicate’. Right-click on the copy layer and select rename. Rename this layer as ‘Ward_grey_background’.</li>
 <li>Style the ‘Ward_grey_background’ layer by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
 
@@ -425,17 +416,8 @@ https://github.com/hotosm/hugo-book
 <li>Change ‘Symbol layer type’ to ‘Simple fill’</li>
 <li>Change the color to the html code #edeae2 (or select a light grey color).</li>
 <li>Change the ‘Outline style’ to ‘No pen’.</li>
-<li>Select ‘Apply’ and then ‘OK’.
-
-<br /></li>
+<li>Select ‘Apply’ and then ‘OK’.</li>
 </ul></li>
-</ul>
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet1.jpg" alt="alt_text" title="image_tooltip" /></p>
-
-<ul>
 <li>Style the sub-ward layer (Dar_sub-wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
 
 <ul>
@@ -526,10 +508,6 @@ https://github.com/hotosm/hugo-book
 
 <p>Expressions allow for text such as labels and titles to be data-driven, or generated from attributes. When working with an atlas, expressions take attributes from the coverage layer.</p>
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet2.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet2.jpg" alt="alt_text" title="image_tooltip" /></p>
-
 <ol>
 <li>Text that is not data driven should be written within single quote marks. Example: ‘Map’</li>
 <li>Spaces between words should be indicated with a space within single quote marks. Example:   ‘Map of ’</li>
@@ -562,24 +540,10 @@ https://github.com/hotosm/hugo-book
 <li>In the top drop-down menu, select ‘Inverted polygons’.</li>
 <li>Under ‘Sub renderer:’, select ‘Rule-based’ from the drop down menu.</li>
 <li>In the rules list window, double click on ‘(no filter)’ to open the ‘Edit rule’ window.</li>
-</ol>
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet3.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet3.jpg" alt="alt_text" title="image_tooltip" /></p>
-
-<ol>
 <li>In the ‘Edit rule’ window, select the ‘&hellip;’ button to create a filter. An expression builder will open. In the expression window, type or build from the Variable list: $id=@atlas_featureid</li>
 <li>In the ‘Edit rule’ window, make sure that the symbol type is Simple Fill.</li>
 <li>Change the transparency to 50%.</li>
 <li>Change the color to dark grey.</li>
-</ol>
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet4.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet4.jpg" alt="alt_text" title="image_tooltip" /></p>
-
-<ol>
 <li>Click ‘Ok’ to exit all option windows.</li>
 </ol>
 
@@ -646,13 +610,6 @@ https://github.com/hotosm/hugo-book
 
 <ul>
 <li>Select the expression builder button</li>
-</ul>
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Atlas-Worksheet5.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<p><img src="images/Atlas-Worksheet5.jpg" alt="alt_text" title="image_tooltip" /></p>
-
-<ul>
 <li>Build the expression: &ldquo;District<em>N&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Ward<em>Name&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Vil_Mtaa_N&rdquo;</li>
 <li>Check the output preview at the bottom of the expression builder to make sure that the expression has been built correctly.</li>
 </ul>
@@ -679,8 +636,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/dbddb4cb4ba52804f92bf6128edcce3f04b02acb" title='Last modified June 26, 2019 22:12 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 26, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/4bfb18a7b02281f53d93e982cf26981336c00a95" title='Last modified July 10, 2019 23:27 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 10, 2019
     </a>
   </div>
   
