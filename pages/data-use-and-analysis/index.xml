@@ -22,7 +22,7 @@ A new window will be created with a blank page. This shows how your map will loo
     </item>
     
     <item>
-      <title>7.1 QGIS</title>
+      <title>7.1 Introduction to QGIS</title>
       <link>/pages/data-use-and-analysis/7.1-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,16 +30,6 @@ A new window will be created with a blank page. This shows how your map will loo
       <description>Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.
 This section covers the basic skills necessary to using QGIS. These skills include:
  Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins  Installing and using QuickMapServices Installing and using QuickOSM   Following completion of this section, a new user should be prepared to navigate and work with data in QGIS.</description>
-    </item>
-    
-    <item>
-      <title>7.1.2 Basic QGIS</title>
-      <link>/pages/data-use-and-analysis/7.1.2-basic-qgis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.1.2-basic-qgis/</guid>
-      <description>[overview] Resources: Presentation: Training Activitiy Navigating QGIS Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools. Note: Your browser may have different tools than the image below.
- Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</description>
     </item>
     
     <item>
