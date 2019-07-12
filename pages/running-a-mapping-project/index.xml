@@ -75,21 +75,5 @@ Requirements for attendees will vary depending on the scope of the trainings, th
 Some attendee requirements may include:</description>
     </item>
     
-    <item>
-      <title>1.8.1 Software and Tools to Share</title>
-      <link>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/running-a-mapping-project/1.8.1-software-and-tools-to-share/</guid>
-      <description>It is highly recommended that prior to the training/workshop, all necessary installation files are downloaded and loaded onto USB drives for offline installation. The following is a list of all the recommended installation files you will need depending on the scope of the training/workshop.
-JOSM
-Installation instructions
- Java OpenStreetMap Editor installer Java  QGIS
-Installation instructions
- QGIS installer  Mobile Applications
-Installation instructions
- ODK apk OMK apk OSMAnd apk OSM Tracker apk Maps.</description>
-    </item>
-    
   </channel>
 </rss>
