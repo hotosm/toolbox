@@ -308,29 +308,6 @@ This section covers the basic skills necessary to using QGIS. These skills inclu
     </item>
     
     <item>
-      <title>7.1.1 Installing QGIS</title>
-      <link>/pages/data-use-and-analysis/7.1.1-installing-qgis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.1.1-installing-qgis/</guid>
-      <description>QGIS is a free, open source geographic information system. The program can be shared and installed offline or downloaded online.
-QGIS is available for download for the following operating systems:
- Windows Mac OS Linux  Skills and Technology Needed
- Computer with sufficient free disk space (approx 10GB) and administrator rights to install software Recommended: computer mouse  For Windows
-Prior to installation, you need to determine whether or not your computer runs on a 32-bit or 64-bit system.</description>
-    </item>
-    
-    <item>
-      <title>7.1.2 Basic QGIS</title>
-      <link>/pages/data-use-and-analysis/7.1.2-basic-qgis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.1.2-basic-qgis/</guid>
-      <description>[overview] Resources: Presentation: Training Activitiy Navigating QGIS Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools. Note: Your browser may have different tools than the image below.
- Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</description>
-    </item>
-    
-    <item>
       <title>7.1.5 Creating an Atlas in QGIS</title>
       <link>/pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
