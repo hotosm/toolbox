@@ -355,20 +355,38 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div><p>QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</p>
+  </div>
 
-<p><strong>Skills and Technology Needed</strong></p>
+<h2 id="overview">Overview</h2>
+
+<p>QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</p>
+
+<p>This section covers the basic skills necessary to using QGIS. These skills include:</p>
 
 <ul>
-<li>Computer with
+<li>Installing QGIS</li>
+<li>Navigating QGIS</li>
+<li>Adding data</li>
+<li>Styling layers</li>
+<li>Installing Plugins
 
 <ul>
-<li>Windows, Mac, or Linux operating system</li>
-<li>Sufficient free disk space (approx 10GB) and administrator rights to install software</li>
+<li>Installing and using QuickMapServices</li>
+<li>Installing and using QuickOSM</li>
 </ul></li>
-<li>Geospatial data</li>
-<li>Recommended: computer mouse</li>
 </ul>
+
+<p>Following completion of this section, a new user should be prepared to navigate and work with data in QGIS. For additional skills in QGIS see:</p>
+
+<ul>
+<li>Creating Maps and Atlases in QGIS</li>
+<li>QGIS for Field Project Managers</li>
+<li>QGIS for Tasking Manager</li>
+</ul>
+
+<p><strong>Presentations</strong>
+* <a href="https://drive.google.com/open?id=1IQNWSBSHlWgJ-5v4P8wXE2ELn8UfsFrq">Introduction to OpenSource GIS</a>)
+* <a href="https://docs.google.com/presentation/d/1EA63n-jEjgEYVGzfdW8dispZpqvkbGDYx7ZtuayxZnQ/edit">Introduction to QGIS</a></p>
 
 <p><strong>Resources</strong></p>
 
@@ -379,20 +397,313 @@ https://github.com/hotosm/hugo-book
 
 <hr />
 
-<p><strong>Training Materials</strong></p>
+<p>The following guide provides instructions and screenshots from QGIS 3.4. Versions before or after may have different icons and steps.</p>
+
+<h2 id="installing-qgis">Installing QGIS</h2>
+
+<p>QGIS is available for download for the following operating systems:</p>
 
 <ul>
-<li>Introduction to Open Source GIS and QGIS
-
-<ul>
-<li>Presentation <a href="https://drive.google.com/open?id=1IQNWSBSHlWgJ-5v4P8wXE2ELn8UfsFrq">pdf</a></li>
-</ul></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1.1-installing-qgis/">Installing QGIS</a></li>
-<li>Navigating QGIS and Adding Data</li>
-<li>Plug-ins</li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">Creating maps in print composer</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">Creating an Atlas</a></li>
+<li>Windows</li>
+<li>Mac OS</li>
+<li>Linux</li>
 </ul>
+
+<p><strong>Skills and Technology Needed</strong></p>
+
+<ul>
+<li>Computer with
+
+<ul>
+<li>Windows, Mac, or Linux operating system</li>
+<li>Sufficient free disk space (approx 10GB) and administrator rights to install software</li>
+</ul></li>
+<li>Recommended: computer mouse</li>
+</ul>
+
+<p><strong>For Windows</strong></p>
+
+<p>Prior to installation, you need to determine whether or not your computer runs on a 32-bit or 64-bit system. <br>
+1. Open the Start Menu, right-click on “Computer”, and select “Properties”.
+2. Under “System”, the correct system type will be listed.</p>
+
+<p><strong>Installing from Shared File</strong></p>
+
+<p>If you are offline, you will need to install QGIS from a shared file. The QGIS Installer can be downloaded and shared via USB. This file can be shared with colleagues and others who wish to install the program.
+<br><br>
+To install from a shared file:<br>
+1. Go to folder shared to you and downloaded to your computer.
+2. Select the appropriate installer folder based on your operating system (Windows 32-bit; Windows 64-bit; or Mac).
+3. Open the installer to begin the installation process.</p>
+
+<p><strong>Installing from QGIS Website</strong>
+<br>[image]</p>
+
+<p>If you did not receive an offline installer, you will need to install from the QGIS website. Additionally, it is highly recommended to download software directly from the QGIS website whenever possible. This ensures that you have the most up-to-date version of the program. The QGIS file is larger than 300MB and may take a long time to download, depending on your internet connection.</p>
+
+<p>To install:
+1. Visit: <a href="http://www.qgis.org/en/site/forusers/download.html">http://www.qgis.org/en/site/forusers/download.html</a>
+2. Select your appropriate operating system (i.e. Windows, Mac, Linux).
+    1. For Windows - select your appropriate system (32-bit or 64-bit).
+3. Click on the QGIS Standalone Installer to begin the download process.
+4. Once installed, open the installer to begin the installation process.</p>
+
+<p><strong>Resources</strong></p>
+
+<p>Further QGIS Install instructions: <a href="https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis">https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis</a></p>
+
+<p><strong>Considerations when installing QGIS for large numbers of individuals</strong></p>
+
+<ul>
+<li>Consider internet connectivity and capacity prior to installing QGIS for large numbers of individuals via internet. It is highly recommended that prior to the training/workshop, installation files are downloaded and loaded onto USB drives for offline installation.</li>
+<li>When downloading offline installers for a large group, make sure to download an installer for all operating systems. Note: it will be important to download the Windows installer for BOTH 32-bit and 64-bit.</li>
+<li>The downlaod and installation process often takes longer than anticipated, especially when factoring in technical skills and hardware compatibility. Therefore, it is recommended to begin download and installation process early in the training or during breaks to ensure a smooth process and adherance to agenda.</li>
+<li>Prior to the training/workshop, request attendees to make sure that they have enough space on their computers (10GB+) for installation of QGIS.</li>
+</ul>
+
+<hr />
+
+<h2 id="navigating-qgis">Navigating QGIS</h2>
+
+<p>Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools.
+<br> Note: Your browser may have different tools than the image below.</p>
+
+<ol>
+<li>Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</li>
+<li>Toolbars - Most of the tools you will regularly use in QGIS will appear as icons in the toolbars at the top, such as save, zoom, pan. The number of toolbars depends on various features you have activated or installed.</li>
+<li>Map Canvas  - When layers are added to the Layers Panel, they will appear in the map canvas.</li>
+<li>Status Bar - Coordinates, scale, and projection will appear in the Status Bar.</li>
+</ol>
+
+<p>[image]</p>
+
+<h2 id="adding-data">Adding Data</h2>
+
+<p>Hover your mouse over the tools until you find the “Add Vector Layer” tool. Click on this icon to open the Add Vector Data dialog.</p>
+
+<p>[image]</p>
+
+<p>Click the ‘&hellip;’ button under Source and navigate to the location on your computer where you have a saved vector layer (i.e. .shp, .geojson) Select the file and ‘open’.</p>
+
+<p>For more information on exporting data from OSM, see instructions on QuickOSM and Export Tools.</p>
+
+<p>Practice data can be found here:</p>
+
+<hr />
+
+<h2 id="styling-layers">Styling Layers</h2>
+
+<p>Data layers can be styled in three ways: opening the properties tab, copying from other layers in the project, and importing a .qml style. </p>
+
+<p><br><br> <strong>To manually select a style:</strong></p>
+
+<p>Right-click on the point layer and select ‘Properties’. _(Alternate: Double-click on a layer in the Layers Panel.) _</p>
+
+<p>[image]</p>
+
+<p>Select ‘Style’ from the left-hand menu. There are many changes and styles that can be made in this window. To complete a basic style change, select ‘Simple Fill’ near the top of the window. Now you can change the Fill Color, Fill Style, Stroke (outline) Color, Stroke (outline) Width, Stroke (outline) Style and more to your own choice.</p>
+
+<p>[image]</p>
+
+<p>Select ‘Ok’ to see your changes in the project.</p>
+
+<p>You can also select from various preset styles in the main style window.</p>
+
+<p>[image]</p>
+
+<p><br><br> <strong>To copy styles from another data layer:</strong></p>
+
+<p>Right-click on any of the other layers. Select ‘Style’, then ‘Copy Style’, and ‘All Style Categories’.</p>
+
+<p>[image]</p>
+
+<p>Next, right-click on the layer you want to apply the style to. Select ‘Style’, then ‘Paste Style’, and ‘All Style Categories’. Styles from point layer styles can only be copied and pasted to other point layers, polygon layers styles can only be copied and pasted to other polygon layers, etc.</p>
+
+<p>[image]</p>
+
+<p><br><br> <strong>Styling a layer from an imported .qml file</strong></p>
+
+<p>A .qml file contains style information, including labels, exported from a layer. This file can be saved and shared to ensure consistent use of particular styles, for example, if an organization uses a particular color scheme and font for all maps.</p>
+
+<p>Prior to importing a .qml file into QGIS, you will need to receive or download a .qml file. Practice .qml files and .shp files can be found here.</p>
+
+<ol>
+<li><p>Double-click on a layer in the Layers Panel or right-click on the point layer and select ‘Properties’.</p></li>
+
+<li><p>Select ‘Style’ from the left-hand menu.</p></li>
+
+<li><p>In the lower left hand corner of the Style window, select the ‘Style’ button. Click ‘load’ style.</p></li>
+
+<li><p>Navigate to and select the .qml saved on your computer.</p></li>
+
+<li><p>Click ‘Ok’. Your layer will assume all style choices saved to the .qml file.</p></li>
+</ol>
+
+<hr />
+
+<h2 id="installing-plug-ins">Installing Plug-ins</h2>
+
+<p><strong>Tools and skills required</strong></p>
+
+<ul>
+<li>Internet connection</li>
+<li>Installed QGIS</li>
+<li>Navigating QGIS</li>
+<li>For QuickOSM: OSM Tagging and Data Models</li>
+</ul>
+
+<p><strong>Estimated time:</strong></p>
+
+<p>&lt;5 minutes, depending on internet connection</p>
+
+<p>Plugins allow you to extend the functionality of QGIS. These plugins can range from allowing data to be directly downloaded from OSM to QGIS to tools that assist with analysis.</p>
+
+<p>In this exercise we shall install and use two plugins: <strong>QuickMapServices</strong> &amp; <strong>QuickOSM</strong></p>
+
+<p><em>Note: Managing and installing plugins requires an internet connection. If the Plugin Manager is not working, check your internet connection.</em></p>
+
+<p><strong>Considerations for working with large groups and/or in low-internet settings</strong> <br>
+Plug-in Manager requires a consistent internet connection to download plugins. It is highly recommended for training and workshop facilitators to pre-download offline versions for sharing. For instructions on how to download an offline version of a plug-in for sharing, see section 1.8.1 Software and Tools to Share.</p>
+
+<p>To install plugins, click on the menu item Plugins ‣ Manage and Install Plugins.</p>
+
+<p>[image]</p>
+
+<p><strong>QuickMapServices</strong></p>
+
+<p>QuickMapServices allows you to add free, online basemaps to your QGIS maps, including OSM basemaps.</p>
+
+<p>_Note: as QuickMapServices provides online basemaps, use of these layers requires a consistent internet connection. _</p>
+
+<p>In the Plugin Manager dialog box that opens, find the QuickMapServices plugin. To do so, click on the search bar and type ‘QuickMapServices’, the plugin will appear in the list. Then click the Install Plugin button.</p>
+
+<p>[image]</p>
+
+<p>Once installed, QuickMapServices can be accessed in the top menu Web ‣ QuickMapServices</p>
+
+<p>In the QuickMapServices sub-menu, several types of basemaps can be accessed including OSM.</p>
+
+<p>[image]</p>
+
+<p>For aerial imagery, in the QuickMapServices sub-menu, open ‘Settings’. Click the ‘More Services’ tab. Select ‘Get Contributed Pack’.</p>
+
+<p>[image]</p>
+
+<p>Return to the QuickMapServices sub-menu. There will now be a long list of options for basemaps, including Bing.</p>
+
+<p>[image]</p>
+
+<p><strong>QuickOSM</strong></p>
+
+<p>QuickOSM allows you to select and download OpenStreetMap data for use in QGIS. QuickOSM works by extracting specific data based on OSM based on tags (key=value pairs) and an area of interest.</p>
+
+<p>[image]</p>
+
+<p>Once installed, QuickMapServices can be accessed in the top menu Vector ‣ QuickOSM &gt; QuickOSM</p>
+
+<p>_Note: When downloading data through QuickOSM, it is best to have a basemap layer focused on your area of interest (see QuickMapServices) and/or at least one shapefile/geojson layer in the area of interest. This guides QuickOSM in downloading data for the correct area of interest. _</p>
+
+<p>[image]</p>
+
+<p>To download data in QuickOSM in QGIS, you will need to build queries to download the exact data that you need. QuickOSM makes building queries easier, but you will still need to know the tags (i.e. keys and values) to generate data. It will become easier to remember these tags as you  gain experience working with OSM - in JOSM, QGIS, and other programs.</p>
+
+<p>Below are some examples of common tags used in OSM queries.</p>
+
+<table>
+  <tr>
+   <td><strong>Key</strong>
+   </td>
+   <td><strong>Value</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="4" >amenity
+   </td>
+   <td>school
+   </td>
+  </tr>
+  <tr>
+   <td>place_of_worship
+   </td>
+  </tr>
+  <tr>
+   <td>bar
+   </td>
+  </tr>
+  <tr>
+   <td>bank
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >highway
+   </td>
+   <td>primary
+   </td>
+  </tr>
+  <tr>
+   <td>residential
+   </td>
+  </tr>
+  <tr>
+   <td>path
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >office
+   </td>
+   <td>government
+   </td>
+  </tr>
+  <tr>
+   <td>ngo
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >shop
+   </td>
+   <td>clothes
+   </td>
+  </tr>
+  <tr>
+   <td>tailor
+   </td>
+  </tr>
+</table>
+
+<p>In the pop-up QuickOSM window, at a minimum, you will need to fill in: key, value, and select the extent. This</p>
+
+<p>Tips:</p>
+
+<ul>
+<li><p><strong>Key:</strong> For resources, on keys and values to use, see OSM Tagging and Data Models.</p></li>
+
+<li><p><strong>Value:</strong> Multiple values can be strung together by separating with a comma (for example: amenity=school,hospital). To download all possible values of a key (i.e. amenity=*), leave the value field blank.</p></li>
+
+<li><p><strong>Extent:</strong> Selecting the extent chooses the area QuickOSM will search for and download data from. There are multiple options you can select from when choosing the extent:</p>
+
+<ul>
+<li><em>In</em>:</li>
+<li><em>Around</em>:</li>
+<li><em>Canvas Extent</em>:</li>
+<li><em>Layer Extent</em>:</li>
+<li><em>Not Spatial</em>:</li>
+</ul></li>
+</ul>
+
+<p>Extent of the map canvas is best suited when you do not have a shapefile/geojson that covers your area of interest (i.e. administrative boundaries) and/or a small area of interest. To base your extent on a layer, use the drop down menu on the right to select the appropriate layer.</p>
+
+<p>[image]</p>
+
+<p>Once providing your key and value, and selecting your extent, click ‘Run Query’.</p>
+
+<p><strong>If your query is not working:</strong></p>
+
+<ul>
+<li>Did you use capital letters in your keys and values? Make sure keys and values are in lowercase. For example: key=amenity value=school NOT key=Amenity and value=SCHOOL</li>
+<li>Did you use the correct spelling in your keys and values? Make sure keys and values are spelled EXACTLY as they are in OSM guides. Otherwise QuickOSM will be looking for the wrong tag. For example: key=amenity NOT key=amenities</li>
+</ul>
+
+<p><em>Note: To large of an area, or too much data to download, can overload the API or will be too much for a slow internet connection. If you are having difficulty downloading data, try reducing the area or limit the data download by changing your tags. For example, downloading all buildings in Africa, even some cities, is too large for QuickOSM. Instead try downloading a smaller area or restricting to all building=school.</em></p>
 </article>
 
       
@@ -406,8 +717,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/3e627be6938b735a18995fc09969f561b06f16fe" title='Last modified June 26, 2019 22:08 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 26, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/20d286f70499acc64333df759817ab68cc485ae2" title='Last modified July 12, 2019 17:14 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 12, 2019
     </a>
   </div>
   
