@@ -197,7 +197,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/" class="active">
+      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
     4.3 Navigation Applications</a>
     </li>
     
@@ -298,7 +298,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/data-use-and-analysis/7.1.2-basic-qgis/">
+      <a href="../../../pages/data-use-and-analysis/7.1.2-basic-qgis/" class="active">
     7.1.2 Basic QGIS</a>
     </li>
     
@@ -336,13 +336,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    4.3 Navigation Applications</strong>
+    7.1.2 Basic QGIS</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>4.3 Navigation Applications</h1>
-    <a href="../../../pdfs/4.3-Navigation-Applications.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>7.1.2 Basic QGIS</h1>
+    <a href="../../../pdfs/7.1.2-Basic-QGIS.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -352,80 +352,97 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
-<p>Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include <a href="https://osmand.net/">OSMAnd</a> and <a href="https://maps.me/">Maps.me</a><br></p>
-
-<h2 id="1-osmand">1. OSMAnd</h2>
-
-<p>OSMAnd is a global mobile map viewing and navigation app for online and offline OSM Maps. It is used for recording tracks as well as mapping features. It provides easy way to record and submit information in the field.</p>
-
-<p><strong>Skills and Technology Needed</strong></p>
-
-<ul>
-<li>Internet Connection (for application download)</li>
-<li>Mobile devices (see <a href="https://github.com/hotosm/toolbox/wiki/1.5-Hardware">Hardware</a> for specifications.)</li>
-<li>Android</li>
-</ul>
-
-<p><strong>Resources</strong></p>
-
-<ul>
-<li>LearnOSM: <a href="https://learnosm.org/en/mobile-mapping/osmand/">https://learnosm.org/en/mobile-mapping/osmand/</a></li>
-<li>OSM Wiki: <a href="https://wiki.openstreetmap.org/wiki/OsmAnd">https://wiki.openstreetmap.org/wiki/OsmAnd</a></li>
-</ul>
-
-<p><strong>Download</strong></p>
-
-<ul>
-<li>Google Play: <a href="https://play.google.com/store/apps/details?id=net.osmand&amp;hl=en_US">https://play.google.com/store/apps/details?id=net.osmand&amp;hl=en_US</a></li>
-</ul>
-
-<h2 id="2-maps-me">2. Maps.Me</h2>
-
-<p>Maps.me is a navigation application that uses OpenStreetMap data, and can be used offline. It is suitable for collection Point of Interest (POI) information, as far as these fit within the types of data that Maps.me shows you on the map.</p>
-
-<p><strong>Skills and Technology Needed</strong></p>
-
-<ul>
-<li>Internet Connection (for application download)</li>
-<li>Mobile devices (see <a href="https://github.com/hotosm/toolbox/wiki/1.5-Hardware">Hardware</a> for specifications.)</li>
-<li>Android or iOS device</li>
-</ul>
-
-<p><strong>Resources</strong></p>
-
-<ul>
-<li>Maps.me: <a href="https://maps.me">https://maps.me</a></li>
-<li>OSM Wiki: <a href="https://wiki.openstreetmap.org/wiki/MAPS.ME">https://wiki.openstreetmap.org/wiki/MAPS.ME</a></li>
-</ul>
-
-<p><strong>Download</strong></p>
-
-<ul>
-<li>Google Play: <a href="https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro&amp;hl=en_US">https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro&amp;hl=en_US</a></li>
-</ul>
+<p>[overview] <br>
+<strong>Resources:</strong> <br>
+<strong>Presentation:</strong> <br></p>
 
 <hr />
 
-<h2 id="training-materials">Training Materials</h2>
+<h2 id="training-activitiy">Training Activitiy</h2>
+
+<h3 id="navigating-qgis">Navigating QGIS</h3>
+
+<p>Familiarize yourself with the various parts of the QGIS browser, hover your mouse over icons to view names of various tools.
+<br> <em>Note: Your browser may have different tools than the image below.</em></p>
+
+<ol>
+<li>Layers panel - This is where layers (i.e. imagery, building layers) will be listed. The order of layers in the panel impacts the order of layers in the map - in other words, the layer at the top of the list will appear as the top layer in the map.</li>
+<li>Toolbars - Most of the tools you will regularly use in QGIS will appear as icons in the toolbars at the top, such as save, zoom, pan. The number of toolbars depends on various features you have activated or installed.</li>
+<li>Map Canvas  - When layers are added to the Layers Panel, they will appear in the map canvas.</li>
+<li>Status Bar - Coordinates, scale, and projection will appear in the Status Bar.</li>
+</ol>
+
+<p><br>
+[image]
+<br><br></p>
+
+<h3 id="installing-plug-ins">Installing Plug-ins</h3>
+
+<p><strong>Tools and skills required</strong></p>
 
 <ul>
-<li>Introduction to mobile data collection tools</li>
+<li>Internet connection</li>
 </ul>
+
+<p>Plugins allow you to extend the functionality of QGIS. In this exercise we shall install and use one plugins: <strong>QuickMapServices</strong>
+<br><br> <em>Note: Managing and installing plugins requires an internet connection. If the Plugin Manager is not working, check your internet connection.</em></p>
+
+<p>To install plugins, click on the menu item Plugins ‣ Manage and Install Plugins.</p>
+
+<ol>
+<li>In the dialog that opens, find the QuickMapServices plugin.</li>
+<li>Then click the Install Plugin button.</li>
+<li>QuickMapServices allows you to add free, online basemaps to your QGIS maps, including OSM basemaps.</li>
+<li>Once installed, QuickMapServices can be accessed in the top menu Web ‣ QuickMapServices</li>
+<li>In the QuickMapServices sub-menu, several types of basemaps can be accessed including OSM.</li>
+</ol>
+
+<p>[image]</p>
+
+<p>For aerial imagery, in the QuickMapServices sub-menu, open ‘Settings’.</p>
+
+<ol>
+<li>Click the ‘More Services’ tab.</li>
+<li>Select ‘Get Contributed Pack’.</li>
+<li>Return to the QuickMapServices sub-menu. There will now be a long list of options for basemaps, including Bing.</li>
+</ol>
+
+<p>[image]</p>
+
+<h3 id="styling-layers">Styling Layers</h3>
+
+<p>Data layers can be styled in two ways: copying from other layers in the project, and opening the properties tab. For this purpose, we recommend copying the style from the previous data layers.
+<br><br>To copy styles:</p>
+
+<ol>
+<li>Right-click on any of the previous census data layers (styled green).</li>
+<li>Select ‘Style’, then ‘Copy Style’ (as in the image below).</li>
+<li>Next, right-click on the new layer, select ‘Style’, then ‘Paste Style’.</li>
+<li>Styles from point layer styles can only be copied and pasted to other point layers, polygon layers styles can only be copied and pasted to other polygon layers, etc.</li>
+</ol>
+
+<p><br><br>To manually select a style:</p>
+
+<ol>
+<li>Double-click on a layer in the Layers Panel or right-click on the point layer and select ‘Properties’.</li>
+<li>Select ‘Style’ from the left-hand menu.</li>
+<li>In this window you can change ‘Fill’ Color, ‘Outline’ Color, ‘Size’, ‘Outline style’, ‘Outline Width’ and more to your own choice.</li>
+</ol>
 </article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-collection-and-field-mapping/4.3-Navigation-Applications.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-use-and-analysis/7.1.2-Basic-QGIS.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/c5a1d5ba2f8da99652080316eb157ba786f0135b" title='Last modified June 28, 2019 20:44 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 28, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/d78b8caba64986c83f939733de9db3b12c8b91f8" title='Last modified July 1, 2019 21:53 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 1, 2019
     </a>
   </div>
   
@@ -441,6 +458,20 @@ https://github.com/hotosm/hugo-book
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#training-activitiy">Training Activitiy</a>
+<ul>
+<li><a href="#navigating-qgis">Navigating QGIS</a></li>
+<li><a href="#installing-plug-ins">Installing Plug-ins</a></li>
+<li><a href="#styling-layers">Styling Layers</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
