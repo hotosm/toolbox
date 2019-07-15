@@ -24,6 +24,6 @@ Humanitarian Data Exchange (HDX) is a data platform for storing and sharing huma
 QuickOSM is a QGIS Plug-in that allows users to directly download OSM data for specific tags into QGIS.  
 Instructions for using and installing QGIS Plug-ins including QuickOSM can be found in here.  
 
-![](/images/data-export/basic_qgis/quickOSM_query.gif)
+![](/images/basic_qgis/quickOSM_query.gif)
  
 
