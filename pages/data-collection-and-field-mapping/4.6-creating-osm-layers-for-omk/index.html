@@ -177,7 +177,7 @@ https://github.com/hotosm/hugo-book
 
     
     <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/" class="active">
+      <a href="../../../pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/">
     4.1.2 Designing The Data Model</a>
     </li>
     
@@ -202,7 +202,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/" class="active">
     4.6 Creating .osm Layers for OMK</a>
     </li>
     
@@ -326,13 +326,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    4.1.2 Designing The Data Model</strong>
+    4.6 Creating .osm Layers for OMK</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>4.1.2 Designing The Data Model</h1>
-    <a href="../../../pdfs/4.1.2-Designing-The-Data-Model.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>4.6 Creating .osm Layers for OMK</h1>
+    <a href="../../../pdfs/4.6-Creating-OSM-Layers-for-OMK.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -342,60 +342,57 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
-<h2 id="tagging">Tagging</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Tags are used in OSM to categorize features, and to add information that is useful for:
-* Understanding of the map
-* Planning
-* Routing
-* Querying</p>
+<p>To conduct data collection using <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/#2-openmapkit-omk">OpenMapKit (OMK)</a>, you will need to create an .osm layer. This .osm layer provides the buildings for selection in the OMK application.</p>
 
-<p>OSM doesn’t work with layers or attribute tables, but tags. Each tag consists of a key, and a value. Each map feature should have 1 or more tags Such as:
-* building=residential
-* highway=primary
-* amenity=school</p>
-
-<h3 id="resources">Resources</h3>
+<p><strong>Skills and Technology Needed</strong></p>
 
 <ul>
-<li>Check the <a href="https://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap wiki</a>. Start at the Map features page, search, and discover!</li>
-<li>Research tag use and occurence on <a href="https://taginfo.openstreetmap.org/">TagInfo</a></li>
+<li>Computer</li>
+<li>Internet Connection</li>
+<li>JOSM Installed</li>
+<li>Basic JOSM skills</li>
 </ul>
 
-<h2 id="data-models">Data Models</h2>
+<h2 id="creating-an-osm-layer-with-josm">Creating an .osm layer with JOSM</h2>
 
-<p>A data model defines what features are surveyed or mapped and what attributes are collected for each feature.
-If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
+<p>In JOSM, click the top-menu File &gt; New Layer to start. Then click the top-menu File &gt; Download Data.</p>
 
-<h3 id="example-data-models">Example data models</h3>
+<p><img src="../../../images/field-mapping-technical-setup/osmlayer_opendownloaddata.gif" alt="" /></p>
 
-<ul>
-<li><a href="https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data">Uganda Refugee Crisis</a></li>
-<li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
-</ul>
+<p>In the &lsquo;Download&rsquo; window, click the tab &lsquo;Download from Overpass API&rsquo;. This will allow you to download data with specific key=value tags in an area of interest. The top of this tab provides space for a query to be entered. Click &lsquo;Query Wizard.&rsquo;</p>
 
-<hr />
+<p><img src="../../../images/field-mapping-technical-setup/osmlayer_selectquerywizard.gif" alt="" /></p>
 
-<h2 id="training-activity">Training Activity</h2>
+<p>For an OMK .osm layer, we want a layer with only building polygons. In the search bar, type &ldquo;building=*&ldquo;. This will return an OSM feature with a building tag. Click &lsquo;Build query&rsquo;.</p>
 
-<p><strong>Presentation</strong>: <a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225</a> <br>
-<strong>Estimated time: <br>
-Skills and technology needed:</strong></p>
+<p><img src="../../../images/field-mapping-technical-setup/osmlayer_buildquery.gif" alt="" /></p>
+
+<p>In the slippy map below the Overpass query, navigate to your area of interest in OSM. Drag the map by holding down the right-click button and dragging your mouse. To zoom, use the &lsquo;+&rsquo;/&lsquo;-&rsquo; keys on your keyboard. Once navigated to your AOI, hold down the left-button of your mouse or navigation pad and drag your mouse to create a pink box. This pink box is your <em>bounding box</em>, all buildings within this area will be downloaded. When complete, click &lsquo;Download&rsquo;.</p>
+
+<p><img src="../../../images/field-mapping-technical-setup/osmlayer_aoi_download.gif" alt="" /></p>
+
+<p>Right click on the layer file in the &lsquo;Layers&rsquo; window. Click &lsquo;Save as&rsquo;. The default file type is OSM Server Files (*.osm), this is the correct file type.</p>
+
+<p><img src="../../../images/field-mapping-technical-setup/osmlayer_saveas.gif" alt="" /></p>
+
+<p>Once saved, this file can be uploaded to devices for data collection with OMK.</p>
 </article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-collection-and-field-mapping/4.1.2-Designing-The-Data-Model.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-collection-and-field-mapping/4.6-Creating-OSM-Layers-for-OMK.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/66aa857a489c59a1c0922980774a1ebb19598745" title='Last modified June 28, 2019 18:46 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 28, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/1fd2ce3716aaf904007ed8190a40c9f0d618d3af" title='Last modified July 15, 2019 21:05 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 15, 2019
     </a>
   </div>
   
@@ -411,6 +408,16 @@ Skills and technology needed:</strong></p>
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#creating-an-osm-layer-with-josm">Creating an .osm layer with JOSM</a></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
