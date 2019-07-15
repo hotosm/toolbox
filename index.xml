@@ -207,15 +207,6 @@ In the &amp;lsquo;Download&amp;rsquo; window, click the tab &amp;lsquo;Download 
     </item>
     
     <item>
-      <title>4.7 Data Collection Servers</title>
-      <link>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</guid>
-      <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
-    </item>
-    
-    <item>
       <title>5.1.1 Server Data</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -316,6 +307,15 @@ HOT Project Examples:
       <guid>/pages/data-use-and-analysis/7.4-osm-analytics/</guid>
       <description>OSM Analytics allows users to understand more about how and when editing took place, or assess quality within OSM, use the OSM Analytics suite of tools. You can view how data has changed over time within OSM, understand quality within an area, or analyze what type of data is available.
 More information about OSM Analytics can be found here and here.</description>
+    </item>
+    
+    <item>
+      <title>Data Collection Servers</title>
+      <link>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</guid>
+      <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
     </item>
     
   </channel>
