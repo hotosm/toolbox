@@ -77,11 +77,11 @@ In the &amp;lsquo;Download&amp;rsquo; window, click the tab &amp;lsquo;Download 
     </item>
     
     <item>
-      <title>Data Collection Servers</title>
-      <link>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</link>
+      <title>4.7 Data Collection Servers</title>
+      <link>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/4.6-data-collection-servers/</guid>
+      <guid>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</guid>
       <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
     </item>
     
