@@ -146,9 +146,9 @@ The iD editor is a user-friendly tool that allows you to directly make changes i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</guid>
-      <description>Tagging Tags are used in OSM to categorize features, and to add information that is useful for: * Understanding of the map * Planning * Routing * Querying
-OSM doesn’t work with layers or attribute tables, but tags. Each tag consists of a key, and a value. Each map feature should have 1 or more tags Such as: * building=residential * highway=primary * amenity=school
-Resources  Check the OpenStreetMap wiki.</description>
+      <description>Tagging Tags are used in OSM to categorize features, and to add information that is useful for:
+ Understanding of the map Planning Routing Querying  OSM doesn’t work with layers or attribute tables, but tags. Each tag consists of a key, and a value. Each map feature should have 1 or more tags Such as:
+ building=residential highway=primary amenity=school  Resources  Check the OpenStreetMap wiki. Start at the Map features page, search, and discover!</description>
     </item>
     
     <item>
@@ -305,7 +305,8 @@ This section covers the basic skills necessary to using QGIS. These skills inclu
       <guid>/pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/</guid>
       <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
 HOT Project Examples:
- Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation: Estimated time: Skills and technology needed: * Installation of QGIS * Navigating QGIS and adding data * Creating maps in print composer * GIS data files (i.</description>
+ Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation:
+Estimated time:</description>
     </item>
     
     <item>
