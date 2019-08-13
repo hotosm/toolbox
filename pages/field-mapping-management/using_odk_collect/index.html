@@ -1,0 +1,663 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT Toolbox</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../">
+        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT Toolbox</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../pages/field-mapping-management/using_odk_collect/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../pdfs/HOT_Toolbox.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li><a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.1-mapping-project-workflow/">
+    1.1 Mapping Project Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.1.1-legit-project-workflow/">
+    1.1.1 LEGIT Project Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.3-hardware/">
+    1.3 Hardware</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/">
+    1.4 Safety and Security for Field Operations</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/">
+    1.5.1 Setting up phones and servers</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.8-trainings-and-workshops/">
+    1.8 Trainings and Workshops</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Core Technology 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/core-technology/2.1-openstreetmap/">
+    2.1 OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/core-technology/2.1.1-opening-osm-accounts/">
+    2.1.1 Opening OSM accounts</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Digitization and Editing 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/">
+    3.1 Working with the HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.2-working-with-imagery/">
+    3.2 Working With Imagery</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3-editing-with-id-and-josm/">
+    3.3 Editing with iD and JOSM</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Collection and Field Mapping 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/">
+    4.1.2 Designing The Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
+    4.2 Data collection applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
+    4.3 Navigation Applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/">
+    4.4 Creating forms (ODK OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/">
+    4.5 Creating .mbtiles</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
+    4.6 Creating .osm Layers for OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/">
+    4.7 Data Collection Servers</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Cleaning Upload and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/">
+    5.1.1 Server Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/">
+    5.1.2 Serverless Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
+    5.2 OMK Field Data Cleaning Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/">
+    5.3 Data Cleaning with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
+    5.4 Quality Assurance and Quality Control</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Management 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/using_odk_collect/" class="active">
+    Using ODK Collect Application</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-export/6.1-hot-export-tool/">
+    6.1 HOT Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/6.2-hdx/">
+    6.2 Humanitarian Data Exchange (HDX)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
+    7.1.4 Creating Maps in Print Composer</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1-qgis/">
+    7.1 Introduction to QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">
+    7.1.5 Creating an Atlas in QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/">
+    7.4 OSM Analytics</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Using ODK Collect Application</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Using ODK Collect Application</h1>
+    <a href="../../../pdfs/using_odk_collect.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Objective:</strong></p>
+
+<ul>
+<li>Able to explain ODK Collect as one of the tools to collect infrastructure data</li>
+<li>Able to set the initial setup for ODK Collect</li>
+<li>Able to apply how to use ODK Collect for data collection survey</li>
+</ul>
+
+<h3 id="i-what-is-odk-collect"><strong>I. What is ODK Collect?</strong></h3>
+
+<p>Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</p>
+
+<h3 id="ii-initial-setup-for-odk-collect"><strong>II. Initial Setup for ODK Collect</strong></h3>
+
+<h4 id="1-set-the-url-server"><strong>1. Set the URL Server</strong></h4>
+
+<p>To take the form survey from the server for the first time, the user needs to set the URL server. There are the steps:</p>
+
+<ul>
+<li>Open ODK Collect and press the three point button in the upper right corner, select <strong>General Settings → Server</strong></li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0201_Option_to_fill_the_URL_address_menu_in_ODK_Collect.png" alt="Option to fill the URL address menu in ODK Collect" />
+<p align="center"><i>Option to fill the URL address menu in ODK Collect</i><p align="center"></p>
+
+<ul>
+<li>Type the URL address server in <strong>URL → OK</strong></li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0202_Step_to_fill_the_URL_address_in_ODK_Collect.png" alt="Step to fill the URL address in ODK Collect" />
+<p align="center"><i>Step to fill the URL address in ODK Collect</i><p align="center"></p>
+
+<h4 id="2-set-the-image-size"><strong>2. Set the Image Size</strong></h4>
+
+<p>In addition to the location point, you can also take a picture as additional information. You can set the picture resolution as desired. But, the picture resolution will also affect the amount of your phone memory or file which will be uploaded to the server later. It is recommended that you choose the smallest resolution of the image during initial setup. You can follow this step:</p>
+
+<ul>
+<li>Open ODK Collect and press the three point button in the upper right corner, select <strong>General Settings → Form Management</strong>.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0203_Option_menu_to_set_image_resolution.png" alt="Option menu to set image resolution" />
+<p align="center"><i>Option menu to set image resolution</i><p align="center"></p>
+
+<ul>
+<li>Select <strong>Image Size</strong> then select the **Very Small (640px) <strong>option</strong>.**</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0204_Image_size_menu_to_set_the_image_resolution.png" alt="Image Size menu to set the image resolution" />
+<p align="center"><i>Image Size menu to set the image resolution</i><p align="center"></p>
+
+<h3 id="iii-odk-collect-basic-operations"><strong>III. ODK Collect basic operations</strong></h3>
+
+<h4 id="1-how-to-get-a-blank-form-survey-from-server"><strong>1. How To Get a Blank Form Survey From Server</strong></h4>
+
+<p>Before you fill-out the form survey that you made before, you need to download the blank survey form from specified server.  For further explanation about create a survey form in ODK, you can learn in <strong>Making Survey Form for ODK &amp; OMK applications</strong> module. You can follow this step to take a blank survey from the server:</p>
+
+<ul>
+<li>Press <strong>Get Blank Form</strong> and wait for the form to download from the server and make sure your internet is active.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0205_Get_blank_form_options_to_take_form_on_a_server.png" alt="Get blank form options to take form on a server" />
+<p align="center"><i>Get blank form options to take form on a server</i><p align="center"></p>
+
+<ul>
+<li>Select the available form, tick the check box or if you want to select all the form, you can <strong>Select All</strong>. If your form does not appear, can press <strong>Refresh</strong> to reload the page.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0206_Page_display_on_Get_Blank_Form_menu.png" alt="Page display on Get Blank Form menu" />
+<p align="center"><i>Page display on Get Blank Form menu</i><p align="center"></p>
+
+<ul>
+<li>After select the form, you can press <strong>Get Selected</strong> to download the selected form.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0207_Page_display_on_the_Get_Blank_Form_to_get_the_survey_form.png" alt="Page display on the Get Blank Form to get the survey form" />
+<p align="center"><i>Page display on the Get Blank Form to get the survey form</i><p align="center"></p>
+
+<h4 id="2-fill-the-survey-form"><strong>2. Fill the Survey Form</strong></h4>
+
+<ul>
+<li>To fill the form, back to the start page and select <strong>Fill Blank Form</strong> menu. And then select one form blank that you want to fill in the survey form list.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0208_Fill_Blank_Form_options_for_filling_out_the_survey_form_and_blank_survey_form_list.png" alt="Fill Blank Form options for filling out the survey form and blank survey form list" />
+<p align="center"><i>Fill Blank Form options for filling out the survey form and blank survey form list</i><p align="center"></p>
+
+<ul>
+<li>Swipe to right or left on the screen to move the next/previous page. Questions that have a red star in the top left are required and you can not go to next question if the answer is empty.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0209_Examples_of_mandatory_question_red_star.png" alt="Examples of mandatory question (red star)" />
+<p align="center"><i>Examples of mandatory question (red star)</i><p align="center"></p>
+
+<ul>
+<li>You can take photos directly by choose <strong>Take Picture</strong> option or select a photo from your photo gallery by select <strong><em>Choose Image</em></strong>.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0210_Take_photo_display_in_ODK_Form.png" alt="Take photo display in ODK Form" />
+<p align="center"><i>Take photo display in ODK Form</i><p align="center"></p>
+
+<ul>
+<li>To add object location points include OSM object tag, you can use additional application, that is OpenMapKit (OMK). You can immediately switch to OMK application by press <strong>Launch OpenMapKit</strong> on the form. You can learn about using OMK application in the module <strong>Using the OpenMapKit</strong>.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0211_Launch_OpenMapKit_button_on_the_survey_form.png" alt="Launch OpenMapKit button on the survey form" />
+<p align="center"><i>Launch OpenMapKit button on the survey form</i><p align="center"></p>
+
+<ul>
+<li>At the end, you can name the form, tick check <strong>Mark form as finalized</strong> and at the end choose <strong>Save Form and Exit</strong> to finalize the final form survey.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0212_Finalization_of_page_views_on_the_survey_form.png" alt="Finalization of page views on the survey form" />
+<p align="center"><i>Finalization of page views on the survey form</i><p align="center"></p>
+
+<h4 id="3-edit-the-completed-survey-form"><strong>3. Edit the Completed Survey Form</strong></h4>
+
+<p>The saved form automatically save in ODK Collect. If you want to edit the completed form, you can follow this step:</p>
+
+<ul>
+<li>You can back to start page and choose <strong>Edit Saved Form</strong>.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0213_Edit_Saved_Form_for_edit_the_saved_form.png" alt="Edit Saved Form for edit the saved form" />
+<p align="center"><i>Edit Saved Form for edit the saved form</i><p align="center"></p>
+
+<ul>
+<li>Select the form that you want to edit by press the form and you can edit the form.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0214_Edit_save_form_page_to_select_the_form_that_you_want_to_edit.png" alt="Edit save form page to select the form that you want to edit" />
+<p align="center"><i>Edit save form page to select the form that you want to edit</i><p align="center"></p>
+
+<ul>
+<li>Then, press floppy disk icon<br /></li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0215_A_completed_survey_form_and_icon_to_save_changes.png" alt="Edit save form page to select the form that you want to edit" />
+<p align="center"><i>Edit save form page to select the form that you want to edit</i><p align="center"></p>
+
+<h4 id="4-upload-survey-forms-to-server"><strong>4. Upload Survey Forms to Server</strong></h4>
+
+<p>After you fill and save the form, the next step is upload form survey to server.  You can follow this step to upload form to server:</p>
+
+<ul>
+<li>To upload the form return to the server, you can choose <strong>Send Finalized Form</strong>.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0216_Send_Finalized_Form_to_upload_a_survey_form_to_the_server.png" alt="Send Finalized Form to upload a survey form to the server" />
+<p align="center"><i>Send Finalized Form to upload a survey form to the server</i><p align="center"></p>
+
+<ul>
+<li>Form survey is saved on that page and ready to send. You can choose <strong>Select All</strong> to select all forms first.</li>
+<li>Make sure you are connected on the internet. Then press <strong>Send Selected</strong> and wait until the process_ upload_ the form is complete.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0217_Survey_forms_that_are_ready_to_send_in_the_Send_Finalized_Form.png" alt="Survey forms that are ready to send in the Send Finalized Form" />
+<p align="center"><i>Survey forms that are ready to send in the Send Finalized Form</i><p align="center"></p>
+
+<ul>
+<li>All forms that have been successfully uploaded will be stored in <strong>View Sent Form</strong> menu and the icon turn into green.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0218_View_Sent_Form_and_survey_form_that_have_been_successfully_uploaded_to_the_server.png" alt="View Sent Form and survey form that have been successfully uploaded to the server" />
+<p align="center"><i>View Sent Form and survey form that have been successfully uploaded to the server</i><p align="center"></p>
+
+<ul>
+<li>After upload the form, you can delete the form in <strong>_Delete Saved Form _</strong>menu.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0219_Delete_Saved_Form_menu_for_delete_the_form.png" alt="Delete Saved Form menu for delete the form" />
+<p align="center"><i>Delete Saved Form menu for delete the form</i><p align="center"></p>
+
+<ul>
+<li>You can delete the the filled form in <strong>Saved Forms</strong> option and delete the blank form in <strong>Blank Forms</strong> option. You should choose the form that you want to delete or <strong>Select All</strong> for delete all form.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0220_Delete_Saved_Form_option.png" alt="Delete Saved Form option" />
+<p align="center"><i>Delete Saved Form option</i><p align="center"></p>
+
+<ul>
+<li>You need to confirm to delete the survey form by choose <strong>Delete Forms</strong></li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0221_Delete_confirmation_dialog_box.png" alt="Delete confirmation dialog box" />
+<p align="center"><i>Delete confirmation dialog box</i><p align="center"></p>
+
+<h4 id="5-upload-survey-form-to-google-drive"><strong>5. Upload Survey Form to Google Drive</strong></h4>
+
+<p>After you upload all the survey form to server, you need to save and upload the survey result file in .zip format in Google Drive folder that was created by your mapping supervisor. This is the step:</p>
+
+<ul>
+<li>Go File Manager or File Explorer on your smartphone and open your internal storage. Then open ODK folder. This folder contains all the survey result file which stored on ODK Collect application. Then select instances folder which contains *.osm file from object survey result.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0222_Instances_folder_in_ODK_folder_and_the_survey_result_in_instances_folder.png" alt="Instances folder in ODK folder and the survey result in instances folder" />
+<p align="center"><i>Instances folder in ODK folder and the survey result in instances folder</i><p align="center"></p>
+
+<ul>
+<li>Before you move <strong>instances</strong> folder to your computer, you need to convert the folder to .zip format by pressing the <strong>instances</strong> folder and select <strong>Compress</strong>. You can change the .zip file name.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0223_The_step_for_convert_to_zip_format.png" alt="The step for convert to .zip format" />
+<p align="center"><i>The step for convert to .zip format</i><p align="center"></p>
+
+<ul>
+<li>After you move .zip file to your computer, you can upload the file to Google Drive that already set by your mapping supervisor.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0224_The_zip_file_that_ready_to_move_to_computer.png" alt="The .zip file that ready to move to computer" />
+<p align="center"><i>The .zip file that ready to move to computer</i><p align="center"></p>
+
+<ul>
+<li>You can upload the file to Survey Result folder (or another name that your mapping supervisor made) by click right on your mouse then choose **Upload Files **and choose the file that you want to upload.</li>
+</ul>
+
+<p><img src="../../../images/using-odk-collect/0225_The_folder_on_Google_Drive_for_upload_zip_file.png" alt="The folder on Google Drive for upload .zip file" />
+<p align="center"><i>The folder on Google Drive for upload .zip file</i><p align="center"></p>
+
+<h3 id="summary"><strong>SUMMARY</strong></h3>
+
+<p>If you can follow all the stages in this module, you already then you have successfully understood the use of ODK Collect as a tool for collecting data in the field. In addition, you have also successfully implemented the operation of the initial settings in ODK Collect and how to use ODK Collect to retrieve field data. Later, you will learn about other data collection tools in the field, OpenMapKit (OMK) application.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/field-mapping-management/using_odk_collect.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/toolbox/commit/ccdcb07142742eade014420babb45a3af2e22bf4" title='Last modified August 13, 2019 11:48 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Aug 13, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#i-what-is-odk-collect"><strong>I. What is ODK Collect?</strong></a></li>
+<li><a href="#ii-initial-setup-for-odk-collect"><strong>II. Initial Setup for ODK Collect</strong></a>
+<ul>
+<li><a href="#1-set-the-url-server"><strong>1. Set the URL Server</strong></a></li>
+<li><a href="#2-set-the-image-size"><strong>2. Set the Image Size</strong></a></li>
+</ul></li>
+<li><a href="#iii-odk-collect-basic-operations"><strong>III. ODK Collect basic operations</strong></a>
+<ul>
+<li><a href="#1-how-to-get-a-blank-form-survey-from-server"><strong>1. How To Get a Blank Form Survey From Server</strong></a></li>
+<li><a href="#2-fill-the-survey-form"><strong>2. Fill the Survey Form</strong></a></li>
+<li><a href="#3-edit-the-completed-survey-form"><strong>3. Edit the Completed Survey Form</strong></a></li>
+<li><a href="#4-upload-survey-forms-to-server"><strong>4. Upload Survey Forms to Server</strong></a></li>
+<li><a href="#5-upload-survey-form-to-google-drive"><strong>5. Upload Survey Form to Google Drive</strong></a></li>
+</ul></li>
+<li><a href="#summary"><strong>SUMMARY</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/toolbox" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>
