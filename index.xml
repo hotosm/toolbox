@@ -54,6 +54,16 @@
     </item>
     
     <item>
+      <title>Resolving Conflict on OpenStreetMap Data (OSM)</title>
+      <link>/pages/digitization-and-editing/3-5-data-conflict-in-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3-5-data-conflict-in-josm/</guid>
+      <description>Objectives:
+ Participants can explain what is data conflict on OpenStreetMap Participants knowing about types of conflict in JOSM Participants can fix data conflicts using JOSM Participants know to avoid data conflict in JOSM  When you are uploading your changes in JSOM, some contributors might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
