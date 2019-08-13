@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Using the OpenMapKit Application</title>
+      <link>/pages/field-mapping-management/using_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/using_openmapkit/</guid>
+      <description>Objectives:
+ Able to explain OpenMapkit as one of the tools for collecting infrastructure data Able to operate the initial setup for OpenMapKit Able to operate how to enter offline basemap for OpenMapKit Able to operate OpenMapKit  Previously you already learn the ODK (OpenDataKit) Collect, an android-based application to replace paper form for surveys. ODK Collect has extension called OpenMapKit (OMK). This extension is used to add information on the position or location of the object surveyed.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
