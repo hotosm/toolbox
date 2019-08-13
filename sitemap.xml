@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/pages/field-mapping-management/using_osm_tracker/</loc>
+    <lastmod>2019-08-13T19:14:50+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
   </url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-13T18:57:20+07:00</lastmod>
+    <lastmod>2019-08-13T19:14:50+07:00</lastmod>
     <priority>0</priority>
   </url>
   

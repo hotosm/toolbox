@@ -30,5 +30,18 @@
  Able to explain OpenMapkit as one of the tools for collecting infrastructure data Able to operate the initial setup for OpenMapKit Able to operate how to enter offline basemap for OpenMapKit Able to operate OpenMapKit  Previously you already learn the ODK (OpenDataKit) Collect, an android-based application to replace paper form for surveys. ODK Collect has extension called OpenMapKit (OMK). This extension is used to add information on the position or location of the object surveyed.</description>
     </item>
     
+    <item>
+      <title>Using OSMTrackers</title>
+      <link>/pages/field-mapping-management/using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/using_osm_tracker/</guid>
+      <description>Objectives:
+ Explain OSMTracker as one of survey tools for recording tracks and photos
+ How to set up the OSMTracker for the first time
+ Learn how to use OSMTracker
+  I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+    </item>
+    
   </channel>
 </rss>
