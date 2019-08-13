@@ -1,0 +1,736 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT Toolbox</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../">
+        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT Toolbox</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../pages/digitization-and-editing/3.4-getting-started-with-osm/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../pdfs/HOT_Toolbox.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li><a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.1-mapping-project-workflow/">
+    1.1 Mapping Project Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.1.1-legit-project-workflow/">
+    1.1.1 LEGIT Project Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.3-hardware/">
+    1.3 Hardware</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/">
+    1.4 Safety and Security for Field Operations</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/">
+    1.5.1 Setting up phones and servers</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.8-trainings-and-workshops/">
+    1.8 Trainings and Workshops</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Core Technology 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/core-technology/2.1-openstreetmap/">
+    2.1 OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/core-technology/2.1.1-opening-osm-accounts/">
+    2.1.1 Opening OSM accounts</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Digitization and Editing 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.4-getting-started-with-osm/" class="active">
+    Getting started with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/">
+    3.1 Working with the HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.2-working-with-imagery/">
+    3.2 Working With Imagery</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3-editing-with-id-and-josm/">
+    3.3 Editing with iD and JOSM</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Collection and Field Mapping 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/">
+    4.1.2 Designing The Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
+    4.2 Data collection applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
+    4.3 Navigation Applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/">
+    4.4 Creating forms (ODK OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/">
+    4.5 Creating .mbtiles</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
+    4.6 Creating .osm Layers for OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/">
+    4.7 Data Collection Servers</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Cleaning Upload and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/">
+    5.1.1 Server Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/">
+    5.1.2 Serverless Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
+    5.2 OMK Field Data Cleaning Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/">
+    5.3 Data Cleaning with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
+    5.4 Quality Assurance and Quality Control</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Management 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/using_odk_collect/">
+    Using ODK Collect Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/using_openmapkit/">
+    Using the OpenMapKit Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/using_osm_tracker/">
+    Using OSMTrackers</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-export/6.1-hot-export-tool/">
+    6.1 HOT Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/6.2-hdx/">
+    6.2 Humanitarian Data Exchange (HDX)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
+    7.1.4 Creating Maps in Print Composer</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1-qgis/">
+    7.1 Introduction to QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">
+    7.1.5 Creating an Atlas in QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/">
+    7.4 OSM Analytics</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Getting started with OpenStreetMap</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Getting started with OpenStreetMap</h1>
+    <a href="../../../pdfs/3.4-Getting-Started-with-OSM.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Objective:</strong></p>
+
+<ul>
+<li>To be able to operate and navigate the OpenStreetMap website</li>
+<li>To be able to see object information in OpenStreetMap</li>
+<li>To be able to create share link in OpenStreetMap</li>
+<li>To be able to save images from OpenStreetMap</li>
+<li>To be able to create user account in OpenStreetMap</li>
+<li>To be able to understand the basic concept of attribute in OpenStreetMap</li>
+<li>To be able to understand history in OpenStreetMap</li>
+</ul>
+
+<p>After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap. In this module you will start to get to know the OpenStreetMap site, create an OSM account, and find out the menu buttons and how to use them.</p>
+
+<h3 id="i-visit-the-openstreetmap-website"><strong>I. Visit the OpenStreetMap website</strong></h3>
+
+<p>To be able to visit OpenStreetMap (OSM) site, make sure your computer is connected to the internet network. The steps to visit OpenStreetMap site are as follows:</p>
+
+<ul>
+<li>Open the web browser in your computer such as <strong>Mozilla Firefox</strong>, <strong>Google Chrome</strong>, <strong>Internet Explorer</strong>, <strong>Safari</strong>, etc.</li>
+<li>Type  <a href="http://www.openstreetmap.org/">www.openstreetmap.org</a> in the address bar at the top of the window and press Enter.</li>
+<li>When the page has finished loading, you should see the page below:</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0201_peta_osm.png" alt="OpenStreetMap website (openstreetmap.org)" />
+<p align="center"><i>OpenStreetMap website (openstreetmap.org)</i></p></p>
+
+<h3 id="ii-navigate-the-map"><strong>II. Navigate the map</strong></h3>
+
+<p>In the main view of the OpenStreetMap website, you will see a large map in it. You must be able to navigate the map so you can go to a location that you want. Here are the ways to navigate the map on OpenStreetMap:</p>
+
+<ul>
+<li>Use the left mouse to drag the map view. Left-click on your mouse, then hold and drag the map to the location that you want. If you don&rsquo;t have a mouse, you can press and hold the right touchpad and then move the cursor.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0202_mouse.png" alt="How to drag the map view" />
+<p align="center"><i>How to drag the map view</i></p></p>
+
+<ul>
+<li>Use <strong>(+)</strong> and <strong>(-)</strong> button in the upper right corner of the map to zoom in and zoom out the map view. You also can use your mouse scroll-wheel to zoom your map. Scroll your mouse up to zoom in, while scroll down to zoom out.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0204_scroll_zoom.png" alt="How to zoom in and out the map view" />
+<p align="center"><i>How to zoom in and out the map view</i></p></p>
+
+<ul>
+<li>To search the location based on the name, type the location name on the <strong>Search</strong> box in the upper left side on the screen. You can type it in the search column, then press <strong>Enter</strong> or click <strong>Go</strong>. After that a <strong>Search Results</strong> box will appear below the search column, then you can choose and click on the search. The map will automatically move to the location you chose.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0205_pencarian_lokasi.png" alt="Steps to find location using Search box" />
+<p align="center"><i>Steps to find location using Search box</i></p></p>
+
+<ul>
+<li>To display your current location, you can go to the map panel to the right of the map and click <strong>Show My Location</strong> button. Then, the map will automatically display your current location point (blue dot). Make sure to enable the GPS on your laptop or computer to allow OSM to get your current location.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0206_0207_tombol_show_loc.png" alt="The display of Show My Location feature" />
+<p align="center"><i>The display of Show My Location feature</i></p></p>
+
+<h3 id="iii-change-different-style-options-for-the-map"><strong>III. Change different style options for the map</strong></h3>
+
+<p>OpenStreetMap contains geographic data from all over the world. Although stored in one database, the data can be displayed in several styles. The steps to change style map in OSM are as follows:</p>
+
+<ul>
+<li>Click <strong>Layers</strong> button in the right panel on the map.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0208_tombol_layer.png" alt="The Layers button to change background layer" />
+<p align="center"><i>The Layers button to change background layer</i></p></p>
+
+<p>OSM has four types of layers with different functions, namely:</p>
+
+<ul>
+<li><em>Standard</em>: This layer shows all the objects on the OSM map.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0209_standard_layer.png" alt="Standard Layer" />
+<p align="center"><i>Standard Layer</i></p></p>
+
+<ul>
+<li><em>Cycle Map</em> :  This layer emphasizes cycling routes  and pedestrian roads.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0210_cycle_map.png" alt="Cycle Map layer" />
+<p align="center"><i>Cycle Map layer</i></p></p>
+
+<ul>
+<li><em>Transport Map</em>: This layer emphasizes transportation routes on the map such as highways and bus stop.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0211_transport_layer.png" alt="Transport Map Layer" />
+<p align="center"><i>Transport Map Layer</i></p></p>
+
+<ul>
+<li><em>Humanitarian</em>: This layer emphasizes important objects or amenities on the map such as school, hospital, etc.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0212_humanitarian_layer.png" alt="Humanitarian Layer" />
+<p align="center"><i>Humanitarian Layer</i></p></p>
+
+<h3 id="iv-see-the-object-information-in-openstreetmap"><strong>IV. See the object information in OpenStreetMap</strong></h3>
+
+<p>In the OpenStreetMap page, besides see the current location and navigate the map, you also can see the feature  information using Query Features. The steps to use Query Features are below:</p>
+
+<ul>
+<li>Click on <strong><em>Query Features</em></strong> button on the panel in the right. After you clicked it, you should see the question mark on your cursor. This indicates that the query features function is activated.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0213_query_features.png" alt="Query Features button" />
+<p align="center"><i>Query Features button</i></p></p>
+
+<ul>
+<li><p>Now you can choose an object or location that you want to identify. For this example, we click on a governmental office building (Dinas Kesehatan) in Jakarta.</p></li>
+
+<li><p>You should see a box appears in left corner that displays <strong>Nearby Features</strong> and <strong>Enclosing Features</strong> options. Nearby Features shows the description of any object that is closest to the location of your chosen point, while Enclosing features shows all the object information that have a close range location with your chosen point. Try to click one feature in the Nearby Features, click <strong><em>Governmental office</em> Dinas Kesehatan</strong> for this example.</p></li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0214_nearby_features.png" alt="Nearby features dan Enclosing features in Query Features" />
+<p align="center"><i>Nearby features dan Enclosing features in Query Features</i></p></p>
+
+<ul>
+<li>After you clicked it, the information detail about Dinas Kesehatan building will appear in the left box. The information displayed is a tag or object attribute regarding general information objects such as object names, addresses, building levels, and others.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0215_hasil_query.png" alt="Query Features result" />
+<p align="center"><i>Query Features result</i></p></p>
+
+<h3 id="v-share-with-link-in-openstreetmap"><strong>V. Share with link in OpenStreetMap</strong></h3>
+
+<p>You can share links of your  OpenStreetMap maps to others for various purposes, such as sharing the location of your current position with your colleagues and so on. To be able to share OpenStreetMap maps, the steps are as follows:</p>
+
+<ul>
+<li>Click the <strong>Share</strong> button on the right panel, then the Share column will appear.</li>
+<li>Check the <strong>Include marker</strong> to add the location marker point. You can move or drag the marker point to the desired location. Just click and hold the location marker then you drag to the desired location point. Another way is to shift the map so that the location marker is in the position you want.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0216_include_marker.png" alt="Add marker point" />
+<p align="center"><i>Add marker point</i></p></p>
+
+<ul>
+<li>Once the marker position has fixed, you can copy the link in the <strong>Link</strong> box and share the link according to your needs. You can also copy a shorter version of the link in the <strong>Short Link box</strong> or copy the HTML code in the <strong>HTML</strong> box.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0217_membagikan_tautan.png" alt="Share the link of the  map in OpenStreetMap" />
+<p align="center"><i>Share the link of the  map in OpenStreetMap</i></p></p>
+
+<h3 id="vi-export-map-as-an-image"><strong>VI.  Export map as an image</strong></h3>
+
+<p>Besides changing the layer map, you also can export the map as an image and choose the various format file such as  <em>.png</em>, <em>.jpg</em>, <em>.svg</em>, and <em>.pdf</em>. The steps to export the map are as follows:</p>
+
+<ul>
+<li>Click on the <strong>Share</strong> icon in the right of your map. Then the Share column will appear on the right side of your screen.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0218_tombol_ekspor.png" alt="Share button to export the map" />
+<p align="center"><i>Share button to export the map</i></p></p>
+
+<ul>
+<li>After that, specify the area on the map that you want to export as an image. Give a check mark on the <strong>Set custom dimensions</strong> box in the <strong>Image</strong> section, then adjust the size of the box or adjust the scale in the <strong>Scale</strong> section.</li>
+</ul>
+
+<blockquote>
+<p>Note :
+You can only export map as image if you set the Standard Layer view. If your map does not use the Standard Layer, you need to change it first on the Layers menu.</p>
+</blockquote>
+
+<ul>
+<li>You can choose the format of the export image in the <strong>Format</strong> dropdown menu. After that, click <strong>Download</strong> button to download the image and save the image to your folder location.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0219_ekspor_gambar.png" alt="Image section to export the map" />
+<p align="center"><i>Image section to export the map</i></p></p>
+
+<h3 id="vii-see-the-editing-history-in-openstreetmap"><strong>VII. See the editing history in OpenStreetMap</strong></h3>
+
+<p>When you edit objects or make changes to OpenStreetMap, you can see the editing history of objects in that area. The steps to see editing history are as follows:</p>
+
+<ul>
+<li>You can see the information by clicking on the <strong>History</strong> menu button on the top left of the map.</li>
+<li>After that, the <strong>Changesets</strong> column will appear at the bottom of the Search box and orange boxes will appear on the map that indicates which areas have just been edited. Changeset is a version of every change uploaded by OSM users. The information that we can see in the Changesets column is as follows:</li>
+</ul>
+
+<ol>
+<li>Changeset comment. It is recommended that you write the short comment when uploading changes or changeset. Comments can contain information about any changes that you made or specific hashtags.</li>
+<li>Upload time information.</li>
+<li>OSM username.</li>
+<li>Changeset number. This number is a unique number as the changeset identity.</li>
+</ol>
+
+<p><img src="../../../images/getting-started-osm/0220_melihat_history.png" alt="Changeset history in OpenStreetMap" />
+<p align="center"><i>Changeset history in OpenStreetMap</i></p></p>
+
+<ul>
+<li>You can click one of the changeset on the changeset list or you can immediately select the orange box on the map. After you select one of the changeset, you will get details about the changeset.</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0221_detail_changeset.png" alt="The changeset details" />
+<p align="center"><i>The changeset details</i></p></p>
+
+<h3 id="viii-create-an-openstreetmap-account"><strong>VIII. Create an OpenStreetMap Account</strong></h3>
+
+<p>You have seen the display and main menus from the OpenStreetMap website, now you will learn how to create an account at OpenStreetMap and make the first contribution on OpenStreetMap. The steps are:</p>
+
+<ul>
+<li>Click <strong>Sign Up</strong> on the OpenStreetMap page. You should see a new page that look like this:</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0222_membuat_akun.png" alt="Sign up page" />
+<p align="center"><i>Sign up page</i></p></p>
+
+<ul>
+<li><p>There are five boxes on this page that you need to fill in to register an account with OSM. Firstly, enter your <strong>email address</strong> in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.</p></li>
+
+<li><p>In the third box, enter the username that you would like to have. If you try to use a simple name, it is likely that someone has already claimed the name. You will not be able to choose a username that someone else has chosen before, so pick the available name for your username.</p></li>
+
+<li><p>Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes and the password. You should not use an important one such as the password for your email. After you have completed all the boxes, click <strong>Sign Up</strong> at the bottom of the page.</p></li>
+</ul>
+
+<p>At this stage, you have successfully registered yourself on the OpenStreetMap site, but your account is still not active yet.  To activate it, the steps that must be taken are as follows:</p>
+
+<ul>
+<li>Open the new tab on your browser and open your email.</li>
+<li>If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox.</li>
+<li>Open the email. Click on the link that is identified below:</li>
+</ul>
+
+<p><img src="../../../images/getting-started-osm/0223_verifikasi_email.png" alt="Notification of OSM registered account" />
+<p align="center"><i>Notification of OSM registered account</i></p></p>
+
+<ul>
+<li>After that, a new tab of OSM page  will appear in your browser. If everything went well, congratulations you already have an OSM account!</li>
+</ul>
+
+<blockquote>
+<p>Note :
+If a problem occurs, a problem message will appear. Make sure that the email you entered is the same as in the first two boxes and your password. If the box for the user name is red then someone else has already used the name and you have to look for another name.</p>
+</blockquote>
+
+<ul>
+<li>On the OpenStreetMap page, click <strong>Log In</strong> in the upper right corner. Enter your OpenStreetMap username and password then press <strong>Enter</strong>. You should now be logged in and you will see your username on the top right of the OpenStreetMap site.</li>
+</ul>
+
+<p>Congratulations! If you have done all the steps in this section, you already have an OpenStreetMap account and already know how to navigate the OpenStreetMap website.</p>
+
+<h3 id="ix-the-basic-concept-of-openstreetmap-attribute"><strong>IX. The basic concept of OpenStreetMap attribute</strong></h3>
+
+<ol>
+<li><p><strong>The attribute concept on object</strong></p>
+
+<p>When you draw an object as a point, line, or polygon in OSM, you still need to add information about the object such as object name, address, or other supporting information. This information will help other users when using OSM data for various purposes. Information provided by users on OSM objects is called an <strong>attribute</strong> or <strong>tag</strong>.</p>
+
+<p>An attribute/tag is like a label that you can place on an object. For example, if you draw a square, this is only a square without any object information. But you can add attributes to describe that object, for example you draw a square that is is a building; the name of the building is &ldquo;Tebet Hospital&rdquo;;  10 level building.</p></li>
+
+<li><p><strong>Components in OpenStreetMap attribute data</strong></p>
+
+<p>You can add as many attributes / tags as you want to an object. Attributes are stored as a pair of text, named <strong>Key</strong> and <strong>Value</strong>. <em>Key</em> is general information that explains the function of an object. In one key, it can consist of many values. For example schools, mosques, and hospitals have key=amenities (important facilities). Although the three objects have different types of functions, but all three objects have the same key. Whereas <em>Value</em> ​​is information that more specifically explains the type of an object. Because this value describes specific information about an object, so that one type of value can only describes the type of the object itself. Not the same as a key that can explain general information about the object. In OpenStreetMap, an attribute is added by formatting a key-value pair that represents physical features on the ground, for example:</p>
+
+<p><img src="../../../images/getting-started-osm/0224_atribut_objek_osm.png" alt="The example of object attributes" />
+<p align="center"><i>The example of object attributes</i></p></p>
+
+<p>In the example above, there are four kinds of key &amp; value attributes, including object amenities for hospital (amenity = hospital), building objects (building = yes), building level 10 (building:levels = 10) and object name Tebet Hospital’ (name = Tebet Hospital).</p></li>
+
+<li><p><strong>World and Indonesian OpenStreetMap tagging guidelines</strong></p>
+
+<p>For providing information on the object that you mapped, you need to ensure that the information is correct and suitable with OpenStreetMap rules. You need to make sure the reference is correct if you want to describe features by tag. OpenStreetMap has provided a special Wikipedia page that you can refer to. You can see the page on the Map Features Wiki page at <a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a>.</p>
+
+<p><img src="../../../images/getting-started-osm/0225_map_features.png" alt="Main page of Wiki Map Features and list of feature table" />
+<p align="center"><i>Main page of Wiki Map Features and list of feature table</i></p></p>
+
+<p>Pages from Map Features that contain inforation about objects in OpenStreetMap are considered not enough to help especially for specific objects that usually only exist in a certain country, including Indonesia. Sometimes users do not get enough information about the object tag and they end up skipping the object because of different names.</p>
+
+<p>Usually objects in Indonesia have their own local names such as Posyandu (health service for children and infants), Pesantren (islamic boarding school), and others. You do not need to be confused in searching for and memorizing attribute lists because you can see a list of object attributes that you can see on the Wikipedia page <a href="https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines">https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines</a></p>
+
+<p><img src="../../../images/getting-started-osm/0226_indonesia_wiki.png" alt="Indonesia Wiki OSM Tagging Guideline" />
+<p align="center"><i>Indonesia Wiki OSM Tagging Guideline</i></p></p>
+
+<p>The Wikipedia page was specifically created to provide references to OSM objects attributes in Indonesia. On that page, the objects will be divided into several categories which will be adapted from the objects in Indonesia.</p>
+
+<p><img src="../../../images/getting-started-osm/0227_indonesia_objek.png" alt="List of Indonesia object attributes" />
+<p align="center"><i>List of Indonesia object attributes</i></p></p></li>
+</ol>
+
+<p><strong>SUMMARY</strong></p>
+
+<p>If you can follow and practice all the sections in this chapter, then you have succeeded in creating an OSM account, operating and navigating the OpenStreetMap website. In addition, you have also successfully shared OSM map images and shared links to other people. In the next chapter you will learn how to use Java OpenStreetMap (JOSM).</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/digitization-and-editing/3.4-Getting-Started-with-OSM.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/toolbox/commit/e6846b3dd6fd4c701e1a969405600de51d9d9961" title='Last modified August 13, 2019 12:27 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Aug 13, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#i-visit-the-openstreetmap-website"><strong>I. Visit the OpenStreetMap website</strong></a></li>
+<li><a href="#ii-navigate-the-map"><strong>II. Navigate the map</strong></a></li>
+<li><a href="#iii-change-different-style-options-for-the-map"><strong>III. Change different style options for the map</strong></a></li>
+<li><a href="#iv-see-the-object-information-in-openstreetmap"><strong>IV. See the object information in OpenStreetMap</strong></a></li>
+<li><a href="#v-share-with-link-in-openstreetmap"><strong>V. Share with link in OpenStreetMap</strong></a></li>
+<li><a href="#vi-export-map-as-an-image"><strong>VI.  Export map as an image</strong></a></li>
+<li><a href="#vii-see-the-editing-history-in-openstreetmap"><strong>VII. See the editing history in OpenStreetMap</strong></a></li>
+<li><a href="#viii-create-an-openstreetmap-account"><strong>VIII. Create an OpenStreetMap Account</strong></a></li>
+<li><a href="#ix-the-basic-concept-of-openstreetmap-attribute"><strong>IX. The basic concept of OpenStreetMap attribute</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/toolbox" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>

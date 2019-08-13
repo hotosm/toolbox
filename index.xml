@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Getting started with OpenStreetMap</title>
+      <link>/pages/digitization-and-editing/3.4-getting-started-with-osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.4-getting-started-with-osm/</guid>
+      <description>Objective:
+ To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
       <title>Using ODK Collect Application</title>
       <link>/pages/field-mapping-management/using_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
