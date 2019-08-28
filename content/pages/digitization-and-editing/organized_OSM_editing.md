@@ -11,7 +11,7 @@ No matter the scope of your project you will need to determine:
 
 *  [Who will be digitizing for your project?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#sourcing-your-remote-mappers)
 *  [Do Organized Editing Guidelines requirements apply to you?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#organised-editing-compliance-procedures)
-*  
+*  How will you manage your organized OSM editing efforts? 
 
 ## Sourcing your remote mappers
 Remote mapping takes time and effort. This process can take several different forms ranging from being quickly completed with a few volunteer mappers for a small area to an organized, paid team working for several months to complete a region. The resources and time needed to map your area of interest depends on:
@@ -21,17 +21,19 @@ Remote mapping takes time and effort. This process can take several different fo
 * **Available resources**: Does your project have budget to pay digitizers and validators?
 * **Features and attributes**: Does your project require only buildings to be mapped? Roads? Will any features (such as roof:material) be added by remote mappers?
 
+### Options for remote mappers
 
+* **Global HOT/OSM Community**: The global community is a wonderful and FREE source of remote mappers. As of September 2019, 180,000 volunteers from around the world have mapped over 2 million tasks on HOT's Tasking Manager to support mapping efforts around the world. 
+* **Large Paid team of digitizers (5+ people)**:
+* **Small paid/unpaid team of digitizers (less than 5 people)**:
+
+[insert general guidelines on mapping rates]
 
 Whenever possible, we recommend sourcing local mappers to be part of the digitization efforts. And remember, it is critical that no matter what plan you choose, that it includes a validation and quality control plan!
 
-* [insert general guidelines on mapping rates]
-* [insert example plan] / example team structures
-* [insert example & blank task tracking]
-
 ## Organised Editing Compliance Procedures
 
-_HOT’s suggested procedures for complying with the Organised Editing Guidelines (OEG) - Draft February-June 2019_
+_HOT’s suggested procedures for complying with the Organised Editing Guidelines (OEG) - as of June 2019_
 
 
 ### Purpose:
@@ -46,7 +48,8 @@ What problem(s) does the OEG aim to address, and how can we best comply with, an
 
 
 ### Documentation:
-
+* [insert example plan] / example team structures
+* [insert example & blank task tracking]
 
 
 *   The official OEG can be found here: [https://osmfoundation.org/wiki/Organised_Editing_Guidelines](https://osmfoundation.org/wiki/Organised_Editing_Guidelines) 
@@ -138,4 +141,8 @@ For HOT, most projects fall under OEG compliance, and will share the following:
     * Before closing your project out, make sure there is a final blog-post or report documenting the closure.
         * Doc/report does not need to be full report requested by a donor, as example, but generally the results: successful or not, lessons learned
         * Last, move your row in the OEG Activities table from Active to Previous
+
+
         
+## Organizing your editing efforts
+
