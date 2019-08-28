@@ -44,12 +44,13 @@ Skills and Technology Needed</description>
     </item>
     
     <item>
-      <title>4.4 Creating forms (ODK OMK)</title>
+      <title>4.4 Creating forms for ODK &amp; OMK</title>
       <link>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</guid>
-      <description>Form design Creating ODK forms
+      <description>Survey Form Design When using ODK and OMK survey applications, you will need to create the files that will serve as the survey forms.
+Creating ODK forms
 Forms can be created using spreadsheet software (such as Excel or LibreCalc) or using the ODK Form Builder. Documentation on how to design a form can be found here.
  Example ODK form Blank ODK form  Creating OMK forms Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or LibreCalc).</description>
     </item>

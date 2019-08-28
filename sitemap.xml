@@ -69,7 +69,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-14T13:49:02+07:00</lastmod>
+    <lastmod>2019-08-28T15:01:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,7 +150,7 @@
   
   <url>
     <loc>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</loc>
-    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+    <lastmod>2019-08-28T15:01:59-04:00</lastmod>
   </url>
   
   <url>
@@ -225,17 +225,14 @@
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/pages/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
