@@ -69,7 +69,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-28T15:01:59-04:00</lastmod>
+    <lastmod>2019-08-28T15:44:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,6 +131,11 @@
   <url>
     <loc>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/organized_osm_editing/</loc>
+    <lastmod>2019-08-28T15:44:06-04:00</lastmod>
   </url>
   
   <url>

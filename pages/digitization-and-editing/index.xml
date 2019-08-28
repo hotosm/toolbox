@@ -62,5 +62,14 @@ The iD editor is a user-friendly tool that allows you to directly make changes i
  Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
     </item>
     
+    <item>
+      <title>3.4 Organized OSM Editing</title>
+      <link>/pages/digitization-and-editing/organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/organized_osm_editing/</guid>
+      <description>Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed during field mapping efforts.</description>
+    </item>
+    
   </channel>
 </rss>
