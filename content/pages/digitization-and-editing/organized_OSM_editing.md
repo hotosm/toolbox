@@ -87,8 +87,7 @@ What exactly is required by the Organized Editing Guidelines (OEG)?
 #### Does this apply to me?
 
 
-
-![drawing](https://docs.google.com/a/google.com/drawings/d/12345/export/png)
+[insert photo]
 
 
 #### Common Elements:
