@@ -3,16 +3,17 @@ title : 3.4 Organized OSM Editing
 bookShowToC: True
 ---
 
-Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed during field mapping efforts.  
+Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed otherwise.  
 
 While the anticipated project workflow influences the area to be remotely mapped, it is important to note that the budget and time available may place restrictions on what is feasible to be digitized. In this way, remote mapping can also influence the workflow, making the remote mapping plan an important part of the planning process.
 
 No matter the scope of your project you will need to determine:
-*  [Who will be digitizing for your project?]
-*  [Do Organized Editing Guidelines requirements apply to you?]
+
+*  [Who will be digitizing for your project?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#sourcing-your-remote-mappers)
+*  [Do Organized Editing Guidelines requirements apply to you?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#organised-editing-compliance-procedures)
 
 ## Sourcing your remote mappers
-Remote mapping takes time and effort. This process can take several different forms ranging from being quickly completed with a few volunteer mappers for a small area to an organized, paid team several months to complete a region. The resources and time needed to map your area of interest depends on:
+Remote mapping takes time and effort. This process can take several different forms ranging from being quickly completed with a few volunteer mappers for a small area to an organized, paid team working for several months to complete a region. The resources and time needed to map your area of interest depends on:
 
 * **Size of your area of interest**: Are you mapping one city or an entire district? 
 * **Timeline**: Does the area need to be mapped in a few weeks? Months?
@@ -59,23 +60,23 @@ What exactly is required by the Organized Editing Guidelines (OEG)?
 
 
 1. Project Documentation on the [OSM Wiki](https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Humanitarian_OpenStreetMap_Team):
-    1. Organisation and contact info 
-        a. description and link to organization
-        b. a way to contact the project manager or team
-    2. Project details 
-        a. _the goal and purpose of the activity_
-        b. _the timeframe for the activity_
-        c. _any non-standard tools and data sources used, and their usage conditions_
-        d. _links where the community can access any non-standard tools or data sources_
-    3. Standard changeset comment
-        a. specific hashtag for tracking
-        b. link to related organized editing activity
-    4. Team information
-        a. the accounts of participating persons _that wish to be identified_, with any details they wish to include
-        b. _if participants will receive training material or written instructions, a copy of, or link to, these materials_
+    * Organisation and contact info 
+        * description and link to organization
+        * a way to contact the project manager or team
+    * Project details 
+        * _the goal and purpose of the activity_
+        * _the timeframe for the activity_
+        * _any non-standard tools and data sources used, and their usage conditions_
+        * _links where the community can access any non-standard tools or data sources_
+    * Standard changeset comment
+        * specific hashtag for tracking
+        * link to related organized editing activity
+    * Team information
+        * the accounts of participating persons _that wish to be identified_, with any details they wish to include
+        * _if participants will receive training material or written instructions, a copy of, or link to, these materials_
             1. links to organized editing organization(s) and activity(ies) on user profile
             2. sufficient training for project (i.e. local tagging schemas, etc.)
-        c. _if the success or performance of participants will be measured in any way, a description of the metrics used for this_
+        * _if the success or performance of participants will be measured in any way, a description of the metrics used for this_
 2. Project Execution and Follow-up
     5. Communication with the local community
         a. 2 week notice for non-emergency projects, open forum/mailing list
