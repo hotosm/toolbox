@@ -18,14 +18,33 @@ Remote mapping takes time and effort. This process can take several different fo
 
 * **Size of your area of interest**: Are you mapping one city or an entire district? 
 * **Timeline**: Does the area need to be mapped in a few weeks? Months?
-* **Available resources**: Does your project have budget to pay digitizers and validators?
+* **Resources needed**: Does your project have budget to pay digitizers and validators?
+* **Quality**: What are your resources for ensuring that the mapped data is high quality? Does the data need to be immediately high quality, or is there room for new mappers to make mistakes? 
 * **Features and attributes**: Does your project require only buildings to be mapped? Roads? Will any features (such as roof:material) be added by remote mappers?
 
-### Options for remote mappers
+### Sourcing Options
 
 * **Global HOT/OSM Community**: The global community is a wonderful and FREE source of remote mappers. As of September 2019, 180,000 volunteers from around the world have mapped over 2 million tasks on HOT's Tasking Manager to support mapping efforts around the world. 
-* **Large Paid team of digitizers (5+ people)**:
-* **Small paid/unpaid team of digitizers (less than 5 people)**:
+    * *Size of AOI*: With a large pool of individuals to choose from, the global community can cover any size of digitization efforts, from a neighborhood to entire countries. 
+    * *Timeline*: While the global community is known for it's rapid response in the wake of disasters and immediate humanitarian needs, other types of projects should not rely on the community to map areas within a controlled timeframe. Relying on the global community to map a district in Liberia, could take a week or several months depending on interest in the project and other urgent mapping needs. 
+    * *Quality*: The disadvantage of using the global community for remote mapping efforts is that it can be more difficult to control the quality of data being immediately mapped. While all remote mapping should be validated, the wide range of skills and experience (as well as understanding of the project needs) could mean that additional efforts will be required to review and fix any mistakes made by remote mappers.  
+    * *Resources needed*: As already stated, using the global community for mapping has the great advantage of being completely free!
+    * *Features and attributes*: Tasks best suited for the larger community are those that are simplest. Additional instructions beyond tracing buildings is feasible, but extra checks will be necessary for coverage as some mappers may miss detailed instructions.  
+    
+* **Paid team of digitizers (5+ people)**: Some projects may find that the best way to meet the needs of their project is to hire a small team of dedicated digitizers to systematically map an area. 
+    * *Size of AOI*: Like the global community, digitization teams can cover any amount of area with enough time. As team members are dedicated to the mapping task, digitization teams can handle larger areas over a shorter period than the global community. 
+    * *Timeline*: For meeting tight deadlines, a dedicated team of digitizers can be the best option as it ensures that the mapping task can be effectively planned and executed. Meeting that timeline does depend on the number of digitizers hired and their experience. HOT has found that newly trained teams of digitizers can map 500-1000 buildings a day depending on the imagery quality and density of mapping.  
+    * *Quality*:   
+    * *Resources needed*: Budget for paying digitizers is required. Also recommended is providing a dedicated workspace and consistent internet connection, as well as laptops where needed. 
+    * *Features and attributes*: 
+    
+* **Mixed approach: paid digitizers and global community**:
+    * *Size of AOI*:  
+    * *Timeline*:  
+    * *Quality*:   
+    * *Resources needed*: 
+    * *Features and attributes*: 
+
 
 [insert general guidelines on mapping rates]
 
@@ -36,7 +55,7 @@ Whenever possible, we recommend sourcing local mappers to be part of the digitiz
 _HOT’s suggested procedures for complying with the Organised Editing Guidelines (OEG) - as of June 2019_
 
 
-### Purpose:
+### Purpose
 
 What problem(s) does the OEG aim to address, and how can we best comply with, and address, these concerns?
 
@@ -47,17 +66,14 @@ What problem(s) does the OEG aim to address, and how can we best comply with, an
 *   **Conflict Resolution** - the OEG attempts to provide a basis for coordinating, as well as a mechanism for local communities to form a complaint against an organized editing activity.
 
 
-### Documentation:
-* [insert example plan] / example team structures
-* [insert example & blank task tracking]
-
+### Documentation
 
 *   The official OEG can be found here: [https://osmfoundation.org/wiki/Organised_Editing_Guidelines](https://osmfoundation.org/wiki/Organised_Editing_Guidelines) 
 *   The official OEG Activities page here: [https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities](https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities) 
 *   The HOT OEG Activities page here: [https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Humanitarian_OpenStreetMap_Team](https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Humanitarian_OpenStreetMap_Team) 
 
 
-### Requirements: 
+### Requirements 
 
 What exactly is required by the Organized Editing Guidelines (OEG)?
 
@@ -89,13 +105,13 @@ What exactly is required by the Organized Editing Guidelines (OEG)?
     * _After the activity has completed, or at least once a month for ongoing efforts, a description of the results_.
 
 
-#### Does this apply to me?
+### Does this apply to me?
 
 
 [insert graphic]
 
 
-#### Common Elements:
+**Common Elements:**
 
 _Common elements of projects can be jointly-documented among projects._ 
 
@@ -145,4 +161,5 @@ For HOT, most projects fall under OEG compliance, and will share the following:
 
         
 ## Organizing your editing efforts
-
+* [insert example plan] / example team structures
+* [insert example & blank task tracking]
