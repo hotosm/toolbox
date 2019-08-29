@@ -38,12 +38,12 @@ Remote mapping takes time and effort. This process can take several different fo
     * *Resources needed*: Budget for paying digitizers is required. Also recommended is providing a dedicated workspace and consistent internet connection, as well as laptops where needed. 
     * *Features and attributes*: 
     
-* **Mixed approach: paid digitizers and global community**:
-    * *Size of AOI*:  
-    * *Timeline*:  
-    * *Quality*:   
-    * *Resources needed*: 
-    * *Features and attributes*: 
+* **Mixed approach: paid digitizers and global community**: When there are timelines in place but the scope of the work is too large for your team, one option is to have a mix of paid digitizers and the global community. 
+    * *Size of AOI*:  If you have a small team, combining efforts with the global community can help you achieve a much larger area. 
+    * *Timeline*: By including some paid digitizers, this method can help keep the project in development while relying on the global community.  
+    * *Quality*:   Additionally, by including paid digitizers, your team can choose to focus on validating the efforts of the global community and increase the consistency of quality mapping edits. 
+    * *Resources needed*: Smaller budget than a full team, but will still likely need to provide a dedicated workspace and consistent internet connection. 
+    * *Features and attributes*: If there are unique features and attributes that rely on local context, you can rely on the global community to develop the basemap and then your paid team can add those features later. Or, you can use your small team to validate the special features and attributes added by the global community. 
 
 
 [insert general guidelines on mapping rates]
@@ -51,6 +51,8 @@ Remote mapping takes time and effort. This process can take several different fo
 Whenever possible, we recommend sourcing local mappers to be part of the digitization efforts. And remember, it is critical that no matter what plan you choose, that it includes a validation and quality control plan!
 
 ## Organised Editing Compliance Procedures
+
+The OSM Foundation has set up Organised Editing Guidelines for documenting organized editing efforts. While it is not a requirement or policy, HOT highly encourages all groups to comply with these procedures when applicable. For simplicity and ease of understanding these guidelines, HOT has developed the following guide, however, HOT does not take responsibility for compliance. 
 
 _HOT’s suggested procedures for complying with the Organised Editing Guidelines (OEG) - as of June 2019_
 
