@@ -1,0 +1,46 @@
+---
+title: Managing Teams in the Field using OSMTracker and QGIS
+weight: 4
+bookShowToC: True
+---
+
+
+## Overview
+Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.
+ 
+When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work. Once this is done, they will then go ahead and create small sections of the mapping area, that can be covered in a day by a team of two mappers or a single mapper depending on the team arrangement.
+
+Similar to the grid in Tasking Manager, creating sections for mapping allows supervisors to divide tasks, monitor progress, and be able to assess gaps or quality issues. 
+
+**Skills and Technology Needed**
+
+*  Computer
+*  QGIS Installed
+*  Basic QGIS skills
+
+The following activity covers the process of generating mapping sections in QGIS for printing or importing files into OSMAnd. This activity uses the example of leading a team of 8 mapping volunteers to map Grootfontein Town, in Northern Namibia, during a Malaria Elimination Project. Example files are provided for this activity but can be followed with files provided by the user.
+
+## Creating Mapping Sections in QGIS for Printed Maps
+
+Step 1: To begin, open QGIS on your computer and start a new project. 
+
+Step 2: Create an empty shapefile naming it: _grootfontein_sections.shp_
+
+Step 3: Create sections of the town, giving them numbers. These sections should follow natural features or prominent landmarks such as swamps or roads. This is to ensure that ease of location of these sections by mappers.
+
+Step 4: Make maps showing these sections. These maps can be printed out for sharing with the mapping volunteers. Teams can now head to their allocated sections to conduct field mapping.
+
+##  Creating and Importing Mapping Sections into OSMAnd
+ 
+**OSMAnd** provides a great alternative to printing out these sections maps. With OSMAnd, the Supervisor can instead use the following steps to give sections to team members for use in the field directly on their mobile devices.
+
+
+Step 1: Export sections centroids from the _grootfontein_sections.shp_ giving you _grootfontein_sections_centroids.shp_
+
+Step 2: In QGIS, save the sections shapefiles (_grootfontein_sections.shp_) and the centroids shapefile (_grootfontein_sections_centroids.shp_) as a .gpx giving you a _grootfontein_sections.gpx_ and _grootfontein_sections_centroids.gpx._
+
+Step 3: Transfer these two .gpx files from you computer to the _/Phone/Android/data/net.osmand/files/tracks _folder
+
+Step 4: Open OSMAnd application and load these two files via _Menu button -> My Places -> Tracks -> Browse to where the files are located_
+
+The sections gpx file will show you boundaries of the sections and the centroids gpx file will show you section numbers once a centroid point is selected. With these two, volunteers can move in the field using the OSMAnd app, locating their positions each time as well as the sections in which they are standing.
