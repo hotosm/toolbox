@@ -79,6 +79,11 @@
   </url>
   
   <url>
+    <loc>/pages/digitization-and-editing/3.5_validating_with_josm/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</loc>
     <priority>0</priority>
   </url>
