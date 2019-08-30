@@ -23,6 +23,7 @@ Remote mapping takes time and effort. This process can take several different fo
 * **Features and attributes**: Does your project require only buildings to be mapped? Roads? Will any features (such as roof:material) be added by remote mappers?
 
 ### Sourcing Options
+The following a few recommendations on how to organize and source your mappers based on our best experiences. 
 
 * **Global HOT/OSM Community**: The global community is a wonderful and FREE source of remote mappers. As of September 2019, 180,000 volunteers from around the world have mapped over 2 million tasks on HOT's Tasking Manager to support mapping efforts around the world. 
     * *Size of AOI*: With a large pool of individuals to choose from, the global community can cover any size of digitization efforts, from a neighborhood to entire countries. 
@@ -45,8 +46,8 @@ Remote mapping takes time and effort. This process can take several different fo
     * *Resources needed*: Smaller budget than a full team, but will still likely need to provide a dedicated workspace and consistent internet connection. 
     * *Features and attributes*: If there are unique features and attributes that rely on local context, you can rely on the global community to develop the basemap and then your paid team can add those features later. Or, you can use your small team to validate the special features and attributes added by the global community. 
 
-**Hosting Mapathons:** Another option that blends utilizing volunteers with some of the benefits of a dedicated team is hosting a series of Mapathons. These mapathons typically bring together groups of volunteers (ranging from university students to corporate volunteer events) to map a task together in person. 
- * *Size of AOI*:  The amount of area that can be covered depends on the number of people attending the mapathons, the number of mapathons hosted, and the skill level of volunteers. In general, this option is only recommended for smaller areas.  
+* **Hosting Mapathons:** Another option that blends utilizing volunteers with some of the benefits of a dedicated team is hosting a series of Mapathons. These mapathons typically bring together groups of volunteers (ranging from university students to corporate volunteer events) to map a task together in person. 
+    * *Size of AOI*:  The amount of area that can be covered depends on the number of people attending the mapathons, the number of mapathons hosted, and the skill level of volunteers. In general, this option is only recommended for smaller areas.  
     * *Timeline*: This option can be faster than relying solely on the global community, but slower than having a dedicated team of volunteers. Again, the speed of mapping depends on the skill level of the mappers, frequency and number of events, if the same mappers attend each event, and how much training will be required.   
     * *Quality*:   Since mapathons generally bring new or inexperienced mappers together, mapathons have the possibility of requiring more effort on the validation side of mapping. However, if the same attendees regularly participate,  this data quality will increase.  
     * *Resources needed*: Smaller budget than a dedicated in-person team, but event space, internet, and refreshments will need to be covered. 
