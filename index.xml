@@ -66,19 +66,6 @@ A new window will be created with a blank page. This shows how your map will loo
     
     <item>
       <title></title>
-      <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
-      <description>Overview Validation is the process of checking the work of previous mappers for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. While light validation can be completed using iD Editor, HOT recommends that detailed validation be completed using JOSM.
-Skills and Technology Needed
- Computer Internet connection OSM account [JOSM]  Resources
-Training Materials
- Presentation [1]  Practice Validation The following activity covers the process of validating bad OSM data in JOSM.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/pages/running-a-mapping-project/1.1-mapping-project-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -221,6 +208,19 @@ For information on Managing and Creating Projects on the HOT Tasking Manager, se
 iD Editor
 The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
  Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
+    </item>
+    
+    <item>
+      <title>3.5 Validating with JOSM</title>
+      <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
+      <description>Overview Validation is the process of checking the work of previous mappers for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. While light validation can be completed using iD Editor, HOT recommends that detailed validation be completed using JOSM.
+Skills and Technology Needed
+ Computer Internet connection OSM account [JOSM]  Resources
+Training Materials
+ Presentation [1]  Practice Validation The following activity covers the process of validating bad OSM data in JOSM.</description>
     </item>
     
     <item>
