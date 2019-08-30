@@ -69,7 +69,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-30T13:12:09-04:00</lastmod>
+    <lastmod>2019-08-30T13:14:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,18 +139,18 @@
   </url>
   
   <url>
-    <loc>/pages/digitization-and-editing/3.2-working-with-imagery/</loc>
-    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</loc>
-    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</loc>
     <lastmod>2019-08-30T13:12:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/3.3.2-working-with-imagery/</loc>
+    <lastmod>2019-08-30T13:14:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</loc>
+    <lastmod>2019-08-30T13:14:41-04:00</lastmod>
   </url>
   
   <url>
