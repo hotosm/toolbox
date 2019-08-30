@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Getting started with OpenStreetMap</title>
-      <link>/pages/digitization-and-editing/3.4-getting-started-with-osm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.4-getting-started-with-osm/</guid>
-      <description>Objective:
- To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
-    </item>
-    
-    <item>
       <title>Resolving Conflict on OpenStreetMap Data (OSM)</title>
       <link>/pages/digitization-and-editing/3-5-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,6 +41,25 @@ Note: To become a project manager send an email to info@hotosm.</description>
     </item>
     
     <item>
+      <title>3.1.2 Getting started with OpenStreetMap</title>
+      <link>/pages/digitization-and-editing/3.1.2-getting-started-with-osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.1.2-getting-started-with-osm/</guid>
+      <description>Objective:
+ To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>3.2 Organized OSM Editing</title>
+      <link>/pages/digitization-and-editing/3.2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.2_organized_osm_editing/</guid>
+      <description>Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed otherwise.</description>
+    </item>
+    
+    <item>
       <title>3.2 Working With Imagery</title>
       <link>/pages/digitization-and-editing/3.2-working-with-imagery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,15 +79,6 @@ Note: To become a project manager send an email to info@hotosm.</description>
 iD Editor
 The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
  Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
-    </item>
-    
-    <item>
-      <title>3.4 Organized OSM Editing</title>
-      <link>/pages/digitization-and-editing/organized_osm_editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/organized_osm_editing/</guid>
-      <description>Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed otherwise.</description>
     </item>
     
   </channel>
