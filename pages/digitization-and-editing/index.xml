@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Resolving Conflict on OpenStreetMap Data (OSM)</title>
-      <link>/pages/digitization-and-editing/3-5-data-conflict-in-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3-5-data-conflict-in-josm/</guid>
-      <description>Objectives:
- Participants can explain what is data conflict on OpenStreetMap Participants knowing about types of conflict in JOSM Participants can fix data conflicts using JOSM Participants know to avoid data conflict in JOSM  When you are uploading your changes in JSOM, some contributors might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -75,18 +65,6 @@ To get started, you will need to create an account on www.openstreetmap.org. Ple
     </item>
     
     <item>
-      <title>3.3 Editing with iD and JOSM</title>
-      <link>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.3-editing-with-id-and-josm/</guid>
-      <description>There are several ways to edit in OpenStreetMap. The two most commonly used tools and best programs for mapping projects are iD editor and JOSM.
-iD Editor
-The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
- Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
-    </item>
-    
-    <item>
       <title>3.3 Working with the HOT Tasking Manager</title>
       <link>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -104,6 +82,28 @@ For information on Managing and Creating Projects on the HOT Tasking Manager, se
       <guid>/pages/digitization-and-editing/3.3.2-working-with-imagery/</guid>
       <description>Assessing available imagery Satellite imagery There is only a limited number of companies/satellites that actually capture most of the available satellite imagery, with many more resellers providing access to and selling imagery. See Wikipedia for a good introduction. When assessing the imagery available for your project, try to look for:
  Freshness (the date of the imagery) Resolution Quality (color, contract, obliqueness/angle of imagery, lack of cloud cover)  Some useful tools to help in this:</description>
+    </item>
+    
+    <item>
+      <title>3.4 Editing with iD and JOSM</title>
+      <link>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</guid>
+      <description>There are several ways to edit in OpenStreetMap. The two most commonly used tools and best programs for mapping projects are iD editor and JOSM.
+iD Editor
+The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
+ Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
+    </item>
+    
+    <item>
+      <title>3.6 Resolving conflicts in JOSM</title>
+      <link>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</guid>
+      <description>Objectives:
+ Participants can explain what is data conflict on OpenStreetMap Participants knowing about types of conflict in JOSM Participants can fix data conflicts using JOSM Participants know to avoid data conflict in JOSM  When you are uploading your changes in JSOM, some contributors might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</description>
     </item>
     
   </channel>
