@@ -31,13 +31,13 @@ def main():
             if os.path.isfile(os.path.join('content',item)):
                 ext = os.path.splitext(item)[1]
                 if ext != '.md':
-                    copyfile(os.path.join('content', item), os.path.join('pdf-build',item))
+                    shutil.copyfile(os.path.join('content', item), os.path.join('pdf-build',item))
         # move image files
         for path, _, files in os.walk('content/pages'):
             for filename in files:
                 ext = os.path.splitext(filename)[1]
                 if ext != '.md':
-                    copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
+                    shutil.copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
         for path, _, files in os.walk('static/'):
             p = pathlib.Path(path)
             cleaned_path = p.relative_to(*p.parts[:2])
@@ -90,7 +90,7 @@ def main():
                         if content:
                             contents.append({'name':filename, 'content': content})
                     else:
-                        copyfile(os.path.join(path,filename), os.path.join('pdf-build',lang_key,filename))
+                        shutil.copyfile(os.path.join(path,filename), os.path.join('pdf-build',lang_key,filename))
             full_pdf_content = "\n\n\pagebreak\n\n"
             for item in sorted(contents, key=lambda k: k['name']):
                 full_pdf_content += item['content']
