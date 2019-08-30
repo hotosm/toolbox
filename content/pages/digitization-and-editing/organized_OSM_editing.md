@@ -10,8 +10,8 @@ While the anticipated project workflow influences the area to be remotely mapped
 No matter the scope of your project you will need to determine:
 
 *  [Who will be digitizing for your project?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#sourcing-your-remote-mappers)
+*  [How will you manage your organized OSM editing efforts?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#organizing-your-digitization-efforts) 
 *  [Do Organized Editing Guidelines requirements apply to you?](https://hotosm.github.io/toolbox/pages/digitization-and-editing/organized_osm_editing/#organised-editing-compliance-procedures)
-*  How will you manage your organized OSM editing efforts? 
 
 ## Sourcing your remote mappers
 Remote mapping takes time and effort. This process can take several different forms ranging from being quickly completed with a few volunteer mappers for a small area to an organized, paid team working for several months to complete a region. The resources and time needed to map your area of interest depends on:
@@ -57,6 +57,7 @@ _Whenever possible, we recommend sourcing local mappers to be part of the digiti
 
 ## Organizing your digitization efforts
 Once you decide how you will source your team of mappers (paid or unpaid, local or remote), you will need to set up a plan and gather resources. Here's a checklist of some questions to consider:
+
 * **What will be your team structure?** We recommend having one dedicated validator for every five digitizers. 
 * **Have you trained validators?** Our training materials for validators are available [here].
 * **How will you track the progress of your mapping?** When setting up a large number of mapping tasks, it helps to set up a tracker to monitor the progress of all tasks. [insert example & blank task tracking]
