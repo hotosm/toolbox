@@ -171,13 +171,15 @@ The power of OpenStreetMap is that it empowers anyone, anywhere in the world to 
     </item>
     
     <item>
-      <title>3.1 Working with the HOT Tasking Manager</title>
-      <link>/pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/</link>
+      <title>3.1.1 Opening OSM accounts</title>
+      <link>/pages/digitization-and-editing/3.1.1-opening_osm_accounts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/3.1-working-with-the-hot-tasking-manager/</guid>
-      <description>Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap. The purpose of the tool is to divide up a mapping project into smaller tasks that can be completed rapidly with many people working on the same overall area. It shows which areas need to be mapped and which areas need the mapping validated.
-For information on Managing and Creating Projects on the HOT Tasking Manager, see [Managing Projects on Tasking Manager].</description>
+      <guid>/pages/digitization-and-editing/3.1.1-opening_osm_accounts/</guid>
+      <description>With OpenStreetMap (OSM) at the core of mapping activities, it is critical that all team members and participants have activated OSM accounts. This will be necessary before using many mapping tools such as HOT Tasking Manager, JOSM, and HOT Export Tool.
+Skills and Technology Needed
+ Computer Activated email account Internet connection  Creating an OSM Account
+To get started, you will need to create an account on www.openstreetmap.org. Please use the “Sign Up” tab in the top right corner to begin.</description>
     </item>
     
     <item>
@@ -219,6 +221,16 @@ For information on Managing and Creating Projects on the HOT Tasking Manager, se
 iD Editor
 The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:
  Simple edits Fast Internet access to load the imagery and save the edits. Following a consistent and simple tagging scheme. When you are restricted from installing a program on the computer you are using.</description>
+    </item>
+    
+    <item>
+      <title>3.3 Working with the HOT Tasking Manager</title>
+      <link>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</guid>
+      <description>Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap. The purpose of the tool is to divide up a mapping project into smaller tasks that can be completed rapidly with many people working on the same overall area. It shows which areas need to be mapped and which areas need the mapping validated.
+For information on Managing and Creating Projects on the HOT Tasking Manager, see [Managing Projects on Tasking Manager].</description>
     </item>
     
     <item>
