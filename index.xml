@@ -146,16 +146,6 @@ Some attendee requirements may include:</description>
     </item>
     
     <item>
-      <title>2.1 OpenStreetMap</title>
-      <link>/pages/core-technology/2.1-openstreetmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/core-technology/2.1-openstreetmap/</guid>
-      <description>OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&amp;rsquo;s mapping activities. You are free to use it for any purpose as long as you credit OSM and its contributors.
-The power of OpenStreetMap is that it empowers anyone, anywhere in the world to add information to a collective map and use the data for any purpose. You can think of OSM as the “Wikipedia of maps” – it is an online database and global community of over 5 million registered users.</description>
-    </item>
-    
-    <item>
       <title>2.1.1 Opening OSM accounts</title>
       <link>/pages/core-technology/2.1.1-opening-osm-accounts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
