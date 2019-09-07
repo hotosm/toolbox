@@ -429,9 +429,21 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
-<h2 id="tagging">Tagging</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Tags are used in OSM to categorize features, and to add information that is useful for:</p>
+<p>When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. Creating a data model should be done in collaboration with all stakeholders in order to ensure that all necessary information is collected - it is a lot more difficult to revisit a location for mapping to collect additional information.  At the same time, when designing a data model you should consider how much time it will take for a surveyor to complete data collection - every feature type, attribute, or question will add additional time needed.</p>
+
+<p>A <strong>data model</strong> defines what features are surveyed or mapped and what attributes are collected for each feature.
+If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
+
+<p><strong>Example data models:</strong></p>
+
+<ul>
+<li><a href="https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data">Uganda Refugee Crisis</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
+</ul>
+
+<p><strong>Tags</strong> are used in OSM to categorize features, and to add information that is useful for:</p>
 
 <ul>
 <li>Understanding of the map</li>
@@ -448,34 +460,49 @@ https://github.com/hotosm/hugo-book
 <li>amenity=school</li>
 </ul>
 
-<h3 id="resources">Resources</h3>
+<p>In addition, each of these features can have an unlimited number of related attributes added into OSM as tags. For example, a building might have the following tags:</p>
+
+<ul>
+<li>building=commercial</li>
+<li>building:material=brick</li>
+<li>roof:material=metal</li>
+<li>shop=tailor</li>
+</ul>
+
+<h2 id="presentations">Presentations</h2>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">Data models and tagging</a> <a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">1</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
 
 <ul>
 <li>Check the <a href="https://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap wiki</a>. Start at the Map features page, search, and discover!</li>
 <li>Research tag use and occurence on <a href="https://taginfo.openstreetmap.org/">TagInfo</a></li>
 </ul>
 
-<h2 id="data-models">Data Models</h2>
-
-<p>A data model defines what features are surveyed or mapped and what attributes are collected for each feature.
-If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
-
-<h3 id="example-data-models">Example data models</h3>
-
-<ul>
-<li><a href="https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data">Uganda Refugee Crisis</a></li>
-<li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
-</ul>
-
 <hr />
 
-<h2 id="training-activity">Training Activity</h2>
-
-<p><strong>Presentation</strong>: <a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225</a></p>
+<h2 id="creating-your-data-model">Creating your data model</h2>
 
 <p>**Estimated time:</p>
 
-<p>Skills and technology needed:**</p>
+<ol>
+<li>What is the focus of the data collection? Consider how the data will be used.</li>
+<li>What features do you want to collect? Identify the focus of the data collection.</li>
+<li>Where are you collecting data? Data models can differ based on their location.</li>
+<li>What has been done before? Draft data model by leveraging similar models.</li>
+<li>What tags exist for features?</li>
+<li>Verify tag status through OSM Wiki</li>
+<li>Verify tag usage through TagInfo</li>
+<li>Use approved tags where possible in data model</li>
+<li>Do all stakeholders agree on the data model? Review data model and incorporate feedback from project partners (adding, removing, or changing data model features can delay field data collection and decrease data quality!)</li>
+</ol>
+
+<hr />
+
+<p>Links:</p>
 </article>
 
       
@@ -489,8 +516,8 @@ If a project will upload data to OpenStreetMap, the data model should be designe
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/5773bfd0cd9c5ae1d256fdbc8a2be42dcc621739" title='Last modified July 16, 2019 22:27 UTC by Russ Biggs' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jul 16, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/9708d35f1f8d9a486902e994285dfb03edb95162" title='Last modified September 7, 2019 05:33 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Sep 7, 2019
     </a>
   </div>
   
