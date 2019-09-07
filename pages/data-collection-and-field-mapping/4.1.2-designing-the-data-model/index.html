@@ -431,10 +431,7 @@ https://github.com/hotosm/hugo-book
 
 <h2 id="overview">Overview</h2>
 
-<p>When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. Creating a data model should be done in collaboration with all stakeholders in order to ensure that all necessary information is collected - it is a lot more difficult to revisit a location for mapping to collect additional information.  At the same time, when designing a data model you should consider how much time it will take for a surveyor to complete data collection - every feature type, attribute, or question will add additional time needed.</p>
-
-<p>A <strong>data model</strong> defines what features are surveyed or mapped and what attributes are collected for each feature.
-If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
+<p>When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A <strong>data model</strong> defines what features are surveyed or mapped and what attributes are collected for each feature. If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
 
 <p>Example data models:</p>
 
@@ -443,16 +440,7 @@ If a project will upload data to OpenStreetMap, the data model should be designe
 <li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
 </ul>
 
-<p><strong>Tags</strong> are used in OSM to categorize features, and to add information that is useful for:</p>
-
-<ul>
-<li>Understanding of the map</li>
-<li>Planning</li>
-<li>Routing</li>
-<li>Querying</li>
-</ul>
-
-<p>OSM doesn’t work with layers or attribute tables, but tags. Each tag consists of a key, and a value. Each map feature should have 1 or more tags Such as:</p>
+<p>OSM doesn’t work with layers or attribute tables, but tags. <strong>Tags</strong> are used in OSM to categorize features, and to add information that is useful for understanding of the map, planning, routing, and querying. Each tag consists of a key, and a value. Each map feature should have one or more tags such as:</p>
 
 <ul>
 <li>building=residential</li>
@@ -468,6 +456,8 @@ If a project will upload data to OpenStreetMap, the data model should be designe
 <li>roof:material=metal</li>
 <li>shop=tailor</li>
 </ul>
+
+<p>Creating a data model should be done in collaboration with all stakeholders in order to ensure that all necessary information is collected - it is a lot more difficult to revisit a location for mapping to collect additional information.  At the same time, when designing a data model you should consider how much time it will take for a surveyor to complete data collection - every feature type, attribute, or question will add additional time needed.</p>
 
 <p><strong>Presentations</strong></p>
 
@@ -750,6 +740,7 @@ If a project will upload data to OpenStreetMap, the data model should be designe
 <p>Once completed with your data model, this data model should be checked by your stakeholders for any gaps. Additionally, your project plan should allow flexibility so that this data model can be adjusted with field testing and consulting your mappers.</p>
 
 <p><strong>Collecting private data</strong>
+<br>
 Private data should never be uploaded to OSM. However, some projects do require personal information to be collected. When this is the case, the data model can include unique non-OSM tags for private data that needs to be collected. When cleaning data following data collection, this private data can be kept in a full dataset before being removed. Once private data is removed, the dataset can be uploaded to OSM.</p>
 
 <hr />
@@ -768,7 +759,7 @@ Private data should never be uploaded to OSM. However, some projects do require 
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/57cde4b1b48014e09e55ecaaac40f5c9fb3fb7a1" title='Last modified September 7, 2019 06:16 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/032e3cf1bb45f2f46f812fb1ec3ea3b93a974e9b" title='Last modified September 7, 2019 06:20 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Sep 7, 2019
     </a>
   </div>
