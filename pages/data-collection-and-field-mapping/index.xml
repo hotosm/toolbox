@@ -11,13 +11,12 @@
     
     
     <item>
-      <title>4.1 Designing The Data Model</title>
-      <link>/pages/data-collection-and-field-mapping/4.1-designing-the-data-model/</link>
+      <title>4.1.2 Designing The Data Model</title>
+      <link>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/4.1-designing-the-data-model/</guid>
-      <description>Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A data model defines what features are surveyed or mapped and what attributes are collected for each feature. If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.
-Example data models:</description>
+      <guid>/pages/data-collection-and-field-mapping/4.1.2-designing-the-data-model/</guid>
+      <description>Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. Creating a data model should be done in collaboration with all stakeholders in order to ensure that all necessary information is collected - it is a lot more difficult to revisit a location for mapping to collect additional information.</description>
     </item>
     
     <item>
