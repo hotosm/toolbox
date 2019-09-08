@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>5.1 Using ODK Collect Application</title>
-      <link>/pages/field-mapping-management/5.1_using_odk_collect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/5.1_using_odk_collect/</guid>
-      <description>Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.
-This guide provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Initial Setup for ODK Collect 1.</description>
-    </item>
-    
-    <item>
       <title>Using the OpenMapKit Application</title>
       <link>/pages/field-mapping-management/using_openmapkit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,6 +41,17 @@ When planning to deploy a team, it is important for the Supervisor to have a goo
  How to set up the OSMTracker for the first time
  Learn how to use OSMTracker
   I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+    </item>
+    
+    <item>
+      <title>5.1 Using ODK Collect</title>
+      <link>/pages/field-mapping-management/5.1_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/5.1_using_odk_collect/</guid>
+      <description>Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.
+This guide provides surveyors, mappers and field supervisors with the skills to:
+ Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Initial Setup for ODK Collect 1.</description>
     </item>
     
   </channel>
