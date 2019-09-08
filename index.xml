@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Using the OpenMapKit Application</title>
-      <link>/pages/field-mapping-management/using_openmapkit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/using_openmapkit/</guid>
-      <description>Objectives:
- Able to explain OpenMapkit as one of the tools for collecting infrastructure data Able to operate the initial setup for OpenMapKit Able to operate how to enter offline basemap for OpenMapKit Able to operate OpenMapKit  Previously you already learn the ODK (OpenDataKit) Collect, an android-based application to replace paper form for surveys. ODK Collect has extension called OpenMapKit (OMK). This extension is used to add information on the position or location of the object surveyed.</description>
-    </item>
-    
-    <item>
       <title>Managing Teams in the Field using OSMTracker and QGIS</title>
       <link>/pages/field-mapping-management/managing_teams_in_the_field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -336,6 +326,15 @@ This guide provides surveyors, mappers and field supervisors with the skills to:
 Skills and Technology Needed * JOSM
 Step 1. Create folders Create the folder structure for the data cleaning process.
  Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
+    </item>
+    
+    <item>
+      <title>5.2 Using the OpenMapKit Application</title>
+      <link>/pages/field-mapping-management/5.2_using_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/5.2_using_openmapkit/</guid>
+      <description>Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms. In determining the location of an object, OpenMapKit requires a map background in the form of a satellite imagery or OSM map. If you use the OSM as the map background, the thing to note is that the data must be available on the OSM server.</description>
     </item>
     
     <item>
