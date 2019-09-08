@@ -248,9 +248,9 @@ Which data collection application should I use?
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</guid>
-      <description>Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me
-1. OSMAnd OSMAnd is a global mobile map viewing and navigation app for online and offline OSM Maps. It is used for recording tracks as well as mapping features. It provides easy way to record and submit information in the field.
-Skills and Technology Needed</description>
+      <description>Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd [1] and Maps.me [2].
+While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.
+Additional benefits of navigation applications include: * Collecting GPX tracks: GPX tracks can be used to record field movement as well as recording highway and road routes for later digitization and upload to OSM.</description>
     </item>
     
     <item>
