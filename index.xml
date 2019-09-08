@@ -21,19 +21,6 @@ When planning to deploy a team, it is important for the Supervisor to have a goo
     </item>
     
     <item>
-      <title>Using OSMTrackers</title>
-      <link>/pages/field-mapping-management/using_osm_tracker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/using_osm_tracker/</guid>
-      <description>Objectives:
- Explain OSMTracker as one of survey tools for recording tracks and photos
- How to set up the OSMTracker for the first time
- Learn how to use OSMTracker
-  I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -345,6 +332,15 @@ Step 1. Create folders Create the folder structure for the data cleaning process
       <guid>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</guid>
       <description>There are tools built into JOSM, as well as additional plugins that can assist with data quality control during the upload process.
  Filters is a built-in tool that allows you to disable, hide, select, and highlight specific groups of objects based on flexible custom parameters. This tool will help you to spot and avoid common mistakes, and review data. The Validation Tool is another built-in tool that will review and search for common errors as well as provide warnings about potentially problematic data.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Using OSMTracker</title>
+      <link>/pages/field-mapping-management/5.3_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/5.3_using_osm_tracker/</guid>
+      <description>Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data. With these images taken, it will make your mapping more easier because you can track back what object you have been taken and take a look into your pictures for more detail.</description>
     </item>
     
     <item>
