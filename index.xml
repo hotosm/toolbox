@@ -33,19 +33,19 @@ A new window will be created with a blank page. This shows how your map will loo
     
     <item>
       <title></title>
-      <link>/pages/getting_started/1.1_mapping_project_workflows/</link>
+      <link>/pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/getting_started/1.1_mapping_project_workflows/</guid>
+      <guid>/pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/</link>
+      <link>/pages/getting_started/1.2_mapping_project_workflows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/</guid>
+      <guid>/pages/getting_started/1.2_mapping_project_workflows/</guid>
       <description></description>
     </item>
     
@@ -66,16 +66,6 @@ A new window will be created with a blank page. This shows how your map will loo
       <guid>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</guid>
       <description>Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.
 HOT, in close coordination with the LEGIT project team, have contributed to several areas of the project, working with the Ministry of Internal Affairs (MIA)’s Department of Urban Affairs, city administrations in the cities of Gbarnga, Ganta and Zwedru, and selected CSOs and CBOs.</description>
-    </item>
-    
-    <item>
-      <title>1.1.1 Workflow Example - Field mapping buildings and POI with OpenMapKit</title>
-      <link>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</guid>
-      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
-Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.</description>
     </item>
     
     <item>
@@ -413,6 +403,16 @@ Estimated time:</description>
       <guid>/pages/data-use-and-analysis/7.4-osm-analytics/</guid>
       <description>OSM Analytics allows users to understand more about how and when editing took place, or assess quality within OSM, use the OSM Analytics suite of tools. You can view how data has changed over time within OSM, understand quality within an area, or analyze what type of data is available.
 More information about OSM Analytics can be found here and here.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Example - Field Mapping Buildings and POI</title>
+      <link>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</guid>
+      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
+Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.</description>
     </item>
     
   </channel>
