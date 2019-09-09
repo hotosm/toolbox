@@ -285,16 +285,6 @@ This guide provides surveyors, mappers and field supervisors with the skills to:
     </item>
     
     <item>
-      <title>5.1.1 Server Data</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.1-server-data/</guid>
-      <description>Server data in this case refers to data sent to a server from the field. This data then has to be downloaded from the server, in order to prepare it for cleaning and validation. We will take for example data collected during the NMP Building Validation Project in Botswana. Servers used can be:
- A local Portable OpenStreetMap Server - POSM (for both ODK and OMK data) An online OpenMapKit Server (for both ODK and OMK data) KoboToolbox (for only ODK data)  Preparing OMK Data</description>
-    </item>
-    
-    <item>
       <title>5.2 OMK Field Data Cleaning Workflow</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
