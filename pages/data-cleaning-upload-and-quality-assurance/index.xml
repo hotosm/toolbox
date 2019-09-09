@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>5.1.2 Serverless Data</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1.2-serverless-data/</guid>
-      <description>Serverless data in this case refers to data collected without the use of a server to receive field data. In order to clean and validate this data, it is copied from data collection devices (phones or tablets) directly. We will take for example data collected during the Local Empowerment for Government Inclusion and Transparency Project in Liberia.</description>
-    </item>
-    
-    <item>
       <title>5.2 OMK Field Data Cleaning Workflow</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
