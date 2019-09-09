@@ -49,7 +49,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-09-08T19:11:26-04:00</lastmod>
+    <lastmod>2019-09-09T18:50:57-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,6 +66,11 @@
   <url>
     <loc>/pages/running-a-mapping-project/1.1.1-legit-project-workflow/</loc>
     <lastmod>2019-06-26T17:59:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</loc>
+    <lastmod>2019-09-09T18:50:57-04:00</lastmod>
   </url>
   
   <url>

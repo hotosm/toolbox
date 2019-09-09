@@ -10,5 +10,15 @@
 	<atom:link href="/pages/getting_started/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>1.1.1 Workflow Example - Field mapping buildings and POI with OpenMapKit</title>
+      <link>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</guid>
+      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
+Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.</description>
+    </item>
+    
   </channel>
 </rss>
