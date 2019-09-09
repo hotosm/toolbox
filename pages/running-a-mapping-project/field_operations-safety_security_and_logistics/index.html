@@ -1,0 +1,636 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT Toolbox</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../">
+        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT Toolbox</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../pages/field-mapping-management/managing_teams_in_the_field/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../pdfs/HOT_Toolbox.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Getting Started 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/">
+    1.1 Understanding the H O T Tool Ecosystem</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/getting_started/1.2_mapping_project_workflows/">
+    1.2 Mapping Project Workflows</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/">
+    Workflow Example - Field Mapping Buildings and POI</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.3-hardware/">
+    1.3 Hardware</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/">
+    1.5.1 Setting up phones and servers</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/1.8-trainings-and-workshops/">
+    1.8 Trainings and Workshops</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/field_operations-safety_security_and_logistics/" class="active">
+    Safety, Security, and Logistics for Field Operations</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Digitization and Editing 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1_introduction_to_openstreetmap/">
+    3.1 OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1.1-opening_osm_accounts/">
+    3.1.1 Opening OSM accounts</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1.2-getting-started-with-osm/">
+    3.1.2 Getting started with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.2_organized_osm_editing/">
+    3.2 Organized OSM Editing</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/">
+    3.3 Working with the HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3.2-working-with-imagery/">
+    3.3.2 Working With Imagery</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.4-editing-with-id-and-josm/">
+    3.4 Editing with iD and JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.5_validating_with_josm/">
+    3.5 Validating with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.6-data-conflict-in-josm/">
+    3.6 Resolving conflicts in JOSM</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Collection and Field Mapping 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.1-designing-the-data-model/">
+    4.1 Designing The Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
+    4.2 Data collection applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
+    4.3 Navigation Applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/">
+    4.4 Creating forms for ODK &amp; OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/">
+    4.5 Creating .mbtiles</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
+    4.6 Creating .osm Layers for OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/">
+    4.7 Data Collection Servers</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/">
+    4.8 Adding Survey Data into OSM Using JOSM</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Cleaning Upload and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
+    5.2 OMK Field Data Cleaning Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/">
+    5.3 Data Cleaning with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
+    5.4 Quality Assurance and Quality Control</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Management 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/managing_teams_in_the_field/">
+    Managing Teams in the Field using OSMTracker and QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.1_using_odk_collect/">
+    5.1 Using ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.2_using_openmapkit/">
+    5.2 Using the OpenMapKit Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/">
+    5.3 Using OSMTracker</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-export/6.1-hot-export-tool/">
+    6.1 HOT Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/6.2-hdx/">
+    6.2 Humanitarian Data Exchange (HDX)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
+    7.1.4 Creating Maps in Print Composer</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1-qgis/">
+    7.1 Introduction to QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">
+    7.1.5 Creating an Atlas in QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/">
+    7.4 OSM Analytics</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+    <li>
+      <a href="../../../pages/getting_started/">
+    
+    Getting Started</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/">
+    
+    Digitization and Editing</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/">
+    
+    Data Collection and Field Mapping</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/">
+    
+    Data Cleaning Upload and Quality Assurance</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/">
+    
+    Field Mapping Management</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Safety, Security, and Logistics for Field Operations</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Safety, Security, and Logistics for Field Operations</h1>
+    <a href="../../../pdfs/Field_Operations-Safety_Security_and_Logistics.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<h2 id="overview">Overview</h2>
+
+<p>[add]</p>
+
+<h2 id="logistics">Logistics</h2>
+
+<p>There are many components to managing logistics for field operations. The topics listed below are just a few components that we recommend all organizations and communities consider prior to starting field mapping activities.</p>
+
+<p><strong>Workspace / Meeting space</strong></p>
+
+<ul>
+<li>Do your operations require a workspace or meeting place?</li>
+<li>Does your operations require a central base with full-day access and wi-fi?</li>
+</ul>
+
+<p><strong>Equipment</strong></p>
+
+<p>Different scopes of work will require different types of equipment. For example, ODK and Kobo software can run on most Android devices, but OMK software requires higher specifications.</p>
+
+<ul>
+<li>What type of mobile devices will you use to collect data? (Mobile phones, tablets, GPS devices, etc.)</li>
+<li>Does everyone on the team have access to data collection devices?</li>
+<li>Does everyone on the team have access to computers/laptops? Or will the team plan to work in shifts?</li>
+</ul>
+
+<p><strong>Transportation</strong></p>
+
+<ul>
+<li>How will mappers move around in the field?</li>
+<li>Is the scope of work/area of interest large enough that mappers will need transportation beyond walking?</li>
+<li>What types of transportation are available?</li>
+<li>What types of transportation are safe for the context and circumstances?</li>
+<li>Will this type of transportation have associated costs? (i.e. driver fees, rental, fuel)</li>
+</ul>
+
+<h2 id="safety-security">Safety &amp; Security</h2>
+
+<p>Each context is so different that it is difficult to make specific recommendations for safety. Communities and organizations conducting mapping activities should establish contingency plans to address the different types of security incidents that may occur. Team members should coordinate all responses to such incidents so as to safeguard the rights and well-being of local community members, and ensure that staff members and volunteers are not put at risk.</p>
+
+<p>For operations, the key to effective safety and security management is the creation of a culture of security. Each staff member and volunteer has a responsibility for their own safety and security, and that of other team members.</p>
+
+<p>Please note: The below topics are suggestions for mapping teams to consider when building and discussing security plans for mapping activities, and is in no way comprehensive.</p>
+
+<ul>
+<li><strong>Personal Security</strong> - What is the appropriate behavior, dress code, language, and forms of communication when interacting with local communities and other stakeholders? Does everyone on your team understand these factors?</li>
+<li><strong>Legal requirements</strong> - Do you have a letter of permission to conduct field activities? Does your team understand local laws and customs?</li>
+<li><strong>Communications</strong> - Do you know which communication networks are best for your area of work? Have you provided all team members with internal and external contact details? Have you developed and communicated contingency plans to your team? Does your team have a method for reporting incidents and do team members know how to use it?</li>
+<li><strong>Travel</strong> - What types of travel will be required for this work? What attire, visibility, documentation is necessary for travel? What types of risks (i.e. crime, accidents) are teams exposed to?</li>
+<li><strong>Common Crime</strong> - What types of crime are common in the area of work? What is the frequency and occurrence of crime?</li>
+<li><strong>Medical Emergencies</strong> - Are managers and supervisors aware of team members’ pre-existing medical conditions? Does everyone on the team know or have access to information on the location and contact information for local health facilities and emergency services? Do all teams have access to a first aid kit? Is someone on each team trained in first aid?
+<br /></li>
+</ul>
+
+<p>For operations, the key to effective safety and security management is the creation of a culture of security. Each staff member and volunteer has a responsibility for their own safety and security, and that of other team members.</p>
+
+<p><strong>Please note: The below topics are suggestions for mapping teams to consider when building and discussing security plans for mapping activities, and is in no way comprehensive.</strong></p>
+
+<p><strong>Considerations</strong></p>
+
+<ul>
+<li>Personal Security
+
+<ul>
+<li>Behavior</li>
+<li>Dress code</li>
+<li>Language and communication</li>
+</ul></li>
+<li>Legal Requirements
+
+<ul>
+<li>Survey letter/Permission to conduct field activities</li>
+<li>Local laws and customs</li>
+</ul></li>
+<li>Communications
+
+<ul>
+<li>Communication network</li>
+<li>Internal Contact Details (mapping team)</li>
+<li>External Contact Details (authorities)</li>
+</ul></li>
+<li>Travel
+
+<ul>
+<li>Attire</li>
+<li>Visibility</li>
+<li>Documentation</li>
+<li>Accidents</li>
+<li>Theft</li>
+</ul></li>
+<li>Common Crime
+
+<ul>
+<li>Types of crime</li>
+<li>Frequency and patterns of occurence</li>
+<li>Mitigation strategies</li>
+</ul></li>
+<li>Medical Emergencies
+
+<ul>
+<li>Pre-existing medical conditions of team members</li>
+<li>Location and contact information for local health facilities</li>
+</ul></li>
+<li>Contingency Plans</li>
+<li>Incident reporting</li>
+</ul>
+
+<p><strong>Tips:</strong></p>
+
+<ul>
+<li>Know the emergency services numbers for the local area</li>
+<li>Always have access to a first aid kit</li>
+<li>Teams should have someone trained in first aid</li>
+<li>Let people decide where they work and feel most safe in</li>
+<li>Avoid performing field work alone</li>
+<li>Always obtain relevant permits, licenses, permissions, and visas for work</li>
+<li>Develop a country specific security plan</li>
+<li>Create a minor incident and suspicious activity report</li>
+<li>Establish a process for regular monitoring and review of hazards</li>
+<li>If operating outside of your home country, sign up for travel alerts from your embassy</li>
+</ul>
+
+<p>Resources:</p>
+
+<ul>
+<li><a href="https://drive.google.com/open?id=1nbAIZAuap6o1Pu_cjhtx0QUURvI--0a7">HOT General Hazard Mitigation Advice</a></li>
+</ul>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/running-a-mapping-project/Field_Operations-Safety_Security_and_Logistics.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/toolbox/commit/114a5908d078ed037b5aea9d163a89e4dd95e37d" title='Last modified September 9, 2019 23:33 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Sep 9, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#logistics">Logistics</a></li>
+<li><a href="#safety-security">Safety &amp; Security</a></li>
+</ul></li>
+</ul>
+</nav>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/toolbox" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>

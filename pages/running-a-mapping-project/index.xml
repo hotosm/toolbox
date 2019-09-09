@@ -20,16 +20,6 @@
     </item>
     
     <item>
-      <title>1.4 Safety and Security for Field Operations</title>
-      <link>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/running-a-mapping-project/1.4-safety-and-security-for-field-operations/</guid>
-      <description>Each context is so different that it is difficult to make specific recommendations for safety. Communities and organizations conducting mapping activities should establish contingency plans to address the different types of security incidents that may occur. Team members should coordinate all responses to such incidents so as to safeguard the rights and well-being of local community members, and ensure that staff members and volunteers are not put at risk.
-For operations, the key to effective safety and security management is the creation of a culture of security.</description>
-    </item>
-    
-    <item>
       <title>1.5.1 Setting up phones and servers</title>
       <link>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +40,19 @@ Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open
 Training Requirements Attendee requirements
 Requirements for attendees will vary depending on the scope of the trainings, the intended participants, and the available resources. No matter the scope of the training, it is important to communicate these requirements BEFORE the training so that participants can come prepared.
 Some attendee requirements may include:</description>
+    </item>
+    
+    <item>
+      <title>Safety, Security, and Logistics for Field Operations</title>
+      <link>/pages/running-a-mapping-project/field_operations-safety_security_and_logistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/field_operations-safety_security_and_logistics/</guid>
+      <description>Overview [add]
+Logistics There are many components to managing logistics for field operations. The topics listed below are just a few components that we recommend all organizations and communities consider prior to starting field mapping activities.
+Workspace / Meeting space
+ Do your operations require a workspace or meeting place? Does your operations require a central base with full-day access and wi-fi?  Equipment
+Different scopes of work will require different types of equipment.</description>
     </item>
     
   </channel>
