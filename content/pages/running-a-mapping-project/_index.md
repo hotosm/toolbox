@@ -1,6 +1,6 @@
 ---
 title : Designing and Coordinating a Mapping Project
-weight : 1
+weight : 2
 bookShowToC: True
 ---
 
