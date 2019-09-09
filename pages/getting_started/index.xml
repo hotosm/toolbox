@@ -11,6 +11,15 @@
     
     
     <item>
+      <title></title>
+      <link>/pages/getting_started/1.1_mapping_project_workflows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/1.1_mapping_project_workflows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>1.1.1 Workflow Example - Field mapping buildings and POI with OpenMapKit</title>
       <link>/pages/getting_started/1.1.1_example_fieldmappingbuildings_poi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
