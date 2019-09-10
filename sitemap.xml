@@ -44,7 +44,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-09-10T17:12:50-04:00</lastmod>
+    <lastmod>2019-09-10T17:26:22-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,6 +229,11 @@
   
   <url>
     <loc>/pages/</loc>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/setting_up_phones_and_servers/</loc>
+    <lastmod>2019-09-10T17:26:22-04:00</lastmod>
   </url>
   
   <url>

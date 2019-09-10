@@ -376,6 +376,17 @@ More information about OSM Analytics can be found here and here.</description>
     </item>
     
     <item>
+      <title>Setting up phones and servers</title>
+      <link>/pages/data-collection-and-field-mapping/setting_up_phones_and_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/setting_up_phones_and_servers/</guid>
+      <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
+Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
+Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
+    </item>
+    
+    <item>
       <title>Workflow Example - Field Mapping Buildings and POI</title>
       <link>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -95,5 +95,16 @@ In the &amp;lsquo;Download&amp;rsquo; window, click the tab &amp;lsquo;Download 
  To be able to install plugin Utilsplugin2 To be able to merge all survey data To be able to save .osm file using JOSM To be able to download OSM data To be able to add satellite imagery layer on JOSM To be able to add and edit OSM data using JOSM To be able to upload changes into OSM To be able to view changes of OSM data in OSM website  Adding or mapping new objects in OSM is one way to enrich OSM data.</description>
     </item>
     
+    <item>
+      <title>Setting up phones and servers</title>
+      <link>/pages/data-collection-and-field-mapping/setting_up_phones_and_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/setting_up_phones_and_servers/</guid>
+      <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
+Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
+Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
+    </item>
+    
   </channel>
 </rss>
