@@ -1,0 +1,628 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT Toolbox</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../">
+        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT Toolbox</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../pdfs/HOT_Toolbox.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Getting Started 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/getting_started/1.1_understanding_the_hot_tool_ecosystem/">
+    1.1 Understanding the H O T Tool Ecosystem</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/getting_started/1.2_mapping_project_workflows/">
+    1.2 Mapping Project Workflows</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/">
+    Workflow Example - Field Mapping Buildings and POI</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/2.1_defining_needs_and_requirements/" class="active">
+    2.1 Defining Needs and Requirements</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/">
+    2.2 Safety, Security, and Logistics for Field Operations</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/2.3-hardware/">
+    2.3 Selecting Hardware</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/2.4-trainings-and-workshops/">
+    2.4 Trainings and Workshops</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Digitization and Editing 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1_introduction_to_openstreetmap/">
+    3.1 OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1.1-opening_osm_accounts/">
+    3.1.1 Opening OSM accounts</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.1.2-getting-started-with-osm/">
+    3.1.2 Getting started with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.2_organized_osm_editing/">
+    3.2 Organized OSM Editing</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/">
+    3.3 Working with the HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.3.2-working-with-imagery/">
+    3.3.2 Working With Imagery</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.4-editing-with-id-and-josm/">
+    3.4 Editing with iD and JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.5_validating_with_josm/">
+    3.5 Validating with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/3.6-data-conflict-in-josm/">
+    3.6 Resolving conflicts in JOSM</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Collection and Field Mapping 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.1-designing-the-data-model/">
+    4.1 Designing The Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
+    4.2 Data collection applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
+    4.3 Navigation Applications</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/">
+    4.4 Creating forms for ODK &amp; OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/">
+    4.5 Creating .mbtiles</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
+    4.6 Creating .osm Layers for OMK</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/">
+    4.7 Data Collection Servers</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/">
+    4.8 Adding Survey Data into OSM Using JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/setting_up_phones_and_servers/">
+    Setting up phones and servers</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Cleaning Upload and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
+    5.2 OMK Field Data Cleaning Workflow</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/">
+    5.3 Data Cleaning with JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
+    5.4 Quality Assurance and Quality Control</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Management 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.1_using_odk_collect/">
+    5.1 Using ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.2_using_openmapkit/">
+    5.2 Using the OpenMapKit Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/">
+    5.3 Using OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/">
+    5.4 Managing Teams in the Field using OSMTracker and QGIS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-export/6.1-hot-export-tool/">
+    6.1 HOT Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/6.2-hdx/">
+    6.2 Humanitarian Data Exchange (HDX)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a> 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
+    7.1.4 Creating Maps in Print Composer</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1-qgis/">
+    7.1 Introduction to QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">
+    7.1.5 Creating an Atlas in QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/">
+    7.4 OSM Analytics</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+    <li>
+      <a href="../../../pages/getting_started/">
+    
+    Getting Started</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/running-a-mapping-project/">
+    
+    Designing and Coordinating a Mapping Project</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/digitization-and-editing/">
+    
+    Digitization and Editing</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-collection-and-field-mapping/">
+    
+    Data Collection and Field Mapping</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/">
+    
+    Data Cleaning Upload and Quality Assurance</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/field-mapping-management/">
+    
+    Field Mapping Management</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-export/">
+    
+    6. Data Export Tools</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/data-use-and-analysis/">
+    
+    Data Use and Analysis</a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" />
+  </label>
+  <strong>
+    2.1 Defining Needs and Requirements</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>2.1 Defining Needs and Requirements</h1>
+    <a href="../../../pdfs/2.1_Defining_Needs_and_Requirements.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<h3 id="3-1-deciding-what-to-map">3.1 Deciding what to map</h3>
+
+<p>Once the partners have been assembled, the next step is deciding what to map. This involves answering the following questions about what the project is attempting to accomplish.</p>
+
+<ol>
+<li><strong>Purpose and audience:</strong> All data collected needs to fulfill a specific purpose with an intended use case and/or audience. This not only defines the scope of the project and data collected but helps ensure that the data collection process is ethical and limits the burden on individuals and communities being surveyed, even if indirectly. A helpful way to think about this to ask, what problem is this project seeking to address or what question(s), or SDG indicator(s), are we hoping this data will answer once it has been collected?</li>
+<li><strong>Geographic extent:</strong> Does this mapping project involve gathering information about a city, a neighborhood, a whole country? Do the questions that the project needs answering logically connect to a particular administrative scale? Or another sort of boundary?</li>
+<li><strong>Features:</strong> What, within the geographic extent, needs to be mapped? Roads? Buildings? Particular kinds of buildings such as schools or health facilities? Is there other information such as land-use or natural features like rivers and forests that will also require mapping?</li>
+<li><strong>Attributes:</strong> What information about each feature will the team collect? For example, is knowing the width or surface of roads important to the questions the project seeks to answer? The number of stories of each building? The number of beds in each hospital?</li>
+</ol>
+
+<p>The answers to these questions will help determine if there are any existing datasets that could be used and the amount of time and resources necessary to complete the project. In some cases, it can be helpful to run a small pilot project in order to determine the best approach to data collection and develop an estimate of the level of effort required.</p>
+
+<p>To collect good data you need to employ a well-defined data model. A data model reflects the information you want to capture. Example SDG data models for OpenStreetMap can be found in Part 4.  After establishing a solid data model, it is important to create logical Field Data Collection Forms that capture the data you are looking for in the best way.</p>
+
+<h3 id="3-2-planning-and-preparation">3.2 Planning and Preparation</h3>
+
+<p>Before laying the groundwork for a field mapping project, there are several factors that you and your team should consider. Below are a selection of factors and questions that should be asked in preparation for dealing with them.</p>
+
+<p><strong>Political Climate:</strong></p>
+
+<ul>
+<li><strong>Government support</strong> - If a non-governmental organization, does local, regional, and national  government support humanitarian activities in the area? Governments may either support or oppose humanitarian organizations within their country.</li>
+<li><strong>Hostile activity</strong> - Is the area experiencing violence or hostile events? Is this activity involve groups similar to your own? Is this a secure environment to conduct your work? A hostile climate can make it extremely difficult to carry out operations.</li>
+</ul>
+
+<p><strong>Communication</strong></p>
+
+<ul>
+<li><strong>Infrastructure</strong> – Is there a foundation of technology that supports an organization? This can be related to actual hardware, software, networks, data centers, or the presence of electricity.</li>
+<li><strong>Imagery Available</strong> – Is there good quality, high-resolution imagery available, from satellites or other sources? Using aerial imagery as a background layer is considered to be the easiest way to map, particularly when many buildings need to be digitized.</li>
+<li><strong>Internet Access</strong> – Is there an Internet connection? What is the amount of bandwidth or level of connectivity? Many tools rely on Internet access. If you don’t have an Internet connection, a POSM may be a potential solution.</li>
+<li><strong>Smartphones</strong> – Does the community have smartphones? Though not essential by any means, mobile data collection is a recommended method of field mapping and is done using smartphones.</li>
+</ul>
+
+<p><strong>Literacy</strong></p>
+
+<ul>
+<li><strong>Map Literacy</strong> – Are communities aware of the basic conventions of maps, can they read them, and do they use them?</li>
+<li><strong>General Literacy</strong> – Does the community have the ability to read and write? Higher educational levels can assist the mapping process.</li>
+</ul>
+
+<p><strong>Accessibility</strong></p>
+
+<ul>
+<li><strong>Terrain Accessibility</strong> – Are areas you want to map physically accessible?</li>
+<li><strong>Transportation</strong> – How will you reach the site? Is there public transportation or do you need to hire vehicles?</li>
+</ul>
+
+<p>[image]</p>
+
+<h3 id="3-3-coordinate-with-the-local-administration-of-the-area-you-will-be-mapping">3.3 Coordinate with the local administration of the area you will be mapping</h3>
+
+<p>In many cases, mapping teams will need to carry an authorization letter or another form of permission from local officials to show credibility and to reduce potential conflict that could arise during the field data collection. We recommend that organizations and communities should request this letter from the appropriate authorities well ahead of planned mapping activities to reduce the risk of delay.</p>
+
+<p>Identifying and contacting partner organisations working locally in the area that you are planning to map is critical to ensuring local buy-in, project success, and sustainability. While contacting these can be done via email or a letter detailing your intent, in-person meetings have more weight and provide opportunity to develop a stronger relationship.</p>
+
+<h3 id="3-4-building-a-mapping-team">3.4 Building a Mapping Team</h3>
+
+<p>In most cases, non-governmental organizations and governmental agencies will draw mappers from within their own teams. However, organizations should consider the benefits of bringing in mappers from partner organizations and local communities. When working within refugee environments, it is especially important to consider incorporating refugees (and host community members) into the mapping process. By incorporating local communities, beneficiaries, and partners in the mapping team, participatory mapping activities:</p>
+
+<ul>
+<li>Increase local buy-in and representation</li>
+<li>Allow communities to directly represent their needs and values</li>
+<li>Incorporate local knowledge and perspectives that might not otherwise be accessed</li>
+<li>Empower local community members with skill development</li>
+</ul>
+
+<p>When deciding what individuals to work with, the following factors should be considered:</p>
+
+<ol>
+<li><p><strong>Community</strong> – Active participation by the affected population is essential to providing assistance that best meets their needs. The first criteria for participant selection is being from the local community. Non-governmental organizations should also consider integrating local and/or national government staff to increase buy-in and data use. Government organizations conducting mapping and survey activities should consider incorporating staff typically outside of geospatial activities as well as staff from non-governmental partner organizations. Regardless, participation from the affected population should be of the highest priority.</p></li>
+
+<li><p><strong>Motivation</strong> – Participants should have strong reasons for working. Motivations vary, but one of the strongest factors is being emotionally invested in a project. Feeling like you are making progress in meaningful work is a powerful motivator.</p></li>
+
+<li><p><strong>Non-Discrimination</strong> – no one should be discriminated against on any grounds of status, including age, gender, race, color, ethnicity, sexual orientation, language, religion, disability, health status, political or other opinion, national or social origin. None of these should be criteria in determining participants. Take into consideration pre-existing social, cultural and political dynamics or practices that may marginalize or exploit certain groups</p></li>
+
+<li><p><strong>Payment</strong> – As a general rule it is good practice to cover costs of active participants. For example, if volunteers join your team as field mappers they should be paid per diems to cover transportation and food. Projects rely on the data these volunteers collect, so it is an integral part of the work and should not be treated lightly. Of course unpaid volunteers can and should also be active participants, but organizations must judge when the line is crossed into work to avoid exploitation. Lastly, be mindful that even seemingly small payments can affect power dynamics in refugee communities and households.</p></li>
+
+<li><p><strong>Gender</strong> – Organizations should be sensitive to gender but avoid using it as criteria to determine participants, aligned with the non-discrimination principle. Within families, paying one member but not another can have unintended consequences - either positive or negative.</p></li>
+
+<li><p><strong>Training Your Team</strong> - Questions to consider when training your team:</p>
+
+<ul>
+<li><strong>What is the technical literacy of team members?</strong> Certain groups will require longer lengths of time to learn an application or tool than others.</li>
+<li><strong>What tools will you be using?</strong> The tools you use will determine the length of time and skill level demanded of your team. Additionally, the number of tools you plan to train team members in impacts the length of training and time necessary to master a skill or tool.</li>
+<li><strong>Will you be able to have hands-on and field training?</strong> Training teams in tools using hands-on approaches, including conducting trial fieldwork greatly increases the success rate of mastery and improves data quality. All trainings should incorporate a practical session if possible.</li>
+<li><strong>Will you have consistent access to internet and electricity?</strong> Some tools require internet and computer use for training.</li>
+</ul></li>
+</ol>
+
+<p>[image]</p>
+
+<p>[image]</p>
+
+<h3 id="3-6-community-entry">3.6 Community Entry</h3>
+
+<p>Community entry is the process of initiating, nurturing and sustaining a relationship in order to secure a community’s participation and interest in a program. Whether preparing to engage with refugee and host communities in a settlement setting or local communities in a capital city, there are a few recommendations and practical questions that can guide your team in mindfully establishing a relationship with a given group and setting the stage for activity implementation in a community.</p>
+
+<p>The most important thing to keep in mind is how individuals can be part of the work as members of projects. They must be given <strong>ownership</strong>. Before starting a project, objectives and strategy should be shared with community members. They should give feedback, and this should be incorporated. If certain members of the community are not given roles in the project, both in terms of strategy and implementation, you may face problems down the road.</p>
+
+<p>In the context of working with refugees, for example, who are used to seeing new projects with skepticism, it is especially important that your approach to engage with and inform these groups of the upcoming work is prioritized over activity implementation and achieving results. Many organizations and individuals use humanitarian crises as opportunities to exploit people – whether deliberately or through incompetence. It is crucial to build <strong>trust</strong> and <strong>respect</strong> between the organization and community. Though protected under international law, refugees in host countries are subject to municipal and national authorities. The presence of refugees can put pressure on host communities, which often fuels prejudice. Therefore, the final aspect of successful community entry is taking into account the host community’s concerns.</p>
+
+<p>A few practical questions can guide us in appropriately engaging with local communities for the first time:</p>
+
+<ul>
+<li>Who needs to be informed about your intent to enter a community?</li>
+<li>What documents do you need before entering a community? Permission may include permits or a letter of permission from local authorities acknowledging your presence and activities in the community.</li>
+<li>How can specific groups or individuals in the community be involved in the project?</li>
+<li>What is the most appropriate way of communicating about roles and responsibilities for a project to these groups?</li>
+<li>Where can you seek information about the dynamics between groups in a given community? How do you ensure you understand tensions or conflicts between groups you intend to work with?</li>
+<li>What measures are in place to mitigate or manage - if any - conflicts arise?</li>
+<li>Example: In the context of working with refugee and host communities, are you confident there will not be any resentment between groups working on the same project?</li>
+</ul>
+
+<p>Other practical recommendations to ease your organization’s entering into a new community:</p>
+
+<ul>
+<li>Set up consultation meetings with relevant leaders and community members to gather feedback about proposed activities and timeline</li>
+<li>Articulate benefits of projects involvement to all who are involved</li>
+<li>Include a community member - who is familiar with local laws and customs - in your project team</li>
+<li>Establish relationships and work through partners already based in the community to ease activity implementation and enable integration into existing initiatives</li>
+<li>Create a Whatsapp group to enable direct and more efficient communication</li>
+</ul>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/running-a-mapping-project/2.1_Defining_Needs_and_Requirements.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/toolbox/commit/19c4f0fa439aba72dbf62dd2c0d69940659f9231" title='Last modified September 10, 2019 21:29 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Sep 10, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/toolbox" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>
