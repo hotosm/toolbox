@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>1.5.1 Setting up phones and servers</title>
-      <link>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/running-a-mapping-project/1.5.1-setting-up-phones-and-servers/</guid>
-      <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
-Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
-Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
-    </item>
-    
-    <item>
       <title>1.8 Trainings and Workshops</title>
       <link>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
