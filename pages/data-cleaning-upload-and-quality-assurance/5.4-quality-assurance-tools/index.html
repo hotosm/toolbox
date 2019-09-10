@@ -588,17 +588,76 @@ https://github.com/hotosm/hugo-book
 
 <p><a href="http://campaigns.hotosm.org">MapCampaigner</a> is a tool developed by HOT to monitor attribute completeness for predefined areas of interest (AOI). Based on your <a href="https://github.com/hotosm/toolbox/wiki/4.1.2-Designing-The-Data-Model">data model</a>, the tool checks and highlights any map features that are missing pre-defined tags within your AOI, and allows team validators to download and fix those features.</p>
 
+<p><strong>Skills and Technology Needed</strong></p>
+
+<ul>
+<li>Computer with
+
+<ul>
+<li>Windows, Mac, or Linux operating system</li>
+<li>Sufficient free disk space (approx 10GB) and administrator rights to install software</li>
+</ul></li>
+<li>Recommended: computer mouse</li>
+</ul>
+
 <h3 id="how-to-use-mapcampaigner">How to use MapCampaigner</h3>
 
 <h2 id="osmcha">OSMCha</h2>
 
 <p><a href="https://osmcha.mapbox.com/">OSMCha</a>, or the OpenStreetMap Changeset Analyzer, is a tool designed to review uploads and changes to OSM data, largely to prevent vandalism and bad edits made to map data. This tool allows users to filter by username, location, dates of upload, and other metadata features. OSMCha is useful for monitoring the progress of data cleaning and upload teams.</p>
 
+<p><strong>Skills and Technology Needed</strong></p>
+
+<ul>
+<li>Computer with</li>
+<li>Internet connection</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1.1-opening_osm_accounts/">OpenStreetMap Account</a></li>
+<li>Recommended: computer mouse</li>
+</ul>
+
 <h3 id="how-to-use-osmcha">How to use OSMCha</h3>
 
-<p><img src="../../../images/quality_assurance/osmcha_signin.gif" alt="osmcha_signin" />
-<img src="../../../images/quality_assurance/osmcha_viewingchangesets.gif" alt="osmcha_viewingchangesets" />
-<img src="../../../images/quality_assurance/osmcha_filters.gif" alt="osmcha_filters" /></p>
+<ol>
+<li>Navigate to <a href="https://osmcha.mapbox.com">https://osmcha.mapbox.com</a> in the Google Chrome or Mozilla Firefox internet browser.</li>
+<li>To use OSMCha, you will need to sign in with your OpenStreetMap account and grant permission.
+<img src="../../../images/quality_assurance/osmcha_signin.gif" alt="osmcha_signin" /></li>
+
+<li><p>Once logged in, a left-hand panel will appear with changesets. Each changeset shows:</p>
+
+<ul>
+<li>OSM username</li>
+<li>Time of upload</li>
+<li>Changeset comment</li>
+<li>Changeset ID</li>
+<li>Flags (if any) - such as &ldquo;Possible Import&rdquo;</li>
+<li>Number of ways added (highlighted in green), ways modified (highighted in yellow), and ways deleted (highlighted in red)
+<img src="../../../images/quality_assurance/osmcha_viewingchangesets.gif" alt="osmcha_viewingchangesets" /></li>
+</ul></li>
+
+<li><p>With OSMCha, you can create highly focused filters to monitor you and your team&rsquo;s contribution to OSM. Clicking on &lsquo;Filters&rsquo; on the left-hand panel will open the <strong>Filters</strong> menu.</p></li>
+
+<li><p>In this menu, unique filters can be applied such as OSM username, date range, locations.
+<img src="../../../images/quality_assurance/osmcha_filters.gif" alt="osmcha_filters" /></p></li>
+</ol>
+
+<p><strong>Practice creating a filter</strong></p>
+
+<ol>
+<li>Click &lsquo;Filters&rsquo; on the left-hand panel.</li>
+<li>Set filters for:
+
+<ul>
+<li>Start Date: 01/01/19</li>
+<li>Your username</li>
+<li>A location</li>
+<li>One additional filter</li>
+</ul></li>
+<li>Click apply.</li>
+<li>Click on any of the changesets that appear on the left-hand panel. Do any changesets have flags or warnings?</li>
+<li>Click on &lsquo;Filters&rsquo; again to modify and/or add more filters.</li>
+<li>To Save a Filter for later use, click on &lsquo;Filters&rsquo; on the left-hand panel. In the upper-right, click &lsquo;Save&rsquo; to choose a name for this Filter.</li>
+<li>The exact filter can now be accessed using the URL or in the &lsquo;My Saved Filters&rsquo; option after clicking on your username.</li>
+</ol>
 
 <h2 id="osmose-br">Osmose <br></h2>
 
@@ -615,10 +674,13 @@ https://github.com/hotosm/hugo-book
 <li>Identified issues will appear in the map as pins matching the icons from the issues panel. Click on each pin to learn more about the object and associated issue(s).</li>
 </ol>
 
-<p><strong>To fix issues identified in Osmose</strong>
-1. Open JOSM on your computer.
-5. In Osmose, locate the ‘Export’ button at the top of the page. Click ‘Export’, then ‘JOSM’.
-6. Fix the issues identified then re-upload to OSM.</p>
+<p><strong>To fix issues identified in Osmose</strong></p>
+
+<ol>
+<li>Open JOSM on your computer.</li>
+<li>In Osmose, locate the ‘Export’ button at the top of the page. Click ‘Export’, then ‘JOSM’.</li>
+<li>Fix the issues identified then re-upload to OSM.</li>
+</ol>
 </article>
 
       
@@ -632,7 +694,7 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/a4c6b83d49adf9f16551f0f55a0a955520effff0" title='Last modified September 10, 2019 17:42 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/32e36474e8f9f35fe7b7a01ffdbfdf2b1e113a53" title='Last modified September 10, 2019 18:08 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Sep 10, 2019
     </a>
   </div>
