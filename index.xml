@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Managing Teams in the Field using OSMTracker and QGIS</title>
-      <link>/pages/field-mapping-management/managing_teams_in_the_field/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/managing_teams_in_the_field/</guid>
-      <description>Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.
-When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -311,6 +301,16 @@ Step 1. Create folders Create the folder structure for the data cleaning process
       
       <guid>/pages/field-mapping-management/5.3_using_osm_tracker/</guid>
       <description>Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data. With these images taken, it will make your mapping more easier because you can track back what object you have been taken and take a look into your pictures for more detail.</description>
+    </item>
+    
+    <item>
+      <title>5.4 Managing Teams in the Field using OSMTracker and QGIS</title>
+      <link>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</guid>
+      <description>Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.
+When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work.</description>
     </item>
     
     <item>
