@@ -442,6 +442,8 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
+<h2 id="overview">Overview</h2>
+
 <p><strong>Quality Assurance and Quality Control</strong> is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</p>
 
 <p>The data quality dimensions identified through this framework as the highest priority for assessment of all datasets are:</p>
@@ -582,31 +584,41 @@ https://github.com/hotosm/hugo-book
 <br>
 <br></p>
 
-<h3 id="mapcampaigner">MapCampaigner</h3>
+<h2 id="mapcampaigner">MapCampaigner</h2>
 
 <p><a href="http://campaigns.hotosm.org">MapCampaigner</a> is a tool developed by HOT to monitor attribute completeness for predefined areas of interest (AOI). Based on your <a href="https://github.com/hotosm/toolbox/wiki/4.1.2-Designing-The-Data-Model">data model</a>, the tool checks and highlights any map features that are missing pre-defined tags within your AOI, and allows team validators to download and fix those features.</p>
 
-<h3 id="osmcha">OSMCha</h3>
+<h3 id="how-to-use-mapcampaigner">How to use MapCampaigner</h3>
+
+<h2 id="osmcha">OSMCha</h2>
 
 <p><a href="https://osmcha.mapbox.com/">OSMCha</a>, or the OpenStreetMap Changeset Analyzer, is a tool designed to review uploads and changes to OSM data, largely to prevent vandalism and bad edits made to map data. This tool allows users to filter by username, location, dates of upload, and other metadata features. OSMCha is useful for monitoring the progress of data cleaning and upload teams.</p>
 
-<h3 id="osmose-br">Osmose <br></h3>
+<h3 id="how-to-use-osmcha">How to use OSMCha</h3>
+
+<p><img src="../../../images/quality_assurance/osmcha_signin.gif" alt="osmcha_signin" />
+<img src="../../../images/quality_assurance/osmcha_viewingchangesets.gif" alt="osmcha_viewingchangesets" />
+<img src="../../../images/quality_assurance/osmcha_filters.gif" alt="osmcha_filters" /></p>
+
+<h2 id="osmose-br">Osmose <br></h2>
 
 <p>Osmose is a tool that monitors multiple quality control issues in OSM. These include issues with feature geometry (such as overlapping buildings/nodes, incomplete features, and duplications), and also common tagging issues (such as missing, unsuitable or poorly formatted tags). More information about Osmose can be found at the <a href="https://wiki.openstreetmap.org/wiki/Osmose">Osmose OSM Wiki Page</a>.</p>
 
 <p>Note: to properly use this tool and view errors, you will need to use the Google Chrome internet browser. Firefox, Opera, Safari, and other browsers may not display the information correctly.</p>
 
-<h4 id="steps-to-correct-key-issues-identified-by-osmose">Steps to correct key issues identified by Osmose</h4>
+<h3 id="how-to-use-osmose">How to use Osmose</h3>
 
 <ol>
-<li>Open JOSM on your computer.</li>
 <li>Navigate to <a href="http://osmose.openstreetmap.fr">http://osmose.openstreetmap.fr</a> in the Google Chrome internet browser.</li>
 <li>Use the zoom, pan, and search features on the map to navigate to your area of interest.</li>
 <li>Use the left panel to toggle common issues on and off.</li>
 <li>Identified issues will appear in the map as pins matching the icons from the issues panel. Click on each pin to learn more about the object and associated issue(s).</li>
-<li>In Osmose, locate the ‘Export’ button at the top of the page. Click ‘Export’, then ‘JOSM’.</li>
-<li>Fix the issues identified then re-upload to OSM.</li>
 </ol>
+
+<p><strong>To fix issues identified in Osmose</strong>
+1. Open JOSM on your computer.
+5. In Osmose, locate the ‘Export’ button at the top of the page. Click ‘Export’, then ‘JOSM’.
+6. Fix the issues identified then re-upload to OSM.</p>
 </article>
 
       
@@ -620,7 +632,7 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/a28a906e91531095fa7535967eb3e972a70740e9" title='Last modified September 10, 2019 17:14 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/a4c6b83d49adf9f16551f0f55a0a955520effff0" title='Last modified September 10, 2019 17:42 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Sep 10, 2019
     </a>
   </div>
@@ -637,6 +649,28 @@ https://github.com/hotosm/hugo-book
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#quality-assurance-tools">Quality Assurance Tools</a></li>
+<li><a href="#mapcampaigner">MapCampaigner</a>
+<ul>
+<li><a href="#how-to-use-mapcampaigner">How to use MapCampaigner</a></li>
+</ul></li>
+<li><a href="#osmcha">OSMCha</a>
+<ul>
+<li><a href="#how-to-use-osmcha">How to use OSMCha</a></li>
+</ul></li>
+<li><a href="#osmose-br">Osmose <br></a>
+<ul>
+<li><a href="#how-to-use-osmose">How to use Osmose</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
