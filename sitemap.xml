@@ -44,7 +44,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-09-10T17:26:22-04:00</lastmod>
+    <lastmod>2019-09-10T17:27:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,11 +64,6 @@
   </url>
   
   <url>
-    <loc>/pages/running-a-mapping-project/1.8-trainings-and-workshops/</loc>
-    <lastmod>2019-07-12T15:42:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/</loc>
     <lastmod>2019-09-10T17:10:55-04:00</lastmod>
   </url>
@@ -76,6 +71,11 @@
   <url>
     <loc>/pages/running-a-mapping-project/2.3-hardware/</loc>
     <lastmod>2019-09-10T17:12:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/running-a-mapping-project/2.4-trainings-and-workshops/</loc>
+    <lastmod>2019-09-10T17:27:19-04:00</lastmod>
   </url>
   
   <url>
