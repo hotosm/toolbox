@@ -449,7 +449,14 @@ https://github.com/hotosm/hugo-book
 
 <h2 id="overview">Overview</h2>
 
-<p>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.</p>
+<p>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.</p>
+
+<ul>
+<li>If you are mapping buildings in areas that are rural and/or there are few landmarks in OSM, use an <strong>aerial imagery basemap mbtile</strong>.</li>
+<li>If you are working with mappers or surveyors with low map literacy, <strong>aerial imagery basemap mbtiles</strong> could reduce issues.</li>
+<li>If you are mapping points (such as POI) and/or working in well-mapped areas, simply using <strong>OSM basemap mbtiles</strong> would be feasible.</li>
+<li>If your mapping area is being divided into assignment areas or enumeration areas to divide among surveyors, consider adding <strong>vector layers</strong> to your mbtile for mappers work from.</li>
+</ul>
 
 <table>
   <tr>
@@ -505,6 +512,8 @@ https://github.com/hotosm/hugo-book
 
 <p><a href="https://export.hotosm.org/en/v3/">HOT Export Tool</a> allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the <a href="https://export.hotosm.org/en/v3/learn">HOT Export Tool Learn page</a>.</p>
 
+<p><strong>Skill level:</strong> Easy</p>
+
 <p><strong>Tools and Technology Needed:</strong></p>
 
 <ul>
@@ -513,13 +522,76 @@ https://github.com/hotosm/hugo-book
 <li>OSM Account</li>
 </ul>
 
-<p>See <a href="https://github.com/hotosm/toolbox/wiki/6.-Data-Export-Tools">Data Export Tools</a> for more information and training materials on using the HOT Export Tool.</p>
+<p>To get started, open an internet browser and go to: <a href="https://export.hotosm.org/en/v3/">https://export.hotosm.org/</a> To use the HOT Export Tool, you will need to log in using your OSM username and password, by clicking the red “Log In” button in the top right-hand corner.</p>
+
+<p><img src="../../../images/data-export/HOTExport1.gif" alt="" /></p>
+
+<p>Select &lsquo;Create&rsquo; in the top menu.</p>
+
+<p><img src="../../../images/data-export/HOTExport2.gif" alt="" /></p>
+
+<p>Select an AOI on the map by searching a place, uploading a .geojson, or drawing an area in the map to the right.
+<br><br>
+To draw an area of interest, zoom in and find a location of your choice (i.e. Zwedru, Accra). Once you have zoomed in to your area of interest, select the box tool from the Tools Menu on the right. Click one corner to start drawing a box, then select the opposite corner to complete the box. This is your AREA OF INTEREST that will be downloaded.</p>
+
+<p><img src="../../../images/data-export/HOTExport4.gif" alt="" /></p>
+
+<p>On the left hand side of the window, fill out the “1 Describe” options:</p>
+
+<ul>
+<li>Name: “[YOUR OSM USERNAME] Test Export”
+
+<ul>
+<li>For example, “jessbeutler Test Export”</li>
+</ul></li>
+<li>Description (optional)
+
+<ul>
+<li>Project (optional)
+
+<ul>
+<li>For example, “Government Inclusion Project”</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><img src="../../../images/data-export/HOTExport6.gif" alt="" /></p>
+
+<p>Select preferred file type in the ‘Formats’ tab. Select .mbtiles.</p>
+
+<p><img src="../../../images/data-export/HOT_export_mbtile.gif" alt="" /></p>
+
+<p>In the ‘Data’ tab, select the &lsquo;OpenStreetMap&rsquo; as the source. Then select the zoom range. The higher the zoom range, the more you will be able to zoom in on the basemap. Note, higher zoom ranges increase the size of files.</p>
+
+<p><img src="../../../images/data-export/HOT_export_mbtile2.gif" alt="" /></p>
+
+<p>In the &lsquo;Summary&rsquo; tab, select ‘Create Export’. While processing, a “Running” status will show. Processing time depends on export size. Once completed, the file will be available for download &amp; sent to your email.</p>
+
+<p><img src="../../../images/data-export/HOT_export_mbtile3.gif" alt="" /></p>
+
+<p><em>This process will take several minutes to process.</em></p>
+
+<p>When the export process is completed, the ‘Status’ bar will be updated to ‘COMPLETED’. Download the file by clicking on the file link, as highlighted below.</p>
+
+<h2 id="tile-huria">Tile Huria</h2>
+
+<p><a href="https://www.tilehuria.org/index">Tile Huria</a> is a simple tool for creating mbtiles based on an area provided via Geojson format with aerial imagery.</p>
+
+<p><strong>Skill level:</strong> Easy</p>
+
+<p><strong>Tools and Technology Needed:</strong></p>
+
+<ul>
+<li>Computer</li>
+<li>Internet Connection</li>
+<li>.geojson file for area of interest</li>
+</ul>
 
 <h2 id="tilemill">TileMill</h2>
 
 <p>TileMill is an offline, downloadable application used to create mbtiles. TileMill allows for vector layers to be inserted into mbtiles (i.e. assignment area shapefiles, roads).</p>
 
-<p>Workflow for creation tiles with aerial imagery and vector layers can be found [here].</p>
+<p><strong>Skill level:</strong> Hard</p>
 
 <p><strong>Tools and Technology Needed:</strong></p>
 
@@ -540,18 +612,6 @@ https://github.com/hotosm/hugo-book
 <ul>
 <li><a href="https://tilemill-project.github.io/tilemill/">https://tilemill-project.github.io/tilemill/</a></li>
 </ul>
-
-<h2 id="tile-huria">Tile Huria</h2>
-
-<p><a href="https://www.tilehuria.org/index">Tile Huria</a> is a simple tool for creating mbtiles based on an area provided via Geojson format with aerial imagery.</p>
-
-<p><strong>Tools and Technology Needed:</strong></p>
-
-<ul>
-<li>Computer</li>
-<li>Internet Connection</li>
-<li>.geojson file for area of interest</li>
-</ul>
 </article>
 
       
@@ -565,8 +625,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/d0ca1f86dbf00554754da54b00df01292904be8e" title='Last modified July 10, 2019 19:02 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jul 10, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/cdb70c764b681eced04b8ac5513b970b822d09ac" title='Last modified September 13, 2019 22:58 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Sep 13, 2019
     </a>
   </div>
   
@@ -588,8 +648,8 @@ https://github.com/hotosm/hugo-book
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#hot-export-tool">HOT Export Tool</a></li>
-<li><a href="#tilemill">TileMill</a></li>
 <li><a href="#tile-huria">Tile Huria</a></li>
+<li><a href="#tilemill">TileMill</a></li>
 </ul></li>
 </ul>
 </nav>

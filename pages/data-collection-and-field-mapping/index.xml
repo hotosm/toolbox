@@ -60,8 +60,8 @@ Forms can be created using spreadsheet software (such as Excel or LibreCalc) or 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</guid>
-      <description>Overview MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc.
-  I need .mbtiles with...  HOT Export Tool  Tile Mill  TileHuria    Aerial Imagery Basemap  X  ✅  ✅    OSM Basemap  ✅  X  ✅    Vector layers (i.</description>
+      <description>Overview MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.
+ If you are mapping buildings in areas that are rural and/or there are few landmarks in OSM, use an aerial imagery basemap mbtile.</description>
     </item>
     
     <item>
