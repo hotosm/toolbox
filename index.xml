@@ -40,6 +40,17 @@ A new window will be created with a blank page. This shows how your map will loo
     </item>
     
     <item>
+      <title>1.1 Mapping Buildings and POI with OMK Workflow</title>
+      <link>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</guid>
+      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
+Project Overview Local Empowerment for Government Inclusion and Transparency (LEGIT)
+The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.</description>
+    </item>
+    
+    <item>
       <title>2.1 Defining Needs and Requirements</title>
       <link>/pages/running-a-mapping-project/2.1_defining_needs_and_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -394,16 +405,6 @@ More information about OSM Analytics can be found here and here.</description>
       <description>Setting up phones for data collection Device set-up and testing instructions for OpenDataKit (ODK), OpenMapKit (OMK), and OSMTracker can be found here.
 Open Data Kit (ODK) Download application For information on downloading and installing ODK, go to Data Collection Applications.
 Tool set-up  Find the ODK Collect app icon on your mobile device and tap to open the app. After downloading the ODK app, an odk folder will be automatically created in on the internal memory of the device.</description>
-    </item>
-    
-    <item>
-      <title>Workflow Example - Field Mapping Buildings and POI</title>
-      <link>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</guid>
-      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
-Local Empowerment for Government Inclusion and Transparency (LEGIT) The Liberia Local Empowerment for Government Inclusion and Transparency (LEGIT) project supports the Ministry of Internal Affairs and Governance Commission as they lead, monitor and coordinate the implementation of the government’s decentralization agenda.</description>
     </item>
     
   </channel>
