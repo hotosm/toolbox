@@ -3,6 +3,9 @@ title: Digitization and Editing in OSM
 weight: 3
 ---
 
+![](/images/digitization-and-editing/DSC03241.jpg)
+
+
 Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data. OpenStreetMap relies heavily on users generating data through digitization. <br>
 
 [insert building tracing gif] <br>
