@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
-    <lastmod>2019-06-18T13:09:32-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/pages/field-mapping-management/</loc>
     <lastmod>2019-08-13T18:48:49+07:00</lastmod>
   </url>
@@ -35,6 +30,11 @@
   <url>
     <loc>/pages/data-export/</loc>
     <lastmod>2019-07-15T16:03:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
+    <lastmod>2019-09-15T14:24:05-04:00</lastmod>
   </url>
   
   <url>
