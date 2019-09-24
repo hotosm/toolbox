@@ -63,6 +63,16 @@ Training Materials
     </item>
     
     <item>
+      <title>3.5.1 JOSM Validation Step by Step</title>
+      <link>/pages/digitization-and-editing/3.5.1_josm_validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.5.1_josm_validation/</guid>
+      <description>Objectives:
+ To be able to understand validation process for OSM data To be able to perform validation using Validation Tools on JOSM To be able to fix commonly error, warning and mistake found during validation  1. Validation Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry.</description>
+    </item>
+    
+    <item>
       <title>3.6 Resolving conflicts in JOSM</title>
       <link>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
