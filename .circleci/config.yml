@@ -81,19 +81,22 @@ jobs:
           mkdir ~/build/public/pdfs &&
           mkdir ~/build/tmp &&
           cd pdf-build &&
-          for d in $(find * -type d); do
+          for d in $(find .  -mindepth 1  -type d); do
               mkdir ~/build/public/pdfs/"$d"
+              mkdir ~/build/tmp/${d/\.\//}
           done &&
-          for i in $(find ./*); do
+          for i in $(find . -mindepth 1); do
               if [ -f "$i" ] && [ "${i: -3}" == ".md" ]; then
-              pdffilename=${i//\.md/.pdf}
-              if [[ "${i: -12}" == ".fullsite.md" ]]; then
-                  pandoc "$i" -o "$HOME/build/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular --toc --toc-depth=1
-                  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/build/public/pdfs/${pdffilename//\.fullsite/}" "$HOME/build/tmp/$pdffilename"
-              else
-                  pandoc "$i" -o "$HOME/build/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular
-                  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/build/public/pdfs/$pdffilename" "$HOME/build/tmp/$pdffilename"
-              fi 
+                  pdfreplace=${i//\.md/.pdf}
+                  pdffilename=${pdfreplace/\.\//}
+                  echo $pdffilename
+                  if [[ "${i: -12}" == ".fullsite.md" ]]; then
+                      pandoc "$i" -o "$HOME/build/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular --toc --toc-depth=1
+                      gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/build/public/pdfs/${pdffilename//\.fullsite/}" "$HOME/build/tmp/$pdffilename"
+                  else
+                      pandoc "$i" -o "$HOME/build/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular
+                      gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/build/public/pdfs/$pdffilename" "$HOME/build/tmp/$pdffilename"
+                  fi 
               fi
           done
       - run: 
@@ -121,7 +124,7 @@ jobs:
             git config user.name "ci-build"
       - add_ssh_keys:
           fingerprints:
-            - "48:34:f6:3a:f5:63:c4:b5:2b:89:76:26:ba:d3:79:85"
+            - "8d:43:a0:40:1a:ec:b3:24:b8:79:79:15:b9:c7:be:ef"
       - run: 
           name: list files pushed
           command: ls public
