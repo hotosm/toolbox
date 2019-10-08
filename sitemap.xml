@@ -44,7 +44,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-09-24T16:48:50+07:00</lastmod>
+    <lastmod>2019-10-08T17:52:36-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,6 +211,11 @@
   <url>
     <loc>/pages/data-use-and-analysis/7.4-osm-analytics/</loc>
     <lastmod>2019-06-18T13:09:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-use-and-analysis/8.3_web_and_interactive_maps/</loc>
+    <lastmod>2019-10-08T17:52:36-04:00</lastmod>
   </url>
   
   <url>
