@@ -434,8 +434,6 @@ https://github.com/hotosm/hugo-book
 
 <h2 id="overview">Overview</h2>
 
-<p><img src="../../../images/quality_assurance/JOSMValidation.gif" alt="" /></p>
-
 <p><strong>Validation</strong> is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry. For consistency, make sure that all mapped objects are consistent in shape. For example, when you found a residential area, make sure all the buildings are consistently traced and orthogonalized.</p>
 
 <p><img src="../../../images/validation/validation_1.png" alt="Example of data validation" title="example of data validation" /></p>
@@ -446,13 +444,15 @@ https://github.com/hotosm/hugo-book
 
 <p>While light validation can be completed using iD Editor, HOT recommends that detailed validation be completed using JOSM.</p>
 
+<p><img src="../../../images/quality_assurance/JOSMValidation.gif" alt="" /></p>
+
 <p><strong>Skills and Technology Needed</strong></p>
 
 <ul>
 <li>Computer</li>
-<li>Internet connection</li>
+<li>Internet connection (for data download)</li>
 <li><a href="https://github.com/hotosm/toolbox/wiki/1.2-Opening-OSM-accounts">OSM account</a></li>
-<li>[JOSM]</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.4-editing-with-id-and-josm/">JOSM</a></li>
 </ul>
 
 <p><strong>Resources</strong></p>
@@ -805,7 +805,7 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/e9e64739ae13981b7cd1f33e8052b89079a1a437" title='Last modified October 8, 2019 22:04 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/865de787a9d88b4a0af2b17fb6ef0fcb782768fd" title='Last modified October 8, 2019 22:29 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Oct 8, 2019
     </a>
   </div>
@@ -822,6 +822,36 @@ https://github.com/hotosm/hugo-book
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#practice-validation">Practice Validation</a>
+<ul>
+<li><a href="#1-opening-osm-data">1. <strong>Opening OSM Data</strong></a></li>
+<li><a href="#2-using-josm-validation-tools">2. <strong>Using JOSM Validation Tools</strong></a></li>
+<li><a href="#3-fixing-errors-and-warnings">3. <strong>Fixing Errors and Warnings</strong></a>
+<ul>
+<li><a href="#3-1-fixing-error-duplicated-ways"><strong>3.1 Fixing Error: Duplicated ways</strong></a></li>
+<li><a href="#3-2-fixing-warning-building-inside-building"><strong>3.2 Fixing Warning: Building inside building</strong></a></li>
+<li><a href="#3-3-fixing-warning-crossing-building-highway"><strong>3.3 Fixing Warning: Crossing building/highway</strong></a></li>
+<li><a href="#3-4-fixing-warning-crossing-buildings"><strong>3.4 Fixing Warning: Crossing buildings</strong></a></li>
+<li><a href="#3-5-fixing-warning-crossing-highways"><strong>3.5 Fixing Warning: Crossing highways</strong></a></li>
+<li><a href="#3-6-fixing-warning-deprecated-tagging"><strong>3.6 Fixing Warning: deprecated tagging</strong></a></li>
+<li><a href="#3-7-fixing-warning-missing-tag"><strong>3.7 Fixing Warning: missing tag</strong></a></li>
+<li><a href="#3-8-fixing-warning-node-connects-highway-and-building"><strong>3.8 Fixing Warning: node connects highway and building</strong></a></li>
+<li><a href="#3-9-fixing-warning-overlapping-highways"><strong>3.9 Fixing Warning: Overlapping highways</strong></a></li>
+<li><a href="#3-10-fixing-warning-unclosed-way-building"><strong>3.10 Fixing Warning: Unclosed way - building</strong></a></li>
+<li><a href="#3-11-fixing-warning-unnamed-ways"><strong>3.11 Fixing Warning: Unnamed ways</strong></a></li>
+<li><a href="#3-12-fixing-warning-untagged-ways"><strong>3.12 Fixing Warning: Untagged ways</strong></a></li>
+<li><a href="#3-13-fixing-warning-way-end-node-near-other-highway"><strong>3.13 Fixing Warning: Way end node near other highway</strong></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
