@@ -116,11 +116,7 @@ Comparison of Tools The iD editor is a user-friendly tool that allows you to dir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
-      <description>Overview Validation is the process of checking the work of previous mappers for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. While light validation can be completed using iD Editor, HOT recommends that detailed validation be completed using JOSM.
-Skills and Technology Needed
- Computer Internet connection OSM account [JOSM]  Resources
-Training Materials
- Presentation [1]  Practice Validation The following activity covers the process of validating bad OSM data in JOSM.</description>
+      <description>Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry. For consistency, make sure that all mapped objects are consistent in shape. For example, when you found a residential area, make sure all the buildings are consistently traced and orthogonalized.</description>
     </item>
     
     <item>
