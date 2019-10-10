@@ -1,7 +1,13 @@
 (function() {
+    var lunrLangs = ["da", "de", "en", "es", "fi", "fr", "hu", "it", "ja", "jp", "nl", "no", "pt", "ro", "ru", "sv", "th", "tr"];
+    var lang =  document.body.getAttribute('data-lang');
+    if (lang && lunrLangs.indexOf(lang) == -1) {
+      console.log('language not supported yet')
+      return
+    }
 
     var idx;
-    var searchInput = document.querySelector('.search-input');
+    var searchInput = document.querySelector('.search');
     var searchResultsList = document.querySelector('.results-list');
     var searchResults = document.querySelector('.search-results');
     var timeout;
@@ -9,33 +15,30 @@
     searchInput.disabled = true;
     var url = window.location.href;
     var baseURL;
+
     if (url.indexOf('pages') != -1) {
+
         baseURL = url.split('pages')[0]
-    } else {
-        baseURL = url;
-    }
-
-
-    fetch(baseURL + 'lunr-documents.json')
-    .then(response => {
-        return response.json();
-      })
-      .then(docs => {
-        documents = docs;
-      })
-      .then(()=> {
-        fetch(baseURL + 'lunr-index.json')
-        .then(response => {
+      fetch(baseURL + 'lunr-documents.json')
+      .then(response => {
           return response.json();
         })
-        .then(index => {
-          idx = lunr.Index.load(index);
-          searchInput.disabled = false;
-        });
-      })
+        .then(docs => {
+          documents = docs;
+        })
+        .then(()=> {
+          fetch(baseURL + 'lunr-index.json')
+          .then(response => {
+            return response.json();
+          })
+          .then(index => {
+            idx = lunr.Index.load(index);
+            searchInput.disabled = false;
+          });
+        })
 
-    searchInput.addEventListener('input', onInput)
-
+      searchInput.addEventListener('input', onInput)
+    }
     function onInput(e) {
         clearTimeout(timeout);
         timeout = setTimeout(() => {
@@ -60,8 +63,7 @@
                     frag.appendChild(li);
                 }
                 searchResultsList.appendChild(frag);
-        }
-    }, 300)
-}
+              }
+          }, 300)
+      }
 })();
-

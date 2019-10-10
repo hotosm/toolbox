@@ -1,416 +1,276 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body   ><header class="header" >
+    <div class="header__container">
+        <img src="../../../svg/hot-logo-red.svg" alt=""><h4 class="title site-title">HOT Toolbox</h4>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
 
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT Toolbox</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="../../../">
-        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT Toolbox</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" href="../../../pdfs/HOT_Toolbox.pdf">Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    <div class="nav-right">
-    
-    
-    
-    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
-    <div class="search-results">
-      <ul class="results-list"></ul>
-    </div>
-    
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="../../../" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    Mapping Project Workflows 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/">
-    1.1 Mapping Buildings and POI with OMK Workflow</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li><a href="../../../pages/running-a-mapping-project/">
-    
-    Designing and Coordinating a Mapping Project</a> 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/running-a-mapping-project/2.1_defining_needs_and_requirements/">
-    2.1 Defining Needs and Requirements</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/">
-    2.2 Safety, Security, and Logistics for Field Operations</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/running-a-mapping-project/2.3-hardware/">
-    2.3 Selecting Hardware</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/running-a-mapping-project/2.4-trainings-and-workshops/">
-    2.4 Trainings and Workshops</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li><a href="../../../pages/digitization-and-editing/">
-    
-    Digitization and Editing in OSM</a> 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.1_introduction_to_openstreetmap/">
-    3.1 Introduction to OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.2_organized_osm_editing/">
-    3.2 Organized OSM Editing</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/">
-    3.3 Working with the HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.4-editing-with-id-and-josm/">
-    3.4 Editing with iD and JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.5_validating_with_josm/">
-    3.5 Validating with JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/3.6-data-conflict-in-josm/">
-    3.6 Resolving conflicts in JOSM</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Data Collection and Field Mapping 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.1-designing-the-data-model/" class="active">
-    4.1 Designing The Data Model</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
-    4.2 Data collection applications</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.2.2_setting_up_omk/">
-    4.2.2 Setting up OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/">
-    4.3 Navigation Applications</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/">
-    4.7 Data Collection Servers</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/">
-    4.8 Adding Survey Data into OSM Using JOSM</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Field Mapping Management 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/field-mapping-management/5.1_using_odk_collect/">
-    5.1 Using ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/field-mapping-management/5.2_using_openmapkit/">
-    5.2 Using the OpenMapKit Application</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/">
-    5.3 Using OSMTracker</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/">
-    5.4 Managing Teams in the Field using OsmAnd and QGIS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li><a href="../../../pages/data-export/">
-    
-    6. Data Export Tools</a> 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/data-export/6.1-hot-export-tool/">
-    6.1 HOT Export Tool</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-export/6.2-hdx/">
-    6.2 Humanitarian Data Exchange (HDX)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li><a href="../../../pages/data-cleaning-upload-and-quality-assurance/">
-    
-    Data Cleaning, Upload, and Quality Assurance</a> 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
-    5.2 OMK Field Data Cleaning Workflow</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/">
-    5.3 Data Cleaning with JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
-    5.4 Quality Assurance and Quality Control Tools</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li><a href="../../../pages/data-use-and-analysis/">
-    
-    Data Use and Analysis</a> 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/">
-    7.1.4 Creating Maps in Print Composer</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/7.1-qgis/">
-    7.1 Introduction to QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/">
-    7.1.5 Creating an Atlas in QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/">
-    7.4 OSM Analytics</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/8.3_web_and_interactive_maps/">
-    8.3 Web &amp; Interactive Maps</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../pages/getting_started/">
-    
-    Mapping Project Workflows</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/running-a-mapping-project/">
-    
-    Designing and Coordinating a Mapping Project</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/digitization-and-editing/">
-    
-    Digitization and Editing in OSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-collection-and-field-mapping/">
-    
-    Data Collection and Field Mapping</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/field-mapping-management/">
-    
-    Field Mapping Management</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-export/">
-    
-    6. Data Export Tools</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-cleaning-upload-and-quality-assurance/">
-    
-    Data Cleaning, Upload, and Quality Assurance</a>
-    </li>
-    
-    <li>
-      <a href="../../../pages/data-use-and-analysis/">
-    
-    Data Use and Analysis</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../svg/menu.svg" />
-  </label>
-  <strong>
-    4.1 Designing The Data Model</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>4.1 Designing The Data Model</h1>
-    <a href="../../../pdfs/4.1-Designing-The-Data-Model.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Search documentation">
+
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Mapping Project Workflows
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/" class="menu-link">1.1 Mapping Buildings and POI with OMK Workflow</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Designing and Coordinating a Mapping Project
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/running-a-mapping-project/2.1_defining_needs_and_requirements/" class="menu-link">2.1 Defining Needs and Requirements</a></li>
+                    
+                        <li class="page"><a href="../../../pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/" class="menu-link">2.2 Safety, Security, and Logistics for Field Operations</a></li>
+                    
+                        <li class="page"><a href="../../../pages/running-a-mapping-project/2.3-hardware/" class="menu-link">2.3 Selecting Hardware</a></li>
+                    
+                        <li class="page"><a href="../../../pages/running-a-mapping-project/2.4-trainings-and-workshops/" class="menu-link">2.4 Trainings and Workshops</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Digitization and Editing in OSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.1_introduction_to_openstreetmap/" class="menu-link">3.1 Introduction to OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.2_organized_osm_editing/" class="menu-link">3.2 Organized OSM Editing</a></li>
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/" class="menu-link">3.3 Working with the HOT Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.4-editing-with-id-and-josm/" class="menu-link">3.4 Editing with iD and JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.5_validating_with_josm/" class="menu-link">3.5 Validating with JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../pages/digitization-and-editing/3.6-data-conflict-in-josm/" class="menu-link">3.6 Resolving conflicts in JOSM</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.1-designing-the-data-model/" class="menu-link menu-link--active">4.1 Designing The Data Model</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/" class="menu-link">4.2 Data collection applications</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.2.2_setting_up_omk/" class="menu-link">4.2.2 Setting up OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.3-navigation-applications/" class="menu-link">4.3 Navigation Applications</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/" class="menu-link">4.7 Data Collection Servers</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/" class="menu-link">4.8 Adding Survey Data into OSM Using JOSM</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.1_using_odk_collect/" class="menu-link">5.1 Using ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.2_using_openmapkit/" class="menu-link">5.2 Using the OpenMapKit Application</a></li>
+                    
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/" class="menu-link">5.3 Using OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            6. Data Export Tools
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/data-export/6.1-hot-export-tool/" class="menu-link">6.1 HOT Export Tool</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-export/6.2-hdx/" class="menu-link">6.2 Humanitarian Data Exchange (HDX)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Cleaning, Upload, and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/" class="menu-link">5.2 OMK Field Data Cleaning Workflow</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/" class="menu-link">5.3 Data Cleaning with JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="menu-link">5.4 Quality Assurance and Quality Control Tools</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Use and Analysis
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/" class="menu-link"></a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction to QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/" class="menu-link">7.1.5 Creating an Atlas in QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/" class="menu-link">7.4 OSM Analytics</a></li>
+                    
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/8.3_web_and_interactive_maps/" class="menu-link">8.3 Web &amp; Interactive Maps</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../pdfs/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Download the entire file</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/798d5ccf54af45dfb6e61fd44a5f5604c2e14b90" class="sub-title sub-title-14" title='Last modified September 10, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: September 10, 2019
     </a>
   </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">4.1 Designing The Data Model</h1>
 
 <h2 id="overview">Overview</h2>
 
@@ -786,37 +646,48 @@ Private data should never be uploaded to OSM. However, some projects do require 
 
 <p>Links <br>
 1: <a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225</a></p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
-    
-  <div>
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/pages/data-collection-and-field-mapping/4.1-Designing-The-Data-Model.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/toolbox/commit/798d5ccf54af45dfb6e61fd44a5f5604c2e14b90" title='Last modified September 10, 2019 20:17 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Sep 10, 2019
-    </a>
-  </div>
-  
-
 </div>
 
 
-    </div>
+
 
     
-  
-  
-  <aside class="book-toc fixed">
+
     
-      
-    <nav id="TableOfContents">
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../pages/data-collection-and-field-mapping/4.2-data-collection-applications/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">4.2 Data collection applications</div>
+    </div>
+    <img src="../../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
+        <nav id="TableOfContents">
 <ul>
 <li>
 <ul>
@@ -831,29 +702,18 @@ Private data should never be uploaded to OSM. However, some projects do require 
 </ul></li>
 </ul>
 </nav>
+    </div>
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/toolbox" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
+    <hr class="toc-divider">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-collection-and-field-mapping/4.1-Designing-The-Data-Model.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a 
     
-
-  </footer>
-  
-  <script src="../../../js/search.js"></script>
-  
-
-  
-</body>
-
+    href="../../../pdfs/4.1-Designing-The-Data-Model.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
+</div></aside>
+</div>
+<script src="../../../js/main.js"></script>
+<script src="../../../js/search.js"></script>
+<script src="../../../js/toc.js"></script></body>
 </html>

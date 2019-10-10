@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="24" viewBox="0 0 22 24">
+    <defs>
+        <path id="b" d="M12 0h5.059C18.605 0 20 1.395 20 2.941V8l-8-8z"/>
+        <filter id="a" width="200%" height="200%" x="-50%" y="-75%" filterUnits="objectBoundingBox">
+            <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0909637238 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E94848" d="M12 0l8 8v13.2a2.8 2.8 0 0 1-2.8 2.8H2.8A2.8 2.8 0 0 1 0 21.2V2.8A2.8 2.8 0 0 1 2.8 0H12z"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M9.327 8.8a.96.96 0 0 0-.956.956c0 .651.362 1.46.744 2.221-.298.933-.637 1.933-1.07 2.777-.885.348-1.675.606-2.15.989a.968.968 0 0 0-.296.702.96.96 0 0 0 1.637.677.287.287 0 0 0 .018-.015c.35-.417.762-1.174 1.13-1.866.845-.333 1.732-.672 2.588-.875.625.504 1.529.836 2.272.836a.96.96 0 0 0 .956-.955.96.96 0 0 0-.956-.956c-.596 0-1.463.213-2.126.436a7.076 7.076 0 0 1-1.385-1.804c.253-.78.55-1.562.55-2.167a.96.96 0 0 0-.956-.956zm0 .573c.214 0 .382.168.382.383 0 .286-.154.814-.332 1.382-.237-.552-.433-1.082-.433-1.382 0-.215.168-.383.383-.383zm.164 3.27c.287.457.624.883.991 1.26a18.18 18.18 0 0 0-1.666.562 19.54 19.54 0 0 0 .675-1.822zm3.753 1.221c.215 0 .383.168.383.383a.378.378 0 0 1-.383.382c-.43 0-1.042-.194-1.531-.466.561-.159 1.174-.299 1.531-.299zm-5.703 1.711c-.269.48-.536.928-.723 1.153a.364.364 0 0 1-.262.099.378.378 0 0 1-.383-.383c0-.1.043-.2.102-.265.224-.174.712-.382 1.266-.604z"/>
+        <g transform="rotate(180 16 4)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" fill-opacity=".4" xlink:href="#b"/>
+        </g>
+    </g>
+</svg>
