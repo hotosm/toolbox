@@ -55,16 +55,6 @@ Additional benefits of navigation applications include:</description>
     </item>
     
     <item>
-      <title>4.5 Creating .mbtiles</title>
-      <link>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/</guid>
-      <description>Overview MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.
- If you are mapping buildings in areas that are rural and/or there are few landmarks in OSM, use an aerial imagery basemap mbtile.</description>
-    </item>
-    
-    <item>
       <title>4.6 Creating .osm Layers for OMK</title>
       <link>/pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

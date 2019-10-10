@@ -197,11 +197,6 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/data-collection-and-field-mapping/4.5-creating-.mbtiles/">
-    4.5 Creating .mbtiles</a>
-    </li>
-    
-    <li>
       <a href="../../../pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/">
     4.6 Creating .osm Layers for OMK</a>
     </li>
@@ -452,6 +447,10 @@ https://github.com/hotosm/hugo-book
 <li><a href="https://drive.google.com/file/d/1wHSBU3z4UKslj7xcfU_a0c7GAyUukAff/view?usp=sharing">Blank OMK form</a></li>
 </ul>
 
+<h3 id="form-conversion">Form conversion</h3>
+
+<p>After forms are developed, they need to be converted from .xlsx/.xls to .xml to be used by the ODK application. This can be done by using <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> or <a href="https://docs.opendatakit.org/xlsform/">offline</a>.</p>
+
 <h2 id="create-mbtiles">Create .mbtiles</h2>
 
 <p>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.</p>
@@ -656,7 +655,7 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
   
   
   <div>
-    <a href="https://github.com/hotosm/toolbox/commit/c3b32a0e3847a86e9ebcec558fc109eaf23db9ad" title='Last modified October 10, 2019 16:57 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/d6d304cb1dbed11e2e86e390284a005bfd03ff9d" title='Last modified October 10, 2019 17:14 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Oct 10, 2019
     </a>
   </div>
@@ -678,7 +677,10 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#creating-omk-forms">Creating OMK Forms</a></li>
+<li><a href="#creating-omk-forms">Creating OMK Forms</a>
+<ul>
+<li><a href="#form-conversion">Form conversion</a></li>
+</ul></li>
 <li><a href="#create-mbtiles">Create .mbtiles</a>
 <ul>
 <li><a href="#hot-export-tool">HOT Export Tool</a></li>
