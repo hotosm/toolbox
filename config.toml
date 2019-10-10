@@ -1,14 +1,12 @@
 languageCode = "en-us"
 title = "HOT Toolbox"
-theme = "book"
+theme = "hotdocs"
 DefaultContentLanguage = "en"
 relativeurls = true
 enableGitInfo = true
 
 [params]
-    BookRepo = "https://github.com/hotosm/toolbox"
-    BookShowToC = false
-    BookEditPath = "/edit/master/content/"
+    GithubRepo = "https://github.com/hotosm/toolbox"
 
 [imaging]
     resampleFilter = "box"

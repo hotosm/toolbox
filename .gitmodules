@@ -1,0 +1,3 @@
+[submodule "themes/hotdocs"]
+	path = themes/hotdocs
+	url = https://github.com/hotosm/hotdocs
