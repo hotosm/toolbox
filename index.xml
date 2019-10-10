@@ -120,16 +120,6 @@ Comparison of Tools The iD editor is a user-friendly tool that allows you to dir
     </item>
     
     <item>
-      <title>3.5.1 JOSM Validation Step by Step</title>
-      <link>/pages/digitization-and-editing/3.5.1_josm_validation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.5.1_josm_validation/</guid>
-      <description>Objectives:
- To be able to understand validation process for OSM data To be able to perform validation using Validation Tools on JOSM To be able to fix commonly error, warning and mistake found during validation  1. Validation Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry.</description>
-    </item>
-    
-    <item>
       <title>3.6 Resolving conflicts in JOSM</title>
       <link>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,18 +171,6 @@ Set-up Process
       <description>Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd [1] and Maps.me [2].
 While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.
 Additional benefits of navigation applications include:</description>
-    </item>
-    
-    <item>
-      <title>4.4 Creating forms for ODK &amp; OMK</title>
-      <link>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.4-creating-forms-odk-omk/</guid>
-      <description>Survey Form Design When using ODK and OMK survey applications, you will need to create the files that will serve as the survey forms.
-Creating ODK forms
-Forms can be created using spreadsheet software (such as Excel or LibreCalc) or using the ODK Form Builder. Documentation on how to design a form can be found here.
- Example ODK form Blank ODK form  Creating OMK forms Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or LibreCalc).</description>
     </item>
     
     <item>

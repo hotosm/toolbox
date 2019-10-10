@@ -1,0 +1,28 @@
+---
+title : 4.4 Creating forms for ODK & OMK
+---
+## Survey Form Design
+
+When using ODK and OMK survey applications, you will need to create the files that will serve as the survey forms. 
+
+**Creating ODK forms** 
+
+Forms can be created using spreadsheet software (such as Excel or [LibreCalc](https://www.libreoffice.org/discover/calc/)) or using the [ODK Form Builder](https://build.opendatakit.org/). Documentation on how to design a form can be found [here](http://xlsform.org/en/).
+
+* [Example ODK form](https://drive.google.com/file/d/1HY2jsHDYnpjuGemhco_WT9Cl8PSG4b43/view?usp=sharing)
+* [Blank ODK form](https://drive.google.com/file/d/1ISEYZo5C_TCfKUJFD8AvbUrlsDHxRPgK/view?usp=sharing)
+
+**Creating OMK forms** <br>
+Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or [LibreCalc](https://www.libreoffice.org/discover/calc/)). In addition to the structure of an ODK form, OMK forms require an additional 'osm' tab that alters the form structure for OMK. Documentation on how to design a form can be found [here](http://openmapkit.org/docs_odkformsforomk.html).
+
+* [Example OMK form](https://drive.google.com/file/d/1aVnTE_j1TwKba0EJL9mMZCh9-L3auOsq/view?usp=sharing)
+* [Blank OMK form](https://drive.google.com/file/d/1wHSBU3z4UKslj7xcfU_a0c7GAyUukAff/view?usp=sharing)
+
+## Form conversion
+After forms are developed, they need to be converted from .xlsx/.xls to .xml to be used by the ODK application. This can be done by using [XLSform](https://docs.opendatakit.org/xlsform/) [online](https://opendatakit.org/xlsform/) or [offline](https://docs.opendatakit.org/xlsform/).
+
+## Set-up
+Once forms are converted, [follow these instructions](https://github.com/hotosm/toolbox/wiki/1.5.1-Setting-up-phones-and-servers) for mobile device set-up. 
+
+***
+**Training Materials:** https://docs.google.com/document/d/1IIrR75Cmy92giXLa9hCVIur0wJ3HU4nTZoq6zQWyrEU/edit#heading=h.vmf2fj4l9a7b
