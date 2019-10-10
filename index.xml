@@ -174,18 +174,6 @@ Additional benefits of navigation applications include:</description>
     </item>
     
     <item>
-      <title>4.6 Creating .osm Layers for OMK</title>
-      <link>/pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.6-creating-osm-layers-for-omk/</guid>
-      <description>Overview To conduct data collection using OpenMapKit (OMK), you will need to create an .osm layer. This .osm layer provides the buildings for selection in the OMK application.
-Skills and Technology Needed
- Computer Internet Connection JOSM Installed Basic JOSM skills  Creating an .osm layer with JOSM In JOSM, click the top-menu File &amp;gt; New Layer to start. Then click the top-menu File &amp;gt; Download Data.
-In the &amp;lsquo;Download&amp;rsquo; window, click the tab &amp;lsquo;Download from Overpass API&amp;rsquo;.</description>
-    </item>
-    
-    <item>
       <title>4.7 Data Collection Servers</title>
       <link>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
