@@ -1,5 +1,5 @@
 ---
-title : 6. Data Export Tools
+title : Data Export Tools
 weight: 6
 ---
 
