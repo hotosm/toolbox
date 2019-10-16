@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>6.0 Data Cleaning, Upload, and Quality Assurance</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</guid>
+      <description>Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded. Regardless of how (and if) you are collecting field data, any project that results edits in OpenStreetMap should have a quality assurance and control plan.
+ 6.1 Management of Collected Data covers the best practices and recommend workflows for managing data that is collected in the field.</description>
+    </item>
+    
+    <item>
       <title>6.0 Data Export Tools</title>
       <link>/pages/data-export/6.0-data-export-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
