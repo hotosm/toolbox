@@ -275,12 +275,11 @@ Step 1. Create folders Create the folder structure for the data cleaning process
     
     <item>
       <title>5.3 Data Cleaning with JOSM</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</link>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.3-data-cleaning-with-josm/</guid>
-      <description>There are tools built into JOSM, as well as additional plugins that can assist with data quality control during the upload process.
- Filters is a built-in tool that allows you to disable, hide, select, and highlight specific groups of objects based on flexible custom parameters. This tool will help you to spot and avoid common mistakes, and review data. The Validation Tool is another built-in tool that will review and search for common errors as well as provide warnings about potentially problematic data.</description>
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/</guid>
+      <description>Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload. There are a lot of OSM data editors available, but in this module the OSM data editor used is JOSM. JOSM has a lot of useful tools and plugins, making OSM mapping a lot easier but most importantly, it is the easiest tool and best tool for maintaining quality OSM data while importing batches of field data into OSM.</description>
     </item>
     
     <item>
