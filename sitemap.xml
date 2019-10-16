@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/pages/digitization-and-editing/3.0-digitization-and-editing/</loc>
+    <lastmod>2019-10-16T11:11:03-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/getting_started/</loc>
     <lastmod>2019-09-14T16:17:36-04:00</lastmod>
   </url>
@@ -33,13 +38,13 @@
   </url>
   
   <url>
-    <loc>/pages/data-export/</loc>
-    <lastmod>2019-07-15T16:03:52-04:00</lastmod>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
+    <lastmod>2019-09-15T14:24:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/pages/data-cleaning-upload-and-quality-assurance/</loc>
-    <lastmod>2019-09-15T14:24:05-04:00</lastmod>
+    <loc>/pages/data-export/</loc>
+    <lastmod>2019-10-16T11:11:40-04:00</lastmod>
   </url>
   
   <url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-10-16T10:54:52-04:00</lastmod>
+    <lastmod>2019-10-16T11:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
