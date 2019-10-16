@@ -72,15 +72,5 @@ Additional benefits of navigation applications include:</description>
       <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
     </item>
     
-    <item>
-      <title>4.8 Adding Survey Data into OSM Using JOSM</title>
-      <link>/pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.8-add-survey-data-using-josm/</guid>
-      <description>Objectives:
- To be able to install plugin Utilsplugin2 To be able to merge all survey data To be able to save .osm file using JOSM To be able to download OSM data To be able to add satellite imagery layer on JOSM To be able to add and edit OSM data using JOSM To be able to upload changes into OSM To be able to view changes of OSM data in OSM website  Adding or mapping new objects in OSM is one way to enrich OSM data.</description>
-    </item>
-    
   </channel>
 </rss>
