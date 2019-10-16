@@ -64,7 +64,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-10-16T13:33:31-04:00</lastmod>
+    <lastmod>2019-10-16T14:01:07-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,6 +76,11 @@
   <url>
     <loc>/pages/getting_started/1.2.1_example_fieldmappingbuildings_poi/</loc>
     <lastmod>2019-10-16T13:33:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/getting_started/1.2_mappingpoi_withodk/</loc>
+    <lastmod>2019-10-16T14:01:07-04:00</lastmod>
   </url>
   
   <url>

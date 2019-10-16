@@ -72,6 +72,17 @@ The Open Cities Africa Accra project sought to make Alogboshie and its environs 
     </item>
     
     <item>
+      <title>1.1 Mapping POI with ODK &#43; KoboToolbox Server</title>
+      <link>/pages/getting_started/1.2_mappingpoi_withodk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/1.2_mappingpoi_withodk/</guid>
+      <description>The following workflow showcases the tools and processes used in a simple field mapping project used by a local NGO to integrate into existing programs using OpenDataKit and KoboToolBox Server.
+Project Overview KIHUMBE
+The Open Cities Africa Accra project sought to make Alogboshie and its environs resilient to natural disasters, especially flooding. The project involved the remote mapping of Alogboshie, Akweteyman and Alajo. These are areas of focus in a larger resilience project, Greater Accra Resilience and Integrated Development (GARID), and are all located along the Odaw River which is prone to floods.</description>
+    </item>
+    
+    <item>
       <title>2.1 Defining Needs and Requirements</title>
       <link>/pages/running-a-mapping-project/2.1_defining_needs_and_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
