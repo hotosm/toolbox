@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>3.0 Digitization and Editing in OSM</title>
+      <link>/pages/digitization-and-editing/3.0-digitization-and-editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/3.0-digitization-and-editing/</guid>
+      <description>Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data. OpenStreetMap relies heavily on users generating data through digitization. With OpenStreetmap at the core of our tools and workflows, mapping projects using HOT tools and workflows will likely incorporate digitization or editing of OSM data during one, in not multiple phases in the project timeline. While numerous resources exist to teach new users how to use OpenStreetMap for the first time, this section is largely designed to guide project managers and community members through the digitization process from the perspective of leading trainings and managing teams conducting OSM editing.</description>
+    </item>
+    
+    <item>
       <title>6.0 Data Cleaning, Upload, and Quality Assurance</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,15 +47,6 @@
       <guid>/pages/data-export/6.0-data-export-tools/</guid>
       <description>Overview Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below.
 Presentation: Data Export Tools Presentation - English HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
-    </item>
-    
-    <item>
-      <title>Digitization and Editing in OSM</title>
-      <link>/pages/digitization-and-editing/3.0-digitization-and-editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.0-digitization-and-editing/</guid>
-      <description>Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data. OpenStreetMap relies heavily on users generating data through digitization. With OpenStreetmap at the core of our tools and workflows, mapping projects using HOT tools and workflows will likely incorporate digitization or editing of OSM data during one, in not multiple phases in the project timeline. While numerous resources exist to teach new users how to use OpenStreetMap for the first time, this section is largely designed to guide project managers and community members through the digitization process from the perspective of leading trainings and managing teams conducting OSM editing.</description>
     </item>
     
     <item>
