@@ -77,6 +77,8 @@
         ">
                 <ul class="page-list">
                     
+                        <li class="page"><a href="../../../pages/running-a-mapping-project/2.0-overview-designing-coordinating/" class="menu-link">2.0 Designing and Coordinating a Mapping Project</a></li>
+                    
                         <li class="page"><a href="../../../pages/running-a-mapping-project/2.1_defining_needs_and_requirements/" class="menu-link">2.1 Defining Needs and Requirements</a></li>
                     
                         <li class="page"><a href="../../../pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/" class="menu-link">2.2 Safety, Security, and Logistics for Field Operations</a></li>
@@ -123,7 +125,7 @@
         accordion accordion--closed
         
         ">
-            
+            Field Mapping Technical Set-up
         </div>
         <div class="panel
         
@@ -233,7 +235,7 @@
                     
                         <li class="page"><a href="../../../pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction to QGIS</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/" class="menu-link menu-link--active">7.1.5 Creating an Atlas in QGIS</a></li>
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/" class="menu-link menu-link--active">7.1.5 Creating Maps and Atlases in QGIS</a></li>
                     
                         <li class="page"><a href="../../../pages/data-use-and-analysis/7.4-osm-analytics/" class="menu-link">7.4 OSM Analytics</a></li>
                     
@@ -262,15 +264,15 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/5773bfd0cd9c5ae1d256fdbc8a2be42dcc621739" class="sub-title sub-title-14" title='Last modified July 16, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: July 16, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/48a530292fed9d270d140a2005b84f1f031d6ff5" class="sub-title sub-title-14" title='Last modified October 16, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: October 16, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">7.1.5 Creating an Atlas in QGIS</h1>
+           <h1 class="page-title">7.1.5 Creating Maps and Atlases in QGIS</h1>
 
 <p>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</p>
 
@@ -294,7 +296,6 @@
 <ul>
 <li>Installation of QGIS</li>
 <li>Navigating QGIS and adding data</li>
-<li>Creating maps in print composer</li>
 <li>GIS data files (i.e. shapefiles, geojson)
 
 <ul>
@@ -302,11 +303,7 @@
 </ul></li>
 </ul>
 
-<p>This activity covers the process of generating and configuring an atlas in print composer. Example shapefiles are provided for this activity but can be followed with shapefiles provided by the user.</p>
-
-<p><strong>Contents</strong></p>
-
-<p>[TOC]</p>
+<p>This activity covers the process of generating and configuring a map and atlas in print composer. Example shapefiles are provided for this activity but can be followed with shapefiles provided by the user.</p>
 
 <h3 id="1-preparing-map-data">1. Preparing map data</h3>
 
@@ -314,25 +311,22 @@
 
 <p><em>Practice:</em></p>
 
-<ul>
-<li>To follow along with the practice steps, add the following vector data to your map:
+<p>To follow along with the practice steps, add the following vector data to your map:
+*   Dar_sub-wards_EPSG_4326
+*   Dar_wards_EPSG_4326</p>
 
-<ul>
-<li>Dar_sub-wards_EPSG_4326</li>
-<li>Dar_wards_EPSG_4326</li>
-</ul></li>
-<li>Change the background color of the project. Open the ‘Project’ menu from the top toolbar, select ‘Project properties’. Under general settings, change the background color to blue.</li>
-<li>Style the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
+<p>Change the background color of the project. Open the ‘Project’ menu from the top toolbar, select ‘Properties’. Under general settings, change the background color to blue.</p>
 
-<ul>
-<li>Select ‘Simple Fill’ from the upper left window.</li>
-<li>Change ‘Symbol layer type’ to ‘Outline: Simple Line’</li>
-<li>Change the color to purple.</li>
-<li>Change the ‘Pen style’ to ‘Dash Dot Line’</li>
-<li>Select ‘Apply’ and then ‘OK’.</li>
-</ul></li>
-<li>Duplicate the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Duplicate’. Right-click on the copy layer and select rename. Rename this layer as ‘Ward_grey_background’.</li>
-<li>Style the ‘Ward_grey_background’ layer by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
+<p>Style the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
+*   Select ‘Simple Fill’ from the upper left window.
+*   Change ‘Symbol layer type’ to ‘Outline: Simple Line’
+*   Change the color to purple.
+*   Change the ‘Pen style’ to ‘Dash Dot Line’
+*   Select ‘Apply’ and then ‘OK’.</p>
+
+<p>Duplicate the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Duplicate’. Right-click on the copy layer and select rename. Rename this layer as ‘Ward_grey_background’.</p>
+
+<p>Style the ‘Ward_grey_background’ layer by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:</p>
 
 <ul>
 <li>Select ‘Simple Fill’ from the upper left window.</li>
@@ -340,8 +334,9 @@
 <li>Change the color to the html code #edeae2 (or select a light grey color).</li>
 <li>Change the ‘Outline style’ to ‘No pen’.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
-</ul></li>
-<li>Style the sub-ward layer (Dar_sub-wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
+</ul>
+
+<p>Style the sub-ward layer (Dar_sub-wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:</p>
 
 <ul>
 <li>Select ‘Simple Fill’ from the upper left window.</li>
@@ -349,27 +344,29 @@
 <li>Change the color to yellow.</li>
 <li>Change the ‘Pen style’ to ‘Dot’.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
-</ul></li>
-<li>After styling the sub-ward layer (Dar_sub-wards_EPSG_4326), select ‘Labels’ from the side menu in ‘Properties’.
+</ul>
+
+<p>After styling the sub-ward layer (Dar_sub-wards_EPSG_4326), select ‘Labels’ from the side menu in ‘Properties’.</p>
 
 <ul>
 <li>In the top drop down menu, change the option from ‘No Labels’ to ‘Show labels for this layers’.</li>
-<li>For ‘Label with’, select the option ‘Vi_nam_N’ from the drop-down menu.</li>
+<li>For ‘Label with’, select the option ‘Ward_Name’ from the drop-down menu.</li>
 <li>Change your ‘Text’ options such as font, font size, font color, etc.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
-</ul></li>
-<li>After styling all layers, ensure that your layers are in the following order in your layers panel. (To adjust layer ordering, left-click and hold on a layer and then drag up or down in the list.)
+</ul>
+
+<p>After styling all layers, ensure that your layers are in the following order in your layers panel. (To adjust layer ordering, left-click and hold on a layer and then drag up or down in the list.)</p>
 
 <ul>
 <li>Dar_wards_EPSG_4326</li>
 <li>Dar_sub-wards_EPSG_4326</li>
-<li>Ward_grey_background</li>
-</ul></li>
+<li>Ward_grey_background
+<br /></li>
 </ul>
 
-<h3 id="2-creating-a-map-layout-in-print-composer">2. Creating a Map Layout in Print Composer</h3>
+<h3 id="2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</h3>
 
-<p>Open the ‘Project’ menu from the main toolbar, and select ‘New Print Composer’. In the pop-up window, create a title for your map. This can be a unique name to describe your map’s purpose such as “Dar Sub-Wards”.</p>
+<p>Open the ‘Project’ menu from the main toolbar, and select ‘New Print Layout’. In the pop-up window, create a title for your map. This can be a unique name to describe your map’s purpose such as “Dar Sub-Wards”.</p>
 
 <p>A new window will be created with a blank page. This shows how your map will look printed out.</p>
 
@@ -387,15 +384,19 @@
 
 <p><em>Practice</em></p>
 
-<ul>
-<li>Add your map by selecting ‘Add Map’ from the ‘Layout’ menu. You will need to draw the box by clicking and dragging the corners.</li>
-<li>Add a title to your map by selecting ‘Add Label’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘QGIS’. This can be changed in the ‘Item Properties’ panel.</li>
-<li>Change the font and size of your title.</li>
-<li>Add a legend to your map by selecting ‘Add Legend’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners. You can add or remove legend items in the ‘Item Properties’ panel.</li>
-<li>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</li>
-<li>North arrow can be added by selecting ‘Add Image’. Like the map, you will need to draw the box by clicking and dragging the corners. In the ‘Item Properties’ panel, open the ‘Search Directories’ option to select from a choice of symbols.</li>
-<li>Move these items around your Map Canvas until you are pleased with the layout of your map. Think of your audience: will they understand the information you want to convey?</li>
-</ul>
+<p>Add your map by selecting ‘Add Map’ from the ‘Layout’ menu (<em>alt: use the Add Map tool from the left-hand toolbar</em>). You will need to draw the box by clicking and dragging the corners.</p>
+
+<p>Add a title to your map by selecting ‘Add Label’ from the ‘Layout’ menu (<em>alt: use the Add Label tool from the left-hand toolbar</em>). Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘Lorem ipsum’. This can be changed in the ‘Item Properties’ panel.</p>
+
+<p>Change the font and size of your title.</p>
+
+<p>Add a legend to your map by selecting ‘Add Legend’ from the ‘Layout’ menu. The size of the Legend will be generated based on its contents. You can change the size as well as add or remove legend items in the ‘Item Properties’ panel.</p>
+
+<p>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</p>
+
+<p>North arrow can be added by selecting ‘Add Image’. Like the map, you will need to draw the box by clicking and dragging the corners. In the ‘Item Properties’ panel, open the ‘Search Directories’ option to select from a choice of symbols.</p>
+
+<p>Move these items around your Map Canvas until you are pleased with the layout of your map. Think of your audience: will they understand the information you want to convey?</p>
 
 <h3 id="3-atlas-generation">3. Atlas Generation</h3>
 
@@ -594,7 +595,7 @@
 <li><a href="#training-activity">Training Activity</a>
 <ul>
 <li><a href="#1-preparing-map-data">1. Preparing map data</a></li>
-<li><a href="#2-creating-a-map-layout-in-print-composer">2. Creating a Map Layout in Print Composer</a></li>
+<li><a href="#2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</a></li>
 <li><a href="#3-atlas-generation">3. Atlas Generation</a></li>
 <li><a href="#4-atlas-toolbar-and-navigation">4. Atlas Toolbar and Navigation</a></li>
 <li><a href="#5-configuration">5. Configuration</a></li>

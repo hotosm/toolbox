@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>2.0 Designing and Coordinating a Mapping Project</title>
+      <link>/pages/running-a-mapping-project/2.0-overview-designing-coordinating/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/running-a-mapping-project/2.0-overview-designing-coordinating/</guid>
+      <description>There is no one way to collect data in the field and it will vary by context. However, there are some essential topics and questions all project managers and OSM communities should consider when Designing and Coordinating a Mapping Project.
+ 2.1 Defining Needs and Requirements poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -295,7 +305,7 @@ This section covers the basic skills necessary to using QGIS. These skills inclu
     </item>
     
     <item>
-      <title>7.1.5 Creating an Atlas in QGIS</title>
+      <title>7.1.5 Creating Maps and Atlases in QGIS</title>
       <link>/pages/data-use-and-analysis/7.1.5-creating-an-atlas-in-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
