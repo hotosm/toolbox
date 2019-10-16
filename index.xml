@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>6.0 Data Export Tools</title>
+      <link>/pages/data-export/6.0-data-export-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-export/6.0-data-export-tools/</guid>
+      <description>Overview Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below.
+Presentation: Data Export Tools Presentation - English HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+    </item>
+    
+    <item>
       <title>Digitization and Editing in OSM</title>
       <link>/pages/digitization-and-editing/3.0-digitization-and-editing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
