@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-export/6.0-data-export-tools/</guid>
-      <description>Overview Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, use the training materials linked below.
-Presentation: Data Export Tools Presentation - English HOT Export Tool HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+      <description>Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.
+ 7.1 HOT Export Tool covers the HOT Export Tool which allows users to download OSM data by specifying tags, area of interest, and file type.</description>
     </item>
     
     <item>
