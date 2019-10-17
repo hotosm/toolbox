@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>8.0 Data Use and Analysis</title>
+      <link>/pages/data-use-and-analysis/8.0_data-use-and-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/8.0_data-use-and-analysis/</guid>
+      <description>There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.
+ 8.1 Introduction to QGIS provides an introduction to the open source geographic information system (GIS) software that allows you to analyze and edit spatial information, as well as compose and export geographic maps. Additionally, the section includes a step-by-step guide that project managers can use in trainings for installing QGIS and learning basic skills.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
