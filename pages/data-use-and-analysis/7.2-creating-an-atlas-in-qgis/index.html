@@ -270,8 +270,8 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/4a93aec87c32ea0c40173ee9159279d6c7a85c2a" class="sub-title sub-title-14" title='Last modified October 16, 2019 by jessbeutler' target="_blank" rel="noopener">
-      Last modified: October 16, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/fac18af0d86e7f6d22af8b4ece2b0d1382a18a45" class="sub-title sub-title-14" title='Last modified October 17, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: October 17, 2019
     </a>
   </div>
   
@@ -386,21 +386,21 @@
 <li>North arrow</li>
 </ul>
 
-<p>Each of these elements can be added by opening the ‘Layout’ menu on the top toolbar or by using the quick access buttons on the left-hand toolbar.</p>
+<p>Each of these elements can be added by opening the ‘Add Item’ menu on the top toolbar or by using the quick access buttons on the left-hand toolbar.</p>
 
-<p>Add your map by selecting ‘Add Map’ from the ‘Layout’ menu (<em>alt: use the Add Map tool from the left-hand toolbar</em>). You will need to draw the box by clicking and dragging the corners.</p>
+<p>Add your map by selecting ‘Add Map’ from the ‘Add Item’ menu (<em>alt: use the Add Map tool from the left-hand toolbar</em>). You will need to draw the box by clicking and dragging the corners.</p>
 
 <p><img src="../../../images/advanced_qgis/atlas_tutorial3.gif" alt="" /></p>
 
-<p>Add a title to your map by selecting ‘Add Label’ from the ‘Layout’ menu (<em>alt: use the Add Label tool from the left-hand toolbar</em>). Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘Lorem ipsum’. This can be changed in the ‘Item Properties’ panel. Change the font and size of your title.</p>
+<p>Add a title to your map by selecting ‘Add Label’ from the ‘Add Item’ menu (<em>alt: use the Add Label tool from the left-hand toolbar</em>). Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘Lorem ipsum’. This can be changed in the ‘Item Properties’ panel. Change the font and size of your title.</p>
 
 <p><img src="../../../images/advanced_qgis/atlas_tutorial4.gif" alt="" /></p>
 
-<p>Add a legend to your map by selecting ‘Add Legend’ from the ‘Layout’ menu. The size of the Legend will be generated based on its contents. You can change the size as well as add or remove legend items in the ‘Item Properties’ panel.</p>
+<p>Add a legend to your map by selecting ‘Add Legend’ from the ‘Add Item’ menu. The size of the Legend will be generated based on its contents. You can change the size as well as add or remove legend items in the ‘Item Properties’ panel.</p>
 
 <p><img src="../../../images/advanced_qgis/atlas_tutorial5.gif" alt="" /></p>
 
-<p>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Layout’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</p>
+<p>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Add Item’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</p>
 
 <p><img src="../../../images/advanced_qgis/atlas_tutorial6.gif" alt="" /></p>
 
@@ -410,15 +410,21 @@
 
 <p>Move these items around your Map Canvas until you are pleased with the layout of your map. Think of your audience: will they understand the information you want to convey?</p>
 
-<h3 id="3-atlas-generation">3. Atlas Generation</h3>
+<h3 id="3-saving-maps">3. Saving Maps</h3>
 
-<p>After completing the layout for your map, you are ready to generate the atlas. In the right-hand panel, select the tab for ‘Atlas generation’, near the ‘Composition’ and ‘Item properties’ tabs. If this tab is not appearing, select the ‘View’ menu from the top toolbar, then select ‘Panels’ and check ‘Atlas generation’.</p>
+<p>At this stage, you can decide if you want to save the map as a single map or move on to generate an atlas. If you would like to save the current map as a stand-alone map, open the &lsquo;Layout&rsquo; Menu and select one of the &lsquo;Export as&hellip;&rsquo; options depending on your file preference.</p>
 
-<p>In the ‘Atlas generation’ panel, check the box next to ‘Generate an atlas’ to begin configuring your atlas.</p>
+<p><img src="../../../images/advanced_qgis/atlas_tutorial8.gif" alt="" /></p>
 
-<h3 id="4-atlas-toolbar-and-navigation">4. Atlas Toolbar and Navigation</h3>
+<h3 id="4-atlas-generation">4. Atlas Generation</h3>
 
-<p>Once the atlas is generated, you will be able to preview and navigate through the atlas with the atlas toolbar. To navigate, first select the ‘Preview atlas’ button. Changes can be made to the atlas layout while in preview mode.</p>
+<p>After completing the layout for your map, you are ready to generate the atlas. Select the map box and in the &lsquo;Item Properties&rsquo; panel, check the box for &lsquo;Controlled by Atlas&rsquo;.</p>
+
+<p>In the right-hand panel, select the tab for ‘Atlas generation’, near the ‘Composition’ and ‘Item properties’ tabs. If this tab is not appearing, select the ‘Atlas’ menu from the top toolbar, then select &lsquo;Atlas Settings’.</p>
+
+<p>In the ‘Atlas’ panel, check the box next to ‘Generate an atlas’ to begin configuring your atlas.</p>
+
+<p><img src="../../../images/advanced_qgis/atlas_tutorial9.gif" alt="" /></p>
 
 <h3 id="5-configuration">5. Configuration</h3>
 
@@ -431,16 +437,21 @@
 <li>‘Sort by’ allows you to order your atlas by an attribute of your coverage layer.</li>
 </ol>
 
+<p><img src="../../../images/advanced_qgis/atlas_tutorial10.gif" alt="" /></p>
+
 <p><em>Practice</em></p>
 
 <ul>
 <li>Select ‘Dar_sub-wards_EPSG_4326’ as the coverage layer.</li>
-<li>For page name, select ‘Vil_Mtaa_N’.</li>
-<li>Check the box for ‘Sort by’ and select ‘Vil_Mtaa_N’.</li>
-<li>In the atlas toolbar, select ‘Preview atlas’ and navigate the pages to see the changes.</li>
+<li>For page name, select ‘Vil_Mtaa_N’. (This field is the sub-ward name.)</li>
+<li>Check the box for ‘Sort by’ and select ‘Vil_Mtaa_N’. (This field is the sub-ward name.)</li>
 </ul>
 
-<h3 id="6-building-expressions-for-data-driven-text">6. Building expressions for data-driven text</h3>
+<h3 id="6-atlas-toolbar-and-navigation">6. Atlas Toolbar and Navigation</h3>
+
+<p>Once the atlas is generated, you will be able to preview and navigate through the atlas with the atlas toolbar. To navigate, first select the ‘Preview atlas’ button. Changes can be made to the atlas layout while in preview mode.</p>
+
+<h3 id="7-building-expressions-for-data-driven-text">7. Building expressions for data-driven text</h3>
 
 <p>Expressions allow for text such as labels and titles to be data-driven, or generated from attributes. When working with an atlas, expressions take attributes from the coverage layer.</p>
 
@@ -451,6 +462,8 @@
 <li>Data-driven text, or text that is generated from attributes, can be selected from the ‘Fields and Values’ list. Example: ‘Map of ’ || “Ward_Name”</li>
 <li>An ‘Output preview’ will generate at the bottom of the expression builder window.</li>
 </ol>
+
+<p><img src="../../../images/advanced_qgis/atlas_tutorial11.gif" alt="" /></p>
 
 <p><em>Practice</em></p>
 
@@ -608,10 +621,11 @@
 <ul>
 <li><a href="#1-preparing-map-data">1. Preparing map data</a></li>
 <li><a href="#2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</a></li>
-<li><a href="#3-atlas-generation">3. Atlas Generation</a></li>
-<li><a href="#4-atlas-toolbar-and-navigation">4. Atlas Toolbar and Navigation</a></li>
+<li><a href="#3-saving-maps">3. Saving Maps</a></li>
+<li><a href="#4-atlas-generation">4. Atlas Generation</a></li>
 <li><a href="#5-configuration">5. Configuration</a></li>
-<li><a href="#6-building-expressions-for-data-driven-text">6. Building expressions for data-driven text</a></li>
+<li><a href="#6-atlas-toolbar-and-navigation">6. Atlas Toolbar and Navigation</a></li>
+<li><a href="#7-building-expressions-for-data-driven-text">7. Building expressions for data-driven text</a></li>
 <li><a href="#7-inverse-polygon-layer">7. Inverse polygon layer</a></li>
 <li><a href="#8-adding-overview-maps">8. Adding overview maps</a></li>
 <li><a href="#9-atlas-review">9. Atlas Review</a></li>
