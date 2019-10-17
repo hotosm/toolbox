@@ -40,11 +40,11 @@
     </item>
     
     <item>
-      <title>6.0 Data Export Tools</title>
-      <link>/pages/data-export/6.0-data-export-tools/</link>
+      <title>7.0 Data Export Tools</title>
+      <link>/pages/data-export/7.0-data-export-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/6.0-data-export-tools/</guid>
+      <guid>/pages/data-export/7.0-data-export-tools/</guid>
       <description>Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.
  7.1 HOT Export Tool covers the HOT Export Tool which allows users to download OSM data by specifying tags, area of interest, and file type.</description>
     </item>
@@ -342,18 +342,6 @@ Tools and Technology Needed:
     </item>
     
     <item>
-      <title>7.2 Creating Maps and Atlases in QGIS</title>
-      <link>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
-      <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
-HOT Project Examples:
- Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation:
-Estimated time:</description>
-    </item>
-    
-    <item>
       <title>8.1 Introduction to QGIS</title>
       <link>/pages/data-use-and-analysis/8.1-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -362,6 +350,18 @@ Estimated time:</description>
       <description>Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.
 This section covers the basic skills necessary to using QGIS. These skills include:
  Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins  Installing and using QuickMapServices Installing and using QuickOSM   Following completion of this section, a new user should be prepared to navigate and work with data in QGIS.</description>
+    </item>
+    
+    <item>
+      <title>8.2 Creating Maps and Atlases in QGIS</title>
+      <link>/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/</guid>
+      <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
+HOT Project Examples:
+ Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation:
+Estimated time:</description>
     </item>
     
     <item>
