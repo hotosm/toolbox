@@ -1,5 +1,3 @@
-# Welcome to the HOT Toolbox
-
 The HOT Toolbox is designed to provide OSM Communities and HOT teams with step-by-step guides of technical processes as well as a repository of training materials developed by HOT from setting up mobile devices for mapping to exporting OSM data. 
 
 Many pages in this wiki will contain Training Materials produced by HOT. These materials are uploaded under CC by 4.0 which means they are free to use and be modified - we simply ask that you credit HOT and maintain a Creative Commons License. Learn more about Creative Commons and free use here.
