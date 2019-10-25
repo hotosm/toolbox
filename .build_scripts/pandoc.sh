@@ -17,6 +17,7 @@ for i in $(find . -mindepth 1); do
     if [ -f "$i" ] && [ "${i: -3}" == ".md" ]; then
         pdfreplace=${i//\.md/.pdf}
         pdffilename=${pdfreplace/\.\//}
+        pdffilename=${pdfreplace/pages\//}
         filepath=${i//\.\//$HOME/pdf-build/}
         if [[ "${filepath: -12}" == ".fullsite.md" ]]; then
             pandoc "$filepath" -o "$HOME/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular --toc --toc-depth=1
