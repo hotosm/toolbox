@@ -16,6 +16,20 @@
   .search:focus {
     outline: none; }
 
+.search-results {
+  background-color: white;
+  position: relative; }
+  .search-results--visible {
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    z-index: 999999; }
+
+.results-list {
+  list-style: none; }
+  .results-list li {
+    padding-top: 5px; }
+
 .language-select {
   cursor: pointer;
   height: 16px;
@@ -190,7 +204,12 @@
   .article-body ul {
     margin-left: 20px; }
     .article-body ul li {
-      padding: 16px 0;
+      padding: 8px 0;
+      font-size: 16px; }
+  .article-body ol {
+    margin-left: 20px; }
+    .article-body ol li {
+      padding: 8px 0;
       font-size: 16px; }
   .article-body p {
     margin: 20px 0; }
