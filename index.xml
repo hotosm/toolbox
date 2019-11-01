@@ -23,12 +23,14 @@ There is no one way to collect data in the field and it will vary by context. Ho
     </item>
     
     <item>
-      <title>3.0 Digitization and Editing in OSM</title>
-      <link>/pages/digitization-and-editing/3.0-digitization-and-editing/</link>
+      <title>2.0 Introduction to Digitization and Editing in OSM</title>
+      <link>/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/3.0-digitization-and-editing/</guid>
-      <description>Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data. OpenStreetMap relies heavily on users generating data through digitization. With OpenStreetmap at the core of our tools and workflows, mapping projects using HOT tools and workflows will likely incorporate digitization or editing of OSM data during one, in not multiple phases in the project timeline. While numerous resources exist to teach new users how to use OpenStreetMap for the first time, this section is largely designed to guide project managers and community members through the digitization process from the perspective of leading trainings and managing teams conducting OSM editing.</description>
+      <guid>/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
+      <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including: * Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager.
+* Resources for determining if your project needs to meet OSM Organized Editing Guidelines * Detailed guides and training activities for digitization teams to use during validation and data upload
+Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
     </item>
     
     <item>
