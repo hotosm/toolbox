@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/pages/field-mapping-management/4.0-field-mapping-management/</loc>
+    <lastmod>2019-11-03T08:53:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</loc>
     <lastmod>2019-10-16T16:59:46-04:00</lastmod>
   </url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-03T08:38:42-05:00</lastmod>
+    <lastmod>2019-11-03T08:53:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
