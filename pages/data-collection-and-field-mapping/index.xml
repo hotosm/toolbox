@@ -11,12 +11,14 @@
     
     
     <item>
-      <title>4.0 Field Mapping - Technical Set-up</title>
+      <title>3.0 Introduction to Technical Set-up for Field Mapping</title>
       <link>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</guid>
-      <description>Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow. This section is designed to guide project managers and community members through the decision making process to determine what tools and steps are necessary for their specific project. Many technical guides exist on setting up and using specific tools such as OpenDataKit and POSM. To support project managers effectively, step-by-step guides are provided for some tools and processes where external documentation is lacking or HOT has previously created tailored materials.</description>
+      <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
+ Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap
+ Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit  Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
     </item>
     
     <item>
