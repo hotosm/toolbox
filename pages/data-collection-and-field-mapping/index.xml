@@ -51,7 +51,7 @@ Which data collection application should I use?
       <description>Overview OpenMapKit (OMK) is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey. It is what allows you to browse OSM features, and to create and edit OSM tags.
 Not sure if OpenMapKit is right for your project? Review Data Collection Applications.
 Set-up Process
- [Create OMK forms] [Create .mbtiles] [Create .osm layer] Create constraint file [Download and set up ODK and OMK applications] [Add all above files to mobile data collection devices]  Creating OMK Forms When using OMK survey applications, you will need to create the files that will serve as the survey forms.</description>
+ [Create OMK forms] [Create .mbtiles] [Create .osm layer] [Optional: Set-up constraint file] [Download and set up ODK and OMK applications] [Add all above files to mobile data collection devices]  1.</description>
     </item>
     
     <item>
