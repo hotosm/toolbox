@@ -149,6 +149,16 @@ Overview OpenStreetMap is a collaborative project to create a free editable worl
     </item>
     
     <item>
+      <title>2.2 Organized OSM Editing</title>
+      <link>/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
+      <description>This section provides:
+ Considerations for managing and sourcing mappers for an organized editing project Overview of the OSM Organized Editing Guidelines and compliance Step-by-step guide for complying with the OSM Organized Editing Guidelines  Overview Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts.</description>
+    </item>
+    
+    <item>
       <title>2.4 Trainings and Workshops</title>
       <link>/pages/running-a-mapping-project/2.4-trainings-and-workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -167,15 +177,6 @@ This section covers considerations and resources to use while planning trainings
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
  Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap
  Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit  Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
-    </item>
-    
-    <item>
-      <title>3.2 Organized OSM Editing</title>
-      <link>/pages/digitization-and-editing/3.2_organized_osm_editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.2_organized_osm_editing/</guid>
-      <description>Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts. For example, using remote mapping, your team can identify buildings or entire villages that might have been missed otherwise.</description>
     </item>
     
     <item>
