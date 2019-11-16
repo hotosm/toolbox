@@ -74,7 +74,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-16T14:33:22+03:00</lastmod>
+    <lastmod>2019-11-16T14:43:41+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,6 +124,11 @@
   </url>
   
   <url>
+    <loc>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</loc>
+    <lastmod>2019-11-16T14:43:41+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/running-a-mapping-project/2.4-trainings-and-workshops/</loc>
     <lastmod>2019-11-16T12:44:25+03:00</lastmod>
   </url>
@@ -131,11 +136,6 @@
   <url>
     <loc>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</loc>
     <lastmod>2019-11-03T08:38:42-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</loc>
-    <lastmod>2019-10-10T13:37:51-04:00</lastmod>
   </url>
   
   <url>

@@ -55,13 +55,15 @@ Overview The HOT Tasking Manager is a mapping tool designed and built for the Hu
     </item>
     
     <item>
-      <title>3.4 Editing with iD and JOSM</title>
-      <link>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</link>
+      <title>2.4 Editing with iD and JOSM</title>
+      <link>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</guid>
-      <description>Overview There are several ways to edit in OpenStreetMap. The two most commonly used tools and best programs for mapping projects are iD editor and JOSM. This section provides an overview of each tool as well as presentations to be used in trainings. For self-paced materials and guides, visit LearnOSM.
-Comparison of Tools The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:</description>
+      <guid>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
+      <description>This section provides:
+ A comparison of OpenStreetMap editing tools, JOSM and iD Editor An overview of iD Editor, including presentation slides An overview of JOSM, including presentation slides  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
+
+Overview There are several ways to edit in OpenStreetMap.</description>
     </item>
     
     <item>
