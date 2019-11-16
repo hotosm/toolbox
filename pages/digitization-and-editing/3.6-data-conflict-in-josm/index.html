@@ -276,8 +276,8 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/b0042cf38aecf32c86e6976e36951c8312875444" class="sub-title sub-title-14" title='Last modified September 24, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: September 24, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/97ad66a7c47fdb84a0a0608184e645636989e397" class="sub-title sub-title-14" title='Last modified November 16, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 16, 2019
     </a>
   </div>
   
@@ -285,6 +285,30 @@
 </div>
     <div class="article-body">
            <h1 class="page-title">3.6 Resolving conflicts in JOSM</h1>
+
+<p>This section provides:</p>
+
+<ul>
+<li>An overview of data conflict in JOSM</li>
+<li>Step-by-step instructions for practicing validation in JOSM</li>
+</ul>
+
+<p><em>The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.</em></p>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<p>When you are uploading your changes in JOSM, some contributors  might also do editing in your area. In other situations, different data may have been collected in the field for the same features. may have This might occur data conflict in your uploading process. Therefore, it is critical for digitizers to learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</p>
+
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
+
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+
+<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<em>The following section is designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.</em></p>
+
+<h3 id="resolving-data-conflict-in-josm">Resolving Data Conflict in JOSM</h3>
 
 <p><strong>Objectives:</strong></p>
 
@@ -295,9 +319,7 @@
 <li>Participants know to avoid data conflict in JOSM</li>
 </ul>
 
-<p>When you are uploading your changes in JSOM, some contributors  might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</p>
-
-<h3 id="i-data-conflict-on-openstreetmap"><strong>I. Data Conflict on OpenStreetMap</strong></h3>
+<p><strong>1. Data Conflict in OpenStreetMap</strong></p>
 
 <p>When you have edited your changes and were uploading them in JOSM (learn more about this in <strong>Using JOSM</strong> module), maybe you ever received a message like this:</p>
 
@@ -311,11 +333,11 @@
 <p><img src="../../../images/data-conflict/1002_ilustrasi_konflik.png" alt="Example why conflict happens in JOSMExample why conflict happens in JOSM" />
 <p align="center"><i>Example why conflict happens in JOSM</i></p></p>
 
-<p>The picture above is example of conflict that could happen because of different position with the object between your version (my version) and version of the other contributor / have received by server (their version). To resolve this conflict, you have to choose one version between them (look chapter <strong>III. Fixing Data Conflict in JOSM</strong>).</p>
+<p>The picture above is example of conflict that could happen because of different position with the object between your version (my version) and version of the other contributor / have received by server (their version). To resolve this conflict, you have to choose one version between them (see section <strong>3. Fixing Data Conflict in JOSM</strong>).</p>
 
-<h3 id="ii-types-of-data-conflict-in-josm"><strong>II. Types of Data Conflict in JOSM</strong></h3>
+<p><strong>2. Types of Data Conflict in JOSM</strong></p>
 
-<h4 id="1-conflict-of-properties">1. Conflict of Properties</h4>
+<p><strong>2.1 Conflict of Properties</strong></p>
 
 <p>Conflict of properties happens when an object(s) has been moved or deleted so one or more of its node has different location/position than the other version.</p>
 
@@ -324,7 +346,7 @@
 
 <p>The picture above is an example of conflict of properties in JOSM. As can be seen in the picture, in My Version the object has square shape and in the other version (their version) one of the node is deleted then change its shape become triangle. To fixed this, you need to choose which version that correct based on the location of the different nodes in both version.</p>
 
-<h4 id="2-conflict-of-tag">2. Conflict of Tag</h4>
+<p><strong>2.2 Conflict of Tag</strong></p>
 
 <p>Conflict of tag happens because there are different information (tag) on on the object that has been edited by two or more contributors. The information could be deleted or changed on the other version.</p>
 
@@ -333,14 +355,14 @@
 
 <p>The picture above shows differences between two versions on the same object in JOSM. <strong><em>My version</em></strong> has  Rumah Sakit <em>tag</em> (<em>amenity = hospital</em>) with its name value is Rumah Sakit Tebet Raya while the other version (<strong><em>Their version</em></strong>) has tag klinik (<em>amenity = clinic</em>) with name RS Tebet Timur. You have to choose one of them that you think has correct information to fix it before upload it to the server.</p>
 
-<h4 id="3-conflict-of-node">3. Conflict of Node</h4>
+<p><strong>2.3 Conflict of Node</strong></p>
 
 <p>This conflict happens when there are differences order of the nodes in a way or closedway object(s) which have been removed or moved on one of the versions and has been uploaded to the OSM server.</p>
 
 <p><img src="../../../images/data-conflict/1005_konflik_node.png" alt="Conflict of Nodes in JOSM" />
 <p align="center"><i>Conflict of Nodes in JOSM</i></p></p>
 
-<h3 id="iii-fix-conflict-data-in-josm"><strong>III. Fix Conflict Data in JOSM</strong></h3>
+<p><strong>3. Fix Conflict Data in JOSM</strong></p>
 
 <p>Fixing conflict data in JOSM is quite simple, even though most OSM contributors would have some confusion to do it. Generally, every data conflict fixing in JOSM asks you to choose the correct changes between your version and the other version that have uploaded to the server (their version). You have to choose whether to <strong>keep your version</strong> or delete you version and <strong>use their version</strong>. Steps to fix conflict data in JOSM as follows:</p>
 
@@ -405,7 +427,7 @@
 You can not upload your changes until you have resolved all of your conflict and list of conflict in the conflict window has empty. Keep in mind, you need to be careful when resolving the conflict and need to check it one by one to make sure everything is correct as it should.</p>
 </blockquote>
 
-<h3 id="iv-avoiding-data-conflict-in-josm"><strong>IV. Avoiding Data Conflict in JOSM</strong></h3>
+<p><strong>4. Avoiding Data Conflict in JOSM</strong></p>
 
 <p>You can do some things to avoid conflict when uploading your data into OSM server, as follows:</p>
 
@@ -493,17 +515,10 @@ You can not upload your changes until you have resolved all of your conflict and
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
 <ul>
-<li><a href="#i-data-conflict-on-openstreetmap"><strong>I. Data Conflict on OpenStreetMap</strong></a></li>
-<li><a href="#ii-types-of-data-conflict-in-josm"><strong>II. Types of Data Conflict in JOSM</strong></a>
-<ul>
-<li><a href="#1-conflict-of-properties">1. Conflict of Properties</a></li>
-<li><a href="#2-conflict-of-tag">2. Conflict of Tag</a></li>
-<li><a href="#3-conflict-of-node">3. Conflict of Node</a></li>
-</ul></li>
-<li><a href="#iii-fix-conflict-data-in-josm"><strong>III. Fix Conflict Data in JOSM</strong></a></li>
-<li><a href="#iv-avoiding-data-conflict-in-josm"><strong>IV. Avoiding Data Conflict in JOSM</strong></a></li>
+<li><a href="#resolving-data-conflict-in-josm">Resolving Data Conflict in JOSM</a></li>
 </ul></li>
 </ul></li>
 </ul>
