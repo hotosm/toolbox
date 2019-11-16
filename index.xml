@@ -159,6 +159,17 @@ Overview OpenStreetMap is a collaborative project to create a free editable worl
     </item>
     
     <item>
+      <title>2.3 Working with the HOT Tasking Manager</title>
+      <link>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
+      <description>This section provides:
+ An overview of the HOT Tasking Manager Step-by-step instructions for creating OpenStreetMap accounts Step-by-step instructions for using and navigating OSM Considerations for training large groups  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
+Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap.</description>
+    </item>
+    
+    <item>
       <title>2.4 Trainings and Workshops</title>
       <link>/pages/running-a-mapping-project/2.4-trainings-and-workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -177,16 +188,6 @@ This section covers considerations and resources to use while planning trainings
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
  Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap
  Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit  Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
-    </item>
-    
-    <item>
-      <title>3.3 Working with the HOT Tasking Manager</title>
-      <link>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</guid>
-      <description>Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap. The purpose of the tool is to divide up a mapping project into smaller tasks that can be completed rapidly with many people working on the same overall area. It shows which areas need to be mapped and which areas need the mapping validated.
-For information on Managing and Creating Projects on the HOT Tasking Manager, fill out a form here, http://bit.</description>
     </item>
     
     <item>
