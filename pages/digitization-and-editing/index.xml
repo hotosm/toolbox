@@ -67,12 +67,14 @@ Overview There are several ways to edit in OpenStreetMap.</description>
     </item>
     
     <item>
-      <title>3.5 Validating with JOSM</title>
-      <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
+      <title>2.5 Validating with JOSM</title>
+      <link>/pages/digitization-and-editing/2.5_validating_with_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
-      <description>Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry. For consistency, make sure that all mapped objects are consistent in shape. For example, when you found a residential area, make sure all the buildings are consistently traced and orthogonalized.</description>
+      <guid>/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
+      <description>This section provides:
+ An overview of Validation in JOSM, including presetation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
+Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
     </item>
     
     <item>

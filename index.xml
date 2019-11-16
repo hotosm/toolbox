@@ -193,6 +193,17 @@ This section covers considerations and resources to use while planning trainings
     </item>
     
     <item>
+      <title>2.5 Validating with JOSM</title>
+      <link>/pages/digitization-and-editing/2.5_validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
+      <description>This section provides:
+ An overview of Validation in JOSM, including presetation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
+Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
+    </item>
+    
+    <item>
       <title>3.0 Introduction to Technical Set-up for Field Mapping</title>
       <link>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -201,15 +212,6 @@ This section covers considerations and resources to use while planning trainings
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
  Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap
  Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit  Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
-    </item>
-    
-    <item>
-      <title>3.5 Validating with JOSM</title>
-      <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
-      <description>Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. When checking for accuracy, you need to make sure that the map data is aligned with the imagery and is correct in terms of geometry. For consistency, make sure that all mapped objects are consistent in shape. For example, when you found a residential area, make sure all the buildings are consistently traced and orthogonalized.</description>
     </item>
     
     <item>
