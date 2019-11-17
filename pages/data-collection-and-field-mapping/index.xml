@@ -51,6 +51,7 @@ While navigation tools are not required for data collection, they can be extreme
       <guid>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
       <description>This section provides:
  An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
+
 Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
     </item>
     
