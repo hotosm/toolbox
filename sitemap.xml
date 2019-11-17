@@ -74,7 +74,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-17T19:38:04+03:00</lastmod>
+    <lastmod>2019-11-17T19:55:26+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,6 +151,11 @@
   <url>
     <loc>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</loc>
     <lastmod>2019-11-17T18:53:29+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</loc>
+    <lastmod>2019-11-17T19:55:26+03:00</lastmod>
   </url>
   
   <url>
