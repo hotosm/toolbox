@@ -74,7 +74,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-17T15:59:41+03:00</lastmod>
+    <lastmod>2019-11-17T18:12:04+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,6 +149,11 @@
   </url>
   
   <url>
+    <loc>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</loc>
+    <lastmod>2019-11-17T18:12:04+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</loc>
     <lastmod>2019-11-17T15:50:40+03:00</lastmod>
   </url>
@@ -156,11 +161,6 @@
   <url>
     <loc>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</loc>
     <lastmod>2019-11-17T15:59:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</loc>
-    <lastmod>2019-08-30T13:57:49-04:00</lastmod>
   </url>
   
   <url>

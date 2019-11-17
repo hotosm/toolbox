@@ -225,6 +225,18 @@ Overview When you are uploading your changes in JOSM, some contributors might al
     </item>
     
     <item>
+      <title>3.2 Data collection applications</title>
+      <link>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
+      <description>This section provides:
+ An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  
+Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
+Choosing a Data Collection Application Which data collection application should I use?</description>
+    </item>
+    
+    <item>
       <title>3.3 Navigation Applications</title>
       <link>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -246,17 +258,6 @@ While navigation tools are not required for data collection, they can be extreme
  An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
 
 Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
-    </item>
-    
-    <item>
-      <title>4.2 Data collection applications</title>
-      <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</guid>
-      <description>Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
-Which data collection application should I use?
-   I want to collect&amp;hellip; ODK Kobo OMK Maps.me OSM Tracker Mapillary     Qualitative survey data ✔ ✔ ✔ × × ×   Quantitative survey data ✔ ✔ ✔ × × ×   GPS Points ✔ ✔ ✔ ✔ ✔ ×   Photos attached to GPS Points ✔ ✔ × × ✔ ×   GPX Tracks × × × × ✔ ✔   Streetview imagery × × × × × ✔   Data attached to OSM points of interest × × ✔ ✔ × ×   Data attached to OSM polygons (i.</description>
     </item>
     
     <item>
