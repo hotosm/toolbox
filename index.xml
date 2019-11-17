@@ -236,6 +236,17 @@ Overview When you are uploading your changes in JOSM, some contributors might al
     </item>
     
     <item>
+      <title>3.3 Navigation Applications</title>
+      <link>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
+      <description>This section provides:
+ An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd [1] and Maps.me [2].
+While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
+    </item>
+    
+    <item>
       <title>4.2 Data collection applications</title>
       <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -256,17 +267,6 @@ Which data collection application should I use?
 Not sure if OpenMapKit is right for your project? Review Data Collection Applications.
 Set-up Process
  [Create OMK forms] [Create .mbtiles] [Create .osm layer] [Optional: Set-up constraint file] [Download and set up ODK and OMK applications] [Add all above files to mobile data collection devices]  1.</description>
-    </item>
-    
-    <item>
-      <title>4.3 Navigation Applications</title>
-      <link>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.3-navigation-applications/</guid>
-      <description>Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd [1] and Maps.me [2].
-While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.
-Additional benefits of navigation applications include:</description>
     </item>
     
     <item>
