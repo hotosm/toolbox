@@ -247,6 +247,17 @@ While navigation tools are not required for data collection, they can be extreme
     </item>
     
     <item>
+      <title>3.4 Data Collection Servers</title>
+      <link>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
+      <description>This section provides:
+ An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
+Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
+    </item>
+    
+    <item>
       <title>4.2 Data collection applications</title>
       <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -267,15 +278,6 @@ Which data collection application should I use?
 Not sure if OpenMapKit is right for your project? Review Data Collection Applications.
 Set-up Process
  [Create OMK forms] [Create .mbtiles] [Create .osm layer] [Optional: Set-up constraint file] [Download and set up ODK and OMK applications] [Add all above files to mobile data collection devices]  1.</description>
-    </item>
-    
-    <item>
-      <title>4.7 Data Collection Servers</title>
-      <link>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.7-data-collection-servers/</guid>
-      <description>Overview When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data.</description>
     </item>
     
     <item>
