@@ -11,13 +11,14 @@
     
     
     <item>
-      <title>7.0 Data Export Tools</title>
-      <link>/pages/data-export/7.0-data-export-tools/</link>
+      <title>6.0 Data Export Tools</title>
+      <link>/pages/data-export/6.0-data-export-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/7.0-data-export-tools/</guid>
-      <description>Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.
- 7.1 HOT Export Tool covers the HOT Export Tool which allows users to download OSM data by specifying tags, area of interest, and file type.</description>
+      <guid>/pages/data-export/6.0-data-export-tools/</guid>
+      <description>In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
+ An overview of data export tools, including presentation slides
+ Step-by-step guides for exporting data with the HOT Export Tool and HDX  Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.</description>
     </item>
     
     <item>
