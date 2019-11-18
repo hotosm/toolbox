@@ -362,7 +362,9 @@ When planning to deploy a team, it is important for the Supervisor to have a goo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-export/6.1-hot-export-tool/</guid>
-      <description>Overview HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
+      <description>This section provides:
+ An overview of the HOT Export Tool Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using Export Tool  
+Overview HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
 Tools and Technology Needed:
  Computer Internet Connection OSM Account   Training Materials for HOT Export Tool This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
     </item>
