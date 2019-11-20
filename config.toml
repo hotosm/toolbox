@@ -6,8 +6,19 @@ relativeurls = true
 enableGitInfo = true
 
 [params]
+    DefaultContentLanguage = "en"
     GithubRepo = "https://github.com/hotosm/toolbox"
 
 [imaging]
     resampleFilter = "box"
     quality = 75
+
+[languages]
+  [languages.fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    weight = 10
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 20
