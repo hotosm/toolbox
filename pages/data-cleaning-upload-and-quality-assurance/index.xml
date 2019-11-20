@@ -11,14 +11,25 @@
     
     
     <item>
-      <title>5.0 Data Cleaning, Upload, and Quality Assurance</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
+      <title>6.0 Data Cleaning, Upload, and Quality Assurance</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
-      <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
- Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap.
- Resources for data quality tools to use following upload to OpenStreetMap, including presentations.  Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</guid>
+      <description>Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded. Regardless of how (and if) you are collecting field data, any project that results edits in OpenStreetMap should have a quality assurance and control plan.
+ 6.1 Management of Collected Data covers the best practices and recommend workflows for managing data that is collected in the field.</description>
+    </item>
+    
+    <item>
+      <title>5.2 OMK Field Data Cleaning Workflow</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
+      <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
+Skills and Technology Needed * JOSM
+Step 1. Create folders Create the folder structure for the data cleaning process.
+ Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
     </item>
     
     <item>

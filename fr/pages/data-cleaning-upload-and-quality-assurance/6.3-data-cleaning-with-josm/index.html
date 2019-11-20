@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body   data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="../../../../svg/hot-logo-red.svg" alt=""><h4 class="title site-title">HOT Toolbox</h4>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+    </div>
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+        <a href="../../../../fr/fr/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français</a>
+        
+        
+            
+        <a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="language-select-option 
+        
+        ">English</a>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            Data Cleaning, Upload, and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="menu-link">6.0 Data Cleaning, Upload, and Quality Assurance</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/" class="menu-link">5.2 OMK Field Data Cleaning Workflow</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="menu-link menu-link--active">5.3 Data Cleaning with JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="menu-link">5.4 Quality Assurance and Quality Control Tools</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/2cda1d8e5e84b5a61167463741b74e09df025063" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
+      Dernière modification: November 20, 2019
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">5.3 Data Cleaning with JOSM</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload. There are a lot of OSM data editors available, but in this module the OSM data editor used is JOSM. JOSM has a lot of useful tools and plugins, making OSM mapping a lot easier but most importantly, it is the easiest tool and best tool for maintaining quality OSM data while importing batches of field data into OSM.</p>
+
+<p><img src="../../../../images/to_do_list.gif" alt="to-do list in JOSM" /></p>
+
+<h3 id="josm-data-cleaning-tools">JOSM Data Cleaning Tools</h3>
+
+<p>There are tools built into JOSM, as well as additional plugins that can assist with data quality control during the upload process.</p>
+
+<ul>
+<li><strong>Filters</strong> is a built-in tool that allows you to disable, hide, select, and highlight specific groups of objects based on flexible custom parameters. This tool will help you to spot and avoid common mistakes, and review data.</li>
+<li>The <strong>Validation Tool</strong> is another built-in tool that will review and search for common errors as well as provide warnings about potentially problematic data.</li>
+<li>The <strong>Todo List</strong> plug-in allows users to systematically review data that is to be uploaded, and monitor progress of data cleaning work. The “ToDo List” plug-in, needs to be downloaded before it can be used.  Visit this page to learn how to install plug-ins in JOSM, then download the “ToDo List” plug-in. <br><br></li>
+</ul>
+
+<h2 id="adding-osm-survey-data-into-osm-using-josm">Adding OSM Survey Data into OSM Using JOSM</h2>
+
+<p>Following a field data collection activity using JOSM, use the following step-by-step guide to clean and upload data to OSM. By following these steps, you will be able to:</p>
+
+<ul>
+<li>Install plugin Utilsplugin2</li>
+<li>Merge all survey data</li>
+<li>Save .osm file using JOSM</li>
+<li>Download OSM data</li>
+<li>Add satellite imagery layer on JOSM</li>
+<li>Add and edit OSM data using JOSM</li>
+<li>Upload changes into OSM<br /></li>
+<li>View changes of OSM data in OSM website</li>
+</ul>
+
+<p><strong>Skills and Technology Needed</strong></p>
+
+<ul>
+<li>Computer</li>
+<li>Internet Connection</li>
+<li>JOSM Installed</li>
+<li>Basic JOSM skills</li>
+<li>Survey data</li>
+</ul>
+
+<h3 id="i-installing-plugin-utilsplugin2">I. Installing plugin Utilsplugin2</h3>
+
+<p>Before adding or editing OSM data using JOSM, install plugin you’ll be using first. JOSM has a plugin called utilsplugin2 whose one of the functions is makes copying preset/tag easier. To use this plugin, you have to install the plugin first since it is not installed by default. These are the steps to install plugin utilsplugin2:</p>
+
+<ul>
+<li>Open <strong>JOSM</strong></li>
+<li>Click menu <strong>Edit → Preferences</strong></li>
+<li>Select menu <strong>Plugins</strong> to install new plugin. If you haven’t downloaded available plugins, click <strong>Download List</strong> first to download it. Make sure that you are connected to the internet.</li>
+<li>After downloading plugins, search the <strong>utlisplugin2</strong> by typing it in the search box. After you found it, give a check on the checkbox next to utilsplugin2.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0201_Installing_plugin_utilsplugin2.png" alt="Installing plugin utilsplugin2" />
+<p align="center"><i>Installing plugin utilsplugin2</i><p align="center"></p>
+
+<ul>
+<li>Click <strong>OK</strong> and wait until the installation process is finished. If the plugin has successfully installed, there will be <strong><em>More tools</em></strong> menu on your JOSM.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0202_More_tools_menu_on_JOSM.png" alt="More tools menu on JOSM" />
+<p align="center"><i>More tools menu on JOSM</i><p align="center"></p>
+
+<blockquote>
+<p><strong>Note:</strong> Sometimes JOSM ask you to Restart JOSM after installing new plugin to apply newly installed plugins. However, not all newly installed plugin needs JOSM restarting to be used after installation process finished.</p>
+</blockquote>
+
+<h3 id="ii-importing-field-data">II. Importing Field Data</h3>
+
+<h4 id="a-merging-omk-survey-data">a. Merging OMK Survey Data</h4>
+
+<p>*Note: if your data is in a different format, skip to b. Importing Survey Data (non-OMK).</p>
+
+<p>If you have finished conducting survey using field data collection toolkit such as ODK Collect and OpenMapKit, you can use the survey data as the reference to add object’s information when mapping it in OSM. Survey data file format from OpenMapKit is .osm. The number of .osm files from OpenMapKit will be the same amount as the surveyed objects since information of one object will be saved in one .osm file. Merge all .osm file to make it easier to use the survey data as mapping reference by following these steps:</p>
+
+<ul>
+<li>Go to <strong>File Explorer</strong> to where you save .osm file from <strong>ODK Collect</strong> and <strong>OMK</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0203_File_directory_for_osm_file_from_ODK_Collect.png" alt="File directory for .osm file from ODK Collect" />
+<p align="center"><i>File directory for .osm file from ODK Collect</i><p align="center"></p>
+
+<ul>
+<li>Search all .osm file by typing “osm” in the <strong>Search</strong> box. Select all .osm file from the search results.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0204_Search_results_for_keyword_osm.png" alt="Search results for keyword “osm”" />
+<p align="center"><i>Search results for keyword “osm”</i><p align="center"></p>
+
+<ul>
+<li>Drag all selected .osm file to <strong>JOSM</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0205_Layers_Windows_after_osm_file_from_ODK_and_OMK_dragged_into_JOSM.png" alt="Layers Windows after .osm file from ODK and OMK dragged into JOSM" />
+<p align="center"><i>Layers Windows after .osm file from ODK and OMK dragged into JOSM</i><p align="center"></p>
+
+<ul>
+<li>Select all those <em>.osm</em> layer by <strong>selecting the uppermost .osm layer, then pressing Shift and then selecting the lowermost .osm layer</strong></li>
+<li><strong>Right click on one of the .osm layer</strong>, then click <strong>Merge</strong>. <strong>Select target layer Windows</strong> will appear, you do not have to change the target layer, click <strong>Merge</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0206_Merging_all_survey_data_layer.png" alt="Merging all survey data layer" />
+<p align="center"><i>Merging all survey data layer</i><p align="center"></p>
+
+<ul>
+<li>Save the merged layer and change the name by <strong>right-clicking on the merged layer</strong>, select <strong>Save As</strong>, change the layer name and then click <strong>Save</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0207_Saving_the_merged_survey_data_layer.png" alt="Saving the merged survey data layer" />
+<p align="center"><i>Saving the merged survey data layer</i><p align="center"></p>
+
+<ul>
+<li>JOSM provides a plugin named <strong>to-do</strong> to help you mark the mapped or unmapped object from the merged survey data layer. You can refer to **Using to-do list on JOSM **module to learn how to install and how to use **to-do **plugin in details. If you have already installed <strong>to-do</strong> plugin and activated Todo list Windows, select all objects nodes in the merged layer using <strong>Select object icon</strong>, then click **Add **on the Todo list Windows.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0208_Adding_objects_into_Todo_list.png" alt="Adding objects into Todo list" />
+<p align="center"><i>Adding objects into Todo list</i><p align="center"></p>
+
+<h4 id="b-importing-survey-data-non-osm">b. Importing Survey Data (non-OSM)</h4>
+
+<p>You will need to convert your data into a .geojson, .shapefile, or .osm file before beginning data cleaning. We recommend merging and converting files in .QGIS, then open the merged file in JOSM.</p>
+
+<h3 id="iii-downloading-osm-data">III. Downloading OSM Data</h3>
+
+<p>After successfully merging all survey data, you need to download existing OSM data. Downloading OSM data aims to discover which objects already mapped and which objects have not already mapped on OSM. These are the steps to download OSM data using JOSM:</p>
+
+<ul>
+<li>Click menu <strong>File → Download Data</strong></li>
+<li><strong>Download Windows</strong> will appear. It will show you tab <strong>Slippy Map</strong> by default.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0209_Download_Windows_on_JOSM.png" alt="Download Windows on JOSM" />
+<p align="center"><i>Download Windows on JOSM</i><p align="center"></p>
+
+<ul>
+<li><p>If the map is not displaying your mapping area, slide the map by <strong>right clicking and hold</strong> your mouse and then <strong>drag the map</strong> to your mapping area. Draw a box at your mapping area by <strong>left clicking and hold</strong> your mouse and then <strong>move</strong> your mouse until a pink box cover the entire mapping area. Then click <strong>Download</strong>.</p></li>
+
+<li><p>If it is quite hard to find your mapping area by sliding the map, you can click tab <strong>Areas around places</strong> and type the name of your mapping area in the <strong>Enter a place name to search for</strong> box then click <strong>Search</strong>. The search result will show you names of your mapping area. <strong>Click on one of the names</strong> then <strong>go back to tab Slippy Map</strong>. The map on the tab <strong>Slippy Map</strong> will be directed to your mapping area. <strong>Draw a box</strong> covering  your entire area of mapping, then click <strong>Download</strong>.</p></li>
+</ul>
+
+<blockquote>
+<p><strong>Note:</strong> Do mind the amount of existing OSM data in your mapping area. If there is already a lot of existing data, you should download it part by part since JOSM can not download an enormous amount of data at once.</p>
+</blockquote>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0210_Tab_Areas_around_places_at_Download_Windows.png" alt="Tab “Areas around places” at Download Windows" />
+<p align="center"><i>Tab “Areas around places” at Download Windows</i><p align="center"></p>
+
+<ul>
+<li>After finished downloading OSM data in your mapping area, there will be a new layer in the Layer Windows that will also be your editing layer to add or edit OSM data. Make sure that you <strong>only add or edit data in the clear area, not in the shaded area</strong>. The shaded area is not your downloaded area. And make sure your entire survey area is already downloaded. After downloading OSM data, your JOSM will look like this:</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0211_Downloading_OSM_data_on_JOSM.png" alt="Downloading OSM data on JOSM" />
+<p align="center"><i>Tab “Downloading OSM data on JOSM” at Download Windows</i><p align="center"></p>
+
+<ul>
+<li>If you already downloaded OSM data in all your area, merge your downloaded OSM data layer with your survey data layer. Select those <strong>two layers</strong> then <strong>right click</strong>, select <strong>Merge</strong>. Save on your survey data layer. Then click <strong>Merge</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0212_Merging_downloaded_OSM_data_with_survey_data_layer.png" alt="Merging downloaded OSM data with survey data layer" />
+<p align="center"><i>Merging downloaded OSM data with survey data layer</i><p align="center"></p>
+
+<h3 id="iv-adding-satellite-imagery">IV. Adding Satellite Imagery</h3>
+
+<ul>
+<li>Add satellite imagery as another reference for mapping by clicking menu <strong>Imagery → choose one of the available imagery you want to use, such as DigitalGlobe Premium Imagery.</strong> After successfully adding satellite imagery, it is time to add OSM data. Your JOSM will look like this:</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0213_Adding_satellite_imagery_on_JOSM.png" alt="Adding satellite imagery on JOSM" />
+<p align="center"><i>Adding satellite imagery on JOSM</i><p align="center"></p>
+
+<ul>
+<li>You can adjust the display of the satellite imagery. Select the satellite imagery layer, then click icon **Change visibility of selected layer **and adjust its display by sliding the blue button left or right.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0214_Changing_the_display_of_satellite_imagery.png" alt="Changing the display of satellite imagery" />
+<p align="center"><i>Changing the display of satellite imagery</i><p align="center"></p>
+
+<ul>
+<li>If you use <strong>DigitalGlobe Premium Imagery</strong> as your reference, sometimes it has two versions of display when you zoom it in or zoom it out. Usually there is only one version of display aligned with the existing OSM data. Inactivate <strong>Auto Zoom</strong> feature so that the satellite imagery display won’t change when you zoom it in or zoom it out. To inactivate Auto Zoom feature, <strong>right click on the Satellite Imagery display → click Auto zoom</strong> so that the checkmark next to Auto zoom disappear.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0215_Inactivating_Auto_zoom_for_satellite_imagery.png" alt="Inactivating Auto zoom for satellite imagery" />
+<p align="center"><i>Inactivating Auto zoom for satellite imagery</i><p align="center"></p>
+
+<h3 id="v-editing-osm-data-using-josm">V. Editing OSM Data Using JOSM</h3>
+
+<p>Now you are ready to add or to edit OSM data using JOSM. You can draw new objects or you can edit the existing objects using the tools mentioned in **Using JOSM **module. Here are the steps on how to add or edit OSM data using survey data, downloaded OSM data and satellite imagery that you already added before on JOSM:</p>
+
+<ul>
+<li>After successfully following the steps mentioned in the previous sections, there will be two layers on your JOSM: <strong>satellite imagery layer</strong> (in the picture below, the layer meant is DigitalGlobe Premium Imagery layer) and <strong>merged survey data with downloaded OSM data layer</strong> (in the picture below, the layer meant is _hasil_survey<em>jakut.osm</em> layer). It will look like this:</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0216_Satellite_imagery_layer_and_merged_survey_data_with_downloaded_data_layer.png" alt="Satellite imagery layer and merged survey data with downloaded data layer" />
+<p align="center"><i>Satellite imagery layer and merged survey data with downloaded data layer</i><p align="center"></p>
+
+<ul>
+<li>You can use <strong>Filter</strong> feature on JOSM so that you don’t accidentally make changes on other objects such as administrative boundaries. Administrative boundaries in OSM is a delicate objects, so if there are already administrative boundaries mapped on your mapping area then it is better to utilize the <strong>Filter</strong> feature. To use this <strong>Filter</strong> feature, activate the Filter Windows by clicking menu <strong>Windows → Filter</strong>. There will be Filter Windows in the right panel. Click <strong>Add</strong> in the Filter Windows, type <strong>boundary=administrative</strong> in the <strong>Filter string</strong> box and click <strong>Submit Filter</strong>. New filter will appear for the administrative boundaries. To turn off the filter, simply uncheck the checkmark on the left of the filter. You can find out more about  <strong>Filter</strong> feature on JOSM in the <strong>Using Filter on JOSM</strong> module.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0217_Filter_Windows_on_JOSM.png" alt="Filter Windows on JOSM" />
+<p align="center"><i>Filter Windows on JOSM</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0218_Adding_filter_string_in_the_Filter_Windows.png" alt="Adding filter string in the Filter Windows" />
+<p align="center"><i>Adding filter string in the Filter Windows</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0219_Newly_added_filter_in_the_Filter_Windows.png" alt="Newly added filter in the Filter Windows" />
+<p align="center"><i>Newly added filter in the Filter Windows</i><p align="center"></p>
+
+<ul>
+<li>Start mapping by zooming in to an object, select one object in the Todo list Windows and then click <strong>Zoom</strong>. After selecting and zooming in one object, you can copy the tag from the selected object to the downloaded OSM objects. Select the downloaded OSM object that aligns with the selected survey object, then click menu <strong>More tools → Copy tags from previous selection</strong> or press <strong>Shift + R</strong> on your keyboard. Make sure you selected the aligned survey object right before copying its tags to downloaded OSM object. Also make sure that the copied tags are consistent with OSM mapping guidelines and suitable for the object type. For example, in the picture below, a clinic located in a shophouse complex, mapped as a point and only have tags suitable for point object. While the building related tags added to the shophouse building where the clinic is located. When you finish copying tags for one object, click <strong>Mark</strong> to identify that it is just already mapped on OSM. Repeat until all of the objects mapped on OSM.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0220_Using_Zoom_dan_Mark_feature_on_the_Todo_list_Windows.png" alt="Using Zoom dan Mark feature on the Todo list Windows" />
+<p align="center"><i>Using Zoom dan Mark feature on the Todo list Windows</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0221_Tags_suitable_for_point_object.png" alt="Tags suitable for point object" />
+<p align="center"><i>Tags suitable for point object</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0222_Copying_building_related_tags_using_Shift_R.png" alt="Copying building related tags using Shift + R" />
+<p align="center"><i>Copying building related tags using Shift + R</i><p align="center"></p>
+
+<ul>
+<li>Example given above is for point object. When you find an object that is supposed to map as a polygon, such as school complex which has more than one building inside, how to map it on OSM? Select the school object in the Todo list Windows and then click <strong>Zoom</strong>. Select the point object on the map. Copy the tag to the building polygon aligned with the point object by selecting the building polygon and then clicking menu <strong>More tools → Copy tags from previous selection</strong> or pressing <strong>Shift + R</strong> on keyboard. After copying the tags, delete tags that are not related to building and left only building related tags. Draw a polygon covering all school area using <strong>Draw nodes</strong>, then copy tags that are suitable for school area (tags that you deleted before in the building polygon) like amenity, name and addr:full. After that, delete the school point from the survey data since it has just been mapped as a school area polygon.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0223_School_point_from_survey_data.png" alt="School point from survey data" />
+<p align="center"><i>School point from survey data</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0224_Tags_suitable_for_school_building.png" alt="Tags suitable for school building" />
+<p align="center"><i>Tags suitable for school building</i><p align="center"></p>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0225_Tags_suitable_for_school_area.png" alt="Tags suitable for school area" />
+<p align="center"><i>Tags suitable for school area</i><p align="center"></p>
+
+<h3 id="vi-saving-changes">VI. Saving Changes</h3>
+
+<ul>
+<li>If you have already done mapping using JOSM, save changes to OSM server because the newly added objects are saved only in your computer. To save the changes you’ve made, click menu <strong>File → Upload Data</strong>.</li>
+<li>If you encounter warning/error after clicking Upload Data, it is better to fix warning/error first. You can find out more about fixing warning/error and common warning/errors found in <strong>Survey Data Validation Using JOSM</strong> module. However, if you don&rsquo;t have the time to learn how to fix warning/error, you can just go ahead and click <strong>Continue Upload</strong>. Upload Windows will appear.</li>
+<li>If there is no warning/error, Upload Windows will appear. On the Upload Windows, type a brief comment for the changes you’ve done in the comment box and specify the source(s) in the source box. Type the name of the satellite imagery and survey in the source box. If you want other contributors to review your edits, give a checkmark next to <strong>I would like someone to review my edits</strong>. Then click <strong>Upload Changes</strong>.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0226_Upload_Windows_on_JOSM.png" alt="Upload Windows on JOSM" />
+<p align="center"><i>Upload Windows on JOSM</i><p align="center"></p>
+
+<blockquote>
+<p><strong>Note:</strong> You need to periodically upload your edits when mapping so that there won&rsquo;t be a hefty amount of edits to upload. The more edits you want to upload, the more time it takes to upload. If you already mapped a lot of edits and haven&rsquo;t done any upload, you can upload it by chunk. You can do it by clicking tab <strong>Advanced</strong> and select <strong>Upload data in chunks of objects</strong> in the Upload Windows. Type the <strong>Chunk size</strong> with how many changes you want to upload per chunk, such as 500. This can be done to avoid incomplete upload, especially when your internet connection is unstable that resulted in object duplication.</p>
+</blockquote>
+
+<h3 id="vii-saving-osm-file">VII. Saving .osm File</h3>
+
+<ul>
+<li>You can also save your editing layer by <strong>right clicking</strong> on your editing layer and click <strong>Save</strong>. <strong>Save OSM file</strong> WIndows shown below will appear. Type the name of your file, then click <strong>Save</strong>. Your file will be saved in .osm format.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0227_Save_OSM_File_Windows_on_JOSM.png" alt="Save OSM File Windows on JOSM" />
+<p align="center"><i>Save OSM File Windows on JOSM</i><p align="center"></p>
+
+<blockquote>
+<p><strong>Note:</strong> If you haven&rsquo;t finished mapping your area and you want to continue mapping it later, you can save your work as .osm file then you can continue mapping it later. You can open your saved .osm file by clicking menu File → Open, choose the file you want to open and click Open. After opening it, update the OSM data first by clicking menu File → Update Data and you can go ahead to continue mapping.</p>
+</blockquote>
+
+<h3 id="viii-viewing-changes-in-the-map"><strong>VIII. Viewing Changes in the Map</strong></h3>
+
+<ul>
+<li>You can view your changes by checking it on <a href="https://www.openstreetmap.org/">OSM</a> website and directing it to your mapping area. Keep in mind, new changes can be viewed a while after uploading it to OSM server.</li>
+</ul>
+
+<p><img src="../../../../images/add-survey-data-using-josm/0228_OSM_map_before_and_after_mapping_process.png" alt="OSM map before and after mapping process" />
+<p align="center"><i>OSM map before and after mapping process</i><p align="center"></p>
+
+<p><strong>SUMMARY</strong></p>
+
+<p>If you can apply and follow through to all of the steps mentioned in this module, then you are able to go through OSM mapping process using JOSM successfully. You are able to do OSM mapping process, such as downloading OSM data, adding satellite image, editing OSM data, uploading changes, saving OSM data as <em>.osm</em> file and viewing changes. You can upload your changes periodically, such as by region or by village. If you already have finished conducting survey in one region or in one village, you can upload it directly to OSM. This shall be done so that your survey data is not piled up and others can perform data validation for your edits.</p>
+</div>
+
+
+
+
+    
+     
+    
+
+
+
+
+
+<a class="next-page" href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">5.4 Quality Assurance and Quality Control Tools</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a>
+<ul>
+<li><a href="#josm-data-cleaning-tools">JOSM Data Cleaning Tools</a></li>
+</ul></li>
+<li><a href="#adding-osm-survey-data-into-osm-using-josm">Adding OSM Survey Data into OSM Using JOSM</a>
+<ul>
+<li><a href="#i-installing-plugin-utilsplugin2">I. Installing plugin Utilsplugin2</a></li>
+<li><a href="#ii-importing-field-data">II. Importing Field Data</a>
+<ul>
+<li><a href="#a-merging-omk-survey-data">a. Merging OMK Survey Data</a></li>
+<li><a href="#b-importing-survey-data-non-osm">b. Importing Survey Data (non-OSM)</a></li>
+</ul></li>
+<li><a href="#iii-downloading-osm-data">III. Downloading OSM Data</a></li>
+<li><a href="#iv-adding-satellite-imagery">IV. Adding Satellite Imagery</a></li>
+<li><a href="#v-editing-osm-data-using-josm">V. Editing OSM Data Using JOSM</a></li>
+<li><a href="#vi-saving-changes">VI. Saving Changes</a></li>
+<li><a href="#vii-saving-osm-file">VII. Saving .osm File</a></li>
+<li><a href="#viii-viewing-changes-in-the-map"><strong>VIII. Viewing Changes in the Map</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+    
+    <hr class="toc-divider">
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-cleaning-upload-and-quality-assurance/6.3-Data-Cleaning-with-JOSM.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/6.3-Data-Cleaning-with-JOSM.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
+</html>

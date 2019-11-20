@@ -12,10 +12,10 @@
     
     <item>
       <title>2.0 Introduction to Digitization and Editing in OSM</title>
-      <link>/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
+      <link>/pages/digitization-and-editing/3.0-digitization-and-editing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
+      <guid>/pages/digitization-and-editing/3.0-digitization-and-editing/</guid>
       <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:
  Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager.
  Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload  Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>2.1 Introduction to OpenStreetMap</title>
-      <link>/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</link>
+      <link>/pages/digitization-and-editing/3.1_introduction_to_openstreetmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</guid>
+      <guid>/pages/digitization-and-editing/3.1_introduction_to_openstreetmap/</guid>
       <description>This section provides:
  An overview of OpenStreetMap, including presentation slides Step-by-step instructions for creating OpenStreetMap accounts Step-by-step instructions for using and navigating OSM Considerations for training large groups  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
 Overview OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&amp;rsquo;s mapping activities.</description>
@@ -34,10 +34,10 @@ Overview OpenStreetMap is a collaborative project to create a free editable worl
     
     <item>
       <title>2.2 Organized OSM Editing</title>
-      <link>/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
+      <link>/pages/digitization-and-editing/3.2_organized_osm_editing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
+      <guid>/pages/digitization-and-editing/3.2_organized_osm_editing/</guid>
       <description>This section provides:
  Considerations for managing and sourcing mappers for an organized editing project Overview of the OSM Organized Editing Guidelines and compliance Step-by-step guide for complying with the OSM Organized Editing Guidelines  
 Overview Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts.</description>
@@ -45,10 +45,10 @@ Overview Before starting any mapping project, it is important to assess, and if 
     
     <item>
       <title>2.3 Working with the HOT Tasking Manager</title>
-      <link>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
+      <link>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
+      <guid>/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/</guid>
       <description>This section provides:
  An overview of the HOT Tasking Manager, including presentation slides Step-by-step instructions for getting started with the HOT Tasking Manager  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
 Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap.</description>
@@ -56,10 +56,10 @@ Overview The HOT Tasking Manager is a mapping tool designed and built for the Hu
     
     <item>
       <title>2.4 Editing with iD and JOSM</title>
-      <link>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
+      <link>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
+      <guid>/pages/digitization-and-editing/3.4-editing-with-id-and-josm/</guid>
       <description>This section provides:
  A comparison of OpenStreetMap editing tools, JOSM and iD Editor An overview of iD Editor, including presentation slides An overview of JOSM, including presentation slides  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
 
@@ -68,10 +68,10 @@ Overview There are several ways to edit in OpenStreetMap.</description>
     
     <item>
       <title>2.5 Validating with JOSM</title>
-      <link>/pages/digitization-and-editing/2.5_validating_with_josm/</link>
+      <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
+      <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
       <description>This section provides:
  An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
 Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
@@ -79,10 +79,10 @@ Overview Validation is a process of checking the data quality (in this case, map
     
     <item>
       <title>2.6 Resolving conflicts in JOSM</title>
-      <link>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
+      <link>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
+      <guid>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</guid>
       <description>This section provides:
  An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
 Overview When you are uploading your changes in JOSM, some contributors might also do editing in your area.</description>
