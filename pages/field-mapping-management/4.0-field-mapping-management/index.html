@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="language-select-option
+        <a href="../../../fr/pages/field-mapping-management/4.0-field-mapping-management/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="language-select-option 
+        <a href="../../../pages/field-mapping-management/4.0-field-mapping-management/" class="language-select-option 
         
         language-select-option--selected
         
@@ -180,7 +180,7 @@
         ">
                 <ul class="page-list">
                     
-                        <li class="page"><a href="../../../pages/field-mapping-management/4.0-field-mapping-management/" class="menu-link">4.0 Introduction to Field Mapping Management</a></li>
+                        <li class="page"><a href="../../../pages/field-mapping-management/4.0-field-mapping-management/" class="menu-link menu-link--active">4.0 Introduction to Field Mapping Management</a></li>
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/5.1_using_odk_collect/" class="menu-link">5.1 Using ODK Collect</a></li>
                     
@@ -188,7 +188,7 @@
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/" class="menu-link">5.3 Using OSMTracker</a></li>
                     
-                        <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link menu-link--active">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
                     
                 </ul>
             </div>
@@ -309,57 +309,26 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/6e8cc74afc438204388cd9811697eed05da4a2aa" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/b9601d095846df4b1d1fb10b3612f2f522a235c2" class="sub-title sub-title-14" title='Last modified November 21, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 21, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">5.4 Managing Teams in the Field using OsmAnd and QGIS</h1>
-
-<h2 id="overview">Overview</h2>
-
-<p>Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</p>
-
-<p>When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work. Once this is done, they will then go ahead and create small sections of the mapping area, that can be covered in a day by a team of two mappers or a single mapper depending on the team arrangement.</p>
-
-<p>Similar to the grid in Tasking Manager, creating sections for mapping allows supervisors to divide tasks, monitor progress, and be able to assess gaps or quality issues.</p>
-
-<p><strong>Skills and Technology Needed</strong></p>
+           <h1 class="page-title">4.0 Introduction to Field Mapping Management</h1><p>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:</p>
 
 <ul>
-<li>Computer</li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-qgis">QGIS Installed</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#navigating-qgis">Basic QGIS skills</a></li>
+<li>Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field</li>
+<li>Resources and step-by-step guides for managers on how to organize and monitor teams in the field</li>
 </ul>
 
-<p>The following activity covers the process of generating mapping sections in QGIS for printing or importing files into OSMAnd. This activity uses the example of leading a team of 8 mapping volunteers to map Grootfontein Town, in Northern Namibia, during a Malaria Elimination Project. Example files are provided for this activity but can be followed with files provided by the user.</p>
+<p><img src="../../../images/field_mapping.jpeg" alt="" /></p>
 
-<h2 id="creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</h2>
+<hr />
 
-<p>Step 1: To begin, open QGIS on your computer and start a new project.</p>
-
-<p>Step 2: Create an empty shapefile naming it: _grootfontein<em>sections.shp</em></p>
-
-<p>Step 3: Create sections of the town, giving them numbers. These sections should follow natural features or prominent landmarks such as swamps or roads. This is to ensure that ease of location of these sections by mappers.</p>
-
-<p>Step 4: Make maps showing these sections. These maps can be printed out for sharing with the mapping volunteers. Teams can now head to their allocated sections to conduct field mapping.</p>
-
-<h2 id="creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</h2>
-
-<p><strong>OSMAnd</strong> provides a great alternative to printing out these sections maps. With OSMAnd, the Supervisor can instead use the following steps to give sections to team members for use in the field directly on their mobile devices.</p>
-
-<p>Step 1: Export sections centroids from the _grootfontein<em>sections.shp</em> giving you _grootfontein_sections<em>centroids.shp</em></p>
-
-<p>Step 2: In QGIS, save the sections shapefiles (_grootfontein<em>sections.shp</em>) and the centroids shapefile (_grootfontein_sections<em>centroids.shp</em>) as a .gpx giving you a _grootfontein<em>sections.gpx</em> and _grootfontein_sections<em>centroids.gpx.</em></p>
-
-<p>Step 3: Transfer these two .gpx files from you computer to the _/Phone/Android/data/net.osmand/files/tracks _folder</p>
-
-<p>Step 4: Open OSMAnd application and load these two files via <em>Menu button -&gt; My Places -&gt; Tracks -&gt; Browse to where the files are located</em></p>
-
-<p>The sections gpx file will show you boundaries of the sections and the centroids gpx file will show you section numbers once a centroid point is selected. With these two, volunteers can move in the field using the OSMAnd app, locating their positions each time as well as the sections in which they are standing.</p>
+<p>Effective <strong>Field Mapping Management</strong> - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness. <br></p>
 </div>
 
 
@@ -431,29 +400,28 @@
 
 
 
+<a class="next-page" href="../../../pages/field-mapping-management/5.1_using_odk_collect/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">5.1 Using ODK Collect</div>
+    </div>
+    <img src="../../../svg/forward-arrow.svg" alt="">
+</a>
+
 </div></main>
     <aside class="toc"><div class="toc__container">
     
     
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
-        <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</a></li>
-<li><a href="#creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</a></li>
-</ul></li>
-</ul>
-</nav>
+        
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/field-mapping-management/5.4_managing_teams_in_the_field.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/field-mapping-management/4.0-field-mapping-management.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/5.4_managing_teams_in_the_field.pdf"
+    href="../../../pdfs/en/4.0-field-mapping-management.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>
