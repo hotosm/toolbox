@@ -45,6 +45,18 @@ Choosing a Data Collection Application Which data collection application should 
     </item>
     
     <item>
+      <title>3.2.1 Setting up OpenDataKit</title>
+      <link>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
+      <description>This section provides:
+ A step-by-step guide in setting up OpenDataKit for use in the field, including,
+ Creating ODK forms Setting up ODK on devices   
+Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
+    </item>
+    
+    <item>
       <title>3.2.2 Setting up OpenMapKit</title>
       <link>/pages/data-collection-and-field-mapping/4.2.2_setting_up_omk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,15 +91,6 @@ While navigation tools are not required for data collection, they can be extreme
  An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
 
 Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
-    </item>
-    
-    <item>
-      <title>4.0 Field Mapping - Technical Set-up</title>
-      <link>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</guid>
-      <description>Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow. This section is designed to guide project managers and community members through the decision making process to determine what tools and steps are necessary for their specific project. Many technical guides exist on setting up and using specific tools such as OpenDataKit and POSM. To support project managers effectively, step-by-step guides are provided for some tools and processes where external documentation is lacking or HOT has previously created tailored materials.</description>
     </item>
     
   </channel>
