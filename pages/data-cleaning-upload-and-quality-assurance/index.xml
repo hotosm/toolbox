@@ -22,12 +22,15 @@
     </item>
     
     <item>
-      <title>5.3 Data Cleaning with JOSM</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/</link>
+      <title>5.1 Data Cleaning with JOSM</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/</guid>
-      <description>Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload. There are a lot of OSM data editors available, but in this module the OSM data editor used is JOSM. JOSM has a lot of useful tools and plugins, making OSM mapping a lot easier but most importantly, it is the easiest tool and best tool for maintaining quality OSM data while importing batches of field data into OSM.</description>
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</guid>
+      <description>This section provides:
+ An overview data cleaning tools in JOSM Step-by-step instructions for importing field data into JOSM Step-by-step instructions for cleaning data into JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to clean and upload field data in JOSM.
+
+Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload.</description>
     </item>
     
     <item>

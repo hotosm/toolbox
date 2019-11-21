@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="language-select-option
+        <a href="../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="language-select-option 
+        <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="language-select-option 
         
         language-select-option--selected
         
@@ -209,7 +209,7 @@
                     
                         <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="menu-link">5.0 Data Cleaning, Upload, and Quality Assurance</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/6.3-data-cleaning-with-josm/" class="menu-link menu-link--active">5.3 Data Cleaning with JOSM</a></li>
+                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link menu-link--active">5.1 Data Cleaning with JOSM</a></li>
                     
                         <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="menu-link">5.4 Quality Assurance and Quality Control Tools</a></li>
                     
@@ -305,15 +305,27 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/6e8cc74afc438204388cd9811697eed05da4a2aa" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/3d7fabc66ffa5310abf5d278c676b30535d184bc" class="sub-title sub-title-14" title='Last modified November 21, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 21, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">5.3 Data Cleaning with JOSM</h1>
+           <h1 class="page-title">5.1 Data Cleaning with JOSM</h1>
+
+<p>This section provides:</p>
+
+<ul>
+<li>An overview data cleaning tools in JOSM</li>
+<li>Step-by-step instructions for importing field data into JOSM</li>
+<li>Step-by-step instructions for cleaning data into JOSM</li>
+</ul>
+
+<p><em>The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to clean and upload field data in JOSM.</em></p>
+
+<p><br></p>
 
 <h2 id="overview">Overview</h2>
 
@@ -331,7 +343,14 @@
 <li>The <strong>Todo List</strong> plug-in allows users to systematically review data that is to be uploaded, and monitor progress of data cleaning work. The “ToDo List” plug-in, needs to be downloaded before it can be used.  Visit this page to learn how to install plug-ins in JOSM, then download the “ToDo List” plug-in. <br><br></li>
 </ul>
 
-<h2 id="adding-osm-survey-data-into-osm-using-josm">Adding OSM Survey Data into OSM Using JOSM</h2>
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
+
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+
+<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<em>The following section is designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.</em></p>
+
+<h3 id="adding-survey-data-into-josm">Adding Survey Data into JOSM</h3>
 
 <p>Following a field data collection activity using JOSM, use the following step-by-step guide to clean and upload data to OSM. By following these steps, you will be able to:</p>
 
@@ -356,7 +375,7 @@
 <li>Survey data</li>
 </ul>
 
-<h3 id="i-installing-plugin-utilsplugin2">I. Installing plugin Utilsplugin2</h3>
+<p><strong>1. Installing plugin Utilsplugin2</strong></p>
 
 <p>Before adding or editing OSM data using JOSM, install plugin you’ll be using first. JOSM has a plugin called utilsplugin2 whose one of the functions is makes copying preset/tag easier. To use this plugin, you have to install the plugin first since it is not installed by default. These are the steps to install plugin utilsplugin2:</p>
 
@@ -381,11 +400,10 @@
 <p><strong>Note:</strong> Sometimes JOSM ask you to Restart JOSM after installing new plugin to apply newly installed plugins. However, not all newly installed plugin needs JOSM restarting to be used after installation process finished.</p>
 </blockquote>
 
-<h3 id="ii-importing-field-data">II. Importing Field Data</h3>
+<p><strong>2. Importing Field Data</strong></p>
 
-<h4 id="a-merging-omk-survey-data">a. Merging OMK Survey Data</h4>
-
-<p>*Note: if your data is in a different format, skip to b. Importing Survey Data (non-OMK).</p>
+<p><strong>2.1 Merging OMK Survey Data</strong>
+*Note: if your data is in a different format, skip to b. Importing Survey Data (non-OMK).</p>
 
 <p>If you have finished conducting survey using field data collection toolkit such as ODK Collect and OpenMapKit, you can use the survey data as the reference to add object’s information when mapping it in OSM. Survey data file format from OpenMapKit is .osm. The number of .osm files from OpenMapKit will be the same amount as the surveyed objects since information of one object will be saved in one .osm file. Merge all .osm file to make it easier to use the survey data as mapping reference by following these steps:</p>
 
@@ -432,11 +450,11 @@
 <p><img src="../../../images/add-survey-data-using-josm/0208_Adding_objects_into_Todo_list.png" alt="Adding objects into Todo list" />
 <p align="center"><i>Adding objects into Todo list</i><p align="center"></p>
 
-<h4 id="b-importing-survey-data-non-osm">b. Importing Survey Data (non-OSM)</h4>
+<p><strong>2.2 Importing Survey Data (non-OSM)</strong></p>
 
 <p>You will need to convert your data into a .geojson, .shapefile, or .osm file before beginning data cleaning. We recommend merging and converting files in .QGIS, then open the merged file in JOSM.</p>
 
-<h3 id="iii-downloading-osm-data">III. Downloading OSM Data</h3>
+<p><strong>3. Downloading OSM Data</strong></p>
 
 <p>After successfully merging all survey data, you need to download existing OSM data. Downloading OSM data aims to discover which objects already mapped and which objects have not already mapped on OSM. These are the steps to download OSM data using JOSM:</p>
 
@@ -475,7 +493,7 @@
 <p><img src="../../../images/add-survey-data-using-josm/0212_Merging_downloaded_OSM_data_with_survey_data_layer.png" alt="Merging downloaded OSM data with survey data layer" />
 <p align="center"><i>Merging downloaded OSM data with survey data layer</i><p align="center"></p>
 
-<h3 id="iv-adding-satellite-imagery">IV. Adding Satellite Imagery</h3>
+<p><strong>4. Adding Satellite Imagery</strong></p>
 
 <ul>
 <li>Add satellite imagery as another reference for mapping by clicking menu <strong>Imagery → choose one of the available imagery you want to use, such as DigitalGlobe Premium Imagery.</strong> After successfully adding satellite imagery, it is time to add OSM data. Your JOSM will look like this:</li>
@@ -498,7 +516,7 @@
 <p><img src="../../../images/add-survey-data-using-josm/0215_Inactivating_Auto_zoom_for_satellite_imagery.png" alt="Inactivating Auto zoom for satellite imagery" />
 <p align="center"><i>Inactivating Auto zoom for satellite imagery</i><p align="center"></p>
 
-<h3 id="v-editing-osm-data-using-josm">V. Editing OSM Data Using JOSM</h3>
+<p><strong>5. Editing OSM Data Using JOSM</strong></p>
 
 <p>Now you are ready to add or to edit OSM data using JOSM. You can draw new objects or you can edit the existing objects using the tools mentioned in **Using JOSM **module. Here are the steps on how to add or edit OSM data using survey data, downloaded OSM data and satellite imagery that you already added before on JOSM:</p>
 
@@ -548,7 +566,7 @@
 <p><img src="../../../images/add-survey-data-using-josm/0225_Tags_suitable_for_school_area.png" alt="Tags suitable for school area" />
 <p align="center"><i>Tags suitable for school area</i><p align="center"></p>
 
-<h3 id="vi-saving-changes">VI. Saving Changes</h3>
+<p><strong>6. Saving Changes</strong></p>
 
 <ul>
 <li>If you have already done mapping using JOSM, save changes to OSM server because the newly added objects are saved only in your computer. To save the changes you’ve made, click menu <strong>File → Upload Data</strong>.</li>
@@ -563,7 +581,7 @@
 <p><strong>Note:</strong> You need to periodically upload your edits when mapping so that there won&rsquo;t be a hefty amount of edits to upload. The more edits you want to upload, the more time it takes to upload. If you already mapped a lot of edits and haven&rsquo;t done any upload, you can upload it by chunk. You can do it by clicking tab <strong>Advanced</strong> and select <strong>Upload data in chunks of objects</strong> in the Upload Windows. Type the <strong>Chunk size</strong> with how many changes you want to upload per chunk, such as 500. This can be done to avoid incomplete upload, especially when your internet connection is unstable that resulted in object duplication.</p>
 </blockquote>
 
-<h3 id="vii-saving-osm-file">VII. Saving .osm File</h3>
+<p><strong>7. Saving .osm File</strong></p>
 
 <ul>
 <li>You can also save your editing layer by <strong>right clicking</strong> on your editing layer and click <strong>Save</strong>. <strong>Save OSM file</strong> WIndows shown below will appear. Type the name of your file, then click <strong>Save</strong>. Your file will be saved in .osm format.</li>
@@ -576,7 +594,7 @@
 <p><strong>Note:</strong> If you haven&rsquo;t finished mapping your area and you want to continue mapping it later, you can save your work as .osm file then you can continue mapping it later. You can open your saved .osm file by clicking menu File → Open, choose the file you want to open and click Open. After opening it, update the OSM data first by clicking menu File → Update Data and you can go ahead to continue mapping.</p>
 </blockquote>
 
-<h3 id="viii-viewing-changes-in-the-map"><strong>VIII. Viewing Changes in the Map</strong></h3>
+<p><strong>8. Viewing Changes in the Map</strong></p>
 
 <ul>
 <li>You can view your changes by checking it on <a href="https://www.openstreetmap.org/">OSM</a> website and directing it to your mapping area. Keep in mind, new changes can be viewed a while after uploading it to OSM server.</li>
@@ -681,20 +699,9 @@
 <ul>
 <li><a href="#josm-data-cleaning-tools">JOSM Data Cleaning Tools</a></li>
 </ul></li>
-<li><a href="#adding-osm-survey-data-into-osm-using-josm">Adding OSM Survey Data into OSM Using JOSM</a>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
 <ul>
-<li><a href="#i-installing-plugin-utilsplugin2">I. Installing plugin Utilsplugin2</a></li>
-<li><a href="#ii-importing-field-data">II. Importing Field Data</a>
-<ul>
-<li><a href="#a-merging-omk-survey-data">a. Merging OMK Survey Data</a></li>
-<li><a href="#b-importing-survey-data-non-osm">b. Importing Survey Data (non-OSM)</a></li>
-</ul></li>
-<li><a href="#iii-downloading-osm-data">III. Downloading OSM Data</a></li>
-<li><a href="#iv-adding-satellite-imagery">IV. Adding Satellite Imagery</a></li>
-<li><a href="#v-editing-osm-data-using-josm">V. Editing OSM Data Using JOSM</a></li>
-<li><a href="#vi-saving-changes">VI. Saving Changes</a></li>
-<li><a href="#vii-saving-osm-file">VII. Saving .osm File</a></li>
-<li><a href="#viii-viewing-changes-in-the-map"><strong>VIII. Viewing Changes in the Map</strong></a></li>
+<li><a href="#adding-survey-data-into-josm">Adding Survey Data into JOSM</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -702,10 +709,10 @@
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-cleaning-upload-and-quality-assurance/6.3-Data-Cleaning-with-JOSM.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-cleaning-upload-and-quality-assurance/5.1-Data-Cleaning-with-JOSM.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/6.3-Data-Cleaning-with-JOSM.pdf"
+    href="../../../pdfs/en/5.1-Data-Cleaning-with-JOSM.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>
