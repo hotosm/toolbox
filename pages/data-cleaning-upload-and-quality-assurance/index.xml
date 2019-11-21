@@ -12,10 +12,10 @@
     
     <item>
       <title>5.0 Data Cleaning, Upload, and Quality Assurance</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</link>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</guid>
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
       <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
  Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap.
  Resources for data quality tools to use following upload to OpenStreetMap, including presentations.  Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
