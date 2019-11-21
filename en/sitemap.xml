@@ -109,7 +109,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
+    <lastmod>2019-11-21T11:22:23+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -229,6 +229,11 @@
   </url>
   
   <url>
+    <loc>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</loc>
+    <lastmod>2019-11-21T11:22:23+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/pages/data-collection-and-field-mapping/3.0_technical_set-up/</loc>
   </url>
   
@@ -279,11 +284,6 @@
   
   <url>
     <loc>/pages/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</loc>
-  </url>
-  
-  <url>
-    <loc>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
   </url>
   
   <url>
