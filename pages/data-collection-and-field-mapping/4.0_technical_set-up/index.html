@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="language-select-option
+        <a href="../../../fr/pages/data-collection-and-field-mapping/4.0_technical_set-up/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="language-select-option 
+        <a href="../../../pages/data-collection-and-field-mapping/4.0_technical_set-up/" class="language-select-option 
         
         language-select-option--selected
         
@@ -138,14 +138,14 @@
 
         <div class="
         
-        accordion accordion--closed
+        accordion accordion--open
         
         ">
             Field Mapping Technical Set-up
         </div>
         <div class="panel
         
-        panel--closed
+        panel--open
         ">
                 <ul class="page-list">
                     
@@ -161,7 +161,7 @@
                     
                         <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.7-data-collection-servers/" class="menu-link">3.4 Data Collection Servers</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.0_technical_set-up/" class="menu-link">4.0 Field Mapping - Technical Set-up</a></li>
+                        <li class="page"><a href="../../../pages/data-collection-and-field-mapping/4.0_technical_set-up/" class="menu-link menu-link--active">4.0 Field Mapping - Technical Set-up</a></li>
                     
                 </ul>
             </div>
@@ -169,14 +169,14 @@
 
         <div class="
         
-        accordion accordion--open
+        accordion accordion--closed
         
         ">
             Field Mapping Management
         </div>
         <div class="panel
         
-        panel--open
+        panel--closed
         ">
                 <ul class="page-list">
                     
@@ -186,7 +186,7 @@
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/5.3_using_osm_tracker/" class="menu-link">5.3 Using OSMTracker</a></li>
                     
-                        <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link menu-link--active">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
+                        <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
                     
                 </ul>
             </div>
@@ -315,55 +315,29 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">5.4 Managing Teams in the Field using OsmAnd and QGIS</h1>
+           <h1 class="page-title">4.0 Field Mapping - Technical Set-up</h1><p><img src="../../../images/field_tools.jpeg" alt="" /></p>
 
-<h2 id="overview">Overview</h2>
-
-<p>Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</p>
-
-<p>When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work. Once this is done, they will then go ahead and create small sections of the mapping area, that can be covered in a day by a team of two mappers or a single mapper depending on the team arrangement.</p>
-
-<p>Similar to the grid in Tasking Manager, creating sections for mapping allows supervisors to divide tasks, monitor progress, and be able to assess gaps or quality issues.</p>
-
-<p><strong>Skills and Technology Needed</strong></p>
+<p>Any field project will require some degree of <strong>Field Mapping Technical Set-Up</strong> regardless of the complexity of the data collection workflow. This section is designed to guide project managers and community members through the decision making process to determine what tools and steps are necessary for their specific project. Many technical guides exist on setting up and using specific tools such as OpenDataKit and POSM. To support project managers effectively, step-by-step guides are provided for some tools and processes where external documentation is lacking or HOT has previously created tailored materials. For tools and processes with quality guides and materials outside of HOT resources, external links have been provided.  <br></p>
 
 <ul>
-<li>Computer</li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-qgis">QGIS Installed</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#navigating-qgis">Basic QGIS skills</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.1-designing-the-data-model/">4.1 Designing the Data Model</a> covers the workflow and tools needed to develop a data model for OSM data collection.<br /></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.2_organized_osm_editing/">4.2 Data Collection Applications</a> provides guidance on selecting the appropriate data collection application for your project. Sub-pages also provide detailed instructions and resources on setting up specific tools such as ODK and OMK.</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.3-navigation-applications/">4.3 Navigation Applications</a> provides an overview of navigation applications and how they can be used by project managers for their project.</li>
+<li><em>4.4 Data Collection Servers</em> provides guidance on determining if a server is necessary for your project and selecting the appropriate server for based on data and resource needs.</li>
 </ul>
 
-<p>The following activity covers the process of generating mapping sections in QGIS for printing or importing files into OSMAnd. This activity uses the example of leading a team of 8 mapping volunteers to map Grootfontein Town, in Northern Namibia, during a Malaria Elimination Project. Example files are provided for this activity but can be followed with files provided by the user.</p>
+<p>HOT presentations included in this section for use by communities and projects:</p>
 
-<h2 id="creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</h2>
-
-<p>Step 1: To begin, open QGIS on your computer and start a new project.</p>
-
-<p>Step 2: Create an empty shapefile naming it: _grootfontein<em>sections.shp</em></p>
-
-<p>Step 3: Create sections of the town, giving them numbers. These sections should follow natural features or prominent landmarks such as swamps or roads. This is to ensure that ease of location of these sections by mappers.</p>
-
-<p>Step 4: Make maps showing these sections. These maps can be printed out for sharing with the mapping volunteers. Teams can now head to their allocated sections to conduct field mapping.</p>
-
-<h2 id="creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</h2>
-
-<p><strong>OSMAnd</strong> provides a great alternative to printing out these sections maps. With OSMAnd, the Supervisor can instead use the following steps to give sections to team members for use in the field directly on their mobile devices.</p>
-
-<p>Step 1: Export sections centroids from the _grootfontein<em>sections.shp</em> giving you _grootfontein_sections<em>centroids.shp</em></p>
-
-<p>Step 2: In QGIS, save the sections shapefiles (_grootfontein<em>sections.shp</em>) and the centroids shapefile (_grootfontein_sections<em>centroids.shp</em>) as a .gpx giving you a _grootfontein<em>sections.gpx</em> and _grootfontein_sections<em>centroids.gpx.</em></p>
-
-<p>Step 3: Transfer these two .gpx files from you computer to the _/Phone/Android/data/net.osmand/files/tracks _folder</p>
-
-<p>Step 4: Open OSMAnd application and load these two files via <em>Menu button -&gt; My Places -&gt; Tracks -&gt; Browse to where the files are located</em></p>
-
-<p>The sections gpx file will show you boundaries of the sections and the centroids gpx file will show you section numbers once a centroid point is selected. With these two, volunteers can move in the field using the OSMAnd app, locating their positions each time as well as the sections in which they are standing.</p>
+<ul>
+<li>Data Models and Tagging</li>
+<li>Introduction to Field Data Collection Applications</li>
+<li>Introduction to ODK</li>
+<li>Introduction to OMK</li>
+</ul>
 </div>
 
 
 
-
-    
 
     
 
@@ -425,6 +399,8 @@
 
     
 
+    
+
 
 
 
@@ -435,23 +411,14 @@
     
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
-        <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</a></li>
-<li><a href="#creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</a></li>
-</ul></li>
-</ul>
-</nav>
+        
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/field-mapping-management/5.4_managing_teams_in_the_field.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-collection-and-field-mapping/4.0_technical_set-up.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/5.4_managing_teams_in_the_field.pdf"
+    href="../../../pdfs/en/4.0_technical_set-up.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>

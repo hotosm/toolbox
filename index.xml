@@ -525,6 +525,15 @@ Overview When beginning a mapping project, many organizations ask if they need t
     </item>
     
     <item>
+      <title>4.0 Field Mapping - Technical Set-up</title>
+      <link>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-collection-and-field-mapping/4.0_technical_set-up/</guid>
+      <description>Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow. This section is designed to guide project managers and community members through the decision making process to determine what tools and steps are necessary for their specific project. Many technical guides exist on setting up and using specific tools such as OpenDataKit and POSM. To support project managers effectively, step-by-step guides are provided for some tools and processes where external documentation is lacking or HOT has previously created tailored materials.</description>
+    </item>
+    
+    <item>
       <title>5.1 Using ODK Collect</title>
       <link>/pages/field-mapping-management/5.1_using_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
