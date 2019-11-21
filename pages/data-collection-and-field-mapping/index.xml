@@ -34,10 +34,10 @@ Overview When beginning a mapping project, a data model will need to be created 
     
     <item>
       <title>3.2 Data collection applications</title>
-      <link>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</link>
+      <link>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/4.2-data-collection-applications/</guid>
+      <guid>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>This section provides:
  An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  
 Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
