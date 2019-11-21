@@ -121,13 +121,13 @@ There is no one way to collect data in the field and it will vary by context. Ho
     </item>
     
     <item>
-      <title>8.0 Data Use and Analysis</title>
-      <link>/pages/data-use-and-analysis/8.0_data-use-and-analysis/</link>
+      <title>7.0 Data Use and Analysis</title>
+      <link>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/8.0_data-use-and-analysis/</guid>
-      <description>There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.
- 8.1 Introduction to QGIS provides an introduction to the open source geographic information system (GIS) software that allows you to analyze and edit spatial information, as well as compose and export geographic maps. Additionally, the section includes a step-by-step guide that project managers can use in trainings for installing QGIS and learning basic skills.</description>
+      <guid>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
+      <description>In this section, Project Managers will find tools and resources to use data collected during field mapping and create products for decision-making including:
+ A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps  There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
     </item>
     
     <item>
