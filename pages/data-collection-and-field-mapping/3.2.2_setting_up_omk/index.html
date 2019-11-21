@@ -305,7 +305,7 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/be7c2f352131bec6f102ae4dd5327e1fccdfca91" class="sub-title sub-title-14" title='Last modified November 21, 2019 by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/f68a9ec7642d8eb4661501ebc9e58b304d20c217" class="sub-title sub-title-14" title='Last modified November 21, 2019 by jessbeutler' target="_blank" rel="noopener">
       Last modified: November 21, 2019
     </a>
   </div>
@@ -335,22 +335,28 @@
 
 <p><em>Not sure if OpenMapKit is right for your project? Review <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/">Data Collection Applications</a>.</em></p>
 
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
+
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+
+<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in setting up the application.</em></p>
+
 <p><strong>Set-up Process</strong>
 To set-up OpenMapKit for devices, you will need to follow the following steps:</p>
 
 <ol>
-<li>[Create OMK forms]</li>
-<li>[Create .mbtiles]</li>
-<li>[Create .osm layer]</li>
-<li>[Optional: Set-up constraint file]</li>
-<li>[Download and set up ODK and OMK applications]</li>
-<li>[Add all above files to mobile data collection devices]</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#creating-omk-forms">Create OMK forms</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#create-mbtiles">Create .mbtiles</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#create-an-osm-layer">Create .osm layer</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#optional-set-up-a-constraint-file">Optional: Set-up constraint file</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#download-and-set-up-the-omk-application">Download and set up ODK and OMK applications</a></li>
 </ol>
 
 <p><img src="../../../images/learning_icon_wide.PNG" alt="" />
 <em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in setting up the application.</em></p>
 
-<h2 id="creating-omk-forms">Creating OMK Forms</h2>
+<h3 id="creating-omk-forms">Creating OMK Forms</h3>
 
 <p>When using OMK survey applications, you will need to create the files that will serve as the survey forms.</p>
 
@@ -366,7 +372,7 @@ After forms are developed, they need to be converted from .xlsx/.xls to .xml to 
 <br>
 If using OpenMapKit server, you will not need to complete form conversion. The server will complete this process for you.</p>
 
-<h2 id="create-mbtiles">Create .mbtiles</h2>
+<h3 id="create-mbtiles">Create .mbtiles</h3>
 
 <p>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.</p>
 
@@ -610,7 +616,7 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
 <li>.geojson file for area of interest</li>
 </ul>
 
-<h2 id="create-an-osm-layer">Create an .osm layer</h2>
+<h3 id="create-an-osm-layer">Create an .osm layer</h3>
 
 <p>To conduct data collection using <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/#2-openmapkit-omk">OpenMapKit (OMK)</a>, you will need to create an .osm layer. This .osm layer provides the buildings for selection in the OMK application.</p>
 
@@ -645,11 +651,11 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
 
 <p>Once saved, this file can be uploaded to devices for data collection with OMK.</p>
 
-<h2 id="optional-set-up-a-constraint-file">Optional: Set-up a constraint file</h2>
+<h3 id="optional-set-up-a-constraint-file">Optional: Set-up a constraint file</h3>
 
 <p>Constraint files manage the logic of a form - when to skip questions, etc. OpenMapKit comes with a pre-built constrain file. For information on how to modify a constraint file, see</p>
 
-<h2 id="download-and-set-up-the-omk-application">Download and set up the OMK application</h2>
+<h3 id="download-and-set-up-the-omk-application">Download and set up the OMK application</h3>
 
 <p><em>Note: You will need ODK to run OMK. We advise installing ODK first to allow for proper set-up and testing.</em> <br></p>
 
@@ -764,19 +770,19 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
+<ul>
 <li><a href="#creating-omk-forms">Creating OMK Forms</a></li>
 <li><a href="#create-mbtiles">Create .mbtiles</a>
-<ul>
-<li>
 <ul>
 <li><a href="#a-create-an-mbtile-with-hot-export-tool">a) Create an MBTile with HOT Export Tool</a></li>
 <li><a href="#b-create-an-mbtile-in-qgis">b) Create an MBTile in QGIS</a></li>
 <li><a href="#c-create-an-mbtile-in-tile-huria">c) Create an MBTile in Tile Huria</a></li>
 </ul></li>
-</ul></li>
 <li><a href="#create-an-osm-layer">Create an .osm layer</a></li>
 <li><a href="#optional-set-up-a-constraint-file">Optional: Set-up a constraint file</a></li>
 <li><a href="#download-and-set-up-the-omk-application">Download and set up the OMK application</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
