@@ -30,12 +30,8 @@
   </url>
   
   <url>
-    <loc>/pages/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</loc>
-  </url>
-  
-  <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
+    <lastmod>2019-11-21T11:43:22+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -46,6 +42,10 @@
                 hreflang="en"
                 href="/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/"
                 />
+  </url>
+  
+  <url>
+    <loc>/pages/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</loc>
   </url>
   
   <url>
@@ -114,7 +114,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-21T11:41:26+00:00</lastmod>
+    <lastmod>2019-11-21T11:43:22+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
