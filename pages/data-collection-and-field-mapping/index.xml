@@ -51,8 +51,7 @@ Choosing a Data Collection Application Which data collection application should 
       
       <guid>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>This section provides:
- A step-by-step guide in setting up OpenDataKit for use in the field, including,
- Creating ODK forms Setting up ODK on devices   
+ An overview of steps needed to set-up ODK A step-by-step guide for creating ODK survey forms, including example files A step-by-step guide for setting up ODK on devices  
 Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
     </item>
     
