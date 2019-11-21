@@ -131,17 +131,6 @@ There is no one way to collect data in the field and it will vary by context. Ho
     </item>
     
     <item>
-      <title></title>
-      <link>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.1.4-creating-maps-in-print-composer/</guid>
-      <description>Creating a New Print Composer
-Open the ‘Project’ menu from the main toolbar, and select ‘New Print Composer’. In the pop-up window, create a title for your map. This can be a unique name to describe your map’s purpose such as “Political Map of Liberia” or simple such as “Map 1”.
-A new window will be created with a blank page. This shows how your map will look printed out.</description>
-    </item>
-    
-    <item>
       <title>1.1 Defining Needs and Requirements</title>
       <link>/pages/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -556,18 +545,6 @@ Overview When beginning a mapping project, many organizations ask if they need t
       <description>Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.
 This guide provides surveyors, mappers and field supervisors with the skills to:
  Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Initial Setup for ODK Collect 1.</description>
-    </item>
-    
-    <item>
-      <title>5.2 OMK Field Data Cleaning Workflow</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
-      <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
-Skills and Technology Needed * JOSM
-Step 1. Create folders Create the folder structure for the data cleaning process.
- Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
     </item>
     
     <item>
