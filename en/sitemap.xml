@@ -104,7 +104,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-21T19:07:23+00:00</lastmod>
+    <lastmod>2019-11-21T19:21:04+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -292,6 +292,11 @@
   </url>
   
   <url>
+    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</loc>
+    <lastmod>2019-11-21T19:21:04+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/field-mapping-management/5.2_using_openmapkit/</loc>
     <lastmod>2019-11-20T08:51:08-07:00</lastmod>
   </url>
@@ -304,21 +309,6 @@
   <url>
     <loc>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</loc>
     <lastmod>2019-11-20T08:51:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/"
-                />
   </url>
   
   <url>

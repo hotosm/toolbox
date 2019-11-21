@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="language-select-option
+        <a href="../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="language-select-option 
+        <a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="language-select-option 
         
         language-select-option--selected
         
@@ -211,7 +211,7 @@
                     
                         <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link">5.1 Data Cleaning with JOSM</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/" class="menu-link menu-link--active">5.4 Quality Assurance and Quality Control Tools</a></li>
+                        <li class="page"><a href="../../../pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="menu-link menu-link--active">5.2 Quality Assurance and Quality Control Tools</a></li>
                     
                 </ul>
             </div>
@@ -305,15 +305,25 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/6e8cc74afc438204388cd9811697eed05da4a2aa" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/4ff8255bf2cc332ad329092a5eb670af88002714" class="sub-title sub-title-14" title='Last modified November 21, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 21, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">5.4 Quality Assurance and Quality Control Tools</h1>
+           <h1 class="page-title">5.2 Quality Assurance and Quality Control Tools</h1>
+
+<p>This section provides:</p>
+
+<ul>
+<li>An overview of Quality Assurance tools, including presentation slides</li>
+<li>Guidance on when, why, and how to use each tool</li>
+<li>Brief overviews and step-by-step guides on using each tool</li>
+</ul>
+
+<p><br></p>
 
 <h2 id="overview">Overview</h2>
 
@@ -321,25 +331,69 @@
 
 <p>While Quality Assurance and Quality Control should be performed at all stages of a mapping project, the following tools will help ensure that data uploaded to OpenStreetMap meets high quality standards.</p>
 
-<p>The following are Quality Assurance tools commonly used in the HOT workflow. A detailed overview of these and other QA tools can be found at the <a href="https://wiki.openstreetmap.org/wiki/Quality_assurance">Quality Assurance Tools Wiki</a>. Different tools check for different errors and issues. If you want to:</p>
+<p><img src="../../../images/management_icon_wide.PNG" alt="" /></p>
 
-<ul>
-<li>Check for attribute completeness, use MapCampaigner.</li>
-<li>Check for potential vandalism, use OSMCha.</li>
-<li>Check for contributions and upload issues by indivdual user, use OSMCha.</li>
-<li>Check for tagging issues, use Osmose AND JOSM Validation.</li>
-<li>Check for geometry issues, use Osmose AND JOSM Validation.</li>
-</ul>
+<h2 id="choosing-a-quality-assurance-tool">Choosing a Quality Assurance Tool</h2>
 
-<p><strong>HOT Training Presentation:</strong> <br></p>
+<p><strong>Which quality assurance tool should I use?</strong> <br></p>
 
-<p><a href="https://docs.google.com/presentation/d/1mn0ahFOCiz9DhrWmYFt1nrC25c7WQjODvXG6pTRJ-Jo/edit?usp=sharing" target="_blank">Quality Assurance Tools</a>
-<br>
-<br></p>
+<p>The following are Quality Assurance tools commonly used in the HOT workflow. A detailed overview of these and other QA tools can be found at the <a href="https://wiki.openstreetmap.org/wiki/Quality_assurance">Quality Assurance Tools Wiki</a>. Different tools check for different errors and issues. Use the following table to decide when and why each tool should be used.</p>
 
-<hr />
+<table>
+<thead>
+<tr>
+<th>I want to check for&hellip;</th>
+<th>MapCampaigner</th>
+<th>OSMCha</th>
+<th>Osmose</th>
+<th>JOSM Validator</th>
+</tr>
+</thead>
 
-<h2 id="mapcampaigner">MapCampaigner</h2>
+<tbody>
+<tr>
+<td>Attribute completeness</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+
+<tr>
+<td>Potential vandalism</td>
+<td>×</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+</tr>
+
+<tr>
+<td>Contributions and upload issues by indivdual user</td>
+<td>×</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+</tr>
+
+<tr>
+<td>Tagging issues</td>
+<td>×</td>
+<td>×</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+
+<tr>
+<td>Geometry issues</td>
+<td>×</td>
+<td>×</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="mapcampaigner">MapCampaigner</h3>
 
 <p><a href="http://campaigns.hotosm.org">MapCampaigner</a> is a tool developed by HOT to monitor attribute completeness for predefined areas of interest (AOI). Based on your <a href="https://github.com/hotosm/toolbox/wiki/4.1.2-Designing-The-Data-Model">data model</a>, the tool checks and highlights any map features that are missing pre-defined tags within your AOI, and allows team validators to download and fix those features.</p>
 
@@ -351,7 +405,7 @@
 <li>Recommended: computer mouse</li>
 </ul>
 
-<h3 id="how-to-use-mapcampaigner">How to use MapCampaigner</h3>
+<h4 id="how-to-use-mapcampaigner">How to use MapCampaigner</h4>
 
 <p><strong>To navigate an existing campaign:</strong></p>
 
@@ -367,7 +421,7 @@
 <p><strong>To create a new campaign:</strong> <br>
 Follow the instructions under the resources tab found here: <a href="https://campaigns.hotosm.org/resources">https://campaigns.hotosm.org/resources</a></p>
 
-<h2 id="osmcha">OSMCha</h2>
+<h3 id="osmcha">OSMCha</h3>
 
 <p><a href="https://osmcha.mapbox.com/">OSMCha</a>, or the OpenStreetMap Changeset Analyzer, is a tool designed to review uploads and changes to OSM data, largely to prevent vandalism and bad edits made to map data. This tool allows users to filter by username, location, dates of upload, and other metadata features. OSMCha is useful for monitoring the progress of data cleaning and upload teams.</p>
 
@@ -380,7 +434,7 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <li>Recommended: computer mouse</li>
 </ul>
 
-<h3 id="how-to-use-osmcha">How to use OSMCha</h3>
+<h4 id="how-to-use-osmcha">How to use OSMCha</h4>
 
 <ol>
 <li>Navigate to <a href="https://osmcha.mapbox.com">https://osmcha.mapbox.com</a> in the Google Chrome or Mozilla Firefox internet browser.</li>
@@ -424,13 +478,13 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <li>The exact filter can now be accessed using the URL or in the &lsquo;My Saved Filters&rsquo; option after clicking on your username.</li>
 </ol>
 
-<h2 id="osmose-br">Osmose <br></h2>
+<h3 id="osmose-br">Osmose <br></h3>
 
 <p>Osmose is a tool that monitors multiple quality control issues in OSM. These include issues with feature geometry (such as overlapping buildings/nodes, incomplete features, and duplications), and also common tagging issues (such as missing, unsuitable or poorly formatted tags). More information about Osmose can be found at the <a href="https://wiki.openstreetmap.org/wiki/Osmose">Osmose OSM Wiki Page</a>.</p>
 
 <p>Note: to properly use this tool and view errors, you will need to use the Google Chrome internet browser. Firefox, Opera, Safari, and other browsers may not display the information correctly.</p>
 
-<h3 id="how-to-use-osmose">How to use Osmose</h3>
+<h4 id="how-to-use-osmose">How to use Osmose</h4>
 
 <ol>
 <li>Navigate to <a href="http://osmose.openstreetmap.fr">http://osmose.openstreetmap.fr</a> in the Google Chrome internet browser.</li>
@@ -449,11 +503,11 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <li>Fix the issues identified then re-upload to OSM.</li>
 </ol>
 
-<h2 id="josm-validation-tool">JOSM Validation Tool</h2>
+<h3 id="josm-validation-tool">JOSM Validation Tool</h3>
 
 <p>JOSM ‘s built-in validation tool that checks for common errors and inconsistencies in OSM data relating to both geometry and tagging.</p>
 
-<h3 id="how-to-use-the-josm-validation-tool">How to use the JOSM Validation Tool</h3>
+<h4 id="how-to-use-the-josm-validation-tool">How to use the JOSM Validation Tool</h4>
 
 <ol>
 <li>In JOSM, download data for your AOI.</li>
@@ -467,6 +521,17 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <p><img src="../../../images/quality_assurance/JOSMValidation.gif" alt="JOSMValidation" /></p>
 
 <p>For further details on using the JOSM Validation Tool, review Section <a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.5_validating_with_josm/">3.5 Validation with JOSM</a></p>
+
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
+
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+
+<p><img src="../../../images/training_presentations_wide.PNG" alt="" />
+<em>The following presentation(s) can be used to lead a training or workshop.</em></p>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1mn0ahFOCiz9DhrWmYFt1nrC25c7WQjODvXG6pTRJ-Jo/edit?usp=sharing">Quality Assurance Tools</a></li>
+</ul>
 </div>
 
 
@@ -549,6 +614,8 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
+<li><a href="#choosing-a-quality-assurance-tool">Choosing a Quality Assurance Tool</a>
+<ul>
 <li><a href="#mapcampaigner">MapCampaigner</a>
 <ul>
 <li><a href="#how-to-use-mapcampaigner">How to use MapCampaigner</a></li>
@@ -566,15 +633,17 @@ Follow the instructions under the resources tab found here: <a href="https://cam
 <li><a href="#how-to-use-the-josm-validation-tool">How to use the JOSM Validation Tool</a></li>
 </ul></li>
 </ul></li>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a></li>
+</ul></li>
 </ul>
 </nav>
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-cleaning-upload-and-quality-assurance/5.4-Quality-Assurance-Tools.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-cleaning-upload-and-quality-assurance/5.2-Quality-Assurance-Tools.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/5.4-Quality-Assurance-Tools.pdf"
+    href="../../../pdfs/en/5.2-Quality-Assurance-Tools.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>

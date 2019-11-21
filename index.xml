@@ -557,6 +557,17 @@ This guide provides surveyors, mappers and field supervisors with the skills to:
     </item>
     
     <item>
+      <title>5.2 Quality Assurance and Quality Control Tools</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</guid>
+      <description>This section provides:
+ An overview of Quality Assurance tools, including presentation slides Guidance on when, why, and how to use each tool Brief overviews and step-by-step guides on using each tool  
+Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.</description>
+    </item>
+    
+    <item>
       <title>5.2 Using the OpenMapKit Application</title>
       <link>/pages/field-mapping-management/5.2_using_openmapkit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -582,15 +593,6 @@ This guide provides surveyors, mappers and field supervisors with the skills to:
       <guid>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</guid>
       <description>Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.
 When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work.</description>
-    </item>
-    
-    <item>
-      <title>5.4 Quality Assurance and Quality Control Tools</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</guid>
-      <description>Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
     </item>
     
     <item>
