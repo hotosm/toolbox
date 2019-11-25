@@ -124,7 +124,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-23T12:44:51+00:00</lastmod>
+    <lastmod>2019-11-25T09:59:15-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -143,8 +143,18 @@
   </url>
   
   <url>
-    <loc>/pages/running-a-mapping-project/2.1_defining_needs_and_requirements/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
+    <loc>/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</loc>
+    <lastmod>2019-11-25T09:58:20-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                />
   </url>
   
   <url>
@@ -162,8 +172,18 @@
   </url>
   
   <url>
-    <loc>/pages/running-a-mapping-project/2.2_field_operations-safety_security_and_logistics/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
+    <loc>/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</loc>
+    <lastmod>2019-11-25T09:59:15-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
+                />
   </url>
   
   <url>
