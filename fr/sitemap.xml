@@ -68,6 +68,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/data-collection-and-field-mapping/</loc>
+    <lastmod>2019-11-25T16:31:11-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-collection-and-field-mapping/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-collection-and-field-mapping/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/</loc>
     <lastmod>2019-11-20T09:22:08-07:00</lastmod>
     <xhtml:link
@@ -219,7 +234,6 @@
   
   <url>
     <loc>/fr/pages/</loc>
-    <lastmod>2019-11-25T16:30:18-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
