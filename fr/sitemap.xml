@@ -38,6 +38,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/data-export/6.0-data-export-tools/</loc>
+    <lastmod>2019-11-25T16:39:43-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-export/6.0-data-export-tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-export/6.0-data-export-tools/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/pages/running-a-mapping-project/</loc>
     <lastmod>2019-11-25T09:56:54-05:00</lastmod>
     <xhtml:link
@@ -114,7 +129,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-11-25T16:30:18-05:00</lastmod>
+    <lastmod>2019-11-25T16:39:43-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

@@ -43,6 +43,17 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
     </item>
     
     <item>
+      <title>6.0 Outils d&#39;exportation de données</title>
+      <link>/fr/pages/data-export/6.0-data-export-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-export/6.0-data-export-tools/</guid>
+      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&amp;rsquo;exporter les données OpenStreetMap, notamment:
+ Un aperçu des outils d&amp;rsquo;exportation de données, y compris des diapositives de présentation
+ Guides étape par étape pour exporter des données avec l&amp;rsquo;outil d&amp;rsquo;exportation HOT et HDX  Les outils d&amp;rsquo;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&amp;rsquo;analyse tels que QGIS.</description>
+    </item>
+    
+    <item>
       <title>1.1 Définition des besoins et des exigences</title>
       <link>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
