@@ -38,6 +38,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/digitization-and-editing/</loc>
+    <lastmod>2019-11-25T15:01:21-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/digitization-and-editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/digitization-and-editing/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/</loc>
     <lastmod>2019-11-20T09:22:08-07:00</lastmod>
     <xhtml:link
