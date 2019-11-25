@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>4.4 Using OSMTracker</title>
+      <link>/pages/field-mapping-management/4.4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
+      <description>This section provides surveyors, mappers and field supervisors with the skills to:
+ Complete the initial setup for OSM Tracker Use OSM Tracker for recording tracks, images, and notes  
+Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
+    </item>
+    
+    <item>
       <title>5.1 Using ODK Collect</title>
       <link>/pages/field-mapping-management/5.1_using_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,15 +49,6 @@ This guide provides surveyors, mappers and field supervisors with the skills to:
       
       <guid>/pages/field-mapping-management/5.2_using_openmapkit/</guid>
       <description>Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms. In determining the location of an object, OpenMapKit requires a map background in the form of a satellite imagery or OSM map. If you use the OSM as the map background, the thing to note is that the data must be available on the OSM server.</description>
-    </item>
-    
-    <item>
-      <title>5.3 Using OSMTracker</title>
-      <link>/pages/field-mapping-management/5.3_using_osm_tracker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/5.3_using_osm_tracker/</guid>
-      <description>Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data. With these images taken, it will make your mapping more easier because you can track back what object you have been taken and take a look into your pictures for more detail.</description>
     </item>
     
     <item>
