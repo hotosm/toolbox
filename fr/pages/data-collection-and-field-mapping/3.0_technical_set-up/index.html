@@ -50,7 +50,7 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../../fr/fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="language-select-option
+        <a href="../../../../fr/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/" class="language-select-option
         
         language-select-option--selected
         
@@ -58,7 +58,7 @@
         
         
             
-        <a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="language-select-option 
+        <a href="../../../../fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/" class="language-select-option 
         
         ">English</a>
         
@@ -129,18 +129,18 @@
 
         <div class="
         
-        accordion accordion--open
+        accordion accordion--closed
         
         ">
             Data Cleaning, Upload, and Quality Assurance
         </div>
         <div class="panel
         
-        panel--open
+        panel--closed
         ">
                 <ul class="page-list">
                     
-                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="menu-link menu-link--active">6.0 Data Cleaning, Upload, and Quality Assurance</a></li>
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/" class="menu-link">6.0 Data Cleaning, Upload, and Quality Assurance</a></li>
                     
                         <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/" class="menu-link">5.2 OMK Field Data Cleaning Workflow</a></li>
                     
@@ -171,28 +171,47 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/2cda1d8e5e84b5a61167463741b74e09df025063" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Dernière modification: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/78fa9f72b305e4cc9bb2706d4b08381b78b63a19" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: November 25, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">6.0 Data Cleaning, Upload, and Quality Assurance</h1><p><strong>Data Cleaning, Upload, and Quality Assurance</strong> is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded. Regardless of how (and if) you are collecting field data, any project that results edits in OpenStreetMap should have a quality assurance and control plan.</p>
+           <h1 class="page-title">3.0 Introduction à la configuration technique pour la cartographie sur le terrain</h1><p>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&rsquo;un projet de cartographie sur le terrain, notamment:</p>
 
 <ul>
-<li><strong>6.1 Management of Collected Data</strong> covers the best practices and recommend workflows for managing data that is collected in the field.</li>
-<li><strong>6.2 Data Cleaning and Validation Workflows</strong> provides examples of technical workflows used by HOT in the field for various types of projects.</li>
-<li><strong>6.3 Data Cleaning in JOSM</strong> covers the process and steps required to clean field data and the uploading process using JOSM.</li>
-<li><strong>6.4 Quality Assurance Tools</strong> provides a guide to tools HOT uses for monitoring and checking data quality of data uploaded to OpenStreetMap.</li>
+<li>Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap</li>
+<li>Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet</li>
+<li>Guides et ressources détaillés pour la configuration d&rsquo;applications telles que OpenMapKit</li>
 </ul>
 
-<p><strong>If your project&hellip;</strong></p>
+<p><img src="../../../../images/field_tools.jpeg" alt="" /></p>
+
+<hr />
+
+<p>Tout projet sur le terrain nécessitera un certain degré de <strong>Configuration technique de la cartographie</strong>, quelle que soit la complexité du processus de collecte des données. Cette section est conçue pour guider les responsables de projet et les membres de la communauté tout au long du processus de prise de décision afin de déterminer les outils et les étapes nécessaires à leur projet spécifique. Il existe de nombreux guides techniques sur la configuration et l&rsquo;utilisation d&rsquo;outils spécifiques tels que OpenDataKit et POSM. Pour aider efficacement les chefs de projet, des guides pas à pas sont fournis pour certains outils et processus dépourvus de documentation externe ou pour lesquels HOT a précédemment créé du matériel sur mesure. Des liens externes ont été fournis pour les outils et les processus avec des guides et du matériel de qualité en dehors des ressources HOT.
+ <br></p>
 
 <ul>
-<li>Involves field data collection using OpenMapKit and/or OpenDataKit, start with section 6.1.</li>
-<li>Does not involve field data collection using OpenMapKit and/or OpenDataKit, jump ahead to section 6.4.</li>
+<li><p><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/">3.1 Conception du modèle de données
+</a> couvre le flux de travail et les outils nécessaires développer un modèle de données pour la collecte de données OSM.</p></li>
+
+<li><p><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.2_organized_osm_editing/">3.2     Applications de collecte de données
+</a> fournit des indications sur la sélection de l&rsquo;application de collecte de données appropriée pour votre projet. Les pages fournissent également des instructions détaillées et des ressources sur la configuration d&rsquo;outils spécifiques tels que ODK et OMK.</p></li>
+
+<li><p><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.3-navigation-applications/">3.3 Applications de navigation</a> fournit une vue d&rsquo;ensemble des applications de navigation et de leur utilisation par le manageur  pour leur projet.</p></li>
+
+<li><p><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.4-data-collection-servers/">3.4 Serveurs de collecte de données
+</a> explique comment déterminer si un serveur est nécessaire. pour votre projet et en sélectionnant le serveur approprié en fonction des besoins en données et en ressources.</p></li>
+</ul>
+
+<p><img src="../../../../images/training_presentations_wide.PNG" alt="" />
+<em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier:</em></p>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">Modèle de donnée et marquage</a></li>
 </ul>
 </div>
 
@@ -200,23 +219,18 @@
 
 
     
-
-    
-
-    
      
     
 
-    
 
 
 
 
 
-<a class="next-page" href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/">
+<a class="next-page" href="../../../../fr/pages/digitization-and-editing/2.0-digitization-and-editing/">
     <div class="next-page__container">
             <div class="sub-title sub-title-10">LIRE LA SUITE</div>
-            <div class="next-title">5.2 OMK Field Data Cleaning Workflow</div>
+            <div class="next-title">2.0 Introduction à la numérisation et à l&#39;édition dans OSM</div>
     </div>
     <img src="../../../../svg/forward-arrow.svg" alt="">
 </a>
@@ -231,10 +245,10 @@
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-cleaning-upload-and-quality-assurance/6.0-Data-cleaning-qa.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
     <a 
     
-    href="../../../../pdfs/fr/6.0-Data-cleaning-qa.pdf"
+    href="../../../../pdfs/fr/3.0_technical_set-up.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
 </div></aside>

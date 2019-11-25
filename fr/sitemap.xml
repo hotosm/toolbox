@@ -84,7 +84,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-11-25T15:01:56-05:00</lastmod>
+    <lastmod>2019-11-25T16:29:32-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -159,6 +159,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</loc>
+    <lastmod>2019-11-25T16:29:32-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</loc>
     <lastmod>2019-11-20T09:22:08-07:00</lastmod>
   </url>
@@ -189,6 +204,7 @@
   
   <url>
     <loc>/fr/pages/</loc>
+    <lastmod>2019-11-25T16:29:32-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
