@@ -22,6 +22,17 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
     </item>
     
     <item>
+      <title>2.0 Introduction à la numérisation et à l&#39;édition dans OSM</title>
+      <link>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
+      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour diriger et mettre en œuvre des activités d’édition OpenStreetMap organisées, notamment:
+ Présentations et guides pas à pas pour présenter OpenStreetMap aux équipes et outils d&amp;rsquo;édition tels que HOT Tasking Manager. Ressources permettant de déterminer si votre projet doit respecter les directives de montage organisé de l&amp;rsquo;OSM
+ Guides détaillés et activités de formation pour les équipes de numérisation à utiliser lors de la validation et du téléchargement des données</description>
+    </item>
+    
+    <item>
       <title>6.0 Data Cleaning, Upload, and Quality Assurance</title>
       <link>/fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
