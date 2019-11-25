@@ -98,6 +98,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/data-export/</loc>
+    <lastmod>2019-11-25T16:36:29-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-export/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/</loc>
     <lastmod>2019-11-25T16:30:18-05:00</lastmod>
     <priority>0</priority>
