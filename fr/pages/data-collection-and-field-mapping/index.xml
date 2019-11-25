@@ -30,5 +30,16 @@
  Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données   Overview Lors du démarrage d&amp;rsquo;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
     </item>
     
+    <item>
+      <title>3.2 Les outils de collecte de données</title>
+      <link>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
+      <description>Cette partie montre:
+ Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&amp;rsquo;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  
+Généralités Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&amp;rsquo;une application à utiliser dépend de la capacité de l&amp;rsquo;appareil mobile, des conditions d&amp;rsquo;installation qui peuvent varier et selon les besoins de la collecte.</description>
+    </item>
+    
   </channel>
 </rss>

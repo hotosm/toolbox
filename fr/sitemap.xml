@@ -129,7 +129,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-11-25T16:39:43-05:00</lastmod>
+    <lastmod>2019-11-25T16:59:58-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -230,6 +230,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</loc>
+    <lastmod>2019-11-25T16:59:58-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
                 />
   </url>
   
