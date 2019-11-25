@@ -305,7 +305,7 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/641711f2e068c676a32df01473c0cfc92a245113" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/f622d96d27dba1ed67442f0d6af522eff41274b6" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
       Last modified: November 25, 2019
     </a>
   </div>
@@ -318,9 +318,8 @@
 <p>This guide provides <strong>surveyors, mappers and field supervisors</strong> with the skills to:</p>
 
 <ul>
-<li>Operate the configuration for <em>OpenMapKit</em></li>
-<li>Operate how to enter offline basemap for <em>OpenMapKit</em></li>
-<li>Operate <em>OpenMapKit</em></li>
+<li>Configure OpenMapKit on devices for individual use and data collection</li>
+<li>Operate <em>OpenMapKit</em> for field data collection</li>
 </ul>
 
 <p><br></p>
@@ -333,23 +332,20 @@
 
 <p>*If you have not yet completed the initial set-up OpenMapKit, see <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/">3.2.2 Setting up OpenMapKit</a> before proceeding.</p>
 
-<hr />
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
 
-<h2 id="configuring-openmapkit">Configuring OpenMapKit</h2>
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+
+<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in setting up the application.</em></p>
+
+<h3 id="configuring-openmapkit">Configuring OpenMapKit</h3>
 
 <p>Before you use <em>OpenMapKit</em>, you must first make sure each device is confirgured. The following are step by step instructions of the initial OpenMapKit Configuration:</p>
 
 <ul>
-<li><p>On the home page of <em>OpenMapKit</em>, press <strong>the settings button</strong> located in the upper right corner.</p></li>
-
-<li><p>Select <strong>OSM <em>User name</em></strong> OSM and enter your <em>User Name</em></p></li>
-</ul>
-
-<p><img src="../../../images/using-omk/0302_setting_omk.png" alt="Display settings menu OpenMapKit" />
-<p align="center"><i>Display settings menu OpenMapKit</i></p></p>
-
-<ul>
-<li>By default, <em>OpenMapKit</em> will display the <em>Online Humanitarian OpenStreetMap</em>.</li>
+<li>On the home page of <em>OpenMapKit</em>, press <strong>the settings button</strong> located in the upper right corner. This will allow you to download deployments (if applicable), select a basemap, and select the OSM buildings layer.
+<br /></li>
 </ul>
 
 <p><img src="../../../images/using-omk/omk_set-up.PNG" alt="" /></p>
@@ -358,14 +354,14 @@
 
 <p>If using OpenMapKit Server and deployments, follow these steps to download files needed for field mapping. If not using deployments, skip to <em>2. Basemap</em>.</p>
 
-<ol>
+<ul>
 <li>Open the OpenMapKit app, tap on the Settings button in the top right corner, and select Deployments [1].</li>
 <li>Select the appropriate deployment (i.e. census-versalles). Select the black download button in the lower right corner.</li>
-</ol>
+</ul>
 
 <h4 id="2-basemaps">2. Basemaps</h4>
 
-<p><em>OpenMapKit</em> provides an OSM map as a <em>basemap</em> that must be accessed using an internet connection. But don&rsquo;t worry, you can also enter offline basemap into <em>OpenMapKit</em> which is a map that can be opened without an internet connection. An offline basemap can make it easier for you to add information right at the location you are surveying.</p>
+<p>By default, <em>OpenMapKit</em> will display the <em>Online Humanitarian OpenStreetMap</em> that can be accessed using an internet connection. However, if manually added to the device or downloaded through a deployment, an offline basemap can be opened without an internet connection.</p>
 
 <p>Select and change the <em>OpenMapKit basemap</em> by pressing <strong>the settings button</strong> located in the top right corner and pressing <strong><em>Basemap</em></strong> then select the <em>.mbtiles</em>. Then press <strong><em>OK</em></strong>.</p>
 
@@ -379,12 +375,6 @@ Open the OpenMapKit app, tap on the Settings button in the top right corner, and
 
 <p><strong>Downloading OSM file</strong>
 If your device does not have an OSM buildings layer (.osm file) pre-loaded or a file was not downloaded with a deployment, users can still download an OSM buildings layer with an internet connection. Users will need to complete the following steps:</p>
-
-<ol>
-<li>Download OSM data in <em>OpenMapKit</em></li>
-</ol>
-
-<p>Existing OSM data can be easier for you to add information about the building because you can choose the building directly and start adding an information based on the field. Therefore, you should download OSM first data before adding new information. Here’s how to download OSM data in <em>OpenMapKit</em>:</p>
 
 <ul>
 <li><p>Navigate the map to your current location (for example, you are already on the survey location) by pressing <strong>the round button</strong> in the lower right corner of the screen until the round button is colored blue. A black dot will appear at your current location.</p>
@@ -404,6 +394,13 @@ If your device does not have an OSM buildings layer (.osm file) pre-loaded or a 
 <p><img src="../../../images/using-omk/0307_xml_layer.png" alt="OSM XML Downloader menu and OSM XML Layers menu" />
 <p align="center"><i>OSM XML Downloader menu and OSM XML Layers menu</i></p></p></li>
 </ul>
+
+<h4 id="4-enter-osm-username">4. Enter OSM Username</h4>
+
+<p>Select <strong>OSM <em>User name</em></strong> OSM and enter your <em>User Name</em></p>
+
+<p><img src="../../../images/using-omk/0302_setting_omk.png" alt="Display settings menu OpenMapKit" />
+<p align="center"><i>Display settings menu OpenMapKit</i></p></p>
 
 <h3 id="using-openmapkit">Using OpenMapKit</h3>
 
@@ -549,13 +546,14 @@ If your device does not have an OSM buildings layer (.osm file) pre-loaded or a 
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#configuring-openmapkit">Configuring OpenMapKit</a>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
 <ul>
-<li>
+<li><a href="#configuring-openmapkit">Configuring OpenMapKit</a>
 <ul>
 <li><a href="#1-deployments">1. Deployments</a></li>
 <li><a href="#2-basemaps">2. Basemaps</a></li>
 <li><a href="#3-osm-buildings-layer">3. OSM Buildings Layer</a></li>
+<li><a href="#4-enter-osm-username">4. Enter OSM Username</a></li>
 </ul></li>
 <li><a href="#using-openmapkit">Using OpenMapKit</a></li>
 </ul></li>

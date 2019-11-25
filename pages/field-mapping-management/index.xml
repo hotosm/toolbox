@@ -27,7 +27,7 @@
       
       <guid>/pages/field-mapping-management/4.3_using_openmapkit/</guid>
       <description>This guide provides surveyors, mappers and field supervisors with the skills to:
- Operate the configuration for OpenMapKit Operate how to enter offline basemap for OpenMapKit Operate OpenMapKit  
+ Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  
 Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
     </item>
     
