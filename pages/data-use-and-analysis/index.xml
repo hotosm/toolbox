@@ -21,14 +21,14 @@
     </item>
     
     <item>
-      <title>8.1 Introduction to QGIS</title>
-      <link>/pages/data-use-and-analysis/8.1-qgis/</link>
+      <title>7.1 Introduction to QGIS</title>
+      <link>/pages/data-use-and-analysis/7.1-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/8.1-qgis/</guid>
-      <description>Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.
-This section covers the basic skills necessary to using QGIS. These skills include:
- Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins  Installing and using QuickMapServices Installing and using QuickOSM   Following completion of this section, a new user should be prepared to navigate and work with data in QGIS.</description>
+      <guid>/pages/data-use-and-analysis/7.1-qgis/</guid>
+      <description>This section covers the basic skills necessary to using QGIS. This includes step-by-step guides on:
+ Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins, including QuickOSM and QuickMapServices  
+Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</description>
     </item>
     
     <item>
