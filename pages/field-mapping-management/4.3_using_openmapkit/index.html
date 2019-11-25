@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/field-mapping-management/5.2_using_openmapkit/" class="language-select-option
+        <a href="../../../fr/pages/field-mapping-management/4.3_using_openmapkit/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/field-mapping-management/5.2_using_openmapkit/" class="language-select-option 
+        <a href="../../../pages/field-mapping-management/4.3_using_openmapkit/" class="language-select-option 
         
         language-select-option--selected
         
@@ -182,11 +182,11 @@
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/4.0-field-mapping-management/" class="menu-link">4.0 Introduction to Field Mapping Management</a></li>
                     
+                        <li class="page"><a href="../../../pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link menu-link--active">4.3 Using OpenMapKit</a></li>
+                    
                         <li class="page"><a href="../../../pages/field-mapping-management/4.4_using_osm_tracker/" class="menu-link">4.4 Using OSMTracker</a></li>
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/5.1_using_odk_collect/" class="menu-link">5.1 Using ODK Collect</a></li>
-                    
-                        <li class="page"><a href="../../../pages/field-mapping-management/5.2_using_openmapkit/" class="menu-link menu-link--active">5.2 Using the OpenMapKit Application</a></li>
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/" class="menu-link">5.4 Managing Teams in the Field using OsmAnd and QGIS</a></li>
                     
@@ -305,44 +305,39 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/6e8cc74afc438204388cd9811697eed05da4a2aa" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/641711f2e068c676a32df01473c0cfc92a245113" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 25, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">5.2 Using the OpenMapKit Application</h1>
-
-<h2 id="overview">Overview</h2>
-
-<p><strong>OpenMapKit (OMK)</strong> is an additional application that is used to support <em>ODK Collect</em> in determining the position of objects found during precise and precise field surveys. <em>OpenMapKit</em> can be run through <em>ODK Collect</em>, after you open and select one of the available forms. In determining the location of an object, <em>OpenMapKit</em> requires a map background in the form of a satellite imagery or OSM map. If you use the OSM as the map background, the thing to note is that the data must be available on the OSM server. Currently <em>OpenMapKit</em> only available on Android. You can download <em>OpenMapKit</em> for free through the <em>Play Store</em>.</p>
-
-<p><img src="../../../images/using-omk/0301_app_omk.png" alt="OpenMapKit Application in Play Store" />
-<p align="center"><i><em>OpenMapKit application on the Play Store</em>
-</i></p></p>
-
-<blockquote>
-<p>Note:
-To be able to use OpenMapKit You have to install latest version of ODK (OpenDataKit) Collect, because the form filled in OpenMapKit is sourced from ODK Collect.</p>
-</blockquote>
+           <h1 class="page-title">4.3 Using OpenMapKit</h1>
 
 <p>This guide provides <strong>surveyors, mappers and field supervisors</strong> with the skills to:</p>
 
 <ul>
-<li>Operate the initial setup for <em>OpenMapKit</em></li>
+<li>Operate the configuration for <em>OpenMapKit</em></li>
 <li>Operate how to enter offline basemap for <em>OpenMapKit</em></li>
 <li>Operate <em>OpenMapKit</em></li>
 </ul>
 
+<p><br></p>
+
+<h2 id="overview">Overview</h2>
+
+<p><strong>OpenMapKit (OMK)</strong> is an additional application that is used to support <em>ODK Collect</em> in determining the position of objects found during precise and precise field surveys. <em>OpenMapKit</em> can be run through <em>ODK Collect</em>, after you open and select one of the available forms. In determining the location of an object, <em>OpenMapKit</em> requires a map background in the form of a satellite imagery or OSM map. If you use the OSM as the map background, the thing to note is that the data must be available on the OSM server.</p>
+
 <p>Prior to learning how to use <strong>OpenMapKit</strong>, users should know how to use <em>ODK (OpenDataKit) Collect,</em> an android-based application to replace paper form for surveys as OpenMapKit is an extension of  <em>ODK Collect</em>. This extension is used to add information on the position or location of the object surveyed.</p>
+
+<p>*If you have not yet completed the initial set-up OpenMapKit, see <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/">3.2.2 Setting up OpenMapKit</a> before proceeding.</p>
 
 <hr />
 
-<h2 id="initial-setup-for-openmapkit">Initial Setup for OpenMapKit</h2>
+<h2 id="configuring-openmapkit">Configuring OpenMapKit</h2>
 
-<p>Before you use <em>OpenMapKit</em>, you must first make initial setup. The following are step by steps of the initial <em>OpenMapKit setup</em>:</p>
+<p>Before you use <em>OpenMapKit</em>, you must first make sure each device is confirgured. The following are step by step instructions of the initial OpenMapKit Configuration:</p>
 
 <ul>
 <li><p>On the home page of <em>OpenMapKit</em>, press <strong>the settings button</strong> located in the upper right corner.</p></li>
@@ -357,30 +352,39 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 <li>By default, <em>OpenMapKit</em> will display the <em>Online Humanitarian OpenStreetMap</em>.</li>
 </ul>
 
-<h2 id="import-the-offline-basemap-for-openmapkit">Import the offline <em>basemap</em> for <em>OpenMapKit</em></h2>
+<p><img src="../../../images/using-omk/omk_set-up.PNG" alt="" /></p>
 
-<p><em>OpenMapKit</em> provides an OSM map as a <em>basemap</em> that must be accessed using an internet connection. But don&rsquo;t worry, you can also enter offline basemap into <em>OpenMapKit</em> which is a map that can be opened without an internet connection. An offline basemap can make it easier for you to add information right at the location you are surveying. Here&rsquo;s how to add offline basemap:</p>
+<h4 id="1-deployments">1. Deployments</h4>
 
-<ul>
-<li>The format of the data used as a offline basemap in the application <em>OpenMapKit</em> should be formatted as .mbtiles. To create <em>.mbtiles</em> can be seen in the module <strong>Make Mbtiles for OMK (<em>OpenMapKit</em>).</strong> After you have the <em>.mbtiles</em> file, connect your <em>smartphone</em> to your computer / laptop. Open the folder containing _the .mbtiles _file that will be copied to your smartphone. Select the <em>.mbtiles</em> file then copy it to <strong>openmapkit</strong> → <strong>mbtiles</strong> folder your internal storage.</li>
-</ul>
+<p>If using OpenMapKit Server and deployments, follow these steps to download files needed for field mapping. If not using deployments, skip to <em>2. Basemap</em>.</p>
 
-<p><img src="../../../images/using-omk/0303_omk_mbtiles.png" alt="The process of adding mbtiles files to OpenMapKit" />
-<p align="center"><i>Process of adding .mbtiles files to OpenMapKit</i></p></p>
+<ol>
+<li>Open the OpenMapKit app, tap on the Settings button in the top right corner, and select Deployments [1].</li>
+<li>Select the appropriate deployment (i.e. census-versalles). Select the black download button in the lower right corner.</li>
+</ol>
 
-<ul>
-<li>If you have successfully copied <em>.mbtiles</em>, you can change the <em>OpenMapKit basemap</em> by pressing <strong>the settings button</strong> located in the top right corner and pressing <strong><em>Basemap</em></strong> then select the <em>.mbtiles</em> that you just entered. Then press <strong><em>OK</em></strong>.</li>
-</ul>
+<h4 id="2-basemaps">2. Basemaps</h4>
+
+<p><em>OpenMapKit</em> provides an OSM map as a <em>basemap</em> that must be accessed using an internet connection. But don&rsquo;t worry, you can also enter offline basemap into <em>OpenMapKit</em> which is a map that can be opened without an internet connection. An offline basemap can make it easier for you to add information right at the location you are surveying.</p>
+
+<p>Select and change the <em>OpenMapKit basemap</em> by pressing <strong>the settings button</strong> located in the top right corner and pressing <strong><em>Basemap</em></strong> then select the <em>.mbtiles</em>. Then press <strong><em>OK</em></strong>.</p>
 
 <p><img src="../../../images/using-omk/0304_omk_basemap.png" alt="Display basemap settings in OpenMapKit" />
 <p align="center"><i>Display basemap settings in OpenMapKit</i></p></p>
 
-<h2 id="basic-operation-openmapkit">Basic Operation <em>OpenMapKit</em></h2>
+<h4 id="3-osm-buildings-layer">3. OSM Buildings Layer</h4>
 
-<p><strong>1. Download OSM data in <em>OpenMapKit</em></strong></p>
+<p><strong>Selecting an installed OSM File</strong>
+Open the OpenMapKit app, tap on the Settings button in the top right corner, and select OSM XML Layer [3]. Select the correct .osm layer for the locality that is being worked in.</p>
 
-<pre><code>Existing OSM data can be easier for you to add information about the building because you can choose the building directly and start adding an information based on the field. Therefore, you should download OSM first data before adding new information. Here’s how to download OSM data in _OpenMapKit_:
-</code></pre>
+<p><strong>Downloading OSM file</strong>
+If your device does not have an OSM buildings layer (.osm file) pre-loaded or a file was not downloaded with a deployment, users can still download an OSM buildings layer with an internet connection. Users will need to complete the following steps:</p>
+
+<ol>
+<li>Download OSM data in <em>OpenMapKit</em></li>
+</ol>
+
+<p>Existing OSM data can be easier for you to add information about the building because you can choose the building directly and start adding an information based on the field. Therefore, you should download OSM first data before adding new information. Here’s how to download OSM data in <em>OpenMapKit</em>:</p>
 
 <ul>
 <li><p>Navigate the map to your current location (for example, you are already on the survey location) by pressing <strong>the round button</strong> in the lower right corner of the screen until the round button is colored blue. A black dot will appear at your current location.</p>
@@ -401,10 +405,9 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 <p align="center"><i>OSM XML Downloader menu and OSM XML Layers menu</i></p></p></li>
 </ul>
 
-<p><strong>2. Add building information in <em>OpenMapKit</em></strong></p>
+<h3 id="using-openmapkit">Using OpenMapKit</h3>
 
-<pre><code>If you have successfully downloaded building data from OSM, you can add the building information by:
-</code></pre>
+<p>Once you have configured your basemap and OSM layer, you can add the building information by:</p>
 
 <ul>
 <li><p>Select the building to which the information will be added. Make sure the building is purple which indicates that the building has been downloaded from OSM. If the building is selected, the color will change to orange.</p></li>
@@ -417,12 +420,12 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 <li><p>When done, at the end of the page select <strong><em>Save</em></strong> to save the form to <em>ODK Collect</em>. If you have completed filling in the form, the building that you fill in the information will look like this:</p>
 
 <p><img src="../../../images/using-omk/0309_tag_bangunan_omk.png" alt="The building that has been filled in the information" />
-<p align="center"><i>Building that has been filled in the information</i></p></p>
+<p align="center"><i>Building that has been filled in the information</i></p></p></li>
+</ul>
 
-<p>If the building data for location of your survey is not yet available in the OSM, you can map the building before conducting the survey. If you don’t have time to do the mapping, you can use points to mark the object in the <em>OpenMapKit</em> by:</p></li>
+<p>If the building data for location of your survey is not yet available in the OSM, you can map the building before conducting the survey. If you don’t have time to do the mapping, you can use points to mark the object in the <em>OpenMapKit</em> by:</p>
 
-<li><p>Use <em>.mbtiles</em> you have entered previously to help mark the object accurately click <strong>Settings</strong> <strong>→ <em>Basemap</em></strong></p></li>
-
+<ul>
 <li><p>Press <strong>the plus (+) icon</strong> in the lower right corner of your screen until it turns green. It will appear green marker with the words <em>Add Node</em> on it. Slide the map until the location of the marker is accurate with the object in the field.</p>
 
 <p><img src="../../../images/using-omk/0310_add_node_omk.png" alt="Add marker using plus icon" />
@@ -454,6 +457,8 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 
 <li><p>Now you can see the form has been successfully saved on the <em>ODK Collect</em>.</p></li>
 </ul>
+
+<p><em>Note: all OpenMapKit surveys will be launched from the ODK application.</em></p>
 </div>
 
 
@@ -525,10 +530,10 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 
 
 
-<a class="next-page" href="../../../pages/field-mapping-management/5.4_managing_teams_in_the_field/">
+<a class="next-page" href="../../../pages/field-mapping-management/4.4_using_osm_tracker/">
     <div class="next-page__container">
             <div class="sub-title sub-title-10">READ NEXT</div>
-            <div class="next-title">5.4 Managing Teams in the Field using OsmAnd and QGIS</div>
+            <div class="next-title">4.4 Using OSMTracker</div>
     </div>
     <img src="../../../svg/forward-arrow.svg" alt="">
 </a>
@@ -544,19 +549,26 @@ To be able to use OpenMapKit You have to install latest version of ODK (OpenData
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#initial-setup-for-openmapkit">Initial Setup for OpenMapKit</a></li>
-<li><a href="#import-the-offline-basemap-for-openmapkit">Import the offline <em>basemap</em> for <em>OpenMapKit</em></a></li>
-<li><a href="#basic-operation-openmapkit">Basic Operation <em>OpenMapKit</em></a></li>
+<li><a href="#configuring-openmapkit">Configuring OpenMapKit</a>
+<ul>
+<li>
+<ul>
+<li><a href="#1-deployments">1. Deployments</a></li>
+<li><a href="#2-basemaps">2. Basemaps</a></li>
+<li><a href="#3-osm-buildings-layer">3. OSM Buildings Layer</a></li>
+</ul></li>
+<li><a href="#using-openmapkit">Using OpenMapKit</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/field-mapping-management/5.2_using_openmapkit.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/field-mapping-management/4.3_using_openmapkit.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/5.2_using_openmapkit.pdf"
+    href="../../../pdfs/en/4.3_using_openmapkit.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>
