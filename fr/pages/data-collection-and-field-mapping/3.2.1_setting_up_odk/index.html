@@ -50,7 +50,7 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../../fr/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="language-select-option
+        <a href="../../../../fr/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="language-select-option
         
         language-select-option--selected
         
@@ -58,7 +58,7 @@
         
         
             
-        <a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="language-select-option 
+        <a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="language-select-option 
         
         ">English</a>
         
@@ -83,14 +83,14 @@
 
         <div class="
         
-        accordion accordion--open
+        accordion accordion--closed
         
         ">
             Designing and Coordinating a Mapping Project
         </div>
         <div class="panel
         
-        panel--open
+        panel--closed
         ">
                 <ul class="page-list">
                     
@@ -102,7 +102,7 @@
                     
                         <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.3-hardware/" class="menu-link">1.3 Sélection du matériel</a></li>
                     
-                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="menu-link menu-link--active">1.4 Formations et Ateliers</a></li>
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="menu-link">1.4 Formations et Ateliers</a></li>
                     
                 </ul>
             </div>
@@ -129,14 +129,14 @@
 
         <div class="
         
-        accordion accordion--closed
+        accordion accordion--open
         
         ">
             Field Mapping Technical Set-up
         </div>
         <div class="panel
         
-        panel--closed
+        panel--open
         ">
                 <ul class="page-list">
                     
@@ -146,7 +146,7 @@
                     
                         <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/" class="menu-link">3.2 Les outils de collecte de données</a></li>
                     
-                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="menu-link">3.2.1 Configuration de OpenDataKit</a></li>
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="menu-link menu-link--active">3.2.1 Configuration de OpenDataKit</a></li>
                     
                 </ul>
             </div>
@@ -215,110 +215,94 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/0491f7e58a87effb0abe8d8b92acbffd35728f39" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
-      Dernière modification: November 25, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/b5b0141d247540b09241d1acd2aa88991119d841" class="sub-title sub-title-14" title='Last modified November 26, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: November 26, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">1.4 Formations et Ateliers</h1>
+           <h1 class="page-title">3.2.1 Configuration de OpenDataKit</h1>
 
-<p>Dans cette section, les responsables de projet trouveront des informations sur les considérations et les ressources à utiliser lors de la planification de formations et d’ateliers sur la cartographie et l’OSM, notamment:</p>
+<p>Cette rubrique présente:</p>
 
 <ul>
-<li>Orientations sur les exigences de formation</li>
-<li>Exemples et ressources pour créer des programmes de formation</li>
-<li>Considérations pour les présentations et autres matériaux fournis.
-<br /></li>
+<li>Un résumé des étapes nécessaires pour configurer ODK</li>
+<li>Guide étape par étape pour créer des formulaires d&rsquo;enquête ODK, avec des fichiers pour faire un cas pratique.</li>
+<li>Guide étape par étape pour la configuration de ODK sur les périphériques</li>
 </ul>
-
-<p><img src="../../../../images/training_blackboard.jpeg" alt="" /></p>
-
-<h2 id="overview">Overview</h2>
-
-<p>La plupart des projets de cartographie comporteront des formations ou des ateliers, qu’il s’agisse de former les cartographes de terrain à utiliser OpenDataKit, de former les parties prenantes des gouvernements locaux à l’exportation et l’utilisation des données OSM ou de former les étudiants à QGIS pour la création de cartes. Au cours de la phase de planification, les chefs de projet et les communautés OSM doivent prévoir quelles formations sont nécessaires et quelles ressources seront nécessaires pour organiser chaque formation ou atelier.</p>
 
 <p><br></p>
 
-<h2 id="exigences-de-formation">Exigences de formation</h2>
+<h2 id="overview">Overview</h2>
 
-<p><strong>Conditions requises</strong><br />
-Les exigences pour les participants varient en fonction de l’ampleur des formations, des participants prévus et des ressources disponibles. Peu importe la portée de la formation, il est important de communiquer ces exigences AVANT la formation afin que les participants puissent se préparer.</p>
+<p><strong>OpenDataKit (ODK)</strong> est un ensemble d&rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles. ODK Collect fait partie des outils ODK et est une application Android qui remplace les formulaires papier utilisés pour la collecte de données terrains. Il prend en charge un large éventail de types de questions et de réponses et est conçu pour bien fonctionner sans connectivité réseau.</p>
 
-<p>Certaines conditions requises pour les participants peuvent inclure:</p>
+<p><em>Vous hésitez sur la pertinence de OpenDataKit pour votre projet ?  Voir ici <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/">Outils de collectes de données</a>.</em></p>
+
+<h2 id="outils-et-supports-de-formation">Outils et supports de formation</h2>
+
+<p>Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
+
+<p><img src="../../../../images/learning_icon_wide.PNG" alt="" />
+<em>La section suivante est conçue pour servir de guide pour les gestionnaires de projet, les superviseurs ou d&rsquo;autres personnes lors de la mise en place de l&rsquo;application.</em></p>
+
+<p><strong>Procédures de configuration</strong>
+Pour mettre en place OpenDataKit sur les périphériques, vous devrez suivre les étapes suivantes:</p>
+
+<ol>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#creating-odk-forms">Créer un formulaire ODK</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#download-and-set-up-the-odk-application">Télécharger et configurer l&rsquo;application ODK</a></li>
+</ol>
+
+<h3 id="création-de-formulaire-odk">Création de formulaire ODK</h3>
+
+<p>Lorsque vous utilisez les applications de collecte de données ODK et OMK, vous devrez créer les fichiers qui serviront de formulaires pour l&rsquo;enquête.</p>
+
+<p>Les formulaires peuvent être créés à l&rsquo;aide d&rsquo;un tableur (comme Excel ou <a href="https://www.libreoffice.org/discover/calc/">LibreOffice calc</a>) ou à l&rsquo;aide du serveur en ligne <a href="https://build.opendatakit.org/">ODK Form Builder</a>.  La documentation sur la façon de créer un formulaire se trouve <a href="http://xlsform.org/en/">ici</a>.</p>
 
 <ul>
-<li>Avoir un ordinateur portable et une souris.</li>
-<li>Avoir des connaissances en informatique et des compétences informatiques de base.      * Avoir de l&rsquo;enthousiasme et la volonté de collaborer avec les autres.</li>
-
-<li><p>Les ordinateurs des participants doivent disposer d’un espace disque libre suffisant (environ 10 Go) et disposer des droits d’administrateur leur permettant d’installer le logiciel sur leur ordinateur.</p></li>
-
-<li><p>Les participants devraient avoir une visionneuse de documents PDF installée sur leurs ordinateurs.</p></li>
+<li><a href="https://drive.google.com/file/d/1HY2jsHDYnpjuGemhco_WT9Cl8PSG4b43/view?usp=sharing">Exemple de formulaire ODK</a></li>
+<li><a href="https://drive.google.com/file/d/1ISEYZo5C_TCfKUJFD8AvbUrlsDHxRPgK/view?usp=sharing">formulaire ODK vide</a></li>
 </ul>
 
-<p><strong>Conditions requises pour le lieu de l&rsquo;atelier</strong></p>
+<p><strong>Conversion des formulaires</strong> <br>
+Une fois les formulaires créés, ils doivent être convertis du format .xlsx/.xls en.xml pour être utilisés par l&rsquo;application ODK. Ceci peut être fait en utilisant <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> ou <a href="https://docs.opendatakit.org/xlsform/">offline</a>. <br>
+<br>
+Si vous utilisez OpenMapKit Server ou KoboToolBox Server, vous n&rsquo;aurez pas besoin de faire la conversion du formulaire. Le serveur effectue ce processus de façon automatique pour vous.</p>
 
-<ul>
-<li>Capacité Wi-Fi* Si le site peut fournir le Wi-Fi, confirmez avec les responsables du lieu que le réseau Wi-Fi a une capacité suffisante pour le nombre de participants attendus. Par exemple, si vous prévoyez que 10 à 15 personnes se présenteront à votre événement, le Wi-Fi devra être capable d’héberger 15 à 20 connexions Internet. N&rsquo;oubliez pas que vous devrez également vous connecter!
+<h2 id="télécharger-et-configurer-l-application-odk">Télécharger et configurer l&rsquo;application ODK</h2>
 
-<ul>
-<li>S&rsquo;il n&rsquo;y a pas de lieu doté de la capacité Wi-Fi, envisagez d&rsquo;utiliser un appareil Mi-fi ou d&rsquo;autres options Hotspot.<br /></li>
-</ul></li>
-<li>De l’espace, des tables et des chaises pour répondre à vos attentes.</li>
+<p><strong>Télécharger l&rsquo;application</strong> <br></p>
 
-<li><p>De prises de courant Suffisante pour charger les ordinateurs portables et autres appareils.</p>
+<p>L&rsquo;application ODK se trouve sur Google Play <a href="https://play.google.com/store/apps/details?id=org.odk.collect.android&amp;hl=en_US">ici</a>.</p>
 
-<ul>
-<li>Si cela est limité, vous devrez prendre en compte les barrettes d&rsquo;alimentation et les rallonges.</li>
-</ul></li>
+<p>Si vous installez sur plusieurs périphériques avec de faibles ressources Internet, il est recommandé de télécharger et de partager l&rsquo;apk hors ligne. Le fichier APK pour OpenMapKit peut être téléchargé <a href="https://github.com/opendatakit/collect/releases/tag/v1.16.1">ici</a>.</p>
 
-<li><p>Avoir le Générateur / l’électricité pendant la durée de l&rsquo;atelier.</p></li>
-</ul>
+<p><strong>Configuration de l&rsquo;application sur les appareils</strong> <br></p>
 
-<h2 id="créer-un-agenda">Créer un agenda</h2>
+<ol>
+<li>Trouvez l&rsquo;icône de l&rsquo;application ODK Collect sur votre appareil mobile et touchez pour ouvrir l&rsquo;application.</li>
+<li>Après avoir téléchargé l&rsquo;application ODK, un dossier odk sera automatiquement créé dans la mémoire interne de l&rsquo;appareil. Connectez votre terminal à un ordinateur portable pour vérifier que ce dossier a bien été créé. Si vous ne voyez pas ce dossier sur la mémoire interne de votre appareil, redémarrez l&rsquo;appareil.</li>
+<li>Une fois l&rsquo;appareil redémarré, connectez-le à votre ordinateur portable et naviguez jusqu&rsquo;au dossier stockage interne -&gt; dossier odk. Vous trouverez des sous-dossiers dans le dossier openmapkit. C&rsquo;est-à-dire les dossiers‘forms’, ‘instances’, ‘layers’ et &lsquo;metadata&rsquo;.</li>
+</ol>
 
-<p><strong>Exemples d&rsquo;agenda de formation</strong></p>
+<p><img src="../../../../images/field-mapping-technical-setup/odk_set-up.jpeg" alt="" /></p>
 
-<ul>
-<li><a href="https://drive.google.com/open?id=1Bu8rbACbLMyRamNFmG8yJ6UrskhwzDya">Three-day field mapping workshop</a></li>
-<li><a href="https://docs.google.com/document/d/10Bxk4q0xamyX1i8PIWuTxMgTxsKQ8L3R2933HAEp3fg/edit?usp=sharing">Two-day GIS workshop</a></li>
-</ul>
-
-<p><strong>Modèle de programme de formation</strong></p>
-
-<ul>
-<li><a href="https://drive.google.com/open?id=14jqJhUgLeyqwleerE8PPDXO7JWGzIv6m">Modèle</a></li>
-</ul>
-
-<h2 id="présentations">Présentations</h2>
-
-<p>Après avoir développé l’ordre du jour, vous devrez déterminer quelles présentations sont nécessaires pour chaque activité. Les présentations de formation HOT fournies dans cette boîte à outils sont disponibles pour les équipes et les communautés OSM et peuvent être utilisées avec le crédit fournit à HOT. Naviguez dans la boîte à outils jusqu&rsquo;aux sections appropriées pour les présentations nécessaires.</p>
-
-<h2 id="outils-logiciels-et-matériels-à-fournir">Outils, logiciels et matériels à fournir</h2>
-
-<p>Il est fortement recommandé qu&rsquo;avant la formation / l&rsquo;atelier, tous les fichiers d&rsquo;installation nécessaires soient téléchargés et chargés sur des clés USB pour une installation hors ligne. Les sections de cette boîte à outils présentant les outils incluent des liens vers les fichiers d’installation dont vous aurez besoin.</p>
-
-<h2 id="ressources-supplémentaires">Ressources supplémentaires</h2>
-
-<p><img src="../../../../images/reading_icon_wide.PNG" alt="" /></p>
-
-<ul>
-<li><a href="https://docs.google.com/document/d/1WCTonbvQC6YHCHZyYduRfR94i7Gp_ISFpivxuNMLO68/edit">Début de la boîte à outils OpenStreetMap formateur</a><br /></li>
-<li><a href="https://docs.google.com/document/d/1PxWbF7L8WWezGl1mPogc_OmgEtEjyPBQa7N_CYm5x78/edit">Boîte à outils intermédiaire OpenStreetMap formateur</a></li>
-<li><a href="https://docs.google.com/document/d/1yFavv6lWCWWHoO3xB-deWlury2vuvZf0kbEl-RtigmE/edit">Boîte à outils avancé OpenStreetMap formateur</a></li>
-<li><a href="http://teachosm.org/en/">EnseignerOSM</a></li>
-<li><a href="https://learnosm.org/en/">ApprendreOSM</a>
-
-<ul>
-<li><a href="https://docs.google.com/document/d/1XeyVve6tZE_-IIe1jgtXMjNRWLRPUf5yPaX8_P1gFOQ/edit">Mapping Party</a></li>
-</ul></li>
-</ul>
+<ol>
+<li>Ajoutez vos formulaires en format xml dans le dossier Formulaires.</li>
+<li>Dans la fenêtre du menu principal ODK Collect, sélectionnez Remplir le formulaire vierge. Tous les formulaires téléchargés à partir du serveur s&rsquo;afficheront, et vous pourrez les utiliser pour tester la collecte de données sur le terrain.</li>
+<li>Une fois que tous les formulaires sont disponibles sur votre appareil, cliquez sur le bouton “ Précédent “ de l&rsquo;appareil pour quitter l&rsquo;application ODK Collect.</li>
+</ol>
 </div>
 
 
 
+
+    
+
+    
 
     
      
@@ -328,19 +312,15 @@ Les exigences pour les participants varient en fonction de l’ampleur des forma
 
     
 
-    
-
-    
 
 
 
 
 
-
-<a class="next-page" href="../../../../fr/pages/digitization-and-editing/2.0-digitization-and-editing/">
+<a class="next-page" href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/6.0-data-cleaning-qa/">
     <div class="next-page__container">
             <div class="sub-title sub-title-10">LIRE LA SUITE</div>
-            <div class="next-title">2.0 Introduction à la numérisation et à l&#39;édition dans OSM</div>
+            <div class="next-title">6.0 Data Cleaning, Upload, and Quality Assurance</div>
     </div>
     <img src="../../../../svg/forward-arrow.svg" alt="">
 </a>
@@ -356,21 +336,21 @@ Les exigences pour les participants varient en fonction de l’ampleur des forma
 <li>
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#exigences-de-formation">Exigences de formation</a></li>
-<li><a href="#créer-un-agenda">Créer un agenda</a></li>
-<li><a href="#présentations">Présentations</a></li>
-<li><a href="#outils-logiciels-et-matériels-à-fournir">Outils, logiciels et matériels à fournir</a></li>
-<li><a href="#ressources-supplémentaires">Ressources supplémentaires</a></li>
+<li><a href="#outils-et-supports-de-formation">Outils et supports de formation</a>
+<ul>
+<li><a href="#création-de-formulaire-odk">Création de formulaire ODK</a></li>
+</ul></li>
+<li><a href="#télécharger-et-configurer-l-application-odk">Télécharger et configurer l&rsquo;application ODK</a></li>
 </ul></li>
 </ul>
 </nav>
     </div>
     
     <hr class="toc-divider">
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/running-a-mapping-project/1.4-Trainings-and-Workshops.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-collection-and-field-mapping/3.2.1_Setting_up_ODK.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
     <a 
     
-    href="../../../../pdfs/fr/1.4-Trainings-and-Workshops.pdf"
+    href="../../../../pdfs/fr/3.2.1_Setting_up_ODK.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
 </div></aside>
