@@ -339,6 +339,9 @@ body {
       font-size: 22px;
       font-weight: 500; }
 
+.no-underline {
+  text-decoration: none; }
+
 .main {
   display: flex;
   flex-direction: row;
