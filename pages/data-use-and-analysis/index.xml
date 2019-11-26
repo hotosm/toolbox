@@ -32,6 +32,17 @@ Overview QGIS (or Quantum GIS) is a free and open source geographic information 
     </item>
     
     <item>
+      <title>7.3 Web &amp; Interactive Maps</title>
+      <link>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
+      <description>This section provides:
+ An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  
+Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
+    </item>
+    
+    <item>
       <title>8.2 Creating Maps and Atlases in QGIS</title>
       <link>/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,16 +52,6 @@ Overview QGIS (or Quantum GIS) is a free and open source geographic information 
 HOT Project Examples:
  Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation:
 Estimated time:</description>
-    </item>
-    
-    <item>
-      <title>8.3 Web &amp; Interactive Maps</title>
-      <link>/pages/data-use-and-analysis/8.3_web_and_interactive_maps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/8.3_web_and_interactive_maps/</guid>
-      <description>Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data(maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools. The use of interactive maps gives users an opportunity to change the display of the map to one&amp;rsquo;s preferences freely.
-This section covers two tools for creating interactive maps using OSM data: uMap and Overpass Turbo.</description>
     </item>
     
   </channel>
