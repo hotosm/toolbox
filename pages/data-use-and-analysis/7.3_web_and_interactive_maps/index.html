@@ -305,7 +305,7 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/4160d1b76b3cfbf6044e7a529265ac6d7398ea93" class="sub-title sub-title-14" title='Last modified November 26, 2019 by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/830911c274de82176b7f850d23efaf6ea54e3c53" class="sub-title sub-title-14" title='Last modified November 26, 2019 by jessbeutler' target="_blank" rel="noopener">
       Last modified: November 26, 2019
     </a>
   </div>
@@ -456,25 +456,34 @@ Beginner/Intermediate</p>
 <p><strong>How to link uMap and Overpass Turbo</strong></p>
 
 <ol>
-<li>Head to overpass-turbo.eu.</li>
-<li>Click Wizard and search for source=HOT-UG (learn about OpenStreetMap tags here)</li>
-<li>Click Export, Query, and then compact.</li>
-<li>Copy the query link as text and paste into a text editor (e.g. notepad). If you use the “copy link” feature of your browser you may first have to decode the URL by pasting in here and clicking Decode before copying to output to a text editor.</li>
-<li>Next, we need to take this text and generalise it to work on any map area:</li>
-<li>Add “<a href="http://overpass-api.de/api/interpreter?data=”">http://overpass-api.de/api/interpreter?data=”</a> without quotes before the copied text.</li>
-<li>Replace the hard-coded latitude and longitude coordinates with “({south},{west},{north},{east})” without quotes. This will need to be done three times; after node[“source”=”HOT-UG”], way[“source”=”HOT-UG”], and relation[“source”=”HOT-UG”].</li>
-<li>The final result should look like:
-<a href="http://overpass-api.de/api/interpreter?data=[out:json][timeout:25];(node[“source”=”HOT-UG”]({south},{west},{north},{east});way[“source”=”HOT-UG”]({south},{west},{north},{east});relation[“source”=”HOT-UG”]({south},{west},{north},{east}););out">http://overpass-api.de/api/interpreter?data=[out:json][timeout:25];(node[“source”=”HOT-UG”]({south},{west},{north},{east});way[“source”=”HOT-UG”]({south},{west},{north},{east});relation[“source”=”HOT-UG”]({south},{west},{north},{east}););out</a> body;&gt;;out skel qt;</li>
-<li>Now navigate to umap.openstreetmap.fr or one of the alternate instances listed here.</li>
-<li>Click Create a map and pan/zoom in to the area of interest.</li>
-<li>Click the layers button and then click Edit (the pencil symbol).</li>
-<li>In the right-hand pane click Remote data and paste the URL we constructed in step 5 into the Url box.</li>
-<li>Select “osm” from the drop-down Format list.</li>
-<li>Tick the dynamic checkbox.
+<li>After creating a query in overpass-turbo.eu, click Export, Query, and then compact.</li>
+</ol>
+
+<p><img src="../../../images/interactivemaps/linkmaps1.gif" alt="" /></p>
 
 <ol>
+<li>Copy the query link as text and paste into a text editor (e.g. notepad). If you use the “copy link” feature of your browser you may first have to decode the URL by pasting in here and clicking Decode before copying to output to a text editor.</li>
+</ol>
+
+<p><img src="../../../images/interactivemaps/linkmaps2.gif" alt="" /></p>
+
+<ol>
+<li>Next, we need to take this text and generalise it to work on any map area:</li>
+<li>Add <code>http://overpass-api.de/api/interpreter?data=</code> before the copied text.</li>
+<li>Replace the hard-coded latitude and longitude coordinates with <code>({south},{west},{north},{east})</code>. This will need to be done three times; after node[<em>x</em>], way[<em>x</em>], and relation[<em>x</em>].</li>
+<li>The final result should look like: <code>http://overpass-api.de/api/interpreter?data=[out:json][timeout:25];(node[“source”=”HOT-UG”]({south},{west},{north},{east});way[“source”=”HOT-UG”]({south},{west},{north},{east});relation[“source”=”HOT-UG”]({south},{west},{north},{east}););out body;&gt;;out skel qt;</code></li>
+<li>Now navigate to umap.openstreetmap.fr.</li>
+<li>Click Create a map and pan/zoom in to the area of interest.</li>
+<li>Click the layers button and then click Edit (the pencil symbol).</li>
+<li>In the right-hand pane click Remote data and paste the URL we constructed in step 6 into the Url box.</li>
+</ol>
+
+<p><img src="../../../images/interactivemaps/linkmaps3.gif" alt="" /></p>
+
+<ol>
+<li>Select “osm” from the drop-down Format list.</li>
+<li>Tick the dynamic checkbox.</li>
 <li>Optional: If you have a lot of data you may want to limit the display to certain zoom levels (so as to not put too much strain on the Overpass servers). You can do this by entering a min zoom level in the From Zoom box. Here I have entered 13 as my minimal zoom level.</li>
-</ol></li>
 <li>Customise using the options on the right. Here I’ve changed the map background to OSM monochrome and changed the colour of the overlay data.</li>
 <li>Click More on the left-hand side, followed by Embed and share this map.</li>
 <li>Copy and paste the embeddable iframe (You may need to click Current view instead of default map view in the iframe options box.</li>
