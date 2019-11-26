@@ -63,5 +63,15 @@ Overview OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-s
 Overview Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.</description>
     </item>
     
+    <item>
+      <title>3.4 Serveurs de collecte de données</title>
+      <link>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
+      <description>Cette rubrique présente:
+ Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&amp;rsquo;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
+    </item>
+    
   </channel>
 </rss>
