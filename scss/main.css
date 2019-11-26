@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Color palette */
+/* font */
 .search {
   flex: 1;
   height: 40px;
@@ -328,7 +329,7 @@ body {
   height: 74px;
   line-height: 74px;
   box-shadow: 0 1px 0 0 #e1e0e0;
-  font-family: Barlow;
+  font-family: "Barlow Condensed", sans-serif;
   z-index: 999; }
   .header__container {
     width: 100%;
@@ -360,7 +361,7 @@ body {
   padding-bottom: 50px; }
 
 .menu {
-  flex: 2;
+  flex: 4;
   background-color: #f4f5f6;
   overflow-y: auto; }
   .menu__container {
@@ -369,13 +370,13 @@ body {
     margin: 17px; }
 
 .article {
-  flex: 5;
+  flex: 10;
   overflow-y: auto; }
   .article__container {
     margin: 56px 71px; }
 
 .toc {
-  flex: 2;
+  flex: 3;
   overflow-y: auto; }
   .toc__container {
     margin: 25px;
@@ -400,7 +401,7 @@ body {
   height: 16px; }
 
 .title {
-  font-family: Barlow;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 500; }
 
 .site-title {
