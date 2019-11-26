@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>4.1 Managing Teams in the Field</title>
+      <link>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</guid>
+      <description>This section provides:
+ An overview of tools and methods for managing teams in the field. Step-by-step guides for using OSMAnd and QGIS to manage team movement and completion of assignment areas.  Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
+    </item>
+    
+    <item>
       <title>4.3 Using OpenMapKit</title>
       <link>/pages/field-mapping-management/4.3_using_openmapkit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,16 +61,6 @@ Overview OSMTracker is an android application that allows us to record our surve
       <description>Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.
 This guide provides surveyors, mappers and field supervisors with the skills to:
  Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Initial Setup for ODK Collect 1.</description>
-    </item>
-    
-    <item>
-      <title>5.4 Managing Teams in the Field using OsmAnd and QGIS</title>
-      <link>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/5.4_managing_teams_in_the_field/</guid>
-      <description>Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.
-When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work.</description>
     </item>
     
   </channel>
