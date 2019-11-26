@@ -52,5 +52,16 @@ Généralités Plusieurs applications mobiles existent pour faciliter la collect
 Overview OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
     </item>
     
+    <item>
+      <title>3.3 Les applications de navigation</title>
+      <link>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
+      <description>Cette partie du manuel présente:
+ Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  
+Overview Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.</description>
+    </item>
+    
   </channel>
 </rss>

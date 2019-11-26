@@ -141,6 +141,17 @@ Overview OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-s
     </item>
     
     <item>
+      <title>3.3 Les applications de navigation</title>
+      <link>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
+      <description>Cette partie du manuel présente:
+ Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  
+Overview Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.</description>
+    </item>
+    
+    <item>
       <title>5.2 OMK Field Data Cleaning Workflow</title>
       <link>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
