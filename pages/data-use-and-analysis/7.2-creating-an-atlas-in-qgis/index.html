@@ -47,13 +47,13 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../fr/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/" class="language-select-option
+        <a href="../../../fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="language-select-option
         
         ">Français</a>
         
         
             
-        <a href="../../../pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/" class="language-select-option 
+        <a href="../../../pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="language-select-option 
         
         language-select-option--selected
         
@@ -276,9 +276,9 @@
                     
                         <li class="page"><a href="../../../pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction to QGIS</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.3_web_and_interactive_maps/" class="menu-link">7.3 Web &amp; Interactive Maps</a></li>
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="menu-link menu-link--active">7.2 Creating Maps and Atlases in QGIS</a></li>
                     
-                        <li class="page"><a href="../../../pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/" class="menu-link menu-link--active">8.2 Creating Maps and Atlases in QGIS</a></li>
+                        <li class="page"><a href="../../../pages/data-use-and-analysis/7.3_web_and_interactive_maps/" class="menu-link">7.3 Web &amp; Interactive Maps</a></li>
                     
                 </ul>
             </div>
@@ -326,32 +326,49 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/6e8cc74afc438204388cd9811697eed05da4a2aa" class="sub-title sub-title-14" title='Last modified November 20, 2019 by Russ Biggs' target="_blank" rel="noopener">
-      Last modified: November 20, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/85bfbdcac005103ef458ceb79bf7b35cb4e0a4b5" class="sub-title sub-title-14" title='Last modified November 27, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: November 27, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">8.2 Creating Maps and Atlases in QGIS</h1>
+           <h1 class="page-title">7.2 Creating Maps and Atlases in QGIS</h1>
+
+<p>This section covers the skills necessary to create maps and atlases in QGIS:</p>
+
+<ul>
+<li>Preparing map data</li>
+<li>Creating a Map Layout</li>
+<li>Atlas navigation and creation</li>
+<li>Creating map and atlas templates</li>
+</ul>
+
+<p><br></p>
+
+<h2 id="overview">Overview</h2>
 
 <p>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</p>
 
 <p><strong>HOT Project Examples:</strong></p>
 
 <ul>
-<li><a href="http://ramanihuria.org/data/">Ramani Huria</a> (Dar es Salaam, Tanzania)</li>
-<li>LEGIT (Liberia)</li>
+<li><a href="https://drive.google.com/file/d/1yQK8wjZK2mMtGVc3G6srNKHlf0SZTyv1/view?usp=sharing">Open Cities in Monrovia, Liberia</a></li>
+<li><a href="https://drive.google.com/file/d/143pmRsdrJoyzlEisY0vTCQqs8qAM03Dy/view">LEGIT in Liberia</a></li>
+<li><a href="http://ramanihuria.org/data/">Ramani Huria in Dar es Salaam, Tanzania</a> (Dar es Salaam, Tanzania)</li>
 </ul>
 
-<hr />
+<p><br></p>
 
-<h2 id="training-activity">Training Activity</h2>
+<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
 
-<p><strong>Presentation:</strong></p>
+<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
 
-<p><strong>Estimated time:</strong></p>
+<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<em>The following section is designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.</em></p>
+
+<p>The following guide provides instructions and screenshots from QGIS 3.4. Versions before or after may have different icons and steps.</p>
 
 <p><strong>Skills and technology needed:</strong></p>
 
@@ -365,7 +382,7 @@
 </ul></li>
 </ul>
 
-<p>This activity covers the process of generating and configuring a map and atlas in print composer. Example shapefiles are provided for this activity but can be followed with shapefiles provided by the user.</p>
+<p>This activity covers the process of generating and configuring a map and atlas in print layout. Example shapefiles are provided for this activity but can be followed with shapefiles provided by the user.</p>
 
 <h3 id="1-preparing-map-data">1. Preparing map data</h3>
 
@@ -552,12 +569,14 @@
 <li>Click ‘Ok’ to exit all option windows.</li>
 </ol>
 
+<p><img src="../../../images/advanced_qgis/atlast_inverse_poly0.gif" alt="" /></p>
+
 <p><em>Practice</em>:</p>
 
 <ul>
 <li>Complete all steps above.</li>
 <li>For step 2, this will be the “Dar_sub-wards_EPSG_4326” layer.</li>
-<li>For step 3, rename the file “Sub-wards_transparent”.</li>
+<li>For step 3, rename the file “inverse_sub-wards”.</li>
 </ul>
 
 <h3 id="8-adding-overview-maps">8. Adding overview maps</h3>
@@ -701,6 +720,14 @@
 
 
 
+<a class="next-page" href="../../../pages/data-use-and-analysis/7.3_web_and_interactive_maps/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">7.3 Web &amp; Interactive Maps</div>
+    </div>
+    <img src="../../../svg/forward-arrow.svg" alt="">
+</a>
+
 </div></main>
     <aside class="toc"><div class="toc__container">
     
@@ -713,7 +740,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#training-activity">Training Activity</a>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
 <ul>
 <li><a href="#1-preparing-map-data">1. Preparing map data</a></li>
 <li><a href="#2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</a></li>
@@ -736,10 +764,10 @@
     <hr class="toc-divider">
     
     
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-use-and-analysis/8.2-Creating-an-Atlas-in-QGIS.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/en/pages/data-use-and-analysis/7.2-Creating-an-Atlas-in-QGIS.md" class="sub-title sub-title-12 toc-item"> <img src="../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
     <a 
     
-    href="../../../pdfs/en/8.2-Creating-an-Atlas-in-QGIS.pdf"
+    href="../../../pdfs/en/7.2-Creating-an-Atlas-in-QGIS.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
 </div></aside>

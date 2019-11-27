@@ -657,6 +657,17 @@ Overview QGIS (or Quantum GIS) is a free and open source geographic information 
     </item>
     
     <item>
+      <title>7.2 Creating Maps and Atlases in QGIS</title>
+      <link>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
+      <description>This section covers the skills necessary to create maps and atlases in QGIS:
+ Preparing map data Creating a Map Layout Atlas navigation and creation Creating map and atlas templates  
+Overview Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
+    </item>
+    
+    <item>
       <title>7.3 Web &amp; Interactive Maps</title>
       <link>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -665,18 +676,6 @@ Overview QGIS (or Quantum GIS) is a free and open source geographic information 
       <description>This section provides:
  An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  
 Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
-    </item>
-    
-    <item>
-      <title>8.2 Creating Maps and Atlases in QGIS</title>
-      <link>/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/8.2-creating-an-atlas-in-qgis/</guid>
-      <description>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.
-HOT Project Examples:
- Ramani Huria (Dar es Salaam, Tanzania) LEGIT (Liberia)  Training Activity Presentation:
-Estimated time:</description>
     </item>
     
   </channel>
