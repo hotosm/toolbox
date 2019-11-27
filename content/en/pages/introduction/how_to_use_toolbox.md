@@ -22,6 +22,8 @@ If you do not want to go through each section, use the left-hand navigation, or 
 6. **Data Export Tools** covers the various tools used for exporting data from OpenStreetMap and which tools are best for different use cases. 
 7. **Data Use and Analysis** provides an introduction to how data can be turned into effective maps for decision making. 
 
+<br>
+
 ## Toolbox Guides and Resources
 
 Sections in this toolbox contain different types of guides, depending on their user and purpose. We've made it easy to determine the type of guide or resource with the following icons. 
