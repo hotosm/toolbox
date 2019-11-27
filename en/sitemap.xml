@@ -108,6 +108,11 @@
   </url>
   
   <url>
+    <loc>/pages/introduction/</loc>
+    <lastmod>2019-11-27T10:54:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/digitization-and-editing/</loc>
     <lastmod>2019-11-20T08:51:08-07:00</lastmod>
     <xhtml:link
@@ -532,7 +537,6 @@
   
   <url>
     <loc>/pages/</loc>
-    <lastmod>2019-11-27T10:44:31-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
