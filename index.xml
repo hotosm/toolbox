@@ -565,6 +565,17 @@ Overview Central to effective and successful field data collection is a well tho
     </item>
     
     <item>
+      <title>4.2 Using ODK Collect</title>
+      <link>/pages/field-mapping-management/4.2_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/field-mapping-management/4.2_using_odk_collect/</guid>
+      <description>This guide provides surveyors, mappers and field supervisors with the skills to:
+ Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  
+Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
+    </item>
+    
+    <item>
       <title>4.3 Using OpenMapKit</title>
       <link>/pages/field-mapping-management/4.3_using_openmapkit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -596,17 +607,6 @@ Overview OSMTracker is an android application that allows us to record our surve
  An overview data cleaning tools in JOSM Step-by-step instructions for importing field data into JOSM Step-by-step instructions for cleaning data into JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to clean and upload field data in JOSM.
 
 Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload.</description>
-    </item>
-    
-    <item>
-      <title>5.1 Using ODK Collect</title>
-      <link>/pages/field-mapping-management/5.1_using_odk_collect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/5.1_using_odk_collect/</guid>
-      <description>Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.
-This guide provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Initial Setup for ODK Collect 1.</description>
     </item>
     
     <item>

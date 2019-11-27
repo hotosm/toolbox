@@ -189,7 +189,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-27T11:45:11-05:00</lastmod>
+    <lastmod>2019-11-27T12:00:31-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -472,6 +472,11 @@
   </url>
   
   <url>
+    <loc>/pages/field-mapping-management/4.2_using_odk_collect/</loc>
+    <lastmod>2019-11-27T12:00:31-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/field-mapping-management/4.3_using_openmapkit/</loc>
     <lastmod>2019-11-25T14:59:11-05:00</lastmod>
   </url>
@@ -484,11 +489,6 @@
   <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</loc>
     <lastmod>2019-11-21T18:58:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/field-mapping-management/5.1_using_odk_collect/</loc>
-    <lastmod>2019-11-20T08:51:08-07:00</lastmod>
   </url>
   
   <url>
