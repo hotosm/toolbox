@@ -100,11 +100,31 @@
   <url>
     <loc>/pages/introduction/how_to_use_toolbox/</loc>
     <lastmod>2019-11-27T11:45:11-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/introduction/how_to_use_toolbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/introduction/how_to_use_toolbox/"
+                />
   </url>
   
   <url>
     <loc>/pages/introduction/</loc>
     <lastmod>2019-11-27T10:54:18-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/introduction/"
+                />
   </url>
   
   <url>
@@ -519,11 +539,31 @@
   <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</loc>
     <lastmod>2019-11-21T18:58:28+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
+                />
   </url>
   
   <url>
     <loc>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</loc>
     <lastmod>2019-11-21T19:21:04+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                />
   </url>
   
   <url>
