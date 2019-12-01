@@ -1,4 +1,4 @@
 ---
-title : Designing and Coordinating a Mapping Project
-weight : 1
+title : Conception et coordination d'un projet de cartographie
+weight : 2
 ---
