@@ -78,21 +78,6 @@
   </url>
   
   <url>
-    <loc>/fr/pages/running-a-mapping-project/</loc>
-    <lastmod>2019-11-25T09:56:54-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/running-a-mapping-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/"
-                />
-  </url>
-  
-  <url>
     <loc>/fr/pages/introduction/</loc>
     <lastmod>2019-12-01T12:10:47-05:00</lastmod>
     <xhtml:link
@@ -104,6 +89,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/introduction/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/running-a-mapping-project/</loc>
+    <lastmod>2019-12-01T12:45:52-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/running-a-mapping-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/running-a-mapping-project/"
                 />
   </url>
   
