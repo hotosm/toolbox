@@ -143,6 +143,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/data-use-and-analysis/</loc>
+    <lastmod>2019-12-01T10:15:01-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-use-and-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-use-and-analysis/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/</loc>
     <lastmod>2019-12-01T10:13:37-05:00</lastmod>
     <priority>0</priority>
