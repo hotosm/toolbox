@@ -196,6 +196,16 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
     </item>
     
     <item>
+      <title>4.3 Using OpenMapKit</title>
+      <link>/fr/pages/field-mapping-management/4.3_using_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/field-mapping-management/4.3_using_openmapkit/</guid>
+      <description>This guide provides surveyors, mappers and field supervisors with the skills to:
+ Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
+    </item>
+    
+    <item>
       <title>5.1 Correction et mise à jour de données avec JOSM</title>
       <link>/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

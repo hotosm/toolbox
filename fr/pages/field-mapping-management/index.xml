@@ -30,5 +30,15 @@
  Effectuer la configuration initiale pour ODK Collect Utiliser ODK Collect pour les enquêtes de collecte de données  Aperçu **Open Data Kit Collect (ODK Collect) **est une application de collecte de données sur Android. ODK Collect peut remplacer l&#39;enquête sur papier par une enquête sur support électronique. Par conséquent, cette application facilitera les activités de cartographie et de collecte de données sur le terrain, ce qui permettra également de collecter les informations de localisation et prendre des photo.</description>
     </item>
     
+    <item>
+      <title>4.3 Using OpenMapKit</title>
+      <link>/fr/pages/field-mapping-management/4.3_using_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/field-mapping-management/4.3_using_openmapkit/</guid>
+      <description>This guide provides surveyors, mappers and field supervisors with the skills to:
+ Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
+    </item>
+    
   </channel>
 </rss>
