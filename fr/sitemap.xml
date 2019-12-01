@@ -144,7 +144,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-11-26T10:09:11-05:00</lastmod>
+    <lastmod>2019-12-01T10:13:37-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -305,6 +305,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/</loc>
+    <lastmod>2019-12-01T10:13:37-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
                 />
   </url>
   
