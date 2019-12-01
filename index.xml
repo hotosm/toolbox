@@ -328,10 +328,10 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     
     <item>
       <title>2.6 Resolving conflicts in JOSM</title>
-      <link>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</link>
+      <link>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/3.6-data-conflict-in-josm/</guid>
+      <guid>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
       <description>This section provides:
  An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
  Overview When you are uploading your changes in JOSM, some contributors might also do editing in your area.</description>
