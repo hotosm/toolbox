@@ -341,6 +341,16 @@
   <url>
     <loc>/pages/digitization-and-editing/2.2_organized_osm_editing/</loc>
     <lastmod>2019-12-01T17:46:08-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                />
   </url>
   
   <url>

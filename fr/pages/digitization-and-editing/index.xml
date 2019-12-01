@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>2.2 Organisation de l’édition dans OSM</title>
+      <link>/fr/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
+      <description>Cette section fourni:
+ Considérations relatives à la gestion et la recherche des cartographes pour un projet d’édition organisé. Aperçu de l’organisation des directives d’édition et de conformité d’OSM. Guide pas-à-pas pour se conformer aux directives de l’organisation d’édition.  Aperçu Avant de commencer tout projet de cartographie, il est important d’évaluer et, dans le cas du possible, mettre à jour la carte de base OpenStreetMap par la cartographie à distance.</description>
+    </item>
+    
+    <item>
       <title>2.4 Edition avec iD et JOSM</title>
       <link>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
