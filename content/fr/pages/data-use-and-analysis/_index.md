@@ -1,4 +1,4 @@
 ---
 weight: 7
-title: Data Use and Analysis
+title: Utilisation et analyse de données
 ---
