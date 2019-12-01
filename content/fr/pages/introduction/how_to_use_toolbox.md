@@ -4,7 +4,7 @@ weight : 1
 ---
 La boîte à outils HOT est conçue pour guider un chef de projet ou une communauté tout au long du flux de travail de cartographie, de la planification à la cartographie initiale, à l'utilisation et à l'analyse des données. Tous les projets de cartographie ne sont pas identiques. Certains projets impliquent de nombreux composants de collecte de données sur le terrain, d'autres peuvent même ne pas mener d'activités de cartographie sur le terrain, mais exécuter des projets de numérisation basés sur le bureau.
 
-La** Boîte à outils**comprend sept sections (aperçu ci-dessous) qui peuvent être utilisées dans l'ordre présenté ou combinées pour répondre aux besoins de formation de votre projet.
+La **Boîte à outils** comprend sept sections (aperçu ci-dessous) qui peuvent être utilisées dans l'ordre présenté ou combinées pour répondre aux besoins de formation de votre projet.
 Si vous ne souhaitez pas parcourir chaque section, utilisez la navigation de gauche ou la barre de recherche pour rechercher un guide particulier.
 
 **Si vous ne savez pas par où commencer un projet** utilisez la section **Cartographie des flux de travail du projet** pour trouver un exemple de flux de travail qui correspond le mieux aux objectifs et aux ressources de votre projet. Chaque exemple vous guidera à travers les étapes exactes, tout en vous reliant aux sections pertinentes de la Boîte à outils et en soulignant les outils et processus utilisés.
@@ -15,7 +15,7 @@ Si vous ne souhaitez pas parcourir chaque section, utilisez la navigation de gau
 
 1. **Conception et coordination d'un projet de cartographie** fournit aux lecteurs une introduction aux composants que les gestionnaires de projet doivent prendre en compte avant de commencer leurs projets de cartographie.
 2. **Numérisation et édition dans OSM** fournit aux chefs de projet du matériel de formation et des guides sur la gestion du processus de numérisation et sur les outils de cartographie distants les mieux adaptés à un projet.
-3. **Configuration technique de la cartographie sur le terrain ** fournit aux chefs de projet les étapes techniques permettant de sélectionner l'application de collecte de données mobile la mieux adaptée à leur projet, de configurer ces applications (telles que ODK et OMK) pour une utilisation sur le terrain, et si les serveurs de collecte de données sont nécessaires ou non pour leur projet.
+3. **Configuration technique de la cartographie sur le terrain** fournit aux chefs de projet les étapes techniques permettant de sélectionner l'application de collecte de données mobile la mieux adaptée à leur projet, de configurer ces applications (telles que ODK et OMK) pour une utilisation sur le terrain, et si les serveurs de collecte de données sont nécessaires ou non pour leur projet.
 4. **Gestion de la cartographie sur le terrain** fournit des étapes et des guides pour que les cartographe de terrain et les superviseurs puissent utiliser les applications de collecte de données mobiles, ainsi que des conseils pour la gestion des équipes sur le terrain.
 
 5. **Chargement et assurance qualité du nettoyage des données** couvre le processus consistant à transférer les données cartographiée sur le terrain vers un serveur OpenStreetMap, tout en garantissant une qualité élevée des données.
