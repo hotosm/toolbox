@@ -1,4 +1,4 @@
 ---
-title : Introduction to the Toolbox
+title : Introduction à la boîte à outils HOT
 weight : 1
 ---
