@@ -29,14 +29,5 @@
       <description>Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload. There are a lot of OSM data editors available, but in this module the OSM data editor used is JOSM. JOSM has a lot of useful tools and plugins, making OSM mapping a lot easier but most importantly, it is the easiest tool and best tool for maintaining quality OSM data while importing batches of field data into OSM.</description>
     </item>
     
-    <item>
-      <title>5.4 Quality Assurance and Quality Control Tools</title>
-      <link>/fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</guid>
-      <description>Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
-    </item>
-    
   </channel>
 </rss>
