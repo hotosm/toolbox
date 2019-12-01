@@ -28,7 +28,7 @@
       <guid>/pages/data-export/6.1-hot-export-tool/</guid>
       <description>This section provides:
  An overview of the HOT Export Tool Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using Export Tool  Overview HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
-Training Materials for HOT Export Tool This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
+Resources and Training Materials This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@ Training Materials for HOT Export Tool This section features a selection of reso
       <guid>/pages/data-export/6.2-hdx/</guid>
       <description>This section provides:
  An overview of the Humanitarian Data Exchange (HDX) Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using HDX  Overview Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA&#39;s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
- Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Training Materials for HOT Export Tool This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
+ Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Resources and Training Materials This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
     </item>
     
   </channel>
