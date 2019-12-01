@@ -334,120 +334,76 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">8.1 Mapping Buildings and POI with OMK</h1>
-
-<p><em>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.</em></p>
-
+           <h1 class="page-title">8.1 Mapping Buildings and POI with OMK</h1><p><em>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.</em></p>
 <h2 id="project-overview">Project Overview</h2>
-
 <p><strong>Open Cities Africa - Accra</strong></p>
-
 <p>The Open Cities Africa Accra project sought to make Alogboshie and its environs resilient to natural disasters, especially flooding. The project involved the remote mapping of Alogboshie, Akweteyman and Alajo. These are areas of focus in a larger resilience project, Greater Accra Resilience and Integrated Development (GARID), and are all located along the Odaw River which is prone to floods. Alogboshie is a community that is plagued by perennial flooding affecting its residents and those in neighboring communities. The area is usually flooded in the months of June and July during the peak times of the rainy season. The effect of the flood on human life in the community is huge. Often after floods, some community residents are displaced.</p>
-
 <p>The Open Cities Accra team - led by Humanitarian OpenStreetMap Team (HOT), <a href="http://mobilewebghana.org/">Mobile Web Ghana</a> and <a href="http://osmghana.org/">OpenStreetMap Ghana (OSM Ghana)</a>.</p>
-
 <p><strong>Project page:</strong> <a href="https://www.hotosm.org/projects/open-cities-africa-accra-city-project-ghana/">OPEN CITIES AFRICA - ACCRA CITY PROJECT - GHANA</a></p>
-
 <p><strong>Dates:</strong> June 2018 - February 2019</p>
-
 <p><strong>Status:</strong> Complete</p>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h4 id="tools-used">Tools used:</h4>
-
 <ul>
 <li><strong>Field and Remote Data collection:</strong> OpenDataKit (ODK) Collect, OpenMapKit, JOSM, TileMill, Mapillary</li>
 <li><strong>Data Field Monitoring:</strong> OSMand and Maps.me</li>
 <li><strong>Data Cleaning:</strong> JOSM</li>
 <li><strong>Data Extraction and Visualization:</strong> HOT Export tool and QGIS</li>
 </ul>
-
-<p><img src="../../../images/Accra-open-cities-africa-Chris working with other mappers in the field to collect data using mobile survey apps.jpg" alt="" /></p>
-
-<hr />
-
+<p>![](/images/Accra-open-cities-africa-Chris working with other mappers in the field to collect data using mobile survey apps.jpg)</p>
+<hr>
 <h2 id="field-mapping-workflow">Field Mapping Workflow</h2>
-
 <h4 id="1-designing-the-project">1. Designing the project</h4>
-
 <p>At the beginning of the project, HOT, Mobile Web Ghana, and OSM Ghana met with local stakeholders and community members to assess mapping needs. With this information, we were able to develop a data model that would be useful to local stakeholders but feasible to capture with project constraints.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/">Designing the Data Model</a>
-<br /></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/">Designing the Data Model</a></li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h4 id="2-remote-mapping">2. Remote Mapping</h4>
-
 <p>Due to the density of the building in this project area of interest, and the lack of high resolution, up-to-date satellite imagery, UAVs/Drones were flown to capture high resolution imagery which was used in remote mapping. Following the drone imagery capture, imagery was loaded into JOSM to be used by remote mappers.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.3-working-with-the-hot-tasking-manager/">Remote digitization using HOT Tasking Manager</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.4-editing-with-id-and-josm/">Remote digitization using JOSM</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.5_validating_with_josm/">Validating with JOSM</a></li>
 </ul>
-
-<p><br></p>
-
-<h4 id="3-field-mapping-technical-set-up">3. Field Mapping Technical Set-up</h4>
-
+<!-- raw HTML omitted -->
+<h4 id="3-field-mapping-technical-setup">3. Field Mapping Technical Set-up</h4>
 <p>The main data collection tool for this project was OpenMapKit. This required technical set-up for OpenMapKit including: creation of ODK and OMK forms, creation of mbtiles, creation of .osm layers. Once these files were created, all files were loaded onto devices and an OpenMapKit server was set up by HOT.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
 <li><a href="https://github.com/hotosm/toolbox/wiki/4.4-Creating-forms-(ODK-OMK)">Creation of ODK &amp; OMK Forms</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/">ODK set-up</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/">OMK set-up</a>
-
 <ul>
 <li>Creation of mbtiles using TileMill. (While this Toolbox does not include the TileMill process, the same mbtiles can be created using the <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#b-create-an-mbtile-in-qgis">QGIS process</a>).</li>
 <li>Creation of .osm layers used JOSM</li>
-</ul></li>
+</ul>
+</li>
 <li>Set up devices for <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#download-and-set-up-the-odk-application">ODK</a> and <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/#download-and-set-up-the-omk-application">OMK</a></li>
 <li>Set up a POSM or online OMK Server for use in downloading forms and receiving field data</li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.4-data-collection-servers/">Use of OMK Server and POSM</a></li>
 </ul>
-
 <h4 id="4-field-mapping-management">4. Field Mapping Management</h4>
-
 <p>Field mappers grouped into teams with leaders. Each mapper used OMK (full survey) and OSMAnd (tracking field movement) on a daily basis. At the end of each day, all data was uploaded remotely to an online OpenMapKit Server, as well as manually to a POSM device for back-up.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
 <li><a href="https://hotosm.github.io/toolbox/pages/field-mapping-management/4.1_managing_teams_in_the_field/#creating-mapping-sections-in-qgis-for-printed-maps">Creation of mapping sections in QGIS</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/field-mapping-management/4.1_managing_teams_in_the_field/#creating-and-importing-mapping-sections-into-osmand">Creation of mapping sections for use in OSMAnd</a></li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h4 id="4-data-cleaning">4. Data Cleaning</h4>
-
 <p>Download data from the OpenMapKit server then manually divided into small sections that could be cleaned in a few hours by local data cleaners. Data was cleaned in JOSM, then uploaded into OSM.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/">Data Cleaning with JOSM</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.5_validating_with_josm/">Validating with JOSM</a></li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h4 id="5-data-visualization">5. Data Visualization</h4>
-
 <p>All mapped data was uploaded to OSM, and was later used to develop map products to be used by stakeholders. This data was downloaded into QGIS using QuickOSM, then large wall maps and atlases were developed to be provided back to stakeholders and community members.</p>
-
 <p>Steps used in this phase:</p>
-
 <ul>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins">Downloading data with QuickOSM</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/">Creating Maps and Atlases in QGIS</a></li>
@@ -542,30 +498,18 @@
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#project-overview">Project Overview</a>
-<ul>
-<li>
-<ul>
-<li><a href="#tools-used">Tools used:</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#field-mapping-workflow">Field Mapping Workflow</a>
-<ul>
-<li>
-<ul>
-<li><a href="#1-designing-the-project">1. Designing the project</a></li>
-<li><a href="#2-remote-mapping">2. Remote Mapping</a></li>
-<li><a href="#3-field-mapping-technical-set-up">3. Field Mapping Technical Set-up</a></li>
-<li><a href="#4-field-mapping-management">4. Field Mapping Management</a></li>
-<li><a href="#4-data-cleaning">4. Data Cleaning</a></li>
-<li><a href="#5-data-visualization">5. Data Visualization</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#project-overview">Project Overview</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#field-mapping-workflow">Field Mapping Workflow</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

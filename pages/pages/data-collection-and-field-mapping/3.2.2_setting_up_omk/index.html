@@ -323,32 +323,22 @@
  
    <div class="git-info"></div>
     <div class="article-body">
-           <h1 class="page-title">3.2.2 Setting up OpenMapKit</h1>
-
-<p>This section provides:</p>
-
+           <h1 class="page-title">3.2.2 Setting up OpenMapKit</h1><p>This section provides:</p>
 <ul>
-<li>A step-by-step guide in setting up OpenMapKit for use in the field, including,<br />
-
+<li>A step-by-step guide in setting up OpenMapKit for use in the field, including,
 <ul>
 <li>Creating .mbtiles</li>
 <li></li>
-</ul></li>
 </ul>
-
-<p><br></p>
-
+</li>
+</ul>
+<!-- raw HTML omitted -->
 <h2 id="overview">Overview</h2>
-
 <p><strong>OpenMapKit (OMK)</strong> is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey. It is what allows you to browse OSM features, and to create and edit OSM tags.</p>
-
-<p><img src="../../../../images/using-omk/0301_app_omk.png" alt="" /></p>
-
+<p><img src="../../../../images/using-omk/0301_app_omk.png" alt=""></p>
 <p><em>Not sure if OpenMapKit is right for your project? Review <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/">Data Collection Applications</a>.</em></p>
-
 <p><strong>Set-up Process</strong>
 To set-up OpenMapKit for devices, you will need to follow the following steps:</p>
-
 <ol>
 <li>[Create OMK forms]</li>
 <li>[Create .mbtiles]</li>
@@ -357,37 +347,27 @@ To set-up OpenMapKit for devices, you will need to follow the following steps:</
 <li>[Download and set up ODK and OMK applications]</li>
 <li>[Add all above files to mobile data collection devices]</li>
 </ol>
-
-<p><img src="../../../../images/learning_icon_wide.PNG" alt="" />
+<p><img src="../../../../images/learning_icon_wide.PNG" alt="">
 <em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in setting up the application.</em></p>
-
 <h2 id="creating-omk-forms">Creating OMK Forms</h2>
-
 <p>When using OMK survey applications, you will need to create the files that will serve as the survey forms.</p>
-
 <p>Forms for OMK are slightly altered from ODK forms to incorporate the OSM tagging scheme and need to be built using spreadsheet software (such as Excel or <a href="https://www.libreoffice.org/discover/calc/">LibreCalc</a>). In addition to the structure of an ODK form, OMK forms require an additional &lsquo;osm&rsquo; tab that alters the form structure for OMK. Documentation on how to design a form can be found <a href="http://openmapkit.org/docs_odkformsforomk.html">here</a>.</p>
-
 <ul>
 <li><a href="https://drive.google.com/file/d/1aVnTE_j1TwKba0EJL9mMZCh9-L3auOsq/view?usp=sharing">Example OMK form</a></li>
 <li><a href="https://drive.google.com/file/d/1wHSBU3z4UKslj7xcfU_a0c7GAyUukAff/view?usp=sharing">Blank OMK form</a></li>
 </ul>
-
-<p><strong>Form conversion</strong> <br>
-After forms are developed, they need to be converted from .xlsx/.xls to .xml to be used by the ODK application. This can be done by using <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> or <a href="https://docs.opendatakit.org/xlsform/">offline</a>. <br>
-<br>
+<p><strong>Form conversion</strong> <!-- raw HTML omitted -->
+After forms are developed, they need to be converted from .xlsx/.xls to .xml to be used by the ODK application. This can be done by using <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> or <a href="https://docs.opendatakit.org/xlsform/">offline</a>. <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 If using OpenMapKit server, you will not need to complete form conversion. The server will complete this process for you.</p>
-
 <h2 id="create-mbtiles">Create .mbtiles</h2>
-
 <p>MBTiles (.mbtiles) is the file format used for storing map tiles as a single file - the most common use case as baselayers for mobile mapping applications. There are multiple tools to create mbtiles, with selection based on baselayer type (aerial imagery), addition of vector layers, file size, zoom, etc. Many factors can influence the type of basemap that you need for your field data collection.</p>
-
 <ul>
 <li>If you are mapping buildings in areas that are rural and/or there are few landmarks in OSM, use an <strong>aerial imagery basemap mbtile</strong>.</li>
 <li>If you are working with mappers or surveyors with low map literacy, <strong>aerial imagery basemap mbtiles</strong> could reduce issues.</li>
 <li>If you are mapping points (such as POI) and/or working in well-mapped areas, simply using <strong>OSM basemap mbtiles</strong> would be feasible.</li>
 <li>If your mapping area is being divided into assignment areas or enumeration areas to divide among surveyors, consider adding <strong>vector layers</strong> to your mbtile for mappers work from.</li>
 </ul>
-
 <table>
 <thead>
 <tr>
@@ -397,7 +377,6 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 <th>Tile Huria</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Aerial Imagery Basemap</td>
@@ -405,14 +384,12 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 <td>✔</td>
 <td>✔</td>
 </tr>
-
 <tr>
 <td>OSM Basemap</td>
 <td>✔</td>
 <td>✔</td>
 <td>✔</td>
 </tr>
-
 <tr>
 <td>Vector Layers (i.e. enumeration areas)</td>
 <td>X</td>
@@ -421,7 +398,6 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
@@ -431,7 +407,6 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 <th>POSM</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Is physical or does not require internet connection for upload</td>
@@ -439,42 +414,36 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 <td>✔</td>
 <td>✔</td>
 </tr>
-
 <tr>
 <td>Is cloud-based (data upload via internet)</td>
 <td>✔</td>
 <td>✔</td>
 <td>✔</td>
 </tr>
-
 <tr>
 <td>Accepts ODK data</td>
 <td>✔</td>
 <td>✔</td>
 <td>✔</td>
 </tr>
-
 <tr>
 <td>Accepts KOBO Collect data</td>
 <td>✔</td>
 <td>✔</td>
 <td>×</td>
 </tr>
-
 <tr>
 <td>Accepts OMK data</td>
 <td>×</td>
 <td>×</td>
 <td>×</td>
 </tr>
-
 <tr>
 <td>Can provide data visualizations</td>
 <td>×</td>
 <td>×</td>
 <td>×</td>
 </tr>
-
 <tr>
 <td>Provides a map visualization of GPS data collected</td>
 <td>×</td>
@@ -483,203 +452,126 @@ If using OpenMapKit server, you will not need to complete form conversion. The s
 </tr>
 </tbody>
 </table>
-
 <p><strong>Resources</strong></p>
-
 <ul>
 <li>OSM Wiki: <a href="https://wiki.openstreetmap.org/wiki/MBTiles">https://wiki.openstreetmap.org/wiki/MBTiles</a></li>
 <li>Mapbox: <a href="https://docs.mapbox.com/help/glossary/mbtiles/">https://docs.mapbox.com/help/glossary/mbtiles/</a></li>
 </ul>
-
 <h4 id="a-create-an-mbtile-with-hot-export-tool">a) Create an MBTile with HOT Export Tool</h4>
-
 <p><a href="https://export.hotosm.org/en/v3/">HOT Export Tool</a> allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the <a href="https://export.hotosm.org/en/v3/learn">HOT Export Tool Learn page</a>.</p>
-
 <p><strong>Skill level:</strong> Easy</p>
-
 <p><strong>Tools and Technology Needed:</strong></p>
-
 <ul>
 <li>Computer</li>
 <li>Internet Connection</li>
 <li>OSM Account</li>
 </ul>
-
-<p>To get started, open an internet browser and go to: <a href="https://export.hotosm.org/en/v3/">https://export.hotosm.org/</a> To use the HOT Export Tool, you will need to log in using your OSM username and password, by clicking the red “Log In” button in the top right-hand corner.</p>
-
-<p><img src="../../../../images/data-export/HOTExport1.gif" alt="" /></p>
-
+<p>To get started, open an internet browser and go to: <a href="https://export.hotosm.org/en/v3/"><a href="https://export.hotosm.org/">https://export.hotosm.org/</a></a> To use the HOT Export Tool, you will need to log in using your OSM username and password, by clicking the red “Log In” button in the top right-hand corner.</p>
+<p><img src="../../../../images/data-export/HOTExport1.gif" alt=""></p>
 <p>Select &lsquo;Create&rsquo; in the top menu.</p>
-
-<p><img src="../../../../images/data-export/HOTExport2.gif" alt="" /></p>
-
+<p><img src="../../../../images/data-export/HOTExport2.gif" alt=""></p>
 <p>Select an AOI on the map by searching a place, uploading a .geojson, or drawing an area in the map to the right.
-<br><br>
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
 To draw an area of interest, zoom in and find a location of your choice (i.e. Zwedru, Accra). Once you have zoomed in to your area of interest, select the box tool from the Tools Menu on the right. Click one corner to start drawing a box, then select the opposite corner to complete the box. This is your AREA OF INTEREST that will be downloaded.</p>
-
-<p><img src="../../../../images/data-export/HOTExport4.gif" alt="" /></p>
-
+<p><img src="../../../../images/data-export/HOTExport4.gif" alt=""></p>
 <p>On the left hand side of the window, fill out the “1 Describe” options:</p>
-
 <ul>
 <li>Name: “[YOUR OSM USERNAME] Test Export”
-
 <ul>
 <li>For example, “jessbeutler Test Export”</li>
-</ul></li>
-<li>Description (optional)
-
-<ul>
+</ul>
+</li>
+<li>Description (optional)</li>
 <li>Project (optional)
-
 <ul>
 <li>For example, “Government Inclusion Project”</li>
-</ul></li>
-</ul></li>
 </ul>
-
-<p><img src="../../../../images/data-export/HOTExport6.gif" alt="" /></p>
-
+</li>
+</ul>
+<p><img src="../../../../images/data-export/HOTExport6.gif" alt=""></p>
 <p>Select preferred file type in the ‘Formats’ tab. Select .mbtiles.</p>
-
-<p><img src="../../../../images/data-export/HOT_export_mbtile.gif" alt="" /></p>
-
+<p><img src="../../../../images/data-export/HOT_export_mbtile.gif" alt=""></p>
 <p>In the ‘Data’ tab, select the &lsquo;OpenStreetMap&rsquo; as the source. Then select the zoom range. The higher the zoom range, the more you will be able to zoom in on the basemap. Note, higher zoom ranges increase the size of files.</p>
-
-<p><img src="../../../../images/data-export/HOT_export_mbtile2.gif" alt="" /></p>
-
+<p><img src="../../../../images/data-export/HOT_export_mbtile2.gif" alt=""></p>
 <p>In the &lsquo;Summary&rsquo; tab, select ‘Create Export’. While processing, a “Running” status will show. Processing time depends on export size. Once completed, the file will be available for download &amp; sent to your email.</p>
-
-<p><img src="../../../../images/data-export/HOT_export_mbtile3.gif" alt="" /></p>
-
+<p><img src="../../../../images/data-export/HOT_export_mbtile3.gif" alt=""></p>
 <p><em>This process will take several minutes to process.</em></p>
-
 <p>When the export process is completed, the ‘Status’ bar will be updated to ‘COMPLETED’. Download the file by clicking on the file link, as highlighted below.</p>
-
 <h4 id="b-create-an-mbtile-in-qgis">b) Create an MBTile in QGIS</h4>
-
 <p><strong>Skills and technology needed</strong></p>
-
 <ul>
 <li>Computer</li>
 <li>Internet access (for web service basemaps only)</li>
 <li>QGIS (and Basic skills in QGIS)</li>
 <li>Optional:
-
 <ul>
 <li>Vector layers</li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/8.1-qgis/#installing-plug-ins">QuickMapServices plug-in</a></li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p><em>Recommendation: When running this process for the first time, we recommend creating an MBTile for a small area (&lt;1 sq km) to test processing times.</em></p>
-
 <p>To create an MBTile in QGIS using this process, you will need to have version 3.8 or higher installed. The following instructions were developed using QGIS version 3.10.</p>
-
 <p>Open a QGIS project. Add (and style) all layers required for your MBTile basemap. These layers can include:</p>
-
 <ul>
 <li>Vector layers for enumeration areas, or other guidance.</li>
 <li>Raster layers, such as aerial imagery or an OSM basemap. Web service basemaps can be accessed via the <a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/8.1-qgis/#installing-plug-ins">QuickMapServices plugin</a>.</li>
 </ul>
-
 <p>Once all layers are selected and styled, navigate to the ‘Processes’ menu and open ‘Toolbox’.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_1.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_1.gif" alt=""></p>
 <p>In the ‘Toolbox’ panel on the right-hand side, open the ‘Raster Tools’ sub-menu. Select ‘Generate XYZ tiles (MBTiles)’.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_2.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_2.gif" alt=""></p>
 <p>In this pop-up window, you will need to set the specifications for your MBTile. Click on the ‘&hellip;’ button under ‘Extent’ to select the extent of the MBTile. You can either select the extent of the map canvas or draw a bounding box.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_3.gif" alt="" /></p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_4.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_3.gif" alt=""></p>
+<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_4.gif" alt=""></p>
 <p>Next, you will need to select the minimum and maximum zoom. This selection will depend on the needs of your MBTile and may require trial and error to assess the best combination. For use with OpenMapKit, we recommend a minimum zoom of 18. Note: the larger the range and the higher the zoom levels, the longer it will take for the MBTile to process (and will create a larger file.)</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_5.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/mbtile_qgis_5.gif" alt=""></p>
 <p>The remaining specifications can be adjusted as needed. Hover over each of these options to see default, minimum, and maximum options.</p>
-
 <p>Once all settings are selected, click ‘Run’ to process the MBTile.</p>
-
 <p><em>Note: this process may take several minutes depending on the zoom range and size of the MBTile as well as the processing power of your computer.</em></p>
-
 <h4 id="c-create-an-mbtile-in-tile-huria">c) Create an MBTile in Tile Huria</h4>
-
 <p><a href="https://www.tilehuria.org/index">Tile Huria</a> is a simple tool for creating mbtiles based on an area provided via Geojson format with aerial imagery.</p>
-
 <p><strong>Skill level:</strong> Easy</p>
-
 <p><strong>Tools and Technology Needed:</strong></p>
-
 <ul>
 <li>Computer</li>
 <li>Internet Connection</li>
 <li>.geojson file for area of interest</li>
 </ul>
-
 <h2 id="create-an-osm-layer">Create an .osm layer</h2>
-
 <p>To conduct data collection using <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/#2-openmapkit-omk">OpenMapKit (OMK)</a>, you will need to create an .osm layer. This .osm layer provides the buildings for selection in the OMK application.</p>
-
 <p><strong>Skills and Technology Needed</strong></p>
-
 <ul>
 <li>Computer</li>
 <li>Internet Connection</li>
 <li>JOSM Installed</li>
 <li>Basic JOSM skills</li>
 </ul>
-
 <p>In JOSM, click the top-menu File &gt; New Layer to start. Then click the top-menu File &gt; Download Data.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_opendownloaddata.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_opendownloaddata.gif" alt=""></p>
 <p>In the &lsquo;Download&rsquo; window, click the tab &lsquo;Download from Overpass API&rsquo;. This will allow you to download data with specific key=value tags in an area of interest. The top of this tab provides space for a query to be entered. Click &lsquo;Query Wizard.&rsquo;</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_selectquerywizard.gif" alt="" /></p>
-
-<p>For an OMK .osm layer, we want a layer with only building polygons. In the search bar, type &ldquo;building=*&ldquo;. This will return an OSM feature with a building tag. Click &lsquo;Build query&rsquo;.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_buildquery.gif" alt="" /></p>
-
-<p>In the slippy map below the Overpass query, navigate to your area of interest in OSM. Drag the map by holding down the right-click button and dragging your mouse. To zoom, use the &lsquo;+&rsquo;/&lsquo;-&rsquo; keys on your keyboard. Once navigated to your AOI, hold down the left-button of your mouse or navigation pad and drag your mouse to create a pink box. This pink box is your <em>bounding box</em>, all buildings within this area will be downloaded. When complete, click &lsquo;Download&rsquo;.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_aoi_download.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_selectquerywizard.gif" alt=""></p>
+<p>For an OMK .osm layer, we want a layer with only building polygons. In the search bar, type &ldquo;building=*&quot;. This will return an OSM feature with a building tag. Click &lsquo;Build query&rsquo;.</p>
+<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_buildquery.gif" alt=""></p>
+<p>In the slippy map below the Overpass query, navigate to your area of interest in OSM. Drag the map by holding down the right-click button and dragging your mouse. To zoom, use the &lsquo;+&rsquo;/'-&rsquo; keys on your keyboard. Once navigated to your AOI, hold down the left-button of your mouse or navigation pad and drag your mouse to create a pink box. This pink box is your <em>bounding box</em>, all buildings within this area will be downloaded. When complete, click &lsquo;Download&rsquo;.</p>
+<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_aoi_download.gif" alt=""></p>
 <p>Right click on the layer file in the &lsquo;Layers&rsquo; window. Click &lsquo;Save as&rsquo;. The default file type is OSM Server Files (*.osm), this is the correct file type.</p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_saveas.gif" alt="" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/osmlayer_saveas.gif" alt=""></p>
 <p>Once saved, this file can be uploaded to devices for data collection with OMK.</p>
-
-<h2 id="optional-set-up-a-constraint-file">Optional: Set-up a constraint file</h2>
-
+<h2 id="optional-setup-a-constraint-file">Optional: Set-up a constraint file</h2>
 <p>Constraint files manage the logic of a form - when to skip questions, etc. OpenMapKit comes with a pre-built constrain file. For information on how to modify a constraint file, see</p>
-
 <h2 id="download-and-set-up-the-omk-application">Download and set up the OMK application</h2>
-
-<p><em>Note: You will need ODK to run OMK. We advise installing ODK first to allow for proper set-up and testing.</em> <br></p>
-
-<p><strong>Download application</strong> <br></p>
-
+<p><em>Note: You will need ODK to run OMK. We advise installing ODK first to allow for proper set-up and testing.</em> <!-- raw HTML omitted --></p>
+<p><strong>Download application</strong> <!-- raw HTML omitted --></p>
 <p>The OMK application can be found on Google Play: <a href="https://play.google.com/store/apps/details?id=org.redcross.openmapkit&amp;hl=en_US">https://play.google.com/store/apps/details?id=org.redcross.openmapkit&amp;hl=en_US</a></p>
-
 <p>If installing on multiple devices with low internet resources, it is recommended to download and share the apk offline. The APK file for OpenMapKit can be downloaded <a href="https://github.com/posm/OpenMapKitAndroid/releases">here</a>.</p>
-
-<p><strong>Setting up application on devices</strong> <br></p>
-
+<p><strong>Setting up application on devices</strong> <!-- raw HTML omitted --></p>
 <ol>
 <li>After downloading the OMK app, a openmapkit folder will be automatically created in on the internal memory of the device. Connect your device to a laptop to confirm that this folder is created. If you don’t see this folder on your device’s internal storage, Restart the device.</li>
 <li>Once the device has been restarted, connect it to your laptop, and navigate to internal storage -&gt; openmapkit folder. You will find for sub-folders inside the openmapkit folder. I.e ‘constraints’, ‘deployments’, ‘mbtiles’ and ‘osm’ folders.</li>
 </ol>
-
-<p><img src="../../../../images/field-mapping-technical-setup/omk_set-up.jpeg" alt="" /></p>
-
-<ol>
+<p><img src="../../../../images/field-mapping-technical-setup/omk_set-up.jpeg" alt=""></p>
+<ol start="3">
 <li>If you have a customized constraints file, in the constraints folder, delete the Buildings.json and default.json files. Add your custom the default.json file to the constraints folder.</li>
 <li>Add your .mbtiles file to the mbtiles folder.</li>
 <li>Add your .osm file to the osm folder.</li>
@@ -715,25 +607,18 @@ To draw an area of interest, zoom in and find a location of your choice (i.e. Zw
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#creating-omk-forms">Creating OMK Forms</a></li>
-<li><a href="#create-mbtiles">Create .mbtiles</a>
-<ul>
-<li>
-<ul>
-<li><a href="#a-create-an-mbtile-with-hot-export-tool">a) Create an MBTile with HOT Export Tool</a></li>
-<li><a href="#b-create-an-mbtile-in-qgis">b) Create an MBTile in QGIS</a></li>
-<li><a href="#c-create-an-mbtile-in-tile-huria">c) Create an MBTile in Tile Huria</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#create-an-osm-layer">Create an .osm layer</a></li>
-<li><a href="#optional-set-up-a-constraint-file">Optional: Set-up a constraint file</a></li>
-<li><a href="#download-and-set-up-the-omk-application">Download and set up the OMK application</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#creating-omk-forms">Creating OMK Forms</a></li>
+    <li><a href="#create-mbtiles">Create .mbtiles</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#create-an-osm-layer">Create an .osm layer</a></li>
+    <li><a href="#optional-setup-a-constraint-file">Optional: Set-up a constraint file</a></li>
+    <li><a href="#download-and-set-up-the-omk-application">Download and set up the OMK application</a></li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

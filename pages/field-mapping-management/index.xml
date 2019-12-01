@@ -17,7 +17,7 @@
       
       <guid>/pages/field-mapping-management/4.0-field-mapping-management/</guid>
       <description>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
- Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field  Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
+ Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       
       <guid>/pages/field-mapping-management/4.1_managing_teams_in_the_field/</guid>
       <description>This section provides:
- An overview of tools and methods for managing teams in the field. Step-by-step guides for using OSMAnd and QGIS to manage team movement and completion of assignment areas.  
-Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
+ An overview of tools and methods for managing teams in the field. Step-by-step guides for using OSMAnd and QGIS to manage team movement and completion of assignment areas.  Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ Overview Central to effective and successful field data collection is a well tho
       
       <guid>/pages/field-mapping-management/4.2_using_odk_collect/</guid>
       <description>This guide provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  
-Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
+ Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
     </item>
     
     <item>
@@ -49,8 +47,7 @@ Overview Open Data Kit Collect (ODK Collect) is a data collection application on
       
       <guid>/pages/field-mapping-management/4.3_using_openmapkit/</guid>
       <description>This guide provides surveyors, mappers and field supervisors with the skills to:
- Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  
-Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
+ Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
     </item>
     
     <item>
@@ -60,8 +57,7 @@ Overview OpenMapKit (OMK) is an additional application that is used to support O
       
       <guid>/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
       <description>This section provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for OSM Tracker Use OSM Tracker for recording tracks, images, and notes  
-Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
+ Complete the initial setup for OSM Tracker Use OSM Tracker for recording tracks, images, and notes  Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
     </item>
     
   </channel>

@@ -161,6 +161,23 @@
         accordion accordion--closed
         
         ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
             Data Cleaning, Upload, and Quality Assurance
         </div>
         <div class="panel
@@ -227,175 +244,150 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">3.1 Conception du modèle de données</h1>
-
-<p>Cette section fournit:</p>
-
+           <h1 class="page-title">3.1 Conception du modèle de données</h1><p>Cette section fournit:</p>
 <ul>
 <li>Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation</li>
 <li>Instructions pas à pas pour les outils permettant de construire votre modèle de données</li>
 <li>Instructions pas à pas pour créer votre modèle de données
-<br></li>
+<!-- raw HTML omitted --></li>
 </ul>
-
 <h2 id="overview">Overview</h2>
-
-<p>Lors du démarrage d&rsquo;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités. Un <strong>modèle de données</strong> définit quelles entités sont étudiées ou cartographiées et quels attributs sont collectés pour chaque entité. Si un projet télécharge des données vers OpenStreetMap, le modèle de données doit être conçu pour correspondre au marquage de OSM.</p>
-
+<p>Lors du démarrage d'un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités. Un <strong>modèle de données</strong> définit quelles entités sont étudiées ou cartographiées et quels attributs sont collectés pour chaque entité. Si un projet télécharge des données vers OpenStreetMap, le modèle de données doit être conçu pour correspondre au marquage de OSM.</p>
 <p>Example de modèles de données</p>
-
 <ul>
 <li><a href="https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data">Uganda Refugee Crisis</a></li>
 <li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
 </ul>
-
-<p>OSM ne fonctionne pas avec des couches ou des tables d&rsquo;attributs, mais avec des balises. ** tags ** sont utilisées dans OSM pour catégoriser les entités et ajouter des informations utiles à la compréhension de la carte, de la planification, du routage et des requêtes. Chaque balise consiste en une clé et une valeur. Chaque entité cartographique doit avoir une ou plusieurs balises, telles que:</p>
-
+<p>OSM ne fonctionne pas avec des couches ou des tables d'attributs, mais avec des balises. ** tags ** sont utilisées dans OSM pour catégoriser les entités et ajouter des informations utiles à la compréhension de la carte, de la planification, du routage et des requêtes. Chaque balise consiste en une clé et une valeur. Chaque entité cartographique doit avoir une ou plusieurs balises, telles que:</p>
 <ul>
 <li>building=residential</li>
 <li>highway=primary</li>
 <li>amenity=school</li>
 </ul>
-
-<p>De plus, chacune de ces fonctionnalités peut avoir un nombre illimité d&rsquo;attributs associés ajoutés à OSM en tant que balises. Par exemple, un bâtiment peut avoir les balises suivantes:</p>
-
+<p>De plus, chacune de ces fonctionnalités peut avoir un nombre illimité d'attributs associés ajoutés à OSM en tant que balises. Par exemple, un bâtiment peut avoir les balises suivantes:</p>
 <ul>
 <li>building=commercial</li>
 <li>building:material=brick</li>
 <li>roof:material=metal</li>
 <li>shop=tailor</li>
 </ul>
-
-<p>La création d&rsquo;un modèle de données doit être réalisée en collaboration avec toutes les parties prenantes afin de garantir la collecte de toutes les informations nécessaires - Il est beaucoup plus difficile de revoir un emplacement pour la cartographie afin de recueillir des informations supplémentaires. Dans le même temps, lors de la conception d&rsquo;un modèle de données, vous devez prendre en compte le temps nécessaire à un enquêteur pour terminer la collecte de données. Chaque type de caractéristique, attribut ou question ajoute un temps supplémentaire.</p>
-
+<p>La création d'un modèle de données doit être réalisée en collaboration avec toutes les parties prenantes afin de garantir la collecte de toutes les informations nécessaires - Il est beaucoup plus difficile de revoir un emplacement pour la cartographie afin de recueillir des informations supplémentaires. Dans le même temps, lors de la conception d'un modèle de données, vous devez prendre en compte le temps nécessaire à un enquêteur pour terminer la collecte de données. Chaque type de caractéristique, attribut ou question ajoute un temps supplémentaire.</p>
 <h2 id="ressources-et-supports-de-formation">Ressources et supports de formation</h2>
-
 <p>Cette section présente une sélection de ressources destinées aux gestionnaires de projet, aux formateurs ou même aux auto-apprenants sur les sujets décrits ci-dessus.</p>
-
-<p><img src="../../../../images/training_presentations_wide.PNG" alt="" />
+<p><img src="../../../../images/training_presentations_wide.PNG" alt="">
 <em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier.</em></p>
-
 <ul>
-<li><a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">Modèles de données et marquage</a>
-<br /></li>
+<li><a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">Modèles de données et marquage</a></li>
 </ul>
-
-<p><img src="../../../../images/learning_icon_wide.PNG" alt="" />
+<p><img src="../../../../images/learning_icon_wide.PNG" alt="">
 <em>La section suivante est conçue pour servir de matériel auto-rythmé pouvant être utilisé à la fois pendant les formations et par des apprenants auto-guidés.</em></p>
-
 <ul>
 <li>Outils pour créer votre modèle de données</li>
-<li>Créer votre modèle de données
-<br /></li>
+<li>Créer votre modèle de données</li>
 </ul>
-
-<h3 id="outils-pour-créer-votre-modèle-de-données">Outils pour créer votre modèle de données</h3>
-
-<p>HOT recommande d&rsquo;utiliser TagInfo et le Wiki OSM pour rechercher des fonctionnalités OSM existantes lors du développement de votre modèle de données. Les étapes suivantes fourniront une introduction à l&rsquo;utilisation de ces outils.</p>
-
+<h3 id="outils-pour-crer-votre-modle-de-donnes">Outils pour créer votre modèle de données</h3>
+<p>HOT recommande d'utiliser TagInfo et le Wiki OSM pour rechercher des fonctionnalités OSM existantes lors du développement de votre modèle de données. Les étapes suivantes fourniront une introduction à l'utilisation de ces outils.</p>
 <p><strong>Compétences et technologie nécessaires</strong></p>
-
 <ul>
 <li>Ordinateur avec</li>
 <li>Connexion Internet</li>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1.1-opening_osm_accounts/">Compte OpenStreetMap </a></li>
-<li>Recommandé: le souris d&rsquo;ordinateur</li>
+<li>Recommandé: le souris d'ordinateur</li>
 </ul>
-
 <p><strong>Comment utiliser le Wiki OSM</strong></p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/osm_wiki_map_features.gif" alt="osm_wiki_map_features" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/osm_wiki_map_features.gif" alt="osm_wiki_map_features"></p>
 <ol>
-<li><p>Accédez à <a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a> dans un navigateur Internet Google Chrome ou Mozilla Firefox.</p></li>
-
-<li><p>Cette page fournit une documentation sur les fonctionnalités OSM existantes communes classées par type. Ces tableaux contiennent des clés et des valeurs, ainsi que des commentaires et parfois des images pour aider à définir les balises. Faites défiler les tables pour explorer les balises décrites.</p></li>
-
-<li><p>Recherchez une balise en particulier en utilisant les touches &ldquo;Ctrl + F&rdquo; de votre clavier. A titre d&rsquo;exemple, recherchez les balises qui devrait être utilisée pour les hôpitaux. Pour ce faire, appuyez sur «Ctrl + F» sur votre clavier, tapez «hospital» dans la barre de recherche, puis appuyez sur Entrée. Cela vous mènera à une marquage appropriée pour les hôpitaux.</p></li>
-
-<li><p>Remarque: il peut y avoir plus d&rsquo;une étiquette appropriée pour un élément de recherche. Faites défiler les résultats jusqu&rsquo;à ce que vous trouviez la balise appropriée. *</p></li>
-
-<li><p>Les clés et les valeurs dans les tableaux seront également liées à des pages wiki individuelles pour ces fonctionnalités. Par exemple, en cliquant sur &ldquo;hôpital&rdquo; sous &ldquo;aménagements&rdquo;, vous serez redirigé vers
-<a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital</a>. Cette page fournit des détails détaillés sur les balises, ainsi que des balises connexes et des conseils sur la manière de mapper une fonctionnalité particulière.</p></li>
-
-<li><p>Pour vous exercer, recherchez d&rsquo;autres mots clés relatifs aux fonctionnalités que vous souhaitez cartographier pour découvrir les clés et les valeurs associées à ces fonctionnalités.</p></li>
+<li>
+<p>Accédez à <a href="https://wiki.openstreetmap.org/wiki/Map_Features"><a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a></a> dans un navigateur Internet Google Chrome ou Mozilla Firefox.</p>
+</li>
+<li>
+<p>Cette page fournit une documentation sur les fonctionnalités OSM existantes communes classées par type. Ces tableaux contiennent des clés et des valeurs, ainsi que des commentaires et parfois des images pour aider à définir les balises. Faites défiler les tables pour explorer les balises décrites.</p>
+</li>
+<li>
+<p>Recherchez une balise en particulier en utilisant les touches &ldquo;Ctrl + F&rdquo; de votre clavier. A titre d'exemple, recherchez les balises qui devrait être utilisée pour les hôpitaux. Pour ce faire, appuyez sur «Ctrl + F» sur votre clavier, tapez «hospital» dans la barre de recherche, puis appuyez sur Entrée. Cela vous mènera à une marquage appropriée pour les hôpitaux.</p>
+</li>
 </ol>
-
+<ul>
+<li>Remarque: il peut y avoir plus d'une étiquette appropriée pour un élément de recherche. Faites défiler les résultats jusqu'à ce que vous trouviez la balise appropriée. *</li>
+</ul>
+<ol start="4">
+<li>
+<p>Les clés et les valeurs dans les tableaux seront également liées à des pages wiki individuelles pour ces fonctionnalités. Par exemple, en cliquant sur &ldquo;hôpital&rdquo; sous &ldquo;aménagements&rdquo;, vous serez redirigé vers
+<a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital"><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital</a></a>. Cette page fournit des détails détaillés sur les balises, ainsi que des balises connexes et des conseils sur la manière de mapper une fonctionnalité particulière.</p>
+</li>
+<li>
+<p>Pour vous exercer, recherchez d'autres mots clés relatifs aux fonctionnalités que vous souhaitez cartographier pour découvrir les clés et les valeurs associées à ces fonctionnalités.</p>
+</li>
+</ol>
 <p><strong>Comment utiliser balise info (TagInfo)</strong></p>
-
-<p><img src="../../../../images/field-mapping-technical-setup/taginfo.gif" alt="taginfo" /></p>
-
+<p><img src="../../../../images/field-mapping-technical-setup/taginfo.gif" alt="taginfo"></p>
 <ol>
-<li>Accéder à <a href="https://taginfo.openstreetmap.org">https://taginfo.openstreetmap.org</a> dans un navigateur Google Chrome ou Mozilla Firefox.</li>
+<li>Accéder à <a href="https://taginfo.openstreetmap.org"><a href="https://taginfo.openstreetmap.org">https://taginfo.openstreetmap.org</a></a> dans un navigateur Google Chrome ou Mozilla Firefox.</li>
 <li>Dans le coin supérieur gauche, utilisez la barre de recherche pour trouver une balise. Pour cette activité, recherchez &ldquo;toit&rdquo;(roof).</li>
 <li>La fenêtre suivante vous permettra de sélectionner des clés, des valeurs et des relations existantes contenant &ldquo;toit&rdquo;(roof).</li>
-<li>En sélectionnant l&rsquo;une de ces options, vous accédez à une page d&rsquo;informations sur cette clé, valeur ou relation. Pour cette activité, recherchez et cliquez sur &ldquo;toit: matériel&rdquo; (roof:material).</li>
-<li>Vous verrez à présent une page d’information sur la balise &ldquo;toit: matériel&rdquo;(roof: material) avec les valeurs qui ont été utilisées avec la clé &ldquo;toit: matériel&rdquo; (roof: material), des combinaisons d’autres balises utilisés avec la clé, une carte des clés globales de la clé utilise distribution s&rsquo;il y a suffisamment de cas d&rsquo;utilisation et des liens vers des pages existantes associées du wiki OSM.</li>
-<li>Pour vous exercer, recherchez d&rsquo;autres mots clés relatifs aux fonctionnalités que vous souhaitez cartographier pour découvrir les clés et les valeurs associées à ces fonctionnalités.</li>
+<li>En sélectionnant l'une de ces options, vous accédez à une page d'informations sur cette clé, valeur ou relation. Pour cette activité, recherchez et cliquez sur &ldquo;toit: matériel&rdquo; (roof:material).</li>
+<li>Vous verrez à présent une page d’information sur la balise &ldquo;toit: matériel&rdquo;(roof: material) avec les valeurs qui ont été utilisées avec la clé &ldquo;toit: matériel&rdquo; (roof: material), des combinaisons d’autres balises utilisés avec la clé, une carte des clés globales de la clé utilise distribution s'il y a suffisamment de cas d'utilisation et des liens vers des pages existantes associées du wiki OSM.</li>
+<li>Pour vous exercer, recherchez d'autres mots clés relatifs aux fonctionnalités que vous souhaitez cartographier pour découvrir les clés et les valeurs associées à ces fonctionnalités.</li>
 </ol>
-
-<h3 id="création-de-votre-modèle-de-données">Création de votre modèle de données</h3>
-
-<p>L&rsquo;activité suivante vous guidera tout au long du processus de création d&rsquo;un modèle de données. Bien que ce processus puisse être effectué manuellement ou dans un logiciel de documentation (tel que Google Docs ou Microsoft Word), le tableur est la méthode recommandée pour documenter votre modèle de données.</p>
-
-<p><strong>Compétences et technologie nécessaires</strong>
-* Ordinateur avec<br />
-* Connexion internet (recommandé pour accéder à baliseInfo (TagInfo) et OSM Wiki
-* <a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1.1-opening_osm_accounts/">Compte OpenStreetMap </a>
-* Recommandé: le souris externe pour ordinateur
-* Logiciel de calcul, tel que LibreCalc, Google Sheets ou Excel (recommandé pour structurer votre modèle de données)</p>
-
+<h3 id="cration-de-votre-modle-de-donnes">Création de votre modèle de données</h3>
+<p>L'activité suivante vous guidera tout au long du processus de création d'un modèle de données. Bien que ce processus puisse être effectué manuellement ou dans un logiciel de documentation (tel que Google Docs ou Microsoft Word), le tableur est la méthode recommandée pour documenter votre modèle de données.</p>
+<p><strong>Compétences et technologie nécessaires</strong></p>
+<ul>
+<li>Ordinateur avec</li>
+<li>Connexion internet (recommandé pour accéder à baliseInfo (TagInfo) et OSM Wiki</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1.1-opening_osm_accounts/">Compte OpenStreetMap </a></li>
+<li>Recommandé: le souris externe pour ordinateur</li>
+<li>Logiciel de calcul, tel que LibreCalc, Google Sheets ou Excel (recommandé pour structurer votre modèle de données)</li>
+</ul>
 <p><strong>Flux de travail du modèle de données</strong></p>
-
-<p>La conception d&rsquo;un ** modèle de données ** basé sur ** le marquage OSM ** est généralement définie par les questions et le flux de travail suivants:</p>
-
+<p>La conception d'un ** modèle de données ** basé sur ** le marquage OSM ** est généralement définie par les questions et le flux de travail suivants:</p>
 <ol>
-<li>Quel est l&rsquo;objectif de la collecte de données? Considérez comment les données seront utilisées.</li>
-
-<li><p>Quelles fonctionnalités souhaitez-vous collectionner? Identifier le centre de la collecte de données.</p></li>
-
-<li><p>Où collectez-vous les données? Les modèles de données peuvent différer en fonction de leur emplacement.</p></li>
-
-<li><p>Qu&rsquo;est-ce qui a été fait auparavant? Modèle de données brouillon en utilisant des modèles similaires.</p></li>
-
-<li><p>Quelles balises existent pour les fonctionnalités?</p>
-
+<li>
+<p>Quel est l'objectif de la collecte de données? Considérez comment les données seront utilisées.</p>
+</li>
+<li>
+<p>Quelles fonctionnalités souhaitez-vous collectionner? Identifier le centre de la collecte de données.</p>
+</li>
+<li>
+<p>Où collectez-vous les données? Les modèles de données peuvent différer en fonction de leur emplacement.</p>
+</li>
+<li>
+<p>Qu'est-ce qui a été fait auparavant? Modèle de données brouillon en utilisant des modèles similaires.</p>
+</li>
+<li>
+<p>Quelles balises existent pour les fonctionnalités?</p>
 <ol>
 <li>Vérifier le statut des attributs via OSM Wiki</li>
-<li>Vérifier l&rsquo;utilisation des attributs via TagInfo</li>
-</ol></li>
-
-<li><p>Utilisez des balises approuvées si possible dans le modèle de données.</p></li>
-
-<li><p>Toutes les parties prenantes sont-elles d&rsquo;accord sur le modèle de données? Examiner le modèle de données et intégrer les commentaires des partenaires du projet (l&rsquo;ajout, la suppression ou la modification des fonctionnalités du modèle de données peut retarder la collecte de données sur le terrain et réduire la qualité des données!)</p></li>
+<li>Vérifier l'utilisation des attributs via TagInfo</li>
 </ol>
-
-<p>Créez une liste de toutes les fonctionnalités que vous souhaitez collecter. Par exemple: bâtiments, points d&rsquo;eau, routes.</p>
-
+</li>
+<li>
+<p>Utilisez des balises approuvées si possible dans le modèle de données.</p>
+</li>
+<li>
+<p>Toutes les parties prenantes sont-elles d'accord sur le modèle de données? Examiner le modèle de données et intégrer les commentaires des partenaires du projet (l'ajout, la suppression ou la modification des fonctionnalités du modèle de données peut retarder la collecte de données sur le terrain et réduire la qualité des données!)</p>
+</li>
+</ol>
+<p>Créez une liste de toutes les fonctionnalités que vous souhaitez collecter. Par exemple: bâtiments, points d'eau, routes.</p>
 <table>
 <thead>
 <tr>
 <th>Caractéristiques</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 </tr>
 </tbody>
 </table>
-
-<p>Visiter  <a href="https://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap wiki</a> pour rechercher la clé appropriée pour chaque fonctionnalité et la valeur s&rsquo;il n&rsquo;y a qu&rsquo;une seule option de valeur.</p>
-
+<p>Visiter  <a href="https://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap wiki</a> pour rechercher la clé appropriée pour chaque fonctionnalité et la valeur s'il n'y a qu'une seule option de valeur.</p>
 <table>
 <thead>
 <tr>
@@ -404,20 +396,17 @@
 <th>Valeur</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
@@ -425,9 +414,7 @@
 </tr>
 </tbody>
 </table>
-
-<p>Pour les entités comportant plusieurs valeurs, telles que les bâtiments, utilisez la page Wiki OSM associée à cette clé, ainsi que TagInfo pour rechercher les valeurs appropriées. Ces valeurs ne doivent être que ce qui est raisonnable pour votre collecte de données. Bien qu&rsquo;il soit idéal de collecter tous les types de bâtiments dans une ville, votre projet pourrait uniquement permettre de collecter tous les bâtiments scolaires et hospitaliers. Remarque: les valeurs de votre modèle de données doivent avoir du sens pour le contexte de votre géographie. Par exemple: hut est une valeur appropriée pour les bâtiments au Libéria, mais peu probable en Allemagne. En outre, vous devrez peut-être interpréter un type de valeur existant pour correspondre au mieux à la valeur appropriée pour votre région.</p>
-
+<p>Pour les entités comportant plusieurs valeurs, telles que les bâtiments, utilisez la page Wiki OSM associée à cette clé, ainsi que TagInfo pour rechercher les valeurs appropriées. Ces valeurs ne doivent être que ce qui est raisonnable pour votre collecte de données. Bien qu'il soit idéal de collecter tous les types de bâtiments dans une ville, votre projet pourrait uniquement permettre de collecter tous les bâtiments scolaires et hospitaliers. Remarque: les valeurs de votre modèle de données doivent avoir du sens pour le contexte de votre géographie. Par exemple: hut est une valeur appropriée pour les bâtiments au Libéria, mais peu probable en Allemagne. En outre, vous devrez peut-être interpréter un type de valeur existant pour correspondre au mieux à la valeur appropriée pour votre région.</p>
 <table>
 <thead>
 <tr>
@@ -436,20 +423,17 @@
 <th>Valeur</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
@@ -457,9 +441,7 @@
 </tr>
 </tbody>
 </table>
-
 <p>Une fois que vous avez les balises de base pour vos fonctionnalités, vous pouvez choisir les attributs que vous souhaitez ou que vous pouvez collecter pour chaque fonctionnalité.</p>
-
 <table>
 <thead>
 <tr>
@@ -468,68 +450,57 @@
 <th>Valeur</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:material</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:levels</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>roof:material</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td></td>
 <td>status</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
 <td>primary, secondary, residential</td>
 </tr>
-
 <tr>
 <td></td>
 <td>name</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>condition</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>surface</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>width</td>
@@ -537,9 +508,7 @@
 </tr>
 </tbody>
 </table>
-
-<p>Ensuite, les valeurs peuvent également être déterminées pour chaque clé d&rsquo;attribut. Ces options peuvent être déterminées à l&rsquo;aide du wiki OSM et de TagInfo ou, dans certains cas, définies par le cartographe, par exemple pour les réponses numériques ou les noms.</p>
-
+<p>Ensuite, les valeurs peuvent également être déterminées pour chaque clé d'attribut. Ces options peuvent être déterminées à l'aide du wiki OSM et de TagInfo ou, dans certains cas, définies par le cartographe, par exemple pour les réponses numériques ou les noms.</p>
 <table>
 <thead>
 <tr>
@@ -548,68 +517,57 @@
 <th>Valeur</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:material</td>
 <td>cement_block, brick, wood, mud</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:levels</td>
 <td><em>numeric</em></td>
 </tr>
-
 <tr>
 <td></td>
 <td>roof:material</td>
 <td>thatch, metal, concrete, plastic, tile</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td></td>
 <td>drinking_water</td>
 <td>yes, no</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
 <td>primary, secondary, residential</td>
 </tr>
-
 <tr>
 <td></td>
 <td>name</td>
 <td><em>user defined</em></td>
 </tr>
-
 <tr>
 <td></td>
 <td>condition</td>
 <td>excellent, good, poor</td>
 </tr>
-
 <tr>
 <td></td>
 <td>surface</td>
 <td>gravel, paved, dirt</td>
 </tr>
-
 <tr>
 <td></td>
 <td>width</td>
@@ -617,13 +575,9 @@
 </tr>
 </tbody>
 </table>
-
-<p>Une fois complété avec votre modèle de données, ce modèle de données devrait être vérifié par vos parties prenantes afin de détecter d&rsquo;éventuelles lacunes. En outre, votre plan de projet doit permettre une certaine souplesse, de sorte que ce modèle de données puisse être ajusté à l&rsquo;aide de tests sur le terrain et de la consultation de vos cartographe.</p>
-
+<p>Une fois complété avec votre modèle de données, ce modèle de données devrait être vérifié par vos parties prenantes afin de détecter d'éventuelles lacunes. En outre, votre plan de projet doit permettre une certaine souplesse, de sorte que ce modèle de données puisse être ajusté à l'aide de tests sur le terrain et de la consultation de vos cartographe.</p>
 <p><strong>Collecte de données privées</strong></p>
-
-<p><br>
-Les données privées ne doivent jamais être téléchargées vers OSM. Cependant, certains projets nécessitent la collecte d’informations personnelles. Dans ce cas, le modèle de données peut inclure des balises uniques non OSM pour les données privées devant être collectées. Lors du nettoyage des données après la collecte des données, ces données privées peuvent être conservées dans un ensemble de données complet avant d&rsquo;être supprimées. Une fois les données privées supprimées, le jeu de données peut être téléchargé vers OSM.</p>
+<!-- raw HTML omitted -->
 </div>
 
 
@@ -635,6 +589,8 @@ Les données privées ne doivent jamais être téléchargées vers OSM. Cependan
 
     
      
+    
+
     
 
     
@@ -662,17 +618,15 @@ Les données privées ne doivent jamais être téléchargées vers OSM. Cependan
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#ressources-et-supports-de-formation">Ressources et supports de formation</a>
-<ul>
-<li><a href="#outils-pour-créer-votre-modèle-de-données">Outils pour créer votre modèle de données</a></li>
-<li><a href="#création-de-votre-modèle-de-données">Création de votre modèle de données</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#ressources-et-supports-de-formation">Ressources et supports de formation</a>
+      <ul>
+        <li><a href="#outils-pour-crer-votre-modle-de-donnes">Outils pour créer votre modèle de données</a></li>
+        <li><a href="#cration-de-votre-modle-de-donnes">Création de votre modèle de données</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

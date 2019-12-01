@@ -161,6 +161,23 @@
         accordion accordion--closed
         
         ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
             Data Cleaning, Upload, and Quality Assurance
         </div>
         <div class="panel
@@ -227,77 +244,52 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">3.2.1 Configuration de OpenDataKit</h1>
-
-<p>Cette rubrique présente:</p>
-
+           <h1 class="page-title">3.2.1 Configuration de OpenDataKit</h1><p>Cette rubrique présente:</p>
 <ul>
 <li>Un résumé des étapes nécessaires pour configurer ODK</li>
-<li>Guide étape par étape pour créer des formulaires d&rsquo;enquête ODK, avec des fichiers pour faire un cas pratique.</li>
+<li>Guide étape par étape pour créer des formulaires d'enquête ODK, avec des fichiers pour faire un cas pratique.</li>
 <li>Guide étape par étape pour la configuration de ODK sur les périphériques</li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="overview">Overview</h2>
-
-<p><strong>OpenDataKit (ODK)</strong> est un ensemble d&rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles. ODK Collect fait partie des outils ODK et est une application Android qui remplace les formulaires papier utilisés pour la collecte de données terrains. Il prend en charge un large éventail de types de questions et de réponses et est conçu pour bien fonctionner sans connectivité réseau.</p>
-
+<p><strong>OpenDataKit (ODK)</strong> est un ensemble d'outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles. ODK Collect fait partie des outils ODK et est une application Android qui remplace les formulaires papier utilisés pour la collecte de données terrains. Il prend en charge un large éventail de types de questions et de réponses et est conçu pour bien fonctionner sans connectivité réseau.</p>
 <p><em>Vous hésitez sur la pertinence de OpenDataKit pour votre projet ?  Voir ici <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/4.2-data-collection-applications/">Outils de collectes de données</a>.</em></p>
-
 <h2 id="outils-et-supports-de-formation">Outils et supports de formation</h2>
-
 <p>Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
-
-<p><img src="../../../../images/learning_icon_wide.PNG" alt="" />
-<em>La section suivante est conçue pour servir de guide pour les gestionnaires de projet, les superviseurs ou d&rsquo;autres personnes lors de la mise en place de l&rsquo;application.</em></p>
-
+<p><img src="../../../../images/learning_icon_wide.PNG" alt="">
+<em>La section suivante est conçue pour servir de guide pour les gestionnaires de projet, les superviseurs ou d'autres personnes lors de la mise en place de l'application.</em></p>
 <p><strong>Procédures de configuration</strong>
 Pour mettre en place OpenDataKit sur les périphériques, vous devrez suivre les étapes suivantes:</p>
-
 <ol>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#creating-odk-forms">Créer un formulaire ODK</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#download-and-set-up-the-odk-application">Télécharger et configurer l&rsquo;application ODK</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#download-and-set-up-the-odk-application">Télécharger et configurer l'application ODK</a></li>
 </ol>
-
-<h3 id="création-de-formulaire-odk">Création de formulaire ODK</h3>
-
-<p>Lorsque vous utilisez les applications de collecte de données ODK et OMK, vous devrez créer les fichiers qui serviront de formulaires pour l&rsquo;enquête.</p>
-
-<p>Les formulaires peuvent être créés à l&rsquo;aide d&rsquo;un tableur (comme Excel ou <a href="https://www.libreoffice.org/discover/calc/">LibreOffice calc</a>) ou à l&rsquo;aide du serveur en ligne <a href="https://build.opendatakit.org/">ODK Form Builder</a>.  La documentation sur la façon de créer un formulaire se trouve <a href="http://xlsform.org/en/">ici</a>.</p>
-
+<h3 id="cration-de-formulaire-odk">Création de formulaire ODK</h3>
+<p>Lorsque vous utilisez les applications de collecte de données ODK et OMK, vous devrez créer les fichiers qui serviront de formulaires pour l'enquête.</p>
+<p>Les formulaires peuvent être créés à l'aide d'un tableur (comme Excel ou <a href="https://www.libreoffice.org/discover/calc/">LibreOffice calc</a>) ou à l'aide du serveur en ligne <a href="https://build.opendatakit.org/">ODK Form Builder</a>.  La documentation sur la façon de créer un formulaire se trouve <a href="http://xlsform.org/en/">ici</a>.</p>
 <ul>
 <li><a href="https://drive.google.com/file/d/1HY2jsHDYnpjuGemhco_WT9Cl8PSG4b43/view?usp=sharing">Exemple de formulaire ODK</a></li>
 <li><a href="https://drive.google.com/file/d/1ISEYZo5C_TCfKUJFD8AvbUrlsDHxRPgK/view?usp=sharing">formulaire ODK vide</a></li>
 </ul>
-
-<p><strong>Conversion des formulaires</strong> <br>
-Une fois les formulaires créés, ils doivent être convertis du format .xlsx/.xls en.xml pour être utilisés par l&rsquo;application ODK. Ceci peut être fait en utilisant <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> ou <a href="https://docs.opendatakit.org/xlsform/">offline</a>. <br>
-<br>
-Si vous utilisez OpenMapKit Server ou KoboToolBox Server, vous n&rsquo;aurez pas besoin de faire la conversion du formulaire. Le serveur effectue ce processus de façon automatique pour vous.</p>
-
-<h2 id="télécharger-et-configurer-l-application-odk">Télécharger et configurer l&rsquo;application ODK</h2>
-
-<p><strong>Télécharger l&rsquo;application</strong> <br></p>
-
-<p>L&rsquo;application ODK se trouve sur Google Play <a href="https://play.google.com/store/apps/details?id=org.odk.collect.android&amp;hl=en_US">ici</a>.</p>
-
-<p>Si vous installez sur plusieurs périphériques avec de faibles ressources Internet, il est recommandé de télécharger et de partager l&rsquo;apk hors ligne. Le fichier APK pour OpenMapKit peut être téléchargé <a href="https://github.com/opendatakit/collect/releases/tag/v1.16.1">ici</a>.</p>
-
-<p><strong>Configuration de l&rsquo;application sur les appareils</strong> <br></p>
-
+<p><strong>Conversion des formulaires</strong> <!-- raw HTML omitted -->
+Une fois les formulaires créés, ils doivent être convertis du format .xlsx/.xls en.xml pour être utilisés par l'application ODK. Ceci peut être fait en utilisant <a href="https://docs.opendatakit.org/xlsform/">XLSform</a> <a href="https://opendatakit.org/xlsform/">online</a> ou <a href="https://docs.opendatakit.org/xlsform/">offline</a>. <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+Si vous utilisez OpenMapKit Server ou KoboToolBox Server, vous n'aurez pas besoin de faire la conversion du formulaire. Le serveur effectue ce processus de façon automatique pour vous.</p>
+<h2 id="tlcharger-et-configurer-lapplication-odk">Télécharger et configurer l'application ODK</h2>
+<p><strong>Télécharger l'application</strong> <!-- raw HTML omitted --></p>
+<p>L'application ODK se trouve sur Google Play <a href="https://play.google.com/store/apps/details?id=org.odk.collect.android&amp;hl=en_US">ici</a>.</p>
+<p>Si vous installez sur plusieurs périphériques avec de faibles ressources Internet, il est recommandé de télécharger et de partager l'apk hors ligne. Le fichier APK pour OpenMapKit peut être téléchargé <a href="https://github.com/opendatakit/collect/releases/tag/v1.16.1">ici</a>.</p>
+<p><strong>Configuration de l'application sur les appareils</strong> <!-- raw HTML omitted --></p>
 <ol>
-<li>Trouvez l&rsquo;icône de l&rsquo;application ODK Collect sur votre appareil mobile et touchez pour ouvrir l&rsquo;application.</li>
-<li>Après avoir téléchargé l&rsquo;application ODK, un dossier odk sera automatiquement créé dans la mémoire interne de l&rsquo;appareil. Connectez votre terminal à un ordinateur portable pour vérifier que ce dossier a bien été créé. Si vous ne voyez pas ce dossier sur la mémoire interne de votre appareil, redémarrez l&rsquo;appareil.</li>
-<li>Une fois l&rsquo;appareil redémarré, connectez-le à votre ordinateur portable et naviguez jusqu&rsquo;au dossier stockage interne -&gt; dossier odk. Vous trouverez des sous-dossiers dans le dossier openmapkit. C&rsquo;est-à-dire les dossiers‘forms’, ‘instances’, ‘layers’ et &lsquo;metadata&rsquo;.</li>
+<li>Trouvez l'icône de l'application ODK Collect sur votre appareil mobile et touchez pour ouvrir l'application.</li>
+<li>Après avoir téléchargé l'application ODK, un dossier odk sera automatiquement créé dans la mémoire interne de l'appareil. Connectez votre terminal à un ordinateur portable pour vérifier que ce dossier a bien été créé. Si vous ne voyez pas ce dossier sur la mémoire interne de votre appareil, redémarrez l'appareil.</li>
+<li>Une fois l'appareil redémarré, connectez-le à votre ordinateur portable et naviguez jusqu'au dossier stockage interne -&gt; dossier odk. Vous trouverez des sous-dossiers dans le dossier openmapkit. C'est-à-dire les dossiers‘forms’, ‘instances’, ‘layers’ et &lsquo;metadata&rsquo;.</li>
 </ol>
-
-<p><img src="../../../../images/field-mapping-technical-setup/odk_set-up.jpeg" alt="" /></p>
-
-<ol>
+<p><img src="../../../../images/field-mapping-technical-setup/odk_set-up.jpeg" alt=""></p>
+<ol start="4">
 <li>Ajoutez vos formulaires en format xml dans le dossier Formulaires.</li>
-<li>Dans la fenêtre du menu principal ODK Collect, sélectionnez Remplir le formulaire vierge. Tous les formulaires téléchargés à partir du serveur s&rsquo;afficheront, et vous pourrez les utiliser pour tester la collecte de données sur le terrain.</li>
-<li>Une fois que tous les formulaires sont disponibles sur votre appareil, cliquez sur le bouton “ Précédent “ de l&rsquo;appareil pour quitter l&rsquo;application ODK Collect.</li>
+<li>Dans la fenêtre du menu principal ODK Collect, sélectionnez Remplir le formulaire vierge. Tous les formulaires téléchargés à partir du serveur s'afficheront, et vous pourrez les utiliser pour tester la collecte de données sur le terrain.</li>
+<li>Une fois que tous les formulaires sont disponibles sur votre appareil, cliquez sur le bouton “ Précédent “ de l'appareil pour quitter l'application ODK Collect.</li>
 </ol>
 </div>
 
@@ -310,6 +302,8 @@ Si vous utilisez OpenMapKit Server ou KoboToolBox Server, vous n&rsquo;aurez pas
 
     
      
+    
+
     
 
     
@@ -337,17 +331,15 @@ Si vous utilisez OpenMapKit Server ou KoboToolBox Server, vous n&rsquo;aurez pas
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#outils-et-supports-de-formation">Outils et supports de formation</a>
-<ul>
-<li><a href="#création-de-formulaire-odk">Création de formulaire ODK</a></li>
-</ul></li>
-<li><a href="#télécharger-et-configurer-l-application-odk">Télécharger et configurer l&rsquo;application ODK</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#outils-et-supports-de-formation">Outils et supports de formation</a>
+      <ul>
+        <li><a href="#cration-de-formulaire-odk">Création de formulaire ODK</a></li>
+      </ul>
+    </li>
+    <li><a href="#tlcharger-et-configurer-lapplication-odk">Télécharger et configurer l'application ODK</a></li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

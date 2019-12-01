@@ -17,8 +17,7 @@
       
       <guid>/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</guid>
       <description>Dans cette section, les gestionnaires de projets trouveront des guides, des outils et des ressources pour concevoir un projet de cartographie, notamment:
- Considérations et guides de questions pour déterminer les facteurs de projets tel que la portée, l’échelle et la logistique; Ressources pour la sélection du matériel; Guides et matériels pour la planification des ateliers/formations  
-Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cela varie selon les contexte.</description>
+ Considérations et guides de questions pour déterminer les facteurs de projets tel que la portée, l’échelle et la logistique; Ressources pour la sélection du matériel; Guides et matériels pour la planification des ateliers/formations     [1.1 Définir les besoins et les exigences] (https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/) pose des questions à répondre lors de la définition de la portée du projet, tel que son objectif, son échelle géographique, et quelles sont les caractériques à cartographier, tout en veillant à ce que le projet prenne en compte les divers contextes et parties prénantes impliqué dans le projets.</description>
     </item>
     
     <item>
@@ -27,10 +26,10 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</guid>
-      <description>Cette section comprend des questions d&amp;rsquo;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&amp;rsquo;un projet, notamment:
- Facteurs à prendre en compte quand on décide de quoi cartographier;
- Contextes pouvant avoir un impact sur la planification et la préparation;
- Considérations à prendre en compte pour impliquer les parties prenantes, les communautés et la sélection de votre équipe.</description>
+      <description>Cette section comprend des questions d&#39;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&#39;un projet, notamment:
+  Facteurs à prendre en compte quand on décide de quoi cartographier;
+  Contextes pouvant avoir un impact sur la planification et la préparation;
+  Considérations à prendre en compte pour impliquer les parties prenantes, les communautés et la sélection de votre équipe.</description>
     </item>
     
     <item>
@@ -40,8 +39,6 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       
       <guid>/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</guid>
       <description>Dans cette section, les responsables de projet trouveront des questions et des considérations sur l’évaluation des besoins en matière de sécurité, de sûreté et de logistique pour les opérations sur le terrain.
-
-
 Overview Pour les projets nécessitant un travail sur le terrain, vous devrez prendre des mesures supplémentaires pour vous assurer que la logistique et la sécurité sont efficacement gérées. Vous trouverez ci-dessous des sujets que les responsables de projet devraient considérer et planifier avant d’entrer sur le terrain.</description>
     </item>
     
@@ -52,8 +49,9 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/running-a-mapping-project/1.3-hardware/</guid>
       <description>Dans cette section, les gestionnaires de projet trouveront des informations sur la sélection du matériel approprié pour mener un projet de cartographie, notamment:
- Déterminer quel matériel pourrait être nécessaire ou non. Spécifications et recommandation des models pour les appareils portable, les tablettes et les ordinateurs en fonction des besoins du projet.
- Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&amp;rsquo;alimentation et les disques durs.</description>
+  Déterminer quel matériel pourrait être nécessaire ou non.
+  Spécifications et recommandation des models pour les appareils portable, les tablettes et les ordinateurs en fonction des besoins du projet.
+  Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&#39;alimentation et les disques durs.</description>
     </item>
     
     <item>
@@ -63,7 +61,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/</guid>
       <description>Dans cette section, les responsables de projet trouveront des informations sur les considérations et les ressources à utiliser lors de la planification de formations et d’ateliers sur la cartographie et l’OSM, notamment:
- Orientations sur les exigences de formation Exemples et ressources pour créer des programmes de formation Considérations pour les présentations et autres matériaux fournis.   Overview La plupart des projets de cartographie comporteront des formations ou des ateliers, qu’il s’agisse de former les cartographes de terrain à utiliser OpenDataKit, de former les parties prenantes des gouvernements locaux à l’exportation et l’utilisation des données OSM ou de former les étudiants à QGIS pour la création de cartes.</description>
+ Orientations sur les exigences de formation Exemples et ressources pour créer des programmes de formation Considérations pour les présentations et autres matériaux fournis.  Overview La plupart des projets de cartographie comporteront des formations ou des ateliers, qu’il s’agisse de former les cartographes de terrain à utiliser OpenDataKit, de former les parties prenantes des gouvernements locaux à l’exportation et l’utilisation des données OSM ou de former les étudiants à QGIS pour la création de cartes.</description>
     </item>
     
   </channel>

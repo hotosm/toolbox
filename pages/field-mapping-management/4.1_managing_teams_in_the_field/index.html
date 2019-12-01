@@ -334,78 +334,48 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">4.1 Managing Teams in the Field</h1>
-
-<p>This section provides:</p>
-
+           <h1 class="page-title">4.1 Managing Teams in the Field</h1><p>This section provides:</p>
 <ul>
 <li>An overview of tools and methods for managing teams in the field.</li>
 <li>Step-by-step guides for using OSMAnd and QGIS to manage team movement and completion of assignment areas.</li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="overview">Overview</h2>
-
 <p>Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</p>
-
 <p>When planning to deploy a team, it is important for the Supervisor to have a good picture of how many work days they have versus the man power available to do the work. Once this is done, they will then go ahead and create small sections of the mapping area, that can be covered in a day by a team of two mappers or a single mapper depending on the team arrangement.</p>
-
 <p>Similar to the grid in Tasking Manager, creating sections for mapping allows supervisors to divide tasks, monitor progress, and be able to assess gaps or quality issues.</p>
-
 <h2 id="resources-and-training-materials">Resources and Training Materials</h2>
-
 <p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
-
-<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<p><img src="../../../images/learning_icon_wide.PNG" alt="">
 <em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in creating and implementing assignment areas for field maping.</em></p>
-
 <p><strong>Skills and Technology Needed</strong></p>
-
 <ul>
 <li>Computer</li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-qgis">QGIS Installed</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#navigating-qgis">Basic QGIS skills</a></li>
 <li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins">QuickMapServices</a></li>
 </ul>
-
 <h3 id="creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</h3>
-
 <p>The following activity covers the process of generating mapping sections in QGIS for printing. This activity uses the example of leading a team of 8 mapping volunteers to map Grootfontein Town, in Northern Namibia, during a Malaria Elimination Project. Example files are provided for this activity but can be followed with files provided by the user.</p>
-
 <p>To begin, open QGIS on your computer and start a new project. Using <a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins">QuickMapServices</a> as a basemap, navigate to Grootfontein Town, Northern Namibia.</p>
-
-<p><img src="../../../images/advanced_qgis/management1.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/management1.gif" alt=""></p>
 <p>Create an empty shapefile by selecting &lsquo;Layer&rsquo; &gt; &lsquo;Create Layer&rsquo; &gt; &lsquo;New Shapefile Layer&rsquo;. After selecting the location and name of the file, make sure to assign the file as &lsquo;Polygon&rsquo;.</p>
-
-<p><img src="../../../images/advanced_qgis/management2.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/management2.gif" alt=""></p>
 <p>Enable editing, select the &lsquo;New feature&rsquo; too. Create sections of the town, giving them numbers. These sections should follow natural features or prominent landmarks such as swamps or roads. This is to ensure that ease of location of these sections by mappers.</p>
-
-<p><img src="../../../images/advanced_qgis/management3.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/management3.gif" alt=""></p>
 <p>Once all sections are created, style for visibility.</p>
-
-<p><img src="../../../images/advanced_qgis/management4.PNG" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/management4.PNG" alt=""></p>
 <p>Make maps showing these sections. These maps can be printed out for sharing with the mapping volunteers. Teams can now head to their allocated sections to conduct field mapping.</p>
-
 <h3 id="creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</h3>
-
 <p>The following activity covers the process of importing files into OSMAnd based on the previous activity (generating mapping sections in QGIS). This activity uses the example of leading a team of 8 mapping volunteers to map Grootfontein Town, in Northern Namibia, during a Malaria Elimination Project.</p>
-
-<p><img src="../../../images/advanced_qgis/area of focus.jpg" alt="" /></p>
-
+<p>![](/images/advanced_qgis/area of focus.jpg)</p>
 <p><strong>OSMAnd</strong> provides a great alternative to printing out these sections maps. With OSMAnd, the Supervisor can instead use the following steps to give sections to team members for use in the field directly on their mobile devices.</p>
-
 <ol>
 <li>Create section centroids from the <em>grootfontein_sections.shp</em> giving you <em>grootfontein_sections_centroids.shp</em>. Create centroids by selecting the &lsquo;Vector&rsquo; menu &gt; &lsquo;Geometry Tools&rsquo; &gt; &lsquo;Centroids&rsquo;. In the sub-menu, select the <em>grootfontein_sections.shp</em> file as the Input layer, click &lsquo;Run.&rsquo;</li>
-<li>Export the sections shapefiles (_grootfontein<em>sections.shp</em>) and the centroids shapefile (_grootfontein_sections<em>centroids.shp</em>) as a .gpx giving you a _grootfontein<em>sections.gpx</em> and _grootfontein_sections<em>centroids.gpx.</em></li>
+<li>Export the sections shapefiles (<em>grootfontein_sections.shp</em>) and the centroids shapefile (<em>grootfontein_sections_centroids.shp</em>) as a .gpx giving you a <em>grootfontein_sections.gpx</em> and <em>grootfontein_sections_centroids.gpx.</em></li>
 <li>Transfer these two .gpx files from you computer to the _/Phone/Android/data/net.osmand/files/tracks _folder</li>
 <li>Open OSMAnd application and load these two files via <em>Menu button -&gt; My Places -&gt; Tracks -&gt; Browse to where the files are located</em></li>
 </ol>
-
 <p>The sections gpx file will show you boundaries of the sections and the centroids gpx file will show you section numbers once a centroid point is selected. With these two, volunteers can move in the field using the OSMAnd app, locating their positions each time as well as the sections in which they are standing.</p>
 </div>
 
@@ -497,17 +467,15 @@
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
-<ul>
-<li><a href="#creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</a></li>
-<li><a href="#creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#resources-and-training-materials">Resources and Training Materials</a>
+      <ul>
+        <li><a href="#creating-mapping-sections-in-qgis-for-printed-maps">Creating Mapping Sections in QGIS for Printed Maps</a></li>
+        <li><a href="#creating-and-importing-mapping-sections-into-osmand">Creating and Importing Mapping Sections into OSMAnd</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

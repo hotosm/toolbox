@@ -17,7 +17,7 @@
       
       <guid>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
       <description>In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
- A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps  There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
+ A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps   There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       
       <guid>/pages/data-use-and-analysis/7.1-qgis/</guid>
       <description>This section covers the basic skills necessary to using QGIS. This includes step-by-step guides on:
- Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins, including QuickOSM and QuickMapServices  
-Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</description>
+ Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins, including QuickOSM and QuickMapServices  Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ Overview QGIS (or Quantum GIS) is a free and open source geographic information 
       
       <guid>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
       <description>This section covers the skills necessary to create maps and atlases in QGIS:
- Preparing map data Creating a Map Layout Atlas navigation and creation Creating map and atlas templates  
-Overview Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
+ Preparing map data Creating a Map Layout Atlas navigation and creation Creating map and atlas templates  Overview Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
     </item>
     
     <item>
@@ -49,8 +47,7 @@ Overview Creating an atlas in QGIS allows users to create a series of maps for g
       
       <guid>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
       <description>This section provides:
- An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  
-Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
+ An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
     </item>
     
   </channel>

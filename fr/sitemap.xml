@@ -98,6 +98,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/field-mapping-management/</loc>
+    <lastmod>2019-12-01T10:12:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/field-mapping-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/field-mapping-management/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/</loc>
     <lastmod>2019-11-20T09:22:08-07:00</lastmod>
     <xhtml:link

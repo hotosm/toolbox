@@ -17,8 +17,7 @@
       
       <guid>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
- Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap
- Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit  Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
+ Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@
       
       <guid>/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
       <description>This section provides:
- An overview of data models and OpenStreetMap tagging, including presentation slides Step-by-step instructions for tools to help build your data model Step-by-step instructions for creating your data model  
-Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A data model defines what features are surveyed or mapped and what attributes are collected for each feature.</description>
+ An overview of data models and OpenStreetMap tagging, including presentation slides Step-by-step instructions for tools to help build your data model Step-by-step instructions for creating your data model  Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A data model defines what features are surveyed or mapped and what attributes are collected for each feature.</description>
     </item>
     
     <item>
@@ -39,9 +37,7 @@ Overview When beginning a mapping project, a data model will need to be created 
       
       <guid>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>This section provides:
- An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  
-Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.me
-Choosing a Data Collection Application Which data collection application should I use?</description>
+ An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.meChoosing a Data Collection Application Which data collection application should I use?</description>
     </item>
     
     <item>
@@ -51,8 +47,7 @@ Choosing a Data Collection Application Which data collection application should 
       
       <guid>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>This section provides:
- An overview of steps needed to set-up ODK A step-by-step guide for creating ODK survey forms, including example files A step-by-step guide for setting up ODK on devices  
-Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
+ An overview of steps needed to set-up ODK A step-by-step guide for creating ODK survey forms, including example files A step-by-step guide for setting up ODK on devices  Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
     </item>
     
     <item>
@@ -62,8 +57,7 @@ Overview OpenDataKit (ODK) is a free an open-source set of tools which help orga
       
       <guid>/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
       <description>This section provides:
- An overview of steps needed to set-up OMK A step-by-step guide for creating OMK survey forms, including example files Guidance on selecting an MBTile creation method and step-by-step guide on creating MBTiles. A step-by-step guide for creating additional files necessary for running OMK. A step-by-step guide for setting up OMK on devices.  
-Overview OpenMapKit (OMK) is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey.</description>
+ An overview of steps needed to set-up OMK A step-by-step guide for creating OMK survey forms, including example files Guidance on selecting an MBTile creation method and step-by-step guide on creating MBTiles. A step-by-step guide for creating additional files necessary for running OMK. A step-by-step guide for setting up OMK on devices.  Overview OpenMapKit (OMK) is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey.</description>
     </item>
     
     <item>
@@ -73,9 +67,7 @@ Overview OpenMapKit (OMK) is an extension that launches directly from within Ope
       
       <guid>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
       <description>This section provides:
- An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  
-Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me.
-While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
+ An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me.While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
     </item>
     
     <item>
@@ -86,7 +78,6 @@ While navigation tools are not required for data collection, they can be extreme
       <guid>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
       <description>This section provides:
  An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
-
 Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
     </item>
     

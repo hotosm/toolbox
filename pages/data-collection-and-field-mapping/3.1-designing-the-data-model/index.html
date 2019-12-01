@@ -334,111 +334,78 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">3.1 Designing The Data Model</h1>
-
-<p>This section provides:</p>
-
+           <h1 class="page-title">3.1 Designing The Data Model</h1><p>This section provides:</p>
 <ul>
 <li>An overview of data models and OpenStreetMap tagging, including presentation slides</li>
 <li>Step-by-step instructions for tools to help build your data model</li>
 <li>Step-by-step instructions for creating your data model</li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="overview">Overview</h2>
-
 <p>When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A <strong>data model</strong> defines what features are surveyed or mapped and what attributes are collected for each feature. If a project will upload data to OpenStreetMap, the data model should be designed to match OSM tagging.</p>
-
 <p>Example data models:</p>
-
 <ul>
 <li><a href="https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_Crowdsourcing_Non-Camp_Refugee_Data">Uganda Refugee Crisis</a></li>
 <li><a href="https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria">Ramani Huria</a></li>
 </ul>
-
 <p>OSM doesn’t work with layers or attribute tables, but tags. <strong>Tags</strong> are used in OSM to categorize features, and to add information that is useful for understanding of the map, planning, routing, and querying. Each tag consists of a key, and a value. Each map feature should have one or more tags such as:</p>
-
 <ul>
 <li>building=residential</li>
 <li>highway=primary</li>
 <li>amenity=school</li>
 </ul>
-
 <p>In addition, each of these features can have an unlimited number of related attributes added into OSM as tags. For example, a building might have the following tags:</p>
-
 <ul>
 <li>building=commercial</li>
 <li>building:material=brick</li>
 <li>roof:material=metal</li>
 <li>shop=tailor</li>
 </ul>
-
 <p>Creating a data model should be done in collaboration with all stakeholders in order to ensure that all necessary information is collected - it is a lot more difficult to revisit a location for mapping to collect additional information.  At the same time, when designing a data model you should consider how much time it will take for a surveyor to complete data collection - every feature type, attribute, or question will add additional time needed.</p>
-
 <h2 id="resources-and-training-materials">Resources and Training Materials</h2>
-
 <p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
-
-<p><img src="../../../images/training_presentations_wide.PNG" alt="" />
+<p><img src="../../../images/training_presentations_wide.PNG" alt="">
 <em>The following presentation(s) can be used to lead a training or workshop.</em></p>
-
 <ul>
 <li><a href="https://docs.google.com/presentation/d/1CU6cBtu9ZAeCWKIz6xLVN4fBrdsN7R5tFELPXbepilI/edit#slide=id.g5c7d19429e_0_225">Data models and tagging</a></li>
 </ul>
-
-<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<p><img src="../../../images/learning_icon_wide.PNG" alt="">
 <em>The following section is designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.</em></p>
-
 <ul>
 <li>Tools for creating your data model</li>
 <li>Creating your data model</li>
 </ul>
-
 <h3 id="tools-for-creating-your-data-model">Tools for creating your data model</h3>
-
 <p>HOT recommends using TagInfo and the OSM Wiki to search for existing OSM features when developing your data model. The following steps will provide an introduction to how to use these tools.</p>
-
 <p><strong>Skills and Technology Needed</strong></p>
-
 <ul>
 <li>Computer with</li>
 <li>Internet connection</li>
 <li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1.1-opening_osm_accounts/">OpenStreetMap Account</a></li>
 <li>Recommended: computer mouse</li>
 </ul>
-
 <p><strong>How to Use the OSM Wiki</strong></p>
-
-<p><img src="../../../images/field-mapping-technical-setup/osm_wiki_map_features.gif" alt="osm_wiki_map_features" /></p>
-
+<p><img src="../../../images/field-mapping-technical-setup/osm_wiki_map_features.gif" alt="osm_wiki_map_features"></p>
 <ol>
-<li>Navigate to <a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a> in a Google Chrome or Mozilla Firefox internet browser.</li>
+<li>Navigate to <a href="https://wiki.openstreetmap.org/wiki/Map_Features"><a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a></a> in a Google Chrome or Mozilla Firefox internet browser.</li>
 <li>This page provides documentation on common, existing OSM features categorized by type. These tables contain keys and values, along with comments and sometimes pictures to help define the tag.  Scroll through the tables to explore the tags described.</li>
 <li>Search for a particular tag by using &lsquo;Ctrl+F&rsquo; on your keyboard. As an example, search for the tag that should be used for hospitals. To do so, hit &lsquo;Ctrl+F&rsquo; on you keyboard, type &lsquo;hospital&rsquo; in the search bar, and hit enter. This will bring you to the appropriate tag for hospitals. <em>Note: there might be more than one appropriate tag for a search item. Scroll through the results until you find the appropriate tag.</em></li>
-<li>Keys and values within the tables will also link out to individual wiki pages for those features. For example, by clicking on &ldquo;hospital&rdquo; under amenities, you will be redirected to <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital</a>. This page provides in-depth detail about the tag as well as related tags and tips on how to map a particular feature.</li>
+<li>Keys and values within the tables will also link out to individual wiki pages for those features. For example, by clicking on &ldquo;hospital&rdquo; under amenities, you will be redirected to <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital"><a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital</a></a>. This page provides in-depth detail about the tag as well as related tags and tips on how to map a particular feature.</li>
 <li>To practice, search for other key words relating to features you would want to map to discover keys and values related to that feature.</li>
 </ol>
-
 <p><strong>How to use TagInfo</strong></p>
-
-<p><img src="../../../images/field-mapping-technical-setup/taginfo.gif" alt="taginfo" /></p>
-
+<p><img src="../../../images/field-mapping-technical-setup/taginfo.gif" alt="taginfo"></p>
 <ol>
-<li>Navigate to <a href="https://taginfo.openstreetmap.org">https://taginfo.openstreetmap.org</a> in a Google Chrome or Mozilla Firefox internet browser.</li>
+<li>Navigate to <a href="https://taginfo.openstreetmap.org"><a href="https://taginfo.openstreetmap.org">https://taginfo.openstreetmap.org</a></a> in a Google Chrome or Mozilla Firefox internet browser.</li>
 <li>In the upper left corner, use the search bar to find a tag. For this activity, search for &ldquo;roof&rdquo;.</li>
 <li>The next window will allow you to select from existing keys, values, and relations that contain &ldquo;roof&rdquo;.</li>
 <li>Selecting one of these options will bring you to an information page about that key, value, or relation. For this activity, find and click on &ldquo;roof:material&rdquo;.</li>
-<li>You will now see an information page about the tag &ldquo;roof:material&rdquo; including values that have been used with the key &ldquo;roof:material&rdquo;, combinations of other tags that have been used with the key, a map of the key&rsquo;s global use distrubtion if there are enough use cases, and links to any existing related OSM Wiki pages.</li>
+<li>You will now see an information page about the tag &ldquo;roof:material&rdquo; including values that have been used with the key &ldquo;roof:material&rdquo;, combinations of other tags that have been used with the key, a map of the key's global use distrubtion if there are enough use cases, and links to any existing related OSM Wiki pages.</li>
 <li>To practice, search for other key words relating to features you would want to map to discover keys and values related to that feature.</li>
 </ol>
-
 <h3 id="creating-your-data-model">Creating your data model</h3>
-
 <p>The following activity will guide you through the process of creating a data model. While this process could be done by hand or in document software (such as Google Docs or Microsoft Word), spreadsheet software is the recommended method of documenting your data model.</p>
-
 <p><strong>Skills and Technology Needed</strong></p>
-
 <ul>
 <li>Computer with</li>
 <li>Internet connection (recommended for accessing TagInfo and OSM Wiki)</li>
@@ -446,52 +413,42 @@
 <li>Recommended: computer mouse</li>
 <li>Spreadsheet software, such as LibreCalc, Google Sheets, or Excel (recommended for structuring your data model)</li>
 </ul>
-
 <p><strong>Data model workflow</strong></p>
-
 <p>Designing a <strong>data model</strong> based on <strong>OSM tagging</strong> is typically defined by the following questions and workflow:</p>
-
 <ol>
 <li>What is the focus of the data collection? Consider how the data will be used.</li>
 <li>What features do you want to collect? Identify the focus of the data collection.</li>
 <li>Where are you collecting data? Data models can differ based on their location.</li>
 <li>What has been done before? Draft data model by leveraging similar models.</li>
 <li>What tags exist for features?
-
 <ol>
 <li>Verify tag status through OSM Wiki</li>
 <li>Verify tag usage through TagInfo</li>
-</ol></li>
+</ol>
+</li>
 <li>Use approved tags where possible in data model</li>
 <li>Do all stakeholders agree on the data model? Review data model and incorporate feedback from project partners (adding, removing, or changing data model features can delay field data collection and decrease data quality!)</li>
 </ol>
-
 <p>Create a list of all of the features that you want to collect. For example: buildings, water points, roads.</p>
-
 <table>
 <thead>
 <tr>
 <th>Feature</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 </tr>
 </tbody>
 </table>
-
 <p>Go to <a href="https://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap wiki</a> to search for the appropriate key for each feature, and value if there is only one value option.</p>
-
 <table>
 <thead>
 <tr>
@@ -500,20 +457,17 @@
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
@@ -521,9 +475,7 @@
 </tr>
 </tbody>
 </table>
-
 <p>For features with multiple values, such as buildings, use the OSM Wiki page for that key as well as TagInfo to find appropriate values. These values should only be what is reasonable for your data collection. While it would be ideal to collect every building type in a city, your project might only be able to collect all school and hospital buildings. Note: values in your data model should make sense for the context of your geography. For example: hut is an appropriate value for buildings in Liberia, but not likely in Germany. Additionally, you may need to interpret an existing value type to best match the appropriate value for your region.</p>
-
 <table>
 <thead>
 <tr>
@@ -532,20 +484,17 @@
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
@@ -553,9 +502,7 @@
 </tr>
 </tbody>
 </table>
-
 <p>Once you have the base tags for your features, you can decide on what attributes you want or can collect for each feature.</p>
-
 <table>
 <thead>
 <tr>
@@ -564,68 +511,57 @@
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:material</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:levels</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>roof:material</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td></td>
 <td>status</td>
 <td></td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
 <td>primary, secondary, residential</td>
 </tr>
-
 <tr>
 <td></td>
 <td>name</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>condition</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>surface</td>
 <td></td>
 </tr>
-
 <tr>
 <td></td>
 <td>width</td>
@@ -633,9 +569,7 @@
 </tr>
 </tbody>
 </table>
-
 <p>Next, values can also be determined for each attribute key. These options can be determined using the OSM Wiki and TagInfo, or in some cases can be defined by the mapper - such as for numeric answers or names.</p>
-
 <table>
 <thead>
 <tr>
@@ -644,68 +578,57 @@
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Buildings</td>
 <td>building</td>
 <td>residential, school, civic</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:material</td>
 <td>cement_block, brick, wood, mud</td>
 </tr>
-
 <tr>
 <td></td>
 <td>building:levels</td>
 <td><em>numeric</em></td>
 </tr>
-
 <tr>
 <td></td>
 <td>roof:material</td>
 <td>thatch, metal, concrete, plastic, tile</td>
 </tr>
-
 <tr>
 <td>Water Points</td>
 <td>amenity</td>
 <td>water_point</td>
 </tr>
-
 <tr>
 <td></td>
 <td>drinking_water</td>
 <td>yes, no</td>
 </tr>
-
 <tr>
 <td>Roads</td>
 <td>highway</td>
 <td>primary, secondary, residential</td>
 </tr>
-
 <tr>
 <td></td>
 <td>name</td>
 <td><em>user defined</em></td>
 </tr>
-
 <tr>
 <td></td>
 <td>condition</td>
 <td>excellent, good, poor</td>
 </tr>
-
 <tr>
 <td></td>
 <td>surface</td>
 <td>gravel, paved, dirt</td>
 </tr>
-
 <tr>
 <td></td>
 <td>width</td>
@@ -713,11 +636,9 @@
 </tr>
 </tbody>
 </table>
-
 <p>Once completed with your data model, this data model should be checked by your stakeholders for any gaps. Additionally, your project plan should allow flexibility so that this data model can be adjusted with field testing and consulting your mappers.</p>
-
 <p><strong>Collecting private data</strong>
-<br>
+<!-- raw HTML omitted -->
 Private data should never be uploaded to OSM. However, some projects do require personal information to be collected. When this is the case, the data model can include unique non-OSM tags for private data that needs to be collected. When cleaning data following data collection, this private data can be kept in a full dataset before being removed. Once private data is removed, the dataset can be uploaded to OSM.</p>
 </div>
 
@@ -809,17 +730,15 @@ Private data should never be uploaded to OSM. However, some projects do require 
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
-<ul>
-<li><a href="#tools-for-creating-your-data-model">Tools for creating your data model</a></li>
-<li><a href="#creating-your-data-model">Creating your data model</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#resources-and-training-materials">Resources and Training Materials</a>
+      <ul>
+        <li><a href="#tools-for-creating-your-data-model">Tools for creating your data model</a></li>
+        <li><a href="#creating-your-data-model">Creating your data model</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

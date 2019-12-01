@@ -334,79 +334,58 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">7.2 Creating Maps and Atlases in QGIS</h1>
-
-<p>This section covers the skills necessary to create maps and atlases in QGIS:</p>
-
+           <h1 class="page-title">7.2 Creating Maps and Atlases in QGIS</h1><p>This section covers the skills necessary to create maps and atlases in QGIS:</p>
 <ul>
 <li>Preparing map data</li>
 <li>Creating a Map Layout</li>
 <li>Atlas navigation and creation</li>
 <li>Creating map and atlas templates</li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="overview">Overview</h2>
-
 <p>Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</p>
-
 <p><strong>HOT Project Examples:</strong></p>
-
 <ul>
 <li><a href="https://drive.google.com/file/d/1yQK8wjZK2mMtGVc3G6srNKHlf0SZTyv1/view?usp=sharing">Open Cities in Monrovia, Liberia</a></li>
 <li><a href="https://drive.google.com/file/d/143pmRsdrJoyzlEisY0vTCQqs8qAM03Dy/view">LEGIT in Liberia</a></li>
 <li><a href="http://ramanihuria.org/data/">Ramani Huria in Dar es Salaam, Tanzania</a> (Dar es Salaam, Tanzania)</li>
 </ul>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="resources-and-training-materials">Resources and Training Materials</h2>
-
 <p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
-
-<p><img src="../../../images/learning_icon_wide.PNG" alt="" />
+<p><img src="../../../images/learning_icon_wide.PNG" alt="">
 <em>The following section is designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.</em></p>
-
 <p>The following guide provides instructions and screenshots from QGIS 3.4. Versions before or after may have different icons and steps.</p>
-
 <p><strong>Skills and technology needed:</strong></p>
-
 <ul>
 <li>Installation of QGIS</li>
 <li>Navigating QGIS and adding data</li>
 <li>GIS data files (i.e. shapefiles, geojson)
-
 <ul>
 <li>Example shapefiles <a href="https://drive.google.com/open?id=1eEzawHzEueVOBuRNJwpX_YeynTOnrbDs">zip</a></li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>This activity covers the process of generating and configuring a map and atlas in print layout. Example shapefiles are provided for this activity but can be followed with shapefiles provided by the user.</p>
-
 <h3 id="1-preparing-map-data">1. Preparing map data</h3>
-
 <p>Before creating an atlas, you will need to add and style layers. While styling layers, you will need to consider how the layers will look in print composer. As maps in the atlas may be at varying scales, it may be necessary to return to styling after generating the atlas to make adjustments.</p>
-
-<p>To follow along with the practice steps, add the following vector data to your map:
-*   Dar_sub-wards_EPSG_4326
-*   Dar_wards_EPSG_4326</p>
-
+<p>To follow along with the practice steps, add the following vector data to your map:</p>
+<ul>
+<li>Dar_sub-wards_EPSG_4326</li>
+<li>Dar_wards_EPSG_4326</li>
+</ul>
 <p>Change the background color of the project. Open the ‘Project’ menu from the top toolbar, select ‘Properties’. Under general settings, change the background color to blue.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial1.gif" alt="" /></p>
-
-<p>Style the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:
-*   Select ‘Simple Fill’ from the upper left window.
-*   Change ‘Symbol layer type’ to ‘Outline: Simple Line’
-*   Change the color to purple.
-*   Change the ‘Pen style’ to ‘Dash Dot Line’
-*   Select ‘Apply’ and then ‘OK’.</p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial1.gif" alt=""></p>
+<p>Style the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:</p>
+<ul>
+<li>Select ‘Simple Fill’ from the upper left window.</li>
+<li>Change ‘Symbol layer type’ to ‘Outline: Simple Line’</li>
+<li>Change the color to purple.</li>
+<li>Change the ‘Pen style’ to ‘Dash Dot Line’</li>
+<li>Select ‘Apply’ and then ‘OK’.</li>
+</ul>
 <p>Duplicate the ward layer (Dar_wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Duplicate’. Right-click on the copy layer and select rename. Rename this layer as ‘Ward_grey_background’.</p>
-
 <p>Style the ‘Ward_grey_background’ layer by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:</p>
-
 <ul>
 <li>Select ‘Simple Fill’ from the upper left window.</li>
 <li>Change ‘Symbol layer type’ to ‘Simple fill’</li>
@@ -414,9 +393,7 @@
 <li>Change the ‘Outline style’ to ‘No pen’.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
 </ul>
-
 <p>Style the sub-ward layer (Dar_sub-wards_EPSG_4326) by right-clicking on the name in the Layers Panel and selecting ‘Properties’. In the pop-up window, select ‘Style’ from the side menu. Style as described below:</p>
-
 <ul>
 <li>Select ‘Simple Fill’ from the upper left window.</li>
 <li>Change ‘Symbol layer type’ to ‘Outline: Simple Line’</li>
@@ -424,33 +401,23 @@
 <li>Change the ‘Pen style’ to ‘Dot’.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
 </ul>
-
 <p>After styling the sub-ward layer (Dar_sub-wards_EPSG_4326), select ‘Labels’ from the side menu in ‘Properties’.</p>
-
 <ul>
 <li>In the top drop down menu, change the option from ‘No Labels’ to ‘Show labels for this layers’.</li>
 <li>For ‘Label with’, select the option ‘Ward_Name’ from the drop-down menu.</li>
 <li>Change your ‘Text’ options such as font, font size, font color, etc.</li>
 <li>Select ‘Apply’ and then ‘OK’.</li>
 </ul>
-
 <p>After styling all layers, ensure that your layers are in the following order in your layers panel. (To adjust layer ordering, left-click and hold on a layer and then drag up or down in the list.)</p>
-
 <ul>
 <li>Dar_wards_EPSG_4326</li>
 <li>Dar_sub-wards_EPSG_4326</li>
-<li>Ward_grey_background
-<br /></li>
+<li>Ward_grey_background</li>
 </ul>
-
 <h3 id="2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</h3>
-
 <p>Open the ‘Project’ menu from the main toolbar, and select ‘New Print Layout’. In the pop-up window, create a title for your map. This can be a unique name to describe your map’s purpose such as “Dar Sub-Wards”. A new window will be created with a blank page. This shows how your map will look printed out.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial2.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial2.gif" alt=""></p>
 <p>At minimum, you will need to add the following common elements of a map to the map canvas:</p>
-
 <ul>
 <li>Map</li>
 <li>Title</li>
@@ -458,76 +425,45 @@
 <li>Scale Bar</li>
 <li>North arrow</li>
 </ul>
-
 <p>Each of these elements can be added by opening the ‘Add Item’ menu on the top toolbar or by using the quick access buttons on the left-hand toolbar.</p>
-
 <p>Add your map by selecting ‘Add Map’ from the ‘Add Item’ menu (<em>alt: use the Add Map tool from the left-hand toolbar</em>). You will need to draw the box by clicking and dragging the corners.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial3.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial3.gif" alt=""></p>
 <p>Add a title to your map by selecting ‘Add Label’ from the ‘Add Item’ menu (<em>alt: use the Add Label tool from the left-hand toolbar</em>). Like the map, you will need to draw the box by clicking and dragging the corners. The default text is ‘Lorem ipsum’. This can be changed in the ‘Item Properties’ panel. Change the font and size of your title.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial4.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial4.gif" alt=""></p>
 <p>Add a legend to your map by selecting ‘Add Legend’ from the ‘Add Item’ menu. The size of the Legend will be generated based on its contents. You can change the size as well as add or remove legend items in the ‘Item Properties’ panel.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial5.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial5.gif" alt=""></p>
 <p>Add a scale bar to your map by selecting ‘Add Scalebar’ from the ‘Add Item’ menu. Like the map, you will need to draw the box by clicking and dragging the corners.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial6.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial6.gif" alt=""></p>
 <p>North arrow can be added by selecting ‘Add Image’. Like the map, you will need to draw the box by clicking and dragging the corners. In the ‘Item Properties’ panel, open the ‘Search Directories’ option to select from a choice of symbols.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial7.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial7.gif" alt=""></p>
 <p>Move these items around your Map Canvas until you are pleased with the layout of your map. Think of your audience: will they understand the information you want to convey?</p>
-
 <h3 id="3-saving-maps">3. Saving Maps</h3>
-
 <p>At this stage, you can decide if you want to save the map as a single map or move on to generate an atlas. If you would like to save the current map as a stand-alone map, open the &lsquo;Layout&rsquo; Menu and select one of the &lsquo;Export as&hellip;&rsquo; options depending on your file preference.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial8.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial8.gif" alt=""></p>
 <h3 id="4-atlas-generation">4. Atlas Generation</h3>
-
 <p>After completing the layout for your map, you are ready to generate the atlas. Select the map box and in the &lsquo;Item Properties&rsquo; panel, check the box for &lsquo;Controlled by Atlas&rsquo;.</p>
-
 <p>In the right-hand panel, select the tab for ‘Atlas generation’, near the ‘Composition’ and ‘Item properties’ tabs. If this tab is not appearing, select the ‘Atlas’ menu from the top toolbar, then select &lsquo;Atlas Settings’.</p>
-
 <p>In the ‘Atlas’ panel, check the box next to ‘Generate an atlas’ to begin configuring your atlas.</p>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial9.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial9.gif" alt=""></p>
 <h3 id="5-configuration">5. Configuration</h3>
-
 <p>The configuration options in the atlas generation panel controls how the atlas is generated.</p>
-
 <ol>
 <li>The ‘Coverage layer’ is the layer that contains the geographic areas of interest for your atlas. For example, for an atlas showing maps of each district you will need to select your district layer.</li>
 <li>‘Page name’ allows you to name pages by either selecting an attribute from the coverage layer or building an expression from attribute table values.</li>
 <li>If you do not want to show all areas included in your coverage layer, ‘Filter with’ allows you to filter out geographic areas that you do or do not want to include in your atlas. This option requires an expression to be built.</li>
 <li>‘Sort by’ allows you to order your atlas by an attribute of your coverage layer.</li>
 </ol>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial10.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial10.gif" alt=""></p>
 <p><em>Practice</em></p>
-
 <ul>
 <li>Select ‘Dar_sub-wards_EPSG_4326’ as the coverage layer.</li>
 <li>For page name, select ‘Vil_Mtaa_N’. (This field is the sub-ward name.)</li>
 <li>Check the box for ‘Sort by’ and select ‘Vil_Mtaa_N’. (This field is the sub-ward name.)</li>
 </ul>
-
 <h3 id="6-atlas-toolbar-and-navigation">6. Atlas Toolbar and Navigation</h3>
-
 <p>Once the atlas is generated, you will be able to preview and navigate through the atlas with the atlas toolbar. To navigate, first select the ‘Preview atlas’ button. Changes can be made to the atlas layout while in preview mode.</p>
-
-<h3 id="7-building-expressions-for-data-driven-text">7. Building expressions for data-driven text</h3>
-
+<h3 id="7-building-expressions-for-datadriven-text">7. Building expressions for data-driven text</h3>
 <p>Expressions allow for text such as labels and titles to be data-driven, or generated from attributes. When working with an atlas, expressions take attributes from the coverage layer.</p>
-
 <ol>
 <li>Text that is not data driven should be written within single quote marks. Example: ‘Map’</li>
 <li>Spaces between words should be indicated with a space within single quote marks. Example:   ‘Map of ’</li>
@@ -535,25 +471,22 @@
 <li>Data-driven text, or text that is generated from attributes, can be selected from the ‘Fields and Values’ list. Example: ‘Map of ’ || “Ward_Name”</li>
 <li>An ‘Output preview’ will generate at the bottom of the expression builder window.</li>
 </ol>
-
-<p><img src="../../../images/advanced_qgis/atlas_tutorial11.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlas_tutorial11.gif" alt=""></p>
 <p><em>Practice</em></p>
-
 <ul>
-<li>Select or create your title box and select “Insert expression” in the ‘Item Properties’ panel.</li>
-
-<li><p>Use the ‘Fields and Values’ list to generate the following expression:</p>
-
-<p>&ldquo;Vil_Mtaa_N&rdquo; || &lsquo;, &rsquo; ||  &ldquo;Ward_Name&rdquo;</p></li>
-
-<li><p>Check the output preview to make sure the expression was typed correctly.</p></li>
+<li>
+<p>Select or create your title box and select “Insert expression” in the ‘Item Properties’ panel.</p>
+</li>
+<li>
+<p>Use the ‘Fields and Values’ list to generate the following expression:</p>
+<p>&ldquo;Vil_Mtaa_N&rdquo; || &lsquo;, ' ||  &ldquo;Ward_Name&rdquo;</p>
+</li>
+<li>
+<p>Check the output preview to make sure the expression was typed correctly.</p>
+</li>
 </ul>
-
 <h3 id="7-inverse-polygon-layer">7. Inverse polygon layer</h3>
-
 <p>Adding an inverse polygon layer can focus the map by shading out or completely covering features outside your area of interest.</p>
-
 <ol>
 <li>Return to the main QGIS window.</li>
 <li>Select the layer used as the coverage layer in the Print Composer. Right-click and select ‘Duplicate’</li>
@@ -568,21 +501,15 @@
 <li>Change the color to dark grey.</li>
 <li>Click ‘Ok’ to exit all option windows.</li>
 </ol>
-
-<p><img src="../../../images/advanced_qgis/atlast_inverse_poly0.gif" alt="" /></p>
-
+<p><img src="../../../images/advanced_qgis/atlast_inverse_poly0.gif" alt=""></p>
 <p><em>Practice</em>:</p>
-
 <ul>
 <li>Complete all steps above.</li>
 <li>For step 2, this will be the “Dar_sub-wards_EPSG_4326” layer.</li>
 <li>For step 3, rename the file “inverse_sub-wards”.</li>
 </ul>
-
 <h3 id="8-adding-overview-maps">8. Adding overview maps</h3>
-
 <p>Overview maps allow the audience to understand the map’s focal location within the context of a larger area. For example, an overview map may show a ward’s location within the city. In QGIS, an overview map can be created that will automatically show the map location for each atlas page.</p>
-
 <ol>
 <li>In the main QGIS window, select the layers you would like to have in the overview map. These should typically be layers that can be viewed easily on a small scale (i.e. boundaries, highways, waterways). Multiple layers can be selected at a time by holding Ctrl on your keyboard while selecting.</li>
 <li>Right-click on these layers and select ‘Duplicate’.</li>
@@ -598,54 +525,38 @@
 <li>In the ‘Items Properties’ panel, open the ‘Layers’ option and select ‘Lock layers’. This will keep the limited layers while allowing for the main map to show all layers.</li>
 <li>Return to the Main QGIS window. Turn off all grouped overview layers and turn on the other layers.</li>
 </ol>
-
 <p><em>Practice</em></p>
-
 <ul>
 <li>Follow all steps above.</li>
-<li>For Step 1, select the layers ‘Dar_wards_EPSG_4326 copy’, ‘Dar_sub-wards<em>EPSG</em> 4326 copy’, and ‘Ward_grey_background copy’.’</li>
+<li>For Step 1, select the layers ‘Dar_wards_EPSG_4326 copy’, ‘Dar_sub-wards_EPSG_ 4326 copy’, and ‘Ward_grey_background copy’.’</li>
 </ul>
-
 <h3 id="9-atlas-review">9. Atlas Review</h3>
-
 <p>After completing the layout and atlas generation, it is important to check each page of the atlas for correct expression generation (i.e. all pages are correctly titled) and that the appearance of layers and labels in each map appear correctly. If there is a large difference between map scales for different pages, styles, labels, grids, and other factors may need to be adjusted to best suit all map scales.</p>
-
 <p><em>Practice:</em></p>
-
 <ul>
 <li>Use the ‘Atlas toolbar’ to navigate through your atlas pages.</li>
 <li>For each page, check:
-
 <ul>
 <li>Map layer visibility</li>
 <li>Label visibility</li>
 <li>Expression-driven text (i.e. title, additional text boxes)</li>
 <li>Scalebar size and placement</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h3 id="10-output-filename-expression">10. Output filename expression</h3>
-
 <p>Prior to exporting the atlas, an output filename expression needs to be built. This expression will determine the name for each page of the exported atlas files. See ‘Building expressions’ for instructions on building expressions.</p>
-
 <p>The default expression is ‘output_’||@atlas_featurenumber which will produce a filename such as “Output 3”. This can be changed to create a more accurate filename for your maps.</p>
-
 <p><em>Practice:</em></p>
-
 <ul>
 <li>Select the expression builder button</li>
-<li>Build the expression: &ldquo;District<em>N&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Ward<em>Name&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Vil_Mtaa_N&rdquo;</li>
+<li>Build the expression: &ldquo;District_N&rdquo; || &lsquo;<em>&rsquo; ||  &ldquo;Ward_Name&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Vil_Mtaa_N&rdquo;</li>
 <li>Check the output preview at the bottom of the expression builder to make sure that the expression has been built correctly.</li>
 </ul>
-
 <h3 id="11-exporting-atlas">11. Exporting Atlas</h3>
-
 <p>To export the atlas, select the ‘Export Atlas’ button in the Atlas tool bar. Select the appropriate file type (Export as Images, Export as SVG, or Export as PDF) and select the folder where the files will be exported to.</p>
-
 <h3 id="12-atlas-templates">12. Atlas Templates</h3>
-
 <p>Atlas templates can be saved and added to other QGIS projects. To save a template, open the ‘Project’ menu from the top toolbar and select ‘Save as Template’. This will save as a Composer Template (*.qpt *.QPT) file.</p>
-
 <p>To add the template to another project, open a new print composer. Open the ‘Project’ menu from the top toolbar and select ‘Add items from Template’. Note: items will be sized to the original document page size. Item sizes may need to be adjusted if the new project is using a different page size.</p>
 </div>
 
@@ -737,28 +648,26 @@
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#resources-and-training-materials">Resources and Training Materials</a>
-<ul>
-<li><a href="#1-preparing-map-data">1. Preparing map data</a></li>
-<li><a href="#2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</a></li>
-<li><a href="#3-saving-maps">3. Saving Maps</a></li>
-<li><a href="#4-atlas-generation">4. Atlas Generation</a></li>
-<li><a href="#5-configuration">5. Configuration</a></li>
-<li><a href="#6-atlas-toolbar-and-navigation">6. Atlas Toolbar and Navigation</a></li>
-<li><a href="#7-building-expressions-for-data-driven-text">7. Building expressions for data-driven text</a></li>
-<li><a href="#7-inverse-polygon-layer">7. Inverse polygon layer</a></li>
-<li><a href="#8-adding-overview-maps">8. Adding overview maps</a></li>
-<li><a href="#9-atlas-review">9. Atlas Review</a></li>
-<li><a href="#10-output-filename-expression">10. Output filename expression</a></li>
-<li><a href="#11-exporting-atlas">11. Exporting Atlas</a></li>
-<li><a href="#12-atlas-templates">12. Atlas Templates</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#resources-and-training-materials">Resources and Training Materials</a>
+      <ul>
+        <li><a href="#1-preparing-map-data">1. Preparing map data</a></li>
+        <li><a href="#2-creating-a-map-layout-in-print-layout">2. Creating a Map Layout in Print Layout</a></li>
+        <li><a href="#3-saving-maps">3. Saving Maps</a></li>
+        <li><a href="#4-atlas-generation">4. Atlas Generation</a></li>
+        <li><a href="#5-configuration">5. Configuration</a></li>
+        <li><a href="#6-atlas-toolbar-and-navigation">6. Atlas Toolbar and Navigation</a></li>
+        <li><a href="#7-building-expressions-for-datadriven-text">7. Building expressions for data-driven text</a></li>
+        <li><a href="#7-inverse-polygon-layer">7. Inverse polygon layer</a></li>
+        <li><a href="#8-adding-overview-maps">8. Adding overview maps</a></li>
+        <li><a href="#9-atlas-review">9. Atlas Review</a></li>
+        <li><a href="#10-output-filename-expression">10. Output filename expression</a></li>
+        <li><a href="#11-exporting-atlas">11. Exporting Atlas</a></li>
+        <li><a href="#12-atlas-templates">12. Atlas Templates</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
     <hr class="toc-divider">

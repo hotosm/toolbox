@@ -27,9 +27,9 @@
       
       <guid>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
       <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
-Skills and Technology Needed * JOSM
-Step 1. Create folders Create the folder structure for the data cleaning process.
- Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
+Skills and Technology Needed
+ JOSM   Step 1. Create folders Create the folder structure for the data cleaning process.
+ Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]    Step 2.</description>
     </item>
     
     <item>

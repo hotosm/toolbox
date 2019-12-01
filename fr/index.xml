@@ -17,8 +17,7 @@
       
       <guid>/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</guid>
       <description>Dans cette section, les gestionnaires de projets trouveront des guides, des outils et des ressources pour concevoir un projet de cartographie, notamment:
- Considérations et guides de questions pour déterminer les facteurs de projets tel que la portée, l’échelle et la logistique; Ressources pour la sélection du matériel; Guides et matériels pour la planification des ateliers/formations  
-Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cela varie selon les contexte.</description>
+ Considérations et guides de questions pour déterminer les facteurs de projets tel que la portée, l’échelle et la logistique; Ressources pour la sélection du matériel; Guides et matériels pour la planification des ateliers/formations     [1.1 Définir les besoins et les exigences] (https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/) pose des questions à répondre lors de la définition de la portée du projet, tel que son objectif, son échelle géographique, et quelles sont les caractériques à cartographier, tout en veillant à ce que le projet prenne en compte les divers contextes et parties prénantes impliqué dans le projets.</description>
     </item>
     
     <item>
@@ -28,8 +27,9 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       
       <guid>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
       <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour diriger et mettre en œuvre des activités d’édition OpenStreetMap organisées, notamment:
- Présentations et guides pas à pas pour présenter OpenStreetMap aux équipes et outils d&amp;rsquo;édition tels que HOT Tasking Manager. Ressources permettant de déterminer si votre projet doit respecter les directives de montage organisé de l&amp;rsquo;OSM
- Guides détaillés et activités de formation pour les équipes de numérisation à utiliser lors de la validation et du téléchargement des données</description>
+  Présentations et guides pas à pas pour présenter OpenStreetMap aux équipes et outils d&#39;édition tels que HOT Tasking Manager.
+  Ressources permettant de déterminer si votre projet doit respecter les directives de montage organisé de l&#39;OSM
+  Guides détaillés et activités de formation pour les équipes de numérisation à utiliser lors de la validation et du téléchargement des données</description>
     </item>
     
     <item>
@@ -48,9 +48,8 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-export/6.0-data-export-tools/</guid>
-      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&amp;rsquo;exporter les données OpenStreetMap, notamment:
- Un aperçu des outils d&amp;rsquo;exportation de données, y compris des diapositives de présentation
- Guides étape par étape pour exporter des données avec l&amp;rsquo;outil d&amp;rsquo;exportation HOT et HDX  Les outils d&amp;rsquo;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&amp;rsquo;analyse tels que QGIS.</description>
+      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&#39;exporter les données OpenStreetMap, notamment:
+ Un aperçu des outils d&#39;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&#39;outil d&#39;exportation HOT et HDX   Les outils d&#39;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&#39;analyse tels que QGIS.</description>
     </item>
     
     <item>
@@ -59,10 +58,10 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</guid>
-      <description>Cette section comprend des questions d&amp;rsquo;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&amp;rsquo;un projet, notamment:
- Facteurs à prendre en compte quand on décide de quoi cartographier;
- Contextes pouvant avoir un impact sur la planification et la préparation;
- Considérations à prendre en compte pour impliquer les parties prenantes, les communautés et la sélection de votre équipe.</description>
+      <description>Cette section comprend des questions d&#39;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&#39;un projet, notamment:
+  Facteurs à prendre en compte quand on décide de quoi cartographier;
+  Contextes pouvant avoir un impact sur la planification et la préparation;
+  Considérations à prendre en compte pour impliquer les parties prenantes, les communautés et la sélection de votre équipe.</description>
     </item>
     
     <item>
@@ -72,8 +71,6 @@ Il n’y a pas qu’un seul moyen de collecter de données sur le terrain et cel
       
       <guid>/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</guid>
       <description>Dans cette section, les responsables de projet trouveront des questions et des considérations sur l’évaluation des besoins en matière de sécurité, de sûreté et de logistique pour les opérations sur le terrain.
-
-
 Overview Pour les projets nécessitant un travail sur le terrain, vous devrez prendre des mesures supplémentaires pour vous assurer que la logistique et la sécurité sont efficacement gérées. Vous trouverez ci-dessous des sujets que les responsables de projet devraient considérer et planifier avant d’entrer sur le terrain.</description>
     </item>
     
@@ -84,8 +81,9 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/running-a-mapping-project/1.3-hardware/</guid>
       <description>Dans cette section, les gestionnaires de projet trouveront des informations sur la sélection du matériel approprié pour mener un projet de cartographie, notamment:
- Déterminer quel matériel pourrait être nécessaire ou non. Spécifications et recommandation des models pour les appareils portable, les tablettes et les ordinateurs en fonction des besoins du projet.
- Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&amp;rsquo;alimentation et les disques durs.</description>
+  Déterminer quel matériel pourrait être nécessaire ou non.
+  Spécifications et recommandation des models pour les appareils portable, les tablettes et les ordinateurs en fonction des besoins du projet.
+  Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&#39;alimentation et les disques durs.</description>
     </item>
     
     <item>
@@ -95,7 +93,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/</guid>
       <description>Dans cette section, les responsables de projet trouveront des informations sur les considérations et les ressources à utiliser lors de la planification de formations et d’ateliers sur la cartographie et l’OSM, notamment:
- Orientations sur les exigences de formation Exemples et ressources pour créer des programmes de formation Considérations pour les présentations et autres matériaux fournis.   Overview La plupart des projets de cartographie comporteront des formations ou des ateliers, qu’il s’agisse de former les cartographes de terrain à utiliser OpenDataKit, de former les parties prenantes des gouvernements locaux à l’exportation et l’utilisation des données OSM ou de former les étudiants à QGIS pour la création de cartes.</description>
+ Orientations sur les exigences de formation Exemples et ressources pour créer des programmes de formation Considérations pour les présentations et autres matériaux fournis.  Overview La plupart des projets de cartographie comporteront des formations ou des ateliers, qu’il s’agisse de former les cartographes de terrain à utiliser OpenDataKit, de former les parties prenantes des gouvernements locaux à l’exportation et l’utilisation des données OSM ou de former les étudiants à QGIS pour la création de cartes.</description>
     </item>
     
     <item>
@@ -104,8 +102,8 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
-      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&amp;rsquo;un projet de cartographie sur le terrain, notamment:
- Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&amp;rsquo;applications telles que OpenMapKit  Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
+      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&#39;un projet de cartographie sur le terrain, notamment:
+ Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&#39;applications telles que OpenMapKit   Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
     </item>
     
     <item>
@@ -115,7 +113,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
       <description>Cette section fournit:
- Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données   Overview Lors du démarrage d&amp;rsquo;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
+ Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données   Overview Lors du démarrage d&#39;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
     </item>
     
     <item>
@@ -125,8 +123,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>Cette partie montre:
- Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&amp;rsquo;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  
-Généralités Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&amp;rsquo;une application à utiliser dépend de la capacité de l&amp;rsquo;appareil mobile, des conditions d&amp;rsquo;installation qui peuvent varier et selon les besoins de la collecte.</description>
+ Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&#39;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Généralités Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&#39;une application à utiliser dépend de la capacité de l&#39;appareil mobile, des conditions d&#39;installation qui peuvent varier et selon les besoins de la collecte.</description>
     </item>
     
     <item>
@@ -136,8 +133,7 @@ Généralités Plusieurs applications mobiles existent pour faciliter la collect
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>Cette rubrique présente:
- Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&amp;rsquo;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  
-Overview OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
+ Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&#39;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Overview OpenDataKit (ODK) est un ensemble d&#39;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
     </item>
     
     <item>
@@ -147,8 +143,7 @@ Overview OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-s
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
       <description>Cette partie du manuel présente:
- Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  
-Overview Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.</description>
+ Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  Overview Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.Bien que les outils de navigation ne soient pas nécessaires pour la collecte de données, ils peuvent être extrêmement utiles aux équipes de collecte de données lorsqu&#39;elles se rendent sur le terrain, ainsi qu&#39;aux superviseurs et aux gestionnaires de projet pour faire le suivi de leurs équipes.</description>
     </item>
     
     <item>
@@ -158,7 +153,7 @@ Overview Plusieurs applications mobiles existent pour faciliter la navigation su
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
       <description>Cette rubrique présente:
- Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&amp;rsquo;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
+ Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&#39;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
     </item>
     
     <item>
@@ -168,9 +163,9 @@ Overview Plusieurs applications mobiles existent pour faciliter la navigation su
       
       <guid>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-omk-field-data-cleaning-workflow/</guid>
       <description>After field data collection with OMK, clean the data before upload to OSM. Below is an example version of the OMK Field Data Cleaning Procedure. This is provided for guidance but should be modified as needed.
-Skills and Technology Needed * JOSM
-Step 1. Create folders Create the folder structure for the data cleaning process.
- Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]   Step 2.</description>
+Skills and Technology Needed
+ JOSM   Step 1. Create folders Create the folder structure for the data cleaning process.
+ Create primary working folder: [omk_field_data_cleaning] Create a container folder: [village_name]_[current-date]. For example: akweteyman_2019-01-31 Create a sub-folders within the container folder:  Add a folder for the raw data: /01_raw_[yourOSMname] Add a folder for the working data: /02_working_[yourOSMname] Add a folder for the final data: /03_final_[yourOSMname]    Step 2.</description>
     </item>
     
     <item>
