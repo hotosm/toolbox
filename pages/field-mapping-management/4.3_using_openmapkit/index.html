@@ -205,7 +205,7 @@
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/4.2_using_odk_collect/" class="menu-link">4.2 Using ODK Collect</a></li>
                     
-                        <li class="page"><a href="../../../pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link menu-link--active">4.3 Using OpenMapKit</a></li>
+                        <li class="page"><a href="../../../pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link menu-link--active">4.3 Utilisation de OpenMapKit</a></li>
                     
                         <li class="page"><a href="../../../pages/field-mapping-management/4.4_using_osm_tracker/" class="menu-link">4.4 Using OSMTracker</a></li>
                     
@@ -326,139 +326,141 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/233d873ac5b05ef1c054e6e2c1759684d16c3fd1" class="sub-title sub-title-14" title='Last modified November 25, 2019 by jessbeutler' target="_blank" rel="noopener">
-      Last modified: November 25, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/8e25c9a80d7499557fc488182556cde7cd6fc74c" class="sub-title sub-title-14" title='Last modified December 1, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Last modified: December 1, 2019
     </a>
   </div>
   
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">4.3 Using OpenMapKit</h1><p>This guide provides <strong>surveyors, mappers and field supervisors</strong> with the skills to:</p>
+           <h1 class="page-title">4.3 Utilisation de OpenMapKit</h1><p>Ce guide fournit aux <strong>enquêteurs, aux mappeurs et aux superviseurs</strong> sur le terrain les compétences nécessaires pour:</p>
 <ul>
-<li>Configure OpenMapKit on devices for individual use and data collection</li>
-<li>Operate <em>OpenMapKit</em> for field data collection</li>
+<li>Configurer OpenMapKit sur des appareils à usage individuel et pour la collecte de données</li>
+<li>Utiliser OpenMapKit pour la collecte de données sur le terrain</li>
 </ul>
 <!-- raw HTML omitted -->
-<h2 id="overview">Overview</h2>
-<p><strong>OpenMapKit (OMK)</strong> is an additional application that is used to support <em>ODK Collect</em> in determining the position of objects found during precise and precise field surveys. <em>OpenMapKit</em> can be run through <em>ODK Collect</em>, after you open and select one of the available forms. In determining the location of an object, <em>OpenMapKit</em> requires a map background in the form of a satellite imagery or OSM map. If you use the OSM as the map background, the thing to note is that the data must be available on the OSM server.</p>
-<p>Prior to learning how to use <strong>OpenMapKit</strong>, users should know how to use <em>ODK (OpenDataKit) Collect,</em> an android-based application to replace paper form for surveys as OpenMapKit is an extension of  <em>ODK Collect</em>. This extension is used to add information on the position or location of the object surveyed.</p>
-<p>*If you have not yet completed the initial set-up OpenMapKit, see <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/">3.2.2 Setting up OpenMapKit</a> before proceeding.</p>
-<h2 id="resources-and-training-materials">Resources and Training Materials</h2>
-<p>This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</p>
+<h2 id="prsentation">Présentation</h2>
+<p><strong>OpenMapKit (OMK)</strong> est une application supplémentaire utilisée pour aider ODK Collect à déterminer la position des objets trouvés lors de la collecte de données bien précis. OpenMapKit peut être exécuté via ODK Collect, après avoir ouvert et sélectionnez un des formulaires disponibles. Pour déterminer l'emplacement d'un objet, OpenMapKit a besoin d'un fond de carte sous la forme d'une image satellite ou d'une carte OSM. Si vous utilisez OSM comme fond de carte, la chose à savoir est que les données doivent être disponibles sur le serveur OSM.</p>
+<p>Avant d'apprendre à utiliser <strong>OpenMapKit</strong>, les utilisateurs doivent savoir comment utiliser ODK (OpenDataKit) Collect, une application basée sur androïde pour remplacer le formulaire papier des enquêtes car OpenMapKit est une extension de ODK Collect. Cette extension permet d'ajouter des informations sur la position ou l'emplacement de l'objet étudié.</p>
+<p>*Si vous n'avez pas encore terminé la configuration initiale de OpenMapKit, voir <a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/">3.2.2 Configurer OpenMapKit</a> avant de continuer.</p>
+<h2 id="outils-et-supports-de-formation">Outils et supports de formation</h2>
+<p>Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
 <p><img src="../../../images/learning_icon_wide.PNG" alt="">
 <em>The following section is designed to serve as a self-paced guides for project managers, supervisors, or others in setting up the application.</em></p>
-<h3 id="configuring-openmapkit">Configuring OpenMapKit</h3>
-<p>Before you use <em>OpenMapKit</em>, you must first make sure each device is confirgured. The following are step by step instructions of the initial OpenMapKit Configuration:</p>
+<h3 id="configuration-de-openmapkit">Configuration de OpenMapKit</h3>
+<p>Avant d'utiliser OpenMapKit, vous devez d'abord vous assurer que chaque appareil est configuré et confirmé. Les instructions suivantes sont des étapes de la configuration initiale de OpenMapKit:</p>
 <ul>
-<li>On the home page of <em>OpenMapKit</em>, press <strong>the settings button</strong> located in the upper right corner. This will allow you to download deployments (if applicable), select a basemap, and select the OSM buildings layer.</li>
+<li>Sur la page d'accueil de OpenMapKit, appuyez sur le <strong>bouton Paramètres</strong> situé dans le coin supérieur droit. Cela vous permettra de télécharger les formulaires déployés (s'il y a lieu), de sélectionner une carte de base et de sélectionner la couche bâtiments de OSM.</li>
 </ul>
 <p><img src="../../../images/using-omk/omk_set-up.PNG" alt=""></p>
-<h4 id="1-deployments">1. Deployments</h4>
-<p>If using OpenMapKit Server and deployments, follow these steps to download files needed for field mapping. If not using deployments, skip to <em>2. Basemap</em>.</p>
+<h4 id="1-dploiements">1. Déploiements</h4>
+<p>Si vous utilisez OpenMapKit Server et les déploiements, suivez ces étapes pour télécharger les fichiers nécessaires à la cartographie sur le terrain. Si vous n'utilisez pas de déploiements, passez au 2. carte de base.</p>
 <ul>
-<li>Open the OpenMapKit app, tap on the Settings button in the top right corner, and select Deployments [1].</li>
-<li>Select the appropriate deployment (i.e. census-versalles). Select the black download button in the lower right corner.</li>
+<li>Ouvrez l'application OpenMapKit, appuyez sur le bouton Paramètres dans le coin supérieur droit, et sélectionnez Déploiements [1].</li>
+<li>Sélectionnez le type de déploiement adéquat. (i.e. census-versalles). Sélectionnez le bouton de téléchargement en noir dans le coin inférieur droit.</li>
 </ul>
-<h4 id="2-basemaps">2. Basemaps</h4>
-<p>By default, <em>OpenMapKit</em> will display the <em>Online Humanitarian OpenStreetMap</em> that can be accessed using an internet connection. However, if manually added to the device or downloaded through a deployment, an offline basemap can be opened without an internet connection.</p>
-<p>Select and change the <em>OpenMapKit basemap</em> by pressing <strong>the settings button</strong> located in the top right corner and pressing <strong><em>Basemap</em></strong> then select the <em>.mbtiles</em>. Then press <strong><em>OK</em></strong>.</p>
+<h4 id="2-cartes-de-base">2. Cartes de base</h4>
+<p>Par défaut, OpenMapKit affichera la carte OpenStreetMap humanitaire accessible en ligne via une connexion Internet. Toutefois, s'il est ajouté manuellement à l'appareil ou téléchargé via un déploiement, une carte de base hors ligne peut être affichée sans une connexion Internet.</p>
+<p>Sélectionnez et modifiez la carte de base OpenMapKit en appuyant sur le bouton Paramètres situé dans le coin supérieur droit et en appuyant sur <strong>Basemap</strong> puis sélectionnez le fichier.mbtiles. Appuyez ensuite sur OK.</p>
 <p><img src="../../../images/using-omk/0304_omk_basemap.png" alt="Display basemap settings in OpenMapKit"></p>
 <!-- raw HTML omitted -->
-<h4 id="3-osm-buildings-layer">3. OSM Buildings Layer</h4>
-<p><strong>Selecting an installed OSM File</strong> <!-- raw HTML omitted -->
-Open the OpenMapKit app, tap on the Settings button in the top right corner, and select OSM XML Layer [3]. Select the correct .osm layer for the locality that is being worked in.</p>
-<p><strong>Downloading OSM file</strong> <!-- raw HTML omitted -->
-If your device does not have an OSM buildings layer (.osm file) pre-loaded or a file was not downloaded with a deployment, users can still download an OSM buildings layer with an internet connection. Users will need to complete the following steps:</p>
+<h4 id="3-couche-de-btiments-osm">3. Couche de bâtiments OSM</h4>
+<p><strong>Sélection d'un fichier OSM installé</strong> <!-- raw HTML omitted -->
+Ouvrez l'application OpenMapKit, appuyez sur le bouton Paramètres dans le coin supérieur droit et sélectionnez OSM XML Layer[3]. Sélectionnez la bonne couche.osm pour la localité dans laquelle vous travaillez.</p>
+<p><strong>Téléchargement du fichier OSM</strong> <!-- raw HTML omitted -->
+Si votre appareil n'a pas de couche de bâtiments OSM (fichier.osm) préchargé ou si un fichier n'a pas été téléchargé avec un déploiement, les utilisateurs peuvent toujours télécharger une couche de bâtiments OSM avec une connexion Internet. Les utilisateurs devront suivre les étapes suivantes:</p>
 <ul>
-<li>Navigate the map to your current location (for example, you are already on the survey location) by pressing <strong>the round button</strong> in the lower right corner of the screen until the round button is colored blue. A black dot will appear at your current location.</li>
+<li>Naviguez sur la carte jusqu'à votre position actuelle (par exemple, vous êtes déjà sur la position du levé) en <strong>appuyant sur le bouton circulaire</strong> dans le coin inférieur droit de l'écran jusqu'à ce que le bouton circulaire soit de couleur bleue. Un point noir apparaîtra à votre position actuelle.</li>
 </ul>
 <pre><code>![Navigate to the current location in OpenMapKit](/images/using-omk/0305_omk_location.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Navigate to the current location in OpenMapKit&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Naviguer jusqu'à l'emplacement actuel dans OpenMapKit&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
 <li>
-<p>Press the <strong>settings button</strong> in the top right corner</p>
+<p>Appuyez sur le** bouton de réglage** dans le coin supérieur droit.</p>
 </li>
 <li>
-<p>Select <strong><em>OSM XML Downloader</em></strong> to start download OSM data according to the view on the screen of your smartphone (the duration depends on the size of the area). Make sure you are connected to an internet connection when downloading OSM data. Note the color of the building, the building on the OSM _basemap _have brown color and the building from <strong>_OSM XML Downloader _</strong> is purple.</p>
+<ul>
+<li>Sélectionnez OSM XML Downloader pour lancer le téléchargement des données OSM en fonction de l'affichage sur l'écran de votre smartphone (la durée dépend de la taille de la zone). Assurez-vous d'être connecté à une connexion Internet lorsque vous téléchargez des données OSM. Remarquez la couleur du bâtiment, le bâtiment sur la carte de base OSM ont une couleur brune et le bâtiment de <em>OSM XML Downloader</em> est en violet.</li>
+</ul>
 </li>
 </ul>
 <pre><code>![Building colors](/images/using-omk/0306_warna_bangunan.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Building color on the OSM basemap (left) and downloaded building color (right)&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Couleur du bâtiment sur la carte de base OSM (à gauche) et couleur du bâtiment téléchargé (à droite) (right)&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>Your new downloaded OSM data will be saved in the format <em>.osm</em> which can be activated or deactivated via <strong>the settings button</strong> <strong>→ <em>OSM XML Layer</em></strong>.</li>
+<li>Vos nouvelles données OSM téléchargées seront sauvegardées dans le format.osm qui peut être activé ou désactivé via <strong>le bouton de réglage → Couche XML OSM.</strong></li>
 </ul>
 <pre><code>![OSM XML Downloader menu and OSM XML Layers menu](/images/using-omk/0307_xml_layer.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;OSM XML Downloader menu and OSM XML Layers menu&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Les options OSM XML Downloader et OSM XML Layers menu&lt;/i&gt;&lt;/p&gt;
 </code></pre>
-<h4 id="4-enter-osm-username">4. Enter OSM Username</h4>
-<p>Select <strong>OSM <em>User name</em></strong> OSM and enter your <em>User Name</em></p>
+<h4 id="4-entrer-le-nom-dutilisateur-osm">4. Entrer le nom d'utilisateur OSM</h4>
+<p>Sélectionnez <strong>OSM <em>User name</em></strong> et entrez votre nom d’utilisateur OSM</p>
 <p><img src="../../../images/using-omk/0302_setting_omk.png" alt="Display settings menu OpenMapKit"></p>
 <!-- raw HTML omitted -->
-<h3 id="using-openmapkit">Using OpenMapKit</h3>
-<p>Once you have configured your basemap and OSM layer, you can add the building information by:</p>
+<h3 id="utiliser-openmapkit">Utiliser OpenMapKit</h3>
+<p>Une fois que vous avez configuré votre carte de base et votre couche OSM, vous pouvez ajouter les informations sur le bâti par:</p>
 <ul>
 <li>
-<p>Select the building to which the information will be added. Make sure the building is purple which indicates that the building has been downloaded from OSM. If the building is selected, the color will change to orange.</p>
+<p>Sélectionnez le bâtiment sur lequel l'information sera ajoutée. Assurez-vous que le bâtiment est de couleur violette, ce qui indique que le bâtiment a été téléchargé de l'OSM. Si le bâtiment est sélectionné, la couleur passe à l'orange.</p>
 </li>
 <li>
-<p>You can fill the building information in accordance with the form you have chosen before in the <em>ODK Collect</em> application, with press the information tag in the first row located below.</p>
+<p>Vous pouvez remplir les informations sur le bâtiment selon le formulaire que vous avez choisi auparavant dans l'application ODK Collect, en appuyant sur les attributs au niveau de la première ligne en suivant l’exemple suivant:</p>
 </li>
 </ul>
 <pre><code>![Fill out building information using a form from ODK Collect](/images/using-omk/0308_mengisi_form_omk.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Fill out building information using a form from ODK Collect.&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Ajout d’information sur un bâtiment en utilisant un formulaire ODK collect&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>When done, at the end of the page select <strong><em>Save</em></strong> to save the form to <em>ODK Collect</em>. If you have completed filling in the form, the building that you fill in the information will look like this:</li>
+<li>Une fois terminé, à la fin de la page, sélectionnez Enregistrer pour enregistrer le formulaire dans ODK Collect. Si vous avez rempli le formulaire, le bâtiment que vous avez rempli ressemblera à ceci:</li>
 </ul>
 <pre><code>![The building that has been filled in the information](/images/using-omk/0309_tag_bangunan_omk.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Building that has been filled in the information&lt;/i&gt;&lt;/p&gt;  
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Bâtiment renseigné avec les informations correspondantes&lt;/i&gt;&lt;/p&gt;  
 </code></pre>
-<p>If the building data for location of your survey is not yet available in the OSM, you can map the building before conducting the survey. If you don’t have time to do the mapping, you can use points to mark the object in the <em>OpenMapKit</em> by:</p>
+<p>Si les données du bâtiment concernant le lieu de votre collecte ne sont pas encore disponibles dans OSM, vous pouvez cartographier le bâtiment avant de procéder à la collecte. Si vous n'avez pas le temps de faire le mapping, vous pouvez utiliser des points pour marquer l'objet dans OpenMapKit en:</p>
 <ul>
-<li>Press <strong>the plus (+) icon</strong> in the lower right corner of your screen until it turns green. It will appear green marker with the words <em>Add Node</em> on it. Slide the map until the location of the marker is accurate with the object in the field.</li>
+<li>Appuyez sur <strong>l'icône plus (+)</strong> dans le coin inférieur droit de votre écran jusqu'à ce qu'elle devienne verte. Il apparaîtra un marqueur vert avec les mots Ajouter un nœud dessus. Faites glisser la carte jusqu'à ce que l'emplacement du marqueur soit précis avec l'objet dans le terrain.</li>
 </ul>
 <pre><code>![Add marker using plus icon](/images/using-omk/0310_add_node_omk.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Add markers using the plus (+) icon&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Ajouter des marqueurs à l'aide de l'icône plus (+)&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>Press <strong><em>Add Node</em></strong> if the point is accurate</li>
+<li>Appuyez sur Ajouter un nœud si le point est précis.</li>
 </ul>
 <pre><code>![Add node button when adding a point](/images/using-omk/0311_tombol_add_node.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Add note button when add point&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Bouton Ajouter une note lors de l'ajout d'un point&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>If the point you add turns out to be in a position that is not in represent with the object in the field, you can move the point that has been added by clicking on the point to move then press the two arrow icon in the top right corner. The color of the point will turn orange and above it will be appear <em>Place Node</em>.</li>
+<li>Si le point que vous ajoutez se trouve dans une position qui n'est pas représentée par l'objet dans le terrain, vous pouvez déplacer le point qui a été ajouté en cliquant sur le point à déplacer puis appuyez sur les deux flèches dans le coin supérieur droit. La couleur du point deviendra orange et au-dessus apparaîtra Nœud de lieu.</li>
 </ul>
 <pre><code> ![Swipe points that have been added](/images/using-omk/0312_menggeser_node.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Swipe points that have been added&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Balayez les points qui ont été ajoutés&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>Slide the map to the accurate point position, then press <strong><em>Place Node</em></strong>.</li>
+<li>Faites glisser la carte jusqu'à la position exacte du point, puis appuyez sur Nœud de position.</li>
 </ul>
 <pre><code>![Place node button when shifting a point](/images/using-omk/0313_place_node.png)
 &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Place node button when shifting a point&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
 <li>
-<p>After the position is accurate as the object in the field, you can fill out the form the same as the previous step.</p>
+<p>Une fois que le positionnement est précis par rapport à l'objet dans la zone, vous pouvez remplir le formulaire de la même manière que l'étape précédente.</p>
 </li>
 <li>
-<p>Enter information that matches the conditions in the field. Swipe the screen right or left to change thepage questionon the form.</p>
+<p>Saisissez les informations qui correspondent aux conditions sur le terrain. Glissez l'écran vers la droite ou vers la gauche pour changer la page de la question sur le formulaire.</p>
 </li>
 <li>
-<p>At the end of the page, select <strong><em>Save</em></strong> to save the form to <em>ODK Collect</em>. If you finished to fill in forms, the marker that you fill in the information will look like this:</p>
+<p>À la fin de la page, sélectionnez Enregistrer pour enregistrer le formulaire dans ODK Collect. Si vous avez terminé de remplir les formulaires, le marqueur que vous avez rempli ressemblera à ceci:</p>
 </li>
 </ul>
 <pre><code>![the point of objects already loaded with informations](/images/using-omk/0314_finished_tag.png)
-&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Point of objects already loaded with informations&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Point d'objets déjà renseignés.&lt;/i&gt;&lt;/p&gt;
 </code></pre>
 <ul>
-<li>Now you can see the form has been successfully saved on the <em>ODK Collect</em>.</li>
+<li>Vous pouvez maintenant voir que le formulaire a été sauvegardé avec succès sur ODK Collect.</li>
 </ul>
-<p><em>Note: all OpenMapKit surveys will be launched from the ODK application.</em></p>
+<p><em>Remarque: toutes les enquêtes OpenMapKit seront lancées à partir de l'application ODK.</em></p>
 </div>
 
 
@@ -550,11 +552,11 @@ If your device does not have an OSM buildings layer (.osm file) pre-loaded or a 
         <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#resources-and-training-materials">Resources and Training Materials</a>
+    <li><a href="#prsentation">Présentation</a></li>
+    <li><a href="#outils-et-supports-de-formation">Outils et supports de formation</a>
       <ul>
-        <li><a href="#configuring-openmapkit">Configuring OpenMapKit</a></li>
-        <li><a href="#using-openmapkit">Using OpenMapKit</a></li>
+        <li><a href="#configuration-de-openmapkit">Configuration de OpenMapKit</a></li>
+        <li><a href="#utiliser-openmapkit">Utiliser OpenMapKit</a></li>
       </ul>
     </li>
   </ul>
