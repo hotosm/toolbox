@@ -106,6 +106,17 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
     </item>
     
     <item>
+      <title>2.6 Résolution des conflits dans JOSM</title>
+      <link>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
+      <description>Cette section contient:
+ Un aperçu de conflit de données dans OpenStreetMap Etape-par-étape de résolution de conflit dans JOSM Guide de prévention et de gestion de conflit de données  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
+ Aperçu Quand vous chargez vos données dans JOSM, d’autre contributeurs peuvent être entrain d’éditer dans votre zone.</description>
+    </item>
+    
+    <item>
       <title>3.0 Introduction à la configuration technique pour la cartographie sur le terrain</title>
       <link>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
