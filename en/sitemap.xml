@@ -564,6 +564,16 @@
   <url>
     <loc>/pages/field-mapping-management/4.4_using_osm_tracker/</loc>
     <lastmod>2019-11-25T18:30:46+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/field-mapping-management/4.4_using_osm_tracker/"
+                />
   </url>
   
   <url>

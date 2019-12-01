@@ -40,5 +40,15 @@
  Configurer OpenMapKit sur des appareils à usage individuel et pour la collecte de données Utiliser OpenMapKit pour la collecte de données sur le terrain  Présentation OpenMapKit (OMK) est une application supplémentaire utilisée pour aider ODK Collect à déterminer la position des objets trouvés lors de la collecte de données bien précis. OpenMapKit peut être exécuté via ODK Collect, après avoir ouvert et sélectionnez un des formulaires disponibles.</description>
     </item>
     
+    <item>
+      <title>4.4 Utilisation de OSMTracker</title>
+      <link>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
+      <description>Cette section fournit aux enquêteurs, aux mappeurs et aux superviseurs sur le terrain les compétences nécessaires pour:
+ Faire la configuration de base pour OSMTracker Utiliser OSM Tracker pour enregistrer des pistes, des images et des notes  Aperçu OSMTracker est une application Android qui nous permet d&#39;enregistrer les données de nos enquêtes. Semblable au GPS, OSMTracker est capable d&#39;enregistrer des points et des trajets de waypoint. Ce qui rend OSMTracker différent avec un appareil GPS commun, c&#39;est sa capacité à prendre des photos lorsque vous collectez des données.</description>
+    </item>
+    
   </channel>
 </rss>

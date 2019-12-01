@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body   data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/toolbox/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/toolbox" class="no-underline"><h4 class="title site-title">HOT Toolbox</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+    </div>
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+        <a href="../../../../fr/fr/pages/field-mapping-management/4.4_using_osm_tracker/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français</a>
+        
+        
+            
+        <a href="../../../../fr/pages/field-mapping-management/4.4_using_osm_tracker/" class="language-select-option 
+        
+        ">English</a>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Introduction à la boîte à outils HOT
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/introduction/how_to_use_toolbox/" class="menu-link">Comment utiliser la boîte à outils HOT</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Conception et coordination d&#39;un projet de cartographie
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/" class="menu-link">1.0  Introduction à la conception d’un projet de cartographie</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/" class="menu-link">1.1 Définition des besoins et des exigences</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/" class="menu-link">1.2 Sûreté, sécurité et logistique</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.3-hardware/" class="menu-link">1.3 Sélection du matériel</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="menu-link">1.4 Formations et Ateliers</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            La numérisation et à l&#39;édition dans OSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.0-digitization-and-editing/" class="menu-link">2.0 Introduction à la numérisation et à l&#39;édition dans OSM</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Technical Set-up
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/" class="menu-link">3.0 Introduction à la configuration technique pour la cartographie sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/" class="menu-link">3.1 Conception du modèle de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/" class="menu-link">3.2 Les outils de collecte de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="menu-link">3.2.1 Configuration de OpenDataKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/" class="menu-link">3.2.2 Configuration de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/" class="menu-link">3.3 Les applications de navigation</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/" class="menu-link">3.4 Serveurs de collecte de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="menu-link">4.1 Gestion des équipes sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.2_using_odk_collect/" class="menu-link">4.2 Utilisation de ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link">4.3 Utilisation de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.4_using_osm_tracker/" class="menu-link menu-link--active">4.4 Utilisation de OSMTracker</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Cleaning, Upload, and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link">5.1 Correction et mise à jour de données avec JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="menu-link">5.2 Outils d&#39;assurance de qualité et Outils de contrôle qualité</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Outils d&#39;exportation de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-export/6.0-data-export-tools/" class="menu-link">6.0 Outils d&#39;exportation de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Utilisation et analyse de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/" class="menu-link">7.0 Utilisation et analyse de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction à QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="menu-link">7.2 Créer des cartes et des atlas dans QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/" class="menu-link">7.3 Web et cartes interactives</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/15258610c6afd8abe654c754ca6632ca0aca9cce" class="sub-title sub-title-14" title='Last modified December 1, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: December 1, 2019
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">4.4 Utilisation de OSMTracker</h1><p>Cette section fournit aux <strong>enquêteurs, aux mappeurs et aux superviseurs</strong> sur le terrain les compétences nécessaires pour:</p>
+<ul>
+<li>Faire la configuration de base pour OSMTracker</li>
+<li>Utiliser OSM Tracker pour enregistrer des pistes, des images et des notes</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="aperu">Aperçu</h2>
+<p>OSMTracker est une application Android qui nous permet d'enregistrer les données de nos enquêtes. Semblable au GPS, OSMTracker est capable d'enregistrer des points et des trajets de waypoint. Ce qui rend OSMTracker différent avec un appareil GPS commun, c'est sa capacité à prendre des photos lorsque vous collectez des données. Avec ces images prises, cela rendra votre cartographie plus facile parce que vous pouvez retrouver l'objet que vous avez pris et jeter un coup d'oeil dans vos photos pour plus de détails. Vous pouvez convertir les points et les tracées que vous avez recueillis en fichier.gpx afin d'ouvrir les données de votre sondage à l'aide de JOSM ou de les transférer directement dans OpenStreetMap.</p>
+<h2 id="outils-et-supports-de-formation">Outils et supports de formation</h2>
+<p>Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
+<p><img src="../../../../images/fr_guide_icons/fr_learning_icon_wide.PNG" alt="">
+<em>La section suivante est conçue pour servir de guide pour les gestionnaires de projet, les superviseurs ou d'autres personnes dans la configuration de l'application.</em></p>
+<h3 id="tlchargement-et-installation">Téléchargement et installation</h3>
+<p>Si vous souhaitez utiliser OSMTracker, vous pouvez télécharger l'application sur votre smartphone. Ouvrez Google Playstore et recherchez OSMTracker dans le champ de recherche.</p>
+<p><img src="../../../../images/using-osmtracker/0401_Aplikasi_OSMTracker_dapat_Anda_download_di_Google_Playstore.png" alt="You can download OSMTracker on Google Playstore"></p>
+<!-- raw HTML omitted -->
+<p>Une fois l'installation terminée, ouvrez votre application OSMTracker sur votre smartphone.</p>
+<p><img src="../../../../images/using-osmtracker/0402_Tampilan_awal_aplikasi_OSMTracker.png" alt="OSMTracker page display"></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="configuration-initiale-de-osmtracker">Configuration initiale de OSMTracker</h3>
+<p>Avant d’utiliser OSMTracker, il y a quelques réglages à faire. Aller à</p>
+<p><img src="../../../../images/using-osmtracker/0403_Tombol_settings.png" alt="Setting"> dans le coin supérieur droit, puis sélectionnez <strong>Paramètres</strong>.</p>
+<p><img src="../../../../images/using-osmtracker/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png" alt="Select Settings menu on OSMTracker"></p>
+<!-- raw HTML omitted -->
+<p>Sur la page des paramètres, il y a plusieurs choses que vous devez vérifier:</p>
+<p><img src="../../../../images/using-osmtracker/0405_Beberapa_pengaturan_pada_halaman_Settings.png" alt="Several configurations on Settings menu"></p>
+<!-- raw HTML omitted -->
+<ol>
+<li>
+<p>Intervalle d'enregistrement GPS</p>
+<p>Cette section définit la fréquence à laquelle votre OSMTracker enregistre le tracé. Si vous réglez le nombre plus petit, OSMTracker enregistrera la piste plus souvent. La valeur par défaut de ce paramètre est 0, ce qui signifie que OSMTracker enregistrera toujours votre trace. Cela affecte la durée de vie de votre batterie. Vous pouvez modifier le numéro en fonction de vos besoins, par exemple 2 secondes.</p>
+</li>
+<li>
+<p>Répertoire de stockage externe (SD)</p>
+<p>Cette section vous permet de définir l'emplacement où vous souhaitez enregistrer toutes vos données d'enquête sur votre smartphone. Par défaut, OSMTracker créera un nouveau dossier appelé &ldquo;osmtracker&rdquo; sur la mémoire interne de votre smartphone. Si vous ne souhaitez pas modifier ce paramètre, vous pouvez ignorer cette section.</p>
+</li>
+<li>
+<p>Un dossier par piste</p>
+<p>Si vous activez cette fonction, chaque piste que vous enregistrez crée un nouveau dossier dans votre mémoire interne.</p>
+</li>
+<li>
+<p>Nom du fichier pour la piste nommée</p>
+<p>Cette section définit la façon de qualifier les données de votre enquête. Par défaut, l'étiquetage comprend le nom de la piste, la date et l'heure du levé. Vous pouvez ignorer ce paramètre si vous ne voulez pas le modifier.</p>
+</li>
+<li>
+<p>Écran toujours allumé</p>
+<p>Si vous activez cette fonction, vous laisserez votre smartphone toujours allumé lorsque vous utilisez OSMTracker. Lorsque vous utilisez ce paramètre, la batterie de votre smartphone se décharge rapidement. Vous pouvez le changer selon vos besoins.</p>
+</li>
+<li>
+<p>Carte d'arrière-plan</p>
+<p>Utilisez ce paramètre pour afficher la carte d'arrière-plan sur votre tracé. Activez ce paramètre pour que vous puissiez voir votre tracé avec la carte en arrière-plan.</p>
+</li>
+<li>
+<p>Fournisseur de tuiles de carte</p>
+<p>Vous pouvez modifier votre carte d'arrière-plan à l'aide de cette fonction.</p>
+</li>
+</ol>
+<p>Une fois tous les réglages effectués, vous êtes prêt à utiliser OSMTracker. N'oubliez pas d'activer vos paramètres GPS sur le smartphone, vous pourrez alors ouvrir votre OSMTracker. Si vous utilisez OSMTracker pour la première fois, votre page d'accueil sera vide. Plus tard, toutes les données de votre enquête apparaîtront sur votre page d'accueil.</p>
+<h3 id="oprations-de-base-avec-osmtracker">Opérations de base avec OSMTracker</h3>
+<p><strong>1. Enregistrement de tracés</strong></p>
+<p>Si vous souhaitez démarrer votre enregistrement de piste, vous pouvez sélectionner le bouton + en haut à droite de votre écran. Vous verrez la page Track Logger.</p>
+<p><img src="../../../../images/using-osmtracker/0406_Tombol_dengan_icon.png" alt="Use button to start recording"></p>
+<!-- raw HTML omitted -->
+<p>N'oubliez pas de toujours de vérifier la précision de votre GPS. Toutes les fonctions de OSMTracker ne seront pas disponibles si vous ne captez pas un bon signal GPS. Essayez d'obtenir la précision GPS du mieux que vous le pouvez (moins de 10 mètres) pour éviter une erreur lors de l'enregistrement de votre position actuelle. Vous pouvez voir votre indicateur de signal GPS dans le coin supérieur droit de votre écran (regardez l'image). La couleur de la barre de signal passe au vert et devient pleine lorsque vous recevez un bon signal. Assurez-vous d'être en bonne position pour recevoir le signal. Repérez-vous sur le terrain et assurez-vous de ne pas être sous un toit ou un arbre.</p>
+<p><img src="../../../../images/using-osmtracker/0407_Fitur_trck_logger_belum_bisa_diakses_dan_bisa_diakses.png" alt="Track logger feature"></p>
+<!-- raw HTML omitted -->
+<p>Lorsque la précision du GPS est suffisante, vous pouvez commencer à enregistrer votre trace. Lorsque vous appuyez sur le bouton + et que la précision du GPS est suffisante, OSMTracker enregistre automatiquement votre tracé.</p>
+<p><strong>2. Enregistrement des objets en utilisant la collecte de points et d’image</strong></p>
+<p>Lorsque vous ouvrez votre page d’enregistrement de tracés, il y a beaucoup d’option pour y accéder, mais si vous voulez enregistrer des waypoints et aussi des images, vous n'avez qu'à utiliser ce bouton 2:</p>
+<p><img src="../../../../images/using-osmtracker/0408_Halaman_track_logger_pada_OSMTracker.png" alt="Track logger page on OSMTracker"></p>
+<!-- raw HTML omitted -->
+<ol>
+<li>Note</li>
+</ol>
+<pre><code>Utilisez **note** pour marquer votre position actuelle comme un point ou un objet. Il suffit d'appuyer sur cette option et de remplir les informations. Par exemple, vous pouvez identifier votre point avec un numéro et ensuite le nom de votre objet. 
+
+ ![Text note function to record waypoint on your survey](/images/using-osmtracker/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;L’option “note” pour enregistrer un point lors d’une collecte&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ol start="2">
+<li>Prendre une photo</li>
+</ol>
+<pre><code>Utilisez **Prendre une photo** pour prendre votre objet en photo. Vous pouvez utiliser l'appareil photo de votre smartphone ou vous pouvez sélectionner la photo dans votre galerie. 
+
+ ![You can choose to take the photos straight from your camera or select from your smartphone’s gallery](/images/using-osmtracker/0410_Anda_dapat_memilih_foto_lansung_atau_galeri.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Vous pouvez choisir de prendre les photos directement depuis votre appareil photo ou de les sélectionner dans la galerie de votre smartphone.&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<p><strong>3. Arrêter et continuer l'enregistrement de tracés</strong></p>
+<p>Si vous voulez arrêter votre enregistrement, vous pouvez suivre les étapes suivantes:</p>
+<ol>
+<li>Sur la page d’enregistrement de traces, retournez à votre page d'accueil, puis trouvez un fichier de collecte déjà réalisée. Appuyez sur ce fichier pendant un moment jusqu'à ce qu'un menu supplémentaire apparaisse.</li>
+</ol>
+<pre><code> ![Option to set stop tracking](/images/using-osmtracker/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Option pour configurer l’arrêt des tracés&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ol start="2">
+<li>
+<p>Choisir <strong>Arrêter l’enregistrement.</strong></p>
+</li>
+<li>
+<p>Vous pouvez aussi taper sur l'icône dans le coin supérieur de votre page pour arrêter l'enregistrement et sauvegarder votre enregistrement.</p>
+</li>
+</ol>
+<pre><code>Si vous voulez continuer l’enregistre dans votre dossier précédent, vous devez alors :
+
+  1. Appuyez le fichiers précédent pour voir les options. 
+ ![Resume tracking](/images/using-osmtracker/0413_Pilihan_untuk_melanjutkan_kembali_perekaman_jalur.png )
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Sélectionnez Reprendre l’enregistrement&lt;/i&gt;&lt;/p&gt;
+
+  1. Ensuite sélectionnez **Reprendre l’enregistrement**
+</code></pre>
+<blockquote>
+<p>Remarque :</p>
+<p><img src="../../../../images/using-osmtracker/0414_ikon_tanda_jam_oranye.png" alt="Ikon"></p>
+<p>Si votre fichier a une icône d'horloge de couleur orange, cela signifie que votre fichier est toujours en mode d'enregistrement de piste. Cette icône disparaîtra après l'arrêt et l'enregistrement de votre fichier.</p>
+</blockquote>
+<p><strong>4. Affichage de la liste des objets collectés</strong></p>
+<p>Vous pouvez voir la liste des objets que vous avez collectés. Sur la page d’enregistrement des traces, appuyez dans le coin supérieur droit de votre écran, puis sélectionnez <strong>Points d’intérêt</strong>.</p>
+<p><img src="../../../../images/using-osmtracker/0415_Tombol_untuk_menampilkan_daftar_waypoints_yang_telah_dikumpulkan.png" alt="Button to show list of waypoints" title="Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan"></p>
+<!-- raw HTML omitted -->
+<p>Vous verrez la liste des objets et des photos que vous avez collectés sur la liste des Points d’intérêt.</p>
+<p><img src="../../../../images/using-osmtracker/0416_Halaman_waypoint_list_untuk_melihat_daftar_objek_yang_telah_dikumpulkan.png" alt="Waypoint list to see list of objects you have collected"></p>
+<!-- raw HTML omitted -->
+<p><strong>5. Affichage des tracés et des points d’intérêt collectés</strong></p>
+<p>Vous pouvez également voir votre tracé et les points d’intérêt que vous avez collectés.. Sur votre page d'enregistrement de tracés, choisissez le menu dans le coin supérieur droit de votre écran, puis choisissez <strong>Afficher la trace</strong>.</p>
+<p><img src="../../../../images/using-osmtracker/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png" alt="Display track button to see your track and objects you have collected"></p>
+<!-- raw HTML omitted -->
+<p>Lorsque vous choisissez d'afficher votre tracé, OSMTracker vous demandera la permission d'afficher la carte en arrière-plan. Sélectionnez <strong>Afficher la carte en arrière-plan</strong>.</p>
+<p><img src="../../../../images/using-osmtracker/0418_Pilihan_untuk_menampilkan_latar_belakang_peta.png" alt="Option to display your background map"></p>
+<!-- raw HTML omitted -->
+<p>Vous verrez la carte avec des lignes, une étoile et une icône d’une personnes sur la carte. L'icône en forme d'étoile représente les points d’intérêt, la ligne représente votre tracé, et l'icône indiquant une personne indique votre position actuelle sur la carte.</p>
+<p><img src="../../../../images/using-osmtracker/0419_Contoh_hasil_rute_perjalanan_dan_titik_survei_yang_sudah_diambil_pada_saat_survei.png" alt="Track and object’s collected on field survey"></p>
+<!-- raw HTML omitted -->
+<p><strong>6. Sauvegarde des données OSMTracker</strong></p>
+<p>Après avoir recueilli les données, vous pouvez les sauvegarder et les utiliser pour votre logiciel de cartographie. Pour ce faire, vous devez enregistrer les données de votre collecte au format de données .gpx. Ensuite, vous pouvez le transférer sur le serveur OpenStreetMap ou vous pouvez transférer les données sur votre ordinateur portable.</p>
+<p><strong>7. Enregistrement de la trace et des points d’intérêt en tant que données.gpx</strong></p>
+<p>Vous pouvez enregistrer votre tracé et vos points d’intérêt en format .gpx. Vous pouvez ouvrir les données .gpx avec un logiciel de cartographie comme <strong>QGIS</strong> et <strong>JOSM</strong>. Dans votre dossier de collecte, sélectionnez et appuyez sur le fichier pendant un certain temps, puis sélectionnez **Exporter en tant que GPX. Si le processus est réussi, vous pouvez voir un point vert sur le côté droit du nom du fichier.</p>
+<p><img src="../../../../images/using-osmtracker/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png" alt="Menu to save your survey data into GPX"></p>
+<!-- raw HTML omitted -->
+<p><strong>8. Transférer un tracé vers le serveur OpenStreetMap</strong></p>
+<p>Vous pouvez transférer vos données sur le serveur OpenStreetMap. Sur votre fichier, appuyez et maintenez-le enfoncé pendant un certain temps, puis sélectionnez <strong>Uploader vers OpenStreetMap</strong>.</p>
+<p><img src="../../../../images/using-osmtracker/0421_Menu_untuk_mengunggah_hasil_survei_ke_dalam_server_OSM.png" alt="Menu to upload your survey data into OpenStreetMap"></p>
+<!-- raw HTML omitted -->
+<p>Sur la page pour transférer sur le serveur OpenStreetMap, vous devez remplir un  formulaire comme nom et description du fichier. Vous pouvez ignorer dans la section Tags. Dans la partie inférieure, vous pouvez définir le tracé comme:</p>
+<ol>
+<li>Privé</li>
+</ol>
+<pre><code>Le tracé ne sera pas montré au public. Les points d’intérêt seront accessibles à l'aide de l'API GPS mais sans indication temporelle sur la collecte. 
+</code></pre>
+<ol start="2">
+<li>Publique</li>
+</ol>
+<pre><code>Le tracé sera montré au public et disponible pour téléchargement à l'autre utilisateur.
+</code></pre>
+<ol start="3">
+<li>Traçable</li>
+</ol>
+<pre><code>La trace sera montrée au public, les points d’intérêt peuvent toujours être accessibles par l'API GPS publique. Un autre utilisateur peut télécharger vos données, mais les données ne seront pas en lien avec vous.
+</code></pre>
+<ol start="4">
+<li>Identifiable</li>
+</ol>
+<pre><code>La trace sera montrée au publique. Un autre utilisateur peut télécharger vos données et se référer à votre nom d'utilisateur OSM. 
+</code></pre>
+<p>Pour cette opération, vous pouvez choisir Trackable ou Publique pour qu'un autre utilisateur puisse télécharger vos données.</p>
+<p><img src="../../../../images/using-osmtracker/0422_Contoh_file_hasil_survei_yang_telah_siap_diungah_ke_dalam_server_OpenStreetMap.png" alt="Survey data is ready to upload  into OpenStreetMap server"></p>
+<!-- raw HTML omitted -->
+<p><strong>9. Copie d'un tracé et des points d’intérêt vers un ordinateur</strong></p>
+<p>Toutes les données .gpx sont stockées dans la mémoire interne de votre smartphone. Vous pouvez rechercher le fichier à l'aide de votre gestionnaire de fichiers. Pour copier les données, vous pouvez suivre les instructions suivantes:</p>
+<ol>
+<li>Connectez votre smartphone à votre ordinateur portable à l'aide du câble de votre smartphone et trouvez le dossier &ldquo;osmtracker&rdquo; sur votre smartphone.</li>
+</ol>
+<pre><code>![OSMTracker folder on your smartphone’s storage](/images/using-osmtracker/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Dossier OSMTracker sur votre smartphone&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ol start="2">
+<li>À l'intérieur de votre dossier OSMTracker, vous trouverez un dossier contenant un fichier.gpx de données et de photos. Copiez le dossier entier dans votre ordinateur.</li>
+</ol>
+<pre><code>![Example of OSMTracker data consist of .gpx file data and survey photos](/images/using-osmtracker/0424_Contoh_data_OSMTracker_yang_berisikan_file_data_gpx_dan_foto_survei.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Exemple de données OSMTracker composé de données fichier.gpx et de photos de collecte&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ol start="3">
+<li>Ouvrez JOSM, puis ouvrez vos données gpx. Select menu <strong>Fichier → Ouvrir</strong> puis ouvrez les données au format gpx.</li>
+</ol>
+<pre><code>![Open your file with .GPX format data on JOSM](/images/using-osmtracker/0425_Silakan_Anda_buka_file_dengan_format_GPX_pada_JOSM.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Ouvrez votre fichier avec les données au format.GPX sur JOSM&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ol start="4">
+<li>Lorsque vous ouvrez votre fichier.gpx, JOSM affichera automatiquement le tracé et le points d’intérêt ainsi que la photo associé.</li>
+</ol>
+<pre><code>![Field survey data when you open it on JOSM](/images/using-osmtracker/0426_Contoh_hasil_data_survei_pada_saat_dibuka_menggunakan_JOSM.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Aperçu des données de collecte terrain lorsque vous les ouvrez sur JOSM&lt;/i&gt;&lt;/p&gt;
+
+
+Vous pouvez ensuite utiliser les données collectées comme guide pour la cartographie à l'aide de JOSM. Les photos prises vous aideront à identifier l'objet que vous devez créer dans JOSM. 
+</code></pre>
+</div>
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<a class="next-page" href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">5.1 Correction et mise à jour de données avec JOSM</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#aperu">Aperçu</a></li>
+    <li><a href="#outils-et-supports-de-formation">Outils et supports de formation</a>
+      <ul>
+        <li><a href="#tlchargement-et-installation">Téléchargement et installation</a></li>
+        <li><a href="#configuration-initiale-de-osmtracker">Configuration initiale de OSMTracker</a></li>
+        <li><a href="#oprations-de-base-avec-osmtracker">Opérations de base avec OSMTracker</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/field-mapping-management/4.4_using_osm_tracker.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/4.4_using_osm_tracker.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
+</html>

@@ -206,6 +206,16 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
     </item>
     
     <item>
+      <title>4.4 Utilisation de OSMTracker</title>
+      <link>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
+      <description>Cette section fournit aux enquêteurs, aux mappeurs et aux superviseurs sur le terrain les compétences nécessaires pour:
+ Faire la configuration de base pour OSMTracker Utiliser OSM Tracker pour enregistrer des pistes, des images et des notes  Aperçu OSMTracker est une application Android qui nous permet d&#39;enregistrer les données de nos enquêtes. Semblable au GPS, OSMTracker est capable d&#39;enregistrer des points et des trajets de waypoint. Ce qui rend OSMTracker différent avec un appareil GPS commun, c&#39;est sa capacité à prendre des photos lorsque vous collectez des données.</description>
+    </item>
+    
+    <item>
       <title>5.1 Correction et mise à jour de données avec JOSM</title>
       <link>/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

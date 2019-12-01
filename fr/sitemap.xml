@@ -199,7 +199,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-01T17:00:22-05:00</lastmod>
+    <lastmod>2019-12-01T17:21:42-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -420,6 +420,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.3_using_openmapkit/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</loc>
+    <lastmod>2019-12-01T17:21:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/field-mapping-management/4.4_using_osm_tracker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
                 />
   </url>
   
