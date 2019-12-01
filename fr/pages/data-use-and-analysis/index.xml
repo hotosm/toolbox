@@ -10,5 +10,15 @@
 	<atom:link href="/fr/pages/data-use-and-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>7.1 Introduction à QGIS</title>
+      <link>/fr/pages/data-use-and-analysis/7.1-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-use-and-analysis/7.1-qgis/</guid>
+      <description>Cette section couvre les compétences de base nécessaires à l’utilisation de QGIS. Cela inclut des guides sur:
+ Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&#39;afficher, de gérer et d&#39;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -196,5 +196,15 @@ Skills and Technology Needed
       <description>Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
     </item>
     
+    <item>
+      <title>7.1 Introduction à QGIS</title>
+      <link>/fr/pages/data-use-and-analysis/7.1-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-use-and-analysis/7.1-qgis/</guid>
+      <description>Cette section couvre les compétences de base nécessaires à l’utilisation de QGIS. Cela inclut des guides sur:
+ Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&#39;afficher, de gérer et d&#39;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
+    </item>
+    
   </channel>
 </rss>

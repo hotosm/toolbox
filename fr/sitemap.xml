@@ -159,7 +159,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-01T10:13:37-05:00</lastmod>
+    <lastmod>2019-12-01T10:15:28-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -351,6 +351,21 @@
   <url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.4-quality-assurance-tools/</loc>
     <lastmod>2019-11-20T09:22:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-use-and-analysis/7.1-qgis/</loc>
+    <lastmod>2019-12-01T10:15:28-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-use-and-analysis/7.1-qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-use-and-analysis/7.1-qgis/"
+                />
   </url>
   
   <url>
