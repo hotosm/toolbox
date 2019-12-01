@@ -159,7 +159,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-01T10:15:28-05:00</lastmod>
+    <lastmod>2019-12-01T10:17:21-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -365,6 +365,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.1-qgis/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</loc>
+    <lastmod>2019-12-01T10:17:21-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
                 />
   </url>
   
