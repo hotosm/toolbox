@@ -146,6 +146,16 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
     </item>
     
     <item>
+      <title>3.2.2 Configuration de OpenMapKit</title>
+      <link>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
+      <description>Cette rubrique prévoit:
+ Un aperçu des étapes nécessaires à la mise en place de OMK Guide étape par étape pour créer des formulaires d&#39;enquête OMK avec des fichiers tests. Conseils sur la sélection d&#39;une méthode de création de fichiers MBTile et un exemple type de création. Un guide étape par étape pour créer les fichiers supplémentaires nécessaires à l&#39;exécution de OMK. Un guide étape par étape pour configurer OMK sur les appareils.</description>
+    </item>
+    
+    <item>
       <title>3.3 Les applications de navigation</title>
       <link>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
