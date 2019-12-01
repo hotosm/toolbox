@@ -216,5 +216,15 @@ Skills and Technology Needed
  Préparation des données cartographiques Créer une mise en page Navigation et création d&#39;atlas Création de modèles de carte et d&#39;atlas  Aperçu La création d&#39;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</description>
     </item>
     
+    <item>
+      <title>7.3 Web et cartes interactives</title>
+      <link>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
+      <description>Cette section fournit:
+ Un aperçu des outils de carte interactive en ligne pour la visualisation des données Instructions pas à pas pour la création de cartes interactives avec deux outils: uMap et Overpass Turbo  Aperçu Les cartes interactives sont considérées comme l&#39;équivalent moderne de la communication visuelle avec des cartes. Cela implique la création et l’étude de la représentation visuelle des données (cartes). Pour communiquer des informations de manière claire et efficace, la visualisation de données utilise des graphiques statistiques, des graphiques d&#39;information et d&#39;autres outils.</description>
+    </item>
+    
   </channel>
 </rss>
