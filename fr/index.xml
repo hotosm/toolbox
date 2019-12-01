@@ -106,6 +106,16 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
     </item>
     
     <item>
+      <title>2.4 Edition avec iD et JOSM</title>
+      <link>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
+      <description>Cette section contient:
+ Comparaison des outils d&#39;édition OpenStreetMap, JOSM et iD Editor Un aperçu de iD Editor, y compris les diapositives de présentation Une vue d&#39;ensemble de JOSM, y compris les diapositives de présentation  Les documents suivants sont conçus pour aider les chargés des projets et d&#39;autres personnes à animer des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap en utilisant iD Editor ou JOSM, veuillez visiter le site suivant LearnOSM.</description>
+    </item>
+    
+    <item>
       <title>2.6 Résolution des conflits dans JOSM</title>
       <link>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
