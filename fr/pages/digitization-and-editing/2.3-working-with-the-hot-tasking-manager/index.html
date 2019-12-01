@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body   data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/toolbox/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/toolbox" class="no-underline"><h4 class="title site-title">HOT Toolbox</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+    </div>
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+        <a href="../../../../fr/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français</a>
+        
+        
+            
+        <a href="../../../../fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/" class="language-select-option 
+        
+        ">English</a>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Introduction à la boîte à outils HOT
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/introduction/how_to_use_toolbox/" class="menu-link">Comment utiliser la boîte à outils HOT</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Conception et coordination d&#39;un projet de cartographie
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/" class="menu-link">1.0  Introduction à la conception d’un projet de cartographie</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/" class="menu-link">1.1 Définition des besoins et des exigences</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/" class="menu-link">1.2 Sûreté, sécurité et logistique</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.3-hardware/" class="menu-link">1.3 Sélection du matériel</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="menu-link">1.4 Formations et Ateliers</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            La numérisation et à l&#39;édition dans OSM
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.0-digitization-and-editing/" class="menu-link">2.0 Introduction à la numérisation et à l&#39;édition dans OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.2_organized_osm_editing/" class="menu-link">2.2 Organisation de l’édition dans OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/" class="menu-link menu-link--active">2.3 Travailler avec le  HOT Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/" class="menu-link">2.4 Edition avec iD et JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/" class="menu-link">2.6 Résolution des conflits dans JOSM</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Technical Set-up
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/" class="menu-link">3.0 Introduction à la configuration technique pour la cartographie sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/" class="menu-link">3.1 Conception du modèle de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/" class="menu-link">3.2 Les outils de collecte de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="menu-link">3.2.1 Configuration de OpenDataKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/" class="menu-link">3.2.2 Configuration de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/" class="menu-link">3.3 Les applications de navigation</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/" class="menu-link">3.4 Serveurs de collecte de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="menu-link">4.1 Gestion des équipes sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.2_using_odk_collect/" class="menu-link">4.2 Utilisation de ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link">4.3 Utilisation de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.4_using_osm_tracker/" class="menu-link">4.4 Utilisation de OSMTracker</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Cleaning, Upload, and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link">5.1 Correction et mise à jour de données avec JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="menu-link">5.2 Outils d&#39;assurance de qualité et Outils de contrôle qualité</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Outils d&#39;exportation de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-export/6.0-data-export-tools/" class="menu-link">6.0 Outils d&#39;exportation de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Utilisation et analyse de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/" class="menu-link">7.0 Utilisation et analyse de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction à QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="menu-link">7.2 Créer des cartes et des atlas dans QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/" class="menu-link">7.3 Web et cartes interactives</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/530b8233d029a06b49e8dac6f8a9ffd1ad5b2967" class="sub-title sub-title-14" title='Last modified December 1, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: December 1, 2019
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">2.3 Travailler avec le  HOT Tasking Manager</h1><p>Cette section prévoit :</p>
+<ul>
+<li>Un aperçu du gestionnaire de tâches HOT Tasking Manager, y compris des diapositives de présentation</li>
+<li>Instructions étape par étape pour commencer à utiliser le gestionnaire de tâches HOT Tasking Manager</li>
+</ul>
+<p><em>Les documents suivants sont conçus pour aider les gestionnaires de projet et d'autres personnes à diriger des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap, veuillez visiter le site suivant <a href="https://learnosm.org/en/">LearnOSM.org</a>.</em></p>
+<hr>
+<h2 id="vue-densemble">Vue d'ensemble</h2>
+<p><a href="https://tasks.hotosm.org/">HOT Tasking Manager</a> est un outil de cartographie conçu et développé pour le processus de cartographie collaboratif de l'équipe HOT dans OpenStreetMap. Le but de l'outil est de diviser un projet de cartographie en tâches plus petites qui peuvent être accomplies rapidement avec plusieurs personnes travaillant sur la même zone dans son ensemble. Il montre quelles zones doivent être cartographiées et quelles zones ont besoin d'être validées.</p>
+<p>Pour plus d'informations sur la gestion et la création de projets sur le gestionnaire de tâches HOT Tasking Manager, remplissez un formulaire ici, <a href="http://bit.ly/TaskManagers"><a href="http://bit.ly/TaskManagers">http://bit.ly/TaskManagers</a></a>, pour recevoir une formation et obtenir les permissions nécessaires pour devenir un gestionnaire de projets TM.</p>
+<p><img src="../../../../images/digitization-and-editing/TM_navigating.gif" alt=""></p>
+<h2 id="ressources-et-matriel-de-formation">Ressources et matériel de formation</h2>
+<p>Cette section présente une sélection de ressources destinées aux chefs des projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
+<p><img src="../../../../images/training_presentations_wide.PNG" alt="">
+<em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier.</em></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1fpNA1qVn_FzeFnktdw6y3lal8gkY3vSkoIaDJYem7cA/edit#slide=id.g51d3d58777_0_0">Introduction à  HOT Tasking Manager</a></li>
+</ul>
+<p><img src="../../../../images/learning_icon_wide.PNG" alt="">
+<em>La section suivante est conçue pour servir de matériel d'auto-apprentissage qui peut être utilisé à la fois pendant les formations et par les apprenants autodidactes.</em></p>
+<h3 id="dmarrer-avec-le-tasking-manager">Démarrer avec le Tasking Manager</h3>
+<p><strong>Compétences et technologies nécessaires</strong></p>
+<ul>
+<li>Ordinateur</li>
+<li>connexion Internet</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.1_introduction_to_openstreetmap/">Compte OSM</a></li>
+</ul>
+<p>Rendez-vous sur le site Web HOT Tasking Manager : <a href="https://tasks.hotosm.org/"><a href="https://tasks.hotosm.org/">https://tasks.hotosm.org/</a></a>/. Pour vous connecter, cliquez sur le bouton &lsquo;login&rsquo; en haut à droite de la page. Une fois que vous cliquez sur le bouton de connexion, une nouvelle page s'ouvre sur le site OpenStreetMap avec un formulaire de connexion. Veuillez entrer votre nom d'utilisateur et votre mot de passe OSM.</p>
+<p><img src="../../../../images/digitization-and-editing/TM1.gif" alt=""></p>
+<p>Si c'est la première fois que vous vous connectez à Tasking Manager avec votre nom d'utilisateur et votre mot de passe OSM depuis l'appareil que vous utilisez, un message d'autorisation apparaîtra. Cliquez sur &lsquo;Grant Access&rsquo; pour que vos détails de connexion OSM se synchronisent avec le Tasking Manager. Retournez à la page du Tasking Manager et cliquez sur le bouton &ldquo;Start Mapping&rdquo;. Vous remarquerez que votre nom d'utilisateur s'affiche maintenant dans le coin supérieur droit de la page.</p>
+<p><strong>Trouver un projet</strong></p>
+<p>Le bouton &quot; Start Mapping &quot; sur la page d'accueil, ou le bouton &quot; Contribute &quot; en haut de la page, vous amènera à la page Contribuer du Tasking Manager de HOT. Cette page affichera une liste des projets de cartographie en cours. La vue Grille affiche les tâches comme indiqué ci-dessous:</p>
+<p><img src="../../../../images/digitization-and-editing/TM_contribute.gif" alt=""></p>
+<p>Chaque tâche énumérée sera décrite :</p>
+<ol>
+<li>L'urgence de la tâche</li>
+<li>Le numéro de la tâche et le nom du projet - il s'agit souvent de l'emplacement de la tâche, du type d'intervention humanitaire et de l'élément central à cartographier.</li>
+<li>Toute information importante, p. ex. type de cartographe nécessaire / niveau d'expérience</li>
+<li>Une description de la tâche</li>
+<li>L'organisation qui demande la tâche</li>
+<li>La catégorie de la tâche</li>
+<li>Le niveau d'expérience qu'un cartographe doit posséder pour contribuer</li>
+<li>Le pourcentage de la tâche cartographiée jusqu'à présent</li>
+<li>Le pourcentage de la tâche validée jusqu'à présent</li>
+<li>Le nombre actuel d'utilisateurs actifs</li>
+</ol>
+<p>Si vous avez une tâche spécifique à accomplir, vous pouvez la rechercher dans la barre latérale à gauche de votre écran. Vous pouvez chercher par:</p>
+<ul>
+<li>Nom ou numéro du projet</li>
+<li>Niveau de difficulté de la cartographie</li>
+<li>L'organisation</li>
+<li>Campagne</li>
+<li>Type de cartographie (caractéristiques cartographiées)</li>
+</ul>
+<p>Vous pouvez également afficher la liste des projets dans la vue Carte. Vous pouvez passer de la vue Grille à la vue Carte en cliquant sur chaque option. La vue dans laquelle vous vous trouvez actuellement s'affiche comme souligné. Si vous sélectionnez Vue carte, la liste des tâches s'affiche sur une carte du monde. Les projets sont regroupés en cercles qui indiquent le nombre de projets dans ce domaine particulier.</p>
+<p>Vous pouvez zoomer dans une zone pour afficher une plus petite répartition des projets dans une région particulière.</p>
+<p><strong>Sélection d'un projet</strong></p>
+<p>Une fois que vous avez décidé quelle tâche vous voulez cartographier, vous pouvez cliquer sur la tâche pour ouvrir la page du projet. La page des tâches fournira des détails spécifiques sur l'objectif et les exigences de la tâche.</p>
+<p><img src="../../../../images/digitization-and-editing/TM_instructions.gif" alt=""></p>
+<p>Sous la description du projet, vous trouverez des instructions pour cette tâche. Les instructions expliquent quelles entités cartographier (quelles caractéristiques, p. ex. bâtiments, routes) et fournissent des lignes directrices spécifiques au projet (notes de cartographie) à suivre. La section Notes de cartographie spécifiques au projet donne des instructions détaillées sur l'imagerie à utiliser, la façon de tracer des entités spécifiques et la façon de tagger les entités.</p>
+<p>Les caractéristiques cartographiques qui sont le point central de la tâche sont expliquées plus en détail sous la rubrique Besoins cartographiques spécifiques au projet. Par exemple, si le type de cartographie d'un projet est celui des bâtiments et des routes, les instructions suivantes peuvent apparaître :</p>
+<p>Ces spécifications décrivent les balises communes utilisées pour chaque caractéristique principale et fournissent des conseils pour cartographier cette caractéristique.</p>
+<p>La carte sur le côté droit de la tâche que vous avez sélectionnée est divisée en carrés dont le code couleur dépend de l'achèvement de la cartographie dans ce carré. Les couleurs représentent ce qui suit :</p>
+<ul>
+<li>Blanc : une tuile est prête à être cartographiée et doit être complétée.</li>
+<li>Jaune : une tuile a été cartographiée.</li>
+<li>Gris : une tuile a &lsquo;une mauvaise imagerie&rsquo;.</li>
+<li>Vert : une tuile a été &lsquo;Validée&rsquo;. Cela signifie que la cartographie dans ce domaine a fait l'objet d'un contrôle de qualité, d'une édition si nécessaire et d'une approbation. Les validateurs laisseront des commentaires à côté d'une tuile pour montrer les changements qu'ils ont effectués.</li>
+<li>Rouge : une tuile a été &lsquo;Invalidée&rsquo;. Cela peut être dû au fait qu'une zone n'a pas été entièrement cartographiée ou que de multiples erreurs doivent être corrigées.</li>
+<li>Bleu : une tuile est &lsquo;Verrouillée&rsquo; par un autre utilisateur</li>
+<li>Bleu avec un contour bleu foncé - une tuile est &lsquo;Verrouillé par vous&rsquo;. Vous êtes en train de cartographier cette tuile.</li>
+</ul>
+<p>Cliquez sur une tuile blanche pour commencer à cartographier une zone qui en a besoin. Lorsque vous cliquez sur une tuile blanche, le contour du carré sera surligné en jaune et deux options apparaîtront : &quot; Start Mapping &quot; et &quot; Select Another Task &ldquo;.</p>
+<p><img src="../../../../images/digitization-and-editing/TM_selecttask.gif" alt=""></p>
+<p>Si vous cliquez sur &lsquo;Select Another Task&rsquo;, la carte zoomera sur une autre tâche qui a besoin d'être cartographiée. Vous remarquerez peut-être que certaines tâches ont des commentaires à côté d'elles dans la section Historique. La section Historique affichera les commentaires qui ont été laissés par d'autres utilisateurs, par exemple si une tâche a été démarrée mais a encore besoin de quelqu'un pour la terminer. Il indiquera également quand la tuile a été verrouillée pour la dernière fois par un autre utilisateur pour la cartographie.</p>
+<p>Lorsque vous avez sélectionné la tuile que vous voulez cartographier, cliquez sur &lsquo;Start Mapping&rsquo;. Vous devez ensuite sélectionner le type d'éditeur que vous allez utiliser. Sélectionnez &lsquo;JOSM&rsquo; ou &lsquo;iD Editor&rsquo; dans la liste déroulante, puis cliquez sur &lsquo;Start Editor&rsquo;.</p>
+<p><img src="../../../../images/digitization-and-editing/TM_selecteditor.gif" alt=""></p>
+<h2 id="ressources-supplmentaires">Ressources supplémentaires</h2>
+<p><img src="../../../../images/fr_guide_icons/fr_reading_icon_wide.PNG" alt=""></p>
+<ul>
+<li><a href="https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager">OSM Tasking Manager Wiki</a></li>
+<li><a href="https://tasks.hotosm.org/learn">Learn How to Use the Tasking Manager</a></li>
+</ul>
+<p><img src="../../../../images/fr_guide_icons/fr_watch_icon_wide.PNG" alt=""></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?reload=9&amp;v=_feTGQXLf_M">Two Minute Tutorials: How to use the OSM Tasking Manager</a></li>
+</ul>
+</div>
+
+
+
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">2.4 Edition avec iD et JOSM</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#vue-densemble">Vue d'ensemble</a></li>
+    <li><a href="#ressources-et-matriel-de-formation">Ressources et matériel de formation</a>
+      <ul>
+        <li><a href="#dmarrer-avec-le-tasking-manager">Démarrer avec le Tasking Manager</a></li>
+      </ul>
+    </li>
+    <li><a href="#ressources-supplmentaires">Ressources supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/digitization-and-editing/2.3-Working-with-the-HOT-Tasking-Manager.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/2.3-Working-with-the-HOT-Tasking-Manager.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
+</html>
