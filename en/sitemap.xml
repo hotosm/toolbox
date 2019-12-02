@@ -651,6 +651,16 @@
   <url>
     <loc>/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</loc>
     <lastmod>2019-11-27T14:41:27-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                />
   </url>
   
   <url>
