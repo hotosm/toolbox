@@ -336,8 +336,8 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/39a17927e1c81afc5fe9bf929ed078f3d3d966c9" class="sub-title sub-title-14" title='Last modified December 1, 2019 by jessbeutler' target="_blank" rel="noopener">
-      Dernière modification: December 1, 2019
+    <a href="https://github.com/hotosm/toolbox/commit/4a3945dc98c22d7be28d386e1fd33a9f39f8d37a" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: December 2, 2019
     </a>
   </div>
   
@@ -352,29 +352,71 @@
 </ul>
 <!-- raw HTML omitted -->
 <h2 id="aperu">Aperçu</h2>
-<p>**Assurance de qualité et contrôle de la qualité ** est le processus par lequel les cartographe, et les contributeurs OpenStreetMap en général, vérifient les données pour s'assurer que toutes les informations téléchargées sur OSM répondent à des normes d'utilisation élevées et pour empêcher le vandalisme. OpenStreetMap étant une plate-forme libre et ouverte que tout le monde peut utiliser et modifier, il est essentiel pour la durabilité des données ouvertes et de l'OSM que tout le monde participe au processus d'assurance et de contrôle de la qualité - de la collecte des données sur le terrain à la maintenance à long terme. des données OSM existantes.
+<p><strong>Assurance de qualité et contrôle de la qualité</strong> est le processus par lequel les cartographe, et les contributeurs OpenStreetMap en général, vérifient les données pour s'assurer que toutes les informations téléchargées sur OSM répondent à des normes d'utilisation élevées et pour empêcher le vandalisme. OpenStreetMap étant une plate-forme libre et ouverte que tout le monde peut utiliser et modifier, il est essentiel pour la durabilité des données ouvertes et de l'OSM que tout le monde participe au processus d'assurance et de contrôle de la qualité - de la collecte des données sur le terrain à la maintenance à long terme. des données OSM existantes.
 Tandis que l’assurance de la qualité et le contrôle de la qualité doivent être effectués à toutes les étapes d’un projet de cartographie, mais les outils suivants aideront à garantir que les données téléchargées sur OpenStreetMap respectent des normes de haute qualité.</p>
-<p><img src="../../../../images/management_icon_wide.PNG" alt=""></p>
+<p><img src="../../../../images/fr_guide_icons/fr_management_icon_wide.PNG" alt=""></p>
 <h2 id="choisir-un-outil-dassurance-de-qualit">Choisir un outil d'assurance de qualité</h2>
 <p><strong>Quel outil d'assurance de qualité dois-je utiliser?</strong> <!-- raw HTML omitted --></p>
-<p>Voici les outils d’assurance de qualité couramment utilisés dans le flux de travail HOT. Vous trouverez un aperçu détaillé de ces outils et d’autres outils d’assurance de qualité sur le<a href="https://wiki.openstreetmap.org/wiki/Quality_assurance">wiki des outils d’assurance de la qualité</a>. Différents outils vérifient les différentes erreurs et problèmes. Utilisez le tableau suivant pour décider quand et pourquoi chaque outil doit être utilisé.
-| Je veux vérifier pour                          | MapCampaigner | OSMCha | Osmose | JOSM Validator |
-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;|&mdash;&ndash;|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;|
-|  Complétude des attributs                | ✔   | ×    | ×    | ×    |
-| Vandalisme potentiel                        | ×   | ✔    | ×    | ×    |
-| Contributions et problèmes de téléchargement par utilisateur individuel  | ×   | ✔    | ×    | ×    |
-| Problèmes de marquage                  | ×   | ×    | ✔    | ✔    |
-| Problèmes de géométrie                  | ×   | ×    | ✔    | ✔    |</p>
+<p>Voici les outils d’assurance de qualité couramment utilisés dans le flux de travail HOT. Vous trouverez un aperçu détaillé de ces outils et d’autres outils d’assurance de qualité sur le <a href="https://wiki.openstreetmap.org/wiki/Quality_assurance">wiki des outils d’assurance de la qualité</a>. Différents outils vérifient les différentes erreurs et problèmes. Utilisez le tableau suivant pour décider quand et pourquoi chaque outil doit être utilisé.</p>
+<table>
+<thead>
+<tr>
+<th>Je veux vérifier pour</th>
+<th>MapCampaigner</th>
+<th>OSMCha</th>
+<th>Osmose</th>
+<th>JOSM Validator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Complétude des attributs</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<td>Vandalisme potentiel</td>
+<td>×</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<td>Contributions et problèmes de téléchargement par utilisateur individuel</td>
+<td>×</td>
+<td>✔</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<td>Problèmes de marquage</td>
+<td>×</td>
+<td>×</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>Problèmes de géométrie</td>
+<td>×</td>
+<td>×</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
 <h3 id="mapcampaigner">MapCampaigner</h3>
 <p><a href="http://campaigns.hotosm.org">MapCampaigner</a>  est un outil développé par HOT pour surveiller l'exhaustivité des attributs pour les zones d'intérêt prédéfinies (AOI). En fonction de votre <a href="https://github.com/hotosm/toolbox/wiki/4.1.2-Designing-The-Data-Model">modèle de données</a>, l'outil vérifie et met en surbrillance les entités de la carte pour lesquelles il manque des balises prédéfinies. dans votre AOI, et permet à l’équipe de validateurs de télécharger et de corriger ces fonctionnalités</p>
-<p>**Compétences et technologie nécessaires **</p>
+<p><strong>Compétences et technologie nécessaires</strong></p>
 <ul>
 <li>Ordinateur avec</li>
 <li>Connexion internet</li>
 <li>Recommandé: souris d'ordinateur</li>
 </ul>
+<!-- raw HTML omitted -->
 <h4 id="comment-utiliser-mapcampaigner">Comment utiliser MapCampaigner</h4>
-<p>** Pour naviguer dans une campagne existante:**</p>
+<p><strong>Pour naviguer dans une campagne existante:</strong></p>
 <ol>
 <li>Accéder à  <a href="https://campaigns.hotosm.org"><a href="https://campaigns.hotosm.org">https://campaigns.hotosm.org</a></a> dans le navigateur Internet de Google Chrome ou Mozilla Firefox.</li>
 <li>Sélectionnez l'un des projets dans la page de destination ou utilisez la barre de recherche pour rechercher un projet particulier. *Remarques: Si vous ne trouvez pas de projet, vous devrez peut-être modifier le menu d'état de &ldquo;Actif&rdquo; à &ldquo;Tous&rdquo; projets. *</li>
@@ -383,8 +425,9 @@ Tandis que l’assurance de la qualité et le contrôle de la qualité doivent �
 <li>Sélectionnez chaque fonctionnalité pour afficher les balises existantes et les attributs manquants.
 <img src="../../../../images/quality_assurance/mc_monrovia.gif" alt="mc_monrovia"></li>
 </ol>
-<p>**Pour créer une nouvelle campagne: ** <!-- raw HTML omitted -->
+<p><strong>Pour créer une nouvelle campagne:</strong> <!-- raw HTML omitted -->
 Suivez les instructions sous l'onglet ressources trouvé ici: <a href="https://campaigns.hotosm.org/resources">https://campaigns.hotosm.org/resources</a></p>
+<!-- raw HTML omitted -->
 <h3 id="osmcha">OSMCha</h3>
 <p><a href="https://osmcha.mapbox.com/">OSMCha</a>, or the OpenStreetMap Changeset Analyzer, est un outil conçu pour examiner les téléchargements et les modifications apportées aux données OSM, principalement pour éviter le vandalisme et les modifications incorrectes apportées aux données cartographiques. Cet outil permet aux utilisateurs de filtrer par nom d'utilisateur, emplacement, dates de téléchargement et autres fonctionnalités de métadonnées. OSMCha est utile pour surveiller les progrès des équipes de nettoyage et de téléchargement de données.</p>
 <p><strong>Compétences et technologie nécessaires</strong></p>
@@ -415,27 +458,31 @@ Suivez les instructions sous l'onglet ressources trouvé ici: <a href="https://c
 </ul>
 </li>
 <li>
-<p>Avec OSMCha, vous pouvez créer des filtres très ciblés pour surveiller votre contribution et celle de votre équipe à OSM. Cliquez sur &ldquo;Filtres&rdquo; dans le panneau de gauche pour ouvrir le menu ** Filtres **.</p>
+<p>Avec OSMCha, vous pouvez créer des filtres très ciblés pour surveiller votre contribution et celle de votre équipe à OSM. Cliquez sur &ldquo;Filtres&rdquo; dans le panneau de gauche pour ouvrir le menu <strong>Filtres</strong>.</p>
 </li>
 <li>
 <p>Dans ce menu, des filtres uniques peuvent être appliqués, tels que le nom d'utilisateur OSM, la plage de dates et la localisation. <img src="../../../../images/quality_assurance/osmcha_filters.gif" alt="osmcha_filters"></p>
 </li>
 </ol>
 <p><strong>S'exercer à créer un filtre</strong></p>
-<p>1.Cliquez sur ‘Filtres’ dans le panneau de gauche.
-2. Assortir les filtres pour:
-* Date de début: 01/01/19
-* Votre nom d'utilisateur
-* Une localisation
-* Un filtre supplémentaire
-3. Cliquez sur Appliquer.
-4. Cliquez sur l'un des ensembles de modifications apparaissant dans le panneau de gauche. Est-ce que des changesets ont des drapeaux ou des avertissements?
-5. Cliquez à nouveau sur &lsquo;Filtres&rsquo; pour modifier et / ou ajouter d'autres filtres.
-6. Pour enregistrer un filtre en vue d'une utilisation ultérieure, cliquez sur ‘Filtres’ dans le panneau de gauche. Dans le coin supérieur droit, cliquez sur ‘Enregistrer’ pour choisir un nom pour ce filtre.
-7. Vous pouvez désormais accéder au filtre exact à l'aide de l'URL ou de l'option ‘Mes filtres enregistrés’ après avoir cliqué sur votre nom d'utilisateur.</p>
+<ol>
+<li>Cliquez sur ‘Filtres’ dans le panneau de gauche.</li>
+<li>Assortir les filtres pour:
+<ul>
+<li>Date de début: 01/01/19</li>
+<li>Votre nom d'utilisateur</li>
+<li>Une localisation</li>
+<li>Un filtre supplémentaire</li>
+</ul>
+</li>
+<li>Cliquez sur Appliquer.</li>
+<li>Cliquez sur l'un des ensembles de modifications apparaissant dans le panneau de gauche. Est-ce que des changesets ont des drapeaux ou des avertissements?</li>
+<li>Cliquez à nouveau sur &lsquo;Filtres&rsquo; pour modifier et / ou ajouter d'autres filtres.</li>
+<li>Pour enregistrer un filtre en vue d'une utilisation ultérieure, cliquez sur ‘Filtres’ dans le panneau de gauche. Dans le coin supérieur droit, cliquez sur ‘Enregistrer’ pour choisir un nom pour ce filtre.</li>
+<li>Vous pouvez désormais accéder au filtre exact à l'aide de l'URL ou de l'option ‘Mes filtres enregistrés’ après avoir cliqué sur votre nom d'utilisateur.</li>
+</ol>
 <h3 id="osmose-br">Osmose <!-- raw HTML omitted --></h3>
-<p>Osmose est un outil qui surveille plusieurs problèmes de contrôle de la qualité dans OSM. Celles-ci incluent des problèmes liés à la géométrie des fonctionnalités  (tels que des bâtiments / nœuds superposés, des fonctionnalités incomplètes et des duplications), ainsi que des problèmes de marquage courants (tels que des balises manquantes, inappropriées ou mal formatées). Vous trouverez plus d'informations sur Osmose sur la [Page Osmose OSM Wiki]
-(<a href="https://wiki.openstreetmap.org/wiki/Osmose)">https://wiki.openstreetmap.org/wiki/Osmose)</a>.</p>
+<p>Osmose est un outil qui surveille plusieurs problèmes de contrôle de la qualité dans OSM. Celles-ci incluent des problèmes liés à la géométrie des fonctionnalités  (tels que des bâtiments / nœuds superposés, des fonctionnalités incomplètes et des duplications), ainsi que des problèmes de marquage courants (tels que des balises manquantes, inappropriées ou mal formatées). Vous trouverez plus d'informations sur Osmose sur la <a href="https://wiki.openstreetmap.org/wiki/Osmose">Page Osmose OSM Wiki</a>.</p>
 <p>Remarque: pour utiliser correctement cet outil et afficher les erreurs, vous devez utiliser le navigateur Internet Google Chrome. Firefox, Opera, Safari et d'autres navigateurs peuvent ne pas afficher les informations correctement.</p>
 <h4 id="comment-utiliser-osmose">Comment utiliser Osmose</h4>
 <ol>
@@ -466,7 +513,7 @@ Suivez les instructions sous l'onglet ressources trouvé ici: <a href="https://c
 Pour plus de détails sur l’utilisation de l’outil de validation JOSM, consultez la section <a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.5_validating_with_josm/">3.5 Validation avec JOSM</a></p>
 <h2 id="ressources-et-supports-de-formation">Ressources et supports de formation</h2>
 <p>Cette section présente une sélection de ressources destinées aux gestionnaires de projet, aux formateurs ou même aux auto-apprenants sur les sujets décrits ci-dessus.</p>
-<p><img src="../../../../images/training_presentations_wide.PNG" alt="">
+<p><img src="../../../../images/fr_guide_icons/fr_training_presentations_wide.PNG" alt="">
 <em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier..</em></p>
 <ul>
 <li><a href="https://docs.google.com/presentation/d/1mn0ahFOCiz9DhrWmYFt1nrC25c7WQjODvXG6pTRJ-Jo/edit?usp=sharing">Outils d'assurance de qualité</a></li>
