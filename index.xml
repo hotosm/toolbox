@@ -12,142 +12,12 @@
     
     <item>
       <title>1.0 Introduction to Designing a Mapping Project</title>
-      <link>/pages/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</guid>
-      <description>In this section, Project Managers will find guides, tools and resources to design a mapping project including:
- Considerations and question guides for determining project factors such as scope, scale, and logistics; Resources for selecting hardware; Guides and materials for planning workshops/trainings.    1.1 Defining Needs and Requirements poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.</description>
-    </item>
-    
-    <item>
-      <title>1.0 Introduction to Designing a Mapping Project</title>
       <link>/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</guid>
       <description>In this section, Project Managers will find guides, tools and resources to design a mapping project including:
  Considerations and question guides for determining project factors such as scope, scale, and logistics; Resources for selecting hardware; Guides and materials for planning workshops/trainings.    1.1 Defining Needs and Requirements poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.</description>
-    </item>
-    
-    <item>
-      <title>2.0 Introduction to Digitization and Editing in OSM</title>
-      <link>/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:
- Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager. Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
-    </item>
-    
-    <item>
-      <title>2.0 Introduction to Digitization and Editing in OSM</title>
-      <link>/pages/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:
- Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager. Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
-    </item>
-    
-    <item>
-      <title>4.0 Introduction to Field Mapping Management</title>
-      <link>/pages/field-mapping-management/4.0-field-mapping-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/field-mapping-management/4.0-field-mapping-management/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
- Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
-    </item>
-    
-    <item>
-      <title>4.0 Introduction to Field Mapping Management</title>
-      <link>/pages/pages/field-mapping-management/4.0-field-mapping-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/field-mapping-management/4.0-field-mapping-management/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
- Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
-    </item>
-    
-    <item>
-      <title>5.0 Data Cleaning, Upload, and Quality Assurance</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
-      <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
- Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
-    </item>
-    
-    <item>
-      <title>5.0 Data Cleaning, Upload, and Quality Assurance</title>
-      <link>/pages/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
-      <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
- Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
-    </item>
-    
-    <item>
-      <title>6.0 Data Export Tools</title>
-      <link>/pages/pages/data-export/6.0-data-export-tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-export/6.0-data-export-tools/</guid>
-      <description>In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
- An overview of data export tools, including presentation slides Step-by-step guides for exporting data with the HOT Export Tool and HDX   Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.</description>
-    </item>
-    
-    <item>
-      <title>6.0 Introduction to Data Export Tools</title>
-      <link>/pages/data-export/6.0-data-export-tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-export/6.0-data-export-tools/</guid>
-      <description>In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
- An overview of data export tools, including presentation slides Step-by-step guides for exporting data with the HOT Export Tool and HDX   Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.</description>
-    </item>
-    
-    <item>
-      <title>7.0 Data Use and Analysis</title>
-      <link>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
-      <description>In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
- A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps   There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
-    </item>
-    
-    <item>
-      <title>8.0 Introduction to Mapping Workflows</title>
-      <link>/pages/getting_started/8.0_mapping_workflows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/getting_started/8.0_mapping_workflows/</guid>
-      <description>In this section, Project Managers will find example workflows from HOT projects on how the processes, tools, and workflows contained in previous sections of this Toolbox have been applied to real field projects. Project Managers can use these example workflows to identify a project similar in scope or goal to their own and identify which tools and processes may be needed for their own project. Each workflow example contains:
- An overview of the project A step-by-step guide of phases, steps, and tools used Links to various parts of the Toolbox to learn how the step was completed  !</description>
-    </item>
-    
-    <item>
-      <title>How to use the HOT Toolbox</title>
-      <link>/pages/introduction/how_to_use_toolbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/introduction/how_to_use_toolbox/</guid>
-      <description>The HOT Toolbox is designed to take a project manager or community through the entire mapping workflow, from planning, through initial mapping, data use and analysis. Not every mapping project is the same. Some projects involve extensive field data collection components, others might not even conduct field mapping activities but run desktop-based digitization projects instead.
-The Toolbox has seven sections (overview below) that can be used in the order presented, or combined to suit your individual project training needs.</description>
-    </item>
-    
-    <item>
-      <title>1.1 Defining Needs and Requirements</title>
-      <link>/pages/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</guid>
-      <description>This section includes guiding questions and considerations that Project Managers and OSM communities should take into account when beginning a project including:
- Factors to consider when deciding what to map; Contexts that could impact planning and preparation; Considerations to make for involving stakeholders, communities, and how to select your team.   Overview When starting a mapping project, it is important to define the scope of the project and understand the larger context in which the data is needed, this includes understanding how to work with local stakeholders and how the data will impact them.</description>
     </item>
     
     <item>
@@ -162,30 +32,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     
     <item>
       <title>1.2 Safety, Security, and Logistics</title>
-      <link>/pages/pages/running-a-mapping-project/1.2_safety_security_and_logistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/running-a-mapping-project/1.2_safety_security_and_logistics/</guid>
-      <description>In this section, Project Managers will find questions and considerations on assessing needs for safety, security, and logistics for field operations.  Overview For projects requiring field work, you will need to take extra steps to ensure that logistics and security are effectively handled. The following are topics that project managers should consider and have plans for before entering the field. Work with donors, local partners, and stakeholders to fill information gaps and meet these needs.</description>
-    </item>
-    
-    <item>
-      <title>1.2 Safety, Security, and Logistics</title>
       <link>/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</guid>
       <description>In this section, Project Managers will find questions and considerations on assessing needs for safety, security, and logistics for field operations.  Overview For projects requiring field work, you will need to take extra steps to ensure that logistics and security are effectively handled. The following are topics that project managers should consider and have plans for before entering the field. Work with donors, local partners, and stakeholders to fill information gaps and meet these needs.</description>
-    </item>
-    
-    <item>
-      <title>1.3 Selecting Hardware</title>
-      <link>/pages/pages/running-a-mapping-project/1.3-hardware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/running-a-mapping-project/1.3-hardware/</guid>
-      <description>In this section, Project Managers will find information on selecting the appropriate hardware for conducting a mapping project including:
- Determining what hardware may or may not be needed. Specifications and recommended models for mobile devices, tablets, and computers based on project needs. Guides on additional equipment that may be needed such as power banks and hard drives.  Overview Hardware encompasses all physical assets related to technology, computers, and electronics needed for a project.</description>
     </item>
     
     <item>
@@ -200,16 +51,6 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     
     <item>
       <title>1.4 Trainings and Workshops</title>
-      <link>/pages/pages/running-a-mapping-project/1.4-trainings-and-workshops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/running-a-mapping-project/1.4-trainings-and-workshops/</guid>
-      <description>In this section, Project Managers will find information on considerations and resources to use while planning trainings and workshops for mapping and OSM, including:
- Guidance on training requirements Examples and resources for creating training agendas Considerations for presentations and other provided materials.  Overview Most mapping projects will involve trainings or workshops of some kind, whether training field mappers to use OpenDataKit, training local government stakeholders how to export and use OSM data, or training students in QGIS for creating maps.</description>
-    </item>
-    
-    <item>
-      <title>1.4 Trainings and Workshops</title>
       <link>/pages/running-a-mapping-project/1.4-trainings-and-workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -219,22 +60,21 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
+      <title>2.0 Introduction to Digitization and Editing in OSM</title>
+      <link>/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
+      <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:
+ Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager. Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
+    </item>
+    
+    <item>
       <title>2.1 Introduction to OpenStreetMap</title>
       <link>/pages/digitization-and-editing/3.1_introduction_to_openstreetmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/digitization-and-editing/3.1_introduction_to_openstreetmap/</guid>
-      <description>This section provides:
- An overview of OpenStreetMap, including presentation slides Step-by-step instructions for creating OpenStreetMap accounts Step-by-step instructions for using and navigating OSM Considerations for training large groups  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
- Overview OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&#39;s mapping activities.</description>
-    </item>
-    
-    <item>
-      <title>2.1 Introduction to OpenStreetMap</title>
-      <link>/pages/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</guid>
       <description>This section provides:
  An overview of OpenStreetMap, including presentation slides Step-by-step instructions for creating OpenStreetMap accounts Step-by-step instructions for using and navigating OSM Considerations for training large groups  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
  Overview OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&#39;s mapping activities.</description>
@@ -251,32 +91,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>2.2 Organized OSM Editing</title>
-      <link>/pages/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
-      <description>This section provides:
- Considerations for managing and sourcing mappers for an organized editing project Overview of the OSM Organized Editing Guidelines and compliance Step-by-step guide for complying with the OSM Organized Editing Guidelines   Overview Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts.</description>
-    </item>
-    
-    <item>
       <title>2.3 Working with the HOT Tasking Manager</title>
       <link>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
-      <description>This section provides:
- An overview of the HOT Tasking Manager, including presentation slides Step-by-step instructions for getting started with the HOT Tasking Manager  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
- Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&#39;s collaborative mapping process in OpenStreetMap.</description>
-    </item>
-    
-    <item>
-      <title>2.3 Working with the HOT Tasking Manager</title>
-      <link>/pages/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
       <description>This section provides:
  An overview of the HOT Tasking Manager, including presentation slides Step-by-step instructions for getting started with the HOT Tasking Manager  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
  Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&#39;s collaborative mapping process in OpenStreetMap.</description>
@@ -294,33 +113,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>2.4 Editing with iD and JOSM</title>
-      <link>/pages/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
-      <description>This section provides:
- A comparison of OpenStreetMap editing tools, JOSM and iD Editor An overview of iD Editor, including presentation slides An overview of JOSM, including presentation slides  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
- Overview There are several ways to edit in OpenStreetMap.</description>
-    </item>
-    
-    <item>
       <title>2.5 Validating with JOSM</title>
       <link>/pages/digitization-and-editing/3.5_validating_with_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/digitization-and-editing/3.5_validating_with_josm/</guid>
-      <description>This section provides:
- An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
- Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
-    </item>
-    
-    <item>
-      <title>2.5 Validating with JOSM</title>
-      <link>/pages/pages/digitization-and-editing/2.5_validating_with_josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
       <description>This section provides:
  An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
  Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
@@ -338,32 +135,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>2.6 Resolving conflicts in JOSM</title>
-      <link>/pages/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
-      <description>This section provides:
- An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
- Overview When you are uploading your changes in JOSM, some contributors might also do editing in your area.</description>
-    </item>
-    
-    <item>
       <title>3.0 Introduction to Technical Set-up for Field Mapping</title>
       <link>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
-      <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
- Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
-    </item>
-    
-    <item>
-      <title>3.0 Introduction to Technical Set-up for Field Mapping</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.0_technical_set-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
  Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
     </item>
@@ -379,31 +155,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>3.1 Designing The Data Model</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
-      <description>This section provides:
- An overview of data models and OpenStreetMap tagging, including presentation slides Step-by-step instructions for tools to help build your data model Step-by-step instructions for creating your data model  Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A data model defines what features are surveyed or mapped and what attributes are collected for each feature.</description>
-    </item>
-    
-    <item>
       <title>3.2 Data collection applications</title>
       <link>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
-      <description>This section provides:
- An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.meChoosing a Data Collection Application Which data collection application should I use?</description>
-    </item>
-    
-    <item>
-      <title>3.2 Data collection applications</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>This section provides:
  An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.meChoosing a Data Collection Application Which data collection application should I use?</description>
     </item>
@@ -419,16 +175,6 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>3.2.1 Setting up OpenDataKit</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
-      <description>This section provides:
- A step-by-step guide in setting up OpenDataKit for use in the field, including,  Creating ODK forms Setting up ODK on devices    Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
-    </item>
-    
-    <item>
       <title>3.2.2 Setting up OpenMapKit</title>
       <link>/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -439,32 +185,11 @@ The Toolbox has seven sections (overview below) that can be used in the order pr
     </item>
     
     <item>
-      <title>3.2.2 Setting up OpenMapKit</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
-      <description>This section provides:
- A step-by-step guide in setting up OpenMapKit for use in the field, including,  Creating .mbtiles     Overview OpenMapKit (OMK) is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey. It is what allows you to browse OSM features, and to create and edit OSM tags.
-Not sure if OpenMapKit is right for your project?</description>
-    </item>
-    
-    <item>
       <title>3.3 Navigation Applications</title>
       <link>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
-      <description>This section provides:
- An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me.While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
-    </item>
-    
-    <item>
-      <title>3.3 Navigation Applications</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
       <description>This section provides:
  An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me.While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
     </item>
@@ -481,14 +206,13 @@ Overview When beginning a mapping project, many organizations ask if they need t
     </item>
     
     <item>
-      <title>3.4 Data Collection Servers</title>
-      <link>/pages/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</link>
+      <title>4.0 Introduction to Field Mapping Management</title>
+      <link>/pages/field-mapping-management/4.0-field-mapping-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
-      <description>This section provides:
- An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
-Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
+      <guid>/pages/field-mapping-management/4.0-field-mapping-management/</guid>
+      <description>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
+ Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
     </item>
     
     <item>
@@ -532,6 +256,16 @@ Overview When beginning a mapping project, many organizations ask if they need t
     </item>
     
     <item>
+      <title>5.0 Data Cleaning, Upload, and Quality Assurance</title>
+      <link>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
+      <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
+ Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
+    </item>
+    
+    <item>
       <title>5.1 Data Cleaning with JOSM</title>
       <link>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -550,6 +284,16 @@ Overview Data collected in the field should always be cleaned for errors and rec
       <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</guid>
       <description>This section provides:
  An overview of Quality Assurance tools, including presentation slides Guidance on when, why, and how to use each tool Brief overviews and step-by-step guides on using each tool  Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+    </item>
+    
+    <item>
+      <title>6.0 Introduction to Data Export Tools</title>
+      <link>/pages/data-export/6.0-data-export-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-export/6.0-data-export-tools/</guid>
+      <description>In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
+ An overview of data export tools, including presentation slides Step-by-step guides for exporting data with the HOT Export Tool and HDX   Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.</description>
     </item>
     
     <item>
@@ -572,6 +316,16 @@ Resources and Training Materials This section features a selection of resources 
       <description>This section provides:
  An overview of the Humanitarian Data Exchange (HDX) Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using HDX  Overview Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA&#39;s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
  Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Resources and Training Materials This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
+    </item>
+    
+    <item>
+      <title>7.0 Data Use and Analysis</title>
+      <link>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
+      <description>In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
+ A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps   There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
     </item>
     
     <item>
@@ -605,6 +359,16 @@ Resources and Training Materials This section features a selection of resources 
     </item>
     
     <item>
+      <title>8.0 Introduction to Mapping Workflows</title>
+      <link>/pages/getting_started/8.0_mapping_workflows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/getting_started/8.0_mapping_workflows/</guid>
+      <description>In this section, Project Managers will find example workflows from HOT projects on how the processes, tools, and workflows contained in previous sections of this Toolbox have been applied to real field projects. Project Managers can use these example workflows to identify a project similar in scope or goal to their own and identify which tools and processes may be needed for their own project. Each workflow example contains:
+ An overview of the project A step-by-step guide of phases, steps, and tools used Links to various parts of the Toolbox to learn how the step was completed  !</description>
+    </item>
+    
+    <item>
       <title>8.1 Mapping Buildings and POI with OMK</title>
       <link>/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -624,6 +388,16 @@ The Open Cities Africa Accra project sought to make Alogboshie and its environs 
       <description>The following workflow showcases the tools and processes used in a simple field mapping project during which HOT trained local NGOs to integrate mapping into existing programs using OpenDataKit and KoboToolBox Server.
 Project Overview Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa
 East Africa (and Uganda specifically) continues to be the center of one of the world’s largest and fastest growing refugee crises. Uganda’s progressive open-door policy alone has led to an influx of approximately 1.</description>
+    </item>
+    
+    <item>
+      <title>How to use the HOT Toolbox</title>
+      <link>/pages/introduction/how_to_use_toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/introduction/how_to_use_toolbox/</guid>
+      <description>The HOT Toolbox is designed to take a project manager or community through the entire mapping workflow, from planning, through initial mapping, data use and analysis. Not every mapping project is the same. Some projects involve extensive field data collection components, others might not even conduct field mapping activities but run desktop-based digitization projects instead.
+The Toolbox has seven sections (overview below) that can be used in the order presented, or combined to suit your individual project training needs.</description>
     </item>
     
   </channel>
