@@ -198,6 +198,21 @@
   </url>
   
   <url>
+    <loc>/fr/pages/getting_started/</loc>
+    <lastmod>2019-12-02T13:04:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/getting_started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/getting_started/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/</loc>
     <lastmod>2019-12-02T12:54:54-05:00</lastmod>
     <priority>0</priority>
