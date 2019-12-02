@@ -214,7 +214,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-02T13:16:50-05:00</lastmod>
+    <lastmod>2019-12-02T13:25:59-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -660,6 +660,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/getting_started/8.2_mappingpoi_withodk/</loc>
+    <lastmod>2019-12-02T13:25:59-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/getting_started/8.2_mappingpoi_withodk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/getting_started/8.2_mappingpoi_withodk/"
                 />
   </url>
   

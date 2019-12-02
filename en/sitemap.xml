@@ -666,6 +666,16 @@
   <url>
     <loc>/pages/getting_started/8.2_mappingpoi_withodk/</loc>
     <lastmod>2019-11-27T14:41:49-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/getting_started/8.2_mappingpoi_withodk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/getting_started/8.2_mappingpoi_withodk/"
+                />
   </url>
   
   <url>

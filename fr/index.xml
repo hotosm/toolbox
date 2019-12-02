@@ -357,5 +357,15 @@ Présentation du projet Projet Open Cities Africa - Accra
 Le projet Open Cities Africa Accra visait à rendre Alogboshie et ses environs résilients aux catastrophes naturelles, notamment aux inondations. Le projet consistait à cartographier à distance Alogboshie, Akweteyman et Alajo.</description>
     </item>
     
+    <item>
+      <title>8.2 Mapping des POI avec ODK &#43; KoboToolbox Server</title>
+      <link>/fr/pages/getting_started/8.2_mappingpoi_withodk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/getting_started/8.2_mappingpoi_withodk/</guid>
+      <description>Le processus de travail suivant présente les outils et méthodes utilisés dans un simple projet de cartographie sur le terrain au cours duquel HOT a formé des ONG locales à intégrer la cartographie dans des programmes existants en utilisant OpenDataKit et KoboToolBox Server.
+Présentation du projet Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa (Réduire les disparités de développement et la crise des réfugiés en Afrique de l&#39;Est)</description>
+    </item>
+    
   </channel>
 </rss>
