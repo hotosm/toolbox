@@ -37,7 +37,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>Cette partie montre:
- Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&#39;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Généralités Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&#39;une application à utiliser dépend de la capacité de l&#39;appareil mobile, des conditions d&#39;installation qui peuvent varier et selon les besoins de la collecte.</description>
+ Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&#39;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Aperçu Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&#39;une application à utiliser dépend de la capacité de l&#39;appareil mobile, des conditions d&#39;installation qui peuvent varier et selon les besoins de la collecte.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>Cette rubrique présente:
- Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&#39;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Overview OpenDataKit (ODK) est un ensemble d&#39;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
+ Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&#39;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Aperçu OpenDataKit (ODK) est un ensemble d&#39;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
     </item>
     
     <item>
