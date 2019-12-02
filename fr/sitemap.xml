@@ -214,7 +214,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-02T13:40:25-05:00</lastmod>
+    <lastmod>2019-12-02T13:48:34-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -555,6 +555,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</loc>
+    <lastmod>2019-12-02T13:48:34-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
                 />
   </url>
   

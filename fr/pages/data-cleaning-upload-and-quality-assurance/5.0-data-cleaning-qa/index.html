@@ -50,7 +50,7 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../../fr/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="language-select-option
+        <a href="../../../../fr/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/" class="language-select-option
         
         language-select-option--selected
         
@@ -58,7 +58,7 @@
         
         
             
-        <a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="language-select-option 
+        <a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/" class="language-select-option 
         
         ">English</a>
         
@@ -191,20 +191,20 @@
 
         <div class="
         
-        accordion accordion--open
+        accordion accordion--closed
         
         ">
             La gestion de la cartographie sur le terrain
         </div>
         <div class="panel
         
-        panel--open
+        panel--closed
         ">
                 <ul class="page-list">
                     
                         <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.0-field-mapping-management/" class="menu-link">4.0 Introduction à la gestion de la cartographie sur le terrain</a></li>
                     
-                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="menu-link menu-link--active">4.1 Gestion des équipes sur le terrain</a></li>
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="menu-link">4.1 Gestion des équipes sur le terrain</a></li>
                     
                         <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.2_using_odk_collect/" class="menu-link">4.2 Utilisation de ODK Collect</a></li>
                     
@@ -218,18 +218,18 @@
 
         <div class="
         
-        accordion accordion--closed
+        accordion accordion--open
         
         ">
             Data Cleaning, Upload, and Quality Assurance
         </div>
         <div class="panel
         
-        panel--closed
+        panel--open
         ">
                 <ul class="page-list">
                     
-                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/" class="menu-link">5.0 Introduction à nettoyage, téléchargement et assurance de la qualité des donnée</a></li>
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/" class="menu-link menu-link--active">5.0 Introduction à nettoyage, téléchargement et assurance de la qualité des donnée</a></li>
                     
                         <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link">5.1 Correction et mise à jour de données avec JOSM</a></li>
                     
@@ -329,7 +329,7 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/3d2a91b63874db741538a084f54de59b4c2552be" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/ba6f9034e34f356dafe5d4a1ccc8f3602d420f03" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
       Dernière modification: December 2, 2019
     </a>
   </div>
@@ -337,64 +337,29 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">4.1 Gestion des équipes sur le terrain</h1><p>Cette section fournit:</p>
+           <h1 class="page-title">5.0 Introduction à nettoyage, téléchargement et assurance de la qualité des donnée</h1><p>Dans cette section, les responsables de projet trouveront des outils et des ressources pour nettoyer et télécharger les données collectées sur le terrain dans OpenStreetMap et gérer la qualité des données, notamment:</p>
 <ul>
-<li>Un aperçu des outils et des méthodes de gestion des équipes sur le terrain.</li>
-<li>Des guides pour utiliser OSMAnd et QGIS dans la gestion des déplacements d’équipes et de la réalisation des tâches</li>
+<li>Guide pour le nettoyage des données dans JOSM à télécharger sur OpenStreetMap.</li>
+<li>Ressources pour les outils de qualité des données à utiliser après le téléchargement sur OpenStreetMap, y compris les présentations.</li>
 </ul>
-<!-- raw HTML omitted -->
-<h2 id="aperu">Aperçu</h2>
-<p>Un plan de collecte des données sur le terrain bien pensé est essentiel au succès de la collecte de données sur le terrain. Cela garantira que les équipes sur le terrain rencontrent le moins de défis possible sur le terrain, réduisant ainsi le nombre d'appels au support sur le terrain adressés au superviseur. 	 
-Lors de la planification du déploiement d'une équipe, il est important que le superviseur ait une idée précise du nombre de jours de travail dont il dispose par rapport à la main-d'œuvre disponible pour effectuer le travail. Une fois que cela est faite, ils vont ensuite créer de petites sections de la zone de cartographie, qui peuvent être couvertes en une journée par une équipe de deux cartographe ou un seul en fonction de leur arrangement. 	
-Comme dans la grille de Tasking Manager, la création de sections de cartographie permet aux superviseurs de diviser les tâches, de surveiller les progrès et d’évaluer les lacunes ou les problèmes de qualité.</p>
-<h2 id="ressources-et-supports-de-formation">Ressources et supports de formation</h2>
-<p>Cette section présente une sélection de ressources destinées aux gestionnaires de projet, aux formateurs ou même aux auto-apprenants sur les sujets décrits ci-dessus.</p>
-<p><img src="../../../../images/learning_icon_wide.PNG" alt="">
-<em>La section suivante est conçue pour servir de guide auto-rythmé aux chefs de projet, superviseurs ou autres dans la création et la mise en œuvre de zones d’affectation pour la cartographie sur le terrain.</em></p>
-<p><strong>Compétences et technologie nécessaires</strong></p>
+<p><img src="../../../../images/digitization-and-editing/DSC03241.jpg" alt=""></p>
+<hr>
+<p><strong>Le nettoyage, le téléchargement et l’assurance de la qualité des données</strong> constituent une étape critique de tout flux de travail de cartographie. Ce processus couvre le nettoyage des données de terrain brutes pour les erreurs, le téléchargement de données non corrigées vers OpenStreetMap et l'utilisation de divers outils de contrôle de la qualité pour surveiller les données téléchargées. Peu importe comment (et si) vous collectez des données sur le terrain, tout projet résultant de la modification de OpenStreetMap doit avoir un plan d'assurance de la qualité et de contrôle.</p>
 <ul>
-<li>
-<p>Ordinateur</p>
-</li>
-<li>
-<p><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-qgis"> Installé QGIS</a></p>
-</li>
-<li>
-<p><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#navigating-qgis">Compétences de base en QGIS</a></p>
-</li>
-<li>
-<p><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins">QuickMapServices</a></p>
-</li>
+<li><strong>5.1 Nettoyage des données dans JOSM</strong> couvre le processus et les étapes requises pour nettoyer les données de terrain et le processus de téléchargement à l'aide de JOSM.</li>
+<li><strong>5.2 Outils d’assurance de la qualité</strong> fournit un guide des outils utilisés par HOT pour surveiller et contrôler la qualité des données des données téléchargées sur OpenStreetMap.</li>
 </ul>
-<h3 id="cration-de-sections-de-cartographie-dans-qgis-pour-des-cartes-imprimes">Création de sections de cartographie dans QGIS pour des cartes imprimées</h3>
-<p>L'activité suivante couvre le processus de génération de sections cartographique dans QGIS pour l’impression. Cette activité utilise l'exemple de la direction d'une équipe de 8 volontaires de cartographie pour cartographier la ville de Grootfontein, dans le nord de la Namibie, au cours d'un projet d'élimination du paludisme. Des exemples de fichiers sont fournis pour cette activité mais peuvent être suivis par des fichiers fournis par l'utilisateur.</p>
-<p>Pour commencer, ouvrez QGIS sur votre ordinateur et démarrez un nouveau projet. À l'aide de<a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins">QuickMapServices</a> comme fond de carte, accédez à Grootfontein Town, au nord de la Namibie.</p>
-<p><img src="../../../../images/advanced_qgis/management1.gif" alt=""></p>
-<p>Créez un fichier de formes vide en sélectionnant &lsquo;Layer&rsquo; &gt; &lsquo;Create Layer&rsquo; &gt; &lsquo;New Shapefile Layer&rsquo;. Après avoir sélectionné l'emplacement et le nom du fichier, veillez à attribuer le fichier en tant que &lsquo;Polygon&rsquo;.</p>
-<p><img src="../../../../images/advanced_qgis/management2.gif" alt=""></p>
-<p>Activez la modification, sélectionnez &lsquo;New feature&rsquo; . Créez des quartiers de la ville en leur donnant des chiffres. Ces sections doivent suivre les caractéristiques naturelles ou les sites importants tels que les marécages ou les routes. Cela permet d'assurer la facilité de localisation de ces sections par les cartographe.</p>
-<p><img src="../../../../images/advanced_qgis/management3.gif" alt="">
-Une fois que toutes les sections sont créées, style pour la visibilité.</p>
-<p><img src="../../../../images/advanced_qgis/management4.PNG" alt=""></p>
-<p>Faites des cartes montrant ces sections. Ces cartes peuvent être imprimées pour être partagées avec les volontaires de cartographie. Les équipes peuvent désormais se rendre dans les sections allouées pour effectuer la cartographie sur le terrain.</p>
-<h3 id="cration-et-importation-de-sections-de-cartographie-dans-osmand">Création et importation de sections de cartographie dans OSMAnd</h3>
-<p>L'activité suivante couvre le processus d'importation de fichiers dans OSMAnd en fonction de l'activité précédente (génération de sections de cartographie dans QGIS). Cette activité utilise l'exemple de la direction d'une équipe de 8 volontaires de cartographie pour cartographier la ville de Grootfontein, dans le nord de la Namibie, au cours d'un projet d'élimination du paludisme.</p>
-<p>![](/images/advanced_qgis/area of focus.jpg)</p>
-<p><strong>OSMAnd</strong> offre une excellente alternative à l’impression des cartes de ces sections. Avec OSMAnd, le superviseur peut à la place utiliser les étapes suivantes pour donner aux membres de l’équipe des sections à utiliser sur le terrain directement sur leurs appareils mobiles.</p>
-<ol>
-<li>Créez des centroïdes de section à partir de <em>grootfontein_sections.shp</em> en vous donnant <em>grootfontein_sections_centroids.shp</em>. Créer centroids en sélectionnant le &lsquo;Vector&rsquo; menu &gt; &lsquo;Geometry Tools&rsquo; &gt; &lsquo;Centroids&rsquo;. Dans le sous-menu, sélectionnez <em>grootfontein_sections.shp</em> en tant que couche d'entrée, cliquez sur &lsquo;Run.&rsquo;</li>
-</ol>
-<p>et chargez ces deux fichiers via le bouton</p>
-<ol start="2">
-<li>Exportez les fichiers de formes de sections (<em>grootfontein_sections.shp</em>) et le centroids shapefile (<em>grootfontein_sections_centroids.shp</em>) 	sous la forme d'un fichier  .gpx giving you a <em>grootfontein_sections.gpx</em> and <em>grootfontein_sections_centroids.gpx.</em></li>
-<li>Transférez ces deux fichiers .gpx de votre ordinateur vers le dossier _/Phone/Android/data/net.osmand/files/tracks _folder</li>
-<li>Ouvrez OSMAnd l’application  et coller ces deux fichiers via le Menu-&gt; My Places -&gt; Tracks -&gt; naviguer là où se trouve ces fichiers.</li>
-</ol>
-<p>Le fichier gpx des sections vous montrera les limites des sections et le fichier gpx des centroïdes vous montrera les numéros de section une fois qu'un point de centroïde est sélectionné. Grâce à ces deux éléments, les volontaires peuvent se déplacer sur le terrain à l’aide de l’application OSMAnd, localisant leurs positions à chaque fois.</p>
+<p><img src="../../../../images/training_presentations_wide.PNG" alt="">
+<em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier:</em></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1mn0ahFOCiz9DhrWmYFt1nrC25c7WQjODvXG6pTRJ-Jo/edit?usp=sharing">Outils d'assurance de la qualités</a></li>
+</ul>
 </div>
 
 
 
+
+    
 
     
 
@@ -414,16 +379,14 @@ Une fois que toutes les sections sont créées, style pour la visibilité.</p>
 
     
 
-    
 
 
 
 
-
-<a class="next-page" href="../../../../fr/pages/field-mapping-management/4.2_using_odk_collect/">
+<a class="next-page" href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/">
     <div class="next-page__container">
             <div class="sub-title sub-title-10">LIRE LA SUITE</div>
-            <div class="next-title">4.2 Utilisation de ODK Collect</div>
+            <div class="next-title">5.1 Correction et mise à jour de données avec JOSM</div>
     </div>
     <img src="../../../../svg/forward-arrow.svg" alt="">
 </a>
@@ -436,25 +399,15 @@ Une fois que toutes les sections sont créées, style pour la visibilité.</p>
     
     <div class="toc-list">
         <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#aperu">Aperçu</a></li>
-    <li><a href="#ressources-et-supports-de-formation">Ressources et supports de formation</a>
-      <ul>
-        <li><a href="#cration-de-sections-de-cartographie-dans-qgis-pour-des-cartes-imprimes">Création de sections de cartographie dans QGIS pour des cartes imprimées</a></li>
-        <li><a href="#cration-et-importation-de-sections-de-cartographie-dans-osmand">Création et importation de sections de cartographie dans OSMAnd</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+        <nav id="TableOfContents"></nav>
     </div>
     <hr class="toc-divider">
     
     
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-Data-cleaning-qa.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
     <a 
     
-    href="../../../../pdfs/fr/4.1_managing_teams_in_the_field.pdf"
+    href="../../../../pdfs/fr/5.0-Data-cleaning-qa.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
 </div></aside>
