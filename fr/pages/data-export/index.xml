@@ -30,5 +30,16 @@
  Présentation de la plate-forme d&#39;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&#39;aide de l&#39;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&#39;intérêt et le type de fichier. Des supports d&#39;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
     </item>
     
+    <item>
+      <title>6.2 Humanitarian Data Exchange</title>
+      <link>/fr/pages/data-export/6.2-hdx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-export/6.2-hdx/</guid>
+      <description>Cette section fournit :
+ Un bref aperçu de Humanitarian Data Exchange (HDX) Instructions étape par étape sur le téléchargement de données (comme les fichiers shapesfiles) depuis OpenStreetMap à l&#39;aide de HDX  Aperçu Humanitarian Data Exchange (HDX) est une plate-forme de stockage et de partage de données humanitaires. La plateforme est gérée par OCHA’s pour le compte du Centre de données Humanitaire. Les données sont les suivantes ::
+ Jeux de données géospatiales CSV et feuilles de calcul fichiers texte et images  Ressources et matériels de Formation Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</description>
+    </item>
+    
   </channel>
 </rss>

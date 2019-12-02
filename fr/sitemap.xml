@@ -214,7 +214,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-02T13:35:55-05:00</lastmod>
+    <lastmod>2019-12-02T13:40:25-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -600,6 +600,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-export/6.1-hot-export-tool/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-export/6.2-hdx/</loc>
+    <lastmod>2019-12-02T13:40:25-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-export/6.2-hdx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-export/6.2-hdx/"
                 />
   </url>
   
