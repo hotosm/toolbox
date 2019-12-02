@@ -1,6 +1,5 @@
 ---
 title : How to use the HOT Toolbox
-weight : 1
 ---
 
 The HOT Toolbox is designed to take a project manager or community through the entire mapping workflow, from planning, through initial mapping, data use and analysis. Not every mapping project is the same. Some projects involve extensive field data collection components, others might not even conduct field mapping activities but run desktop-based digitization projects instead. 
