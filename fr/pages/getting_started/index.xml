@@ -10,5 +10,14 @@
 	<atom:link href="/fr/pages/getting_started/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>8.0 Introduction aux procédures de mapping</title>
+      <link>/fr/pages/getting_started/8.0_mapping_workflows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/getting_started/8.0_mapping_workflows/</guid>
+      <description>Dans cette rubrique, les gestionnaires de projet trouveront des exemples de flux de travail tiré d’exemples de projets mis en oeuvre par HOT. Les outils et les méthodes de travail vu précédemment ont été appliqué à un projet. Les gestionnaires de projet peuvent utiliser ces exemples de flux de travail pour identifier un projet similaire au leur et identifier les outils et les processus qui peuvent être nécessaires pour sa réalisation.</description>
+    </item>
+    
   </channel>
 </rss>
