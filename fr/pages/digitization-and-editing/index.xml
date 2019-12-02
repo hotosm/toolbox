@@ -63,6 +63,17 @@
     </item>
     
     <item>
+      <title>2.5 Validation dans JOSM</title>
+      <link>/fr/pages/digitization-and-editing/2.5_validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
+      <description>Cette section contient :
+ Un aperçu de la validation dans JOSM, y compris les diapositives de présentation Instructions étape par étape pour la pratique de la validation dans JOSM  Les documents suivants sont conçus pour aider les chargés des projets et d&#39;autres personnes à animer des formations et des ateliers. Cependant, ce matériel convient également aux personnes intéressées à apprendre comment valider les données OSM dans JOSM.
+Aperçu Validation La validation est un processus permettant le contrôle de la précision, la cohérence, la complétude et les anomalies dans la qualité des données (dans le cas présent, la qualité de la donnée cartographique).</description>
+    </item>
+    
+    <item>
       <title>2.6 Résolution des conflits dans JOSM</title>
       <link>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
