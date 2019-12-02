@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body   data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/toolbox/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/toolbox" class="no-underline"><h4 class="title site-title">HOT Toolbox</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+    </div>
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+        <a href="../../../../fr/fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français</a>
+        
+        
+            
+        <a href="../../../../fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/" class="language-select-option 
+        
+        ">English</a>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Introduction à la boîte à outils HOT
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/introduction/how_to_use_toolbox/" class="menu-link">Comment utiliser la boîte à outils HOT</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Conception et coordination d&#39;un projet de cartographie
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/" class="menu-link">1.0  Introduction à la conception d’un projet de cartographie</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/" class="menu-link">1.1 Définition des besoins et des exigences</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/" class="menu-link">1.2 Sûreté, sécurité et logistique</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.3-hardware/" class="menu-link">1.3 Sélection du matériel</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/" class="menu-link">1.4 Formations et Ateliers</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            La numérisation et à l&#39;édition dans OSM
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.0-digitization-and-editing/" class="menu-link">2.0 Introduction à la numérisation et à l&#39;édition dans OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/" class="menu-link menu-link--active">2.1 Introduction à OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.2_organized_osm_editing/" class="menu-link">2.2 Organisation de l’édition dans OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/" class="menu-link">2.3 Travailler avec le  HOT Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/" class="menu-link">2.4 Edition avec iD et JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/" class="menu-link">2.6 Résolution des conflits dans JOSM</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Technical Set-up
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/" class="menu-link">3.0 Introduction à la configuration technique pour la cartographie sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/" class="menu-link">3.1 Conception du modèle de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/" class="menu-link">3.2 Les outils de collecte de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/" class="menu-link">3.2.1 Configuration de OpenDataKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/" class="menu-link">3.2.2 Configuration de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/" class="menu-link">3.3 Les applications de navigation</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/" class="menu-link">3.4 Serveurs de collecte de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Management
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/" class="menu-link">4.1 Gestion des équipes sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.2_using_odk_collect/" class="menu-link">4.2 Utilisation de ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.3_using_openmapkit/" class="menu-link">4.3 Utilisation de OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/field-mapping-management/4.4_using_osm_tracker/" class="menu-link">4.4 Utilisation de OSMTracker</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Cleaning, Upload, and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/" class="menu-link">5.1 Correction et mise à jour de données avec JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/" class="menu-link">5.2 Outils d&#39;assurance de qualité et Outils de contrôle qualité</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Outils d&#39;exportation de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-export/6.0-data-export-tools/" class="menu-link">6.0 Outils d&#39;exportation de données</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Utilisation et analyse de données
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/" class="menu-link">7.0 Utilisation et analyse de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.1-qgis/" class="menu-link">7.1 Introduction à QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/" class="menu-link">7.2 Créer des cartes et des atlas dans QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/" class="menu-link">7.3 Web et cartes interactives</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/1cc4cb9e55f073ad0628ccb20daf319e67c17035" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
+      Dernière modification: December 2, 2019
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">2.1 Introduction à OpenStreetMap</h1><p>Cette section contient:</p>
+<ul>
+<li>Un aperçu de OpenStreetMap, y compris les diapositives de présentation.</li>
+<li>Instructions pas-à-pas de création d’un compte OpenStreetMap.</li>
+<li>Instructions pas-à-pas sur l’utilisation et la navigation dans OSM</li>
+<li>Considérations dans la formation d’un large groupe.</li>
+</ul>
+<p><em>Les matériels suivants sont conçus pour aider les chefs de projet et autres responsable lors des formations et atelier. Si vous êtes une personne intéressée par la cartographie dans OpenStreetMap, veuillez visiter <a href="https://learnosm.org/en/">LearnOSM.org</a>.</em></p>
+<hr>
+<h2 id="aperu">Aperçu</h2>
+<p><a href="https://www.openstreetmap.org/">OpenStreetMap</a> est un projet collaboratif de création d’une carte gratuite et éditable du monde, et est au coeur des activités de cartographie de HOT. Vous êtes libre de l’utiliser à n’importe quelle fin, à condition de créditer OSM et ses contributeurs.</p>
+<p><img src="../../../../images/IntroOSM.gif" alt=""></p>
+<p>La puissance de OpenStreetMap est de permettre à qui qu’oncques partout dans le monde d’ajouter des informations à une carte collective et d’utiliser les données à n’importe quelle fin. Vous pouvez penser à OSM comme étant le ‘Wikipedia’ de la cartographie – C’est une base de données en ligne avec une communauté de plus de 5 million d’utilisateurs souscrit. Cette communauté collabore dans la création d’une carte libre et ouverte du monde à laquelle tout le monde peut contribuer et utiliser dans leurs propres contextes. Tout ce dont vous avez besoin pour contribuer dans OSM est une connexion Internet et une adresse email.</p>
+<p>OpenStreetMap peut et à été utilisé à des fins diverses. - De la réponse aux catastrophes à la commercialisation. La première utilisation organisée de OSM dans la réponse aux catastrophes était après le séisme d'Haïti en 2010. Les images hautes résolution de la zone affectée étant mise à la disposition du publique, plus de 600 individus de la communauté mondiale OSM ont commencé à numériser les images, traçant les routes et autres infrastructures. Ils ont créé ce qui est rapidement devenu la carte la plus détaillée de Port-au-Prince à ce jour, qui ensuite a été utilisée par les équipes de secours dans l’acheminement des aides autour de la capital détruite et aussi coordonner plusieurs aspects dans la réponse et efforts de reconstruction.</p>
+<h2 id="ressources-et-matriels-de-formation">Ressources et matériels de Formation</h2>
+<p>Cette section présente une sélection de ressources destinées aux chefs de projet, aux formateurs ou même aux auto-apprenants sur le(s) sujet(s) décrits ci-dessus.</p>
+<p><img src="../../../../images/fr_guide_icons/fr_training_presentations_wide.PNG" alt="">
+<em>Les présentations suivantes peuvent être utilisée comme support de formation ou d’atelier.</em></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1QneNbichunhVjyN4RPRyPuYV3Q7QMJctp50_90FpMpc/edit#slide=id.g526e73601c_0_1163">Introduction à OSM</a></li>
+</ul>
+<p><img src="../../../../images/fr_guide_icons/fr_learning_icon_wide.PNG" alt="">
+<em>La section suivante est conçue pour servir de matériel auto-rythmé pouvant être utilisé à la fois pendant des formations et par des apprenants autodidactes.</em></p>
+<ul>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/#opening-osm-accounts">Introduction pas-à-pas: Ouverture d’un compte OSM</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/#using-openstreetmap">Instruction pas-à-pas: Utilisation de OSM</a></li>
+</ul>
+<h3 id="ouverture-dun-compte-osm">Ouverture d’un compte OSM</h3>
+<p>Avec OpenStreetMap (OSM) au coeur des activités de cartographie, il est essentiel que tous les membres de l’équipe et participants aient des comptes OSM active. Cela sera nécessaire pour pouvoir utiliser des nombreux outils de cartographie tel que HOT Tasking Manager, JOSM et HOT export Tool. Cette section explique comment:</p>
+<ul>
+<li>Création de compte OpenStreetMap</li>
+</ul>
+<p><strong>Compétences et technologie nécessaires</strong></p>
+<ul>
+<li>Un ordinateur</li>
+<li>Un compte email actif</li>
+<li>Une connexion internet</li>
+</ul>
+<p><strong>Création de compte OSM</strong></p>
+<p>Pour commencer, vous devrez créer un compte sur <a href="www.openstreetmap.org"><a href="http://www.openstreetmap.org">www.openstreetmap.org</a></a>. Veuillez utiliser l’onglet “Sign Up” dans le coin supérieur droit pour commencer.</p>
+<p><img src="../../../../images/IntroOSM3.gif" alt=""></p>
+<p>Veuillez remplir tous les champs dans le formulaire. Il est recommandé d’utiliser un e-mail donc vous avez facilement l’accès ex: votre email professionnel, car vous allez recevoir un email de confirmation afin de vérifier votre compte.Vous ne recevrez aucun spam/email de marketing. Cliquez sur le bouton bleu “Sign Up” pour terminer.</p>
+<blockquote>
+<p>Note:
+Si un problème survient, un message indiquant le problème apparaît. Assurez-vous que l’email que vous avez entré est le même que dans les deux premiers champs et votre mot de passe. Si le champ nom d'utilisateur affiche rouge, cela indique que quelqu'un d'autre a déjà utilisé ce nom et vous devez chercher un autre.</p>
+</blockquote>
+<p><img src="../../../../images/IntroOSM5.gif" alt=""></p>
+<p>Ensuite, veuillez lire et accepter les conditions et accords du contributeur en sélectionnant votre pays de résidence (France, Allemagne ou le reste du monde), puis en cliquant sur le bouton bleu <strong>«Agree»</strong> en bas de votre écran.</p>
+<p><img src="../../../../images/IntroOSM6.gif" alt=""></p>
+<p>Pour activer votre compte, veillez maintenant vérifier votre boite mail et cliquer sur le lien qu’il contient.</p>
+<p><img src="../../../../images/IntroOSM7.gif" alt=""></p>
+<p>Sur la page OpenStreetMap, cliquez sur <strong>Log In</strong> dans le coin supérieur droit. Entrez votre nom d'utilisateur et votre mot de passe OpenStreetMap, puis appuyez sur <strong>Enter</strong>. Vous devriez maintenant être connecté et vous verrez votre nom d'utilisateur en haut à droite du site OpenStreetMap.</p>
+<p><strong>Considerations relative à l’inscription d’un grand nombre de personnes</strong></p>
+<ul>
+<li>Avant de commencer le processus d'enregistrement OSM, toutes les personnes qui s'inscrivent pour des comptes OSM doivent disposer d'un compte de messagerie existant et accessible. Si vous enregistrez un grand groupe de personnes à la fois, nous vous recommandons de demander au groupe s’il dispose de comptes de messagerie accessibles. Lors de la planification des mapathons et des formations dans des zones où l'utilisation régulière du courrier électronique peut être faible, nous vous recommandons également de prévoir du temps pour aider les utilisateurs à la création des comptes de messagerie.</li>
+<li>Envisagez la connectivité et la capacité Internet avant d'enregistrer un grand nombre de personnes pour des comptes OSM. Le fait de demander à des personnes de s'inscrire à tour de rôle ou d'exécuter un enregistrement simultanément à d'autres activités peut réduire la charge liée à une connexion Internet lente.</li>
+<li>Il est essentiel que les participants gardent les noms d'utilisateurs et les mots de passe afin de pouvoir accéder à d'autres outils nécessitant un compte OSM. Nous recommandons d'encourager les participants à trouver un moyen de stocker ces informations en toute sécurité pour pouvoir les consulter ultérieurement.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="utilisation-de-openstreetmap">Utilisation de OpenStreetMap</h3>
+<p>Après la création d’un compte OpenStreetMap, il est important de comprendre les compétences de base pour naviguer dans OpenStreetMap. Cette section explique comment :</p>
+<ul>
+<li>Opérer et naviguer sur le site Web OpenStreetMap</li>
+<li>Voir les informations sur les objets dans OpenStreetMap</li>
+<li>Créer un lien de partage dans OpenStreetMap</li>
+<li>Sauvegarder les images depuis OpenStreetMap</li>
+<li>Comprendre le concept de base des attributs dans OpenStreetMap</li>
+<li>Comprendre l'historique dans OpenStreetMap</li>
+</ul>
+<p><strong>Naviguer dans la carte</strong></p>
+<p>Dans la vue principale du site Web OpenStreetMap, vous verrez une grande carte. Vous devez être capable de naviguer sur la carte pour pouvoir vous rendre à l'endroit souhaité. Voici les manières de naviguer sur la carte dans OpenStreetMap :</p>
+<ul>
+<li>Utilisez le bouton gauche de la souris pour faire glisser la vue de carte. Cliquez avec le bouton gauche de la souris et maintenez-le enfoncée sur la carte, et faites-la glisser vers l'emplacement de votre choix. Si vous n’avez pas de souris, vous pouvez maintenir le pavé tactile droit enfoncé et déplacer le curseur.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0202_mouse.png" alt="How to drag the map view"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Utilisez les boutons (+) et (-) dans le coin supérieur droit de la carte pour effectuer un zoom avant et un zoom arrière sur la carte. Vous pouvez également utiliser la molette de la souris pour zoomer sur votre carte. Faites défiler la molette de votre souris vers le haut pour effectuer un zoom avant, et vers le bas pour effectuer un zoom arrière.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0204_scroll_zoom.png" alt="How to zoom in and out the map view"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Pour rechercher l'emplacement en fonction du nom, saisissez le nom de l'emplacement dans le champ <strong>Search</strong> en haut à gauche de l'écran. Vous pouvez le saisir dans la colonne de recherche, puis appuyer sur <strong>Enter</strong> ou cliquer sur <strong>Go</strong>. Après cela, une boîte de <strong>Search Results</strong> apparaît sous le champ de recherche, vous pouvez alors choisir et cliquer sur la recherche. La carte se déplacera automatiquement à l'emplacement que vous avez choisi.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0205_pencarian_lokasi.png" alt="Steps to find location using Search box"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Pour afficher votre position actuelle, vous pouvez aux outils de navigation de carte situé à droite de la carte, puis cliquer sur le bouton <strong>Show My Location</strong>. Ensuite, la carte affichera automatiquement votre position actuelle (point bleu). Assurez-vous d'activer le GPS sur votre ordinateur pour permettre à OSM d'obtenir votre position actuelle.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0206_0207_tombol_show_loc.png" alt="The display of Show My Location feature"></p>
+<!-- raw HTML omitted -->
+<p><strong>Changer differentes options de style de carte</strong></p>
+<p>OpenStreetMap contient des données géographiques du monde entier. Bien que stockées dans une base de données, les données peuvent être affichées dans plusieurs styles. Les étapes pour changer le style de carte dans OSM sont les suivantes :</p>
+<ul>
+<li>Cliquez sur le bouton <strong>Layers</strong> dans le panneau de droite sur la carte.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0208_tombol_layer.png" alt="The Layers button to change background layer"></p>
+<!-- raw HTML omitted -->
+<p>OSM contient quatre styles de couche avec différentes fonctions, notamment :</p>
+<ul>
+<li><em>Standard</em>: cette couche affiche tous les objets de la carte OSM.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0209_standard_layer.png" alt="Standard Layer"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li><em>Cycle Map</em>: cette couche met l'accent sur les pistes cyclables et les routes piétonnes.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0210_cycle_map.png" alt="Cycle Map layer"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li><em>Transport Map</em>: cette couche met l'accent sur les itinéraires de transport sur la carte, tels que les autoroutes et les arrêts de bus.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0211_transport_layer.png" alt="Transport Map Layer"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li><em>Humanitarian</em>: cette couche met en valeur des objets ou équipements importants sur la carte, tels que l'école, un hôpital, etc.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0212_humanitarian_layer.png" alt="Humanitarian Layer"></p>
+<!-- raw HTML omitted -->
+<p><strong>Afficher les informations d’objets dans OpenStreetMap</strong></p>
+<p>Sur la page OpenStreetMap, en plus de voir l’emplacement actuel et de naviguer sur la carte, vous pouvez également voir les informations sur les objets à l’aide de <strong>Query Features</strong> (fonctionnalités de requête). Les étapes d’utilisation des fonctionnalités de requête sont les suivantes</p>
+<ul>
+<li>Cliquez sur le bouton <strong>Query Features</strong> (Fonctions de requête) dans le panneau à droite. Après avoir cliqué dessus, vous devriez voir le point d'interrogation sur votre curseur. Cela indique que la fonction de fonctionnalité de requête est activée.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0213_query_features.png" alt="Query Features button"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Vous pouvez maintenant choisir un objet ou un emplacement que vous souhaitez identifier. Pour cet exemple, nous cliquons sur un immeuble de bureaux du gouvernement (Dinas Kesehatan) à Jakarta.</p>
+</li>
+<li>
+<p>Vous devriez voir une boîte dans le coin gauche qui affiche les options <strong>Nearby Features</strong> (Entités proches) et <strong>Enclosing Features</strong> (Entités englobantes). <strong>Nearby Features</strong> (Entités proches) affiche la description de tout objet le plus proche de l’emplacement du point choisi, tandis que Entités englobantes affiche toutes les informations sur l’objet dont l’emplacement est proche du point choisi. Essayez de cliquer sur une fonctionnalité dans <strong>Nearby Features</strong> (Entités proches), cliquez sur <strong><em>Governmental office</em> Dinas Kesehatan</strong> comme exemple.</p>
+</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0214_nearby_features.png" alt="Nearby features dan Enclosing features in Query Features"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Après avoir cliqué dessus, les informations détaillées sur le bâtiment Dinas Kesehatan apparaissent dans le champ de gauche. Les informations affichées sont une balise ou un attribut d'objet concernant des d'informations générales d’objets tels que des noms, des adresses, des niveaux de bâtiment et autres</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0215_hasil_query.png" alt="Query Features result"></p>
+<!-- raw HTML omitted -->
+<p><strong>Partager des emplacements de carte dans OpenStreetMap</strong></p>
+<p>Vous pouvez partager des liens de vos cartes OpenStreetMap avec d’autres à des fins diverses, telles que le partage de votre position actuelle avec vos collègues, etc. Pour pouvoir partager des cartes OpenStreetMap, les étapes sont les suivantes :</p>
+<ul>
+<li>
+<p>Cliquez sur le bouton <strong>Share</strong> (Partager) dans le panneau de droite, la colonne <strong>Share</strong> (Partager) s’affiche.</p>
+</li>
+<li>
+<p>Cochez la case <strong>Include marker</strong> (Inclure marquer) pour ajouter le point de repère d'emplacement. Vous pouvez déplacer ou faire glisser le point de repère vers l'emplacement souhaité. Il suffit de cliquer et de maintenir le marqueur de position, puis de faire glisser le curseur jusqu'au point de localisation souhaité. Une autre méthode consiste à déplacer la carte de sorte que le marqueur de position se trouve dans la position souhaitée.</p>
+</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0216_include_marker.png" alt="Add marker point"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Une fois que la position du marqueur est fixe, vous pouvez copier le lien dans la zone <strong>Link</strong> (Lien) et le partager selon vos besoins. Vous pouvez également copier une version abrégée du lien dans la zone <strong>Short Link box</strong> (Lien court) ou copier le code HTML dans la zone <strong>HTML</strong>.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0217_membagikan_tautan.png" alt="Share the link of the  map in OpenStreetMap"></p>
+<!-- raw HTML omitted -->
+<p><strong>Exporter la carte en Image</strong></p>
+<p>En plus de changer le fond de carte, vous pouvez également exporter la carte en tant qu’image et choisir différents format, tels que .png, .jpg, .svg et .pdf. Les étapes pour exporter la carte sont les suivantes :</p>
+<ul>
+<li>Cliquez sur l'icône <strong>Share</strong> (Partager) située à droite de votre carte. Ensuite, la colonne Partager apparaîtra sur le côté droit de votre écran.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0218_tombol_ekspor.png" alt="Share button to export the map"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Ensuite, spécifiez la zone de la carte que vous souhaitez exporter en tant qu'image. Cochez la case <strong>Set custom dimensions</strong> (Dimensions personnalisées) dans la section <strong>Image</strong>, puis ajustez la taille de la boîte ou ajustez l'échelle dans la section <strong>Scale</strong> (Échelle).</li>
+</ul>
+<blockquote>
+<p>Note : vous ne pouvez exporter la carte en image uniquement que si vous définissez la couche <strong>standard</strong>. Si votre carte n'utilise pas la couche <strong>standard</strong>, vous devez d'abord le modifier dans le menu <strong>couche</strong>.</p>
+</blockquote>
+<ul>
+<li>Vous pouvez choisir le format de l'image d'exportation dans le menu déroulant <strong>Format</strong>. Après cela, cliquez sur le bouton <strong>Download</strong> (Télécharger) pour télécharger l'image et enregistrer l'image dans votre dossier de destination.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0219_ekspor_gambar.png" alt="Image section to export the map"></p>
+<!-- raw HTML omitted -->
+<p><strong>Afficher l'historique d'édition dans OpenStreetMap</strong></p>
+<p>Lorsque vous modifiez des objets ou apportez des modifications dans OpenStreetMap, vous pouvez voir l'historique des modifications des objets dans la zone en question. Les étapes pour voir l'historique d'édition sont les suivantes :</p>
+<ul>
+<li>
+<p>Vous pouvez voir les informations en cliquant sur le bouton de menu Historique au coin haut gauche de la carte.</p>
+</li>
+<li>
+<p>Après cela, la colonne <strong>Changesets</strong> apparaît au bas de la barre de recherche et des zones oranges apparaissent sur la carte, indiquant les zones qui viennent d'être modifiées. <strong>Changeset</strong> est une version de chaque modification chargée par les utilisateurs OSM. Les informations que nous pouvons voir dans la colonne <strong>Changesets</strong> sont les suivantes :</p>
+</li>
+</ul>
+<ol>
+<li>Commentaire de <strong>changeset</strong>. Il est recommandé de rédiger un court commentaire lors du chargement des modifications ou des ensembles de modifications. Les commentaires peuvent contenir des informations sur les modifications que vous avez apportées ou des hashtags spécifiques.</li>
+<li>Informations sur le temps de chargement.</li>
+<li>Nom d'utilisateur OSM.</li>
+<li>Numéro <strong>Changeset</strong>. Ce numéro est un numéro unique en tant qu'identité <strong>Changeset</strong>.</li>
+</ol>
+<p><img src="../../../../images/getting-started-osm/0220_melihat_history.png" alt="Changeset history in OpenStreetMap"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Vous pouvez cliquer sur l'un des <strong>changeset</strong> de la liste ou sélectionner immédiatement la zone orange sur la carte. Une fois que vous avez sélectionné l’un des <strong>changeset</strong>, vous obtiendrez des détails sur celui-ci.</li>
+</ul>
+<p><img src="../../../../images/getting-started-osm/0221_detail_changeset.png" alt="The changeset details"></p>
+<!-- raw HTML omitted -->
+<p><strong>Concept de base sur les attributs OpenStreetMap</strong></p>
+<ol>
+<li>
+<p>**Le concept d'attribut sur l'objet_
+_**Lorsque vous dessinez un objet sous forme de point, ligne ou polygone dans OSM, vous devez toujours ajouter des informations sur l'objet, telles que le nom de l'objet, son adresse ou d'autres informations de prise en charge. Ces informations aideront d’autres utilisateurs à utiliser les données OSM à diverses fins. Les informations fournies par les utilisateurs sur les objets OSM sont appelées **attribute** ou **tag**. Un **attribute** / **tag** est comme une étiquette que vous pouvez placer sur un objet. Par exemple, si vous dessinez un carré, il ne s'agit que d'un carré sans aucune information sur l'objet. Mais vous pouvez ajouter des attributs pour décrire cet objet, par exemple, vous dessinez un carré qui est un bâtiment; le nom du bâtiment est &quot; Tebet Hospital &ldquo;; Bâtiment de 10 niveaux.</p>
+</li>
+<li>
+<p>**Composantes dans les données d'attribut OpenStreetMap_
+_**Vous pouvez ajouter autant **attributes / tags** que vous le souhaitez à un objet. Les attributs sont stockés sous forme d'une paire de texte, nommée **Key** et **Value** (Clé et Valeur). La clé est une information générale qui explique la fonction d'un objet. Dans une clé, il peut s'agir de plusieurs valeurs. Par exemple, les écoles, les mosquées et les hôpitaux ont comme **key=amenities** (installations importantes). Bien que les trois objets aient des fonctions différentes, ils ont la même clé. Tant dit que le **value** est une information qui explique plus spécifiquement le type d'un objet. Comme cette valeur décrit des informations spécifiques sur un objet, un type de valeur ne peut décrire que le type d’objet lui-même. Ce qui n'est pas vrai pour une clé pouvant expliquer des informations générales sur l'objet. Dans OpenStreetMap, un attribut est ajouté en formatant une paire **Key** et **Value** (Clé et Valeur) qui représente des objets physiques sur le terrain, par exemple :</p>
+<p><img src="../../../../images/getting-started-osm/0224_atribut_objek_osm.png" alt="The example of object attributes"></p>
+<!-- raw HTML omitted -->
+<p>Dans l'exemple ci-dessus, il existe quatre types d'attributs de clé et de valeur, y compris les commodités d'un objet pour un hôpital (amenity = hospital), des bâtiments (building = yes), numbre de niveau 10 (building:levels = 10) et le nom de l'objet Tebet Hospital&rsquo; (name = Tebet Hospital).</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h2 id="ressources-supplmentaires">Ressources Supplémentaires</h2>
+<p><img src="../../../../images/fr_guide_icons/fr_reading_icon_wide.PNG" alt=""></p>
+<ul>
+<li><a href="https://learnosm.org/en/beginner/introduction/">LearnOSM - Introduction to OSM</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OSM Wiki - Abot OpenStreetMap</a></li>
+</ul>
+<p><img src="../../../../images/fr_guide_icons/fr_watch_icon_wide.PNG" alt=""></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Phwrgb16oEM&amp;t=16s">Two Minute Tutorial - What is OpenStreetMap?</a></li>
+<li><a href="https://www.youtube.com/watch?v=suk8uRpIBQw&amp;list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&amp;index=2">Two Minute Tutorials - How to sign up for OpenStreetMap</a></li>
+</ul>
+</div>
+
+
+
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../fr/pages/digitization-and-editing/2.2_organized_osm_editing/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">2.2 Organisation de l’édition dans OSM</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#aperu">Aperçu</a></li>
+    <li><a href="#ressources-et-matriels-de-formation">Ressources et matériels de Formation</a>
+      <ul>
+        <li><a href="#ouverture-dun-compte-osm">Ouverture d’un compte OSM</a></li>
+        <li><a href="#utilisation-de-openstreetmap">Utilisation de OpenStreetMap</a></li>
+      </ul>
+    </li>
+    <li><a href="#ressources-supplmentaires">Ressources Supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/digitization-and-editing/2.1_Introduction_to_OpenStreetMap.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/2.1_Introduction_to_OpenStreetMap.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
+</html>
