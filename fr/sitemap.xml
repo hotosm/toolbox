@@ -214,7 +214,7 @@
   
   <url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-02T13:25:59-05:00</lastmod>
+    <lastmod>2019-12-02T13:35:55-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -585,6 +585,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/pages/data-export/6.1-hot-export-tool/</loc>
+    <lastmod>2019-12-02T13:35:55-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-export/6.1-hot-export-tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/data-export/6.1-hot-export-tool/"
                 />
   </url>
   

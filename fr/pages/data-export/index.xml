@@ -20,5 +20,15 @@
  Un aperçu des outils d&#39;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&#39;outil d&#39;exportation HOT et HDX   Les outils d&#39;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&#39;analyse tels que QGIS.</description>
     </item>
     
+    <item>
+      <title>6.1 La plate-forme HOT Export</title>
+      <link>/fr/pages/data-export/6.1-hot-export-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/data-export/6.1-hot-export-tool/</guid>
+      <description>Cette rubrique présente :
+ Présentation de la plate-forme d&#39;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&#39;aide de l&#39;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&#39;intérêt et le type de fichier. Des supports d&#39;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
+    </item>
+    
   </channel>
 </rss>

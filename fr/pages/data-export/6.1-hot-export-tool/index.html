@@ -50,7 +50,7 @@
     <ul class="js-language-select-options language-select-options language-select-options--hidden">
             
             
-        <a href="../../../../fr/fr/pages/getting_started/8.2_mappingpoi_withodk/" class="language-select-option
+        <a href="../../../../fr/fr/pages/data-export/6.1-hot-export-tool/" class="language-select-option
         
         language-select-option--selected
         
@@ -58,7 +58,7 @@
         
         
             
-        <a href="../../../../fr/pages/getting_started/8.2_mappingpoi_withodk/" class="language-select-option 
+        <a href="../../../../fr/pages/data-export/6.1-hot-export-tool/" class="language-select-option 
         
         ">English</a>
         
@@ -239,20 +239,20 @@
 
         <div class="
         
-        accordion accordion--closed
+        accordion accordion--open
         
         ">
             Outils d&#39;exportation de données
         </div>
         <div class="panel
         
-        panel--closed
+        panel--open
         ">
                 <ul class="page-list">
                     
                         <li class="page"><a href="../../../../fr/pages/data-export/6.0-data-export-tools/" class="menu-link">6.0 Outils d&#39;exportation de données</a></li>
                     
-                        <li class="page"><a href="../../../../fr/pages/data-export/6.1-hot-export-tool/" class="menu-link">6.1 La plate-forme HOT Export</a></li>
+                        <li class="page"><a href="../../../../fr/pages/data-export/6.1-hot-export-tool/" class="menu-link menu-link--active">6.1 La plate-forme HOT Export</a></li>
                     
                 </ul>
             </div>
@@ -285,14 +285,14 @@
 
         <div class="
         
-        accordion accordion--open
+        accordion accordion--closed
         
         ">
             Procédures de mapping
         </div>
         <div class="panel
         
-        panel--open
+        panel--closed
         ">
                 <ul class="page-list">
                     
@@ -300,7 +300,7 @@
                     
                         <li class="page"><a href="../../../../fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/" class="menu-link">8.1 Cartographie des bâtiments et des points d&#39;intérêt avec OMK</a></li>
                     
-                        <li class="page"><a href="../../../../fr/pages/getting_started/8.2_mappingpoi_withodk/" class="menu-link menu-link--active">8.2 Mapping des POI avec ODK &#43; KoboToolbox Server</a></li>
+                        <li class="page"><a href="../../../../fr/pages/getting_started/8.2_mappingpoi_withodk/" class="menu-link">8.2 Mapping des POI avec ODK &#43; KoboToolbox Server</a></li>
                     
                 </ul>
             </div>
@@ -325,7 +325,7 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/2d4e2380fb07896e150230e120eda4b94218f94c" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/toolbox/commit/c02a3e3d8f2fcf074de5e6eee9593ab86698e727" class="sub-title sub-title-14" title='Last modified December 2, 2019 by jessbeutler' target="_blank" rel="noopener">
       Dernière modification: December 2, 2019
     </a>
   </div>
@@ -333,85 +333,70 @@
 </div>
 </div>
     <div class="article-body">
-           <h1 class="page-title">8.2 Mapping des POI avec ODK &#43; KoboToolbox Server</h1><p><em>Le processus de travail suivant présente les outils et méthodes utilisés dans un simple projet de cartographie sur le terrain au cours duquel HOT a formé des ONG locales à intégrer la cartographie dans des programmes existants en utilisant OpenDataKit et KoboToolBox Server.</em></p>
-<h2 id="prsentation-du-projet">Présentation du projet</h2>
-<p><strong>Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa <em>(Réduire les disparités de développement et la crise des réfugiés en Afrique de l'Est)</em></strong></p>
-<p>L'Afrique de l'Est (et plus particulièrement l'Ouganda) continue d'être le foyer de l'une des crises de réfugiés les plus importantes et dont la progression est une des plus rapides au monde. La politique d'ouverture progressive de l'Ouganda a permis, l'afflux d'environ 1,4 million de réfugiés dans le pays. Une grande mobilité des réfugiés signifie que la répartition et la taille des camps de réfugiés changent constamment et le besoin d'informations normalisées et accessibles pour prendre en temps opportun des décisions éclairées sur les endroits où les services doivent être aménagés. Grâce à l'utilisation d'outils techniques libres combinés à une méthodologie communautaire, HOT a été en mesure de combler le manque critique de données dans ce contexte en augmentant la production de données sur les infrastructures et services où résident réfugiés et communautés résidentes, en temps réel et complètes. Pour s'assurer que le gouvernement et les organismes qui participent à l'intervention auprès des réfugiés sachent que, premièrement, ces données existent et, deuxièmement, comment les utiliser efficacement, HOT a beaucoup travaillé pour soutenir et former les acteurs sur la façon d'intégrer systématiquement les données produites par les citoyens dans leurs programmes pour combler les lacunes existantes.</p>
-<p><strong>Page du projet :</strong> <a href="https://www.hotosm.org/projects/bridging-data-gaps-mapping-refugee-contexts-in-east-africa/">SOLUTION AU MANQUE DE DONNEES : CARTOGRAPHIE DE LA SITUATION DE RÉFUGIÉS EN AFRIQUE DE L'EST</a></p>
-<p><strong>Dates :</strong> Juin 2018 - mai 2019</p>
-<p><strong>Statut:</strong> Réalisé</p>
-<!-- raw HTML omitted -->
-<h4 id="outils-utiliss">Outils utilisés:</h4>
+           <h1 class="page-title">6.1 La plate-forme HOT Export</h1><p>Cette rubrique présente :</p>
 <ul>
-<li><strong>Collecte de données sur le terrain et à distance :</strong> OpenDataKit (ODK) Collect, Kobo server, HOT Tasking Manager (ID Editor, JOSM)</li>
-<li><strong>Suivi des données sur le terrain :</strong> OSMand et Maps.me</li>
-<li><strong>Nettoyage des données:</strong> OpenRefine, Excel, JOSM, Python scripts</li>
-<li><strong>Extraction et visualisation des donneés :</strong> outils HOT Export, OSM Analytics, QGIS, Overpass Turbo, Umap, HDX</li>
+<li>Présentation de la plate-forme d'extraction de données HOT Export</li>
+<li>Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l'aide de l'outil HOT Export</li>
 </ul>
 <!-- raw HTML omitted -->
-<h2 id="processus-de-cartographie-sur-le-terrain">Processus de Cartographie sur le terrain</h2>
-<h4 id="1-dterminer-les-besoins-des-partenaires-et-les-secteurs-dintrt-ou-activits-qui-les-intressent">1. Déterminer les besoins des partenaires et les secteurs d'intérêt ou activités qui les intéressent.</h4>
-<p>Par le biais d'interactions régulières et de réunions planifiées avec diverses parties prenantes et partenaires - y compris le UNHCR, OPM, LWF, etc. - le chef de projet et/ou le directeur de pays s'efforceraient de comprendre les insuffisances et les besoins techniques auxquels sont confrontées les institutions pour renforcer leur contribution à la réponse nationale en faveur des réfugiés. À partir de là, nous identifierions les lacunes dans les données et les compétences institutionnelles nécessaires pour combler ces lacunes et élaborerions conjointement un plan de mise en œuvre pour former le groupe ou l'organisation sur plusieurs jours afin d'obtenir les résultats attendus.</p>
-<p>Procédures utilisées à cette phase :</p>
-<ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/">Définition des besoins et des exigences</a></li>
-</ul>
+<h2 id="aperu">Aperçu</h2>
+<p>L’outil d’extraction de données <a href="https://export.hotosm.org/en/v3/">HOT Export</a> permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d'intérêt et le type de fichier. Des supports d'apprentissage et des guides pratiques sont disponibles ici : <a href="https://export.hotosm.org/en/v3/learn">page ‘’Learn’’ de HOT Export</a>.</p>
 <!-- raw HTML omitted -->
-<h4 id="2-formations-et-exercices-de-renforcement-de-capacits">2. Formations et exercices de renforcement de capacités</h4>
-<p>Après le vaste processus de consultation, les formations seraient planifiées et dispensées en interne ou chez un partenaire. L'objectif principal de ces formations serait d'introduire - et d'essayer de faire connaître - les outils SIG et de soutenir le renforcement des capacités avec les partenaires dans le cadre des interventions auprès des réfugiés, par des cours personnalisés sur un nombre limité de jours. Ces documents de formation ont tous été conçus spécialement pour chaque organisation partenaire afin de s'assurer que les ressources correspondent à leur niveau de compétence/compréhension et leur permettent d'améliorer adéquatement leurs connaissances pratiques. Les formations duraient généralement de 2 à 5 jours et couvraient des sujets tels que la collecte, le stockage, l'extraction, l'analyse et la visualisation des données.</p>
-<p>Procédures utilisées dans cette phase :</p>
+<h2 id="ressources-et-matriels-de-formation">Ressources et matériels de Formation</h2>
+<p>Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</p>
+<p><img src="../../../../images/fr_guide_icons/fr_training_presentations_wide.PNG" alt="">
+<em>Les présentations suivantes peuvent être utilisées pour animer une formation ou un atelier.</em></p>
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.4-trainings-and-workshops/">Formations et ateliers</a></li>
+<li><a href="https://docs.google.com/presentation/d/1RyHYVPZU5d4xJ1cpWga4QRdfohpEs-t9ylJ_HTJ7wm8/edit#slide=id.g51e1e04424_0_238">Outils d'extraction de données</a> <!-- raw HTML omitted --></li>
 </ul>
-<p>Les formations proposées aux partenaires comprenaient :</p>
-<ul>
-<li><a href="https://docs.google.com/presentation/d/1QneNbichunhVjyN4RPRyPuYV3Q7QMJctp50_90FpMpc/edit#slide=id.g526e73601c_0_1163">Introduction à OSM</a></li>
-<li><a href="https://docs.google.com/presentation/d/1nLs1JA-nlmqWA2vIr9ZsoDcg8wjsoc5nv1QMK9GT8KI/edit?usp=sharing">Cartographie avec JOSM</a></li>
-<li><a href="https://docs.google.com/presentation/d/1sbTZp5B7sQlEM-RzDU-33JlJnUUUGDkeOchhC6srK20/edit#slide=id.g51d3d58777_0_0">Cartographie avec ID editor</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2-data-collection-applications/">Applications de collecte de données</a></li>
-<li><a href="https://docs.google.com/presentation/d/1EA63n-jEjgEYVGzfdW8dispZpqvkbGDYx7ZtuayxZnQ/edit?usp=sharing">Introduction à QGIS</a></li>
-<li><a href="https://docs.google.com/presentation/d/1RyHYVPZU5d4xJ1cpWga4QRdfohpEs-t9ylJ_HTJ7wm8/edit?usp=sharing">Downloading data from OSM (Hot Export Tool and Quick OSM)</a></li>
-</ul>
+<p><img src="../../../../images/fr_guide_icons/fr_learning_icon_wide.PNG" alt="">
+<em>La section suivante est conçue pour servir de matériel d'auto-apprentissage qui peut être utilisé à la fois pendant les formations et par les apprenants autodidactes.</em></p>
 <!-- raw HTML omitted -->
-<h4 id="3-collecte-de-donnes">3. Collecte de données</h4>
-<p>Les activités de collecte de données étaient de nature consultative et participative, les collecteurs de données ayant été choisis parmi les communautés locales concernées par la production de données à l'appui de l'intervention des réfugiés. Les collecteurs de données utilisaient leurs smartphones personnels et ceux qui n'avaient pas de smartphones en bon état de fonctionnement étaient équipés d'un smartphone par HOT. OpenDatakit a été le principal outil/application de collecte de données utilisé et 6 formulaires uniques - notamment sur la santé, l'éducation, l'eau, l'assainissement - ont été créés par des enquêteurs et utilisés pour la cartographie dans chaque village visité dans et autour des camps de réfugiés.</p>
-<p>Les procédures utilisées à cette étape :</p>
+<h3 id="utilisation-de-loutil-hot-export">Utilisation de l'outil HOT Export</h3>
+<p><strong>Outils et techniques nécessaires :</strong></p>
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2-data-collection-applications/#open-data-kit-odk">Choix d'une application de collecte de données : OpenDataKit (ODK)</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/">Configuration de OpenDataKit</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/field-mapping-management/5.1_using_odk_collect/">Utilisation de ODK Collect</a></li>
+<li>Un ordinateur</li>
+<li>Une connexion Internet</li>
+<li><a href="https://hotosm.github.io/toolbox/pages/core-technology/2.1.1-opening-osm-accounts/">Un compte OSM</a></li>
 </ul>
-<!-- raw HTML omitted -->
-<h4 id="4-stockage-et-suivi-des-donnes">4. Stockage et suivi des données</h4>
-<p>Les données collectées sur le terrain ont été stocké sur le serveur Kobo en ligne du UNHCR (Le Haut Commissariat des Nations unies pour les réfugiés). Cela a permis aux différents partenaires chargés de la mise en œuvre au niveau du HCR et du OPM d'accéder facilement aux données. Les données ont été transférées par les enquêteurs sur le terrain à la fin de chaque journée de travail. Pour envoyer les fichiers au serveur, une connexion 2G est suffisant. Les enquêteurs ont toujours reçu au moins 50 Mo de données pour accomplir cette tâche. Le serveur Kobo a également servi d'outil de surveillance pour déterminer le nombre de données recueillies et évaluer rapidement toute insuffisance dans la qualité des données sur le terrain.</p>
-<p>Procédures utilisées à cette étape :</p>
+<p>Pour commencer, ouvrez un navigateur Internet et allez à : <a href="https://export.hotosm.org/en/v3/"><a href="https://export.hotosm.org/">https://export.hotosm.org/</a></a> Pour utiliser l'outil HOT Export, vous devez vous connecter à l'aide de votre nom d'utilisateur et de votre mot de passe OSM, en cliquant sur le bouton rouge &ldquo;Log In&rdquo; dans le coin supérieur droit.</p>
+<p><img src="../../../../images/data-export/HOTExport1.gif" alt=""></p>
+<p>Sélectionnez &lsquo;Créer&rsquo; dans le menu du haut.</p>
+<p><img src="../../../../images/data-export/HOTExport2.gif" alt=""></p>
+<p>Sélectionnez votre d'intérêt sur la carte en recherchant un lieu, en important un fichier.geojson ou en dessinant une zone sur la carte à droite.
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+Pour dessiner une zone d'intérêt, faites un zoom avant et trouvez l'endroit de votre choix (p. ex. Zwedru, Accra). Une fois que vous avez effectué un zoom avant sur la zone qui vous intéresse, sélectionnez l'outil de dessin de zone dans le menu Outils à droite. Cliquez sur un coin pour commencer à dessiner une zone, puis sélectionnez le coin opposé pour finir la sélectionne de votre zone. Votre zone d’intérêt sera téléchargé.</p>
+<p><img src="../../../../images/data-export/HOTExport4.gif" alt=""></p>
+<p>Sur le côté gauche de la fenêtre, remplissez les champs &ldquo;1 Description de l’Export &quot; :</p>
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.4-data-collection-servers/">Serveurs de collecte de données</a></li>
-</ul>
-<!-- raw HTML omitted -->
-<h4 id="5-nettoyage-et-analyse-des-donnes">5. Nettoyage et analyse des données</h4>
-<p>Après avoir stocké les données sur Kobo, les données seraient téléchargées, puis nettoyées et mises en ligne en utilisant JOSM.</p>
-<p>Procédures utilisées dans cette phase :</p>
+<li>Nom : &ldquo;[VOTRE NOM D’UTILISATEUR OSM] Test Export&rdquo;
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/">Nettoyage des données avec JOSM</a></li>
+<li>Par exemple, “jessbeutler Test Export”</li>
 </ul>
-<!-- raw HTML omitted -->
-<h4 id="6-visualisation-des-donnes">6. Visualisation des données</h4>
-<p>Pour ce projet, HOT a utilisé un certain nombre de méthodes pour visualiser les données ; de l'utilisation de QGIS pour créer des cartes statiques et des atlas à l'utilisation d'outils tels que Overpass turbo, Umap et Mapbox Studio pour créer des cartes dynamiques et instructives. Les types de visualisations ont principalement été élaborés, notamment des matrices de distance, des identificateurs de ressources manquantes, des cartes de localisation et de navigation et des cartes d'indicateurs de proximité.</p>
-<p>Procédures utilisées dans cette phase :</p>
+</li>
+<li>Description (facultatif)
 <ul>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-export/6.1-hot-export-tool/">Téléchargement de données avec HOT Export</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/">Création de cartes et d'atlas avec QGIS</a></li>
-<li><a href="https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.3_web_and_interactive_maps/">Cartes Web et interactives</a></li>
+<li>Projet (facultatif)
+<ul>
+<li>Par exemple, &ldquo;Projet du gouvernement pour la réinsertion&rdquo;.</li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../../../images/data-export/HOTExport6.gif" alt=""></p>
+<p>Sélectionnez le type de fichier préféré dans l'onglet &lsquo;Formats&rsquo;. <em>Si vous téléchargez des données à utiliser dans un programme SIG, essayez de télécharger un fichier.shp.</em></p>
+<p><img src="../../../../images/data-export/HOTExport7.gif" alt=""></p>
+<p>Dans l'onglet &lsquo;Données&rsquo;, sélectionnez les types de données OSM à exporter. Types recommandés pour l'essai : Éducation &ldquo;, &quot; Gouvernement &ldquo;, &quot; Santé &ldquo;.</p>
+<p><img src="../../../../images/data-export/HOTExport8.gif" alt=""></p>
+<p>Dans l'onglet &lsquo;Summary&rsquo;, sélectionnez&rsquo; Create Export&rsquo;. Pendant le traitement, un statut &ldquo;Running&rdquo; s'affiche. Le temps de traitement dépend de la taille de l'exportation. Une fois terminé, le fichier sera disponible pour téléchargement et envoyé à votre adresse e-mail.</p>
+<p><img src="../../../../images/data-export/HOTExport9.gif" alt=""></p>
+<p><em>Ce processus prendra plusieurs minutes pour le traitement.</em></p>
+<p>Lorsque le processus d'exportation est terminé, la barre d'état est mise à jour et devient &quot; Terminé &ldquo;. Téléchargez le fichier en cliquant sur le lien du fichier, comme indiqué ci-dessous. Pour les fichiers de forme shapefiles, ouvrez le dossier.zip téléchargé et enregistrez-le dans un dossier de votre choix sur votre ordinateur. Vous pouvez maintenant utiliser le fichier de forme dans un logiciel SIG tel que QGIS.</p>
 </div>
 
 
 
-
-    
-
-    
 
     
 
@@ -429,9 +414,22 @@
      
     
 
+    
+
+    
 
 
 
+
+
+
+<a class="next-page" href="../../../../fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">7.0 Utilisation et analyse de données</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
 
 </div></main>
     <aside class="toc"><div class="toc__container">
@@ -443,14 +441,10 @@
         <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#prsentation-du-projet">Présentation du projet</a>
+    <li><a href="#aperu">Aperçu</a></li>
+    <li><a href="#ressources-et-matriels-de-formation">Ressources et matériels de Formation</a>
       <ul>
-        <li></li>
-      </ul>
-    </li>
-    <li><a href="#processus-de-cartographie-sur-le-terrain">Processus de Cartographie sur le terrain</a>
-      <ul>
-        <li></li>
+        <li><a href="#utilisation-de-loutil-hot-export">Utilisation de l'outil HOT Export</a></li>
       </ul>
     </li>
   </ul>
@@ -459,10 +453,10 @@
     <hr class="toc-divider">
     
     
-    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/getting_started/8.2_MappingPOI_withODK.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/data-export/6.1-HOT-Export-Tool.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
     <a 
     
-    href="../../../../pdfs/fr/8.2_MappingPOI_withODK.pdf"
+    href="../../../../pdfs/fr/6.1-HOT-Export-Tool.pdf"
     
     class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
 </div></aside>
