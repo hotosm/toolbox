@@ -274,7 +274,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/field-mapping-management/4.3_using_openmapkit/</guid>
       <description>Ce guide fournit aux enquêteurs, aux mappeurs et aux superviseurs sur le terrain les compétences nécessaires pour:
- Configurer OpenMapKit sur des appareils à usage individuel et pour la collecte de données Utiliser OpenMapKit pour la collecte de données sur le terrain  Présentation OpenMapKit (OMK) est une application supplémentaire utilisée pour aider ODK Collect à déterminer la position des objets trouvés lors de la collecte de données bien précis. OpenMapKit peut être exécuté via ODK Collect, après avoir ouvert et sélectionnez un des formulaires disponibles.</description>
+ Configurer OpenMapKit sur des appareils à usage individuel et pour la collecte de données Utiliser OpenMapKit pour la collecte de données sur le terrain  Aperçu OpenMapKit (OMK) est une application supplémentaire utilisée pour aider ODK Collect à déterminer la position des objets trouvés lors de la collecte de données bien précis. OpenMapKit peut être exécuté via ODK Collect, après avoir ouvert et sélectionnez un des formulaires disponibles.</description>
     </item>
     
     <item>
