@@ -52,7 +52,8 @@ if (siteLangs.length > 1) {
 } else {
   /* single language */
   if (langs.indexOf(siteLangs[0]) != -1) {
-      let dir = path.join(__dirname, "../content");    walk(dir).then((foldersContents)=>{
+    let dir = path.join(__dirname, "../content");    
+    walk(dir).then((foldersContents)=>{
       const documents = foldersContents.filter(filterMd).filter(filterEmpty).map(readFile);
       const idx = lunr(function() {
           this.ref('id');
