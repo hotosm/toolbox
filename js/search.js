@@ -1,6 +1,7 @@
 (function() {
     var lunrLangs = ["da", "de", "en", "es", "fi", "fr", "hu", "it", "ja", "jp", "nl", "no", "pt", "ro", "ru", "sv", "th", "tr"];
     var lang =  document.body.getAttribute('data-lang');
+    var defaultLang =  document.body.getAttribute('data-default-lang');
     if (lang && lunrLangs.indexOf(lang) == -1) {
       console.log('language not supported yet')
       return
@@ -18,8 +19,14 @@
 
     if (url.indexOf('pages') != -1) {
 
-        baseURL = url.split('pages')[0]
-      fetch(baseURL + 'lunr-documents.json')
+      baseURL = document.body.getAttribute('data-site-url');
+      var langPrefix;
+      if (lang == defaultLang) {
+        langPrefix = '';
+      } else {
+        langPrefix = "." + lang;
+      }
+      fetch(baseURL + `/lunr-documents${langPrefix}.json`)
       .then(response => {
           return response.json();
         })
@@ -27,7 +34,7 @@
           documents = docs;
         })
         .then(()=> {
-          fetch(baseURL + 'lunr-index.json')
+          fetch(baseURL + `/lunr-index${langPrefix}.json`)
           .then(response => {
             return response.json();
           })
