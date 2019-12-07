@@ -20,14 +20,12 @@ if (siteLangs.indexOf(defaultLang) == -1) {
 if (siteLangs.length > 1) {
   /* multiple languages */
   for (lang of siteLangs) {
+    let langExt = '';
     let dir = path.join(__dirname, "../content");
     if (langs.indexOf(lang) != -1) {
       dir = path.join(dir, lang)
-      if (lang == defaultLang) {
-        lang = '.';
-      }
-      else {
-        lang = `.${lang}`;
+      if (lang != defaultLang) {
+        langExt = `.${lang}`;
       }
       walk(dir).then((foldersContents)=>{
         const documents = foldersContents.filter(filterMd).filter(filterEmpty).map(readFile);
@@ -41,12 +39,12 @@ if (siteLangs.length > 1) {
         const lunrDocs = documents.map((obj) => {
           return {id: obj.id, path: obj.path, title: obj.title}
         })
-        fs.writeFile(`./static/lunr-documents${lang}.json`, JSON.stringify(lunrDocs), () => {
-            console.log(`lunr-documents${lang}.json written`);
+        fs.writeFile(`./static/lunr-documents${langExt}.json`, JSON.stringify(lunrDocs), () => {
+            console.log(`lunr-documents${langExt}.json written`);
         });
     
-        fs.writeFile(`./static/lunr-index${lang}.json`, JSON.stringify(idx), () => {
-            console.log(`lunr-index${lang}.json written`);
+        fs.writeFile(`./static/lunr-index${langExt}.json`, JSON.stringify(idx), () => {
+            console.log(`lunr-index${langExt}.json written`);
         });
       });
     }
