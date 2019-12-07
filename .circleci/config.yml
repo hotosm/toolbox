@@ -116,6 +116,9 @@ jobs:
       - attach_workspace:
           at: ~/build
       - run: touch .nojekyll
+      - run: 
+          name: Add custom domain
+          command: echo "toolbox.hotosm.org" > public/CNAME
       - run:
           name: Install and configure dependencies
           command: |
