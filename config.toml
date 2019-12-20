@@ -8,7 +8,7 @@ enableGitInfo = true
 [params]
     DefaultContentLanguage = "en"
     GithubRepo = "https://github.com/hotosm/toolbox"
-    SiteURL = "https://hotosm.github.io/toolbox"
+    SiteURL = "https://toolbox.hotosm.org"
 
 [imaging]
     resampleFilter = "box"
