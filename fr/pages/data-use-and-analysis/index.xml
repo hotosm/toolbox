@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
-      <description>Dans cette rubrique, les chefs de projet trouveront des outils et des ressources sur la façon d&#39;utiliser les données OSM pour créer des produits cartographiques pour la prise de décision, notamment:
- Un guide étape par étape pour commencer à utiliser le QGIS, y compris des diapositives de présentation. Un guide étape par étape pour la création de cartes et d&#39;atlas dans QGIS Guides et ressources détaillés pour l&#39;utilisation des données dans les cartes Web et interactives   Il existe une poignée d&#39;outils gratuits qui vous permettent d&#39;utiliser les données générées sur le terrain, d&#39;extraire et d&#39;utiliser les données OSM ou de combiner des ensembles de données pour créer des cartes, des atlas et d&#39;autres visuels pour la prise de décision.</description>
+      <description>Dans cette rubrique, les chefs de projet trouveront des outils et des ressources sur la façon d&amp;rsquo;utiliser les données OSM pour créer des produits cartographiques pour la prise de décision, notamment:
+ Un guide étape par étape pour commencer à utiliser le QGIS, y compris des diapositives de présentation. Un guide étape par étape pour la création de cartes et d&amp;rsquo;atlas dans QGIS Guides et ressources détaillés pour l&amp;rsquo;utilisation des données dans les cartes Web et interactives   Il existe une poignée d&amp;rsquo;outils gratuits qui vous permettent d&amp;rsquo;utiliser les données générées sur le terrain, d&amp;rsquo;extraire et d&amp;rsquo;utiliser les données OSM ou de combiner des ensembles de données pour créer des cartes, des atlas et d&amp;rsquo;autres visuels pour la prise de décision.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>/fr/pages/data-use-and-analysis/7.1-qgis/</guid>
       <description>Cette section couvre les compétences de base nécessaires à l’utilisation de QGIS. Cela inclut des guides sur:
- Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&#39;afficher, de gérer et d&#39;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
+ Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&amp;rsquo;afficher, de gérer et d&amp;rsquo;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       
       <guid>/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
       <description>Cette section couvre les compétences nécessaires pour créer des cartes et des atlas dans QGIS:
- Préparation des données cartographiques Créer une mise en page Navigation et création d&#39;atlas Création de modèles de carte et d&#39;atlas  Aperçu La création d&#39;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</description>
+ Préparation des données cartographiques Créer une mise en page Navigation et création d&amp;rsquo;atlas Création de modèles de carte et d&amp;rsquo;atlas  Aperçu La création d&amp;rsquo;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@
       
       <guid>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
       <description>Cette section fournit:
- Un aperçu des outils de carte interactive en ligne pour la visualisation des données Instructions pas à pas pour la création de cartes interactives avec deux outils: uMap et Overpass Turbo  Aperçu Les cartes interactives sont considérées comme l&#39;équivalent moderne de la communication visuelle avec des cartes. Cela implique la création et l’étude de la représentation visuelle des données (cartes). Pour communiquer des informations de manière claire et efficace, la visualisation de données utilise des graphiques statistiques, des graphiques d&#39;information et d&#39;autres outils.</description>
+ Un aperçu des outils de carte interactive en ligne pour la visualisation des données Instructions pas à pas pour la création de cartes interactives avec deux outils: uMap et Overpass Turbo  Aperçu Les cartes interactives sont considérées comme l&amp;rsquo;équivalent moderne de la communication visuelle avec des cartes. Cela implique la création et l’étude de la représentation visuelle des données (cartes). Pour communiquer des informations de manière claire et efficace, la visualisation de données utilise des graphiques statistiques, des graphiques d&amp;rsquo;information et d&amp;rsquo;autres outils.</description>
     </item>
     
   </channel>

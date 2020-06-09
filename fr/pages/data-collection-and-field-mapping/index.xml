@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
-      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&#39;un projet de cartographie sur le terrain, notamment:
- Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&#39;applications telles que OpenMapKit   Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
+      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&amp;rsquo;un projet de cartographie sur le terrain, notamment:
+ Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&amp;rsquo;applications telles que OpenMapKit   Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
       <description>Cette section fournit:
- Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données  Aperçu Lors du démarrage d&#39;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
+ Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données  Aperçu Lors du démarrage d&amp;rsquo;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>Cette partie montre:
- Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&#39;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Aperçu Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&#39;une application à utiliser dépend de la capacité de l&#39;appareil mobile, des conditions d&#39;installation qui peuvent varier et selon les besoins de la collecte.</description>
+ Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&amp;rsquo;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Aperçu Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&amp;rsquo;une application à utiliser dépend de la capacité de l&amp;rsquo;appareil mobile, des conditions d&amp;rsquo;installation qui peuvent varier et selon les besoins de la collecte.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>Cette rubrique présente:
- Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&#39;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Aperçu OpenDataKit (ODK) est un ensemble d&#39;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
+ Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&amp;rsquo;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Aperçu OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
       <description>Cette rubrique prévoit:
- Un aperçu des étapes nécessaires à la mise en place de OMK Guide étape par étape pour créer des formulaires d&#39;enquête OMK avec des fichiers tests. Conseils sur la sélection d&#39;une méthode de création de fichiers MBTile et un exemple type de création. Un guide étape par étape pour créer les fichiers supplémentaires nécessaires à l&#39;exécution de OMK. Un guide étape par étape pour configurer OMK sur les appareils.</description>
+ Un aperçu des étapes nécessaires à la mise en place de OMK Guide étape par étape pour créer des formulaires d&amp;rsquo;enquête OMK avec des fichiers tests. Conseils sur la sélection d&amp;rsquo;une méthode de création de fichiers MBTile et un exemple type de création. Un guide étape par étape pour créer les fichiers supplémentaires nécessaires à l&amp;rsquo;exécution de OMK. Un guide étape par étape pour configurer OMK sur les appareils.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
       <description>Cette partie du manuel présente:
- Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  Aperçu Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.Bien que les outils de navigation ne soient pas nécessaires pour la collecte de données, ils peuvent être extrêmement utiles aux équipes de collecte de données lorsqu&#39;elles se rendent sur le terrain, ainsi qu&#39;aux superviseurs et aux gestionnaires de projet pour faire le suivi de leurs équipes.</description>
+ Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  Aperçu Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.Bien que les outils de navigation ne soient pas nécessaires pour la collecte de données, ils peuvent être extrêmement utiles aux équipes de collecte de données lorsqu&amp;rsquo;elles se rendent sur le terrain, ainsi qu&amp;rsquo;aux superviseurs et aux gestionnaires de projet pour faire le suivi de leurs équipes.</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
       <description>Cette rubrique présente:
- Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&#39;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
+ Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&amp;rsquo;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
     </item>
     
   </channel>

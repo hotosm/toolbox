@@ -348,12 +348,12 @@
 <ul>
 <li>Préparation des données cartographiques</li>
 <li>Créer une mise en page</li>
-<li>Navigation et création d'atlas</li>
-<li>Création de modèles de carte et d'atlas</li>
+<li>Navigation et création d&rsquo;atlas</li>
+<li>Création de modèles de carte et d&rsquo;atlas</li>
 </ul>
 <!-- raw HTML omitted -->
-<h2 id="aperu">Aperçu</h2>
-<p>La création d'un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</p>
+<h2 id="aperçu">Aperçu</h2>
+<p>La création d&rsquo;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</p>
 <p><strong>Exemples de projets HOT:</strong></p>
 <ul>
 <li><a href="https://drive.google.com/file/d/1yQK8wjZK2mMtGVc3G6srNKHlf0SZTyv1/view?usp=sharing">Open Cities in Monrovia, Liberia</a></li>
@@ -365,7 +365,7 @@
 <p>Cette section présente une sélection de ressources destinées aux gestionnaires de projet, aux formateurs ou même aux auto-apprenants sur les sujets décrits ci-dessus.</p>
 <p><img src="../../../../images/fr_guide_icons/fr_learning_icon_wide.PNG" alt="">
 <em>La section suivante est conçue pour servir de matériel auto-rythmé pouvant être utilisé à la fois pendant les formations et par des étudiants auto-guidés.</em></p>
-<p>Le guide suivant fournit des instructions et des captures d'écran de QGIS 3.4. Les versions antérieures ou ultérieures peuvent avoir différentes icônes et étapes</p>
+<p>Le guide suivant fournit des instructions et des captures d&rsquo;écran de QGIS 3.4. Les versions antérieures ou ultérieures peuvent avoir différentes icônes et étapes</p>
 <p><strong>Compétences et technologie nécessaires:</strong></p>
 <ul>
 <li>Installation of QGIS</li>
@@ -373,15 +373,15 @@
 <li>Fichiers de données SIG (i.e. shapefiles, geojson)</li>
 <li>Exemple de shapefiles <a href="https://drive.google.com/open?id=1eEzawHzEueVOBuRNJwpX_YeynTOnrbDs">zip</a></li>
 </ul>
-<p>Cette activité couvre le processus de création et de configuration d’une carte et d’un atlas dans une mise en page imprimée. Des exemples de fichiers de formes sont fournis pour cette activité, mais vous pouvez les utiliser avec les fichiers de formes fournis par l'utilisateur.</p>
-<h3 id="1-prparation-des-donnes-cartographiques">1. Préparation des données cartographiques</h3>
-<p>Avant de créer un atlas, vous devez ajouter et styliser des calques. Lors du style des calques, vous devrez déterminer leur apparence dans le composeur d’impression. Comme les cartes de l'atlas peuvent être à différentes échelles, il peut être nécessaire de revenir au style après avoir généré l'atlas pour effectuer des ajustements.</p>
+<p>Cette activité couvre le processus de création et de configuration d’une carte et d’un atlas dans une mise en page imprimée. Des exemples de fichiers de formes sont fournis pour cette activité, mais vous pouvez les utiliser avec les fichiers de formes fournis par l&rsquo;utilisateur.</p>
+<h3 id="1-préparation-des-données-cartographiques">1. Préparation des données cartographiques</h3>
+<p>Avant de créer un atlas, vous devez ajouter et styliser des calques. Lors du style des calques, vous devrez déterminer leur apparence dans le composeur d’impression. Comme les cartes de l&rsquo;atlas peuvent être à différentes échelles, il peut être nécessaire de revenir au style après avoir généré l&rsquo;atlas pour effectuer des ajustements.</p>
 <p>Pour suivre les étapes de la pratique, ajoutez les données vectorielles suivantes à votre carte:</p>
 <ul>
 <li>Dar_sub-wards_EPSG_4326</li>
 <li>Dar_wards_EPSG_4326</li>
 </ul>
-<p>Changer la couleur de fond du projet. Ouvrez le menu &ldquo;Projet&rdquo; dans la barre d'outils supérieure, sélectionnez &ldquo;Propriétés&rdquo;. Sous Paramètres généraux, changez la couleur d'arrière-plan en bleu.</p>
+<p>Changer la couleur de fond du projet. Ouvrez le menu &ldquo;Projet&rdquo; dans la barre d&rsquo;outils supérieure, sélectionnez &ldquo;Propriétés&rdquo;. Sous Paramètres généraux, changez la couleur d&rsquo;arrière-plan en bleu.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial1.gif" alt=""></p>
 <p>Donnez un style à la couche de garde  (Dar_wards_EPSG_4326) en cliquant avec le bouton droit de la souris sur le nom dans le panneau Calques et en sélectionnant &lsquo;Propriétés&rsquo;. Dans la fenêtre contextuelle, sélectionnez ‘Style’ dans le menu latéral. Style comme décrit ci-dessous:</p>
 <ul>
@@ -410,55 +410,55 @@
 </ul>
 <p>Après avoir stylé la couche (Dar_sub-wards_EPSG_4326), sélectionnez ‘Étiquettes’ dans le menu latéral dans ‘Propriétés’.</p>
 <ul>
-<li>Dans le menu déroulant du haut, modifiez l'option ‘Pas d’étiquette’ en ‘Afficher les étiquettes pour cette couche’.</li>
-<li>Pour ‘‘Étiquettes avec’, sélectionnez l'option ‘Ward_Name’ dans le menu déroulant.</li>
+<li>Dans le menu déroulant du haut, modifiez l&rsquo;option ‘Pas d’étiquette’ en ‘Afficher les étiquettes pour cette couche’.</li>
+<li>Pour ‘‘Étiquettes avec’, sélectionnez l&rsquo;option ‘Ward_Name’ dans le menu déroulant.</li>
 <li>Modifiez vos options de ‘Texte’ telles que la police, la taille de la police, la couleur de la police, etc.</li>
 <li>Sélectionnez ‘Appliquer’ et ensuite ‘OK’.</li>
 </ul>
-<p>Après avoir stylé tous les calques, assurez-vous que vos calques sont dans l'ordre suivant dans votre panneau de calques. (Pour ajuster l'ordre des calques, cliquez avec le bouton gauche de la souris sur un calque, puis faites-le glisser vers le haut ou le bas dans la liste.)</p>
+<p>Après avoir stylé tous les calques, assurez-vous que vos calques sont dans l&rsquo;ordre suivant dans votre panneau de calques. (Pour ajuster l&rsquo;ordre des calques, cliquez avec le bouton gauche de la souris sur un calque, puis faites-le glisser vers le haut ou le bas dans la liste.)</p>
 <ul>
 <li>Dar_wards_EPSG_4326</li>
 <li>Dar_sub-wards_EPSG_4326</li>
 <li>Ward_grey_background</li>
 </ul>
-<h3 id="2-crer-une-mise-en-page-dans-la-mise-en-page">2. Créer une mise en page dans la mise en page</h3>
-<p>Ouvrez le menu ‘Projet’ dans la barre d'outils principale et sélectionnez ‘Nouvelle mise en page’. Dans la fenêtre contextuelle, créez un titre pour votre carte. Cela peut être un nom unique pour décrire le but de votre carte, tel que «Dar Sub-Wards». Une nouvelle fenêtre sera créée avec une page vierge. Cela montre à quoi votre carte va paraître imprimée.</p>
+<h3 id="2-créer-une-mise-en-page-dans-la-mise-en-page">2. Créer une mise en page dans la mise en page</h3>
+<p>Ouvrez le menu ‘Projet’ dans la barre d&rsquo;outils principale et sélectionnez ‘Nouvelle mise en page’. Dans la fenêtre contextuelle, créez un titre pour votre carte. Cela peut être un nom unique pour décrire le but de votre carte, tel que «Dar Sub-Wards». Une nouvelle fenêtre sera créée avec une page vierge. Cela montre à quoi votre carte va paraître imprimée.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial2.gif" alt="">
-Au minimum, vous devrez ajouter les éléments communs suivants d'une carte au canevas de la carte:</p>
+Au minimum, vous devrez ajouter les éléments communs suivants d&rsquo;une carte au canevas de la carte:</p>
 <ul>
 <li>Carte</li>
 <li>Titre</li>
 <li>Légende</li>
-<li>Barre d'échelle</li>
+<li>Barre d&rsquo;échelle</li>
 <li>Flèche du nord</li>
 </ul>
-<p>Chacun de ces éléments peut être ajouté en ouvrant le menu ‘Ajouter un élément’ de la barre d'outils supérieure ou en utilisant les boutons d'accès rapide de la barre d'outils de gauche.</p>
-<p>Ajoutez votre carte en sélectionnant ‘Ajouter une carte’ dans le menu ‘Ajouter un élément’ (* alt: utilisez l'outil Ajouter une carte de la barre d'outils de gauche *). Vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser.</p>
+<p>Chacun de ces éléments peut être ajouté en ouvrant le menu ‘Ajouter un élément’ de la barre d&rsquo;outils supérieure ou en utilisant les boutons d&rsquo;accès rapide de la barre d&rsquo;outils de gauche.</p>
+<p>Ajoutez votre carte en sélectionnant ‘Ajouter une carte’ dans le menu ‘Ajouter un élément’ (* alt: utilisez l&rsquo;outil Ajouter une carte de la barre d&rsquo;outils de gauche *). Vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial3.gif" alt="">
-Ajoutez un titre à votre carte en sélectionnant ‘Ajouter une étiquette’ dans le menu ‘Ajouter un élément&rdquo; (* alt: utilisez l'outil Ajouter une étiquette de la barre d'outils de gauche *). Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser. Le texte par défaut est ‘Lorem ipsum’. Cela peut être modifié dans le panneau ‘Propriétés de l'élément’. Changez la police et la taille de votre titre.</p>
+Ajoutez un titre à votre carte en sélectionnant ‘Ajouter une étiquette’ dans le menu ‘Ajouter un élément&rdquo; (* alt: utilisez l&rsquo;outil Ajouter une étiquette de la barre d&rsquo;outils de gauche *). Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser. Le texte par défaut est ‘Lorem ipsum’. Cela peut être modifié dans le panneau ‘Propriétés de l&rsquo;élément’. Changez la police et la taille de votre titre.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial4.gif" alt=""></p>
-<p>Ajoutez une légende à votre carte en sélectionnant ‘Ajouter une légende’ dans le menu ‘Ajouter un élément’. La taille de la légende sera générée en fonction de son contenu. Vous pouvez modifier la taille et ajouter ou supprimer des éléments de légende dans le panneau ‘Propriétés de l'élément’.</p>
+<p>Ajoutez une légende à votre carte en sélectionnant ‘Ajouter une légende’ dans le menu ‘Ajouter un élément’. La taille de la légende sera générée en fonction de son contenu. Vous pouvez modifier la taille et ajouter ou supprimer des éléments de légende dans le panneau ‘Propriétés de l&rsquo;élément’.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial5.gif" alt="">
-Ajoutez une barre d'échelle à votre carte en sélectionnant ‘Ajouter une barre d'échelle’ dans le menu ‘Ajouter un élément’. Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser.</p>
+Ajoutez une barre d&rsquo;échelle à votre carte en sélectionnant ‘Ajouter une barre d&rsquo;échelle’ dans le menu ‘Ajouter un élément’. Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial6.gif" alt="">
-La flèche nord peut être ajoutée en sélectionnant ‘Ajouter une image’. Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser. Dans le panneau ‘Propriétés de l'élément’, ouvrez l'option ‘Rechercher dans les répertoires’ pour effectuer votre sélection parmi un choix de symboles.</p>
+La flèche nord peut être ajoutée en sélectionnant ‘Ajouter une image’. Comme pour la carte, vous devrez dessiner la boîte en cliquant sur les coins et en les faisant glisser. Dans le panneau ‘Propriétés de l&rsquo;élément’, ouvrez l&rsquo;option ‘Rechercher dans les répertoires’ pour effectuer votre sélection parmi un choix de symboles.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial7.gif" alt="">
-Déplacez ces éléments sur votre canevas jusqu'à ce que vous soyez satisfait de la mise en page de votre carte. Pensez à votre public: comprendront-ils les informations que vous souhaitez transmettre?</p>
+Déplacez ces éléments sur votre canevas jusqu&rsquo;à ce que vous soyez satisfait de la mise en page de votre carte. Pensez à votre public: comprendront-ils les informations que vous souhaitez transmettre?</p>
 <h3 id="3-enregistrer-la-carte">3. Enregistrer la carte</h3>
-<p>À ce stade, vous pouvez décider si vous souhaitez enregistrer la carte sous forme de carte unique ou créer un atlas. Si vous souhaitez enregistrer la carte actuelle en tant que carte autonome, ouvrez le menu ‘Mise en page&rdquo; et sélectionnez l'une des options ‘Exporter en tant que &hellip;&rdquo; en fonction de vos préférences en matière de fichier.</p>
+<p>À ce stade, vous pouvez décider si vous souhaitez enregistrer la carte sous forme de carte unique ou créer un atlas. Si vous souhaitez enregistrer la carte actuelle en tant que carte autonome, ouvrez le menu ‘Mise en page&rdquo; et sélectionnez l&rsquo;une des options ‘Exporter en tant que &hellip;&rdquo; en fonction de vos préférences en matière de fichier.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial8.gif" alt=""></p>
-<h3 id="4-gnration-datlas">4. Génération d'atlas</h3>
-<p>Après avoir terminé la mise en page de votre carte, vous êtes prêt à générer l’atlas. Sélectionnez la zone de carte et, dans le panneau ‘Propriétés de l'élément’, cochez la case ‘Contrôlé par Atlas’.</p>
-<p>Dans le volet de droite, sélectionnez l’onglet ‘Génération Atlas’, à côté des onglets ‘Composition’ et ‘Propriétés de l’article’. Si cet onglet n'apparaît pas, sélectionnez le menu ‘Atlas’ dans la barre d'outils supérieure, puis sélectionnez ‘Paramètres Atlas’.
+<h3 id="4-génération-datlas">4. Génération d&rsquo;atlas</h3>
+<p>Après avoir terminé la mise en page de votre carte, vous êtes prêt à générer l’atlas. Sélectionnez la zone de carte et, dans le panneau ‘Propriétés de l&rsquo;élément’, cochez la case ‘Contrôlé par Atlas’.</p>
+<p>Dans le volet de droite, sélectionnez l’onglet ‘Génération Atlas’, à côté des onglets ‘Composition’ et ‘Propriétés de l’article’. Si cet onglet n&rsquo;apparaît pas, sélectionnez le menu ‘Atlas’ dans la barre d&rsquo;outils supérieure, puis sélectionnez ‘Paramètres Atlas’.
 Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas’ pour commencer à configurer votre atlas.</p>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial9.gif" alt=""></p>
 <h3 id="5-configuration">5. Configuration</h3>
-<p>Les options de configuration du panneau de génération d'atlas contrôlent la façon dont l'atlas est généré.</p>
+<p>Les options de configuration du panneau de génération d&rsquo;atlas contrôlent la façon dont l&rsquo;atlas est généré.</p>
 <ol>
 <li>La ‘couche de couverture’ est la couche contenant les zones géographiques d’intérêt de votre atlas. Par exemple, pour un atlas montrant des cartes de chaque district, vous devrez sélectionner votre couche de district.</li>
 <li>&lsquo;Nom de la page&rsquo; vous permet de nommer des pages en sélectionnant un attribut dans la couche de couverture ou en créant une expression à partir des valeurs de la table attributaire.</li>
-<li>Si vous ne souhaitez pas afficher toutes les zones incluses dans votre couche de couverture, l'option ‘Filtrer avec’ vous permet de filtrer les zones géographiques que vous souhaitez ou non inclure dans votre atlas. Cette option nécessite la création d'une expression.</li>
-<li>‘Trier par&rsquo; vous permet de commander votre atlas en fonction d'un attribut de votre couche de couverture.</li>
+<li>Si vous ne souhaitez pas afficher toutes les zones incluses dans votre couche de couverture, l&rsquo;option ‘Filtrer avec’ vous permet de filtrer les zones géographiques que vous souhaitez ou non inclure dans votre atlas. Cette option nécessite la création d&rsquo;une expression.</li>
+<li>‘Trier par&rsquo; vous permet de commander votre atlas en fonction d&rsquo;un attribut de votre couche de couverture.</li>
 </ol>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial10.gif" alt=""></p>
 <p><em>Pratique</em></p>
@@ -467,10 +467,10 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <li>Pour le nom de la page, sélectionnez‘Vil_Mtaa_N’. (Ce champ est le nom du sub-ward.)</li>
 <li>Check the box for ‘Sort by’ and select ‘Vil_Mtaa_N’. (Ce champ est le nom sub-ward.)</li>
 </ul>
-<h3 id="6-barre-doutils-atlas-et-navigation">6. Barre d'outils Atlas et navigation</h3>
-<p>Une fois l’atlas généré, vous pourrez prévisualiser l’atlas et le parcourir à l’aide de la barre d’outils. Pour naviguer, sélectionnez d’abord le bouton ‘aperçu d’atlas’. Des modifications peuvent être apportées à la présentation de l'atlas en mode de prévisualisation.</p>
-<h3 id="7-cration-dexpressions-pour-du-texte-conduit-avec-des-donnes">7. Création d'expressions pour du texte conduit avec des données</h3>
-<p>Les expressions permettent à des textes tels que des étiquettes et des titres d'être basés sur des données ou générés à partir d'attributs. Lorsque vous travaillez avec un atlas, les expressions prennent des attributs de la couche de couverture.</p>
+<h3 id="6-barre-doutils-atlas-et-navigation">6. Barre d&rsquo;outils Atlas et navigation</h3>
+<p>Une fois l’atlas généré, vous pourrez prévisualiser l’atlas et le parcourir à l’aide de la barre d’outils. Pour naviguer, sélectionnez d’abord le bouton ‘aperçu d’atlas’. Des modifications peuvent être apportées à la présentation de l&rsquo;atlas en mode de prévisualisation.</p>
+<h3 id="7-création-dexpressions-pour-du-texte-conduit-avec-des-données">7. Création d&rsquo;expressions pour du texte conduit avec des données</h3>
+<p>Les expressions permettent à des textes tels que des étiquettes et des titres d&rsquo;être basés sur des données ou générés à partir d&rsquo;attributs. Lorsque vous travaillez avec un atlas, les expressions prennent des attributs de la couche de couverture.</p>
 <ol>
 <li>
 <p>Le texte qui ne sont pas conduit avec des données doivent être écrit entre guillemets simples. Par exemple: &lsquo;Carte&rsquo;</p>
@@ -479,29 +479,29 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <p>Les espaces entre les mots doivent être indiqués par un espace entre guillemets simples. Exemple: &ldquo;Carte de&rdquo;</p>
 </li>
 <li>
-<p>Les valeurs sélectionnées et le texte brut doivent être séparés par l'opérateur &lsquo;||&rsquo;. Cet opérateur peut être saisi ou sélectionné dans la liste ‘Opérateurs’. Exemple: ‘Carte de &lsquo;||
+<p>Les valeurs sélectionnées et le texte brut doivent être séparés par l&rsquo;opérateur &lsquo;||&rsquo;. Cet opérateur peut être saisi ou sélectionné dans la liste ‘Opérateurs’. Exemple: ‘Carte de &lsquo;||
 4.Vous pouvez sélectionner du texte conduit avec des données, ou du texte généré à partir d’attributs, dans la liste ‘Champs’ et ‘valeurs’. Exemple: ‘Carte de &lsquo;|| “Nom_de_personne”</p>
 </li>
 <li>
-<p>Un ‘aperçu de la sortie’ sera généré au bas de la fenêtre du générateur d'expressions.</p>
+<p>Un ‘aperçu de la sortie’ sera généré au bas de la fenêtre du générateur d&rsquo;expressions.</p>
 </li>
 </ol>
 <p><img src="../../../../images/advanced_qgis/atlas_tutorial11.gif" alt=""></p>
 <p><em>Pratique</em></p>
 <ul>
 <li>
-<p>Sélectionnez ou créez votre zone de titre et sélectionnez ‘Insérer une expression’ dans le panneau ‘Propriétés de l'élément’.</p>
+<p>Sélectionnez ou créez votre zone de titre et sélectionnez ‘Insérer une expression’ dans le panneau ‘Propriétés de l&rsquo;élément’.</p>
 </li>
 <li>
-<p>Utilisez la liste ‘Champs et valeurs’ pour générer l'expression suivante:</p>
+<p>Utilisez la liste ‘Champs et valeurs’ pour générer l&rsquo;expression suivante:</p>
 <p>&ldquo;Vil_Mtaa_N&rdquo; || &lsquo;, ' ||  &ldquo;Ward_Name&rdquo;</p>
 </li>
 <li>
-<p>Vérifiez l'aperçu de la sortie pour vous assurer que l'expression a été correctement saisie.</p>
+<p>Vérifiez l&rsquo;aperçu de la sortie pour vous assurer que l&rsquo;expression a été correctement saisie.</p>
 </li>
 </ul>
 <h3 id="7-couche-de-polygone-inverse">7. Couche de polygone inverse</h3>
-<p>L'ajout d'une couche de polygones inverses permet de focaliser la carte en ombrant ou en couvrant complètement les entités situées en dehors de votre zone d'intérêt.</p>
+<p>L&rsquo;ajout d&rsquo;une couche de polygones inverses permet de focaliser la carte en ombrant ou en couvrant complètement les entités situées en dehors de votre zone d&rsquo;intérêt.</p>
 <ol>
 <li>Revenez à la fenêtre principale de QGIS.</li>
 <li>Sélectionnez le calque utilisé en tant que couche de couverture dans composeur d’impression. Faites un clic droit et sélectionnez &lsquo;Dupliquer&rsquo;</li>
@@ -510,7 +510,7 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <li>Dans le menu déroulant supérieur, sélectionnez ‘Polygones inversés’.</li>
 <li>Sous ‘Sub renderer:’, sélectionnez ‘Rule-based’ dans le menu déroulant.</li>
 <li>Dans la fenêtre de la liste de règles, double-cliquez sur ‘(aucun filtre)’ pour ouvrir la fenêtre ‘Editer la règle’.</li>
-<li>Dans la fenêtre ‘Editer la règle’, sélectionnez le bouton ‘…’ pour créer un filtre. Un constructeur d'expression s'ouvrira. Dans la fenêtre d'expression, tapez ou créez à partir de la liste Variable: $id=@atlas_featureid.</li>
+<li>Dans la fenêtre ‘Editer la règle’, sélectionnez le bouton ‘…’ pour créer un filtre. Un constructeur d&rsquo;expression s&rsquo;ouvrira. Dans la fenêtre d&rsquo;expression, tapez ou créez à partir de la liste Variable: $id=@atlas_featureid.</li>
 <li>Dans la fenêtre &lsquo;Modifier la règle&rsquo;, assurez-vous que le type de symbole est modifiée simplement.</li>
 <li>Changez la transparence à 50%.</li>
 <li>Changez la couleur en gris foncé.</li>
@@ -520,11 +520,11 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <p><em>Pratique</em>:</p>
 <ul>
 <li>Terminez toutes les étapes ci-dessus.</li>
-<li>Pour l'étape 2, ce sera la couche “Dar_sub-wards_EPSG_4326”.</li>
+<li>Pour l&rsquo;étape 2, ce sera la couche “Dar_sub-wards_EPSG_4326”.</li>
 <li>À l’étape 3, renommez le fichier “inverse_sub-wards”.</li>
 </ul>
-<h3 id="8-ajout-de-carte-dtaille">8. Ajout de carte détaillée</h3>
-<p>Les cartes détaillée permettent au public de comprendre l'emplacement central de la carte dans le contexte d'une zone plus vaste. Par exemple, une carte détaillée peut indiquer l'emplacement d'une division dans la ville. Dans QGIS, une carte détaillé peut être créée pour afficher automatiquement l’emplacement de la carte pour chaque page de l’atlas.</p>
+<h3 id="8-ajout-de-carte-détaillée">8. Ajout de carte détaillée</h3>
+<p>Les cartes détaillée permettent au public de comprendre l&rsquo;emplacement central de la carte dans le contexte d&rsquo;une zone plus vaste. Par exemple, une carte détaillée peut indiquer l&rsquo;emplacement d&rsquo;une division dans la ville. Dans QGIS, une carte détaillé peut être créée pour afficher automatiquement l’emplacement de la carte pour chaque page de l’atlas.</p>
 <ol>
 <li>Dans la fenêtre principale de QGIS, sélectionnez les couches que vous souhaitez inclure dans la carte de synthèse. Celles-ci doivent généralement être des couches faciles à visualiser à petite échelle (frontières, autoroutes, voies navigables). Plusieurs couches peuvent être sélectionnées à la fois en maintenant la touche Ctrl enfoncée tout en sélectionnant.</li>
 <li>Cliquez avec le bouton droit de la souris sur ces calques et sélectionnez &ldquo;Dupliquer&rdquo;.</li>
@@ -533,11 +533,11 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <li>Activez tous les calques groupés et tous les autres en cochant les cases en regard des noms de colonne.</li>
 <li>Revenez à votre composeur d’impression.</li>
 <li>Ouvrez le menu ‘Mise en page’ dans la barre d’outils supérieure et sélectionnez ‘Ajouter une carte’. Dessinez une petite boîte pour votre carte détaillée.</li>
-<li>Accédez au panneau ‘Propriétés de l'élément’ pour la deuxième carte et ouvrez les options ‘Aperçu’.</li>
+<li>Accédez au panneau ‘Propriétés de l&rsquo;élément’ pour la deuxième carte et ouvrez les options ‘Aperçu’.</li>
 <li>Cliquez sur le bouton vert ‘+’pour ajouter une aperçue.</li>
 <li>Pour ‘Cadre de carte’, sélectionnez ‘Carte 0’ dans le menu déroulant.</li>
 <li>Le ‘style de cadre’ vous permettra de modifier la couleur, le contour et la transparence du cadre de la carte.</li>
-<li>Dans le panneau ‘Propriétés de l’élément’, ouvrez l’option ‘Calques’ et sélectionnez ‘Verrouiller les calques’. Cela maintiendra les couches limitées tout en permettant à la carte principale d'afficher toutes les couches.</li>
+<li>Dans le panneau ‘Propriétés de l’élément’, ouvrez l’option ‘Calques’ et sélectionnez ‘Verrouiller les calques’. Cela maintiendra les couches limitées tout en permettant à la carte principale d&rsquo;afficher toutes les couches.</li>
 <li>Retournez à la fenêtre principale de QGIS. Désactivez tous les calques d’aperçu groupés et activez les autres calques.</li>
 </ol>
 <p><em>Pratiquer</em></p>
@@ -545,8 +545,8 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <li>Suivez toutes les étapes ci-dessus</li>
 <li>Première étape, sélectionnez les calques ‘Dar_wards_EPSG_4326 copy’, ‘Dar_sub-wards_EPSG_ 4326 copy’, et ‘Ward_grey_background copy’.’</li>
 </ul>
-<h3 id="9-revue-de-latlas">9. Revue de l'Atlas</h3>
-<p>Une fois la mise en page et la génération de l’atlas terminées, il est important de vérifier chaque page de l’atlas pour une génération d’expression correcte (c’est-à-dire que toutes les pages sont correctement intitulées) et que l’apparence des couches et des étiquettes de chaque carte apparaît correctement. S'il existe une grande différence entre les échelles de carte pour différentes pages, il peut être nécessaire d'ajuster les styles, les étiquettes, les grilles et d'autres facteurs afin de les adapter au mieux à toutes les échelles de carte.</p>
+<h3 id="9-revue-de-latlas">9. Revue de l&rsquo;Atlas</h3>
+<p>Une fois la mise en page et la génération de l’atlas terminées, il est important de vérifier chaque page de l’atlas pour une génération d’expression correcte (c’est-à-dire que toutes les pages sont correctement intitulées) et que l’apparence des couches et des étiquettes de chaque carte apparaît correctement. S&rsquo;il existe une grande différence entre les échelles de carte pour différentes pages, il peut être nécessaire d&rsquo;ajuster les styles, les étiquettes, les grilles et d&rsquo;autres facteurs afin de les adapter au mieux à toutes les échelles de carte.</p>
 <p><em>Pratiquer:</em></p>
 <ul>
 <li>Utilisez la ‘barre d’outils Atlas’ pour naviguer dans les pages de votre atlas.</li>
@@ -554,25 +554,25 @@ Dans le panneau ‘Atlas’, cochez la case en regard de ‘Générer un atlas�
 <ul>
 <li>Visibilité de la couche cartographique</li>
 <li>Visibilité des étiquettes</li>
-<li>Texte basé sur l'expression  (i.e. titre, zones de texte supplémentaires)</li>
-<li>Taille et placement de la barre d'échelle</li>
+<li>Texte basé sur l&rsquo;expression  (i.e. titre, zones de texte supplémentaires)</li>
+<li>Taille et placement de la barre d&rsquo;échelle</li>
 </ul>
 </li>
 </ul>
 <h3 id="10-expression-du-nom-du-fichier-de-sortie">10. Expression du nom du fichier de sortie</h3>
-<p>Avant d'exporter l'atlas, une expression de nom de fichier en sortie doit être générée. Cette expression déterminera le nom de chaque page des fichiers atlas exportés. Voir ‘Construire des expressions’ pour des instructions sur la construction d’expressions.
+<p>Avant d&rsquo;exporter l&rsquo;atlas, une expression de nom de fichier en sortie doit être générée. Cette expression déterminera le nom de chaque page des fichiers atlas exportés. Voir ‘Construire des expressions’ pour des instructions sur la construction d’expressions.
 L’expression par défaut est ‘sortie’ || @atlas_featurenumber qui produira un nom de fichier tel que “sortie 3”. Cela peut être changé pour créer un nom de fichier plus précis pour vos cartes.</p>
 <p><em>Pratiquer:</em></p>
 <ul>
-<li>Sélectionnez le bouton Générateur d'expression</li>
-<li>Construisez l'expression: &ldquo;District_N&rdquo; || &lsquo;<em>&rsquo; ||  &ldquo;Ward_Name&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Vil_Mtaa_N&rdquo;</li>
-<li>Vérifiez l'aperçu de la sortie au bas du générateur d'expression pour vous assurer que l'expression a été construite correctement.</li>
+<li>Sélectionnez le bouton Générateur d&rsquo;expression</li>
+<li>Construisez l&rsquo;expression: &ldquo;District_N&rdquo; || &lsquo;<em>&rsquo; ||  &ldquo;Ward_Name&rdquo; || &lsquo;</em>&rsquo; ||  &ldquo;Vil_Mtaa_N&rdquo;</li>
+<li>Vérifiez l&rsquo;aperçu de la sortie au bas du générateur d&rsquo;expression pour vous assurer que l&rsquo;expression a été construite correctement.</li>
 </ul>
-<h3 id="11-atlas-dexportation">11. Atlas d'exportation</h3>
-<p>Pour exporter l’atlas, sélectionnez le bouton ‘Exporter Atlas’ dans la barre d’outils Atlas. Sélectionnez le type de fichier approprié (Exporter en tant qu'images, Exporter en tant que SVG ou Exporter en tant que PDF) et sélectionnez le dossier dans lequel les fichiers seront exportés.</p>
-<h3 id="12-modles-datlas">12. Modèles d'Atlas</h3>
-<p>Les modèles Atlas peuvent être enregistrés et ajoutés à d'autres projets QGIS. Pour enregistrer un modèle, ouvrez le menu ‘Projet’ dans la barre d’outils supérieure et sélectionnez ‘Enregistrer en tant que modèle’. Cela enregistrera en tant que fichier Composeur de modèle (* .qpt * .QPT)..
-Pour ajouter le modèle à un autre projet, ouvrez un nouveau composeur d'impression. Ouvrez le menu ‘Projet’ dans la barre d’outils supérieure et sélectionnez ‘Ajouter des éléments à partir d’un modèle’. Remarque: les éléments seront redimensionnés à la taille de la page du document d'origine. La taille des éléments devra peut-être être ajustée si le nouveau projet utilise une taille de page différente.</p>
+<h3 id="11-atlas-dexportation">11. Atlas d&rsquo;exportation</h3>
+<p>Pour exporter l’atlas, sélectionnez le bouton ‘Exporter Atlas’ dans la barre d’outils Atlas. Sélectionnez le type de fichier approprié (Exporter en tant qu&rsquo;images, Exporter en tant que SVG ou Exporter en tant que PDF) et sélectionnez le dossier dans lequel les fichiers seront exportés.</p>
+<h3 id="12-modèles-datlas">12. Modèles d&rsquo;Atlas</h3>
+<p>Les modèles Atlas peuvent être enregistrés et ajoutés à d&rsquo;autres projets QGIS. Pour enregistrer un modèle, ouvrez le menu ‘Projet’ dans la barre d’outils supérieure et sélectionnez ‘Enregistrer en tant que modèle’. Cela enregistrera en tant que fichier Composeur de modèle (* .qpt * .QPT)..
+Pour ajouter le modèle à un autre projet, ouvrez un nouveau composeur d&rsquo;impression. Ouvrez le menu ‘Projet’ dans la barre d’outils supérieure et sélectionnez ‘Ajouter des éléments à partir d’un modèle’. Remarque: les éléments seront redimensionnés à la taille de la page du document d&rsquo;origine. La taille des éléments devra peut-être être ajustée si le nouveau projet utilise une taille de page différente.</p>
 </div>
 
 
@@ -620,22 +620,22 @@ Pour ajouter le modèle à un autre projet, ouvrez un nouveau composeur d'impres
         <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#aperu">Aperçu</a></li>
+    <li><a href="#aperçu">Aperçu</a></li>
     <li><a href="#ressources-et-supports-de-formation">Ressources et supports de formation</a>
       <ul>
-        <li><a href="#1-prparation-des-donnes-cartographiques">1. Préparation des données cartographiques</a></li>
-        <li><a href="#2-crer-une-mise-en-page-dans-la-mise-en-page">2. Créer une mise en page dans la mise en page</a></li>
+        <li><a href="#1-préparation-des-données-cartographiques">1. Préparation des données cartographiques</a></li>
+        <li><a href="#2-créer-une-mise-en-page-dans-la-mise-en-page">2. Créer une mise en page dans la mise en page</a></li>
         <li><a href="#3-enregistrer-la-carte">3. Enregistrer la carte</a></li>
-        <li><a href="#4-gnration-datlas">4. Génération d'atlas</a></li>
+        <li><a href="#4-génération-datlas">4. Génération d&rsquo;atlas</a></li>
         <li><a href="#5-configuration">5. Configuration</a></li>
-        <li><a href="#6-barre-doutils-atlas-et-navigation">6. Barre d'outils Atlas et navigation</a></li>
-        <li><a href="#7-cration-dexpressions-pour-du-texte-conduit-avec-des-donnes">7. Création d'expressions pour du texte conduit avec des données</a></li>
+        <li><a href="#6-barre-doutils-atlas-et-navigation">6. Barre d&rsquo;outils Atlas et navigation</a></li>
+        <li><a href="#7-création-dexpressions-pour-du-texte-conduit-avec-des-données">7. Création d&rsquo;expressions pour du texte conduit avec des données</a></li>
         <li><a href="#7-couche-de-polygone-inverse">7. Couche de polygone inverse</a></li>
-        <li><a href="#8-ajout-de-carte-dtaille">8. Ajout de carte détaillée</a></li>
-        <li><a href="#9-revue-de-latlas">9. Revue de l'Atlas</a></li>
+        <li><a href="#8-ajout-de-carte-détaillée">8. Ajout de carte détaillée</a></li>
+        <li><a href="#9-revue-de-latlas">9. Revue de l&rsquo;Atlas</a></li>
         <li><a href="#10-expression-du-nom-du-fichier-de-sortie">10. Expression du nom du fichier de sortie</a></li>
-        <li><a href="#11-atlas-dexportation">11. Atlas d'exportation</a></li>
-        <li><a href="#12-modles-datlas">12. Modèles d'Atlas</a></li>
+        <li><a href="#11-atlas-dexportation">11. Atlas d&rsquo;exportation</a></li>
+        <li><a href="#12-modèles-datlas">12. Modèles d&rsquo;Atlas</a></li>
       </ul>
     </li>
   </ul>

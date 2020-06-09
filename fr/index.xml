@@ -27,8 +27,8 @@
       
       <guid>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
       <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour diriger et mettre en œuvre des activités d’édition OpenStreetMap organisées, notamment:
-  Présentations et guides pas à pas pour présenter OpenStreetMap aux équipes et outils d&#39;édition tels que HOT Tasking Manager.
-  Ressources permettant de déterminer si votre projet doit respecter les directives de montage organisé de l&#39;OSM
+  Présentations et guides pas à pas pour présenter OpenStreetMap aux équipes et outils d&amp;rsquo;édition tels que HOT Tasking Manager.
+  Ressources permettant de déterminer si votre projet doit respecter les directives de montage organisé de l&amp;rsquo;OSM
   Guides détaillés et activités de formation pour les équipes de numérisation à utiliser lors de la validation et du téléchargement des données</description>
     </item>
     
@@ -38,8 +38,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-export/6.0-data-export-tools/</guid>
-      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&#39;exporter les données OpenStreetMap, notamment:
- Un aperçu des outils d&#39;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&#39;outil d&#39;exportation HOT et HDX   Les outils d&#39;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&#39;analyse tels que QGIS.</description>
+      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&amp;rsquo;exporter les données OpenStreetMap, notamment:
+ Un aperçu des outils d&amp;rsquo;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&amp;rsquo;outil d&amp;rsquo;exportation HOT et HDX   Les outils d&amp;rsquo;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&amp;rsquo;analyse tels que QGIS.</description>
     </item>
     
     <item>
@@ -48,8 +48,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
-      <description>Dans cette rubrique, les chefs de projet trouveront des outils et des ressources sur la façon d&#39;utiliser les données OSM pour créer des produits cartographiques pour la prise de décision, notamment:
- Un guide étape par étape pour commencer à utiliser le QGIS, y compris des diapositives de présentation. Un guide étape par étape pour la création de cartes et d&#39;atlas dans QGIS Guides et ressources détaillés pour l&#39;utilisation des données dans les cartes Web et interactives   Il existe une poignée d&#39;outils gratuits qui vous permettent d&#39;utiliser les données générées sur le terrain, d&#39;extraire et d&#39;utiliser les données OSM ou de combiner des ensembles de données pour créer des cartes, des atlas et d&#39;autres visuels pour la prise de décision.</description>
+      <description>Dans cette rubrique, les chefs de projet trouveront des outils et des ressources sur la façon d&amp;rsquo;utiliser les données OSM pour créer des produits cartographiques pour la prise de décision, notamment:
+ Un guide étape par étape pour commencer à utiliser le QGIS, y compris des diapositives de présentation. Un guide étape par étape pour la création de cartes et d&amp;rsquo;atlas dans QGIS Guides et ressources détaillés pour l&amp;rsquo;utilisation des données dans les cartes Web et interactives   Il existe une poignée d&amp;rsquo;outils gratuits qui vous permettent d&amp;rsquo;utiliser les données générées sur le terrain, d&amp;rsquo;extraire et d&amp;rsquo;utiliser les données OSM ou de combiner des ensembles de données pour créer des cartes, des atlas et d&amp;rsquo;autres visuels pour la prise de décision.</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/introduction/how_to_use_toolbox/</guid>
-      <description>La boîte à outils HOT est conçue pour guider un chef de projet ou une communauté tout au long du flux de travail de cartographie, de la planification à la cartographie initiale, à l&#39;utilisation et à l&#39;analyse des données. Tous les projets de cartographie ne sont pas identiques. Certains projets impliquent de nombreux composants de collecte de données sur le terrain, d&#39;autres peuvent même ne pas mener d&#39;activités de cartographie sur le terrain, mais exécuter des projets de numérisation basés sur le bureau.</description>
+      <description>La boîte à outils HOT est conçue pour guider un chef de projet ou une communauté tout au long du flux de travail de cartographie, de la planification à la cartographie initiale, à l&amp;rsquo;utilisation et à l&amp;rsquo;analyse des données. Tous les projets de cartographie ne sont pas identiques. Certains projets impliquent de nombreux composants de collecte de données sur le terrain, d&amp;rsquo;autres peuvent même ne pas mener d&amp;rsquo;activités de cartographie sur le terrain, mais exécuter des projets de numérisation basés sur le bureau.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</guid>
-      <description>Cette section comprend des questions d&#39;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&#39;un projet, notamment:
+      <description>Cette section comprend des questions d&amp;rsquo;orientation et des considérations que les gestionnaires de projet et les communautés OSM doivent prendre en compte lors du démarrage d&amp;rsquo;un projet, notamment:
   Facteurs à prendre en compte quand on décide de quoi cartographier;
   Contextes pouvant avoir un impact sur la planification et la préparation;
   Considérations à prendre en compte pour impliquer les parties prenantes, les communautés et la sélection de votre équipe.</description>
@@ -92,7 +92,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       <description>Dans cette section, les gestionnaires de projet trouveront des informations sur la sélection du matériel approprié pour mener un projet de cartographie, notamment:
   Déterminer quel matériel pourrait être nécessaire ou non.
   Spécifications et recommandation des models pour les appareils portable, les tablettes et les ordinateurs en fonction des besoins du projet.
-  Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&#39;alimentation et les disques durs.</description>
+  Des guides sur les équipements supplémentaires éventuellement nécessaires, tels que les banques d&amp;rsquo;alimentation et les disques durs.</description>
     </item>
     
     <item>
@@ -132,7 +132,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
       <description>Cette section prévoit :
- Un aperçu du gestionnaire de tâches HOT Tasking Manager, y compris des diapositives de présentation Instructions étape par étape pour commencer à utiliser le gestionnaire de tâches HOT Tasking Manager  Les documents suivants sont conçus pour aider les gestionnaires de projet et d&#39;autres personnes à diriger des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap, veuillez visiter le site suivant LearnOSM.</description>
+ Un aperçu du gestionnaire de tâches HOT Tasking Manager, y compris des diapositives de présentation Instructions étape par étape pour commencer à utiliser le gestionnaire de tâches HOT Tasking Manager  Les documents suivants sont conçus pour aider les gestionnaires de projet et d&amp;rsquo;autres personnes à diriger des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap, veuillez visiter le site suivant LearnOSM.</description>
     </item>
     
     <item>
@@ -142,7 +142,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
       <description>Cette section contient:
- Comparaison des outils d&#39;édition OpenStreetMap, JOSM et iD Editor Un aperçu de iD Editor, y compris les diapositives de présentation Une vue d&#39;ensemble de JOSM, y compris les diapositives de présentation  Les documents suivants sont conçus pour aider les chargés des projets et d&#39;autres personnes à animer des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap en utilisant iD Editor ou JOSM, veuillez visiter le site suivant LearnOSM.</description>
+ Comparaison des outils d&amp;rsquo;édition OpenStreetMap, JOSM et iD Editor Un aperçu de iD Editor, y compris les diapositives de présentation Une vue d&amp;rsquo;ensemble de JOSM, y compris les diapositives de présentation  Les documents suivants sont conçus pour aider les chargés des projets et d&amp;rsquo;autres personnes à animer des formations et des ateliers. Si vous êtes une personne intéressée à apprendre à cartographier avec OpenStreetMap en utilisant iD Editor ou JOSM, veuillez visiter le site suivant LearnOSM.</description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@ Overview Pour les projets nécessitant un travail sur le terrain, vous devrez pr
       
       <guid>/fr/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
       <description>Cette section contient :
- Un aperçu de la validation dans JOSM, y compris les diapositives de présentation Instructions étape par étape pour la pratique de la validation dans JOSM  Les documents suivants sont conçus pour aider les chargés des projets et d&#39;autres personnes à animer des formations et des ateliers. Cependant, ce matériel convient également aux personnes intéressées à apprendre comment valider les données OSM dans JOSM.
+ Un aperçu de la validation dans JOSM, y compris les diapositives de présentation Instructions étape par étape pour la pratique de la validation dans JOSM  Les documents suivants sont conçus pour aider les chargés des projets et d&amp;rsquo;autres personnes à animer des formations et des ateliers. Cependant, ce matériel convient également aux personnes intéressées à apprendre comment valider les données OSM dans JOSM.
 Aperçu Validation La validation est un processus permettant le contrôle de la précision, la cohérence, la complétude et les anomalies dans la qualité des données (dans le cas présent, la qualité de la donnée cartographique).</description>
     </item>
     
@@ -173,8 +173,8 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
-      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&#39;un projet de cartographie sur le terrain, notamment:
- Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&#39;applications telles que OpenMapKit   Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
+      <description>Dans cette section, les responsables de projet trouveront des outils et des ressources pour déterminer les outils de collecte de données appropriés et comment naviguer dans les étapes techniques nécessaires à la préparation d&amp;rsquo;un projet de cartographie sur le terrain, notamment:
+ Présentations et guides pas à pas pour développer un modèle de données adapté au téléchargement sur OpenStreetMap Ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur correctes pour votre projet Guides et ressources détaillés pour la configuration d&amp;rsquo;applications telles que OpenMapKit   Tout projet sur le terrain nécessitera un certain degré de Configuration technique de la cartographie, quelle que soit la complexité du processus de collecte des données.</description>
     </item>
     
     <item>
@@ -184,7 +184,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
       <description>Cette section fournit:
- Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données  Aperçu Lors du démarrage d&#39;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
+ Un aperçu des modèles de données et du marquage OpenStreetMap, y compris des diapositives de présentation Instructions pas à pas pour les outils permettant de construire votre modèle de données Instructions pas à pas pour créer votre modèle de données  Aperçu Lors du démarrage d&amp;rsquo;un projet de cartographie, un modèle de données devra être créé afin de déterminer les entités cartographiées et les détails collectés pour chacune de ces fonctionnalités.</description>
     </item>
     
     <item>
@@ -194,7 +194,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
       <description>Cette partie montre:
- Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&#39;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Aperçu Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&#39;une application à utiliser dépend de la capacité de l&#39;appareil mobile, des conditions d&#39;installation qui peuvent varier et selon les besoins de la collecte.</description>
+ Un aperçu des diverses possibilités pour la collecte de données Des conseils sur le choix d&amp;rsquo;une application de collecte de données pour les besoins de votre projet Brefs aperçus sur OpenDataKit, OpenMapKit, KoboCollect et OSMTracker  Aperçu Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain. Le choix d&amp;rsquo;une application à utiliser dépend de la capacité de l&amp;rsquo;appareil mobile, des conditions d&amp;rsquo;installation qui peuvent varier et selon les besoins de la collecte.</description>
     </item>
     
     <item>
@@ -204,7 +204,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
       <description>Cette rubrique présente:
- Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&#39;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Aperçu OpenDataKit (ODK) est un ensemble d&#39;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
+ Un résumé des étapes nécessaires pour configurer ODK Guide étape par étape pour créer des formulaires d&amp;rsquo;enquête ODK, avec des fichiers pour faire un cas pratique. Guide étape par étape pour la configuration de ODK sur les périphériques  Aperçu OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en place et gérer des projets de collecte de données mobiles.</description>
     </item>
     
     <item>
@@ -214,7 +214,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
       <description>Cette rubrique prévoit:
- Un aperçu des étapes nécessaires à la mise en place de OMK Guide étape par étape pour créer des formulaires d&#39;enquête OMK avec des fichiers tests. Conseils sur la sélection d&#39;une méthode de création de fichiers MBTile et un exemple type de création. Un guide étape par étape pour créer les fichiers supplémentaires nécessaires à l&#39;exécution de OMK. Un guide étape par étape pour configurer OMK sur les appareils.</description>
+ Un aperçu des étapes nécessaires à la mise en place de OMK Guide étape par étape pour créer des formulaires d&amp;rsquo;enquête OMK avec des fichiers tests. Conseils sur la sélection d&amp;rsquo;une méthode de création de fichiers MBTile et un exemple type de création. Un guide étape par étape pour créer les fichiers supplémentaires nécessaires à l&amp;rsquo;exécution de OMK. Un guide étape par étape pour configurer OMK sur les appareils.</description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
       <description>Cette partie du manuel présente:
- Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  Aperçu Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.Bien que les outils de navigation ne soient pas nécessaires pour la collecte de données, ils peuvent être extrêmement utiles aux équipes de collecte de données lorsqu&#39;elles se rendent sur le terrain, ainsi qu&#39;aux superviseurs et aux gestionnaires de projet pour faire le suivi de leurs équipes.</description>
+ Aperçu des applications de navigation, y compris les diapositives de présentation Conseils pour savoir quelles applications choisir Bref aperçu sur Maps.me et OSMAnd  Aperçu Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme fond de carte et fonctionnant hors ligne pour les régions à faible connectivité internet. Les différentes options disponibles sont OSMAnd et Maps.me.Bien que les outils de navigation ne soient pas nécessaires pour la collecte de données, ils peuvent être extrêmement utiles aux équipes de collecte de données lorsqu&amp;rsquo;elles se rendent sur le terrain, ainsi qu&amp;rsquo;aux superviseurs et aux gestionnaires de projet pour faire le suivi de leurs équipes.</description>
     </item>
     
     <item>
@@ -234,7 +234,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
       <description>Cette rubrique présente:
- Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&#39;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
+ Aperçu des options de stockage sur serveur Conseils sur le choix du serveur pour les besoins de votre projet Brefs aperçus des options du serveur  La section suivante fournit un aperçu et un guide pour décider si un serveur est nécessaire pour votre projet et les options à choisir. Pour plus d&amp;rsquo;informations sur la configuration et la gestion des serveurs, veuillez utiliser la documentation liée à chaque option de serveur.</description>
     </item>
     
     <item>
@@ -244,7 +244,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/field-mapping-management/4.0-field-mapping-management/</guid>
       <description>Dans cette rubrique, les chefs de projet trouveront des outils et des ressources pour diriger et gérer les activités de cartographie sur le terrain, ainsi que des ressources conçues pour leur équipe, notamment:
- Guides étape par étape pour les enquêteurs, les cartographes et les superviseurs sur le terrain pour gérer et utiliser les outils de collecte de données sur le terrain. Ressources et guides étape par étape pour les gestionnaires sur la façon d&#39;organiser et de surveiller les équipes sur le terrain.</description>
+ Guides étape par étape pour les enquêteurs, les cartographes et les superviseurs sur le terrain pour gérer et utiliser les outils de collecte de données sur le terrain. Ressources et guides étape par étape pour les gestionnaires sur la façon d&amp;rsquo;organiser et de surveiller les équipes sur le terrain.</description>
     </item>
     
     <item>
@@ -254,7 +254,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/</guid>
       <description>Cette section fournit:
- Un aperçu des outils et des méthodes de gestion des équipes sur le terrain. Des guides pour utiliser OSMAnd et QGIS dans la gestion des déplacements d’équipes et de la réalisation des tâches  Aperçu Un plan de collecte des données sur le terrain bien pensé est essentiel au succès de la collecte de données sur le terrain. Cela garantira que les équipes sur le terrain rencontrent le moins de défis possible sur le terrain, réduisant ainsi le nombre d&#39;appels au support sur le terrain adressés au superviseur.</description>
+ Un aperçu des outils et des méthodes de gestion des équipes sur le terrain. Des guides pour utiliser OSMAnd et QGIS dans la gestion des déplacements d’équipes et de la réalisation des tâches  Aperçu Un plan de collecte des données sur le terrain bien pensé est essentiel au succès de la collecte de données sur le terrain. Cela garantira que les équipes sur le terrain rencontrent le moins de défis possible sur le terrain, réduisant ainsi le nombre d&amp;rsquo;appels au support sur le terrain adressés au superviseur.</description>
     </item>
     
     <item>
@@ -264,7 +264,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/field-mapping-management/4.2_using_odk_collect/</guid>
       <description>Ce guide fournit aux enquêteurs, cartographes et superviseurs sur le terrain les compétences nécessaires pour:
- Effectuer la configuration initiale pour ODK Collect Utiliser ODK Collect pour les enquêtes de collecte de données  Aperçu Open Data Kit Collect (ODK Collect) est une application de collecte de données sur Android. ODK Collect peut remplacer l&#39;enquête sur papier par une enquête sur support électronique. Par conséquent, cette application facilitera les activités de cartographie et de collecte de données sur le terrain, ce qui permettra également de collecter les informations de localisation et prendre des photo.</description>
+ Effectuer la configuration initiale pour ODK Collect Utiliser ODK Collect pour les enquêtes de collecte de données  Aperçu Open Data Kit Collect (ODK Collect) est une application de collecte de données sur Android. ODK Collect peut remplacer l&amp;rsquo;enquête sur papier par une enquête sur support électronique. Par conséquent, cette application facilitera les activités de cartographie et de collecte de données sur le terrain, ce qui permettra également de collecter les informations de localisation et prendre des photo.</description>
     </item>
     
     <item>
@@ -284,7 +284,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
       <description>Cette section fournit aux enquêteurs, aux mappeurs et aux superviseurs sur le terrain les compétences nécessaires pour:
- Faire la configuration de base pour OSMTracker Utiliser OSM Tracker pour enregistrer des pistes, des images et des notes  Aperçu OSMTracker est une application Android qui nous permet d&#39;enregistrer les données de nos enquêtes. Semblable au GPS, OSMTracker est capable d&#39;enregistrer des points et des trajets de waypoint. Ce qui rend OSMTracker différent avec un appareil GPS commun, c&#39;est sa capacité à prendre des photos lorsque vous collectez des données.</description>
+ Faire la configuration de base pour OSMTracker Utiliser OSM Tracker pour enregistrer des pistes, des images et des notes  Aperçu OSMTracker est une application Android qui nous permet d&amp;rsquo;enregistrer les données de nos enquêtes. Semblable au GPS, OSMTracker est capable d&amp;rsquo;enregistrer des points et des trajets de waypoint. Ce qui rend OSMTracker différent avec un appareil GPS commun, c&amp;rsquo;est sa capacité à prendre des photos lorsque vous collectez des données.</description>
     </item>
     
     <item>
@@ -304,7 +304,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</guid>
       <description>Cette rubrique présente:
- Un aperçu des outils de mise à jour des données dans JOSM Instructions à suivre étape par étape pour importer des données de terrain dans JOSM Instructions à suivre étape par étape pour la correction des données avec JOSM  Les supports suivants sont conçus pour aider les gestionnaires de projet et autres personnes animateurs de formations et d&#39;ateliers. Cependant, ce manuel convient également aux personnes intéressées à apprendre comment nettoyer et télécharger des données de terrain dans JOSM.</description>
+ Un aperçu des outils de mise à jour des données dans JOSM Instructions à suivre étape par étape pour importer des données de terrain dans JOSM Instructions à suivre étape par étape pour la correction des données avec JOSM  Les supports suivants sont conçus pour aider les gestionnaires de projet et autres personnes animateurs de formations et d&amp;rsquo;ateliers. Cependant, ce manuel convient également aux personnes intéressées à apprendre comment nettoyer et télécharger des données de terrain dans JOSM.</description>
     </item>
     
     <item>
@@ -314,7 +314,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</guid>
       <description>Cette section fournit:
- Un aperçu des outils d&#39;assurance qualité, y compris des diapositives de présentation Conseils sur quand, pourquoi et comment utiliser chaque outil Brefs aperçus et guides pas à pas sur l&#39;utilisation de chaque outil  Aperçu Assurance de qualité et contrôle de la qualité est le processus par lequel les cartographe, et les contributeurs OpenStreetMap en général, vérifient les données pour s&#39;assurer que toutes les informations téléchargées sur OSM répondent à des normes d&#39;utilisation élevées et pour empêcher le vandalisme.</description>
+ Un aperçu des outils d&amp;rsquo;assurance qualité, y compris des diapositives de présentation Conseils sur quand, pourquoi et comment utiliser chaque outil Brefs aperçus et guides pas à pas sur l&amp;rsquo;utilisation de chaque outil  Aperçu Assurance de qualité et contrôle de la qualité est le processus par lequel les cartographe, et les contributeurs OpenStreetMap en général, vérifient les données pour s&amp;rsquo;assurer que toutes les informations téléchargées sur OSM répondent à des normes d&amp;rsquo;utilisation élevées et pour empêcher le vandalisme.</description>
     </item>
     
     <item>
@@ -324,7 +324,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-export/6.1-hot-export-tool/</guid>
       <description>Cette rubrique présente :
- Présentation de la plate-forme d&#39;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&#39;aide de l&#39;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&#39;intérêt et le type de fichier. Des supports d&#39;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
+ Présentation de la plate-forme d&amp;rsquo;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&amp;rsquo;aide de l&amp;rsquo;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&amp;rsquo;intérêt et le type de fichier. Des supports d&amp;rsquo;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
     </item>
     
     <item>
@@ -334,7 +334,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-export/6.2-hdx/</guid>
       <description>Cette section fournit :
- Un bref aperçu de Humanitarian Data Exchange (HDX) Instructions étape par étape sur le téléchargement de données (comme les fichiers shapesfiles) depuis OpenStreetMap à l&#39;aide de HDX  Aperçu Humanitarian Data Exchange (HDX) est une plate-forme de stockage et de partage de données humanitaires. La plateforme est gérée par OCHA’s pour le compte du Centre de données Humanitaire. Les données sont les suivantes ::
+ Un bref aperçu de Humanitarian Data Exchange (HDX) Instructions étape par étape sur le téléchargement de données (comme les fichiers shapesfiles) depuis OpenStreetMap à l&amp;rsquo;aide de HDX  Aperçu Humanitarian Data Exchange (HDX) est une plate-forme de stockage et de partage de données humanitaires. La plateforme est gérée par OCHA’s pour le compte du Centre de données Humanitaire. Les données sont les suivantes ::
  Jeux de données géospatiales CSV et feuilles de calcul fichiers texte et images  Ressources et matériels de Formation Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</description>
     </item>
     
@@ -345,7 +345,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-use-and-analysis/7.1-qgis/</guid>
       <description>Cette section couvre les compétences de base nécessaires à l’utilisation de QGIS. Cela inclut des guides sur:
- Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&#39;afficher, de gérer et d&#39;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
+ Installation QGIS Navigation QGIS Ajout de données Couches de styles Installation de module(plugin), y compris QuickOSM et QuickMapServices  Aperçu QGIS (or Quantum GIS) est un programme de système d’information géographique (SIG) gratuit et à source ouverte.Les programmes SIG permettent aux utilisateurs d&amp;rsquo;afficher, de gérer et d&amp;rsquo;analyser des informations géospatiales sur un ordinateur et de créer des produits cartographiques.</description>
     </item>
     
     <item>
@@ -355,7 +355,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
       <description>Cette section couvre les compétences nécessaires pour créer des cartes et des atlas dans QGIS:
- Préparation des données cartographiques Créer une mise en page Navigation et création d&#39;atlas Création de modèles de carte et d&#39;atlas  Aperçu La création d&#39;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</description>
+ Préparation des données cartographiques Créer une mise en page Navigation et création d&amp;rsquo;atlas Création de modèles de carte et d&amp;rsquo;atlas  Aperçu La création d&amp;rsquo;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques avec un modèle défini. Ce modèle d’atlas permet de générer un grand nombre de cartes pour des zones d’intérêt, telles que des districts, des quartiers et d’autres zones administratives, avec le même style et la même présentation.</description>
     </item>
     
     <item>
@@ -365,7 +365,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       
       <guid>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
       <description>Cette section fournit:
- Un aperçu des outils de carte interactive en ligne pour la visualisation des données Instructions pas à pas pour la création de cartes interactives avec deux outils: uMap et Overpass Turbo  Aperçu Les cartes interactives sont considérées comme l&#39;équivalent moderne de la communication visuelle avec des cartes. Cela implique la création et l’étude de la représentation visuelle des données (cartes). Pour communiquer des informations de manière claire et efficace, la visualisation de données utilise des graphiques statistiques, des graphiques d&#39;information et d&#39;autres outils.</description>
+ Un aperçu des outils de carte interactive en ligne pour la visualisation des données Instructions pas à pas pour la création de cartes interactives avec deux outils: uMap et Overpass Turbo  Aperçu Les cartes interactives sont considérées comme l&amp;rsquo;équivalent moderne de la communication visuelle avec des cartes. Cela implique la création et l’étude de la représentation visuelle des données (cartes). Pour communiquer des informations de manière claire et efficace, la visualisation de données utilise des graphiques statistiques, des graphiques d&amp;rsquo;information et d&amp;rsquo;autres outils.</description>
     </item>
     
     <item>
@@ -383,7 +383,7 @@ Aperçu Validation La validation est un processus permettant le contrôle de la 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</guid>
-      <description>Le processus de travail suivant présente les outils et les méthodes utilisés dans un projet de cartographie de terrain à long terme pour cartographier les bâtiments et les points d&#39;intérêt en utilisant OpenMapKit avec des partenaires gouvernementaux et locaux.
+      <description>Le processus de travail suivant présente les outils et les méthodes utilisés dans un projet de cartographie de terrain à long terme pour cartographier les bâtiments et les points d&amp;rsquo;intérêt en utilisant OpenMapKit avec des partenaires gouvernementaux et locaux.
 Présentation du projet Projet Open Cities Africa - Accra
 Le projet Open Cities Africa Accra visait à rendre Alogboshie et ses environs résilients aux catastrophes naturelles, notamment aux inondations. Le projet consistait à cartographier à distance Alogboshie, Akweteyman et Alajo.</description>
     </item>
@@ -395,7 +395,7 @@ Le projet Open Cities Africa Accra visait à rendre Alogboshie et ses environs r
       
       <guid>/fr/pages/getting_started/8.2_mappingpoi_withodk/</guid>
       <description>Le processus de travail suivant présente les outils et méthodes utilisés dans un simple projet de cartographie sur le terrain au cours duquel HOT a formé des ONG locales à intégrer la cartographie dans des programmes existants en utilisant OpenDataKit et KoboToolBox Server.
-Présentation du projet Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa (Réduire les disparités de développement et la crise des réfugiés en Afrique de l&#39;Est)</description>
+Présentation du projet Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa (Réduire les disparités de développement et la crise des réfugiés en Afrique de l&amp;rsquo;Est)</description>
     </item>
     
   </channel>

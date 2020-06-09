@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/pages/data-export/6.0-data-export-tools/</guid>
-      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&#39;exporter les données OpenStreetMap, notamment:
- Un aperçu des outils d&#39;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&#39;outil d&#39;exportation HOT et HDX   Les outils d&#39;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&#39;analyse tels que QGIS.</description>
+      <description>Dans cette section, les chefs de projet trouveront des ressources sur la façon d&amp;rsquo;exporter les données OpenStreetMap, notamment:
+ Un aperçu des outils d&amp;rsquo;exportation de données, y compris des diapositives de présentation Guides étape par étape pour exporter des données avec l&amp;rsquo;outil d&amp;rsquo;exportation HOT et HDX   Les outils d&amp;rsquo;export de données permettent aux utilisateurs de télécharger des données OSM pour des logiciels et des programmes d&amp;rsquo;analyse tels que QGIS.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>/fr/pages/data-export/6.1-hot-export-tool/</guid>
       <description>Cette rubrique présente :
- Présentation de la plate-forme d&#39;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&#39;aide de l&#39;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&#39;intérêt et le type de fichier. Des supports d&#39;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
+ Présentation de la plate-forme d&amp;rsquo;extraction de données HOT Export Instructions étape par étape expliquant comment télécharger des données (comme des fichiers de shapefiles) depuis le serveur OpenStreetMap à l&amp;rsquo;aide de l&amp;rsquo;outil HOT Export  Aperçu L’outil d’extraction de données HOT Export permet aux utilisateurs de télécharger des données OSM en spécifiant les attributs, la zone d&amp;rsquo;intérêt et le type de fichier. Des supports d&amp;rsquo;apprentissage et des guides pratiques sont disponibles ici : page ‘’Learn’’ de HOT Export.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       
       <guid>/fr/pages/data-export/6.2-hdx/</guid>
       <description>Cette section fournit :
- Un bref aperçu de Humanitarian Data Exchange (HDX) Instructions étape par étape sur le téléchargement de données (comme les fichiers shapesfiles) depuis OpenStreetMap à l&#39;aide de HDX  Aperçu Humanitarian Data Exchange (HDX) est une plate-forme de stockage et de partage de données humanitaires. La plateforme est gérée par OCHA’s pour le compte du Centre de données Humanitaire. Les données sont les suivantes ::
+ Un bref aperçu de Humanitarian Data Exchange (HDX) Instructions étape par étape sur le téléchargement de données (comme les fichiers shapesfiles) depuis OpenStreetMap à l&amp;rsquo;aide de HDX  Aperçu Humanitarian Data Exchange (HDX) est une plate-forme de stockage et de partage de données humanitaires. La plateforme est gérée par OCHA’s pour le compte du Centre de données Humanitaire. Les données sont les suivantes ::
  Jeux de données géospatiales CSV et feuilles de calcul fichiers texte et images  Ressources et matériels de Formation Cette section présente une sélection de ressources destinées aux gestionnaires de projets, aux formateurs ou même aux autodidactes sur le(s) sujet(s) décrit(s) ci-dessus.</description>
     </item>
     
