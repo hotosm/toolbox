@@ -82,7 +82,7 @@ Overview Validation is a process of checking the data quality (in this case, map
       <guid>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
       <description>This section provides:
  An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
- Overview When you are uploading your changes in JOSM, some contributors might also do editing in your area.</description>
+ Overview Other contributors may have edited the same features as you in JOSM.</description>
     </item>
     
   </channel>
