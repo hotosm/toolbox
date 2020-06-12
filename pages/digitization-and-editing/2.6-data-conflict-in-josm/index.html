@@ -333,8 +333,8 @@
   
   <div>
     
-    <a href="https://github.com/hotosm/toolbox/commit/09d33739dd82cbdd3f12bc6734929d9c10fda5ec" class="sub-title sub-title-14" title='Last modified June 11, 2020 by SColchester' target="_blank" rel="noopener">
-      Last modified: June 11, 2020
+    <a href="https://github.com/hotosm/toolbox/commit/fbd3d94920ee0d3e1a063dabb20e1512d6970d50" class="sub-title sub-title-14" title='Last modified June 12, 2020 by SColchester' target="_blank" rel="noopener">
+      Last modified: June 12, 2020
     </a>
   </div>
   
@@ -388,7 +388,7 @@
 <p><img src="../../../images/data-conflict/1005_konflik_node.png" alt="Conflict of Nodes in JOSM"></p>
 <!-- raw HTML omitted -->
 <p><strong>3. Fix Conflict Data in JOSM</strong></p>
-<p>Fixing conflict data in JOSM is quite simple, even though most OSM contributors do find it confusing. Esentially, you have to decide which is the correct version and choose to <strong>keep your version</strong> or delete your version and <strong>use their version</strong>. To fix conflict data in JOSM:</p>
+<p>Fixing conflict data in JOSM is quite simple, even though most OSM contributors do find it confusing. Essentially, you have to decide which is the correct version and choose to <strong>keep your version</strong> or delete your version and <strong>use their version</strong>. To fix conflict data in JOSM:</p>
 <ul>
 <li>When the conflict window appears, you might be inclined to select the <strong>Synchronize node 5,960,126 only</strong> option. However, this option will only fix the conflict in one node. Instead, select <strong>Synchronize entire dataset</strong> so you can resolve all conflicting nodes in one go.</li>
 </ul>
@@ -400,7 +400,7 @@
 <p><img src="../../../images/data-conflict/1007_conflict_detected.png" alt="Number of detected conflict"></p>
 <!-- raw HTML omitted -->
 <ul>
-<li>There is a list of conflicts in the <strong>Conflict</strong> panel to the lower right corner of JOSM. You can choose which conflict  you want to fix and select <strong><em>Resolve</em></strong>.</li>
+<li>In the &lsquo;Windows&rsquo; menu, select <strong>Conflict</strong> to show the conflict window. This activates a list of conflicts in the <strong>Conflict</strong> panel to the lower right corner of JOSM. You can choose which conflict you want to fix and select <strong><em>Resolve</em></strong>.</li>
 </ul>
 <p><img src="../../../images/data-conflict/1008_panel_conflict.png" alt="Conflict panel to fix detected conflict"></p>
 <!-- raw HTML omitted -->
@@ -425,42 +425,39 @@
 <p><img src="../../../images/data-conflict/1015_apply_resolution.png" alt="Resolved conflict window"></p>
 <!-- raw HTML omitted -->
 <ul>
-<li>In the conflict panel, you can activate <strong>Conflicts</strong><img src="../../../images/data-conflict/1016_ikon_konflik.png" alt=""> window. This window shows total number of conflict on all of your data when you click the <strong><em>Resolve</em></strong> button. You also can use another way by right click on one of the conflict and choose <strong><em>Resolve to my versions</em></strong> or <strong><em>Resolve to their versions.</em></strong> To find the object you can right click and click <strong><em>Zoom to Conflict</em></strong>. This will be very useful if you have many conflicts and need to check and fix them one by one.</li>
+<li>You can also resolve conflicts by right clicking one in the conflict window and selecting either <strong><em>Resolve to my versions</em></strong> or <strong><em>Resolve to their versions.</em></strong> You can also right click and <strong><em>Zoom to Conflict</em></strong>.</li>
 </ul>
 <p><img src="../../../images/data-conflict/1017_zoom_conflict.png" alt="Window of list conflict on JOSM_"></p>
 <!-- raw HTML omitted -->
 <blockquote>
 <p>Note :
-You can not upload your changes until you have resolved all of your conflict and list of conflict in the conflict window has empty. Keep in mind, you need to be careful when resolving the conflict and need to check it one by one to make sure everything is correct as it should.</p>
+You cannot upload changes until you have resolved all conflicts. Be careful when resolving the conflicts and check them one-by -one.</p>
 </blockquote>
 <p><strong>4. Avoiding Data Conflict in JOSM</strong></p>
-<p>You can do some things to avoid conflict when uploading your data into OSM server, as follows:</p>
+<p>To avoid conflicts:</p>
 <ul>
 <li>
 <p><strong>Upload your changes continuously</strong></p>
-<p>To minimize conflict, you can upload your changes continuously. For instance, if you mapped 100 buildings but does not have a good internet connection, you should upload your changes for every 20 buildings or every 15 minutes. The reason for this is because the conflict would have bigger possibility to occur if you upload when it is finished. The longer you waiting to upload the more possibility the data could possibly have edited and uploaded to the server by other contributors. Therefore, the probability of conflict for your edit will increase.</p>
-<p>If you want to save your OSM data and upload it later, you can update your OSM data first before you upload it. This should be done so you can get the latest OSM data from the server before you upload it. You can do that by click <strong><em>File → Update data</em></strong> or <strong><em>Update Modified</em></strong> then waiting until the updating process is finished. After that, you can upload your changes with <strong><em>Upload data</em></strong> options <strong><em>File</em></strong> menu  or just click
-<img src="../../../images/data-conflict/1018_ikon_upload.png" alt="">icon on <em>menu</em> bar.</p>
+<p>To minimize conflicts, you should frequently upload. Upload your changes every 20 buildings or every 15 minutes. The longer you wait to upload the higher the chance that another contributor has edited and uploaded the same data.</p>
+<p>You can update your OSM data first before uploading. This allows you to retrieve the latest OSM data from the server before uploading. Select <strong><em>File → Update data</em></strong> or <strong><em>Update Modified</em></strong> and wait until it has finished updating. Then you can upload your changes.</p>
 <p><img src="../../../images/data-conflict/1019_update_data.png" alt="Update data options in file menu"></p>
 <!-- raw HTML omitted -->
 </li>
 <li>
 <p><strong>Edit Only in Downloaded Area</strong></p>
-<p>You can do mapping in specific area to minimize risk of conflict with avoid editing objects outside your downloaded area in JOSM. This can prevent two or more users editing in same area. Notice that diagonal lines around your downloaded area is an area you need to avoid to edit in JOSM.</p>
+<p>Restrict editing to your downloaded area to minimize conflict risk in JOSM. The area outside of your downloaded area is marked by diagonal lines, do not edit this region.</p>
 <p><img src="../../../images/data-conflict/1020_perbedaan_area_download.png" alt="Downloaded Area"></p>
 <!-- raw HTML omitted -->
-<p>After you download the data, your editing area is only area inside which does not have diagonal lines. The area outside you editing area most likely currently editing or have been edited by other contributors. Avoid edit in the area will reduce the risk of getting conflict in your data.</p>
 </li>
 <li>
 <p><strong>Using <em>Tasking Manager</em></strong></p>
-<p>If you want to do collaborative mapping, you can use <em>Tasking Manager</em>. It will help you to divide your mapping area into task grids. Thus, you can choose your mapping area grid easily without worry getting same area with other OSM contributors because once you select certain grid, it will be locked and cannot choose by other contributors.</p>
-<p>Any mapping volunteer in the area can choose one grid that they want and after finish they can mark the grid as completed mapped. This will allow  a lot of people to map certain area in same time without getting worried  to get conflict.</p>
+<p>If you want to do collaborative mapping, you can use <em>Tasking Manager</em>. It divides a project area into a grid of tasks. Once a task is selected it is locked and cannot be chosen by another contributor. This allows many people to work in the same area at the same time while limiting the chance of conflicts.</p>
 <p><img src="../../../images/data-conflict/1021_tasking_manager.png" alt="Tasking Manager Interface"></p>
 <!-- raw HTML omitted -->
 </li>
 </ul>
 <p><strong>Summary</strong></p>
-<p>If you have followed and finished to practice all the steps in this chapter, You have successfully understand about data conflict in JOSM and how to fix it. Moreover, you also have learned about types of conflict and how to avoid them in JOSM. Congratulations!</p>
+<p>If you have followed all the steps in this chapter, you&rsquo;ll have a good understanding of data conflicts in JOSM - congratulations!</p>
 </div>
 
 
