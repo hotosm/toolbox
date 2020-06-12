@@ -138,8 +138,13 @@
   </url>
   
   <url>
+    <loc>/pages/credits/</loc>
+    <lastmod>2020-06-12T17:02:47-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2020-06-12T10:20:26+01:00</lastmod>
+    <lastmod>2020-06-12T17:02:47-04:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -739,7 +744,7 @@
   
   <url>
     <loc>/pages/</loc>
-    <lastmod>2020-06-12T10:20:26+01:00</lastmod>
+    <lastmod>2020-06-12T17:02:47-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
