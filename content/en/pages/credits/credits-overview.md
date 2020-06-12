@@ -19,9 +19,9 @@ David Luswata, Humanitarian OpenStreetMap Team - Content creation <br>
 Geoffrey Kateregga, Humanitarian OpenStreetMap Team - Content creation <br>
 
 **Translation:**<br>
-Marcel Shabani, Humanitarian OpenStreetMap Team
-Demeveng Derrick
-Kpogbe Luc
+Marcel Shabani, Humanitarian OpenStreetMap Team <br>
+Demeveng Derrick <br>
+Kpogbe Luc <br>
 
 ****
 
