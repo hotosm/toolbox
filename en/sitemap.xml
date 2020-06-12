@@ -144,7 +144,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-12T17:02:47-04:00</lastmod>
+    <lastmod>2020-06-12T17:20:17-04:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -728,6 +728,11 @@
   </url>
   
   <url>
+    <loc>/pages/credits/credits-overview/</loc>
+    <lastmod>2020-06-12T17:20:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/introduction/how_to_use_toolbox/</loc>
     <lastmod>2019-12-01T19:21:41-07:00</lastmod>
     <xhtml:link
@@ -744,7 +749,7 @@
   
   <url>
     <loc>/pages/</loc>
-    <lastmod>2020-06-12T17:02:47-04:00</lastmod>
+    <lastmod>2020-06-12T17:20:17-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
