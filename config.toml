@@ -9,6 +9,7 @@ enableGitInfo = true
     DefaultContentLanguage = "en"
     GithubRepo = "https://github.com/hotosm/toolbox"
     SiteURL = "https://toolbox.hotosm.org"
+    matomoSiteID = 16
 
 [imaging]
     resampleFilter = "box"
