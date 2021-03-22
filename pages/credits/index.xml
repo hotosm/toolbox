@@ -5,11 +5,7 @@
     <link>/pages/credits/</link>
     <description>Recent content in Acknowledgements and Contributions on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/pages/credits/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/pages/credits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Credits</title>
       <link>/pages/credits/credits-overview/</link>

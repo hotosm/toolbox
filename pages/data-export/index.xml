@@ -5,11 +5,7 @@
     <link>/pages/data-export/</link>
     <description>Recent content in Data Export Tools on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/pages/data-export/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/pages/data-export/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>6.0 Introduction to Data Export Tools</title>
       <link>/pages/data-export/6.0-data-export-tools/</link>

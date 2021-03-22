@@ -5,11 +5,7 @@
     <link>/pages/introduction/</link>
     <description>Recent content in Introduction to the Toolbox on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/pages/introduction/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/pages/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use the HOT Toolbox</title>
       <link>/pages/introduction/how_to_use_toolbox/</link>

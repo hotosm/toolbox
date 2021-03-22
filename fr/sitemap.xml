@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</loc>
     <lastmod>2019-12-01T16:42:21-05:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</loc>
     <lastmod>2019-12-02T14:41:31-05:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.0-digitization-and-editing/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-export/6.0-data-export-tools/</loc>
     <lastmod>2019-12-02T15:41:08-05:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-export/6.0-data-export-tools/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/</loc>
     <lastmod>2019-12-02T15:42:20-05:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/introduction/how_to_use_toolbox/</loc>
     <lastmod>2019-12-01T16:40:12-05:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="fr"
                 href="/fr/pages/introduction/how_to_use_toolbox/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/introduction/</loc>
     <lastmod>2019-12-01T12:10:47-05:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="fr"
                 href="/fr/pages/introduction/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/running-a-mapping-project/</loc>
     <lastmod>2019-12-01T12:45:52-05:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/</loc>
     <lastmod>2019-11-25T15:01:21-05:00</lastmod>
     <xhtml:link
@@ -120,9 +105,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/</loc>
     <lastmod>2019-12-02T12:51:22-05:00</lastmod>
     <xhtml:link
@@ -135,9 +118,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/</loc>
     <lastmod>2019-12-02T13:28:02-05:00</lastmod>
     <xhtml:link
@@ -150,9 +131,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/</loc>
     <lastmod>2019-12-02T15:33:38-05:00</lastmod>
     <xhtml:link
@@ -165,9 +144,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-export/</loc>
     <lastmod>2019-11-25T16:36:29-05:00</lastmod>
     <xhtml:link
@@ -180,9 +157,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-export/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-use-and-analysis/</loc>
     <lastmod>2019-12-01T11:42:00-05:00</lastmod>
     <xhtml:link
@@ -195,9 +170,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/getting_started/</loc>
     <lastmod>2019-12-02T13:04:42-05:00</lastmod>
     <xhtml:link
@@ -210,9 +183,7 @@
                 hreflang="fr"
                 href="/fr/pages/getting_started/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/</loc>
     <lastmod>2019-12-02T16:00:18-05:00</lastmod>
     <priority>0</priority>
@@ -226,9 +197,7 @@
                 hreflang="fr"
                 href="/fr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</loc>
     <lastmod>2019-12-01T16:44:24-05:00</lastmod>
     <xhtml:link
@@ -241,9 +210,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</loc>
     <lastmod>2019-11-25T09:59:38-05:00</lastmod>
     <xhtml:link
@@ -256,9 +223,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/running-a-mapping-project/1.3-hardware/</loc>
     <lastmod>2019-11-25T10:00:51-05:00</lastmod>
     <xhtml:link
@@ -271,9 +236,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.3-hardware/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/</loc>
     <lastmod>2019-11-25T09:58:04-05:00</lastmod>
     <xhtml:link
@@ -286,9 +249,7 @@
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</loc>
     <lastmod>2019-12-02T14:43:04-05:00</lastmod>
     <xhtml:link
@@ -301,9 +262,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.2_organized_osm_editing/</loc>
     <lastmod>2019-12-02T14:44:10-05:00</lastmod>
     <xhtml:link
@@ -316,9 +275,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.2_organized_osm_editing/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</loc>
     <lastmod>2019-12-02T14:46:34-05:00</lastmod>
     <xhtml:link
@@ -331,9 +288,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</loc>
     <lastmod>2019-12-02T14:48:02-05:00</lastmod>
     <xhtml:link
@@ -346,9 +301,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.5_validating_with_josm/</loc>
     <lastmod>2019-12-02T12:49:34-05:00</lastmod>
     <xhtml:link
@@ -361,9 +314,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.5_validating_with_josm/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</loc>
     <lastmod>2019-12-01T17:37:21-05:00</lastmod>
     <xhtml:link
@@ -376,9 +327,7 @@
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</loc>
     <lastmod>2019-12-02T14:51:26-05:00</lastmod>
     <xhtml:link
@@ -391,9 +340,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</loc>
     <lastmod>2019-12-02T14:55:14-05:00</lastmod>
     <xhtml:link
@@ -406,9 +353,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</loc>
     <lastmod>2019-12-02T15:02:28-05:00</lastmod>
     <xhtml:link
@@ -421,9 +366,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</loc>
     <lastmod>2019-12-02T14:59:50-05:00</lastmod>
     <xhtml:link
@@ -436,9 +379,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</loc>
     <lastmod>2019-12-02T15:09:51-05:00</lastmod>
     <xhtml:link
@@ -451,9 +392,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</loc>
     <lastmod>2019-12-02T15:11:38-05:00</lastmod>
     <xhtml:link
@@ -466,9 +405,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</loc>
     <lastmod>2019-12-02T15:12:53-05:00</lastmod>
     <xhtml:link
@@ -481,9 +418,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/4.0-field-mapping-management/</loc>
     <lastmod>2019-12-02T15:13:54-05:00</lastmod>
     <xhtml:link
@@ -496,9 +431,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.0-field-mapping-management/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/</loc>
     <lastmod>2019-12-02T16:00:18-05:00</lastmod>
     <xhtml:link
@@ -511,9 +444,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/4.2_using_odk_collect/</loc>
     <lastmod>2019-12-02T15:19:18-05:00</lastmod>
     <xhtml:link
@@ -526,9 +457,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.2_using_odk_collect/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/4.3_using_openmapkit/</loc>
     <lastmod>2019-12-02T15:24:55-05:00</lastmod>
     <xhtml:link
@@ -541,9 +470,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.3_using_openmapkit/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</loc>
     <lastmod>2019-12-02T15:30:21-05:00</lastmod>
     <xhtml:link
@@ -556,9 +483,7 @@
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</loc>
     <lastmod>2019-12-02T15:35:49-05:00</lastmod>
     <xhtml:link
@@ -571,9 +496,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</loc>
     <lastmod>2019-12-02T15:36:38-05:00</lastmod>
     <xhtml:link
@@ -586,9 +509,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</loc>
     <lastmod>2019-12-02T15:39:38-05:00</lastmod>
     <xhtml:link
@@ -601,9 +522,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-export/6.1-hot-export-tool/</loc>
     <lastmod>2019-12-02T13:35:55-05:00</lastmod>
     <xhtml:link
@@ -616,9 +535,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-export/6.1-hot-export-tool/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-export/6.2-hdx/</loc>
     <lastmod>2019-12-02T13:40:25-05:00</lastmod>
     <xhtml:link
@@ -631,9 +548,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-export/6.2-hdx/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-use-and-analysis/7.1-qgis/</loc>
     <lastmod>2019-12-02T15:44:03-05:00</lastmod>
     <xhtml:link
@@ -646,9 +561,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.1-qgis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</loc>
     <lastmod>2019-12-02T15:44:52-05:00</lastmod>
     <xhtml:link
@@ -661,9 +574,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</loc>
     <lastmod>2019-12-02T15:45:28-05:00</lastmod>
     <xhtml:link
@@ -676,9 +587,7 @@
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/getting_started/8.0_mapping_workflows/</loc>
     <lastmod>2019-12-02T15:58:39-05:00</lastmod>
     <xhtml:link
@@ -691,9 +600,7 @@
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.0_mapping_workflows/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</loc>
     <lastmod>2019-12-02T15:56:24-05:00</lastmod>
     <xhtml:link
@@ -706,9 +613,7 @@
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/getting_started/8.2_mappingpoi_withodk/</loc>
     <lastmod>2019-12-02T13:25:59-05:00</lastmod>
     <xhtml:link
@@ -721,9 +626,7 @@
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.2_mappingpoi_withodk/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -735,9 +638,7 @@
                 hreflang="fr"
                 href="/fr/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/pages/</loc>
     <lastmod>2019-12-02T16:00:18-05:00</lastmod>
     <xhtml:link
@@ -750,9 +651,7 @@
                 hreflang="fr"
                 href="/fr/pages/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -765,5 +664,4 @@
                 href="/fr/tags/"
                 />
   </url>
-  
 </urlset>

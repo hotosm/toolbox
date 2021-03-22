@@ -5,11 +5,7 @@
     <link>/fr/pages/data-cleaning-upload-and-quality-assurance/</link>
     <description>Recent content in Nettoyage, téléchargement et assurance de la qualité des donnée on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/fr/pages/data-cleaning-upload-and-quality-assurance/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/fr/pages/data-cleaning-upload-and-quality-assurance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5.0 Introduction à nettoyage, téléchargement et assurance de la qualité des donnée</title>
       <link>/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>

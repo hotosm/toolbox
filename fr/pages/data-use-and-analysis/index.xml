@@ -5,11 +5,7 @@
     <link>/fr/pages/data-use-and-analysis/</link>
     <description>Recent content in Utilisation et analyse de données on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/fr/pages/data-use-and-analysis/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/fr/pages/data-use-and-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7.0 Utilisation et analyse de données</title>
       <link>/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/</link>

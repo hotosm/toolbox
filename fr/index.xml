@@ -5,11 +5,7 @@
     <link>/fr/</link>
     <description>Recent content on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1.0  Introduction à la conception d’un projet de cartographie</title>
       <link>/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</link>

@@ -5,11 +5,7 @@
     <link>/fr/pages/digitization-and-editing/</link>
     <description>Recent content in La numérisation et à l&#39;édition dans OSM on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/fr/pages/digitization-and-editing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/fr/pages/digitization-and-editing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.0 Introduction à la numérisation et à l&#39;édition dans OSM</title>
       <link>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</link>

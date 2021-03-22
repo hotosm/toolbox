@@ -5,11 +5,7 @@
     <link>/pages/getting_started/</link>
     <description>Recent content in Mapping Project Workflows on HOT Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/pages/getting_started/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/pages/getting_started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>8.0 Introduction to Mapping Workflows</title>
       <link>/pages/getting_started/8.0_mapping_workflows/</link>
