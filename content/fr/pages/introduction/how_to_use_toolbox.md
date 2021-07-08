@@ -25,24 +25,23 @@ Si vous ne souhaitez pas parcourir chaque section, utilisez la navigation de gau
 <br>
 
 ## Toolbox Guides et ressources
-	 	 	 	
+
 Les sections de cette boîte à outils contiennent différents types de guides, en fonction de leur utilisateur et de leur objectif. Nous avons simplifié le choix du type de guide ou de ressource grâce aux icônes suivantes.
 
 ![](/images/fr_guide_icons/fr_training_presentations_wide.PNG)
 *Cette icône représente les diapositives d'une présentation pouvant être utilisées pour animer une formation ou un atelier.*
-	 	 	 	
+
 ![](/images/fr_guide_icons/fr_learning_icon_wide.PNG)
-*This icon represents step-by-step instructions that are designed to serve as self-paced material that can be used both during trainings, and by self-guided learners.*
+*Cette icône représente des instructions pas à pas conçues pour servir de matériel auto-rythmé pouvant être utilisé à la fois pendant les formations et par des apprenants auto-guidés.*
 
 ![](/images/fr_guide_icons/fr_management_icon_wide.PNG)
-*Cette icône représente des instructions pas à pas conçues pour servir de matériel auto-rythmé pouvant être utilisé à la fois pendant les formations et par des apprenants auto-guidés.*
+<!-- TODO missing translation -->
+*This icon represents guides that are designed to assist project managers with making decisions that impact project design and implementation.*
+
+
 
 ![](/images/fr_guide_icons/fr_reading_icon_wide.PNG)
 *Cette icône indique des ressources supplémentaires qu'il est recommandé de lire en dehors de la boîte à outils HOT. Celles-ci peuvent être ou non des ressources créées par ou en partenariat avec HOT.*
-	 	 	 	
+
 ![](/images/fr_guide_icons/fr_watch_icon_wide.PNG)
 *Cette icône indique des ressources supplémentaires recommandées pour regarder en dehors de la Boîte à outils HOT. Celles-ci peuvent être ou non des ressources créées par ou en partenariat avec HOT.*
-	 	
-
-
-
