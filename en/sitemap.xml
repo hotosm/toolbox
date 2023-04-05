@@ -123,7 +123,7 @@
     <lastmod>2020-06-12T17:02:47-04:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2020-06-12T17:39:08-04:00</lastmod>
+    <lastmod>2023-03-22T15:22:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -578,6 +578,9 @@
                 href="/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
                 />
   </url><url>
+    <loc>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</loc>
+    <lastmod>2023-03-22T15:22:41-03:00</lastmod>
+  </url><url>
     <loc>/pages/getting_started/8.0_mapping_workflows/</loc>
     <lastmod>2019-12-02T15:58:17-05:00</lastmod>
     <xhtml:link
@@ -646,7 +649,7 @@
                 />
   </url><url>
     <loc>/pages/</loc>
-    <lastmod>2020-06-12T17:39:08-04:00</lastmod>
+    <lastmod>2023-03-22T15:22:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"

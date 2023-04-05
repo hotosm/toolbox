@@ -46,5 +46,15 @@
  An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
     </item>
     
+    <item>
+      <title>7.4 Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)</title>
+      <link>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</guid>
+      <description>This section provides:
+ An overview on the relevance on the use of OSM data for damage assessments post eathquake Deep dive into data models and acquisition of datasets Step-by-step instructions for creating damage assessments using OSM data on GIS  Overview Performing a building damage assessment is crucial after a natural disaster to prevent further casualties and identify safe locations for temporary shelters. The assessment can aid in response and recovery efforts by prioritizing areas with the most damage, and provide data to evaluate property damage and estimate repair costs.</description>
+    </item>
+    
   </channel>
 </rss>
