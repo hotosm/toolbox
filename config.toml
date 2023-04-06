@@ -3,7 +3,7 @@ title = "HOT Toolbox"
 theme = "hotdocs"
 DefaultContentLanguage = "en"
 relativeurls = true
-enableGitInfo = false
+enableGitInfo = true
 
 [params]
     DefaultContentLanguage = "en"
