@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to the Toolbox on HOT Toolbox</title>
+    <link>/es/pages/introduction/</link>
+    <description>Recent content in Introduction to the Toolbox on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo utilizar la caja de herramientas HOT</title>
+      <link>/es/pages/introduction/how_to_use_toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/introduction/how_to_use_toolbox/</guid>
+      <description>La caja de herramientas HOT está diseñada para guiar a un gestor de proyectos o a una comunidad a través de todo el flujo de trabajo cartográfico, desde la planificación, pasando por la cartografía inicial, el uso de los datos y el análisis. No todos los proyectos cartográficos son iguales. Algunos proyectos implican amplios componentes de recopilación de datos sobre el terreno, mientras que otros ni siquiera llevan a cabo actividades cartográficas sobre el terreno, sino que ejecutan proyectos de digitalización de escritorio.</description>
+    </item>
+    
+  </channel>
+</rss>

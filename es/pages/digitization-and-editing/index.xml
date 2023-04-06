@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digitization and Editing in OSM on HOT Toolbox</title>
+    <link>/es/pages/digitization-and-editing/</link>
+    <description>Recent content in Digitization and Editing in OSM on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/digitization-and-editing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.0 Introducción a la digitalización y edición en OSM</title>
+      <link>/es/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
+      <description>En esta sección, los Directores de Proyecto encontrarán herramientas y recursos para dirigir e implementar actividades organizadas de edición en OpenStreetMap, incluyendo:
+ Presentaciones y guías paso a paso para introducir a los equipos a OpenStreetMap y herramientas de edición como el HOT Tasking Manager. Recursos para determinar si su proyecto debe cumplir las directrices de edición organizada de OSM. Guías detalladas y actividades de formación para que los equipos de digitalización las utilicen durante la validación y la carga de datos   La digitalización, o cartografía a distancia, es el proceso de trazar características como edificios y carreteras a partir de imágenes aéreas o de satélite para crear datos cartográficos.</description>
+    </item>
+    
+    <item>
+      <title>2.1 Introducción a OpenStreetMap</title>
+      <link>/es/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</guid>
+      <description>Esta sección proporciona:
+ Una visión general de OpenStreetMap, incluyendo diapositivas de presentación Instrucciones paso a paso para crear cuentas OpenStreetMap Instrucciones paso a paso para utilizar y navegar por OSM Consideraciones para la formación de grandes grupos  Los siguientes materiales están diseñados para ayudar a los gestores de proyectos y a otros responsables de formación y talleres. Si usted es un individuo interesado en aprender a mapear con OpenStreetMap, por favor visite LearnOSM.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Edición OSM organizada</title>
+      <link>/es/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
+      <description>Esta sección proporciona:
+ Consideraciones para la gestión y contratación de mapeadores para un proyecto de edición organizada. Descripción general de las directrices de edición organizada de OSM y su cumplimiento Guía paso a paso para cumplir con las Directrices de edición organizada de OSM   Visión general Antes de comenzar cualquier proyecto de cartografía, es importante evaluar y, si es necesario, actualizar el mapa base de OpenStreetMap mediante cartografía remota.</description>
+    </item>
+    
+    <item>
+      <title>2.3 Trabajar con el Gestor de Tareas HOT</title>
+      <link>/es/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
+      <description>Esta sección proporciona:
+ Una visión general del HOT Tasking Manager, incluyendo diapositivas de presentación Instrucciones paso a paso para empezar a utilizar el Gestor de Tareas HOT.  Los siguientes materiales están diseñados para ayudar a los gestores de proyectos y a otros responsables de formación y talleres. Si es usted un particular interesado en aprender a cartografiar con OpenStreetMap, visite LearnOSM.org.
+ Visión general El HOT Tasking Manager es una herramienta de mapeo diseñada y construida para el proceso de mapeo colaborativo del Equipo Humanitario de OpenStreetMap en OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Edición con iD y JOSM</title>
+      <link>/es/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
+      <description>Esta sección proporciona:
+ Una comparación de las herramientas de edición de OpenStreetMap, JOSM e iD Editor Una visión general de iD Editor, incluyendo diapositivas de presentación Una visión general de JOSM, incluyendo diapositivas de presentación.  Los siguientes materiales están diseñados para ayudar a los gestores de proyectos y a otros responsables de formación y talleres. Si es usted una persona interesada en aprender a cartografiar con OpenStreetMap utilizando iD Editor o JOSM, visite LearnOSM.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Validación con JOSM</title>
+      <link>/es/pages/digitization-and-editing/2.5_validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
+      <description>Esta sección proporciona:
+ Una visión general de la Validación en JOSM, incluyendo diapositivas de presentación Instrucciones paso a paso para practicar la validación en JOSM  *Los siguientes materiales están diseñados para ayudar a los directores de proyecto y a otros responsables de cursos de formación y talleres. Sin embargo, este material también es adecuado para las personas interesadas en aprender a validar los datos OSM en JOSM.
+Resumen La validación es un proceso de comprobación de la calidad de los datos (en este caso, la calidad de los datos cartográficos) en cuanto a exactitud, coherencia, integridad y anomalías.</description>
+    </item>
+    
+    <item>
+      <title>2.6 Resolución de conflictos en JOSM</title>
+      <link>/es/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
+      <description>Esta sección proporciona:
+ Una visión general de los conflictos de datos en OpenStreetMap Instrucciones paso a paso para resolver conflictos de datos en JOSM Orientación sobre la prevención y gestión de conflictos de datos.  *Los siguientes materiales están diseñados para ayudar a los gestores de proyectos y a otros responsables de formación y talleres. Sin embargo, este material también es adecuado para personas interesadas en aprender a validar datos OSM en JOSM.</description>
+    </item>
+    
+  </channel>
+</rss>

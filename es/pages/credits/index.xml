@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acknowledgements and Contributions on HOT Toolbox</title>
+    <link>/es/pages/credits/</link>
+    <description>Recent content in Acknowledgements and Contributions on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/credits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Créditos</title>
+      <link>/es/pages/credits/credits-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/credits/credits-overview/</guid>
+      <description>Esta guía se ha desarrollado como parte del Proyecto Humanitario OpenStreetMap, financiado por el [Fondo Mundial para la Reducción de los Desastres y la Recuperación (GFDRR)] del Banco Mundial (https://www.gfdrr.org/en). La caja de herramientas se basa en proyectos anteriores de HOT, incluida la Guía de cartografía abierta para los ODS y el Kit de herramientas de cartografía de refugiados.
+Lanzamiento Versión 1.0 Fecha de lanzamiento inicial: Diciembre de 2019
+Líderes del proyecto</description>
+    </item>
+    
+  </channel>
+</rss>

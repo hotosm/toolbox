@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/introduction/"
                 />
@@ -21,6 +26,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -37,6 +47,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/digitization-and-editing/"
                 />
@@ -47,6 +62,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -63,6 +83,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/field-mapping-management/"
                 />
@@ -73,6 +98,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-cleaning-upload-and-quality-assurance/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -89,6 +119,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-export/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-export/"
                 />
@@ -99,6 +134,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -115,12 +155,27 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/getting_started/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/getting_started/"
                 />
   </url><url>
     <loc>/pages/credits/</loc>
     <lastmod>2020-06-12T17:02:47-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/credits/"
+                />
   </url><url>
     <loc>/</loc>
     <lastmod>2023-03-22T15:22:41-03:00</lastmod>
@@ -129,6 +184,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -145,6 +205,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
                 />
@@ -155,6 +220,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -171,6 +241,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
                 />
@@ -181,6 +256,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/running-a-mapping-project/1.3-hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/1.3-hardware/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -197,6 +277,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
                 />
@@ -207,6 +292,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.0-digitization-and-editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.0-digitization-and-editing/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -223,6 +313,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
                 />
@@ -233,6 +328,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.2_organized_osm_editing/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -249,6 +349,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
                 />
@@ -259,6 +364,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -275,6 +385,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.5_validating_with_josm/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/digitization-and-editing/2.5_validating_with_josm/"
                 />
@@ -285,6 +400,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -301,6 +421,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
                 />
@@ -311,6 +436,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -327,6 +457,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
                 />
@@ -337,6 +472,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -353,6 +493,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
                 />
@@ -363,6 +508,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -379,6 +529,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
                 />
@@ -389,6 +544,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.0-field-mapping-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/4.0-field-mapping-management/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -405,6 +565,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
                 />
@@ -415,6 +580,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.2_using_odk_collect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/4.2_using_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -431,6 +601,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/4.3_using_openmapkit/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/field-mapping-management/4.3_using_openmapkit/"
                 />
@@ -441,6 +616,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/field-mapping-management/4.4_using_osm_tracker/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -457,6 +637,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
                 />
@@ -467,6 +652,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -483,6 +673,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
                 />
@@ -493,6 +688,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-export/6.0-data-export-tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-export/6.0-data-export-tools/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -509,6 +709,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-export/6.1-hot-export-tool/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-export/6.1-hot-export-tool/"
                 />
@@ -519,6 +724,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-export/6.2-hdx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-export/6.2-hdx/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -535,6 +745,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
                 />
@@ -545,6 +760,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/data-use-and-analysis/7.1-qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/7.1-qgis/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -561,6 +781,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
                 />
@@ -574,12 +799,27 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
                 />
   </url><url>
     <loc>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</loc>
     <lastmod>2023-03-22T15:22:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/data-use-and-analysis/7.4-osm_damage_assessment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/data-use-and-analysis/7.4-osm_damage_assessment/"
+                />
   </url><url>
     <loc>/pages/getting_started/8.0_mapping_workflows/</loc>
     <lastmod>2019-12-02T15:58:17-05:00</lastmod>
@@ -587,6 +827,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.0_mapping_workflows/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/getting_started/8.0_mapping_workflows/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -603,6 +848,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
                 />
@@ -613,6 +863,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/getting_started/8.2_mappingpoi_withodk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/getting_started/8.2_mappingpoi_withodk/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -628,12 +883,27 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/categories/"
                 />
   </url><url>
     <loc>/pages/credits/credits-overview/</loc>
     <lastmod>2020-06-12T17:39:08-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/credits/credits-overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/credits/credits-overview/"
+                />
   </url><url>
     <loc>/pages/introduction/how_to_use_toolbox/</loc>
     <lastmod>2019-12-01T19:21:41-07:00</lastmod>
@@ -641,6 +911,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/pages/introduction/how_to_use_toolbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/introduction/how_to_use_toolbox/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -657,6 +932,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="/pages/"
                 />
@@ -666,6 +946,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
