@@ -3,6 +3,10 @@ title : 1.3 Selección de hardware
 bookShowToC: True
 ---
 
+***Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.***
+
+---
+
 En esta sección, los Jefes de Proyecto encontrarán información sobre la selección del hardware adecuado para llevar a cabo un proyecto de cartografía, incluyendo: 
 
 * Determinar qué hardware puede o no ser necesario. 

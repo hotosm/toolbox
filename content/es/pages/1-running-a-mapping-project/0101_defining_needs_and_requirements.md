@@ -2,6 +2,10 @@
 title : 1.1 Definición de necesidades y requisitos
 ---
 
+***Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.***
+
+---
+
 Esta sección incluye preguntas orientativas y consideraciones que los Gestores de Proyectos y las comunidades OSM deben tener en cuenta al comenzar un proyecto, incluyendo:  
 
 * Factores a tener en cuenta a la hora de decidir qué cartografiar; 

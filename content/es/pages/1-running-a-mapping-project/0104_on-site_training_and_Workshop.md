@@ -3,6 +3,10 @@ title: 1.4 Formaciones y talleres
 bookShowToC: True
 ---
 
+***Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.***
+
+---
+
 En esta sección, los Directores de Proyecto encontrarán información sobre consideraciones y recursos a utilizar durante la planificación de formaciones y talleres para la cartografía y OSM, incluyendo: 
 
 * Orientación sobre los requisitos de formación 

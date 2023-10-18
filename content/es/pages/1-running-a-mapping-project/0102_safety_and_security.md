@@ -3,6 +3,10 @@ title : 1.2 Seguridad, protección y logística
 bookShowToC: True
 ---
 
+***Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.***
+
+---
+
 En esta sección, los Jefes de Proyecto encontrarán preguntas y consideraciones sobre la evaluación de las necesidades de seguridad, protección y logística para las operaciones sobre el terreno. 
 <br>
 ***
