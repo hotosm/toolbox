@@ -1,5 +1,5 @@
 ---
-title : 7.4 Evaluación de daños en edificios tras un terremoto mediante OpenStreetMap (OSM)
+title : 8.2 Evaluación de daños en edificios tras un terremoto mediante OpenStreetMap (OSM)
 bookShowToC: True
 ---
 

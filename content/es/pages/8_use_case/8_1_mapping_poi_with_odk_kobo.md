@@ -1,5 +1,5 @@
 ---
-title : 8.2 Mapear POI con ODK + Servidor KoboToolbox
+title : 8.1 Mapear POI con ODK + Servidor KoboToolbox
 bookShowToC: True
 ---
 
