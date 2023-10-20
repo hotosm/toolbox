@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 2 - Field Mapping Preparation on HOT Toolbox</title>
+    <link>/pages/2_field_mapping_prep/</link>
+    <description>Recent content in Chapter 2 - Field Mapping Preparation on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/2_field_mapping_prep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.0 Introduction to Technical Set-up for Field Mapping</title>
+      <link>/pages/2_field_mapping_prep/2_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_0_overview/</guid>
+      <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
+ Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as ODK Collect   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
+    </item>
+    
+    <item>
+      <title>2.1 Designing the Data Model</title>
+      <link>/pages/2_field_mapping_prep/2_1_designing_the_data_model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_1_designing_the_data_model/</guid>
+      <description>Course Objectives In this section you should be able to:
+ Understand the concept of data structure in OSM Learn to use OSM wiki Learn to use TagInfo Understand the data model workflow Understand to create the data model Learn to use HOT data models   Learning Activities When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Data Collection Applications</title>
+      <link>/pages/2_field_mapping_prep/2_2_data_collection_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_2_data_collection_applications/</guid>
+      <description>Course Objectives In this section, you will learn and find information on selecting the appropriate application to support the mapping project. By the end of this, you should be able to:
+ Understanding data collection application options Able to determine on selecting a data collection application for your project needs Understand brief overviews of ODK Collect, KoboCollect, OSMTracker, and Mapillary   Learning Activities Choosing a Data Collection Application Several mobile applications exist to assist with field data collection.</description>
+    </item>
+    
+    <item>
+      <title>2.3 Data Collection Servers</title>
+      <link>/pages/2_field_mapping_prep/2_3_data_collection_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_3_data_collection_servers/</guid>
+      <description>Course Objectives This section will explain on overview of server for field data collection. You will find several options to choose from. By the end of this, you should be able to learn:
+ Understand server storage options to store field data Guidance on selecting a server for your project needs Brief overview of server options   Learning Activities When beginning a mapping project, many organizations ask if they need to have a server.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Navigation Application</title>
+      <link>/pages/2_field_mapping_prep/2_4_navigation_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_4_navigation_applications/</guid>
+      <description>Course Objectives In this section, you will learn overview of the navigation applications. By the end of this section, you should be able to:
+ Understand the navigation application to choose Understand what is Maps.me and OSMAnd   Learning Activities Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me. While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Overview Data Collection Using ODK Collect</title>
+      <link>/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</guid>
+      <description>Course Objectives This section will provide general overview of the ODK Collect. By the end of this section you should be able to:
+ Understand the overview of data collection using ODK Collect   Learning Activities OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
+    </item>
+    
+    <item>
+      <title>2.6 Creating XLS Form for ODK COllect</title>
+      <link>/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</guid>
+      <description>Course Objectives In field survey activities sometimes you need a survey form to collect the data. Imagine if you need a form survey with dozens of questions for each respondent, you will certainly experience difficulties when filling data and also when entering data into a laptop. In this material you will learn how to create a survey form in digital format which will later be entered into your mobile phone. By the end of this, you will be able to:</description>
+    </item>
+    
+    <item>
+      <title>2.7 Creating MBTiles for ODK Collect</title>
+      <link>/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</guid>
+      <description>Course Objectives When you use the ODK Collect application to conduct field surveys, sometimes you will have difficulty in determining objects in the application. You can use MBTiles file for background map, which is a satellite imagery, to make it easier for you to identify objects in the field. By the end of this section, you should be able to:
+ Understand the concept of MBTiles Learn create MBTiles using Export Tool   Learning Activities The Definition of MBTiles MBTiles is the spatial data format for storing several map tiles that are combined into one file as raster format, so that it looks like satellite imagery.</description>
+    </item>
+    
+    <item>
+      <title>2.8 Setting Up Field Mapping Tasking Manager</title>
+      <link>/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</guid>
+      <description>Course Objectives This section will provide you general information about Field Maping Tasking Manager, by the end of this section you should be able to:
+ Understand what is Field Mapping Tasking Manager Able to setup Field Mapping Tasking Manager project   Learning Activities FMTM Overview Field Mapping Tasking Manager (FMTM) is a platform that helps project managers to organize and manage mapping tasks. It assigns those tasks to volunteers and tracks their progress.</description>
+    </item>
+    
+  </channel>
+</rss>

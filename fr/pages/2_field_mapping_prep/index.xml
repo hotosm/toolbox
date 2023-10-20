@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La configuration technique pour la cartographie sur le terrain on HOT Toolbox</title>
+    <link>/fr/pages/2_field_mapping_prep/</link>
+    <description>Recent content in La configuration technique pour la cartographie sur le terrain on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/2_field_mapping_prep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.0 Préparation de la cartographie sur le terrain</title>
+      <link>/fr/pages/2_field_mapping_prep/2_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_0_overview/</guid>
+      <description>Aperçu Général Dans cette section, les gestionnaires de projet trouveront les outils et les ressources pour déterminer quels outils de collecte de données sont appropriés et comment naviguer dans les différentes étapes techniques nécessaires à la préparation d&amp;rsquo;un projet de cartographie de terrain, notamment :
+ Des présentations et des guides étape par étape pour développer un modèle de données adapté au téléchargement sur OpenStreetMap. Des ressources pour déterminer la collecte de données mobiles, les applications de navigation et les options de serveur adéquates pour votre projet.</description>
+    </item>
+    
+    <item>
+      <title>2.1 Concevoir un modèle de donnée</title>
+      <link>/fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/</guid>
+      <description>Objectifs du cours Dans cette section, vous devriez être en mesure de :
+ Comprendre le concept de structure de données dans OSM. Apprendre à utiliser OSM wiki Apprendre à utiliser TagInfo Comprendre le cheminement du modèle de données Comprendre la création du modèle de données Apprendre à utiliser les modèles de données de HOT   Activités d’apprentissage Au début d&amp;rsquo;un projet de cartographie, un modèle de données doit être créé afin de déterminer les entités à cartographier et les détails collectés pour chacune d&amp;rsquo;entre elles.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Application de collecte de données mobile-</title>
+      <link>/fr/pages/2_field_mapping_prep/2_2_data_collection_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_2_data_collection_applications/</guid>
+      <description>Objectifs du cours Dans cette section, vous apprendrez et trouverez des informations sur la sélection de l&amp;rsquo;application appropriée pour soutenir le projet de cartographie. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre les options d’application de la collecte de données Déterminer le choix d’une application de collecte de données pour les besoins de votre projet Appréhender ODK Collect, KoboCollect, OSMTracker, et Mapillary   Activités d’apprentissage Choix d’une application de collecte de données Plusieurs applications mobiles existent pour faciliter la collecte de données sur le terrain.</description>
+    </item>
+    
+    <item>
+      <title>2.3 Serveur de collecte de données</title>
+      <link>/fr/pages/2_field_mapping_prep/2_3_data_collection_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_3_data_collection_servers/</guid>
+      <description>Objectifs du cours Cette section présente une vue d&amp;rsquo;ensemble des serveurs pour la collecte de données sur le terrain. Vous trouverez plusieurs options parmi lesquelles choisir. À la fin de cette section, vous devriez être en mesure d&amp;rsquo;apprendre :
+ Les options de sauvegarde du serveur pour stocker les données de terrain. Des conseils pour sélectionner un serveur adapté aux besoins de votre projet. Un bref aperçu des options de serveur   Activités d’apprentissage Au début d&amp;rsquo;un projet de cartographie, de nombreuses organisations se demandent si elles ont besoin d&amp;rsquo;un serveur.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Application de navigation</title>
+      <link>/fr/pages/2_field_mapping_prep/2_4_navigation_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_4_navigation_applications/</guid>
+      <description>Objectifs du cours Dans cette section, vous découvrirez une vue d&amp;rsquo;ensemble des applications de navigation. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre l’application de navigation à choisir Comprendre ce qu’est Maps.me et OSMAnd   Activités d’apprentissage Plusieurs applications mobiles existent pour faciliter la navigation sur le terrain en utilisant OpenStreetMap comme couche de base et en fonctionnant hors ligne pour les environnements à faible connexion.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Aperçu sur la collecte de données à l&#39;aide de ODK</title>
+      <link>/fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</guid>
+      <description>Objectifs du cours Cette section présente une vue d&amp;rsquo;ensemble de ODK Collect. À la fin de cette section, vous devriez être apte à :
+ Comprendre la structure générale de la collecte de données à l’aide de ODK   Activités d’apprentissage OpenDataKit (ODK) est un ensemble d&amp;rsquo;outils gratuits et open-source qui aident les organisations à créer, mettre en œuvre et gérer des solutions de collecte de données mobiles. ODK Collect fait partie de ODK et est une application Android qui remplace les formulaires papier utilisés dans les enquêtes de collecte de données.</description>
+    </item>
+    
+    <item>
+      <title>2.6 Créer un formulaire XLS POUR ODK Collect</title>
+      <link>/fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</guid>
+      <description>Objectifs du cours Dans les activités d&amp;rsquo;enquête sur le terrain, vous avez parfois besoin d&amp;rsquo;un formulaire d&amp;rsquo;enquête pour collecter les données. Imaginez que vous ayez besoin d&amp;rsquo;un formulaire d&amp;rsquo;enquête comportant des dizaines de questions pour chaque personne interrogée, vous trouverez certainement des difficultés à remplir les données et à les saisir sur un ordinateur portable. Dans ce document, vous apprendrez à créer un formulaire d&amp;rsquo;enquête au format numérique qui sera ensuite saisi sur votre téléphone portable.</description>
+    </item>
+    
+    <item>
+      <title>2.7 Créer des MBTiles pour ODK Collect</title>
+      <link>/fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</guid>
+      <description>Objectifs du cours Lorsque vous utilisez l&amp;rsquo;application ODK Collect pour mener des enquêtes sur le terrain, vous éprouvez parfois des difficultés à déterminer les objets dans l&amp;rsquo;application. Vous pouvez utiliser le fichier MBTiles comme fond de carte, qui est une imagerie satellite, pour faciliter l&amp;rsquo;identification des objets sur le terrain. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre le concept des MBTiles Apprendre à créer des MBtiles avec Export Tool   Activités d’apprentissage La définition des MBTiles MBTiles est un format de données spatiales permettant de stocker plusieurs tuiles cartographiques qui sont combinées dans un fichier au format raster, de sorte qu&amp;rsquo;elles ressemblent à des images satellites.</description>
+    </item>
+    
+    <item>
+      <title>2.8 Configurer un Gestionnaire de Tâche pour la Cartographie de Terrain</title>
+      <link>/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</guid>
+      <description>Objectifs du cours Cette section vous fournira des informations générales sur le Gestionnaire de Tâche pour la cartographie de terrain. A la fin de cette section, vous devriez être en mesure de :
+ Comprendre ce qu&amp;rsquo;est le Gestionnaire de Tâche pour la Cartographie de Terrain Pouvoir mettre en place un projet avec le Gestionnaire de Tâche pour la Cartographie de Terrain   Activités d’apprentissage Aperçu général Le Gestionnaire de Tâche pour la Cartographie de Terrain (FMTM) est une plateforme qui aide les gestionnaires de projets à organiser et à gérer les tâches cartographiques.</description>
+    </item>
+    
+  </channel>
+</rss>

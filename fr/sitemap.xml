@@ -2,78 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</loc>
-    <lastmod>2019-12-01T16:42:21-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/1.0-overview-designing-coordinating/"
-                />
-  </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.0-digitization-and-editing/</loc>
-    <lastmod>2019-12-02T14:41:31-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/digitization-and-editing/2.0-digitization-and-editing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/digitization-and-editing/2.0-digitization-and-editing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.0-digitization-and-editing/"
-                />
-  </url><url>
-    <loc>/fr/pages/data-export/6.0-data-export-tools/</loc>
-    <lastmod>2019-12-02T15:41:08-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-export/6.0-data-export-tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-export/6.0-data-export-tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/data-export/6.0-data-export-tools/"
-                />
-  </url><url>
-    <loc>/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/</loc>
-    <lastmod>2019-12-02T15:42:20-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/pages/data-use-and-analysis/7.0_data-use-and-analysis/"
-                />
-  </url><url>
     <loc>/fr/pages/introduction/how_to_use_toolbox/</loc>
     <lastmod>2019-12-01T16:40:12-05:00</lastmod>
     <xhtml:link
@@ -110,152 +38,152 @@
                 href="/fr/pages/introduction/"
                 />
   </url><url>
-    <loc>/fr/pages/running-a-mapping-project/</loc>
-    <lastmod>2019-12-01T12:45:52-05:00</lastmod>
+    <loc>/fr/pages/1-running-a-mapping-project/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/running-a-mapping-project/"
+                href="/pages/1-running-a-mapping-project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/running-a-mapping-project/"
+                href="/es/pages/1-running-a-mapping-project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/"
+                href="/fr/pages/1-running-a-mapping-project/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/</loc>
-    <lastmod>2019-11-25T15:01:21-05:00</lastmod>
+    <loc>/fr/pages/3_participatory_osm/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/"
+                href="/pages/3_participatory_osm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/digitization-and-editing/"
+                href="/es/pages/3_participatory_osm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/"
+                href="/fr/pages/3_participatory_osm/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/</loc>
-    <lastmod>2019-12-02T12:51:22-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/"
+                href="/pages/2_field_mapping_prep/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/"
+                href="/es/pages/2_field_mapping_prep/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/"
+                href="/fr/pages/2_field_mapping_prep/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/</loc>
-    <lastmod>2019-12-02T13:28:02-05:00</lastmod>
+    <loc>/fr/pages/4_field-mapping-management/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/field-mapping-management/"
+                href="/pages/4_field-mapping-management/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/"
+                href="/es/pages/4_field-mapping-management/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/"
+                href="/fr/pages/4_field-mapping-management/"
                 />
   </url><url>
-    <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/</loc>
-    <lastmod>2019-12-02T15:33:38-05:00</lastmod>
+    <loc>/fr/pages/5_data_quality_assurance/</loc>
+    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-cleaning-upload-and-quality-assurance/"
+                href="/pages/5_data_quality_assurance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-cleaning-upload-and-quality-assurance/"
+                href="/es/pages/5_data_quality_assurance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-cleaning-upload-and-quality-assurance/"
+                href="/fr/pages/5_data_quality_assurance/"
                 />
   </url><url>
-    <loc>/fr/pages/data-export/</loc>
-    <lastmod>2019-11-25T16:36:29-05:00</lastmod>
+    <loc>/fr/pages/6_open_data_usage/</loc>
+    <lastmod>2023-10-18T21:45:04+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-export/"
+                href="/pages/6_open_data_usage/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-export/"
+                href="/es/pages/6_open_data_usage/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-export/"
+                href="/fr/pages/6_open_data_usage/"
                 />
   </url><url>
-    <loc>/fr/pages/data-use-and-analysis/</loc>
-    <lastmod>2019-12-01T11:42:00-05:00</lastmod>
+    <loc>/fr/pages/7_data_use_and_data_analysis/</loc>
+    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-use-and-analysis/"
+                href="/pages/7_data_use_and_data_analysis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-use-and-analysis/"
+                href="/es/pages/7_data_use_and_data_analysis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-use-and-analysis/"
+                href="/fr/pages/7_data_use_and_data_analysis/"
                 />
   </url><url>
-    <loc>/fr/pages/getting_started/</loc>
-    <lastmod>2019-12-02T13:04:42-05:00</lastmod>
+    <loc>/fr/pages/8_use_case/</loc>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/getting_started/"
+                href="/pages/8_use_case/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/getting_started/"
+                href="/es/pages/8_use_case/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/getting_started/"
+                href="/fr/pages/8_use_case/"
                 />
   </url><url>
     <loc>/fr/</loc>
-    <lastmod>2019-12-02T16:00:18-05:00</lastmod>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -273,598 +201,663 @@
                 href="/fr/"
                 />
   </url><url>
-    <loc>/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</loc>
-    <lastmod>2019-12-01T16:44:24-05:00</lastmod>
+    <loc>/fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                href="/es/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                href="/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/"
+                href="/fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/"
                 />
   </url><url>
-    <loc>/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</loc>
-    <lastmod>2019-11-25T09:59:38-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
-                />
+    <loc>/fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
+                href="/es/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/"
+                href="/fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/"
                 />
   </url><url>
-    <loc>/fr/pages/running-a-mapping-project/1.3-hardware/</loc>
-    <lastmod>2019-11-25T10:00:51-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/running-a-mapping-project/1.3-hardware/"
-                />
+    <loc>/fr/pages/1-running-a-mapping-project/0102_safety_and_security/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/running-a-mapping-project/1.3-hardware/"
+                href="/pages/1-running-a-mapping-project/0102_safety_and_security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/1-running-a-mapping-project/0102_safety_and_security/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/1.3-hardware/"
+                href="/fr/pages/1-running-a-mapping-project/0102_safety_and_security/"
                 />
   </url><url>
-    <loc>/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/</loc>
-    <lastmod>2019-11-25T09:58:04-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
-                />
+    <loc>/fr/pages/1-running-a-mapping-project/0103_hardware_selection/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
+                href="/pages/1-running-a-mapping-project/0103_hardware_selection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/1-running-a-mapping-project/0103_hardware_selection/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/running-a-mapping-project/1.4-trainings-and-workshops/"
+                href="/fr/pages/1-running-a-mapping-project/0103_hardware_selection/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</loc>
-    <lastmod>2019-12-02T14:43:04-05:00</lastmod>
+    <loc>/fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</loc>
+    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
+                href="/es/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
+                href="/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/"
+                href="/fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.2_organized_osm_editing/</loc>
-    <lastmod>2019-12-02T14:44:10-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/2_0_overview/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                href="/es/pages/2_field_mapping_prep/2_0_overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                href="/pages/2_field_mapping_prep/2_0_overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.2_organized_osm_editing/"
+                href="/fr/pages/2_field_mapping_prep/2_0_overview/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</loc>
-    <lastmod>2019-12-02T14:46:34-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
-                />
+    <loc>/fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
+                href="/pages/2_field_mapping_prep/2_1_designing_the_data_model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/2_field_mapping_prep/2_1_designing_the_data_model/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/"
+                href="/fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</loc>
-    <lastmod>2019-12-02T14:48:02-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/2_2_data_collection_applications/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
+                href="/es/pages/2_field_mapping_prep/2_2_data_collection_applications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
+                href="/pages/2_field_mapping_prep/2_2_data_collection_applications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.4-editing-with-id-and-josm/"
+                href="/fr/pages/2_field_mapping_prep/2_2_data_collection_applications/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.5_validating_with_josm/</loc>
-    <lastmod>2019-12-02T12:49:34-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/digitization-and-editing/2.5_validating_with_josm/"
-                />
+    <loc>/fr/pages/2_field_mapping_prep/2_3_data_collection_servers/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.5_validating_with_josm/"
+                href="/pages/2_field_mapping_prep/2_3_data_collection_servers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/2_field_mapping_prep/2_3_data_collection_servers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.5_validating_with_josm/"
+                href="/fr/pages/2_field_mapping_prep/2_3_data_collection_servers/"
                 />
   </url><url>
-    <loc>/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/</loc>
-    <lastmod>2019-12-01T17:37:21-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/2_4_navigation_applications/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
+                href="/es/pages/2_field_mapping_prep/2_4_navigation_applications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
+                href="/pages/2_field_mapping_prep/2_4_navigation_applications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/digitization-and-editing/2.6-data-conflict-in-josm/"
+                href="/fr/pages/2_field_mapping_prep/2_4_navigation_applications/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/</loc>
-    <lastmod>2019-12-02T14:51:26-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                href="/es/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                href="/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.0_technical_set-up/"
+                href="/fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</loc>
-    <lastmod>2019-12-02T14:55:14-05:00</lastmod>
+    <loc>/fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
+                href="/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/"
+                href="/fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</loc>
-    <lastmod>2019-12-02T15:02:28-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
-                />
+    <loc>/fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
+                href="/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.2-data-collection-applications/"
+                href="/fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</loc>
-    <lastmod>2019-12-02T14:59:50-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
-                />
+    <loc>/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</loc>
+    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
+                href="/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/"
+                href="/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</loc>
-    <lastmod>2019-12-02T15:09:51-05:00</lastmod>
+    <loc>/fr/pages/3_participatory_osm/3_0_overview_osm/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
+                href="/es/pages/3_participatory_osm/3_0_overview_osm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
+                href="/pages/3_participatory_osm/3_0_overview_osm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/"
+                href="/fr/pages/3_participatory_osm/3_0_overview_osm/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/</loc>
-    <lastmod>2019-12-02T15:11:38-05:00</lastmod>
+    <loc>/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
+                href="/es/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
+                href="/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.3-navigation-applications/"
+                href="/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/"
                 />
   </url><url>
-    <loc>/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</loc>
-    <lastmod>2019-12-02T15:12:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
-                />
+    <loc>/fr/pages/3_participatory_osm/3_2_organized_osm_editing/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
+                href="/es/pages/3_participatory_osm/3_2_organized_osm_editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/3_participatory_osm/3_2_organized_osm_editing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-collection-and-field-mapping/3.4-data-collection-servers/"
+                href="/fr/pages/3_participatory_osm/3_2_organized_osm_editing/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/4.0-field-mapping-management/</loc>
-    <lastmod>2019-12-02T15:13:54-05:00</lastmod>
+    <loc>/fr/pages/3_participatory_osm/3_3_overview_id_and_josm/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/4.0-field-mapping-management/"
+                href="/es/pages/3_participatory_osm/3_3_overview_id_and_josm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/field-mapping-management/4.0-field-mapping-management/"
+                href="/pages/3_participatory_osm/3_3_overview_id_and_josm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/4.0-field-mapping-management/"
+                href="/fr/pages/3_participatory_osm/3_3_overview_id_and_josm/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/</loc>
-    <lastmod>2019-12-02T16:00:18-05:00</lastmod>
+    <loc>/fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
+                href="/es/pages/3_participatory_osm/3_4_working_with_tasking_manager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
+                href="/pages/3_participatory_osm/3_4_working_with_tasking_manager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/4.1_managing_teams_in_the_field/"
+                href="/fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/4.2_using_odk_collect/</loc>
-    <lastmod>2019-12-02T15:19:18-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/field-mapping-management/4.2_using_odk_collect/"
-                />
+    <loc>/fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</loc>
+    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/4.2_using_odk_collect/"
+                href="/es/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/4.2_using_odk_collect/"
+                href="/fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/4.3_using_openmapkit/</loc>
-    <lastmod>2019-12-02T15:24:55-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/field-mapping-management/4.3_using_openmapkit/"
-                />
+    <loc>/fr/pages/4_field-mapping-management/4_0_overview/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/4.3_using_openmapkit/"
+                href="/es/pages/4_field-mapping-management/4_0_overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/4_field-mapping-management/4_0_overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/4.3_using_openmapkit/"
+                href="/fr/pages/4_field-mapping-management/4_0_overview/"
                 />
   </url><url>
-    <loc>/fr/pages/field-mapping-management/4.4_using_osm_tracker/</loc>
-    <lastmod>2019-12-02T15:30:21-05:00</lastmod>
+    <loc>/fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/field-mapping-management/4.4_using_osm_tracker/"
+                href="/es/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/field-mapping-management/4.4_using_osm_tracker/"
+                href="/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/field-mapping-management/4.4_using_osm_tracker/"
+                href="/fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/"
                 />
   </url><url>
-    <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</loc>
-    <lastmod>2019-12-02T15:35:49-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
-                />
+    <loc>/fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
+                href="/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/"
+                href="/fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/"
                 />
   </url><url>
-    <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</loc>
-    <lastmod>2019-12-02T15:36:38-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
-                />
+    <loc>/fr/pages/4_field-mapping-management/4_3_using_odk_collect/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
+                href="/es/pages/4_field-mapping-management/4_3_using_odk_collect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/4_field-mapping-management/4_3_using_odk_collect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/"
+                href="/fr/pages/4_field-mapping-management/4_3_using_odk_collect/"
                 />
   </url><url>
-    <loc>/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</loc>
-    <lastmod>2019-12-02T15:39:38-05:00</lastmod>
+    <loc>/fr/pages/4_field-mapping-management/4_4_using_osm_tracker/</loc>
+    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                href="/es/pages/4_field-mapping-management/4_4_using_osm_tracker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                href="/pages/4_field-mapping-management/4_4_using_osm_tracker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/"
+                href="/fr/pages/4_field-mapping-management/4_4_using_osm_tracker/"
                 />
   </url><url>
-    <loc>/fr/pages/data-export/6.1-hot-export-tool/</loc>
-    <lastmod>2019-12-02T13:35:55-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/data-export/6.1-hot-export-tool/"
-                />
+    <loc>/fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/</loc>
+    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-export/6.1-hot-export-tool/"
+                href="/pages/5_data_quality_assurance/5.0_data_quality_assurance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-export/6.1-hot-export-tool/"
+                href="/fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/"
                 />
   </url><url>
-    <loc>/fr/pages/data-export/6.2-hdx/</loc>
-    <lastmod>2019-12-02T13:40:25-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-export/6.2-hdx/"
-                />
+    <loc>/fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</loc>
+    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-export/6.2-hdx/"
+                href="/es/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-export/6.2-hdx/"
+                href="/fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/"
                 />
   </url><url>
-    <loc>/fr/pages/data-use-and-analysis/7.1-qgis/</loc>
-    <lastmod>2019-12-02T15:44:03-05:00</lastmod>
+    <loc>/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/</loc>
+    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-use-and-analysis/7.1-qgis/"
+                href="/es/pages/5_data_quality_assurance/5.2._validating_with_josm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-use-and-analysis/7.1-qgis/"
+                href="/pages/5_data_quality_assurance/5.2._validating_with_josm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-use-and-analysis/7.1-qgis/"
+                href="/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/"
                 />
   </url><url>
-    <loc>/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</loc>
-    <lastmod>2019-12-02T15:44:52-05:00</lastmod>
+    <loc>/fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</loc>
+    <lastmod>2023-10-18T21:45:04+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
+                href="/es/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
+                href="/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/"
+                href="/fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/"
                 />
   </url><url>
-    <loc>/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</loc>
-    <lastmod>2019-12-02T15:45:28-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
-                />
+    <loc>/fr/pages/6_open_data_usage/6_1_hot_export_tools/</loc>
+    <lastmod>2023-10-18T21:45:04+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
+                href="/es/pages/6_open_data_usage/6_1_hot_export_tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/6_open_data_usage/6_1_hot_export_tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/data-use-and-analysis/7.3_web_and_interactive_maps/"
+                href="/fr/pages/6_open_data_usage/6_1_hot_export_tools/"
                 />
   </url><url>
-    <loc>/fr/pages/getting_started/8.0_mapping_workflows/</loc>
-    <lastmod>2019-12-02T15:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/getting_started/8.0_mapping_workflows/"
-                />
+    <loc>/fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/</loc>
+    <lastmod>2023-10-18T21:45:04+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/getting_started/8.0_mapping_workflows/"
+                href="/pages/6_open_data_usage/6_2_humanitarian_data_exchange/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/6_open_data_usage/6_2_humanitarian_data_exchange/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/getting_started/8.0_mapping_workflows/"
+                href="/fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/"
                 />
   </url><url>
-    <loc>/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</loc>
-    <lastmod>2019-12-02T15:56:24-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
-                />
+    <loc>/fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</loc>
+    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                href="/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/getting_started/8.1_example_fieldmappingbuildings_poi/"
+                href="/fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/"
                 />
   </url><url>
-    <loc>/fr/pages/getting_started/8.2_mappingpoi_withodk/</loc>
-    <lastmod>2019-12-02T13:25:59-05:00</lastmod>
+    <loc>/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</loc>
+    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/pages/getting_started/8.2_mappingpoi_withodk/"
+                href="/es/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/pages/getting_started/8.2_mappingpoi_withodk/"
+                href="/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/pages/getting_started/8.2_mappingpoi_withodk/"
+                href="/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/"
+                />
+  </url><url>
+    <loc>/fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</loc>
+    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/"
+                />
+  </url><url>
+    <loc>/fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</loc>
+    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/"
+                />
+  </url><url>
+    <loc>/fr/pages/8_use_case/8_0_overview_use_case/</loc>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/8_use_case/8_0_overview_use_case/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/8_use_case/8_0_overview_use_case/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/8_use_case/8_0_overview_use_case/"
+                />
+  </url><url>
+    <loc>/fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</loc>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/"
+                />
+  </url><url>
+    <loc>/fr/pages/8_use_case/8_2_post_earthquake/</loc>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/8_use_case/8_2_post_earthquake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/8_use_case/8_2_post_earthquake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/pages/8_use_case/8_2_post_earthquake/"
                 />
   </url><url>
     <loc>/fr/categories/</loc>
@@ -885,7 +878,7 @@
                 />
   </url><url>
     <loc>/fr/pages/</loc>
-    <lastmod>2019-12-02T16:00:18-05:00</lastmod>
+    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

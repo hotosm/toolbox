@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 3 - Participatory Mapping with OSM on HOT Toolbox</title>
+    <link>/pages/3_participatory_osm/</link>
+    <description>Recent content in Chapter 3 - Participatory Mapping with OSM on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/3_participatory_osm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.0. Introduction to Participatory Mapping with OpenStreetMap</title>
+      <link>/pages/3_participatory_osm/3_0_overview_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_0_overview_osm/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager.
+ Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
+    </item>
+    
+    <item>
+      <title>3.1. Introduction to OpenStreetMap</title>
+      <link>/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</guid>
+      <description>Course Objectives This section provides an overview of OpenStreetMap as well as on how to contribute to OSM. By the end of this section you should be able to:
+ Able to present an introduction to OpenStreetMap Learn how to create an account in OpenStreetMap  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.</description>
+    </item>
+    
+    <item>
+      <title>3.2. Organized OSM Editing</title>
+      <link>/pages/3_participatory_osm/3_2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_2_organized_osm_editing/</guid>
+      <description>Course Objectives This section will inform you on how to organized OSM editing activities. By the end of this you should be able to:
+ Understand the considerations for managing and sourcing mapper for an organized editing Learn the organized OSM editing Guidance and Compliance Able to setup organized OSM editing guidance   Learning Activities Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping.</description>
+    </item>
+    
+    <item>
+      <title>3.3. Overview iD and JOSM</title>
+      <link>/pages/3_participatory_osm/3_3_overview_id_and_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_3_overview_id_and_josm/</guid>
+      <description>Course Objectives By the end of this section, you will be able to:
+ Understand the difference between iD editor and JOSM Learn how to teach people to use JOSM or iD editor  This section are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
+ Learning Activities Difference between iD and JOSM There are several ways to edit in OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>3.4. Working with Tasking Manager</title>
+      <link>/pages/3_participatory_osm/3_4_working_with_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_4_working_with_tasking_manager/</guid>
+      <description>Course Objectives By the end of this you should be able to:
+ Understand how to navigate and operate the tasking manager Understand how to teach people to use the tasking manager to map with OSM  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
+ Learning Activities The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team’s collaborative mapping process in OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>3.5. Resolving Conflict in JOSM</title>
+      <link>/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</guid>
+      <description>Course Objectives This section provides:
+ An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict   Learning Activities Other contributors may have edited the same features as you in JOSM. Alternatively, different data may have been collected in the field for the same features. Both situations cause data conflicts during the upload process. Therefore, it is critical for digitizers to learn about data conflicts in OpenStreetMap, conflict types, and how to fix them using JOSM.</description>
+    </item>
+    
+  </channel>
+</rss>

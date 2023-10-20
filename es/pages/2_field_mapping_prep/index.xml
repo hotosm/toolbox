@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Field Mapping Technical Set-up on HOT Toolbox</title>
+    <link>/es/pages/2_field_mapping_prep/</link>
+    <description>Recent content in Field Mapping Technical Set-up on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/2_field_mapping_prep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.0 Introducción a la configuración técnica para la cartografía de campo</title>
+      <link>/es/pages/2_field_mapping_prep/2_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_0_overview/</guid>
+      <description>En esta sección, los gestores de proyectos encontrarán herramientas y recursos para determinar qué herramientas de recopilación de datos son apropiadas y cómo navegar por los pasos técnicos necesarios para preparar un proyecto de cartografía de campo, incluyendo:
+ Presentaciones y guías paso a paso para desarrollar un modelo de datos adecuado para su carga en OpenStreetMap. Recursos para determinar la recopilación de datos móviles, las aplicaciones de navegación y las opciones de servidor adecuadas para su proyecto.</description>
+    </item>
+    
+    <item>
+      <title>2.1 Diseñar el modelo de datos</title>
+      <link>/es/pages/2_field_mapping_prep/2_1_designing_the_data_model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_1_designing_the_data_model/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de los modelos de datos y el etiquetado de OpenStreetMap, incluyendo diapositivas de presentación. Instrucciones paso a paso sobre las herramientas que le ayudarán a crear su modelo de datos. Instrucciones paso a paso para crear su modelo de datos  Visión general Al comenzar un proyecto de cartografía, será necesario crear un modelo de datos para determinar qué características se cartografían y los detalles recogidos para cada una de ellas.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Aplicaciones de recogida de datos</title>
+      <link>/es/pages/2_field_mapping_prep/2_2_data_collection_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_2_data_collection_applications/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de las opciones de aplicaciones de recopilación de datos Orientación sobre la selección de una aplicación de recopilación de datos para las necesidades de su proyecto Breves descripciones de OpenDataKit, OpenMapKit, KoboCollect y OSMTracker  Visión general Existen varias aplicaciones móviles para ayudar en la recogida de datos sobre el terreno.</description>
+    </item>
+    
+    <item>
+      <title>2.3 Servidores de recogida de datos</title>
+      <link>/es/pages/2_field_mapping_prep/2_3_data_collection_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_3_data_collection_servers/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de las opciones de almacenamiento del servidor Orientación sobre la selección de un servidor para las necesidades de su proyecto Breve resumen de las opciones de servidor  *La siguiente sección ofrece una visión general y una guía para decidir si es necesario un servidor para su proyecto y las opciones entre las que elegir.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Aplicaciones de navegación</title>
+      <link>/es/pages/2_field_mapping_prep/2_4_navigation_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_4_navigation_applications/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de las Aplicaciones de Navegación, incluyendo diapositivas de presentación Orientación sobre qué aplicaciones elegir Breves resúmenes de Maps.me y OSMAnd  Visión general Existen varias aplicaciones móviles para ayudar a la navegación sobre el terreno utilizando OpenStreetMap como capa base y funcionando sin conexión para entornos de baja conexión.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Configuración de OpenDataKit</title>
+      <link>/es/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de los pasos necesarios para configurar ODK Una guía paso a paso para crear formularios de encuesta ODK, incluyendo archivos de ejemplo Una guía paso a paso para configurar ODK en dispositivos  Descripción general OpenDataKit (ODK) es un conjunto de herramientas gratuitas y de código abierto que ayudan a las organizaciones a crear, desplegar y gestionar soluciones móviles de recogida de datos.</description>
+    </item>
+    
+  </channel>
+</rss>

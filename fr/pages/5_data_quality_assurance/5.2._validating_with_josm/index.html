@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body data-site-url='https://toolbox.hotosm.org'  data-default-lang='en' data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://toolbox.hotosm.org/svg/hot-logo-red.svg" alt="hot logo"><a href="https://toolbox.hotosm.org" class="no-underline"><h4 class="title site-title">HOT Toolbox</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français  </a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/pages/5_data_quality_assurance/5.2._validating_with_josm/" class="language-select-option 
+        
+        ">English</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/es/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/" class="language-select-option
+        
+        ">Español  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+
+
+<div class="accordion accordion--open">
+    Pages
+</div>
+<div class="panel panel--open">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/introduction/how_to_use_toolbox/" class="menu-link">Comment utiliser la boîte à outils HOT</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/" class="menu-link">1.0. Introduction à la conception d_un projet de cartographie</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/" class="menu-link">1.1 Definition des Besoins et Exigences</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0102_safety_and_security/" class="menu-link">1.2 Protection et Sécurité</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0103_hardware_selection/" class="menu-link">1.3 Choix du matériel informatique</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/" class="menu-link">1.4 Formation et atelier sur site</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_0_overview/" class="menu-link">2.0 Préparation de la cartographie sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/" class="menu-link">2.1 Concevoir un modèle de donnée</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_2_data_collection_applications/" class="menu-link">2.2 Application de collecte de données mobile-</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_3_data_collection_servers/" class="menu-link">2.3 Serveur de collecte de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_4_navigation_applications/" class="menu-link">2.4 Application de navigation</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/" class="menu-link">2.5 Aperçu sur la collecte de données à l&#39;aide de ODK</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/" class="menu-link">2.6 Créer un formulaire XLS POUR ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/" class="menu-link">2.7 Créer des MBTiles pour ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/" class="menu-link">2.8 Configurer un Gestionnaire de Tâche pour la Cartographie de Terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_0_overview_osm/" class="menu-link">3.0. Cartographie Participative avec OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/" class="menu-link">3.1. Introduction à OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_2_organized_osm_editing/" class="menu-link">3.2. Edition Organisée sur OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_3_overview_id_and_josm/" class="menu-link">3.3. Edition Organisée sur OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/" class="menu-link">3.4. Travailler avec le Gestionnaire de Tâches</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/" class="menu-link">3.5. Résoudre les conflits dans JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_0_overview/" class="menu-link">4.0. Gestion de la Cartographie de terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/" class="menu-link">4.1 Création des sections cartographiques en utilisant QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/" class="menu-link">4.2 Utilisation du FMTM pour la collecte de donnée de terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_3_using_odk_collect/" class="menu-link">4.3 Utilisation d_ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_4_using_osm_tracker/" class="menu-link">4.4. Utilisation de OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/" class="menu-link">5.0. Assurance Qualité des Données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/" class="menu-link">5.1 Outils d_assurance et de contrôle qualité</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.2._validating_with_josm/" class="menu-link menu-link--active">5.2 Validation avec JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/" class="menu-link">6.0 Téléchargement_des_données_OSM.md</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_1_hot_export_tools/" class="menu-link">6.1 Outil d&#39;exportation de HOT</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/" class="menu-link">6.2 Humanitarian Data Exchange (HDX)</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/" class="menu-link">7.0 Utilisation et analyse des données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/" class="menu-link">7.1 Introduction à QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/" class="menu-link">7.2 Concevoir une carte et un atlas sur QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/" class="menu-link">7.3 Créer une carte Web et interactive</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_0_overview_use_case/" class="menu-link">8.0 Cas d&#39;utilisation dans la gestion de la cartographie de terrain et l&#39;utilisation des données ouvertes</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/" class="menu-link">8.1. Cartographier les POI avec ODK &#43; KoboToolbox Server</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_2_post_earthquake/" class="menu-link">8.2. Évaluation des dommages subis par les bâtiments après le tremblement de terre à l&#39;aide d&#39;OpenStreetMap (OSM)</a></li>
+                    
+                </ul>
+            </div>
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/539f8c16d985d6c32f4cee4e3bfdebef101988f0" class="sub-title sub-title-14" title='Last modified October 18, 2023 by adisadit' target="_blank" rel="noopener">
+      Dernière modification: October 18, 2023
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">5.2 Validation avec JOSM</h1><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="objectifs-du-cours">Objectifs du cours</h2>
+<p>Cette section fournit :</p>
+<ul>
+<li>Une vue d&rsquo;ensemble de la validation dans le JOSM, y compris des diapositives de présentation.</li>
+<li>Des instructions étape par étape pour pratiquer la validation dans le JOSM</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<hr>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="activités-dapprentissage">Activités d’apprentissage</h2>
+<h3 id="aperçu-général-de-la-validation">Aperçu général de la validation</h3>
+<p><strong>La validation</strong> est un processus qui consiste à vérifier la qualité des données (dans ce cas, la qualité des données cartographiques) en termes d&rsquo;exactitude, de cohérence, d&rsquo;exhaustivité et d&rsquo;anomalie. La validation est importante pour maintenir la qualité des données OSM. De nombreux aspects doivent être pris en compte lors de la validation, à savoir l&rsquo;exactitude, la cohérence, l&rsquo;exhaustivité et la détection des anomalies.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050301_validation_using_josm.png" alt=""></p>
+<p><strong>Lors de la vérification de la précision</strong>, vous devez vous assurer que les données cartographiques sont alignées sur l&rsquo;imagerie et qu&rsquo;elles sont correctes en termes de géométrie.</p>
+<p><strong>Pour la cohérence</strong>, s&rsquo;assurer que tous les objets cartographiés ont une forme cohérente. Par exemple, lorsque vous trouvez une zone résidentielle, assurez-vous que tous les bâtiments sont tracés et orthogonalisés de manière cohérente.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050302_accurately_consistently_mapped_buildings.png" alt=""></p>
+<p><strong>Pour la complétude</strong>, tout dépend des informations que vous souhaitez collecter lors de la cartographie et de la méthode de cartographie utilisée. Les informations collectées à l&rsquo;aide de la méthode de cartographie à distance seront différentes des informations collectées par le biais d&rsquo;une enquête sur le terrain. Les informations collectées à l&rsquo;aide de la méthode de cartographie à distance seront très limitées puisque vous ne disposez que de l&rsquo;imagerie satellite et des tracés gpx comme référence.</p>
+<p><strong>Pour l’anomalie</strong>, s&rsquo;assurer qu&rsquo;il n&rsquo;y a pas d&rsquo;objets cartographiés d&rsquo;apparence anormale. Cela peut se faire en vérifiant les données OSM par des contrôles visuels et en les comparant à votre imagerie préférée.</p>
+<p>Bien qu&rsquo;une validation légère puisse être effectuée à l&rsquo;aide de l&rsquo;iD Editor, HOT recommande que la validation détaillée soit effectuée à l&rsquo;aide de JOSM.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050303_josm.gif" alt=""></p>
+<h3 id="pratique-de-validation">Pratique de validation</h3>
+<p>L&rsquo;activité suivante couvre le processus de validation de mauvaises données OSM dans le JOSM. Cette activité utilise un fichier d&rsquo;exemple qui peut être téléchargé <a href="https://drive.google.com/file/d/13QgUDeoBA7uLSUkjsK8cEFsadmjpbNg_/view?usp=sharing">ici</a> [2].</p>
+<p><strong>Compétences et technologies nécessaires</strong></p>
+<ul>
+<li>Ordinateur</li>
+<li>Connexion internet (pour le téléchargement des données)</li>
+<li><a href="https://github.com/hotosm/toolbox/wiki/1.2-Opening-OSM-accounts">Compte OSM</a></li>
+<li><a href="https://hotosm.github.io/toolbox/pages/digitization-and-editing/3.4-editing-with-id-and-josm/">JOSM</a></li>
+<li>Exemple de fichier .osm</li>
+</ul>
+<p><strong>Temps estimé pour l’achèvement</strong> : 1 hour</p>
+<p><strong>Objectifs</strong> :</p>
+<ul>
+<li>Pouvoir comprendre le processus de validation des données OSM.</li>
+<li>Pouvoir effectuer la validation à l&rsquo;aide des outils de validation sur le JOSM.</li>
+<li>Pouvoir corriger les erreurs courantes, les avertissements et les fautes constatés lors de la validation.</li>
+</ul>
+<h4 id="1-ouvrir-les-données-osm">1. Ouvrir les données OSM</h4>
+<p>Après avoir téléchargé avec succès les données de l&rsquo;échantillon, ouvrez le fichier validation_sample.osm dans votre JOSM en suivant les étapes suivantes :</p>
+<ul>
+<li>Cliquer sur le menu <strong>Fichier</strong> ➝ <strong>Open</strong></li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050304_open.png" alt=""></p>
+<ul>
+<li>Allez dans votre répertoire où vous avez enregistré validation_sample.osm. Sélectionnez le fichier <strong>validation_sample.osm</strong>, puis cliquez sur <strong>Ouvrir</strong>.</li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050305_open(1).png" alt=""></p>
+<ul>
+<li>Après avoir ouvert le fichier d&rsquo;exercice, votre JOSM ressemblera à ceci :</li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050306_exercise_file.png" alt=""></p>
+<h4 id="2-utilisation-des-outils-de-validation-de-josm">2. Utilisation des outils de validation de JOSM</h4>
+<p>JOSM fournit un validateur intégré qui vérifie et corrige les données cartographiques invalides, appelé Outils de validation. Après avoir vérifié l&rsquo;exactitude, la cohérence, l&rsquo;exhaustivité et les anomalies, exécutez ces outils de validation pour que les données cartographiques soient parfaitement valides. Pour commencer à utiliser les outils de validation, vous devez activer la fenêtre des résultats de validation en suivant les étapes suivantes:</p>
+<ul>
+<li>Cliquez sur le menu <strong>Windows</strong> ➝ <strong>Résultats de validation</strong></li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050307_validation_results.png" alt=""></p>
+<ul>
+<li>Les fenêtres de résultats de validation apparaîtront sur le côté gauche de votre JOSM</li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050308_validation_results(1).png" alt=""></p>
+<p>Après avoir activé la fenêtre des résultats de validation, vous pouvez maintenant commencer la validation en utilisant les outils de validation du JOSM. Téléchargez d&rsquo;abord les données OSM en utilisant Slippy Map ou Tasking Manager, puis cliquez sur le bouton Validation dans la fenêtre des résultats de validation. Utilisons <a href="https://drive.google.com/file/d/13QgUDeoBA7uLSUkjsK8cEFsadmjpbNg_/view">l’échantillon de données OSM</a> pour un exercice.</p>
+<ul>
+<li>Pour exécuter la validation sur toutes les données de la couche de données actuelle, qui est validation_sample.osm, assurez-vous qu&rsquo;aucune donnée n&rsquo;est sélectionnée. Cliquez ensuite sur le bouton <strong>Validation</strong> dans la fenêtre des résultats de la validation. Une fois le processus de validation terminé, la fenêtre des résultats de la validation se remplit d&rsquo;erreurs et d&rsquo;avertissements. Le nombre d&rsquo;erreurs et d&rsquo;avertissements trouvés dépend de la qualité des données. Par exemple, sur cet échantillon de données OSM, vous trouverez une erreur et vingt-et-un avertissements.</li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050309_validation_results(2).png" alt=""></p>
+<ul>
+<li>Un nouveau calque appelé Erreurs de validation sera également ajouté à la fenêtre des calques. Cette couche mettra en évidence les erreurs et les avertissements trouvés - surbrillance rouge pour les erreurs et surbrillance jaune pour les avertissements.</li>
+</ul>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050310_validation_results(3).png" alt=""></p>
+<h4 id="3-correction-des-erreurs-et-des-avertissements">3. Correction des erreurs et des avertissements</h4>
+<p>Il est important de corriger les erreurs. Ne les ignorez pas. Si vos données OSM comportent des erreurs, vous ne pourrez pas les télécharger dans le serveur OSM tant que vous n&rsquo;aurez pas corrigé les erreurs. Certaines erreurs peuvent être corrigées automatiquement à l&rsquo;aide du bouton Fix dans les fenêtres de résultats de validation. Les avertissements sont des problèmes qu&rsquo;il est important de corriger, mais dans certains cas, tels que &ldquo;Unnamed Ways&rdquo;, ils sont tolérables. Dans la plupart des cas, les avertissements doivent être corrigés manuellement. Essayons maintenant de corriger les erreurs et les avertissements trouvés dans validation_sample.osm. Il y a une erreur et vingt-et-un avertissements trouvés sur validation_sample.osm. Il s&rsquo;agit de :</p>
+<ul>
+<li>Erreur: Routes dupliquées (1)</li>
+<li>Avertissement : Bâtiment à l’intérieur d’un bâtiment (4)</li>
+<li>Avertissement: Croisement bâtiment/routes (1)</li>
+<li>Avertissement: Croisement de bâtiment (1)</li>
+<li>Avertissement: Croisement de route (1)</li>
+<li>Avertissement : balisage obsolète - amenity=hotel est obsolète, utilisez tourism=hotel à la place (1)</li>
+<li>Avertissement : étiquette manquante - objet incomplet : seulement le nom (1)</li>
+<li>Avertissement : Le nœud relie la route et le bâtiment (1)</li>
+<li>Avertissement: routes se chevauchant (1)</li>
+<li>Avertissement : Routes non fermées- building (1)</li>
+<li>Avertissement: Routes sans nom (6)</li>
+<li>Avertissement: Routes sans balises (1)</li>
+<li>Avertissement : Nœud d&rsquo;extrémité près d&rsquo;une autre route (2)</li>
+</ul>
+<p>Maintenant, corrigeons toutes les erreurs et tous les avertissements un par un.</p>
+<h4 id="31-correction-de-lerreur--chemins-dupliqués">3.1 Correction de l’erreur : chemins dupliqués</h4>
+<p>L&rsquo;erreur &ldquo;Chemins dupliqués&rdquo; apparaît lorsque des chemins sont dupliqués. Cela est généralement dû à une connexion internet instable lors du téléchargement des données OSM sur le serveur OSM. Pour corriger les erreurs ou les avertissements, vous devez d&rsquo;abord sélectionner l&rsquo;erreur ou l&rsquo;avertissement que vous souhaitez corriger. Dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour que la fenêtre ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050311_fixing_error.png" alt=""></p>
+<p>Sélectionnez les objets dupliqués et cliquez avec le bouton droit de la <strong>souris ➝ Zoom</strong> sur le problème pour zoomer et voir les objets dupliqués. Le canevas de votre carte sera zoomé sur les objets dupliqués. Heureusement, les voies dupliquées peuvent être automatiquement corrigées. Après avoir sélectionné les objets dupliqués, cliquez sur Réparer. Voilà, votre erreur est corrigée !</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050312_fixing_error(1).png" alt=""></p>
+<h4 id="32-correction-de-lavertissement-building-inside-building">3.2 correction de l’avertissement: Building inside building</h4>
+<p>L&rsquo;avertissement &ldquo;bâtiment à l&rsquo;intérieur d&rsquo;un bâtiment&rdquo; apparaît lorsqu&rsquo;un bâtiment se trouve à l&rsquo;intérieur d&rsquo;un autre bâtiment. Pour y remédier, allez à l&rsquo;avertissement &ldquo;bâtiment à l&rsquo;intérieur d&rsquo;un bâtiment&rdquo; dans la fenêtre des résultats de la validation, cliquez sur l&rsquo;icône + pour que l&rsquo;avertissement ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050313_fixing_warning.png" alt=""></p>
+<p>Sélectionnez les objets énumérés sous l&rsquo;avertissement Bâtiment à l&rsquo;intérieur d&rsquo;un bâtiment et cliquez avec <strong>le bouton droit de la souris ➝ Zoom</strong> sur le problème pour zoomer et voir les objets. Le canevas de la carte est zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050314_zoom_to_problem.png" alt=""></p>
+<p>La plupart des avertissements doivent être corrigés manuellement. Pour corriger un bâtiment à l&rsquo;intérieur d&rsquo;un autre, il suffit de supprimer l&rsquo;un des bâtiments. Pour déterminer lequel doit être supprimé, regardez l&rsquo;imagerie et décidez avec soin lequel doit être supprimé. Voilà, vous venez de réparer un bâtiment à l&rsquo;intérieur d&rsquo;un autre bâtiment.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050315_building_inside_building.png" alt=""></p>
+<h4 id="33-correction-de-lavertissement--croisement-bâtimentchemins">3.3 Correction de l’avertissement : croisement bâtiment/chemins</h4>
+<p>L&rsquo;avertissement &ldquo;croisement bâtiment/autoroute&rdquo; apparaît lorsqu&rsquo;un bâtiment croise une autoroute. Pour résoudre ce problème, allez à l&rsquo;avertissement &ldquo;croisement bâtiment/autoroute&rdquo; dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour que l&rsquo;avertissement ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050316_fixing_warning(1).png" alt=""></p>
+<p>Sélectionnez les objets énumérés sous l&rsquo;avertissement Bâtiment de franchissement/autoroute et <strong>cliquez avec le bouton droit</strong> de la souris ➝ <strong>Zoom</strong> sur le problème pour zoomer et voir les objets. Le canevas de la carte se rapproche des objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050317_zoom_to_problem(1).png" alt=""></p>
+<p>Pour corriger le croisement bâtiment/autoroute, il suffit de déplacer l&rsquo;un des objets croisés, soit le bâtiment, soit le segment/nœud de l&rsquo;autoroute. Pour décider quel objet doit être déplacé, veuillez jeter un coup d&rsquo;œil à l&rsquo;imagerie.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050318_crossing_building_highway.png" alt=""></p>
+<h4 id="34-correction-de-lavertissement--bâtiments-qui-se-croisent">3.4 Correction de l’avertissement : bâtiments qui se croisent</h4>
+<p>L&rsquo;avertissement relatif aux bâtiments qui se croisent apparaît lorsque deux bâtiments ou plus se chevauchent. Pour y remédier, allez à l&rsquo;avertissement de croisement de bâtiments dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050319_fixing_warning(2).png" alt=""></p>
+<p>Sélectionnez les objets énumérés sous l&rsquo;avertissement Bâtiments de franchissement et <strong>cliquez avec le bouton droit</strong> de la souris ➝ <strong>Zoom</strong> sur le problème pour zoomer et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050320_zoom_to_problem(2).png" alt=""></p>
+<p>Pour réparer les bâtiments qui se croisent, il suffit de déplacer l&rsquo;un des bâtiments qui se chevauchent de manière à ce qu&rsquo;ils ne se chevauchent plus. Pour déterminer quels bâtiments doivent être déplacés, regardez l&rsquo;imagerie.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050321_crossing_building.png" alt=""></p>
+<h4 id="35-corrections-de-lavertissement-chemins-qui-se-croisent">3.5 Corrections de l’avertissement: Chemins qui se croisent</h4>
+<p>L&rsquo;avertissement de croisement d&rsquo;autoroutes apparaît lorsqu&rsquo;il y a des autoroutes qui se croisent sans qu&rsquo;il y ait de nœud de croisement. Pour y remédier, allez à l&rsquo;avertissement de croisement d&rsquo;autoroutes dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050322_fixing_warning(3).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous l&rsquo;avertissement Autoroutes de liaison et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de la carte fait un zoom sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050323_zoom_to_problem(3).png" alt=""></p>
+<p>Pour réparer les autoroutes qui se croisent, il suffit d&rsquo;ajouter un nœud de croisement à l&rsquo;intersection de l&rsquo;autoroute. Pour ajouter un nœud à l&rsquo;intersection, vous pouvez utiliser les outils additionnels de JOSM, mais vous devez d&rsquo;abord activer le plugin <strong>utilsplugins2</strong>. Vous pouvez aller dans le menu <strong>Préférences➝ Plugins</strong>, chercher <strong>utilsplugins2</strong> et cocher <strong>utilsplugin2</strong>.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050324_preferences.png" alt=""></p>
+<p>Pour ajouter un nœud à l&rsquo;intersection, sélectionnez les deux autoroutes qui se croisent, et allez dans le menu <strong>More tools ➝ Add nodes at intersections</strong> (Plus d&rsquo;outils ➝ Ajouter des nœuds aux intersections). Et voilà, vos autoroutes ont maintenant un nœud d&rsquo;intersection.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050325_add_nodes_at_intersections.png" alt=""></p>
+<h4 id="36-correction-de-lavertissement--balisage-obsolète">3.6 Correction de l’avertissement : balisage obsolète</h4>
+<p>L&rsquo;avertissement de balisage déprécié apparaît lorsqu&rsquo;un ou plusieurs objets de vos données OSM utilisent un balisage déprécié. Pour y remédier, allez sur l&rsquo;avertissement de marquage obsolète dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050326_fixing_warning(4).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous l&rsquo;avertissement &ldquo;deprecated tagging&rdquo; et cliquez avec le bouton droit de la souris ➝ Zoom to problem pour zoomer et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050327_zoom_to_problem(4).png" alt=""></p>
+<p>Heureusement, le balisage obsolète peut être corrigé automatiquement à l&rsquo;aide du bouton Fixer. Après avoir sélectionné l&rsquo;objet dont le balisage est obsolète, appuyez sur le bouton <strong>Réparer</strong>. Le JOSM remplacera automatiquement la balise obsolète par la nouvelle.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050328_deprecated_tagging.png" alt=""></p>
+<h4 id="37-correction-de-lavertissement--balisage-manquant">3.7 Correction de l’avertissement : balisage manquant</h4>
+<p>L&rsquo;avertissement de balise manquante apparaît lorsqu&rsquo;un ou plusieurs objets n&rsquo;ont pas de balise ou que la balise est incomplète. Pour y remédier, allez à l&rsquo;avertissement de balise manquante dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050329_fixing_warning(5).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous la balise d&rsquo;avertissement manquante et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de la carte est zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050330_zom_to_problem(5).png" alt=""></p>
+<p>Dans ce cas, l&rsquo;objet “Monrovia Park” n&rsquo;a que l&rsquo;étiquette nom. Il n&rsquo;a pas la balise qui l&rsquo;identifie en tant que parc. Ce que vous devez faire, c&rsquo;est simplement ajouter une balise pour définir qu&rsquo;il s&rsquo;agit d&rsquo;un parc, nommé Monrovia Park. Pour ajouter une balise, cliquez sur le menu <strong>Presets ➝ Search preset</strong>&hellip; et recherchez <strong>Park</strong>. Sélectionnez celui qui correspond au type de parc que vous cartographiez, dans ce cas vous pouvez sélectionner <strong>Geography/Landuse/Park</strong>, puis cliquez sur <strong>Select</strong>. Laissez le nom tel quel, puis cliquez sur <strong>Appliquer le préréglage</strong>.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050331_preset.png" alt=""></p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050332_missing_tag.png" alt=""></p>
+<h4 id="38-correction-de-lavertissement--le-nœud-reliant-la-route-et-le-bâtiment">3.8 Correction de l’avertissement : Le nœud reliant la route et le bâtiment</h4>
+<p>L&rsquo;avertissement “Node connects highway and building” apparaît lorsqu&rsquo;un nœud de bâtiment est connecté à l&rsquo;autoroute. Pour résoudre ce problème, allez à l&rsquo;avertissement &ldquo;Node connects highway and building&rdquo; dans la fenêtre &ldquo;Validation Results&rdquo;, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050333_fixing_warning(6).png" alt=""></p>
+<p>Sélectionnez les objets listés sous le nœud d&rsquo;avertissement relie l&rsquo;autoroute et le bâtiment et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de la carte est zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050334_zoom_to_warning(6).png" alt=""></p>
+<p>Pour résoudre ce problème, séparez simplement les nœuds connectés en les sélectionnant d&rsquo;abord, puis en cliquant sur le menu <strong>Outils ➝ Dissocier les voies ou en appuyant sur la touche G</strong> du clavier pour obtenir un raccourci. Après avoir séparé les nœuds connectés, n&rsquo;oubliez pas de déplacer soit l&rsquo;ensemble du bâtiment, soit le nœud de l&rsquo;autoroute, car les deux nœuds se chevauchent toujours.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050335_unglue_ways.png" alt=""></p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050336_connected_nodes_highway_building.png" alt=""></p>
+<h4 id="39-correction-de-lavertissement--routes-se-chevauchant">3.9 Correction de l’avertissement : routes se chevauchant</h4>
+<p>Les autoroutes qui se chevauchent apparaissent lorsqu&rsquo;il y a des autoroutes qui se chevauchent les unes les autres. Pour y remédier, allez à l&rsquo;avertissement relatif aux autoroutes qui se chevauchent dans la fenêtre des résultats de la validation, cliquez sur l&rsquo;icône + pour qu&rsquo;elle ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050337_fixing_warning(7).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous l&rsquo;avertissement autoroutes qui se chevauchent et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050338_zoom_to_warnings(7).png" alt=""></p>
+<p>Pour corriger cet avertissement, vous devez tout d&rsquo;abord diviser le segment de l&rsquo;autoroute qui se chevauche. Sélectionnez un nœud final où les autoroutes se chevauchent, puis cliquez sur le menu Outils ➝ Séparer ou appuyez sur la touche P du clavier pour obtenir un raccourci. Sélectionnez l&rsquo;autre nœud terminal où les autoroutes se chevauchent, puis cliquez sur le menu Outils ➝ Séparer ou appuyez à nouveau sur la touche P du clavier. Les segments qui se chevauchent sont maintenant divisés. Tout ce que vous avez à faire maintenant est de supprimer le segment chevauché en sélectionnant le segment et en appuyant sur la touche delete de votre clavier.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050339_overlapping_highway.png" alt=""></p>
+<h4 id="310-correction-de-lavertissement--chemin-et-bâtiment-non-fermés">3.10 Correction de l’avertissement : chemin et bâtiment non fermés</h4>
+<p>L&rsquo;avertissement &ldquo;Unclosed way” - building apparaît lorsqu&rsquo;un ou plusieurs bâtiments sont dessinés en tant que polygone non fermé. Cela se produit lorsque vous dessinez un bâtiment manuellement à l&rsquo;aide des outils de nœuds sans outils de construction et que le premier nœud et le dernier nœud ne sont pas fusionnés. Pour résoudre ce problème, allez à l&rsquo;avertissement de bâtiment non fermé dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050340_fixing_warning(8).png" alt=""></p>
+<p>Sélectionnez les objets énumérés sous l&rsquo;avertissement voie non fermée - bâtiment et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour agrandir et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050341_zoom_to_warning(8).png" alt=""></p>
+<p>Pour y remédier, sélectionnez le premier nœud et le dernier nœud du bâtiment et fusionnez-les en cliquant sur le menu <strong>Outils ➝ Fusionner les nœuds ou en appuyant sur la touche</strong> M du clavier. Et voilà, votre bâtiment est maintenant un polygone fermé.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050342_unclosed_way.png" alt=""></p>
+<h4 id="311-correction-de-lavertissement-routes-non-fermées">3.11 Correction de l’avertissement: routes non fermées</h4>
+<p>L&rsquo;avertissement &ldquo;Voies sans nom&rdquo; apparaît lorsqu&rsquo;une ou plusieurs autoroutes (routes principales) n&rsquo;ont pas de nom. Cet avertissement fait partie des avertissements tolérables, vous pouvez donc l&rsquo;ignorer. Si vous connaissez le nom de la route, vous pouvez ajouter le nom de la route en ajoutant un nom de balise à la route. Cependant, si vous ne connaissez pas le nom, laissez-le tel quel plutôt que de donner un nom aléatoire qui pourrait induire en erreur. Pour ignorer cet avertissement, vous pouvez le laisser tel quel ou le placer dans votre liste d&rsquo;ignorants afin qu&rsquo;il n&rsquo;apparaisse plus lors de vos prochaines validations. Cliquez sur l&rsquo;avertissement &ldquo;Voies sans nom&rdquo; dans la liste des avertissements, puis cliquez sur <strong>Ignorer</strong> et sur <strong>Groupe entier</strong>.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050343_fixing_warning(9).png" alt=""></p>
+<p>Si vous changez d&rsquo;avis, vous pouvez toujours le réintégrer dans votre liste d&rsquo;avertissements afin qu&rsquo;il apparaisse à nouveau lors de la validation. Pour ce faire, cliquez sur <strong>Gérer les avertissements ignorés</strong>, puis cliquez avec le bouton droit de la souris sur l&rsquo;avertissement que vous souhaitez réintégrer et choisissez <strong>Ne pas ignorer.</strong></p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050344_manage_ignore.png" alt=""></p>
+<h4 id="312-correction-de-lavertissement-chemin-sans-balise">3.12 Correction de l’avertissement: chemin sans balise</h4>
+<p>L&rsquo;avertissement &ldquo;Untagged ways&rdquo; apparaît lorsqu&rsquo;un objet n&rsquo;est pas marqué. Pour y remédier, allez à l&rsquo;avertissement des voies non marquées dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + pour qu&rsquo;il ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050345_fixing_warning(10).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous l&rsquo;avertissement voies non marquées et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050346_zoom_to_warning(9).png" alt=""></p>
+<p>Pour y remédier, il suffit d&rsquo;ajouter une balise/un préréglage à l&rsquo;objet. Jetez un coup d&rsquo;œil à l&rsquo;imagerie pour décider de la balise à ajouter à l&rsquo;objet. Sélectionnez l&rsquo;objet, puis allez dans le menu Preset et sélectionnez la balise qui convient à l&rsquo;objet. Par exemple, si cet objet s&rsquo;avère être un hôpital, ajoutez la balise/présélection hôpital.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050347_untagged_ways.png" alt=""></p>
+<h4 id="313-correction-de-lavertissement--noeud-dextrémité-près-dune-route">3.13 Correction de l’avertissement : Noeud d&rsquo;extrémité près d’une route</h4>
+<p>Pour corriger le nœud d&rsquo;extrémité de voie près d&rsquo;une autre autoroute, aller au nœud d&rsquo;extrémité de voie près d&rsquo;une autre autoroute dans la fenêtre des résultats de validation, cliquez sur l&rsquo;icône + de façon à ce qu&rsquo;elle ressemble à l&rsquo;image ci-dessous.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050348_fixing_warning(11).png" alt=""></p>
+<p>Sélectionnez les objets répertoriés sous l&rsquo;avertissement voies non marquées et cliquez avec le bouton droit de la souris ➝ Zoom sur le problème pour zoomer et voir les objets. Le canevas de votre carte sera zoomé sur les objets.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050349_zoom_to_warning(10).png" alt=""></p>
+<p>Pour y remédier, sélectionnez le nœud final et activez le mode Dessin en appuyant sur la touche A du clavier. Dessinez ensuite la route de manière à ce qu&rsquo;elle soit connectée à la route voisine.</p>
+<p><img src="../../../../images/5_quality_assurance/03_validating_with_josm/050350_way_end_node_near_other_highway.png" alt=""></p>
+<h2 id="quiz-testez-vos-connaissances">[Quiz] Testez vos connaissances</h2>
+<p><em><strong>Type de quiz : choix multiples</strong></em></p>
+<ol>
+<li>
+<p>Quelle est la fonction de l&rsquo;outil de validation dans le JOSM?</p>
+<p>a. Vérification automatique du nombre d&rsquo;objets</p>
+<p>b. Vérification de l&rsquo;exhaustivité des données d&rsquo;attributs dans OSM</p>
+<p>c. Vérifier la qualité des données OSM en affichant les erreurs et les avertissements</p>
+<p>d. Vérification manuelle de l&rsquo;exactitude des objets</p>
+</li>
+</ol>
+<p><em><strong>Type de quiz : glisser-déposer dans le texte</strong></em></p>
+<p>[2] sont importantes à corriger. Vous ne devez pas les [3]. Si vous ne pouvez pas le corriger, vous ne pourrez pas le télécharger dans le serveur OSM. Alors que vous pouvez ignorer [4]  en fonction de son type. Les deux types vous donnent des informations sur certains éléments qui doivent être [5] dans vos données.</p>
+<p>[a] Erreurs         [b] Ignorer         [c]Avertissements           [d] Réparer</p>
+<p><em><strong>Type de quiz : correspondance</strong></em></p>
+<p>Examinez l&rsquo;erreur et les avertissements ainsi que la solution correspondante. Identifiez les problèmes auxquels le passage fait référence:</p>
+<ol start="6">
+<li>
+<p>Cet avertissement est le plus fréquemment rencontré lors de la validation. La plupart des utilisateurs d&rsquo;OpenStreetMap numérisent deux bâtiments de manière trop rapprochée, au point qu&rsquo;ils peuvent partager une ligne ou même se chevaucher l&rsquo;un l&rsquo;autre. Pour corriger cet avertissement, il suffit de déplacer ou de supprimer l&rsquo;un des bâtiments qui se chevauchent.</p>
+<p>a. Construction de nœuds dupliqués</p>
+<p>b. voies non nommées</p>
+<p>c. bâtiments se croisant</p>
+</li>
+<li>
+<p>Cet avertissement apparaît lorsque deux lignes ou deux autoroutes se chevauchent sans qu&rsquo;il y ait de nœud d&rsquo;intersection entre ces lignes ou ces autoroutes. Pour corriger cet avertissement, il suffit d&rsquo;ajouter un nœud d&rsquo;intersection entre ces lignes/autoroutes.</p>
+<p>a. chemins se croisant</p>
+<p>b. chemins sans nom</p>
+<p>c. bâtiment se croisant</p>
+</li>
+<li>
+<p>Il indique qu&rsquo;il existe une voie ou une route sans nom. Si vous connaissez le nom de la rue, vous devez le mettre à jour. Cependant, dans la plupart des cas, vous pouvez simplement ignorer cet avertissement si vous ne connaissez pas l&rsquo;endroit. La plupart des cartographes qui réalisent leurs cartes à distance n&rsquo;ont généralement pas de connaissances locales leur permettant de connaître le nom des routes.</p>
+<p>a. Nœuds de bâtiment dupliqué</p>
+<p>b. chemin sans nom</p>
+<p>c. bâtiment se croisant</p>
+</li>
+</ol>
+<p><strong>Answer</strong>: 1. C | 2. A | 3. B | 4. C | 5. D | 6. C | 7. A | 8. B</p>
+<h2 id="liste-de-contrôle-des-activités">Liste de contrôle des activités</h2>
+<p>À la fin de cette section, vous devriez être en mesure de :</p>
+<ul>
+<li>Comprendre comment valider les données OSM à l&rsquo;aide de JOSM.</li>
+<li>Comprendre ce que sont les erreurs et les avertissements.</li>
+<li>Comprendre comment corriger les erreurs</li>
+<li>Comprendre comment réparer et ignorer les avertissements</li>
+</ul>
+<h2 id="ressources-complémentaires">Ressources complémentaires</h2>
+<p>Présentation de la formation</p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1p2lJJluFv25qIXTE8qTzHJQW5QNbWr6sULJ7N-gjTx4/edit?usp=sharing">formation des validateurs</a></li>
+</ul>
+</div>
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#objectifs-du-cours">Objectifs du cours</a></li>
+    <li><a href="#activités-dapprentissage">Activités d’apprentissage</a>
+      <ul>
+        <li><a href="#aperçu-général-de-la-validation">Aperçu général de la validation</a></li>
+        <li><a href="#pratique-de-validation">Pratique de validation</a></li>
+      </ul>
+    </li>
+    <li><a href="#quiz-testez-vos-connaissances">[Quiz] Testez vos connaissances</a></li>
+    <li><a href="#liste-de-contrôle-des-activités">Liste de contrôle des activités</a></li>
+    <li><a href="#ressources-complémentaires">Ressources complémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/5_data_quality_assurance/5.2._validating_with_josm.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/5.2._validating_with_josm.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script>
+
+
+<div id="optout-form" ></div>
+<script type="application/javascript">var site_id = "16"</script>
+<script type="application/javascript" src="https://cdn.hotosm.org/tracking-v3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Designing and Coordinating a Mapping Project on HOT Toolbox</title>
+    <link>/es/pages/1-running-a-mapping-project/</link>
+    <description>Recent content in Designing and Coordinating a Mapping Project on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/1-running-a-mapping-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.0 Introducción al diseño de un proyecto de mapeo</title>
+      <link>/es/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</guid>
+      <description>En esta sección, los Gerentes de Proyecto encontrarán guías, herramientas y recursos para diseñar un proyecto de mapeo que incluye:
+ Consideraciones y guías de preguntas para determinar los factores del proyecto, como el alcance, la escala y la logística; Recursos para la selección de hardware; Guías y materiales para la planificación de talleres/capacitaciones.    1.1 Definición de necesidades y requisitos plantea preguntas para responder al definir el alcance del proyecto, como el propósito , escala geográfica y qué características mapear, además de garantizar que el proyecto tenga en cuenta los diversos contextos y partes interesadas involucradas en el proyecto.</description>
+    </item>
+    
+    <item>
+      <title>1.1 Definición de necesidades y requisitos</title>
+      <link>/es/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección incluye preguntas orientativas y consideraciones que los Gestores de Proyectos y las comunidades OSM deben tener en cuenta al comenzar un proyecto, incluyendo:
+ Factores a tener en cuenta a la hora de decidir qué cartografiar; Contextos que podrían afectar a la planificación y preparación; Consideraciones a tener en cuenta para involucrar a las partes interesadas, comunidades y cómo seleccionar a su equipo.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Seguridad, protección y logística</title>
+      <link>/es/pages/1-running-a-mapping-project/0102_safety_and_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/1-running-a-mapping-project/0102_safety_and_security/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ En esta sección, los Jefes de Proyecto encontrarán preguntas y consideraciones sobre la evaluación de las necesidades de seguridad, protección y logística para las operaciones sobre el terreno.  Resumen Para los proyectos que requieren trabajo de campo, será necesario tomar medidas adicionales para garantizar que la logística y la seguridad se manejan con eficacia.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Selección de hardware</title>
+      <link>/es/pages/1-running-a-mapping-project/0103_hardware_selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/1-running-a-mapping-project/0103_hardware_selection/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ En esta sección, los Jefes de Proyecto encontrarán información sobre la selección del hardware adecuado para llevar a cabo un proyecto de cartografía, incluyendo:
+ Determinar qué hardware puede o no ser necesario. Especificaciones y modelos recomendados de dispositivos móviles, tabletas y ordenadores en función de las necesidades del proyecto. Guías sobre el equipo adicional que puede ser necesario, como bancos de energía y discos duros.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Formaciones y talleres</title>
+      <link>/es/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ En esta sección, los Directores de Proyecto encontrarán información sobre consideraciones y recursos a utilizar durante la planificación de formaciones y talleres para la cartografía y OSM, incluyendo:
+ Orientación sobre los requisitos de formación Ejemplos y recursos para crear programas de formación Consideraciones para presentaciones y otros materiales proporcionados.  Resumen La mayoría de los proyectos de cartografía implican algún tipo de formación o taller, ya sea para formar a los cartógrafos sobre el terreno en el uso de OpenDataKit, para enseñar a los interesados de la administración local a exportar y utilizar datos de OSM o para enseñar a los estudiantes a crear mapas con QGIS.</description>
+    </item>
+    
+  </channel>
+</rss>

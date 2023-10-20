@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 7 - Data Use and Data Analysis on HOT Toolbox</title>
+    <link>/pages/7_data_use_and_data_analysis/</link>
+    <description>Recent content in Chapter 7 - Data Use and Data Analysis on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/7_data_use_and_data_analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.0 Data Use and Data Analysis</title>
+      <link>/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
+ A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps   There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
+    </item>
+    
+    <item>
+      <title>7.1 Introduction to QGIS</title>
+      <link>/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</guid>
+      <description>Course Objectives This section cover basic skills necessary to use QGIS. By the end of this section, you should be able to:
+ Learn to install QGIS Be able to navigate QGIS Understand on how to adding the data in QGIS Understand on how to style layer in QGIS Learn how to install plugin QuickOSM and QuickMapServices in QGIS   Learning Activities QGIS is a free and open source geographic information system (GIS) program.</description>
+    </item>
+    
+    <item>
+      <title>7.2 Creating Map and Atlasses in QGIS</title>
+      <link>/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to load the dataset Understand how to symbolize the dataset Understand how to create a map Understand how to create an atlas   Learning Activities Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
+    </item>
+    
+    <item>
+      <title>7.3 Create Web &amp; Interactive Map</title>
+      <link>/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</guid>
+      <description>Course Objectives This section will provides you on how to visualize OSM data as a web and interactive map. By the end of this section you should be able to:
+ Understand on how to use overpass-turbo to visualize OSM data as an interactive map Understand how to use uMap to visualize data spatial Undesstand how to link overpass-turbo data to uMap   Learning Activities Interactive maps are viewed as the modern equivalent of visual communication with maps.</description>
+    </item>
+    
+  </channel>
+</rss>

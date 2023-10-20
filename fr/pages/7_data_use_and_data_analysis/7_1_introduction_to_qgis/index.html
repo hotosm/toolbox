@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   <script src="../../../../js/vendor/lunr/lunr.stemmer.support.js"></script>
+   <script src="../../../../js/vendor/lunr/lunr.fr.js"></script>
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT Toolbox</title>
+</head><body data-site-url='https://toolbox.hotosm.org'  data-default-lang='en' data-lang='fr'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://toolbox.hotosm.org/svg/hot-logo-red.svg" alt="hot logo"><a href="https://toolbox.hotosm.org" class="no-underline"><h4 class="title site-title">HOT Toolbox</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
+    </div>
+</header>
+
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT Toolbox</h2> 
+
+<div>
+    
+    
+    <div class="js-language-select language-select">
+        
+            
+                Français 
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">Français  </a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/" class="language-select-option 
+        
+        ">English</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://toolbox.hotosm.org/es/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/" class="language-select-option
+        
+        ">Español  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Rechercher dans la documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+
+
+<div class="accordion accordion--open">
+    Pages
+</div>
+<div class="panel panel--open">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../fr/pages/introduction/how_to_use_toolbox/" class="menu-link">Comment utiliser la boîte à outils HOT</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/" class="menu-link">1.0. Introduction à la conception d_un projet de cartographie</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/" class="menu-link">1.1 Definition des Besoins et Exigences</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0102_safety_and_security/" class="menu-link">1.2 Protection et Sécurité</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0103_hardware_selection/" class="menu-link">1.3 Choix du matériel informatique</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/" class="menu-link">1.4 Formation et atelier sur site</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_0_overview/" class="menu-link">2.0 Préparation de la cartographie sur le terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/" class="menu-link">2.1 Concevoir un modèle de donnée</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_2_data_collection_applications/" class="menu-link">2.2 Application de collecte de données mobile-</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_3_data_collection_servers/" class="menu-link">2.3 Serveur de collecte de données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_4_navigation_applications/" class="menu-link">2.4 Application de navigation</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/" class="menu-link">2.5 Aperçu sur la collecte de données à l&#39;aide de ODK</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/" class="menu-link">2.6 Créer un formulaire XLS POUR ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/" class="menu-link">2.7 Créer des MBTiles pour ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/" class="menu-link">2.8 Configurer un Gestionnaire de Tâche pour la Cartographie de Terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_0_overview_osm/" class="menu-link">3.0. Cartographie Participative avec OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/" class="menu-link">3.1. Introduction à OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_2_organized_osm_editing/" class="menu-link">3.2. Edition Organisée sur OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_3_overview_id_and_josm/" class="menu-link">3.3. Edition Organisée sur OSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/" class="menu-link">3.4. Travailler avec le Gestionnaire de Tâches</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/" class="menu-link">3.5. Résoudre les conflits dans JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_0_overview/" class="menu-link">4.0. Gestion de la Cartographie de terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/" class="menu-link">4.1 Création des sections cartographiques en utilisant QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/" class="menu-link">4.2 Utilisation du FMTM pour la collecte de donnée de terrain</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_3_using_odk_collect/" class="menu-link">4.3 Utilisation d_ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/4_field-mapping-management/4_4_using_osm_tracker/" class="menu-link">4.4. Utilisation de OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/" class="menu-link">5.0. Assurance Qualité des Données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/" class="menu-link">5.1 Outils d_assurance et de contrôle qualité</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/5_data_quality_assurance/5.2._validating_with_josm/" class="menu-link">5.2 Validation avec JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/" class="menu-link">6.0 Téléchargement_des_données_OSM.md</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_1_hot_export_tools/" class="menu-link">6.1 Outil d&#39;exportation de HOT</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/" class="menu-link">6.2 Humanitarian Data Exchange (HDX)</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/" class="menu-link">7.0 Utilisation et analyse des données</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/" class="menu-link menu-link--active">7.1 Introduction à QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/" class="menu-link">7.2 Concevoir une carte et un atlas sur QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/" class="menu-link">7.3 Créer une carte Web et interactive</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_0_overview_use_case/" class="menu-link">8.0 Cas d&#39;utilisation dans la gestion de la cartographie de terrain et l&#39;utilisation des données ouvertes</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/" class="menu-link">8.1. Cartographier les POI avec ODK &#43; KoboToolbox Server</a></li>
+                    
+                        <li class="page"><a href="../../../../fr/pages/8_use_case/8_2_post_earthquake/" class="menu-link">8.2. Évaluation des dommages subis par les bâtiments après le tremblement de terre à l&#39;aide d&#39;OpenStreetMap (OSM)</a></li>
+                    
+                </ul>
+            </div>
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/fr/HOT_Toolbox.pdf">
+    
+
+    <div>
+        <div class="title">Télécharger le fichier entier</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/toolbox/commit/0e346c6dc1a967a432a6c30f1889dfb7eaea3c24" class="sub-title sub-title-14" title='Last modified October 18, 2023 by adisadit' target="_blank" rel="noopener">
+      Dernière modification: October 18, 2023
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">7.1 Introduction à QGIS</h1><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="objectifs-du-cours">Objectifs du cours</h2>
+<p>Cette section couvre les compétences de base nécessaires à l&rsquo;utilisation de QGIS. À la fin de cette section, vous devriez être en mesure de:</p>
+<ul>
+<li>Apprendre à installer QGIS</li>
+<li>Être capable de naviguer dans QGIS</li>
+<li>Comprendre comment ajouter des données dans QGIS</li>
+<li>Comprendre comment styliser les couches dans QGIS</li>
+<li>Apprendre à installer les plugins Quick OSM et QuickMapServices dans QGGIS</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<hr>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="activités-dapprentissage">Activités d’apprentissage</h2>
+<p>QGIS est un programme de système d&rsquo;information géographique (SIG) libre et gratuit. Les programmes SIG permettent aux utilisateurs d&rsquo;afficher, de gérer et d&rsquo;analyser des informations géospatiales sur l&rsquo;ordinateur et de créer des produits cartographiques. Les données géospatiales qui peuvent être utilisées dans un SIG comprennent l&rsquo;imagerie aérienne, les données GPS et les ensembles de données spatiales. À l&rsquo;issue de cette section, un nouvel utilisateur devrait être en mesure de naviguer et de travailler avec des données dans QGIS.</p>
+<h3 id="installation-de-qgis">Installation de QGIS</h3>
+<p>QGIS est disponible au téléchargement pour les systèmes d&rsquo;exploitation suivants:</p>
+<ul>
+<li>Windows</li>
+<li>Mac OS</li>
+<li>Linux</li>
+</ul>
+<p><strong>Compétences et technologies requises</strong></p>
+<ul>
+<li>Ordinateur avec:
+<ul>
+<li>Système d’exploitation Windows, Mac, or Linux</li>
+<li>Espace disque libre suffisant (environ 10 Go) et droits d&rsquo;administrateur pour l&rsquo;installation des logiciels</li>
+</ul>
+</li>
+<li>Recommandé: souris d’ordinateur</li>
+</ul>
+<p><strong>Pour Windows Avant l&rsquo;installation</strong>, vous devez déterminer si votre ordinateur fonctionne sur un système 32 bits ou 64 bits.</p>
+<ol>
+<li>Ouvrez le menu Démarrer, cliquez avec le bouton droit de la souris sur &ldquo;Ordinateur&rdquo; et sélectionnez &ldquo;Propriétés&rdquo;.</li>
+<li>Sous &ldquo;Système&rdquo;, le type de système correct est indiqué.</li>
+</ol>
+<p><strong>Installation à partir d&rsquo;un fichier partagé</strong> Si vous n&rsquo;êtes pas en ligne, vous devrez installer QGIS à partir d&rsquo;un fichier partagé. Le programme d&rsquo;installation de QGIS peut être téléchargé et partagé via USB. Ce fichier peut être partagé avec des collègues et d&rsquo;autres personnes qui souhaitent installer le programme. Pour installer à partir d&rsquo;un fichier partagé:</p>
+<ol>
+<li>Allez dans le dossier qui vous a été communiqué et que vous avez téléchargé sur votre ordinateur.</li>
+<li>Sélectionnez le dossier d&rsquo;installation approprié en fonction de votre système d&rsquo;exploitation (Windows 32 bits, Windows 64 bits ou Mac).</li>
+<li>Ouvrez le programme d&rsquo;installation pour commencer le processus d&rsquo;installation.</li>
+</ol>
+<p><strong>Installation à partir du site Web de QGIS</strong> Si vous disposez d&rsquo;une connexion internet, vous pouvez télécharger directement à partir du site web de QGIS. En outre, il est fortement recommandé de télécharger le logiciel directement à partir du site web de QGIS chaque fois que cela est possible. Cela permet de s&rsquo;assurer que vous disposez de la version la plus récente du programme. Le fichier QGIS est supérieur à 300 Mo et son téléchargement peut prendre un certain temps, en fonction de votre connexion internet.</p>
+<p>Pour installer:</p>
+<ol>
+<li>Visitez: <a href="http://www.qgis.org/en/site/forusers/download.html">http://www.qgis.org/en/site/forusers/download.html</a></li>
+<li>Sélectionnez le système d&rsquo;exploitation approprié (Windows, Mac, Linux, etc.).</li>
+<li>Pour Windows - sélectionnez le système approprié (32 bits ou 64 bits).</li>
+<li>Cliquez sur le programme d&rsquo;installation de QGIS Standalone pour lancer le processus de téléchargement.</li>
+<li>Une fois installé, ouvrez le programme d&rsquo;installation pour commencer le processus d&rsquo;installation.</li>
+</ol>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image1.gif" alt=""></p>
+<p><strong>Considérations relatives à l&rsquo;installation de QGIS pour un grand nombre d&rsquo;individus</strong></p>
+<ul>
+<li>Tenir compte de la connectivité et de la capacité de l&rsquo;internet avant d&rsquo;installer QGIS pour un grand nombre de personnes via l&rsquo;internet. Il est fortement recommandé qu&rsquo;avant la formation/l&rsquo;atelier, les fichiers d&rsquo;installation soient téléchargés et chargés sur des clés USB pour une installation hors ligne.</li>
+<li>Lorsque vous téléchargez des installateurs hors ligne pour un grand groupe, veillez à télécharger un installateur pour tous les systèmes d&rsquo;exploitation. Remarque : il sera important de télécharger le programme d&rsquo;installation de Windows pour les DEUX systèmes 32 bits et 64 bits.</li>
+<li>Le processus de téléchargement et d&rsquo;installation prend souvent plus de temps que prévu, surtout si l&rsquo;on tient compte des compétences techniques et de la compatibilité du matériel. Il est donc recommandé de commencer le processus de téléchargement et d&rsquo;installation au début de la formation ou pendant les pauses afin de garantir un processus fluide et le respect de l&rsquo;agenda.</li>
+<li>Avant la formation/l&rsquo;atelier, demander aux participants de s&rsquo;assurer qu&rsquo;ils disposent de suffisamment d&rsquo;espace sur leur ordinateur (10 Go+) pour l&rsquo;installation de QGIS.</li>
+</ul>
+<h3 id="naviguer-sur-qgis">Naviguer sur QGIS</h3>
+<p>Pour ouvrir QGIS, ouvrez le dossier QGIS sur votre bureau. Dans ce dossier, vous trouverez QGIS Desktop. Double-cliquez pour ouvrir ce programme</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image2.gif" alt=""></p>
+<p><em>Le délai est long ? Pas de panique ! QGIS peut prendre quelques minutes pour se charger.</em></p>
+<p>Familiarisez-vous avec les différentes parties du navigateur QGIS, passez votre souris sur les icônes pour voir les noms des différents outils. Remarque : votre navigateur peut présenter des outils différents de ceux de l&rsquo;image ci-dessous.</p>
+<ol>
+<li><strong>Panneau de couches</strong> - C&rsquo;est ici que les couches (c&rsquo;est-à-dire l&rsquo;imagerie, les couches de bâtiments) seront listées. L&rsquo;ordre des couches dans le panneau a un impact sur l&rsquo;ordre des couches dans la carte - en d&rsquo;autres termes, la couche en haut de la liste apparaîtra comme la couche supérieure dans la carte.</li>
+<li>**Barres d’outils **- La plupart des outils que vous utiliserez régulièrement dans QGIS apparaîtront sous forme d&rsquo;icônes dans les barres d&rsquo;outils situées en haut de l&rsquo;écran, telles qu’enregistrer, zoomer, panoramique. Le nombre de barres d&rsquo;outils dépend des différentes fonctions que vous avez activées ou installées.</li>
+<li><strong>Canevas de la carte</strong> - Lorsque des couches sont ajoutées au panneau des couches, elles apparaissent dans le canevas de la carte.</li>
+<li><strong>Barre d’état</strong> - Les coordonnées, l&rsquo;échelle et la projection apparaissent dans la barre d&rsquo;état.</li>
+</ol>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image3.png" alt=""></p>
+<h3 id="ajout-des-données">Ajout des données</h3>
+<p>Passez votre souris sur les outils jusqu&rsquo;à ce que vous trouviez l&rsquo;outil &ldquo;Ajouter un calque vectoriel&rdquo;. Cliquez sur cette icône pour ouvrir la boîte de dialogue Ajouter des données vectorielles.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image4.gif" alt=""></p>
+<p>Cliquez sur le bouton &ldquo;&hellip;&rdquo; sous Source et naviguez jusqu&rsquo;à l&rsquo;emplacement de votre ordinateur où vous avez enregistré une couche vectorielle (par exemple .shp, .geojson) Sélectionnez le fichier et &ldquo;ouvrir&rdquo; .</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image5.gif" alt=""></p>
+<p>Pour plus d&rsquo;informations sur l&rsquo;exportation de données à partir d&rsquo;OSM, voir les instructions relatives à QuickOSM et aux outils d&rsquo;exportation.</p>
+<h3 id="styles-des-couches">Styles des couches</h3>
+<p>Les couches de données peuvent être stylisées de trois façons : en ouvrant l&rsquo;onglet des propriétés, en copiant d&rsquo;autres couches dans le projet et en important un style .qml.</p>
+<h4 id="sélection-manuelle-dun-style">Sélection manuelle d’un style</h4>
+<p>Cliquez avec le bouton droit de la souris sur la couche de points et sélectionnez &ldquo;Propriétés&rdquo;. (Autre solution : double-cliquer sur une couche dans le panneau des couches)</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image6.gif" alt=""></p>
+<p>Sélectionnez &ldquo;Style&rdquo; dans le menu de gauche. Cette fenêtre permet d&rsquo;effectuer de nombreux changements et styles. Pour effectuer une modification de style de base, sélectionnez &ldquo;Remplissage simple&rdquo; en haut de la fenêtre. Vous pouvez maintenant modifier la couleur de remplissage, le style de remplissage, la couleur du trait (contour), la largeur du trait (contour), le style du trait (contour) et d&rsquo;autres paramètres selon votre choix.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image7.gif" alt=""></p>
+<p>Sélectionnez &ldquo;Ok&rdquo; pour voir vos modifications dans le projet.</p>
+<p>Vous pouvez également choisir parmi différents styles prédéfinis dans la fenêtre de style principale.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image8.gif" alt=""></p>
+<h4 id="copier-les-styles-dune-autre-couche-de-données">Copier les styles d&rsquo;une autre couche de données</h4>
+<p>Cliquez avec le bouton droit de la souris sur l&rsquo;un des autres calques. Sélectionnez &ldquo;Style&rdquo;, puis &ldquo;Copier le style&rdquo; et &ldquo;Toutes les catégories de style&rdquo;.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image9.gif" alt=""></p>
+<p>Ensuite, cliquez avec le bouton droit de la souris sur le calque auquel vous souhaitez appliquer le style. Sélectionnez &ldquo;Style&rdquo;, puis &ldquo;Coller le style&rdquo; et &ldquo;Toutes les catégories de style&rdquo;. Les styles des couches de points ne peuvent être copiés et collés que sur d&rsquo;autres couches de points, les styles des couches de polygones ne peuvent être copiés et collés que sur d&rsquo;autres couches de polygones, etc.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image10.gif" alt=""></p>
+<h4 id="stylage-dun-calque-à-partir-dun-fichier-qml-importé">Stylage d&rsquo;un calque à partir d&rsquo;un fichier .qml importé</h4>
+<p>Un fichier .qml contient des informations sur les styles, y compris les étiquettes, exportées à partir d&rsquo;une couche. Ce fichier peut être sauvegardé et partagé pour garantir une utilisation cohérente de styles particuliers, par exemple, si une organisation utilise un schéma de couleurs et une police de caractères particuliers pour toutes ses cartes.</p>
+<p>Avant d&rsquo;importer un fichier .qml dans QGIS, vous devez recevoir ou télécharger un fichier .qml. Les fichiers .qml et .shp pratiques sont disponibles ici.</p>
+<ol>
+<li>Double-cliquez sur une couche dans le panneau des couches ou cliquez avec le bouton droit de la souris sur la couche de points et sélectionnez &ldquo;Propriétés&rdquo;.</li>
+<li>Sélectionnez &ldquo;Style&rdquo; dans le menu de gauche.</li>
+<li>Dans le coin inférieur gauche de la fenêtre Style, sélectionnez le bouton &ldquo;Style&rdquo;. Cliquez sur &ldquo;charger&rdquo; le style.</li>
+<li>Naviguez jusqu&rsquo;au fichier .qml enregistré sur votre ordinateur et sélectionnez-le.</li>
+<li>Cliquez sur &ldquo;Ok&rdquo;. Votre calque prendra en compte tous les choix de style enregistrés dans le fichier .qml.</li>
+</ol>
+<h3 id="installation-des-greffons">Installation des greffons</h3>
+<p><strong>Outils et compétences nécessaires</strong></p>
+<ul>
+<li>Connexion internet</li>
+<li>QGIS installé</li>
+<li>Navigué sur QGIS</li>
+<li>Pour QuickOSM : balisage OSM et modèles de données</li>
+</ul>
+<p><strong>Temps estimé</strong> : &lt;5 minutes, en fonction de la connexion internet</p>
+<p>Les greffons vous permettent d&rsquo;étendre les fonctionnalités de QGIS. Ces greffons peuvent permettre de télécharger directement des données d&rsquo;OSM vers QGIS ou d&rsquo;utiliser des outils d&rsquo;aide à l&rsquo;analyse.</p>
+<p>Dans cet exercice, nous allons installer et utiliser deux plugins: <strong>QuickMapServices</strong> et <strong>QuickOSM.</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Astuces:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>La gestion et l&rsquo;installation des plugins nécessitent une connexion internet. Si le gestionnaire de plugins ne fonctionne pas, vérifiez votre connexion internet. Considérations pour le travail avec de grands groupes et/ou dans des environnements à faible accès à Internet Plug-in Manager nécessite une connexion Internet constante pour télécharger les plugins. Il est fortement recommandé aux animateurs de formations et d&rsquo;ateliers de pré-télécharger les versions hors ligne pour les partager.</td>
+</tr>
+</tbody>
+</table>
+<p>Pour installer des plugins, cliquez sur l&rsquo;élément de menu Plugins ‣ Gérer et installer des plugins.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image11.gif" alt=""></p>
+<h4 id="quickmapservices">QuickMapServices</h4>
+<p>QuickMapServices vous permet d&rsquo;ajouter des cartes de base gratuites en ligne à vos cartes QGIS, y compris des cartes de base OSM.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Note:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QuickMapServices fournit des cartes de base en ligne. L&rsquo;utilisation de ces couches nécessite une connexion internet permanente.</td>
+</tr>
+</tbody>
+</table>
+<p>Dans la boîte de dialogue Plugin Manager qui s&rsquo;ouvre, recherchez le plugin QuickMapServices. Pour ce faire, cliquez sur la barre de recherche et tapez &lsquo;QuickMapServices&rsquo;, le plugin apparaîtra dans la liste. Cliquez ensuite sur le bouton Installer le plugin.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image12.gif" alt=""></p>
+<p>Une fois installé, QuickMapServices est accessible par le menu supérieur Web ‣ QuickMapServices.</p>
+<p>Dans le sous-menu QuickMapServices, il est possible d&rsquo;accéder à plusieurs types de cartes de base, notamment OSM.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image13.gif" alt=""></p>
+<p>Pour l&rsquo;imagerie aérienne, dans le sous-menu QuickMapServices, ouvrez &ldquo;Paramètres&rdquo;. Cliquez sur l&rsquo;onglet &ldquo;Plus de services&rdquo;. Sélectionnez ‘Get Contributed Pack’.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image14.gif" alt=""></p>
+<p>Retournez au sous-menu QuickMapServices. Il y a maintenant une longue liste d&rsquo;options pour les cartes de base, y compris Bing.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image15.gif" alt=""></p>
+<h4 id="quickosm">QuickOSM</h4>
+<p>QuickOSM vous permet de sélectionner et de télécharger des données OpenStreetMap pour les utiliser dans QGIS. QuickOSM fonctionne en extrayant des données spécifiques basées sur OSM à partir de balises (paires clé=valeur) et d&rsquo;une zone d&rsquo;intérêt.</p>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image16.gif" alt=""></p>
+<p>Une fois installé, QuickOSM est accessible dans le menu supérieur Vecteur ‣ QuickOSM &gt; QuickOSM</p>
+<table>
+<thead>
+<tr>
+<th><strong>Note:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lorsque vous téléchargez des données via QuickOSM, il est préférable d&rsquo;avoir une couche de carte de base centrée sur votre zone d&rsquo;intérêt (voir QuickMapServices) et/ou au moins une couche shapefile/geojson dans la zone d&rsquo;intérêt. Cela permet à QuickOSM de télécharger des données pour la bonne zone d&rsquo;intérêt.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image17.gif" alt=""></p>
+<p>Pour télécharger des données dans QuickOSM dans QGIS, vous devrez construire des requêtes pour télécharger les données exactes dont vous avez besoin. QuickOSM facilite la construction des requêtes, mais vous devrez toujours connaître les balises (c&rsquo;est-à-dire les clés et les valeurs) pour générer des données. Il vous sera plus facile de vous souvenir de ces balises au fur et à mesure que vous acquerrez de l&rsquo;expérience avec OSM - dans JOSM, QGIS et d&rsquo;autres programmes.</p>
+<p>Voici quelques exemples de balises couramment utilisées dans les requêtes OSM.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>amenity</strong></td>
+<td>school</td>
+</tr>
+<tr>
+<td></td>
+<td>place_of_worship</td>
+</tr>
+<tr>
+<td></td>
+<td>bar</td>
+</tr>
+<tr>
+<td></td>
+<td>bank</td>
+</tr>
+<tr>
+<td><strong>highway</strong></td>
+<td>primary</td>
+</tr>
+<tr>
+<td></td>
+<td>residential</td>
+</tr>
+<tr>
+<td></td>
+<td>path</td>
+</tr>
+<tr>
+<td><strong>office</strong></td>
+<td>goverment</td>
+</tr>
+<tr>
+<td></td>
+<td>ngo</td>
+</tr>
+<tr>
+<td><strong>shop</strong></td>
+<td>clothes</td>
+</tr>
+<tr>
+<td></td>
+<td>tailor</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Astuces:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Clé</strong>: Pour des ressources sur les clés et les valeurs à utiliser, voir le modèle de données et le balisage sur OSM.</td>
+</tr>
+<tr>
+<td><strong>Valeur</strong> : Il est possible d&rsquo;enchaîner plusieurs valeurs en les séparant par une virgule (par exemple : amenity=school,hospital). Pour télécharger toutes les valeurs possibles d&rsquo;une clé (c&rsquo;est-à-dire amenity=*), laissez le champ de la valeur vide.</td>
+</tr>
+<tr>
+<td><strong>Étendue</strong> : La sélection de l&rsquo;étendue permet de choisir la zone dans laquelle QuickOSM va rechercher et télécharger des données. Il y a plusieurs options que vous pouvez sélectionner lors du choix de l’étendue :</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Dans:</li>
+<li>Autour:</li>
+<li>Étendue du caneva:</li>
+<li>Étendue de la couche:</li>
+<li>Pas spatial:
+L&rsquo;extension du canevas de la carte convient le mieux lorsque vous ne disposez pas d&rsquo;un shapefile/geojson qui couvre votre zone d&rsquo;intérêt (c&rsquo;est-à-dire les limites administratives) et/ou une petite zone d&rsquo;intérêt. Pour baser votre étendue sur une couche, utilisez le menu déroulant à droite pour sélectionner la couche appropriée.|</li>
+</ul>
+<p><img src="../../../../images/7_data_use_analysis/02_7.1_Introduction_to_QGIS/image18.gif" alt=""></p>
+<p>Une fois que vous avez fourni votre clé et votre valeur, et que vous avez sélectionné votre étendue, cliquez sur ‘Exécuter la requête’.</p>
+<p><strong>Si votre requête ne marche pas :</strong></p>
+<ul>
+<li>Avez-vous utilisé des lettres majuscules dans vos clés et vos valeurs ? Assurez-vous que les clés et les valeurs sont en minuscules. Par exemplle: key=amenity value=school PAS key=Amenity et value=SCHOOL</li>
+<li>Avez-vous utilisé l&rsquo;orthographe correcte dans vos clés et valeurs ? Assurez-vous que les clés et les valeurs sont orthographiées EXACTEMENT comme elles le sont dans les guides OSM. Dans le cas contraire, QuickOSM recherchera la mauvaise balise. Par exemple : key=amenity NOT key=amenities</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>Note:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Une zone trop grande ou un téléchargement de données trop important peut surcharger l&rsquo;API ou être trop important pour une connexion internet lente. Si vous avez des difficultés à télécharger des données, essayez de réduire la zone ou de limiter le téléchargement de données en modifiant vos balises. Par exemple, le téléchargement de tous les bâtiments d&rsquo;Afrique, même de certaines villes, est trop important pour QuickOSM. Essayez plutôt de télécharger une zone plus petite ou de limiter le téléchargement à tous les building=school.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quiz-testez-vos-connaissances">[Quiz] Testez vos connaissances</h2>
+<ol>
+<li>
+<p>QGIS vous demande de faire un don à sa plateforme pour soutenir le développement et la communauté QGIS.</p>
+<p>a.Vrai</p>
+<p>b.Faux</p>
+</li>
+<li>
+<p>Quel est le plugin qui permet de télécharger des données OSM directement d&rsquo;OSM vers QGIS ?</p>
+<p>a.QuickLoad</p>
+<p>b.QuickMapServices</p>
+<p>c.OSM Download Manager</p>
+<p>d.QuickOSM</p>
+</li>
+<li>
+<p>Vous trouverez ci-dessous plusieurs façons de charger et de styliser les couches dans QGIS, à l&rsquo;exception des suivantes :</p>
+<p>a.Sélectionner manuellement un style</p>
+<p>b.Copier les styles d’un autre jeu de données</p>
+<p>c.Style de couche à partir de .qml</p>
+<p>d.Lire le style de la symbiologie ESRI</p>
+</li>
+</ol>
+<p><strong>Answer</strong>: 1. B| 2. D| 3. D</p>
+<h2 id="liste-de-contrôle-des-activités">Liste de contrôle des activités</h2>
+<p>Vous avez déjà compris ce qu&rsquo;est QGIS et comment QGIS peut vous aider à visualiser vos jeux de données, en particulier les jeux de données OSM. A la fin de cette section, vous devriez être capable de :</p>
+<ul>
+<li>Télécharger et installer QGIS</li>
+<li>Naviguer dans QGIS</li>
+<li>Ajouter des données dans QGIS</li>
+<li>Styliser une couche de données</li>
+<li>Installer des plugins supplémentaires</li>
+</ul>
+<h2 id="ressources-complémentaires">Ressources complémentaires</h2>
+<p><strong>Présentation:</strong></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1EA63n-jEjgEYVGzfdW8dispZpqvkbGDYx7ZtuayxZnQ/edit">Introduction à QGIS</a></li>
+</ul>
+<p><strong>Ressources:</strong></p>
+<ul>
+<li>Manuel de formation sur QGIS: <a href="https://docs.qgis.org/2.18/en/docs/training_manual/">https://docs.qgis.org/2.18/en/docs/training_manual/</a></li>
+<li>Tutoriels sur QGIS: <a href="https://www.qgistutorials.com/en/docs/learning_resources.html">https://www.qgistutorials.com/en/docs/learning_resources.html</a></li>
+<li>Plus d’instructions sur l’installation de QGIS: <a href="https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis">https://docs.qgis.org/testing/en/docs/user_manual/introduction/getting_started.html#installing-qgis</a></li>
+</ul>
+</div>
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+
+
+
+<a class="next-page" href="../../../../fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">LIRE LA SUITE</div>
+            <div class="next-title">7.2 Concevoir une carte et un atlas sur QGIS</div>
+    </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
+
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">SUR CETTE PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#objectifs-du-cours">Objectifs du cours</a></li>
+    <li><a href="#activités-dapprentissage">Activités d’apprentissage</a>
+      <ul>
+        <li><a href="#installation-de-qgis">Installation de QGIS</a></li>
+        <li><a href="#naviguer-sur-qgis">Naviguer sur QGIS</a></li>
+        <li><a href="#ajout-des-données">Ajout des données</a></li>
+        <li><a href="#styles-des-couches">Styles des couches</a></li>
+        <li><a href="#installation-des-greffons">Installation des greffons</a></li>
+      </ul>
+    </li>
+    <li><a href="#quiz-testez-vos-connaissances">[Quiz] Testez vos connaissances</a></li>
+    <li><a href="#liste-de-contrôle-des-activités">Liste de contrôle des activités</a></li>
+    <li><a href="#ressources-complémentaires">Ressources complémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/toolbox/edit/master/content/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Modifier cette page sur github</a>
+    <a 
+    
+    href="../../../../pdfs/fr/7_1_introduction_to_qgis.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Télécharger cette page</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script>
+
+
+<div id="optout-form" ></div>
+<script type="application/javascript">var site_id = "16"</script>
+<script type="application/javascript" src="https://cdn.hotosm.org/tracking-v3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 7 - Data Use and Data Analysis on HOT Toolbox</title>
+    <link>/fr/pages/7_data_use_and_data_analysis/</link>
+    <description>Recent content in Chapter 7 - Data Use and Data Analysis on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/7_data_use_and_data_analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.0 Utilisation et analyse des données</title>
+      <link>/fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</guid>
+      <description>Aperçu général Dans cette section, les chefs de projet trouveront des outils et des ressources sur la façon d&amp;rsquo;utiliser les données OSM pour créer des produits cartographiques destinés à la prise de décision, notamment :
+ Un guide étape par étape pour démarrer avec QGIS, y compris des diapositives de présentation. Un guide étape par étape pour la création de cartes et d&amp;rsquo;atlas dans QGIS. Des guides et ressources détaillés pour l&amp;rsquo;utilisation de données dans des cartes web et interactives   Il existe une poignée d&amp;rsquo;outils gratuits d&amp;rsquo;utilisation et d&amp;rsquo;analyse des données permettant d&amp;rsquo;utiliser les données générées sur le terrain, d&amp;rsquo;extraire et d&amp;rsquo;utiliser les données OSM, ou de combiner des ensembles de données pour créer des cartes, des atlas et d&amp;rsquo;autres éléments visuels pour la prise de décision.</description>
+    </item>
+    
+    <item>
+      <title>7.1 Introduction à QGIS</title>
+      <link>/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</guid>
+      <description>Objectifs du cours Cette section couvre les compétences de base nécessaires à l&amp;rsquo;utilisation de QGIS. À la fin de cette section, vous devriez être en mesure de:
+ Apprendre à installer QGIS Être capable de naviguer dans QGIS Comprendre comment ajouter des données dans QGIS Comprendre comment styliser les couches dans QGIS Apprendre à installer les plugins Quick OSM et QuickMapServices dans QGGIS   Activités d’apprentissage QGIS est un programme de système d&amp;rsquo;information géographique (SIG) libre et gratuit.</description>
+    </item>
+    
+    <item>
+      <title>7.2 Concevoir une carte et un atlas sur QGIS</title>
+      <link>/fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</guid>
+      <description>Objectifs du cours Dans cette section, vous devriez être en mesure de :
+ Comprendre comment charger l&amp;rsquo;ensemble de données. Comprendre comment symboliser le jeu de données Comprendre comment créer une carte Comprendre comment créer un atlas   Activités d’apprentissage La création d&amp;rsquo;un atlas dans QGIS permet aux utilisateurs de créer une série de cartes pour des régions géographiques à l&amp;rsquo;aide d&amp;rsquo;un modèle défini. Ce modèle d&amp;rsquo;atlas permet de générer un grand nombre de cartes pour des zones d&amp;rsquo;intérêt, telles que des districts, des quartiers et d&amp;rsquo;autres zones administratives, avec le même style et la même mise en page.</description>
+    </item>
+    
+    <item>
+      <title>7.3 Créer une carte Web et interactive</title>
+      <link>/fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</guid>
+      <description>Objectifs du cours Cette section vous explique comment visualiser les données OSM sous la forme d&amp;rsquo;une carte web et interactive. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre comment utiliser overpass-turbo pour visualiser les données OSM sous forme de carte interactive. Comprendre comment utiliser uMap pour visualiser des données spatiales. Comprendre comment relier les données de overpass-turbo à uMap   Activités d’apprentissage Les cartes interactives sont considérées comme l&amp;rsquo;équivalent moderne de la communication visuelle avec des cartes.</description>
+    </item>
+    
+  </channel>
+</rss>

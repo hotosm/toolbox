@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 8 - Use-case in Field Mapping Management and Open Data Usage on HOT Toolbox</title>
+    <link>/pages/8_use_case/</link>
+    <description>Recent content in Chapter 8 - Use-case in Field Mapping Management and Open Data Usage on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/8_use_case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.0. Use case in Field Mapping Management and Open Data Usage</title>
+      <link>/pages/8_use_case/8_0_overview_use_case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/8_use_case/8_0_overview_use_case/</guid>
+      <description>Overview In this section, Project Managers will find example use case from HOT projects on how the processes, tools, and workflows contained in previous sections of this Toolbox have been applied to real field projects. Project Managers can use these example workflows to identify a project similar in scope or goal to their own and identify which tools and processes may be needed for their own project. Each workflow example contains:</description>
+    </item>
+    
+    <item>
+      <title>8.1. Mapping POI with ODK &#43; KoboToolbox Server</title>
+      <link>/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</guid>
+      <description>The following workflow showcases the tools and processes used in a simple field mapping project during which HOT trained local NGOs to integrate mapping into existing programs using OpenDataKit and KoboToolBox Server.
+ Learning Activities Project Overview Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa
+East Africa (and Uganda specifically) continues to be the center of one of the world’s largest and fastest growing refugee crises.</description>
+    </item>
+    
+    <item>
+      <title>8.2. Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)</title>
+      <link>/pages/8_use_case/8_2_post_earthquake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/8_use_case/8_2_post_earthquake/</guid>
+      <description>Course Objectives This section provides:
+ An overview on the relevance on the use of OSM data for damage assessments post eathquake Deep dive into data models and acquisition of datasets Step-by-step instructions for creating damage assessments using OSM data on GIS   Learning Activities Overview Performing a building damage assessment is crucial after a natural disaster to prevent further casualties and identify safe locations for temporary shelters. The assessment can aid in response and recovery efforts by prioritizing areas with the most damage, and provide data to evaluate property damage and estimate repair costs.</description>
+    </item>
+    
+  </channel>
+</rss>

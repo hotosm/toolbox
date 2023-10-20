@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Use and Analysis on HOT Toolbox</title>
+    <link>/es/pages/7_data_use_and_data_analysis/</link>
+    <description>Recent content in Data Use and Analysis on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/7_data_use_and_data_analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.0 Utilización y análisis de datos</title>
+      <link>/es/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</guid>
+      <description>En esta sección, los Directores de Proyecto encontrarán herramientas y recursos sobre cómo utilizar los datos OSM para crear productos cartográficos para la toma de decisiones, incluyendo:
+ Una guía paso a paso para empezar con QGIS, incluyendo diapositivas de presentación. Una guía paso a paso para crear mapas y atlas en QGIS Guías detalladas y recursos para utilizar los datos en mapas web e interactivos.   Hay un puñado de herramientas gratuitas de Uso y Análisis de Datos disponibles para utilizar sus datos generados en campo, extraer y utilizar datos OSM, o combinar conjuntos de datos para crear mapas, atlas y otros elementos visuales para la toma de decisiones.</description>
+    </item>
+    
+    <item>
+      <title>7.1 Introducción a QGIS</title>
+      <link>/es/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección cubre las habilidades básicas necesarias para utilizar QGIS. Esto incluye guías paso a paso sobre:
+ Instalación de QGIS Navegar por QGIS Añadir datos Estilizar capas Instalación de plugins, incluyendo QuickOSM y QuickMapServices  Visión general QGIS (o Quantum GIS) es un programa de sistema de información geográfica (SIG) gratuito y de código abierto.</description>
+    </item>
+    
+    <item>
+      <title>7.2 Creación de mapas y atlas en QGIS</title>
+      <link>/es/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección cubre las habilidades necesarias para crear mapas y atlas en QGIS:
+ Preparación de datos de mapas Creación de un diseño de mapa Navegación y creación de atlas Creación de plantillas de mapas y atlas  Visión general La creación de un atlas en QGIS permite a los usuarios crear una serie de mapas para regiones geográficas con una plantilla establecida.</description>
+    </item>
+    
+    <item>
+      <title>7.3 Web y mapas interactivos</title>
+      <link>/es/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de las herramientas de mapas interactivos en línea para visualizar datos. Instrucciones paso a paso para crear mapas interactivos con dos herramientas: uMap y Overpass Turbo  Descripción general Los mapas interactivos se consideran el equivalente moderno de la comunicación visual con mapas. Se trata de la creación y el estudio de la representación visual de datos (mapas).</description>
+    </item>
+    
+  </channel>
+</rss>

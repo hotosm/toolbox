@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 8 - Use-case in Field Mapping Management and Open Data Usage on HOT Toolbox</title>
+    <link>/fr/pages/8_use_case/</link>
+    <description>Recent content in Chapter 8 - Use-case in Field Mapping Management and Open Data Usage on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/8_use_case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.0 Cas d&#39;utilisation dans la gestion de la cartographie de terrain et l&#39;utilisation des données ouvertes</title>
+      <link>/fr/pages/8_use_case/8_0_overview_use_case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/8_use_case/8_0_overview_use_case/</guid>
+      <description>Overview Dans cette section, les gestionnaires de projet trouveront des exemples de cas d&amp;rsquo;utilisation de projets HOT sur la façon dont les processus, les outils et les flux de travail contenus dans les sections précédentes de cette boîte à outils ont été appliqués à des projets réels sur le terrain. Les gestionnaires de projet peuvent utiliser ces exemples de flux de travail pour identifier un projet dont la portée ou l&amp;rsquo;objectif est similaire au leur et identifier les outils et les processus qui pourraient être nécessaires pour leur propre projet.</description>
+    </item>
+    
+    <item>
+      <title>8.1. Cartographier les POI avec ODK &#43; KoboToolbox Server</title>
+      <link>/fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</guid>
+      <description>Le flux de travail suivant présente les outils et les processus utilisés dans un simple projet de cartographie de terrain au cours duquel HOT a formé des ONG locales à intégrer la cartographie dans des programmes existants en utilisant OpenDataKit et KoboToolBox Server.
+ Activités d’apprentissage Aperçu général du projet Combler les lacunes en matière de développement et d&amp;rsquo;urgence pour la crise des réfugiés en Afrique de l&amp;rsquo;Est
+L&amp;rsquo;Afrique de l&amp;rsquo;Est (et l&amp;rsquo;Ouganda en particulier) continue d&amp;rsquo;être au centre de l&amp;rsquo;une des crises de réfugiés les plus importantes et les plus rapides au monde.</description>
+    </item>
+    
+    <item>
+      <title>8.2. Évaluation des dommages subis par les bâtiments après le tremblement de terre à l&#39;aide d&#39;OpenStreetMap (OSM)</title>
+      <link>/fr/pages/8_use_case/8_2_post_earthquake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/8_use_case/8_2_post_earthquake/</guid>
+      <description>Objectifs du cours Cette section fournit :
+ Un aperçu de la pertinence de l&amp;rsquo;utilisation des données OSM pour l&amp;rsquo;évaluation des dommages après un tremblement de terre. Une plongée approfondie dans les modèles de données et l&amp;rsquo;acquisition d&amp;rsquo;ensembles de données. Des instructions étape par étape pour créer des évaluations des dommages en utilisant les données OSM sur le SIG   Activités d’apprentissage Aperçu général Après une catastrophe naturelle, il est essentiel de procéder à une évaluation des dommages subis par les bâtiments afin d&amp;rsquo;éviter de nouvelles victimes et d&amp;rsquo;identifier des lieux sûrs pour des abris temporaires.</description>
+    </item>
+    
+  </channel>
+</rss>

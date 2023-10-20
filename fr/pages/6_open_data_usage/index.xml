@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 6 - Downloading OSM Data on HOT Toolbox</title>
+    <link>/fr/pages/6_open_data_usage/</link>
+    <description>Recent content in Chapter 6 - Downloading OSM Data on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/6_open_data_usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.0 Téléchargement_des_données_OSM.md</title>
+      <link>/fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</guid>
+      <description>Aperçu général Dans cette section, les chefs de projet trouveront des ressources sur la façon d&amp;rsquo;exporter des données OpenStreetMap, notamment :
+ Une vue d&amp;rsquo;ensemble des outils d&amp;rsquo;exportation de données, y compris des diapositives de présentation. Des guides étape par étape pour l&amp;rsquo;exportation de données avec l&amp;rsquo;outil d&amp;rsquo;exportation HOT et HDX   Les outils d&amp;rsquo;exportation de données permettent aux utilisateurs de télécharger les données OSM pour les utiliser dans des programmes d&amp;rsquo;analyse tels que QGIS.</description>
+    </item>
+    
+    <item>
+      <title>6.1 Outil d&#39;exportation de HOT</title>
+      <link>/fr/pages/6_open_data_usage/6_1_hot_export_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/6_open_data_usage/6_1_hot_export_tools/</guid>
+      <description>Objectifs du cours Cette section explique comment utiliser l&amp;rsquo;outil d&amp;rsquo;exportation de HOT pour télécharger les données OSM dans la région de votre choix. À la fin de cette section, vous serez en mesure de :
+ Comprendre la vue d&amp;rsquo;ensemble de l&amp;rsquo;outil d&amp;rsquo;exportation de HOT Comprendre comment exporter des données OSM à l&amp;rsquo;aide de l&amp;rsquo;outil d&amp;rsquo;exportation HOT   Activités d’apprentissage L d’Exportation de HOT est un service ouvert qui permet de créer des extraits personnalisés de données OSM actualisées dans différents formats de fichiers, tels que ESRI shapefiles (.</description>
+    </item>
+    
+    <item>
+      <title>6.2 Humanitarian Data Exchange (HDX)</title>
+      <link>/fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/6_open_data_usage/6_2_humanitarian_data_exchange/</guid>
+      <description>Objectifs du cours À la fin de cette section, vous devriez être en mesure de :
+ Comprendre le concept de plateforme d&amp;rsquo;échange de données humanitaires. Apprendre étape par étape à télécharger des données à l&amp;rsquo;aide de HDX   Activités d’apprentissage Aperçu général du HDX Humanitarian Data Exchange (HDX) est une plateforme de données pour le stockage et le partage de données humanitaires. La plateforme est gérée par le Centre de données humanitaires d&amp;rsquo;OCHA.</description>
+    </item>
+    
+  </channel>
+</rss>

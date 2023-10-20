@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 3 - Participatory Mapping with OSM on HOT Toolbox</title>
+    <link>/fr/pages/3_participatory_osm/</link>
+    <description>Recent content in Chapter 3 - Participatory Mapping with OSM on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/3_participatory_osm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.0. Cartographie Participative avec OpenStreetMap</title>
+      <link>/fr/pages/3_participatory_osm/3_0_overview_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_0_overview_osm/</guid>
+      <description>Aperçu Général Dans cette section, les chefs de projet trouveront des outils et des ressources pour diriger et mettre en œuvre des activités d&amp;rsquo;édition organisée d&amp;rsquo;OpenStreetMap, notamment : Des présentations et des guides étape par étape pour présenter aux équipes OpenStreetMap et les outils d&amp;rsquo;édition tels que le gestionnaire de tâches HOT.
+ Des ressources pour déterminer si votre projet doit répondre aux directives d&amp;rsquo;édition organisée d&amp;rsquo;OSM. Des guides détaillés et des activités de formation pour les équipes de numérisation à utiliser lors de la validation et du téléchargement des données   La numérisation, ou cartographie à distance, est le processus qui consiste à tracer des caractéristiques telles que des bâtiments et des routes à partir d&amp;rsquo;images aériennes ou satellitaires afin de créer des données cartographiques.</description>
+    </item>
+    
+    <item>
+      <title>3.1. Introduction à OpenStreetMap</title>
+      <link>/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</guid>
+      <description>Objectifs du cours Cette section présente une vue d&amp;rsquo;ensemble d&amp;rsquo;OpenStreetMap et explique comment contribuer à OSM. À la fin de cette section, vous devriez être :
+ Être capable de donner un cours d’introduction à OpenStreetMap. Apprendre à créer un compte dans OpenStreetMap   Activités d’apprentissage Aperçu général d’OpenStreetMap OpenStreetMap est un projet collaboratif visant à créer une carte du monde librement modifiable et est au cœur des activités cartographiques de HOT.</description>
+    </item>
+    
+    <item>
+      <title>3.2. Edition Organisée sur OSM</title>
+      <link>/fr/pages/3_participatory_osm/3_2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_2_organized_osm_editing/</guid>
+      <description>Objectifs du cours Cette section vous informera sur la manière d&amp;rsquo;organiser les activités d&amp;rsquo;édition d&amp;rsquo;OSM. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre les considérations relatives à la gestion et à l&amp;rsquo;approvisionnement en cartographes pour une édition organisée. Apprendre les directives et la conformité de l&amp;rsquo;édition organisée d&amp;rsquo;OSM. Être en mesure de mettre en place un système d’orientation pour l’édition organisée d’OSM   Activités d’apprentissage Avant de commencer tout projet de cartographie, il est important d&amp;rsquo;évaluer et, si nécessaire, de mettre à jour la carte de base d&amp;rsquo;OpenStreetMap par le biais de la cartographie à distance.</description>
+    </item>
+    
+    <item>
+      <title>3.3. Edition Organisée sur OSM</title>
+      <link>/fr/pages/3_participatory_osm/3_3_overview_id_and_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_3_overview_id_and_josm/</guid>
+      <description>Objectifs du cours Cette section est conçue pour aider les gestionnaires de projets et les autres personnes qui animent des formations et des ateliers. Si vous souhaitez apprendre à cartographier avec OpenStreetMap en utilisant iD Editor ou JOSM, veuillez consulter le site suivant LearnOSM.org.
+À la fin de cette section, vous serez en mesure de :
+ Comprendre la différence entre iD editor et JOSM. Apprendre à enseigner l&amp;rsquo;utilisation de JOSM ou d&amp;rsquo;iD editor.</description>
+    </item>
+    
+    <item>
+      <title>3.4. Travailler avec le Gestionnaire de Tâches</title>
+      <link>/fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_4_working_with_tasking_manager/</guid>
+      <description>Objectifs du cours Les documents suivants sont conçus pour aider les gestionnaires de projets et les autres personnes qui animent des formations et des ateliers. Si vous souhaitez apprendre à cartographier avec OpenStreetMap, vous pouvez consulter le site suivant LearnOSM.org. À la fin de ce cours, vous devriez être en mesure de :
+ Comprendre comment naviguer et utiliser le gestionnaire de tâches. Comprendre comment apprendre aux gens à utiliser le gestionnaire de tâches pour cartographier avec OSM.</description>
+    </item>
+    
+    <item>
+      <title>3.5. Résoudre les conflits dans JOSM</title>
+      <link>/fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</guid>
+      <description>Objectifs du cours Cette section fournit :
+ Une vue d&amp;rsquo;ensemble des conflits de données dans OpenStreetMap. Des instructions étape par étape pour résoudre les conflits de données dans le JOSM. Des conseils sur la prévention et la gestion des conflits de données.   Activités d’apprentissage D&amp;rsquo;autres contributeurs peuvent avoir édité les mêmes éléments que vous dans le JOSM. Il se peut également que des données différentes aient été collectées sur le terrain pour les mêmes éléments.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 4 - Field Mapping Management on HOT Toolbox</title>
+    <link>/pages/4_field-mapping-management/</link>
+    <description>Recent content in Chapter 4 - Field Mapping Management on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/4_field-mapping-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.0. Introduction to Field Mapping Management</title>
+      <link>/pages/4_field-mapping-management/4_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_0_overview/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
+ Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
+    </item>
+    
+    <item>
+      <title>4.1 Creating Mapping Section using QGIS</title>
+      <link>/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to create mapping section using QGIS Understand how to load mapping section in OSMAnd   Learning Activities Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
+    </item>
+    
+    <item>
+      <title>4.2. Using FMTM for Field Data Collection</title>
+      <link>/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</guid>
+      <description>Course Objectives This section will covers on how the field surveyor uses Field Mapping Tasking Manager during their field mapping activities. By the end of this section, you should be able to:
+ Learn how to navigate in FMTM site to download the QR Code Learn how to navigate within FMTM project   Learning Activities Field Mapping Tasking Manager (FMTM) is a platform that helps project managers to organize and manage mapping tasks.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Using ODK Collect</title>
+      <link>/pages/4_field-mapping-management/4_3_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_3_using_odk_collect/</guid>
+      <description>Course Objectives By the end of this section, you should be able to:
+ Understand to setup ODK Collect for the first time Able to operate ODK Collect for field data collection activities   Learning Activities Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
+    </item>
+    
+    <item>
+      <title>4.4. Using OSMTracker</title>
+      <link>/pages/4_field-mapping-management/4_4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_4_using_osm_tracker/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to setup OSMTracker for your phone Understand basic operation of OSMTracker   Learning Activities OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoints and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 5 - Data Quality Assurance on HOT Toolbox</title>
+    <link>/fr/pages/5_data_quality_assurance/</link>
+    <description>Recent content in Chapter 5 - Data Quality Assurance on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/5_data_quality_assurance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5.0. Assurance Qualité des Données</title>
+      <link>/fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/</guid>
+      <description>Aperçu général
+Dans cette section, les gestionnaires de projet trouveront des outils et des ressources pour nettoyer et télécharger les données collectées sur le terrain vers OpenStreetMap et gérer la qualité des données, notamment :
+ Des guides étape par étape validant les données dans le JOSM pour le téléchargement vers OpenStreetMap. Des ressources pour les outils de qualité des données à utiliser après le téléchargement vers OpenStreetMap, y compris des présentations.</description>
+    </item>
+    
+    <item>
+      <title>5.1 Outils d_assurance et de contrôle qualité</title>
+      <link>/fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</guid>
+      <description>Objectifs du cours Cette section fournit des outils pour mener à bien l&amp;rsquo;assurance qualité pendant les activités de cartographie sur le terrain. À la fin de cette section, vous devriez être en mesure de :
+ Déterminer l&amp;rsquo;outil d&amp;rsquo;assurance qualité que vous allez utiliser pour soutenir le projet. Comprendre comment utiliser OSMCha pour vérifier la qualité des données Comprendre comment utiliser OSMose pour contrôler plusieurs problèmes de qualité au sein d’OSM   Activités d’apprentissage L’assurance et le contrôle qualité est le processus par lequel les cartographes, et les contributeurs d&amp;rsquo;OpenStreetMap en général, vérifient les données pour s&amp;rsquo;assurer que toutes les informations téléchargées sur OSM répondent à des normes d&amp;rsquo;utilisation élevées et pour prévenir le vandalisme.</description>
+    </item>
+    
+    <item>
+      <title>5.2 Validation avec JOSM</title>
+      <link>/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/5_data_quality_assurance/5.2._validating_with_josm/</guid>
+      <description>Objectifs du cours Cette section fournit :
+ Une vue d&amp;rsquo;ensemble de la validation dans le JOSM, y compris des diapositives de présentation. Des instructions étape par étape pour pratiquer la validation dans le JOSM   Activités d’apprentissage Aperçu général de la validation La validation est un processus qui consiste à vérifier la qualité des données (dans ce cas, la qualité des données cartographiques) en termes d&amp;rsquo;exactitude, de cohérence, d&amp;rsquo;exhaustivité et d&amp;rsquo;anomalie.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 5 - Data Quality Assurance on HOT Toolbox</title>
+    <link>/pages/5_data_quality_assurance/</link>
+    <description>Recent content in Chapter 5 - Data Quality Assurance on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/5_data_quality_assurance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5.0. Data Quality Assurance</title>
+      <link>/pages/5_data_quality_assurance/5.0_data_quality_assurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/5_data_quality_assurance/5.0_data_quality_assurance/</guid>
+      <description>Overview
+In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
+ Step-by-step guides validating data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
+    </item>
+    
+    <item>
+      <title>5.1. Quality Assurance and Quality Control Tools</title>
+      <link>/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</guid>
+      <description>Course Objectives This section provides tools to conduct quality assurance during the field mapping activities. By the end of this section, you should be able to:
+ Determine which quality assurance tool that you are going to use to support the project Understand how to use OSMCha to checking data quality Understand how to use Osmose to monitor multiple quality issue within OSM   Learning Activities Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.</description>
+    </item>
+    
+    <item>
+      <title>5.2. Validating with JOSM</title>
+      <link>/pages/5_data_quality_assurance/5.2._validating_with_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/5_data_quality_assurance/5.2._validating_with_josm/</guid>
+      <description>Course Objectives This section provides:
+ An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM   Learning Activities Overview of Validation Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. There are lots of aspects that we need to consider during validation, namely accuracy, consistency, completeness, and anomaly detection.</description>
+    </item>
+    
+  </channel>
+</rss>

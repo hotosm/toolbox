@@ -7,393 +7,386 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1.0 Introduction to Designing a Mapping Project</title>
-      <link>/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</link>
+      <title>1.0. Introduction to Designing a Field Mapping Project</title>
+      <link>/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/running-a-mapping-project/1.0-overview-designing-coordinating/</guid>
-      <description>In this section, Project Managers will find guides, tools and resources to design a mapping project including:
+      <guid>/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</guid>
+      <description>Overview In this section, Project Managers will find guides, tools and resources to design a mapping project including:
  Considerations and question guides for determining project factors such as scope, scale, and logistics; Resources for selecting hardware; Guides and materials for planning workshops/trainings.    1.1 Defining Needs and Requirements poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.</description>
     </item>
     
     <item>
       <title>1.1 Defining Needs and Requirements</title>
-      <link>/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</link>
+      <link>/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/</guid>
-      <description>This section includes guiding questions and considerations that Project Managers and OSM communities should take into account when beginning a project including:
- Factors to consider when deciding what to map; Contexts that could impact planning and preparation; Considerations to make for involving stakeholders, communities, and how to select your team.  Overview When starting a mapping project, it is important to define the scope of the project and understand the larger context in which the data is needed, this includes understanding how to work with local stakeholders and how the data will impact them.</description>
+      <guid>/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</guid>
+      <description>Course Objectives This section includes guiding questions and considerations that Project Managers and OSM communities should take into account when beginning a project, by the end of this section, you should be able to:
+ Understand factors to consider when deciding needs and requirement Learn how to build the team Learn how to collaborate with community   Learning Activities When starting a mapping project, it is important to define the scope of the project and understand the larger context in which the data is needed, this includes understanding how to work with local stakeholders and how the data will impact them.</description>
     </item>
     
     <item>
-      <title>1.2 Safety, Security, and Logistics</title>
-      <link>/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</link>
+      <title>1.2 Safety and Security</title>
+      <link>/pages/1-running-a-mapping-project/0102_safety_and_security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/</guid>
-      <description>In this section, Project Managers will find questions and considerations on assessing needs for safety, security, and logistics for field operations.  Overview For projects requiring field work, you will need to take extra steps to ensure that logistics and security are effectively handled. The following are topics that project managers should consider and have plans for before entering the field. Work with donors, local partners, and stakeholders to fill information gaps and meet these needs.</description>
+      <guid>/pages/1-running-a-mapping-project/0102_safety_and_security/</guid>
+      <description>Course Objectives In this section, Project Managers will find considerations for assessing the needs for safety and security for field operations. As a project manager, you should be able to:
+ Understand the topics to consider when discussing security plans   Learning Activities Safety and Security In accordance with the first protection principle – do no harm – organizations must prioritize safety, especially of refugee populations. In non-camp situations one of the key goals is expanding the amount of protection space available.</description>
     </item>
     
     <item>
-      <title>1.3 Selecting Hardware</title>
-      <link>/pages/running-a-mapping-project/1.3-hardware/</link>
+      <title>1.3 Hardware Selection</title>
+      <link>/pages/1-running-a-mapping-project/0103_hardware_selection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/running-a-mapping-project/1.3-hardware/</guid>
-      <description>In this section, Project Managers will find information on selecting the appropriate hardware for conducting a mapping project including:
- Determining what hardware may or may not be needed. Specifications and recommended models for mobile devices, tablets, and computers based on project needs. Guides on additional equipment that may be needed such as power banks and hard drives.  Overview Hardware encompasses all physical assets related to technology, computers, and electronics needed for a project.</description>
+      <guid>/pages/1-running-a-mapping-project/0103_hardware_selection/</guid>
+      <description>Course Objectives In this section, you will learn and find information on selecting the appropriate hardware to support the mapping project. By the end of this, you should be able to:
+ Determining what hardware may or may not be needed Understand the minimum hardware specifications based on the project needs Understand additional document(s) that may be required to record the hardwares   Learning Activities Hardware Considerations Hardware encompasses all physical assets related to technology, computers, and electronics needed for a project.</description>
     </item>
     
     <item>
-      <title>1.4 Trainings and Workshops</title>
-      <link>/pages/running-a-mapping-project/1.4-trainings-and-workshops/</link>
+      <title>1.4 On-site Training and Workshop</title>
+      <link>/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/running-a-mapping-project/1.4-trainings-and-workshops/</guid>
-      <description>In this section, Project Managers will find information on considerations and resources to use while planning trainings and workshops for mapping and OSM, including:
- Guidance on training requirements Examples and resources for creating training agendas Considerations for presentations and other provided materials.  Overview Most mapping projects will involve trainings or workshops of some kind, whether training field mappers to use OpenDataKit, training local government stakeholders how to export and use OSM data, or training students in QGIS for creating maps.</description>
+      <guid>/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</guid>
+      <description>Course Objectives In this section, Project Managers will find information on considerations and resources to use while planning on-site trainings and workshops for mapping and OSM, including:
+ Understanding on how to plan effective training and workshops Learn examples and resources for creating training agendas   Learning Activities Most mapping projects will involve trainings or workshops of some kind, whether training field mappers to use OpenDataKit, training local government stakeholders how to export and use OSM data, or training students in QGIS for creating maps.</description>
     </item>
     
     <item>
-      <title>2.0 Introduction to Digitization and Editing in OSM</title>
-      <link>/pages/digitization-and-editing/2.0-digitization-and-editing/</link>
+      <title>2.0 Introduction to Technical Set-up for Field Mapping</title>
+      <link>/pages/2_field_mapping_prep/2_0_overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/digitization-and-editing/2.0-digitization-and-editing/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:
- Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager. Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
-    </item>
-    
-    <item>
-      <title>2.1 Introduction to OpenStreetMap</title>
-      <link>/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/</guid>
-      <description>This section provides:
- An overview of OpenStreetMap, including presentation slides Step-by-step instructions for creating OpenStreetMap accounts Step-by-step instructions for using and navigating OSM Considerations for training large groups  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
-Overview OpenStreetMap is a collaborative project to create a free editable world map and is at the core of HOT&amp;rsquo;s mapping activities.</description>
-    </item>
-    
-    <item>
-      <title>2.2 Organized OSM Editing</title>
-      <link>/pages/digitization-and-editing/2.2_organized_osm_editing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.2_organized_osm_editing/</guid>
-      <description>This section provides:
- Considerations for managing and sourcing mappers for an organized editing project Overview of the OSM Organized Editing Guidelines and compliance Step-by-step guide for complying with the OSM Organized Editing Guidelines   Overview Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping. This remote mapping process helps ensure that the buildings and roads used during a field mapping phase are up to date, improving the quality and effectiveness of field mapping efforts.</description>
-    </item>
-    
-    <item>
-      <title>2.3 Working with the HOT Tasking Manager</title>
-      <link>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.3-working-with-the-hot-tasking-manager/</guid>
-      <description>This section provides:
- An overview of the HOT Tasking Manager, including presentation slides Step-by-step instructions for getting started with the HOT Tasking Manager  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
- Overview The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&amp;rsquo;s collaborative mapping process in OpenStreetMap.</description>
-    </item>
-    
-    <item>
-      <title>2.4 Editing with iD and JOSM</title>
-      <link>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.4-editing-with-id-and-josm/</guid>
-      <description>This section provides:
- A comparison of OpenStreetMap editing tools, JOSM and iD Editor An overview of iD Editor, including presentation slides An overview of JOSM, including presentation slides  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
- Overview There are several ways to edit in OpenStreetMap.</description>
-    </item>
-    
-    <item>
-      <title>2.5 Validating with JOSM</title>
-      <link>/pages/digitization-and-editing/2.5_validating_with_josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.5_validating_with_josm/</guid>
-      <description>This section provides:
- An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
-Overview Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly.</description>
-    </item>
-    
-    <item>
-      <title>2.6 Resolving conflicts in JOSM</title>
-      <link>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/digitization-and-editing/2.6-data-conflict-in-josm/</guid>
-      <description>This section provides:
- An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to validate OSM data in JOSM.
- Overview Other contributors may have edited the same features as you in JOSM.</description>
-    </item>
-    
-    <item>
-      <title>3.0 Introduction to Technical Set-up for Field Mapping</title>
-      <link>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/data-collection-and-field-mapping/3.0_technical_set-up/</guid>
+      <guid>/pages/2_field_mapping_prep/2_0_overview/</guid>
       <description>In this section, Project Managers will find tools and resources to determine which data collection tools are appropriate and how to navigate the technical steps needed to prepare for a field mapping project including:
- Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as OpenMapKit   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
+ Presentations and step-by-step guides for developing a data model suitable for uploading to OpenStreetMap Resources for determining the correct mobile data collection, navigation applications, and server options for your project Detailed guides and resources for setting up applications such as ODK Collect   Any field project will require some degree of Field Mapping Technical Set-Up regardless of the complexity of the data collection workflow.</description>
     </item>
     
     <item>
-      <title>3.1 Designing The Data Model</title>
-      <link>/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</link>
+      <title>2.1 Designing the Data Model</title>
+      <link>/pages/2_field_mapping_prep/2_1_designing_the_data_model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.1-designing-the-data-model/</guid>
-      <description>This section provides:
- An overview of data models and OpenStreetMap tagging, including presentation slides Step-by-step instructions for tools to help build your data model Step-by-step instructions for creating your data model  Overview When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features. A data model defines what features are surveyed or mapped and what attributes are collected for each feature.</description>
+      <guid>/pages/2_field_mapping_prep/2_1_designing_the_data_model/</guid>
+      <description>Course Objectives In this section you should be able to:
+ Understand the concept of data structure in OSM Learn to use OSM wiki Learn to use TagInfo Understand the data model workflow Understand to create the data model Learn to use HOT data models   Learning Activities When beginning a mapping project, a data model will need to be created in order to determine what features are mapped and the details collected for each of those features.</description>
     </item>
     
     <item>
-      <title>3.2 Data collection applications</title>
-      <link>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</link>
+      <title>2.2 Data Collection Applications</title>
+      <link>/pages/2_field_mapping_prep/2_2_data_collection_applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.2-data-collection-applications/</guid>
-      <description>This section provides:
- An overview of data collection application options Guidance on selecting a data collection application for your project needs Brief overviews of OpenDataKit, OpenMapKit, KoboCollect, and OSMTracker  Overview Several mobile applications exist to assist with field data collection. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. Options include OpenDataKit, OpenMapKit, KoboCollect, OSMTracker, and Maps.meChoosing a Data Collection Application Which data collection application should I use?</description>
+      <guid>/pages/2_field_mapping_prep/2_2_data_collection_applications/</guid>
+      <description>Course Objectives In this section, you will learn and find information on selecting the appropriate application to support the mapping project. By the end of this, you should be able to:
+ Understanding data collection application options Able to determine on selecting a data collection application for your project needs Understand brief overviews of ODK Collect, KoboCollect, OSMTracker, and Mapillary   Learning Activities Choosing a Data Collection Application Several mobile applications exist to assist with field data collection.</description>
     </item>
     
     <item>
-      <title>3.2.1 Setting up OpenDataKit</title>
-      <link>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</link>
+      <title>2.3 Data Collection Servers</title>
+      <link>/pages/2_field_mapping_prep/2_3_data_collection_servers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/</guid>
-      <description>This section provides:
- An overview of steps needed to set-up ODK A step-by-step guide for creating ODK survey forms, including example files A step-by-step guide for setting up ODK on devices  Overview OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
+      <guid>/pages/2_field_mapping_prep/2_3_data_collection_servers/</guid>
+      <description>Course Objectives This section will explain on overview of server for field data collection. You will find several options to choose from. By the end of this, you should be able to learn:
+ Understand server storage options to store field data Guidance on selecting a server for your project needs Brief overview of server options   Learning Activities When beginning a mapping project, many organizations ask if they need to have a server.</description>
     </item>
     
     <item>
-      <title>3.2.2 Setting up OpenMapKit</title>
-      <link>/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</link>
+      <title>2.4 Navigation Application</title>
+      <link>/pages/2_field_mapping_prep/2_4_navigation_applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.2.2_setting_up_omk/</guid>
-      <description>This section provides:
- An overview of steps needed to set-up OMK A step-by-step guide for creating OMK survey forms, including example files Guidance on selecting an MBTile creation method and step-by-step guide on creating MBTiles. A step-by-step guide for creating additional files necessary for running OMK. A step-by-step guide for setting up OMK on devices.  Overview OpenMapKit (OMK) is an extension that launches directly from within OpenDataKit (ODK) Collect when the OpenStreetMap question type is enabled in a standard survey.</description>
+      <guid>/pages/2_field_mapping_prep/2_4_navigation_applications/</guid>
+      <description>Course Objectives In this section, you will learn overview of the navigation applications. By the end of this section, you should be able to:
+ Understand the navigation application to choose Understand what is Maps.me and OSMAnd   Learning Activities Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me. While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
     </item>
     
     <item>
-      <title>3.3 Navigation Applications</title>
-      <link>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</link>
+      <title>2.5 Overview Data Collection Using ODK Collect</title>
+      <link>/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.3-navigation-applications/</guid>
-      <description>This section provides:
- An overview of Navigation Applications, including presentation slides Guidance on what applications to choose Brief overviews of Maps.me and OSMAnd  Overview Several mobile applications exist to assist with field navigation using OpenStreetMap as a baselayer and functioning offline for low-connection environments. Options include OSMAnd and Maps.me.While navigation tools are not required for data collection, they can be extremely useful for data collection teams in navigating to field locations, as well as for supervisors and project managers to understand where their teams have been.</description>
+      <guid>/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</guid>
+      <description>Course Objectives This section will provide general overview of the ODK Collect. By the end of this section you should be able to:
+ Understand the overview of data collection using ODK Collect   Learning Activities OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</description>
     </item>
     
     <item>
-      <title>3.4 Data Collection Servers</title>
-      <link>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</link>
+      <title>2.6 Creating XLS Form for ODK COllect</title>
+      <link>/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-collection-and-field-mapping/3.4-data-collection-servers/</guid>
-      <description>This section provides:
- An overview of server storage options Guidance on selecting a server for your project needs Brief overviews of server options  The following section provides an overview and guide to deciding if a server is necessary for your project and options to choose from. For in-depth information on setting up and managing servers, please use the documentation linked for each server option.
-Overview When beginning a mapping project, many organizations ask if they need to have a server.</description>
+      <guid>/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/</guid>
+      <description>Course Objectives In field survey activities sometimes you need a survey form to collect the data. Imagine if you need a form survey with dozens of questions for each respondent, you will certainly experience difficulties when filling data and also when entering data into a laptop. In this material you will learn how to create a survey form in digital format which will later be entered into your mobile phone. By the end of this, you will be able to:</description>
     </item>
     
     <item>
-      <title>4.0 Introduction to Field Mapping Management</title>
-      <link>/pages/field-mapping-management/4.0-field-mapping-management/</link>
+      <title>2.7 Creating MBTiles for ODK Collect</title>
+      <link>/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/field-mapping-management/4.0-field-mapping-management/</guid>
-      <description>In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
+      <guid>/pages/2_field_mapping_prep/2_7_creating_mbtiles_for_odk_collect/</guid>
+      <description>Course Objectives When you use the ODK Collect application to conduct field surveys, sometimes you will have difficulty in determining objects in the application. You can use MBTiles file for background map, which is a satellite imagery, to make it easier for you to identify objects in the field. By the end of this section, you should be able to:
+ Understand the concept of MBTiles Learn create MBTiles using Export Tool   Learning Activities The Definition of MBTiles MBTiles is the spatial data format for storing several map tiles that are combined into one file as raster format, so that it looks like satellite imagery.</description>
+    </item>
+    
+    <item>
+      <title>2.8 Setting Up Field Mapping Tasking Manager</title>
+      <link>/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</guid>
+      <description>Course Objectives This section will provide you general information about Field Maping Tasking Manager, by the end of this section you should be able to:
+ Understand what is Field Mapping Tasking Manager Able to setup Field Mapping Tasking Manager project   Learning Activities FMTM Overview Field Mapping Tasking Manager (FMTM) is a platform that helps project managers to organize and manage mapping tasks. It assigns those tasks to volunteers and tracks their progress.</description>
+    </item>
+    
+    <item>
+      <title>3.0. Introduction to Participatory Mapping with OpenStreetMap</title>
+      <link>/pages/3_participatory_osm/3_0_overview_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_0_overview_osm/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources to lead and implement organized OpenStreetMap editing activities including:Presentations and step-by-step guides for introducing teams to OpenStreetMap and editing tools such as the HOT Tasking Manager.
+ Resources for determining if your project needs to meet OSM Organized Editing Guidelines Detailed guides and training activities for digitization teams to use during validation and data upload   Digitization, or remote mapping, is the process of tracing features such as buildings and roads from aerial or satellite imagery to create map data.</description>
+    </item>
+    
+    <item>
+      <title>3.1. Introduction to OpenStreetMap</title>
+      <link>/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</guid>
+      <description>Course Objectives This section provides an overview of OpenStreetMap as well as on how to contribute to OSM. By the end of this section you should be able to:
+ Able to present an introduction to OpenStreetMap Learn how to create an account in OpenStreetMap  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.</description>
+    </item>
+    
+    <item>
+      <title>3.2. Organized OSM Editing</title>
+      <link>/pages/3_participatory_osm/3_2_organized_osm_editing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_2_organized_osm_editing/</guid>
+      <description>Course Objectives This section will inform you on how to organized OSM editing activities. By the end of this you should be able to:
+ Understand the considerations for managing and sourcing mapper for an organized editing Learn the organized OSM editing Guidance and Compliance Able to setup organized OSM editing guidance   Learning Activities Before starting any mapping project, it is important to assess, and if necessary, update the OpenStreetMap basemap through remote mapping.</description>
+    </item>
+    
+    <item>
+      <title>3.3. Overview iD and JOSM</title>
+      <link>/pages/3_participatory_osm/3_3_overview_id_and_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_3_overview_id_and_josm/</guid>
+      <description>Course Objectives By the end of this section, you will be able to:
+ Understand the difference between iD editor and JOSM Learn how to teach people to use JOSM or iD editor  This section are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap using iD Editor or JOSM, please visit LearnOSM.org.
+ Learning Activities Difference between iD and JOSM There are several ways to edit in OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>3.4. Working with Tasking Manager</title>
+      <link>/pages/3_participatory_osm/3_4_working_with_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_4_working_with_tasking_manager/</guid>
+      <description>Course Objectives By the end of this you should be able to:
+ Understand how to navigate and operate the tasking manager Understand how to teach people to use the tasking manager to map with OSM  The following materials are designed to assist project managers and others leading trainings and workshops. If you are an individual interested in learning how to map with OpenStreetMap, please visit LearnOSM.org.
+ Learning Activities The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team’s collaborative mapping process in OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>3.5. Resolving Conflict in JOSM</title>
+      <link>/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/</guid>
+      <description>Course Objectives This section provides:
+ An overview of data conflict in OpenStreetMap Step-by-step instructions for resolving data conflict in JOSM Guidance on preventing and managing data conflict   Learning Activities Other contributors may have edited the same features as you in JOSM. Alternatively, different data may have been collected in the field for the same features. Both situations cause data conflicts during the upload process. Therefore, it is critical for digitizers to learn about data conflicts in OpenStreetMap, conflict types, and how to fix them using JOSM.</description>
+    </item>
+    
+    <item>
+      <title>4.0. Introduction to Field Mapping Management</title>
+      <link>/pages/4_field-mapping-management/4_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/4_field-mapping-management/4_0_overview/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources to lead and manage field mapping activities as well as resources designed for their team including:
  Step-by-step guides for surveyors, mappers and field supervisors to manage and use data collection tools in the field Resources and step-by-step guides for managers on how to organize and monitor teams in the field   Effective Field Mapping Management - knowing when, where, and what data is collected by each team member - is critical to ensuring that mapping efforts are done in a timely and safe manner with high quality and completeness.</description>
     </item>
     
     <item>
-      <title>4.1 Managing Teams in the Field</title>
-      <link>/pages/field-mapping-management/4.1_managing_teams_in_the_field/</link>
+      <title>4.1 Creating Mapping Section using QGIS</title>
+      <link>/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/field-mapping-management/4.1_managing_teams_in_the_field/</guid>
-      <description>This section provides:
- An overview of tools and methods for managing teams in the field. Step-by-step guides for using OSMAnd and QGIS to manage team movement and completion of assignment areas.  Overview Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
+      <guid>/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to create mapping section using QGIS Understand how to load mapping section in OSMAnd   Learning Activities Central to effective and successful field data collection is a well thought out field data collection plan. This will ensure that field teams face the least number of challenges while out in the field, thus reducing the number of calls for field support coming to the supervisor.</description>
     </item>
     
     <item>
-      <title>4.2 Using ODK Collect</title>
-      <link>/pages/field-mapping-management/4.2_using_odk_collect/</link>
+      <title>4.2. Using FMTM for Field Data Collection</title>
+      <link>/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/field-mapping-management/4.2_using_odk_collect/</guid>
-      <description>This guide provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for ODK Collect Use ODK Collect for data collection surveys  Overview Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
+      <guid>/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</guid>
+      <description>Course Objectives This section will covers on how the field surveyor uses Field Mapping Tasking Manager during their field mapping activities. By the end of this section, you should be able to:
+ Learn how to navigate in FMTM site to download the QR Code Learn how to navigate within FMTM project   Learning Activities Field Mapping Tasking Manager (FMTM) is a platform that helps project managers to organize and manage mapping tasks.</description>
     </item>
     
     <item>
-      <title>4.3 Using OpenMapKit</title>
-      <link>/pages/field-mapping-management/4.3_using_openmapkit/</link>
+      <title>4.3 Using ODK Collect</title>
+      <link>/pages/4_field-mapping-management/4_3_using_odk_collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/field-mapping-management/4.3_using_openmapkit/</guid>
-      <description>This guide provides surveyors, mappers and field supervisors with the skills to:
- Configure OpenMapKit on devices for individual use and data collection Operate OpenMapKit for field data collection  Overview OpenMapKit (OMK) is an additional application that is used to support ODK Collect in determining the position of objects found during precise and precise field surveys. OpenMapKit can be run through ODK Collect, after you open and select one of the available forms.</description>
+      <guid>/pages/4_field-mapping-management/4_3_using_odk_collect/</guid>
+      <description>Course Objectives By the end of this section, you should be able to:
+ Understand to setup ODK Collect for the first time Able to operate ODK Collect for field data collection activities   Learning Activities Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
     </item>
     
     <item>
-      <title>4.4 Using OSMTracker</title>
-      <link>/pages/field-mapping-management/4.4_using_osm_tracker/</link>
+      <title>4.4. Using OSMTracker</title>
+      <link>/pages/4_field-mapping-management/4_4_using_osm_tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/field-mapping-management/4.4_using_osm_tracker/</guid>
-      <description>This section provides surveyors, mappers and field supervisors with the skills to:
- Complete the initial setup for OSM Tracker Use OSM Tracker for recording tracks, images, and notes  Overview OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
+      <guid>/pages/4_field-mapping-management/4_4_using_osm_tracker/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to setup OSMTracker for your phone Understand basic operation of OSMTracker   Learning Activities OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoints and also track. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data.</description>
     </item>
     
     <item>
-      <title>5.0 Introduction to Data Cleaning, Upload, and Quality Assurance</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</link>
+      <title>5.0. Data Quality Assurance</title>
+      <link>/pages/5_data_quality_assurance/5.0_data_quality_assurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.0-data-cleaning-qa/</guid>
-      <description>In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
- Step-by-step guides cleaning data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
+      <guid>/pages/5_data_quality_assurance/5.0_data_quality_assurance/</guid>
+      <description>Overview
+In this section, Project Managers will find tools and resources to clean and upload field collected data to OpenStreetMap and manage data quality including:
+ Step-by-step guides validating data in JOSM for upload to OpenStreetMap. Resources for data quality tools to use following upload to OpenStreetMap, including presentations.   Data Cleaning, Upload, and Quality Assurance is a critical step in any mapping workflow. This process covers cleaning raw field data for errors and mistakes, uploading clean data to OpenStreetMap, and using various quality control tools to monitor data that has been uploaded.</description>
     </item>
     
     <item>
-      <title>5.1 Data Cleaning with JOSM</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</link>
+      <title>5.1. Quality Assurance and Quality Control Tools</title>
+      <link>/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/</guid>
-      <description>This section provides:
- An overview data cleaning tools in JOSM Step-by-step instructions for importing field data into JOSM Step-by-step instructions for cleaning data into JOSM  The following materials are designed to assist project managers and others leading trainings and workshops. However, this material is also suitable for individuals interested in learning how to clean and upload field data in JOSM.
-Overview Data collected in the field should always be cleaned for errors and rectified with existing OSM data before upload.</description>
+      <guid>/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</guid>
+      <description>Course Objectives This section provides tools to conduct quality assurance during the field mapping activities. By the end of this section, you should be able to:
+ Determine which quality assurance tool that you are going to use to support the project Understand how to use OSMCha to checking data quality Understand how to use Osmose to monitor multiple quality issue within OSM   Learning Activities Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism.</description>
     </item>
     
     <item>
-      <title>5.2 Quality Assurance and Quality Control Tools</title>
-      <link>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</link>
+      <title>5.2. Validating with JOSM</title>
+      <link>/pages/5_data_quality_assurance/5.2._validating_with_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-cleaning-upload-and-quality-assurance/5.2-quality-assurance-tools/</guid>
-      <description>This section provides:
- An overview of Quality Assurance tools, including presentation slides Guidance on when, why, and how to use each tool Brief overviews and step-by-step guides on using each tool  Overview Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+      <guid>/pages/5_data_quality_assurance/5.2._validating_with_josm/</guid>
+      <description>Course Objectives This section provides:
+ An overview of Validation in JOSM, including presentation slides Step-by-step instructions for practicing validation in JOSM   Learning Activities Overview of Validation Validation is a process of checking the data quality (in this case, map data quality) for accuracy, consistency, completeness and anomaly. Validation is important to maintain the quality of OSM data. There are lots of aspects that we need to consider during validation, namely accuracy, consistency, completeness, and anomaly detection.</description>
     </item>
     
     <item>
       <title>6.0 Introduction to Data Export Tools</title>
-      <link>/pages/data-export/6.0-data-export-tools/</link>
+      <link>/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/6.0-data-export-tools/</guid>
-      <description>In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
+      <guid>/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</guid>
+      <description>Overview In this section, Project Managers will find resources on how to export OpenStreetMap data, including:
  An overview of data export tools, including presentation slides Step-by-step guides for exporting data with the HOT Export Tool and HDX   Data Export Tools allow users to download OSM data for use and analysis programs such as QGIS. The following are Data Export Tools commonly used in the HOT workflow. For more information on how to use these tools, follow the step-by-step guides in each of the following sections.</description>
     </item>
     
     <item>
-      <title>6.1 HOT Export Tool</title>
-      <link>/pages/data-export/6.1-hot-export-tool/</link>
+      <title>6.1 Hot Export Tools</title>
+      <link>/pages/6_open_data_usage/6_1_hot_export_tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/6.1-hot-export-tool/</guid>
-      <description>This section provides:
- An overview of the HOT Export Tool Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using Export Tool  Overview HOT Export Tool allows users to download OSM data by specifying tags, area of interest, and file type. Learning resources and walkthroughs can be found at the HOT Export Tool Learn page.
-Resources and Training Materials This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
+      <guid>/pages/6_open_data_usage/6_1_hot_export_tools/</guid>
+      <description>Course Objectives This section will explain on how to use HOT Export Tool to download OSM data in your preferred area. By the end of this, you will be able to:
+ Understand overview of HOT Export Tool Understand how to export OSM data using HOT Export Tool   Learning Activities The HOT Export Tool is an open service that creates customized extracts of up-to-date OSM data in various file formats, such as ESRI shapefiles (.</description>
     </item>
     
     <item>
       <title>6.2 Humanitarian Data Exchange</title>
-      <link>/pages/data-export/6.2-hdx/</link>
+      <link>/pages/6_open_data_usage/6_2_humanitarian_data_exchange/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-export/6.2-hdx/</guid>
-      <description>This section provides:
- An overview of the Humanitarian Data Exchange (HDX) Step-by-step instructions on downloading data (such as shapefiles) from OpenStreetMap using HDX  Overview Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA&amp;rsquo;s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
- Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Resources and Training Materials This section features a selection of resources targeted at project managers, trainers, or even self-learners on the topic(s) outlined above.</description>
+      <guid>/pages/6_open_data_usage/6_2_humanitarian_data_exchange/</guid>
+      <description>Course Objectives By the end of this section, you should be able to:
+ Understand the concept of Humanitarian Data Exchange platform Learn step-by-step on downloading data using HDX   Learning Activities HDX Overview Humanitarian Data Exchange (HDX) is a data platform for storing and sharing humanitarian data. The platform is managed by OCHA’s Centre for Humanitarian Data. Types of data available on HDX include: Data includes:
+ Geospatial datasets CSVs &amp;amp; spreadsheets text &amp;amp; image files  Working with HDX In this activity, you will practice using Humanitarian Data Exchange (HDX) for downloading OSM data for use in QGIS.</description>
     </item>
     
     <item>
-      <title>7.0 Data Use and Analysis</title>
-      <link>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</link>
+      <title>7.0 Data Use and Data Analysis</title>
+      <link>/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/7.0_data-use-and-analysis/</guid>
-      <description>In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
+      <guid>/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</guid>
+      <description>Overview In this section, Project Managers will find tools and resources on how to use OSM data to create map products for decision-making including:
  A step-by-step guide for getting started with QGIS, including presentation slides A step-by-step guide for creating maps and atlases in QGIS Detailed guides and resources for using data in web and interactive maps   There are a handful of free Data Use and Analysis tools available to use your field generated data, extract and utilize OSM data, or combine datasets to create maps, atlases, and other visuals for decision making.</description>
     </item>
     
     <item>
       <title>7.1 Introduction to QGIS</title>
-      <link>/pages/data-use-and-analysis/7.1-qgis/</link>
+      <link>/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/7.1-qgis/</guid>
-      <description>This section covers the basic skills necessary to using QGIS. This includes step-by-step guides on:
- Installing QGIS Navigating QGIS Adding data Styling layers Installing Plugins, including QuickOSM and QuickMapServices  Overview QGIS (or Quantum GIS) is a free and open source geographic information system (GIS) program. GIS programs allow users to display, manage, and analyze geospatial information on the computer, and create map products. Geospatial data that can be used in GIS includes aerial imagery, GPS data, and spatial datasets.</description>
+      <guid>/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/</guid>
+      <description>Course Objectives This section cover basic skills necessary to use QGIS. By the end of this section, you should be able to:
+ Learn to install QGIS Be able to navigate QGIS Understand on how to adding the data in QGIS Understand on how to style layer in QGIS Learn how to install plugin QuickOSM and QuickMapServices in QGIS   Learning Activities QGIS is a free and open source geographic information system (GIS) program.</description>
     </item>
     
     <item>
-      <title>7.2 Creating Maps and Atlases in QGIS</title>
-      <link>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</link>
+      <title>7.2 Creating Map and Atlasses in QGIS</title>
+      <link>/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/7.2-creating-an-atlas-in-qgis/</guid>
-      <description>This section covers the skills necessary to create maps and atlases in QGIS:
- Preparing map data Creating a Map Layout Atlas navigation and creation Creating map and atlas templates  Overview Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
+      <guid>/pages/7_data_use_and_data_analysis/7_2_creating_map_and_atlasses_in_qgis/</guid>
+      <description>Course Objectives In this section, you should be able to:
+ Understand how to load the dataset Understand how to symbolize the dataset Understand how to create a map Understand how to create an atlas   Learning Activities Creating an atlas in QGIS allows users to create a series of maps for geographic regions with a set template. This atlas template allows for a large number of maps to be generated for areas of interest, such as districts, wards, and other administrative areas, with the same style and layout.</description>
     </item>
     
     <item>
-      <title>7.3 Web &amp; Interactive Maps</title>
-      <link>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</link>
+      <title>7.3 Create Web &amp; Interactive Map</title>
+      <link>/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/7.3_web_and_interactive_maps/</guid>
-      <description>This section provides:
- An overview of online interactive map tools for visualizing data Step-by-step instructions for creating interactive maps with two tools: uMap and Overpass Turbo  Overview Interactive maps are viewed as the modern equivalent of visual communication with maps. This involves the creation and study of the visual representation of data (maps). To communicate information clearly and efficiently, data visualization uses statistical graphics, plots, information graphics and other tools.</description>
+      <guid>/pages/7_data_use_and_data_analysis/7_3_create_web_and_interactive_map/</guid>
+      <description>Course Objectives This section will provides you on how to visualize OSM data as a web and interactive map. By the end of this section you should be able to:
+ Understand on how to use overpass-turbo to visualize OSM data as an interactive map Understand how to use uMap to visualize data spatial Undesstand how to link overpass-turbo data to uMap   Learning Activities Interactive maps are viewed as the modern equivalent of visual communication with maps.</description>
     </item>
     
     <item>
-      <title>7.4 Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)</title>
-      <link>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</link>
+      <title>8.0. Use case in Field Mapping Management and Open Data Usage</title>
+      <link>/pages/8_use_case/8_0_overview_use_case/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/data-use-and-analysis/7.4-osm_damage_assessment/</guid>
-      <description>This section provides:
- An overview on the relevance on the use of OSM data for damage assessments post eathquake Deep dive into data models and acquisition of datasets Step-by-step instructions for creating damage assessments using OSM data on GIS  Overview Performing a building damage assessment is crucial after a natural disaster to prevent further casualties and identify safe locations for temporary shelters. The assessment can aid in response and recovery efforts by prioritizing areas with the most damage, and provide data to evaluate property damage and estimate repair costs.</description>
+      <guid>/pages/8_use_case/8_0_overview_use_case/</guid>
+      <description>Overview In this section, Project Managers will find example use case from HOT projects on how the processes, tools, and workflows contained in previous sections of this Toolbox have been applied to real field projects. Project Managers can use these example workflows to identify a project similar in scope or goal to their own and identify which tools and processes may be needed for their own project. Each workflow example contains:</description>
     </item>
     
     <item>
-      <title>8.0 Introduction to Mapping Workflows</title>
-      <link>/pages/getting_started/8.0_mapping_workflows/</link>
+      <title>8.1. Mapping POI with ODK &#43; KoboToolbox Server</title>
+      <link>/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/getting_started/8.0_mapping_workflows/</guid>
-      <description>In this section, Project Managers will find example workflows from HOT projects on how the processes, tools, and workflows contained in previous sections of this Toolbox have been applied to real field projects. Project Managers can use these example workflows to identify a project similar in scope or goal to their own and identify which tools and processes may be needed for their own project. Each workflow example contains:
- An overview of the project A step-by-step guide of phases, steps, and tools used Links to various parts of the Toolbox to learn how the step was completed   There are many ways to complete a mapping project.</description>
-    </item>
-    
-    <item>
-      <title>8.1 Mapping Buildings and POI with OMK</title>
-      <link>/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/getting_started/8.1_example_fieldmappingbuildings_poi/</guid>
-      <description>The following workflow showcases the tools and processes used in a long-term field mapping project to map buildings and points of interest using OpenMapKit with government and local partners.
-Project Overview Open Cities Africa - Accra
-The Open Cities Africa Accra project sought to make Alogboshie and its environs resilient to natural disasters, especially flooding. The project involved the remote mapping of Alogboshie, Akweteyman and Alajo. These are areas of focus in a larger resilience project, Greater Accra Resilience and Integrated Development (GARID), and are all located along the Odaw River which is prone to floods.</description>
-    </item>
-    
-    <item>
-      <title>8.2 Mapping POI with ODK &#43; KoboToolbox Server</title>
-      <link>/pages/getting_started/8.2_mappingpoi_withodk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/getting_started/8.2_mappingpoi_withodk/</guid>
+      <guid>/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</guid>
       <description>The following workflow showcases the tools and processes used in a simple field mapping project during which HOT trained local NGOs to integrate mapping into existing programs using OpenDataKit and KoboToolBox Server.
-Project Overview Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa
-East Africa (and Uganda specifically) continues to be the center of one of the world’s largest and fastest growing refugee crises. Uganda’s progressive open-door policy alone has led to an influx of approximately 1.</description>
+ Learning Activities Project Overview Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa
+East Africa (and Uganda specifically) continues to be the center of one of the world’s largest and fastest growing refugee crises.</description>
+    </item>
+    
+    <item>
+      <title>8.2. Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)</title>
+      <link>/pages/8_use_case/8_2_post_earthquake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/8_use_case/8_2_post_earthquake/</guid>
+      <description>Course Objectives This section provides:
+ An overview on the relevance on the use of OSM data for damage assessments post eathquake Deep dive into data models and acquisition of datasets Step-by-step instructions for creating damage assessments using OSM data on GIS   Learning Activities Overview Performing a building damage assessment is crucial after a natural disaster to prevent further casualties and identify safe locations for temporary shelters. The assessment can aid in response and recovery efforts by prioritizing areas with the most damage, and provide data to evaluate property damage and estimate repair costs.</description>
     </item>
     
     <item>

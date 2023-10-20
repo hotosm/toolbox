@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapping Project Workflows on HOT Toolbox</title>
+    <link>/es/pages/8_use_case/</link>
+    <description>Recent content in Mapping Project Workflows on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/8_use_case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.0 Introducción a los flujos de trabajo de mapeo</title>
+      <link>/es/pages/8_use_case/8_0_overview_use_case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/8_use_case/8_0_overview_use_case/</guid>
+      <description>En esta sección, los Jefes de Proyecto encontrarán ejemplos de flujos de trabajo de proyectos HOT sobre cómo los procesos, herramientas y flujos de trabajo contenidos en secciones anteriores de esta Caja de Herramientas se han aplicado a proyectos reales sobre el terreno. Los jefes de proyecto pueden utilizar estos ejemplos de flujos de trabajo para identificar un proyecto similar en alcance u objetivo al suyo e identificar qué herramientas y procesos pueden ser necesarios para su propio proyecto.</description>
+    </item>
+    
+    <item>
+      <title>8.1 Mapear POI con ODK &#43; Servidor KoboToolbox</title>
+      <link>/es/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/</guid>
+      <description>El siguiente flujo de trabajo muestra las herramientas y procesos utilizados en un sencillo proyecto de mapeo de campo durante el cual HOT formó a ONGs locales para integrar el mapeo en programas existentes utilizando OpenDataKit y KoboToolBox Server.
+Descripción general del proyecto Colmar las lagunas en materia de desarrollo y emergencia para la crisis de los refugiados en África Oriental.
+África Oriental (y Uganda en concreto) sigue siendo el centro de una de las mayores y más rápidas crisis de refugiados del mundo.</description>
+    </item>
+    
+    <item>
+      <title>8.2 Evaluación de daños en edificios tras un terremoto mediante OpenStreetMap (OSM)</title>
+      <link>/es/pages/8_use_case/8_2_post_earthquake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/8_use_case/8_2_post_earthquake/</guid>
+      <description>Esta sección proporciona:
+ Una visión general de la relevancia del uso de datos OSM para la evaluación de daños post-terremoto. Profundización en los modelos de datos y adquisición de conjuntos de datos Instrucciones paso a paso para crear evaluaciones de daños utilizando datos OSM en SIG.  Resumen Realizar una evaluación de daños en edificios es crucial después de un desastre natural para evitar más víctimas e identificar ubicaciones seguras para refugios temporales.</description>
+    </item>
+    
+  </channel>
+</rss>

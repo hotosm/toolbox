@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Field Mapping Management on HOT Toolbox</title>
+    <link>/es/pages/4_field-mapping-management/</link>
+    <description>Recent content in Field Mapping Management on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/es/pages/4_field-mapping-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.0 Introducción a la gestión de la cartografía de campo</title>
+      <link>/es/pages/4_field-mapping-management/4_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/4_field-mapping-management/4_0_overview/</guid>
+      <description>En esta sección, los directores de proyecto encontrarán herramientas y recursos para dirigir y gestionar las actividades cartográficas sobre el terreno, así como recursos diseñados para su equipo, entre los que se incluyen:
+ Guías paso a paso para topógrafos, cartógrafos y supervisores de campo para gestionar y utilizar herramientas de recopilación de datos sobre el terreno. Recursos y guías paso a paso para gestores sobre cómo organizar y supervisar equipos sobre el terreno.</description>
+    </item>
+    
+    <item>
+      <title>4.1 Creando una sección de mapeo usando QGIS</title>
+      <link>/es/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona:
+ Una visión general de las herramientas y métodos para la gestión de equipos en el campo. Guías paso a paso para el uso de OSMAnd y QGIS para gestionar el movimiento del equipo y la finalización de las áreas de asignación.  Visión general Para que la recogida de datos sobre el terreno sea eficaz y tenga éxito, es fundamental contar con un plan de recogida de datos sobre el terreno bien elaborado.</description>
+    </item>
+    
+    <item>
+      <title>4.2 Uso de ODK Collect</title>
+      <link>/es/pages/4_field-mapping-management/4_3_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/4_field-mapping-management/4_3_using_odk_collect/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta guía proporciona a los topógrafos, cartografistas y supervisores de campo los conocimientos necesarios para:
+ Completar la configuración inicial de ODK Collect Utilizar ODK Collect para encuestas de recopilación de datos  Descripción general Open Data Kit Collect (ODK Collect) es una aplicación de recogida de datos en Android. ODK Collect puede reemplazar la encuesta de formulario de papel a digital.</description>
+    </item>
+    
+    <item>
+      <title>4.4 Usar OSMTracker</title>
+      <link>/es/pages/4_field-mapping-management/4_4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/pages/4_field-mapping-management/4_4_using_osm_tracker/</guid>
+      <description>Nota: Esta es una versión desactualizada del material de capacitación; se harán mejoras en el futuro.
+ Esta sección proporciona a los topógrafos, cartógrafos y supervisores de campo las habilidades para:
+ Completar la configuración inicial de OSM Tracker Utilizar OSM Tracker para registrar tracks, imágenes y notas  Descripción general OSMTracker es una aplicación android que nos permite registrar los datos de nuestros levantamientos. Similar al GPS, OSMTracker es capaz de grabar waypoint y también track.</description>
+    </item>
+    
+  </channel>
+</rss>

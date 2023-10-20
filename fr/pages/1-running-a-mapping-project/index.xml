@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 1 - Design a Mapping Project on HOT Toolbox</title>
+    <link>/fr/pages/1-running-a-mapping-project/</link>
+    <description>Recent content in Chapter 1 - Design a Mapping Project on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/1-running-a-mapping-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.0. Introduction à la conception d_un projet de cartographie</title>
+      <link>/fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</guid>
+      <description>Aperçu général Dans cette section, les Gestionnaires de Projet trouveront des guides, des outils et
+ Les considérations et les questions directives pour déterminer les facteurs du projet tels que la portée, l’échelle et la logistique ; Les ressources pour sélectionner le matériel ; Les guides et le matériel pour planifier les ateliers/formations.    1.1 Définition des besoins et des exigences soulève des questions auxquelles il faut répondre lors de la définition de la portée du projet, telles que l&amp;rsquo;objectif, l&amp;rsquo;échelle géographique et les entités à cartographier.</description>
+    </item>
+    
+    <item>
+      <title>1.1 Definition des Besoins et Exigences</title>
+      <link>/fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/</guid>
+      <description>Objectifs du cours Cette section comprend des questions directrices et des considérations que les chefs de projet et les communautés OSM devraient prendre en compte lors du lancement d&amp;rsquo;un projet. À la fin de cette section, vous devriez être en mesure de :
+ Comprendre les facteurs à prendre en compte pour déterminer les besoins et les exigences Apprendre à constituer une équipe Apprendre à collaborer avec la communauté   Activités d’Apprentissage Lors du lancement d&amp;rsquo;un projet de cartographie, il est important de définir la portée du projet et de comprendre le contexte plus large dans lequel les données sont nécessaires, ce qui implique de savoir comment travailler avec les parties prenantes locales et quel sera l&amp;rsquo;impact des données sur elles.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Protection et Sécurité</title>
+      <link>/fr/pages/1-running-a-mapping-project/0102_safety_and_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/1-running-a-mapping-project/0102_safety_and_security/</guid>
+      <description>Objectifs du cours Dans cette section, les chefs de projet trouveront des considérations pour évaluer les besoins en matière de protection et de sécurité pour les opérations sur le terrain. En tant que gestionnaire de projet, vous devriez être en mesure de :
+ Comprendre les sujets à prendre en compte lors de la discussion des plans de sécurité.   Activités d’apprentissage Protection et Sécurité Conformément au premier principe de protection - ne pas nuire - les organisations doivent donner la priorité à la sécurité, en particulier celle des populations réfugiées.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Choix du matériel informatique</title>
+      <link>/fr/pages/1-running-a-mapping-project/0103_hardware_selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/1-running-a-mapping-project/0103_hardware_selection/</guid>
+      <description>Objectifs du cours Dans cette section, vous apprendrez et trouverez des informations sur la sélection du matériel informatique approprié pour soutenir le projet de cartographie. À la fin de cette section, vous devriez être en mesure de :
+ Déterminer le matériel qui peut être nécessaire ou non. Comprendre les spécifications matérielles minimales en fonction des besoins du projet. Comprendre le(s) document(s) supplémentaire(s) pouvant être nécessaire(s) pour enregistrer les matériels   Activités d’apprentissage Considérations sur le matériel informatique Le matériel englobe tous les actifs physiques liés à la technologie, aux ordinateurs et à l&amp;rsquo;électronique nécessaires à un projet.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Formation et atelier sur site</title>
+      <link>/fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/</guid>
+      <description>Objectifs du cours Dans cette section, les gestionnaires de projet trouveront des informations sur les considérations et les ressources à utiliser lors de la planification de formations et d&amp;rsquo;ateliers sur site pour la cartographie et OSM, notamment :
+ Comprendre comment planifier des formations et des ateliers efficaces. Apprendre des exemples et des ressources pour créer des agendas de formation.   Activités d’apprentissage La plupart des projets de cartographie impliquent des formations ou des ateliers d&amp;rsquo;une manière ou d&amp;rsquo;une autre, qu&amp;rsquo;il s&amp;rsquo;agisse de former les cartographes de terrain à l&amp;rsquo;utilisation d&amp;rsquo;OpenDataKit, de former les parties prenantes des gouvernements locaux à l&amp;rsquo;exportation et à l&amp;rsquo;utilisation des données OSM, ou de former les étudiants à QGIS pour la création de cartes.</description>
+    </item>
+    
+  </channel>
+</rss>

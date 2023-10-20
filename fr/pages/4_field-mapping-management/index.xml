@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 4 - Field Mapping Management on HOT Toolbox</title>
+    <link>/fr/pages/4_field-mapping-management/</link>
+    <description>Recent content in Chapter 4 - Field Mapping Management on HOT Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/fr/pages/4_field-mapping-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.0. Gestion de la Cartographie de terrain</title>
+      <link>/fr/pages/4_field-mapping-management/4_0_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/4_field-mapping-management/4_0_overview/</guid>
+      <description>Aperçu général Dans cette section, les responsables de projet trouveront des outils et des ressources pour diriger et gérer les activités de cartographie sur le terrain, ainsi que des ressources conçues pour leur équipe, notamment :
+ Des guides étape par étape pour les enquêteurs, les cartographes et les superviseurs de terrain afin de gérer et d&amp;rsquo;utiliser les outils de collecte de données sur le terrain. Des ressources et des guides étape par étape pour les responsables sur la façon d&amp;rsquo;organiser et de suivre les équipes sur le terrain.</description>
+    </item>
+    
+    <item>
+      <title>4.1 Création des sections cartographiques en utilisant QGIS</title>
+      <link>/fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</guid>
+      <description>Objectifs du cours Dans cette section, vous devriez être en mesure de :
+ Comprendre comment créer une section de cartographie à l&amp;rsquo;aide de QGIS. Comprendre comment charger une section cartographique dans OSMAnd   Activités d’apprentissage Pour que la collecte de données sur le terrain soit efficace et réussie, il est essentiel de disposer d&amp;rsquo;un plan de collecte de données sur le terrain bien conçu. Ce plan permettra aux équipes de terrain de faire face à un minimum de difficultés sur le terrain, ce qui réduira le nombre d&amp;rsquo;appels au superviseur pour une assistance sur le terrain.</description>
+    </item>
+    
+    <item>
+      <title>4.2 Utilisation du FMTM pour la collecte de donnée de terrain</title>
+      <link>/fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/4_field-mapping-management/4_2_using_fmtm_for_field_data_collection/</guid>
+      <description>Objectifs du cours Cette section traite de la manière dont le géomètre de terrain utilise le Gestionnaire de tâches de cartographie de terrain au cours de ses activités de cartographie de terrain. À la fin de cette section, vous devriez être en mesure de :
+ Apprendre à naviguer sur le site de la FMTM pour télécharger le code QR  Activités d’apprentissage Le Gestionnaire de Tâche pour la Cartographie de terrain (FMTM) est une plateforme qui aide les gestionnaires de projets à organiser et à gérer les tâches cartographiques.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Utilisation d_ODK Collect</title>
+      <link>/fr/pages/4_field-mapping-management/4_3_using_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/4_field-mapping-management/4_3_using_odk_collect/</guid>
+      <description>Objectifs du cours À la fin de cette section, vous devriez être en mesure de :
+ Comprendre pour configurer ODK Collect pour la première fois. Être capable de faire fonctionner ODK Collect pour des activités de collecte de données sur le terrain.   Activités d’apprentissage Open Data Kit Collect (ODK Collect) est une application de collecte de données sur Android. ODK Collect peut remplacer le formulaire d&amp;rsquo;enquête papier par un formulaire numérique.</description>
+    </item>
+    
+    <item>
+      <title>4.4. Utilisation de OSMTracker</title>
+      <link>/fr/pages/4_field-mapping-management/4_4_using_osm_tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/pages/4_field-mapping-management/4_4_using_osm_tracker/</guid>
+      <description>Objectifs du cours Dans cette section, vous devriez être capable de :
+ Comprendre comment configurer OSMTracker pour votre téléphone Comprendre le fonctionnement de base d&amp;rsquo;OSMTracker   Activités d’apprentissage OSMTracker est une application Android qui nous permet d&amp;rsquo;enregistrer nos données d&amp;rsquo;enquête. Tout comme le GPS, OSMTracker est capable d&amp;rsquo;enregistrer des points de repère et de suivre des pistes. Ce qui différencie OSMTracker d&amp;rsquo;un GPS classique, c&amp;rsquo;est sa capacité à prendre des photos lors de la collecte des données d&amp;rsquo;enquête.</description>
+    </item>
+    
+  </channel>
+</rss>
