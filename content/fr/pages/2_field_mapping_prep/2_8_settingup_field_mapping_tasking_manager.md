@@ -38,7 +38,7 @@ Dans l'ensemble, l'outil FMTM est un élément important des efforts déployés 
 **Compétences et technologies nécessaires**
 
 - Connexion internet stable
-- Connaissance de la cartographie de terrain, notamment en ce qui concerne la création de XLSForm pour ODK. Veuillez lire cette rubrique [Création des XLSForm pour ODK](https://docs.google.com/document/d/1f7Cqz2ms6TyjnY-4YH8g0IZUuTQLdWEs/edit?usp=drive_link&ouid=115942885484650939852&rtpof=true&sd=true) pour en savoir plus. 
+- Connaissance de la cartographie de terrain, notamment en ce qui concerne la création de XLSForm pour ODK. Veuillez lire cette rubrique [Création des XLSForm pour ODK](https://toolbox.hotosm.org/fr/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/) pour en savoir plus. 
 - Compte sur le serveur **ODK Central**. [Voici les instructions pour configurer un serveur ODK Central](https://docs.getodk.org/central-install-digital-ocean/) (c’est très similaire sur AWS ou autre)
 
 | Astuces:                                                                                                                                                                                                                                                                          |

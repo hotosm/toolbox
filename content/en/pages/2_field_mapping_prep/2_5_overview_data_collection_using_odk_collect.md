@@ -18,14 +18,14 @@ This section will provide general overview of the ODK Collect. By the end of thi
 
 OpenDataKit (ODK) is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering. It supports a wide range of question and answer types, and is designed to work well without network connectivity.
 
-Not sure if OpenDataKit is right for your project? Review [Data Collection Applications](https://docs.google.com/document/d/1sTU36IIhwzDAdB62pmt4WGE2ZRdB3Ruv2XC5MEYHBZI/edit).
+Not sure if OpenDataKit is right for your project? Review [Data Collection Applications](https://toolbox.hotosm.org/pages/2_field_mapping_prep/2_2_data_collection_applications/).
 
 **Set-up Process**
 
 To set-up OpenDataKit for devices, you will need to follow the following steps:
 
-1. [Create ODK forms](https://docs.google.com/document/d/1Xd7iKBJp4Qpsc9TQBRzE1nuzVeEITINegyqDDFwuXtk/edit?usp=sharing)
-2. [Download and set up the ODK application](https://hotosm.github.io/toolbox/pages/data-collection-and-field-mapping/3.2.1_setting_up_odk/#download-and-set-up-the-odk-application)
+1. [Create ODK forms](https://toolbox.hotosm.org/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/)
+2. [Download and set up the ODK application](hhttps://toolbox.hotosm.org/pages/4_field-mapping-management/4_3_using_odk_collect/)
 
 <br></br>
 
@@ -35,7 +35,7 @@ When using ODK survey applications, you will need to create the files that will 
 
 Forms can be created using spreadsheet software (such as Excel or [LibreCalc](https://www.libreoffice.org/discover/calc/)) or using the [ODK Form Builder](https://build.opendatakit.org/). Documentation on how to design a form can be found [here](http://xlsform.org/en/).
 
-- [Create ODK forms](https://docs.google.com/document/d/1Xd7iKBJp4Qpsc9TQBRzE1nuzVeEITINegyqDDFwuXtk/edit?usp=sharing)
+- [Create ODK forms](https://toolbox.hotosm.org/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/)
 - [Example ODK form](https://drive.google.com/file/d/1HY2jsHDYnpjuGemhco_WT9Cl8PSG4b43/view?usp=sharing)
 - [Blank ODK form](https://drive.google.com/file/d/1ISEYZo5C_TCfKUJFD8AvbUrlsDHxRPgK/view?usp=sharing)
 
@@ -49,9 +49,7 @@ After forms are developed, they need to be converted from .xlsx/.xls to .xml to 
 
 - The ODK application can be found on Google Play [here](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en_US).
 
-- If installing on multiple devices with low internet resources, it is recommended to download and share the apk offline. The APK file for OpenMapKit can be downloaded [here](https://github.com/opendatakit/collect/releases/).
-
-- Further information on how to use ODK Collect can be found [here](https://docs.google.com/document/d/1lVMcZ6wvcht1IYvEY7j6iYOgi7idLzX0ODZjp403qJ8/edit).
+- Further information on how to use ODK Collect can be found [here](hhttps://toolbox.hotosm.org/pages/4_field-mapping-management/4_3_using_odk_collect/).
 
 **Setting up application on devices**
 
