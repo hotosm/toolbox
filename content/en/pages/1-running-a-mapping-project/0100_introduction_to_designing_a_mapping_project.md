@@ -15,13 +15,13 @@ In this section, Project Managers will find guides, tools and resources to desig
 
 ---
 
-* [1.1 Defining Needs and Requirements](https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.1_defining_needs_and_requirements/) poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.
-* [1.2 Safety and Security](https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.2_field_operations-safety_security_and_logistics/) contains guiding questions to help plan for project logistics and security concerns. As all field operations involve some level of risk and can involve many moving parts, it is vital to conduct a safety, security, and logistics review before beginning field work on any project, regardless of experience.
+* [1.1 Defining Needs and Requirements](https://toolbox.hotosm.org/pages/1-running-a-mapping-project/0101_defining_needs_and_requirements/) poses questions to answer when defining the scope of the project, such as purpose, geographic scale, and what features to map, as well as ensuring that the project takes into account the various contexts and stakeholders involved in the project.
+* [1.2 Safety and Security](https://toolbox.hotosm.org/pages/1-running-a-mapping-project/0102_safety_and_security/) contains guiding questions to help plan for project logistics and security concerns. As all field operations involve some level of risk and can involve many moving parts, it is vital to conduct a safety, security, and logistics review before beginning field work on any project, regardless of experience.
 
 These first two sections provide guiding questions and considerations, however, it is important to understand that each project will have different variables that might not be covered. When designing a project, be sure to use past experience, consult with other organizations, and meet with stakeholders to ensure that you are covering all variables.
 
-* [1.3 Selecting Hardware](https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.3-hardware/) provides a guide on the various hardware, such as phones and laptops, that could be needed for a project. Additionally, HOT has provided lists of specific models that have been used in HOT field projects that have proven suitability.
-* [1.4 Trainings and Workshops](https://hotosm.github.io/toolbox/pages/running-a-mapping-project/1.4-trainings-and-workshops/) covers the requirements for running trainings as well as providing resources such as example agendas and materials to provide.
+* [1.3 Selecting Hardware](https://toolbox.hotosm.org/pages/1-running-a-mapping-project/0103_hardware_selection/) provides a guide on the various hardware, such as phones and laptops, that could be needed for a project. Additionally, HOT has provided lists of specific models that have been used in HOT field projects that have proven suitability.
+* [1.4 Trainings and Workshops](https://toolbox.hotosm.org/pages/1-running-a-mapping-project/0104_on-site_training_and_workshop/) covers the requirements for running trainings as well as providing resources such as example agendas and materials to provide.
 
 ---
 
