@@ -1,5 +1,5 @@
 ---
-title: 3.3. Edition Organisée sur OSM
+title: 3.3. Aperçu général de ID et JOSM
 bookShowToC: True
 ---
 
