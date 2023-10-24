@@ -128,9 +128,8 @@ The following activity will guide you through the process of creating a data mod
 
 | **Tips:** |
 | --------- |
-
-|Values in your data model should make sense for the context of your geography. While it would be ideal to collect every building type in a city, your project might only be able to collect all school and hospital buildings.
-Another example, you need to collect educational facility for your project area and you already aware that your project area do not have an university or college. In that case, you should not put university or college into your data model|
+|Values in your data model should make sense for the context of your geography. While it would be ideal to collect every building type in a city, your project might only be able to collect all school and hospital buildings.|
+|Another example, you need to collect educational facility for your project area and you already aware that your project area do not have an university or college. In that case, you should not put university or college into your data model|
 
 | **Feature**  | **Key**  | **Value**                       |
 | ------------ | -------- | ------------------------------- |
