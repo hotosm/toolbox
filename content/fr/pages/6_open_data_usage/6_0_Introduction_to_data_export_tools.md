@@ -16,9 +16,9 @@ Dans cette section, les chefs de projet trouveront des ressources sur la façon 
 
 Les outils d'exportation de données permettent aux utilisateurs de télécharger les données OSM pour les utiliser dans des programmes d'analyse tels que [QGIS](https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/). Les outils d'exportation de données suivants sont couramment utilisés dans le flux de travail HOT. Pour plus d'informations sur l'utilisation de ces outils, suivez les guides étape par étape dans chacune des sections suivantes.
 
-* [HOT Export Tool](https://docs.google.com/document/d/1wn31VVQ2eNZQuOst2tyxlDvAy4bbSc2A_MOtxgE-scw/edit) couvre l'outil d'exportation HOT qui permet aux utilisateurs de télécharger les données OSM en spécifiant les balises, la zone d'intérêt et le type de fichier.
-* [Humanitarian Data Exchange (HDX)](https://docs.google.com/document/d/12KtIeGeXl4yZB2XVdhNpG2Kv19hjEDg6FqXblfILHyI/edit) couvre la plateforme de données Humanitarian Data Exchange (HDX) pour le stockage et le partage des données humanitaires gérée par le Centre de données humanitaires d'OCHA.
-* Les informations sur [QuickOSM](https://docs.google.com/document/d/1YGiWcDbAQdxFWB2FTau6iKFXFOWYwqb1BH1Lt0ERhNY/edit), un plug-in QGIS qui permet aux utilisateurs de télécharger directement dans QGIS des données OSM pour des balises spécifiques, voir la section Introduction à QGIS.
+* [HOT Export Tool](https://toolbox.hotosm.org/pages/6_open_data_usage/6_1_hot_export_tools/) couvre l'outil d'exportation HOT qui permet aux utilisateurs de télécharger les données OSM en spécifiant les balises, la zone d'intérêt et le type de fichier.
+* [Humanitarian Data Exchange (HDX)](https://toolbox.hotosm.org/pages/6_open_data_usage/6_2_humanitarian_data_exchange/) couvre la plateforme de données Humanitarian Data Exchange (HDX) pour le stockage et le partage des données humanitaires gérée par le Centre de données humanitaires d'OCHA.
+* Les informations sur [QuickOSM](https://toolbox.hotosm.org/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/), un plug-in QGIS qui permet aux utilisateurs de télécharger directement dans QGIS des données OSM pour des balises spécifiques, voir la section Introduction à QGIS.
 
 La (les) présentation(s) suivante(s) peut (peuvent) être utilisée(s) pour animer une formation ou un atelier :
 

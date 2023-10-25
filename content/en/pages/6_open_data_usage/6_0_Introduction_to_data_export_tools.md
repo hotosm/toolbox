@@ -25,9 +25,9 @@ Data Export Tools allow users to download OSM data for use and analysis programs
 
 
 
-* [HOT Export Tool](https://docs.google.com/document/d/1wn31VVQ2eNZQuOst2tyxlDvAy4bbSc2A_MOtxgE-scw/edit) covers the HOT Export Tool which allows users to download OSM data by specifying tags, area of interest, and file type.
-* [Humanitarian Data Exchange (HDX)](https://docs.google.com/document/d/12KtIeGeXl4yZB2XVdhNpG2Kv19hjEDg6FqXblfILHyI/edit) covers the Humanitarian Data Exchange (HDX) data platform for storing and sharing humanitarian data managed by OCHA’s Centre for Humanitarian Data.
-* Information on [QuickOSM](https://docs.google.com/document/d/1YGiWcDbAQdxFWB2FTau6iKFXFOWYwqb1BH1Lt0ERhNY/edit), a QGIS Plug-in that allows users to directly download OSM data for specific tags into QGIS, can be found in section Introduction to QGIS.
+* [HOT Export Tool](https://toolbox.hotosm.org/pages/6_open_data_usage/6_1_hot_export_tools/) covers the HOT Export Tool which allows users to download OSM data by specifying tags, area of interest, and file type.
+* [Humanitarian Data Exchange (HDX)](https://toolbox.hotosm.org/pages/6_open_data_usage/6_2_humanitarian_data_exchange/) covers the Humanitarian Data Exchange (HDX) data platform for storing and sharing humanitarian data managed by OCHA’s Centre for Humanitarian Data.
+* Information on [QuickOSM](https://toolbox.hotosm.org/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/), a QGIS Plug-in that allows users to directly download OSM data for specific tags into QGIS, can be found in section Introduction to QGIS.
 
 The following presentation(s) can be used to lead a training or workshop:
 
