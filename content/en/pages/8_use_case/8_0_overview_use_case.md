@@ -17,5 +17,5 @@ In this section, Project Managers will find example use case from HOT projects o
 
 There are many ways to complete a mapping project. HOT has provided overviews of how we’ve completed projects with the following workflows:
 
-* [Mapping POI with ODK + KoboToolbox Server](https://docs.google.com/document/d/1RzcaBThjLPpic14dS9sW23UB5D6od1wAS6o7pc0Nvd0/edit) showcases the tools and processes used in a simple field mapping project used by a local NGO to integrate into existing programs using OpenDataKit and KoboToolBox Server.
-* [Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)](https://docs.google.com/document/d/11PtBQCgKxUrrh4hrbgJxa2cWlc28kQ-BtgZKQsEEXGI/edit) explain the step-by-step process for conduct building damage assessment with OSM. 
+* [Mapping POI with ODK + KoboToolbox Server](https://toolbox.hotosm.org/pages/8_use_case/8_1_mapping_poi_with_odk_kobo/) showcases the tools and processes used in a simple field mapping project used by a local NGO to integrate into existing programs using OpenDataKit and KoboToolBox Server.
+* [Post-Earthquake Building Damage Assessment using OpenStreetMap (OSM)](https://toolbox.hotosm.org/pages/8_use_case/8_2_post_earthquake/) explain the step-by-step process for conduct building damage assessment with OSM. 

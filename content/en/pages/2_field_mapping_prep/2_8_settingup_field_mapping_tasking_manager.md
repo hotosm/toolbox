@@ -39,7 +39,7 @@ Overall, the FMTM tool is an important component of HOT's efforts to support dis
 **Skills and technology needed**
 
 - Stable Internet connection
-- Knowledge of field mapping especially related to building XLSForm for ODK. Please read this [Creating XLSForm for ODK](https://docs.google.com/document/d/1Xd7iKBJp4Qpsc9TQBRzE1nuzVeEITINegyqDDFwuXtk/edit#heading=h.fhx6kro1cqmf) to learn more.
+- Knowledge of field mapping especially related to building XLSForm for ODK. Please read this [Creating XLSForm for ODK](https://toolbox.hotosm.org/pages/2_field_mapping_prep/2_6_creating_xlsform_for_odk_collect/) to learn more.
 - Account on **ODK Central Server**. [Here are the instructions for setting up an ODK Central server on Digital Ocean](https://docs.getodk.org/central-install-digital-ocean/) (it's very similar on AWS or whatever)
 
 | Tips:                                                                                                                                                                                                                                                                          |

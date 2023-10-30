@@ -21,13 +21,13 @@ Pour que la collecte de données sur le terrain soit efficace et réussie, il es
 
 Lorsqu'il planifie le déploiement d'une équipe, il est important que le superviseur ait une bonne idée du nombre de jours de travail dont il dispose par rapport à la main-d'œuvre disponible pour effectuer le travail. Une fois que cela est fait, il peut créer de petites sections de la zone de cartographie, qui peuvent être couvertes en une journée par une équipe de deux cartographes ou un seul cartographe, en fonction de l'organisation de l'équipe.
 
-À l'instar de la grille du gestionnaire de tâches, la création de sections pour la cartographie permet aux superviseurs de diviser les tâches, de suivre les progrès et d'évaluer les lacunes ou les problèmes de qualité. Nous avons déjà compris comment créer une section de cartographie à l'aide du [Gestionnaire de Tâches pour la cartographie de terrain](https://docs.google.com/document/d/1ZICqkGuiF9rIHom2Xw7APHxrVl1AlaiE2vnrWD19gWE/edit) précédent. Cette section explique comment créer une section cartographique manuelle à l'aide de QGIS et la charger avec OSMAnd.
+À l'instar de la grille du gestionnaire de tâches, la création de sections pour la cartographie permet aux superviseurs de diviser les tâches, de suivre les progrès et d'évaluer les lacunes ou les problèmes de qualité. Nous avons déjà compris comment créer une section de cartographie à l'aide du [Gestionnaire de Tâches pour la cartographie de terrain](https://toolbox.hotosm.org/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/) précédent. Cette section explique comment créer une section cartographique manuelle à l'aide de QGIS et la charger avec OSMAnd.
 
 ### Création de sections cartographiques dans QGIS pour les cartes imprimées
 
 L'activité suivante couvre le processus de génération de sections cartographiques dans QGIS pour l'impression. Cette activité utilise l'exemple d'une équipe de 8 volontaires pour cartographier la ville de Grootfontein, dans le nord de la Namibie, dans le cadre d'un projet d'élimination de la malaria. Des fichiers d'exemple sont fournis pour cette activité, mais ils peuvent être suivis de fichiers fournis par l'utilisateur.
 
-Pour commencer, ouvrez QGIS sur votre ordinateur et démarrez un nouveau projet. En utilisant [QuickMapServices](https://hotosm.github.io/toolbox/pages/data-use-and-analysis/7.1-qgis/#installing-plug-ins) comme carte de base, naviguez jusqu'à la ville de Grootfontein, dans le nord de la Namibie.
+Pour commencer, ouvrez QGIS sur votre ordinateur et démarrez un nouveau projet. En utilisant [QuickMapServices](https://toolbox.hotosm.org/fr/pages/7_data_use_and_data_analysis/7_1_introduction_to_qgis/) comme carte de base, naviguez jusqu'à la ville de Grootfontein, dans le nord de la Namibie.
 
 ![](/images/4_field_mapping_management/1_creating_mapping_section_using_qgis/040101_quickmapservices.gif)
 

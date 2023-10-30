@@ -251,7 +251,7 @@ la fin de cette section, vous devriez être en mesure de :
 ## Ressources complémentaires
 
 * [LearnOSM - Introduction sur OpenStreetMap](https://learnosm.org/en/beginner/introduction/)
-* [OSM Wiki - à](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap)
+* [OSM Wiki - Abot OpenStreetMap](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap)
 * [Two Minute Tutorial - What is OpenStreetMap?](https://www.youtube.com/watch?v=Phwrgb16oEM&t=16s)
 * [Two Minute Tutorials - Comment](https://www.youtube.com/watch?v=suk8uRpIBQw&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=2)
 
@@ -260,5 +260,5 @@ la fin de cette section, vous devriez être en mesure de :
 * [Introduction à OSM](https://docs.google.com/presentation/d/1QneNbichunhVjyN4RPRyPuYV3Q7QMJctp50_90FpMpc/edit#slide=id.g526e73601c_0_1163)
 
 **Step-by-step guide**
-* [Instructions étape par étape: ouverture de compte OSM](https://hotosm.github.io/toolbox/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/#opening-osm-accounts)
-* [Instructions étape par étape: utilisation d’OSM](https://hotosm.github.io/toolbox/pages/digitization-and-editing/2.1_introduction_to_openstreetmap/#using-openstreetmap)
+* [Instructions étape par étape: ouverture de compte OSM](https://toolbox.hotosm.org/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/#cr%C3%A9ation-dun-compte-openstreetmap)
+* [Instructions étape par étape: utilisation d’OSM](https://toolbox.hotosm.org/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/#utilisation-dopenstreetmap)

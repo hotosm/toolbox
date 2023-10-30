@@ -18,11 +18,11 @@ Digitization, or remote mapping, is the process of tracing features such as buil
 
 With OpenStreetmap at the core of our tools and workflows, mapping projects using HOT tools and workflows will likely incorporate digitization or editing of OSM data during one, in not multiple phases in the project timeline. While numerous resources exist to teach new users how to use OpenStreetMap for the first time, this section is largely designed to guide project managers and community members through the digitization process from the perspective of leading trainings and managing teams conducting OSM editing. Users looking for guidance on individuals mapping in OSM should look to [LearnOSM.org](https://learnosm.org/) as a resource.
 
-* [Introduction to OSM](https://docs.google.com/document/d/1kVIWHdlrmpWStpY1w7u7mCY_IpR3Fw1e7b1H-KrnYd8/edit) contains a brief overview of OpenStreetMap with the purpose of being distributed as supplemental training guides.
-* [Organized Editing Guidelines](https://docs.google.com/document/d/1jik2deeOpC7R8J93vMimmZr_VGAqf5sxSumOWimKhDA/edit#heading=h.bc082iwihooj) covers considerations project managers and communities should make when organizing focused digitization or editing campaigns.
-* [Working with the HOT Tasking Manager](https://docs.google.com/document/d/1kYrmPCXkT2lt0kXyFzHEeQTlh5GsfU9DoLaH5Rh_IRA/edit) provides an overview of HOT’s tool for crowdsourcing OpenStreetMap edits, as well as a guide for setting up tasks in the Tasking Manager.
-* [Editing with iD and JOSM Editor](https://docs.google.com/document/d/1Js75qVla4u1t87bZ-ONgCE8adhJgUpHEbyjXbDofqqU/edit) provides guidance on selecting the appropriate OSM editing tool for your project or event, and training materials using both tools.
-* [Resolving conflicts in JOSM](https://docs.google.com/document/d/1hkOZQoiQ5x0PNRlTLfQiw7H6LdzrNvFbPse5e8_2644/edit) provides additional assistance for teams conducting advanced OSM editing.
+* [Introduction to OSM](https://toolbox.hotosm.org/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/) contains a brief overview of OpenStreetMap with the purpose of being distributed as supplemental training guides.
+* [Organized Editing Guidelines](https://toolbox.hotosm.org/pages/3_participatory_osm/3_2_organized_osm_editing/) covers considerations project managers and communities should make when organizing focused digitization or editing campaigns.
+* [Working with the HOT Tasking Manager](https://toolbox.hotosm.org/pages/3_participatory_osm/3_4_working_with_tasking_manager/) provides an overview of HOT’s tool for crowdsourcing OpenStreetMap edits, as well as a guide for setting up tasks in the Tasking Manager.
+* [Editing with iD and JOSM Editor](https://toolbox.hotosm.org/pages/3_participatory_osm/3_3_overview_id_and_josm/) provides guidance on selecting the appropriate OSM editing tool for your project or event, and training materials using both tools.
+* [Resolving conflicts in JOSM](https://toolbox.hotosm.org/pages/3_participatory_osm/3_5_resolving_conflict_in_josm/) provides additional assistance for teams conducting advanced OSM editing.
 
 The following presentation(s) can be used to lead a training or workshop:
 
