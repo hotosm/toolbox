@@ -183,7 +183,7 @@
                 />
   </url><url>
     <loc>/fr/</loc>
-    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -202,7 +202,7 @@
                 />
   </url><url>
     <loc>/fr/pages/1-running-a-mapping-project/0100_introduction_to_designing_a_mapping_project/</loc>
-    <lastmod>2023-10-18T15:04:47+07:00</lastmod>
+    <lastmod>2023-10-24T16:34:53+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -292,7 +292,7 @@
                 />
   </url><url>
     <loc>/fr/pages/2_field_mapping_prep/2_0_overview/</loc>
-    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
+    <lastmod>2023-10-24T16:44:57+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -310,7 +310,7 @@
                 />
   </url><url>
     <loc>/fr/pages/2_field_mapping_prep/2_1_designing_the_data_model/</loc>
-    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
+    <lastmod>2023-10-24T16:48:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -382,7 +382,7 @@
                 />
   </url><url>
     <loc>/fr/pages/2_field_mapping_prep/2_5_overview_data_collection_using_odk_collect/</loc>
-    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
+    <lastmod>2023-10-24T17:05:57+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -426,7 +426,7 @@
                 />
   </url><url>
     <loc>/fr/pages/2_field_mapping_prep/2_8_settingup_field_mapping_tasking_manager/</loc>
-    <lastmod>2023-10-18T16:27:56+07:00</lastmod>
+    <lastmod>2023-10-24T17:05:57+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -439,7 +439,7 @@
                 />
   </url><url>
     <loc>/fr/pages/3_participatory_osm/3_0_overview_osm/</loc>
-    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
+    <lastmod>2023-10-24T17:21:35+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -457,7 +457,7 @@
                 />
   </url><url>
     <loc>/fr/pages/3_participatory_osm/3_1_introduction_to_openstreetmap/</loc>
-    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
+    <lastmod>2023-10-24T17:21:35+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -493,7 +493,7 @@
                 />
   </url><url>
     <loc>/fr/pages/3_participatory_osm/3_3_overview_id_and_josm/</loc>
-    <lastmod>2023-10-18T16:59:46+07:00</lastmod>
+    <lastmod>2023-10-24T17:21:35+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -547,7 +547,7 @@
                 />
   </url><url>
     <loc>/fr/pages/4_field-mapping-management/4_0_overview/</loc>
-    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
+    <lastmod>2023-10-25T21:20:19+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -565,7 +565,7 @@
                 />
   </url><url>
     <loc>/fr/pages/4_field-mapping-management/4_1_creating_mapping_section_using_qgis/</loc>
-    <lastmod>2023-10-18T20:15:34+07:00</lastmod>
+    <lastmod>2023-10-25T21:20:19+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -632,7 +632,7 @@
                 />
   </url><url>
     <loc>/fr/pages/5_data_quality_assurance/5.0_data_quality_assurance/</loc>
-    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -645,7 +645,7 @@
                 />
   </url><url>
     <loc>/fr/pages/5_data_quality_assurance/5.1._quality_assurance_and_quality_control_tools/</loc>
-    <lastmod>2023-10-18T21:11:15+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -681,7 +681,7 @@
                 />
   </url><url>
     <loc>/fr/pages/6_open_data_usage/6_0_introduction_to_data_export_tools/</loc>
-    <lastmod>2023-10-18T21:45:04+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -735,7 +735,7 @@
                 />
   </url><url>
     <loc>/fr/pages/7_data_use_and_data_analysis/7_0_data_use_and_data_analysis/</loc>
-    <lastmod>2023-10-18T21:59:42+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -807,7 +807,7 @@
                 />
   </url><url>
     <loc>/fr/pages/8_use_case/8_0_overview_use_case/</loc>
-    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -878,7 +878,7 @@
                 />
   </url><url>
     <loc>/fr/pages/</loc>
-    <lastmod>2023-10-18T22:17:19+07:00</lastmod>
+    <lastmod>2023-10-25T22:21:48+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
