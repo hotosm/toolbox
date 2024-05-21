@@ -76,7 +76,7 @@ jobs:
           command: apt-get update --yes && apt-get install ghostscript --yes
       - run:
           name: get archivo font
-          command: wget https://fonts.google.com/download?family=Archivo -O ~/archivo.zip && unzip ~/archivo.zip -d ~/.fonts
+          command: git clone --depth 1 https://github.com/Omnibus-Type/Archivo.git && mkdir /usr/share/fonts/truetype/archivo && mv Archivo/fonts/ttf/* /usr/share/fonts/truetype/archivo
       - run: >
           mkdir ~/build/public/pdfs &&
           mkdir ~/build/tmp &&
